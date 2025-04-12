@@ -1,0 +1,31 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,break,,3,,4,1-4,2-3
+1,IL_5M0H_004,5M0H,0.3045,2,Multiple bulged bases,A,ASH1 E3 (42 nt-TL/TLR),A,35,C,36,*,G,8,U,11,cWW,ncWW
+2,IL_4WF9_071,4WF9,0.2701,2,Major groove intercalation,X,LSU rRNA,U,1868,G,1869,*,U,1925,A,1928,cWW,cWW
+3,IL_8CRE_398,8CRE,0.2198,2,Multiple bulged bases (H),CM,SSU rRNA,A,298,A,299,*,U,113,U,116,cWW,cWW
+4,IL_8P9A_381,8P9A,0.2284,2,Multiple bulged bases,sR,SSU rRNA,A,300,A,301,*,U,113,U,116,cWW,cWW
+5,IL_5WLH_001,5WLH,0.1847,2,Multiple bulged bases,B,pre-crRNA,A,-23,G,-22,*,C,-7,U,-4,cWW,cWW
+6,IL_5W1H_001,5W1H,0.1814,2,Multiple bulged bases,B,mature crRNA,A,-23,G,-22,*,C,-7,U,-4,cWW,cWW
+7,IL_5XWP_001,5XWP,0.1536,2,Multiple bulged bases,C,RNA (59-MER),A,5,C,6,*,G,22,U,25,cWW,cWW
+8,IL_7OS0_002,7OS0,0.0910,2,Multiple bulged bases,F,crRNA,A,11,C,12,*,G,29,U,32,cWW,cWW
+9,IL_5WTK_001,5WTK,0.0000,2,Multiple bulged bases,B,RNA (58-MER),A,3,C,4,*,G,20,U,23,cWW,cWW
+10,IL_3MXH_004,3MXH,0.1259,2,Multiple bulged bases,R,c-di-GMP riboswitch,G,56,G,57,*,U,81,C,84,cWW,cWW
+11,IL_1FUF_003,1FUF,0.1735,2,Multiple bulged bases,A+B,RNA (14-mer),G,9,G,10,*,U,19,C,22,cWW,cWW
+12,IL_1FUF_002,1FUF,0.1608,2,Multiple bulged bases,B+A,RNA (14-mer),G,23,G,24,*,U,5,C,8,cWW,cWW
+13,IL_3IWN_004,3IWN,0.1394,2,Multiple bulged bases,A,C-di-GMP riboswitch,G,46,G,47,*,U,76,C,79,cWW,cWW
+14,IL_5J7L_315,5J7L,0.1597,2,Major groove intercalation,DA,LSU rRNA,U,1841,G,1842,*,U,1898,A,1901,cWW,cWW
+15,IL_4V9F_067,4V9F,0.1476,2,Major groove intercalation,0,LSU rRNA,U,1897,G,1898,*,U,1939,A,1942,cWW,cWW
+16,IL_8P9A_313,8P9A,0.1682,2,Major groove intercalation,AR,LSU rRNA,U,2200,G,2201,*,U,2241,A,2244,cWW,cWW
+17,IL_8CRE_090,8CRE,0.1599,2,Multiple bulged bases (H),1,LSU rRNA,U,2178,G,2179,*,U,2219,A,2222,cWW,cWW
+18,IL_8SP9_001,8SP9,0.1589,2,Multiple bulged bases,C,"tRNA scaffold,CVB3 Cloverleaf RNA",C,106,G,107,*,C,76,G,79,cWW,cWW
+19,IL_1U9S_003,1U9S,0.2386,2,Major groove intercalation,A,RIBONUCLEASE P,U,116,G,117,*,C,224,A,227,cWW,cWW
+20,IL_1NBS_009,1NBS,0.2860,2,Major groove intercalation,B,RNase P class B,U,181,G,182,*,U,228,A,231,cWW,cWW
+21,IL_6IV9_001,6IV9,0.2214,2,Multiple bulged bases,B,crRNA (50-MER),A,-29,C,-28,*,G,-9,U,-6,cWW,cWW
+22,IL_6CZR_117,6CZR,0.2059,2,Multiple bulged bases,1a,SSU rRNA,C,97,G,98,*,C,64,G,67,cWW,cWW
+23,IL_5J7L_005,5J7L,0.2757,2,Multiple bulged bases,AA,SSU rRNA,U,103,G,104,*,C,63,A,66,cWW,cWW
+24,IL_4LFB_005,4LFB,0.2770,2,Multiple bulged bases,A,SSU rRNA,C,103,G,104,*,C,63,G,66,cWW,cWW
+25,IL_4V9F_021,4V9F,0.2801,2,Multiple bulged bases,0,LSU rRNA,C,726,G,727,*,C,699,G,702,cWW,cWW
+26,IL_4YAZ_008,4YAZ,0.3674,2,Multiple bulged bases,R,Cyclic di-GMP-I riboswitch,G,51,G,52,*,C,64,C,67,cWW,cWW
+27,IL_4YAZ_007,4YAZ,0.3914,2,Multiple bulged bases,R,Cyclic di-GMP-I riboswitch,C,68,G,69,*,U,47,G,50,cWW,cWW
+28,IL_8CRE_070,8CRE,0.4498,2,,1,LSU rRNA,G,1619,G,1620,*,U,1815,C,1818,cWW,ncWW
+29,IL_7JJU_001,7JJU,0.7467,3,,A,PLRV_xrRNA,G,36,A,38,*,U,6,C,9,cWW,cWW
+30,IL_7JJU_003,7JJU,0.7716,3,,B,PLRV_xrRNA,G,36,A,38,*,U,6,C,9,cWW,cWW

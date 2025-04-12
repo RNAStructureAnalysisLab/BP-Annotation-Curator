@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,,8,1-8,2-7,3-6,4-5
+1,IL_6DLR_005,6DLR,0.0000,1,tWW and near cWH,A,Guanidine-I riboswitch,G,77,G,78,A,79,G,80,*,C,92,A,93,G,95,C,96,cWW,cBW,tWW,cWW
+2,IL_7LIU_001,7LIU,0.7550,0,,X+Y,RNA (14-mer),DC,708,DC,709,DC,710,DG,711,*,DC,708,DC,709,DC,710,DG,711,cWW,,,cWW

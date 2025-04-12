@@ -1,0 +1,8 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,,8,1-8,2-7,3-4,3-5,4-7,5-6
+1,IL_8P9A_315,8P9A,0.7060,0,Major groove platform with extra pair (H),AR,LSU rRNA,G,2206,A,2207,A,2208,U,2209,G,2210,*,C,2235,G,2236,C,2237,cWW,ntHH,,ncSH,,cWW
+2,IL_4PDB_001,4PDB,0.5593,0,Other IL,I,SELEX RNA aptamer,C,9,A,10,G,11,U,12,G,13,*,C,28,A,29,G,30,cWW,cwW,,cSH,,cWW
+3,IL_6M0X_001,6M0X,0.1593,0,,B,RNA (71-MER),A,38,A,39,G,40,C,41,U,42,*,A,29,C,30,U,31,cWW,ncWWa,,ncSH,ncwW,cWW
+4,IL_7EL1_001,7EL1,0.0000,0,,B,RNA (73-MER),A,42,A,43,U,44,C,45,U,46,*,A,29,C,30,U,31,cWW,ncWWa,,,ncwW,cWW
+5,IL_7ENI_001,7ENI,0.1029,0,,B,sgRNA (74-MER),A,42,A,43,U,44,C,45,U,46,*,A,29,C,30,U,31,cWW,,ncSH,,ncwW,cWW
+6,IL_6DME_002,6DME,0.3615,0,8-nt loop receptor,A,ppGpp Riboswitch,G,15,G,16,A,17,U,18,C,19,*,G,37,A,38,C,39,cWW,cWW,ncSH,ncSH,tHS,cWW
+7,IL_6CK5_002,6CK5,0.4077,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,42,A,43,C,44,cWW,cWW,cSH,cSH,tHS,cWW

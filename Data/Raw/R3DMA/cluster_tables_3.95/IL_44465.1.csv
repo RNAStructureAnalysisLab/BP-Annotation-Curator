@@ -1,0 +1,10 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,1-6,2-5,3-4
+1,IL_7ZO1_011,7ZO1,0.6152,0,,A+C,CD34 sgRNA + CD34 off-target9 DNA target strand,G,16,U,17,A,18,*,DT,3,DT,4,DC,5,cWW,,cWW
+2,IL_9DFE_023,9DFE,0.6390,1,Other IL,1A,LSU rRNA,G,931,A,933,G,934,*,C,844,G,845,C,846,cWW,,cWW
+3,IL_7LYF_002,7LYF,0.2070,0,Isolated non-canonical cWW pair,A,tRNA,C,84,A,85,A,86,*,U,46,G,47,G,48,ncWW,ncWW,cWW
+4,IL_8P9A_384,8P9A,0.1743,0,Isolated non-canonical cWW contact (H),sR,SSU rRNA,U,150,G,151,U,152,*,A,162,G,163,A,164,cWW,,cWW
+5,IL_8P9A_408,8P9A,0.1477,0,Isolated non-canonical cWW pair (H),sR,SSU rRNA,C,686,G,687,G,688,*,C,646,G,647,G,648,cWW,,cWW
+6,IL_1SI2_002,1SI2,0.0000,0,Isolated non-canonical cWW contact,B,RNA (9-mer),U,403,G,404,A,405,*,U,403||||4_675,G,404||||4_675,A,405||||4_675,cWW,,cWW
+7,IL_1SI3_001,1SI3,0.0849,0,Isolated non-canonical cWW contact,B,RNA (9-mer),U,403,G,404,A,405,*,U,403||||4_675,G,404||||4_675,A,405||||4_675,cWW,,cWW
+8,IL_5UNE_001,5UNE,0.1912,0,Isolated non-canonical cWW contact,B+A,RNA (47-MER),U,39,G,40,G,41,*,U,7,G,8,A,9,cWW,ncWw,cWW
+9,IL_5UNE_009,5UNE,0.2169,0,Isolated non-canonical cWW contact,A+B,RNA (47-MER),U,39,G,40,G,41,*,U,7,G,8,A,9,cWW,,ncWW

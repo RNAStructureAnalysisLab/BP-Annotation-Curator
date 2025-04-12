@@ -1,0 +1,11 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,1-7
+1,HL_7KGA_003,7KGA,0.7756,3,Pseudoknot geometry,B,Flavivirus DB element,U,22,G,26,C,27,C,28,U,29,A,30,G,31,cWW
+2,HL_4ENC_001,4ENC,0.2288,3,Pseudoknot geometry,A,Fluoride riboswitch,G,5,A,9,G,10,G,11,C,12,C,13,C,14,cWW
+3,HL_8CRE_009,8CRE,0.0000,3,Pseudoknot geometry (H),1,LSU rRNA,G,303,A,307,A,308,U,309,U,310,C,311,C,312,cWW
+4,HL_8P9A_121,8P9A,0.0955,3,Pseudoknot geometry (H),AR,LSU rRNA,G,303,A,307,A,308,U,309,U,310,C,311,C,312,cWW
+5,HL_4QLM_002,4QLM,0.2823,3,Pseudoknot geometry,A,cyclic di-AMP riboswitch,U,72,C,76,C,77,U,78,U,79,C,80,G,81,cWW
+6,HL_5X6B_004,5X6B,0.5416,2,,P,tRNA,A,30,G,33,C,34,A,35,G,36,A,37,U,38,ncWW
+7,HL_7JRR_002,7JRR,0.4968,2,,A,RNA (50-MER),G,39,U,42,G,43,G,44,U,45,U,46,C,47,cWW
+8,HL_7JRR_001,7JRR,0.4906,2,,A,RNA (50-MER),G,12,C,15,C,16,A,17,U,18,C,19,C,20,cWW
+9,HL_4WF9_002,4WF9,0.6122,2,Pseudoknot geometry,X,LSU rRNA,U,87,A,90,A,91,G,92,U,93,A,94,A,95,cWW
+10,HL_9DFE_002,9DFE,0.6390,2,Pseudoknot geometry (H),1A,LSU rRNA,C,87,U,90,A,92,G,93,C,94,G,94|||A,G,95,cWW

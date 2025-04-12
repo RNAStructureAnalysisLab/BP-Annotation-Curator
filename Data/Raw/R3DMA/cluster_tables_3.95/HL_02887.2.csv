@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,1-10,2-6
+1,HL_5J7L_028,5J7L,0.0808,0,T-loop with 3 stacked bulged bases,AA,SSU rRNA,C,1314,U,1315,G,1316,C,1317,A,1318,A,1319,C,1320,U,1321,C,1322,G,1323,cWW,tWH
+2,HL_4LFB_029,4LFB,0.0000,0,T-loop with 3 stacked bulged bases,A,SSU rRNA,C,1314,U,1315,G,1316,C,1317,A,1318,A,1319,C,1320,C,1321,C,1322,G,1323,cWW,tWH
+3,HL_6CZR_100,6CZR,0.1799,0,T-loop with 3 stacked bulged bases,1a,SSU rRNA,C,1296,U,1297,G,1298,C,1299,A,1300,A,1301,C,1302,C,1303,C,1304,G,1305,cWW,ntWH

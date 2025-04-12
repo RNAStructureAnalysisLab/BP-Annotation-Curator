@@ -1,0 +1,20 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,1-6,2-3,2-4,2-5,3-6,4-5
+1,IL_1U9S_004,1U9S,0.4572,0,Major groove minor groove platform; mini C-loop,A,RIBONUCLEASE P,C,164,A,165,A,166,G,167,*,C,133,G,134,cWW,,cSH,ncWB,,cWW
+2,IL_1U9S_002,1U9S,0.4959,1,Major groove intercalation,A,RIBONUCLEASE P,G,111,A,112,A,114,G,115,*,C,228,C,229,cWW,,,,,cWW
+3,IL_7A0S_068,7A0S,0.3264,0,Major groove minor groove platform; mini C-loop,X,LSU rRNA,G,1838,A,1839,A,1840,G,1841,*,C,1876,C,1877,cWW,,,,ncWS,cWW
+4,IL_8CRE_428,8CRE,0.2061,0,Major groove minor groove platform; mini C-loop (H),CM,SSU rRNA,G,786,A,787,A,788,U,789,*,A,731,C,732,cWW,,,,,cWW
+5,IL_8P9A_412,8P9A,0.1662,0,Major groove minor groove platform; mini C-loop (H),sR,SSU rRNA,G,802,A,803,A,804,U,805,*,A,746,C,747,cWW,cSH,,,,cWW
+6,IL_1S03_003,1S03,0.0000,0,Major groove minor groove platform; mini C-loop,A,47-MER,A,12,A,13,A,14,C,15,*,G,37,U,38,cWW,cSH,ncSH,ntWH,ncWS,cWW
+7,IL_1S03_007,1S03,0.0307,0,Major groove minor groove platform; mini C-loop,B,47-MER,A,12,A,13,A,14,C,15,*,G,37,U,38,cWW,cSH,ncSH,ntWH,ncWS,cWW
+8,IL_5J7L_029,5J7L,0.1026,0,Major groove minor groove platform; mini C-loop,AA,SSU rRNA,A,640,U,641,A,642,C,643,*,G,597,U,598,cWW,cSH,ncSH,,ncWS,cWW
+9,IL_4LFB_025,4LFB,0.1286,0,Major groove minor groove platform; mini C-loop,A,SSU rRNA,A,640,U,641,A,642,C,643,*,G,597,U,598,cWW,ncSH,ncSH,,ncWS,cWW
+10,IL_4PDB_002,4PDB,0.1116,0,Major groove minor groove platform; mini C-loop,I,SELEX RNA aptamer,A,24,U,25,A,26,U,27,*,A,14,U,15,cWW,ncSH,,,ncWS,cWW
+11,IL_1I6U_002,1I6U,0.1337,0,Major groove minor groove platform; mini C-loop,C,16S RRNA FRAGMENT,A,24,U,25,A,26,C,27,*,G,12,U,13,cWW,cSH,ncSH,,ncWS,cWW
+12,IL_6CZR_137,6CZR,0.2093,0,Major groove minor groove platform; mini C-loop,1a,SSU rRNA,A,624,U,625,A,626,C,627,*,G,581,U,582,ncWW,,ncSH,,,cWW
+13,IL_4WF9_126,4WF9,0.2524,0,Major groove minor groove platform; mini C-loop,Y,5S rRNA,G,49,A,50,A,51,G,52,*,C,28,C,29,ncWW,ncSH,,ncWB,ncWS,cWW
+14,IL_5J7L_357,5J7L,0.2723,0,Major groove minor groove platform; mini C-loop,DB,5S rRNA,G,51,A,52,A,53,G,54,*,C,30,C,31,cWW,ncSH,ncSH,ncWB,cWS,cWW
+15,IL_4V9F_103,4V9F,0.2394,0,Major groove minor groove platform; mini C-loop,9,5S rRNA,G,50,A,51,A,52,G,53,*,C,29,C,30,cWW,cSH,,ncWB,cWS,cWW
+16,IL_9DFE_112,9DFE,0.2280,0,Major groove minor groove platform; mini C-loop (H),1B,5S rRNA,G,51,A,52,A,53,G,54,*,C,30,C,31,cWW,cSH,,ncWB,cWS,cWW
+17,IL_5J7L_316,5J7L,0.2544,0,Major groove minor groove platform; mini C-loop,DA,LSU rRNA,G,1846,A,1847,A,1848,G,1849,*,C,1893,C,1894,cWW,ncSH,,ncWB,ncWS,cWW
+18,IL_4WF9_072,4WF9,0.3786,0,Major groove minor groove platform; mini C-loop,X,LSU rRNA,G,1873,A,1874,A,1875,G,1876,*,C,1920,C,1921,ncWW,,,,,cWW
+19,IL_4V9F_068,4V9F,0.4557,0,Major groove minor groove platform; mini C-loop,0,LSU rRNA,G,1902,U,1903,A,1904,U,1905,*,A,1934,C,1935,cWW,,,,,cWW

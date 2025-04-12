@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,break,,8,,9,,10,,11,,12,1-12,2-11,4-11,6-9,7-8
+1,IL_4V9F_031,4V9F,0.3382,2,Kink-turn,0,LSU rRNA,U,1026,G,1027,U,1028,G,1031,A,1032,C,1033,G,1034,*,C,936,C,937,G,938,A,939,G,940,cWW,ntsS,tSH,cBW,cWW
+2,IL_7A0S_004,7A0S,0.0000,1,Kink-turn,X,LSU rRNA,C,96,U,97,U,98,G,100,A,101,C,102,U,103,*,A,80,C,81,G,82,A,83,G,84,cWW,,ntSH,cBW,cWW
+3,IL_4AOB_002,4AOB,0.2400,1,Kink-turn,A,SAM-I riboswitch,U,31,G,32,A,33,G,35,A,36,C,37,C,38,*,G,17,C,18,A,19,A,20,G,21,cWW,tsS,tSH,cBW,cWW

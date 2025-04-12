@@ -1,0 +1,46 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,1-2,1-5,2-5,3-4
+1,IL_8P9A_433,8P9A,0.5880,0,Minor groove platform,sR,SSU rRNA,C,1459,A,1460,C,1461,*,G,1178,G,1179,,cWW,,cWW
+2,IL_8CRE_447,8CRE,0.3293,0,Minor groove platform (H),CM,SSU rRNA,C,1445,A,1446,C,1447,*,G,1163,G,1164,,cWW,,cWW
+3,IL_3K0J_002,3K0J,0.4368,0,Minor groove platform related,E,RNA (87-MER),C,18,C,19,U,20,*,A,35,G,36,ncSH,cWW,,cWW
+4,IL_7TZS_003,7TZS,0.3305,0,Minor groove platform related,X,TPP riboswitch (THI element),C,23,C,24,U,25,*,A,35,G,36,ncSH,cWW,,cWW
+5,IL_3IWN_001,3IWN,0.4330,0,Minor groove platform,A,C-di-GMP riboswitch,G,89,A,90,U,91,*,A,2,C,3,,ncWW,,cWW
+6,IL_7A0S_003,7A0S,0.3691,0,Minor groove platform,X,LSU rRNA,U,447,C,448,C,449,*,G,42,A,43,cSH,cWW,,cWW
+7,IL_9DFE_348,9DFE,0.3933,0,Minor groove platform,1A,LSU rRNA,U,434,C,435,C,436,*,G,42,A,43,cSH,cWW,,cWW
+8,IL_5J7L_247,5J7L,0.2609,0,Minor groove platform,DA,LSU rRNA,U,434,C,435,C,436,*,G,43,A,44,cSH,cWW,,cWW
+9,IL_4R4V_001,4R4V,0.4069,0,Minor groove platform,A,VS ribozyme RNA,U,777,U,778,A,779,*,U,607,G,608,,cWW,,cWW
+10,IL_8CRE_099,8CRE,0.3137,1,Minor groove platform (H),1,LSU rRNA,U,2779,C,2781,C,2782,*,G,2390,A,2391,cSH,cWW,,cWW
+11,IL_7A0S_076,7A0S,0.3825,1,Minor groove platform,X,LSU rRNA,U,2417,C,2419,C,2420,*,G,2053,A,2054,cSH,cWW,,cWW
+12,IL_8P9A_322,8P9A,0.4263,1,Minor groove platform,AR,LSU rRNA,U,2807,C,2809,C,2810,*,G,2412,A,2413,cSH,cWW,,cWW
+13,IL_9DFE_081,9DFE,0.4052,1,Minor groove platform,1A,LSU rRNA,U,2438,C,2440,C,2441,*,G,2070,A,2071,cSH,cWW,,cWW
+14,IL_4WF9_081,4WF9,0.4092,1,Minor groove platform,X,LSU rRNA,U,2465,C,2467,C,2468,*,G,2097,A,2098,cSH,cWW,,cWW
+15,IL_4V9F_075,4V9F,0.3853,1,Minor groove platform,0,LSU rRNA,U,2473,C,2475,C,2476,*,G,2111,A,2112,cSH,cWW,,cWW
+16,IL_5J7L_324,5J7L,0.3586,1,Minor groove platform,DA,LSU rRNA,U,2438,C,2440,U,2441,*,A,2070,A,2071,cSH,cWW,,cWW
+17,IL_7A0S_028,7A0S,0.2583,0,Minor groove platform,X,LSU rRNA,U,925,C,926,C,927,*,G,875,A,876,ncSH,cWW,,cWW
+18,IL_4V9F_034,4V9F,0.2310,0,Minor groove platform,0,LSU rRNA,U,1009,C,1010,C,1011,*,G,956,A,957,cSH,cWW,,cWW
+19,IL_4WF9_032,4WF9,0.2662,0,Minor groove platform,X,LSU rRNA,U,958,C,959,C,960,*,G,907,A,908,cSH,cWW,,cWW
+20,IL_9DFE_027,9DFE,0.2665,0,Minor groove platform,1A,LSU rRNA,U,913,C,914,C,915,*,G,862,A,863,cSH,cWW,,cWW
+21,IL_8CRE_017,8CRE,0.2106,1,Minor groove platform (H),1,LSU rRNA,C,439,U,440,G,442,*,C,487,G,488,cSH,cWW,tHS,cWW
+22,IL_4LFB_038,4LFB,0.2788,0,Minor groove platform,A,SSU rRNA,C,1226,A,1227,C,1228,*,G,953,G,954,,cWW,ntHS,cWW
+23,IL_5J7L_042,5J7L,0.3280,0,Minor groove platform,AA,SSU rRNA,C,1226,A,1227,C,1228,*,G,953,G,954,,cWW,ntHS,cWW
+24,IL_1U6B_007,1U6B,0.3575,0,Minor groove platform,B,197-MER,G,128,A,129,G,130,*,C,177,C,178,cSH,cWW,tHS,cWW
+25,IL_6DTD_003,6DTD,0.3052,0,Minor groove platform,C,RNA (37-MER),G,22,A,23,A,24,*,U,15,C,16,cSH,cWW,tHS,cWW
+26,IL_5ML7_009,5ML7,0.2872,0,Minor groove platform,B,23S ribosomal RNA,C,2177,A,2178,G,2179,*,C,2201,G,2202,,cWW,tHS,cWW
+27,IL_2QWY_009,2QWY,0.2358,0,Minor groove platform,C,SAM-II riboswitch,U,40,A,41,G,42,*,C,23,A,24,,cWW,tHS,cWW
+28,IL_8P9A_267,8P9A,0.1596,0,Minor groove platform,AR,LSU rRNA,U,1050,U,1051,U,1052,*,A,997,A,998,cSH,cWW,ntHS,cWW
+29,IL_8CRE_042,8CRE,0.1047,0,Minor groove platform (H),1,LSU rRNA,U,1046,U,1047,U,1048,*,A,993,A,994,ncSH,cWW,ntHS,cWW
+30,IL_6DLR_003,6DLR,0.0000,0,Minor groove platform,A,Guanidine-I riboswitch,C,39,U,40,G,41,*,C,21,G,22,cSH,cWW,tHS,cWW
+31,IL_7MLW_004,7MLW,0.1111,0,Minor groove platform,F,Guanidine-I riboswitch,C,45,U,46,G,47,*,C,16,G,17,ncSH,cWW,tHS,cWW
+32,IL_5T83_003,5T83,0.1388,0,Minor groove platform,A,Guanidine-I riboswitch,C,36,U,37,G,38,*,C,21,G,22,ncSH,cWW,ntHS,cWW
+33,IL_9DFE_031,9DFE,0.3800,0,Minor groove platform,1A,LSU rRNA,U,877,A,878,G,879,*,C,898,A,899,,cWW,,cWW
+34,IL_8P9A_401,8P9A,0.3025,0,Minor groove platform,sR,SSU rRNA,A,518,C,519,A,520,*,U,532,U,533,,cWW,ntHS,cWW
+35,IL_8CRE_420,8CRE,0.3074,0,Minor groove platform (H),CM,SSU rRNA,A,516,C,517,A,518,*,U,530,U,531,,cWW,,cWW
+36,IL_8CRE_457,8CRE,0.2609,0,Minor groove platform (H),CM,SSU rRNA,C,1291,U,1292,G,1293,*,C,1302,G,1303,ncSW,cWW,,cWW
+37,IL_8P9A_443,8P9A,0.2902,0,Minor groove platform,sR,SSU rRNA,C,1306,U,1307,G,1308,*,C,1317,G,1318,cSH,cWW,tHS,cWW
+38,IL_8CRE_394,8CRE,0.3571,0,Minor groove platform (H),CM,SSU rRNA,C,50,A,51,U,52,*,A,426,G,427,,cWW,tHS,cWW
+39,IL_8P9A_377,8P9A,0.4034,0,Minor groove platform,sR,SSU rRNA,C,50,A,51,U,52,*,A,428,G,429,,cWW,tHS,cWW
+40,IL_4LFB_004,4LFB,0.4337,0,Minor groove platform,A,SSU rRNA,C,54,A,55,U,56,*,A,356,G,357,,cWW,tHS,cWW
+41,IL_5J7L_004,5J7L,0.4447,0,Minor groove platform,AA,SSU rRNA,C,54,A,55,U,56,*,A,356,G,357,,cWW,tHS,cWW
+42,IL_6CZR_116,6CZR,0.4965,0,Minor groove platform,1a,SSU rRNA,C,55,A,56,U,57,*,A,352,G,353,,cWW,ntHS,cWW
+43,IL_4LFB_054,4LFB,0.4062,0,Minor groove platform,A,SSU rRNA,C,1260,A,1261,C,1262,*,G,1273,G,1274,,ncWW,tHS,cWW
+44,IL_4UYK_001,4UYK,0.3528,0,Minor groove platform,R,SRP RNA,C,122,A,123,C,124,*,G,77,G,78,,,tHS,cWW
+45,IL_8CRE_419,8CRE,0.4554,0,Minor groove platform (H),CM,SSU rRNA,U,531,A,532,A,533,*,U,515,A,516,,cWW,tHS,ncWW

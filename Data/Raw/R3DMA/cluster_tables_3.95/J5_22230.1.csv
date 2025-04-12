@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,break,,3,,4,,5,break,,6,,7,,8,break,,9,,10,,11,break,,12,,13,1-13,2-3,4-7,5-6,8-9,11-12
+1,J5_3ZGZ_001,3ZGZ,0.0000,3,B,tRNA,A,7,G,10,*,C,25,A,26,A,27,*,U,43,C,44,G,45,*,U,47|||I,G,47|||J,G,49,*,C,65,U,66,cWW,cWW,cWW,cWW,cWW,cWW
+2,J5_4V87_011,4V87,0.2986,3,BB,TRNA-LEU,G,7,G,10,*,C,26,G,27,C,28,*,G,44,U,45,G,46,*,C,57,U,58,A,60,*,U,76,C,77,ncWW,cWW,,cWW,cWW,ncWW

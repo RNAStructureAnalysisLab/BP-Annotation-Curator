@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,break,,7,,8,,9,,10,,11,,12,1-12,2-11,3-10,4-9,5-8,6-7
+1,IL_1KD5_001,1KD5,0.3679,0,tSH-tHW-tWH-tHS,B+A,RNA (11-mer),U,3,C,4,A,5,C,6,A,7,G,8,*,U,3,C,4,A,5,C,6,A,7,G,8,cWW,tSH,tHW,tWH,tHS,cWW
+2,IL_1KD4_001,1KD4,0.0000,0,tSH-tHW-tWH-tHS,A+B,RNA (11-mer),U,3,C,4,A,5,C,6,A,7,G,8,*,U,3,C,4,A,5,C,6,A,7,G,8,cWW,ntSH,tHW,tWH,ntHS,cWW
+3,IL_283D_001,283D,0.3589,0,tSH-tHW-tWH-tHS,A,RNA (12-mer),C,4||||12_555,G,5||||12_555,A,6||||12_555,A,7||||12_555,A,8||||12_555,G,9||||12_555,*,C,4,G,5,A,6,A,7,A,8,G,9,cWW,tSH,tHW,tWH,tHS,cWW

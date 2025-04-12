@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,1-4,2-3
+1,HL_8HNT_002,8HNT,0.0000,2,,B,sgRNA,U,103,G,104,A,107,G,108,cWW,
+2,HL_6DLR_001,6DLR,0.6372,2,UNCG variation,A,Guanidine-I riboswitch,C,27,U,28,G,31,G,32,cWW,tSW

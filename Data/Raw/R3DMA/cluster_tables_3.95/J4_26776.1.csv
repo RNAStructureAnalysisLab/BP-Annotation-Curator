@@ -1,0 +1,2 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,,7,break,,8,,9,,10,break,,11,,12,,13,,14,1-14,2-5,3-4,7-8,9-12,10-11
+1,J4_4RUM_001,4RUM,0.0000,0,A,NiCo riboswitch RNA,C,16,A,17,G,18,*,C,44,G,45,G,46,G,47,*,C,60,A,61,A,62,*,U,85,G,86,G,87,G,88,cWW,tHS,cWW,cWW,tHS,cWW

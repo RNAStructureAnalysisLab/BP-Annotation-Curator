@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,1-7,2-6,4-7,5-6
+1,IL_8CRE_126,8CRE,0.2768,2,Major groove minor groove platform with tHH (H),1,LSU rRNA,U,3019,A,3020,A,3021,U,3022,U,3023,*,A,3063,A,3066,cWW,ntHH,,cWW
+2,IL_8P9A_345,8P9A,0.2370,2,Major groove minor groove platform with tHH (H),AR,LSU rRNA,U,3047,A,3048,A,3049,U,3050,U,3051,*,A,3091,A,3094,cWW,tHH,,cWW
+3,IL_4WF9_050,4WF9,0.0000,1,Major groove minor groove platform with tHH,X,LSU rRNA,G,1356,G,1357,A,1358,A,1359,G,1360,*,C,1368,C,1370,cWW,tHH,cWS,cWW
+4,IL_7A0S_047,7A0S,0.2001,1,C-loop,X,LSU rRNA,G,1332,G,1333,A,1334,A,1335,G,1336,*,C,1344,C,1346,cWW,,cWS,cWW

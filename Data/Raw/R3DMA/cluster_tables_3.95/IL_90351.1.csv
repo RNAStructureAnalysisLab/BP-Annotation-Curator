@@ -1,0 +1,9 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,1-2,1-7,2-7,3-6,4-5
+1,IL_3MXH_001,3MXH,0.7269,1,Minor groove platform with extra cWW,R,c-di-GMP riboswitch,G,94,A,95,G,97,G,98,*,C,11,A,12,C,13,,cWW,,cWW,cWW
+2,IL_4WF9_003,4WF9,0.5567,0,Minor groove platform with extra cWW,X,LSU rRNA,U,480,C,481,U,482,C,483,*,G,42,A,43,A,44,cSH,cWW,,,cWW
+3,IL_5J7L_006,5J7L,0.4790,0,Minor groove platform with extra cWW,AA,SSU rRNA,C,99,G,100,A,101,G,102,*,C,67,G,68,G,69,,cWW,tHS,cWW,cWW
+4,IL_8P9A_400,8P9A,0.5886,0,,sR,SSU rRNA,U,533,A,534,A,535,C,536,*,G,516,U,517,A,518,,cWW,tHS,,cWW
+5,IL_9DFE_030,9DFE,0.6529,0,,1A,LSU rRNA,A,899,A,900,A,901,C,902,*,G,875,C,876,U,877,,cWW,tHS,cWW,cWW
+6,IL_8CRE_092,8CRE,0.4932,1,,1,LSU rRNA,G,2184,A,2186,U,2187,G,2188,*,C,2213,G,2214,C,2215,tSW,cWW,,,cWW
+7,IL_2QEK_002,2QEK,0.0000,0,,B+A,HIV-1 subtype F DIS genomic RNA,G,7,A,8,A,9,G,10,*,C,15,A,16,C,17,,cWW,,,cWW
+8,IL_5J7L_364,5J7L,0.3168,0,,AA,SSU rRNA,G,1491,A,1492,A,1493,G,1494,*,5MC,1407,A,1408,C,1409,,cWW,,,cWW

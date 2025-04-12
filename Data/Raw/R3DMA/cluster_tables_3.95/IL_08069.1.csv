@@ -1,0 +1,31 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,1-6,2-4,2-5,3-4
+1,IL_8P9A_371,8P9A,0.6207,1,,AT,5.8S rRNA,U,93,C,94,A,96,*,U,64,A,65,A,66,cWW,,ncSW,cWW
+2,IL_8CRE_150,8CRE,0.6028,1,,4,5.8S rRNA,U,93,C,94,A,96,*,U,64,A,65,A,66,cWW,,ncWW,cWW
+3,IL_7ELQ_002,7ELQ,0.6063,2,,A,NMT1 RNA,C,32,C,33,G,36,*,C,15,A,16,G,17,cWW,,ncSW,cWW
+4,IL_7A0S_112,7A0S,0.5631,1,,Y,5S rRNA,G,66,C,67,G,69,*,C,19,A,20,C,21,ncWW,,ncWW,ncWW
+5,IL_7DLZ_003,7DLZ,0.4693,1,,X,RNA (45-MER),C,33,C,34,C,36,*,G,12,A,13,G,14,cWW,,,ncWW
+6,IL_4V9F_097,4V9F,0.4020,1,Isolated non-canonical cWW with bulges,0,LSU rRNA,G,2900,C,2901,C,2903,*,G,2855,A,2856,C,2857,cWW,,ncWW,cWW
+7,IL_5ML7_010,5ML7,0.4083,1,Isolated non-canonical cWW with bulges,B,23S ribosomal RNA,G,2196,C,2197,A,2199,*,U,2181,A,2182,C,2183,cWW,,cWW,cWW
+8,IL_4PKD_001,4PKD,0.3525,1,Isolated non-canonical cWW with bulges,V,U1 snRNA stem-loops 1 and 2 (55-MER),A,86,U,87,C,89,*,G,106,U,107,U,108,cWW,,cwW,cWW
+9,IL_7A0S_089,7A0S,0.4217,2,Isolated non-canonical cWW with bulges,X,LSU rRNA,G,2553,C,2554,G,2557,*,C,2489,U,2490,C,2491,cWW,,,cWW
+10,IL_4WF9_095,4WF9,0.3933,2,Isolated non-canonical cWW with bulges,X,LSU rRNA,G,2601,C,2602,G,2605,*,C,2537,U,2538,C,2539,cWW,,ncWW,cWW
+11,IL_5J7L_340,5J7L,0.3984,2,Isolated non-canonical cWW with bulges,DA,LSU rRNA,G,2574,C,2575,G,2578,*,C,2510,U,2511,C,2512,cWW,,ncWW,cWW
+12,IL_9DFE_097,9DFE,0.3965,2,,1A,LSU rRNA,G,2574,C,2575,G,2578,*,C,2510,U,2511,C,2512,cWW,,ncWW,cWW
+13,IL_4V9F_087,4V9F,0.5000,2,Isolated non-canonical cWW pair,0,LSU rRNA,G,2609,U,2610,G,2613,*,U,2545,U,2546,C,2547,cWW,,cwW,cWW
+14,IL_8P9A_335,8P9A,0.4205,2,Isolated non-canonical cWW with bulges (H),AR,LSU rRNA,G,2943,U,2944,G,2947,*,C,2879,U,2880,C,2881,cWW,,cwW,cWW
+15,IL_8CRE_116,8CRE,0.4072,2,,1,LSU rRNA,G,2915,U,2916,G,2919,*,C,2851,U,2852,C,2853,cWW,,cwW,cWW
+16,IL_7QQX_004,7QQX,0.1560,0,,C+A,FANCF off-target5 target strand,DA,11,DT,12,DG,13,*,C,8,U,9,U,10,cWW,,,cWW
+17,IL_7MDL_001,7MDL,0.1564,0,Isolated non-canonical cWW pair,E,RNA (90-MER),A,5||A|B,U,6||A,G,7||A,*,C,66||A,U,67||A,U,67||A|A,cWW,,cwW,cWW
+18,IL_8G9Z_001,8G9Z,0.1349,0,Isolated non-canonical cWW pair,E,Selenocysteine transfer RNA,A,5||A|B,U,6||A,G,7||A,*,C,66||A,U,67||A,U,67||A|A,cWW,,cwW,cWW
+19,IL_1MZP_001,1MZP,0.1297,0,Isolated non-canonical cWW pair,B,fragment of 23S rRNA,A,4,U,5,G,6,*,C,50,U,51,U,52,cWW,,cwW,cWW
+20,IL_3RG5_002,3RG5,0.0000,0,Isolated non-canonical cWW pair,B,Selenocysteine transfer RNA,A,5|||B,U,6,G,7,*,C,66,U,67,U,67|||A,cWW,,cwW,cWW
+21,IL_4KZD_003,4KZD,0.1481,0,Isolated non-canonical cWW pair,R,RNA (84-MER),G,17,U,18,G,19,*,C,66,U,67,C,68,cWW,,cwW,cWW
+22,IL_3LOA_002,3LOA,0.2146,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,1494,U,1495,C,1496,*,G,1405,5BU,1406,C,1407,cWW,,cwW,cWW
+23,IL_6E7L_001,6E7L,0.2116,0,Isolated non-canonical cWW pair,A,RNA (22-mer),C,4,U,5,G,6,*,C,17||||7_375,U,18||||7_375,G,19||||7_375,cWW,ncWW,cwW,cWW
+24,IL_5MWI_001,5MWI,0.1783,0,Isolated non-canonical cWW pair,A,RNA G(CUG)8C duplex,C,23||||4_555,U,24||||4_555,G,25||||4_555,*,C,2,U,3,G,4,cWW,,cwW,cWW
+25,IL_4PCJ_001,4PCJ,0.1719,0,Isolated non-canonical cWW pair,A,trCUG-3('5),C,33,U,34,G,35,*,C,1,U,2,G,3,cWW,,cwW,cWW
+26,IL_5VCI_001,5VCI,0.1862,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),C,10,U,11,G,12,*,C,1,U,2,G,3,cWW,,cwW,cWW
+27,IL_5J7L_050,5J7L,0.2365,0,Isolated non-canonical cWW pair,AA,SSU rRNA,G,1061,U,1062,C,1063,*,G,1193,U,1194,C,1195,cWW,,cwW,cWW
+28,IL_4LFB_047,4LFB,0.1880,0,Isolated non-canonical cWW pair,A,SSU rRNA,G,1061,U,1062,C,1063,*,G,1193,U,1194,C,1195,cWW,,cwW,cWW
+29,IL_6CZR_157,6CZR,0.2363,0,Isolated non-canonical cWW pair,1a,SSU rRNA,G,1044,U,1045,C,1046,*,G,1175,U,1176,C,1177,cWW,,ncwW,cWW
+30,IL_4PCJ_002,4PCJ,0.2818,0,Isolated non-canonical cWW pair,A,trCUG-3('5),C,4,PSU,5,G,6,*,C,30,U,31,G,32,cWW,,,cWW

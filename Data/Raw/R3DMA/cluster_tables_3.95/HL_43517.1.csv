@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,1-5
+1,HL_8XZL_001,8XZL,0.0000,0,Mini UNCG,A,RNA (53-MER),C,28,U,29,U,30,C,31,G,32,cWW
+2,HL_2OZB_001,2OZB,0.6980,2,,C,RNA comprising the 5' Stem-Loop RNA of  U4snRNA,G,35,U,36,U,37,A,39,C,41,cWW

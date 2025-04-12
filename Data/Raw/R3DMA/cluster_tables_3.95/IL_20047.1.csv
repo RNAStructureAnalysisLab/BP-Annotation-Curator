@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,break,,7,,8,,9,,10,,11,1-11,2-10,3-9,4-8,6-7,7-10
+1,IL_8P9A_311,8P9A,0.0000,3,Kink-turn related (H),AR,LSU rRNA,U,2173,G,2174,U,2176,G,2177,A,2178,G,2180,*,C,2156,G,2157,A,2158,G,2160,G,2161,cWW,tWW,tWW,tSS,cWW,
+2,IL_8CRE_088,8CRE,0.0823,3,,1,LSU rRNA,U,2151,G,2152,U,2154,G,2155,A,2156,A,2158,*,U,2134,G,2135,A,2136,G,2138,G,2139,cWW,tWW,tWW,tSS,cWW,ncSs

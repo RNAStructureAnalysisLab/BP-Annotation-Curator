@@ -1,0 +1,11 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,1-7,2-6,3-4,3-6,4-5
+1,IL_3V7E_003,3V7E,0.1191,0,Major groove platform with extra pair,C,SAM-I riboswitch,C,44,A,45,A,46,C,47,*,G,88,U,89,G,90,cWW,tSH,ncSH,,cWW
+2,IL_4AOB_003,4AOB,0.1007,0,Major groove platform with extra pair,A,SAM-I riboswitch,C,44,A,45,A,46,C,47,*,G,56,U,57,G,58,cWW,tSH,ncSH,,cWW
+3,IL_4OQU_001,4OQU,0.0666,0,Major groove platform with extra pair,A,SAM-I/IV riboswitch,C,24,A,25,A,26,C,27,*,G,46,U,47,G,48,cWW,tSH,cSH,,cWW
+4,IL_5FJC_003,5FJC,0.0000,0,Major groove platform with extra pair,A,SAM-I riboswitch,C,44,A,45,A,46,C,47,*,G,56,U,57,G,58,cWW,tSH,cSH,,cWW
+5,IL_4KQY_003,4KQY,0.1754,0,Major groove platform with extra pair,A,SAM-I riboswitch,C,45,A,46,A,47,C,48,*,G,77,U,78,G,79,cWW,ntSH,cSH,,cWW
+6,IL_8P9A_389,8P9A,0.5415,0,,sR,SSU rRNA,C,270,A,271,U,272,G,273,*,U,283,G,284,G,285,cWW,,,,cWW
+7,IL_8CRE_406,8CRE,0.6443,0,,CM,SSU rRNA,C,268,A,269,U,270,G,271,*,U,281,G,282,G,283,cWW,,,ncSW,ncWW
+8,IL_8CRE_069,8CRE,0.5426,0,,1,LSU rRNA,G,1614,A,1615,U,1616,A,1617,*,U,1820,G,1821,C,1822,cWW,,,cSW,cWW
+9,IL_8P9A_292,8P9A,0.5335,0,Other IL (H),AR,LSU rRNA,G,1618,A,1619,U,1620,A,1621,*,U,1824,G,1825,C,1826,cWW,,,ncSW,cWW
+10,IL_5DO4_004,5DO4,0.5559,2,,A,RNA (25-MER),G,3,A,4,A,5,A,8,*,UMS,21,A,22,CFZ,23,cWW,,,cSW,cWW

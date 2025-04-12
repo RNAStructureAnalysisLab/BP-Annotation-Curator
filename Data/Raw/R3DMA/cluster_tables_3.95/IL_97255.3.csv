@@ -1,0 +1,6 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,,8,1-8,2-7,4-7,5-6
+1,IL_3OXE_002,3OXE,0.7036,0,,A,domain II of glycine riboswitch,C,31,G,32,A,33,A,34,G,35,*,C,70,A,71,G,72,cWW,,tHS,cWW
+2,IL_1XJR_001,1XJR,0.4514,0,Isolated basepair with bulged bases,A,s2m RNA,C,9,C,10,G,11,A,12,G,13,*,C,39,A,40,G,41,cWW,,,cWW
+3,IL_6CZR_172,6CZR,0.0000,1,Isolated basepair with bulged bases,1a,SSU rRNA,C,1423,G,1424,G,1425,A,1427,G,1428,*,C,1437,A,1438,G,1439,cWW,tSH,,cWW
+4,IL_5UNE_002,5UNE,0.3601,1,Isolated basepair with bulged bases,B+A,RNA (47-MER),C,33,G,34,G,35,A,37,A,38,*,U,10,G,11,G,12,cWW,ntSH,,cWW
+5,IL_4LFB_064,4LFB,0.3743,1,,A,SSU rRNA,C,1440,G,1441,G,1442,A,1446,G,1447,*,C,1459,A,1460,G,1461,cWW,tSH,,cWW

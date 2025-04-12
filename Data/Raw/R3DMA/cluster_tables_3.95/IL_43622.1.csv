@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,,8,1-8,2-7,5-6
+1,IL_8P9A_359,8P9A,0.0000,1,Isolated non-canonical cWW pair (H),AR,LSU rRNA,U,3373,U,3374,A,3375,A,3376,C,3378,*,G,3328,U,3329,A,3330,cWW,cwW,cWW
+2,IL_8CRE_138,8CRE,0.0853,1,,1,LSU rRNA,U,3338,U,3339,A,3340,A,3341,C,3343,*,G,3293,U,3294,A,3295,cWW,cwW,cWW

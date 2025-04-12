@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,1-6,2-4,3-6,4-5
+1,IL_6XJQ_003,6XJQ,0.6677,1,,A,Self-alkylating ribozyme (58-MER),U,42,A,43,G,45,C,46,*,G,16,G,17,cWW,,,cWW
+2,IL_4M6D_014,4M6D,0.0000,3,Major groove minor groove platform with intercalation; mini C-loop,H,aptamer,G,28,U,30,A,31,C,32,*,G,36,C,39,cWW,ncSH,cWS,cWW
+3,IL_4M4O_005,4M4O,0.1118,3,Major groove minor groove platform with intercalation; mini C-loop,B,RNA (59-MER),G,28,U,30,A,31,C,32,*,G,36,C,39,cWW,ncSH,cWS,cWW

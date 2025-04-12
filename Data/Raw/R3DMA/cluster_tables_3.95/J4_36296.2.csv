@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,break,,7,,8,,9,,10,break,,11,,12,1-12,3-4,3-8,5-8,6-7,6-8,10-11
+1,J4_4YCO_001,4YCO,0.3429,4,tRNA junction,D,tRNA,A,7,A,9,G,10,*,C,25,A,26,G,27,*,C,43,G,44,G,46,C,49,*,G,65,U,66,cWW,cWW,,,cWW,,cWW
+2,J4_2CSX_001,2CSX,0.0000,4,tRNA junction,C,RNA (75-MER),G,7,A,9,G,10,*,C,25,G,26,G,27,*,C,43,A,44,G,46,G,49,*,C,65,C,66,cWW,cWW,ncHS,,cWW,,cWW
+3,J4_3WFS_001,3WFS,0.1990,4,tRNA junction,A,tRNA,G,7,A,9,G,10,*,C,25,A,26,C,27,*,G,43,G,44,G,46,G,49,*,C,65,C,66,cWW,cWW,cHW,,cWW,,cWW
+4,J4_1QTQ_001,1QTQ,0.4016,4,tRNA junction,B,tRNA,A,907,C,909,G,910,*,C,925,A,926,C,927,*,G,943,C,944,A,945,C,949,*,G,965,U,966,cWW,cWW,,cWW,cWW,,cWW
+5,J4_5J8B_014,5J8B,0.5192,4,,w,tRNA,A,7,A,9,G,10,*,C,25,A,26,G,27,*,C,43,G,44,7MG,46,C,49,*,G,65,U,66,cWW,cWW,,,cWW,ntSH,cWW
+6,J4_1B23_001,1B23,0.6424,3,tRNA junction,R,tRNA,U,7,A,9,A,10,*,U,25,A,26,G,27,*,U,43,C,44,A,46,U,49,*,A,65,A,66,cWW,cWW,,ncWW,cWW,,cWW

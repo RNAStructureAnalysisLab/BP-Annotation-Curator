@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,break,,7,,8,,9,1-9,2-6,2-8,6-7
+1,IL_8CRE_395,8CRE,0.1715,0,,CM,SSU rRNA,U,58,C,59,U,60,A,61,A,62,G,63,*,C,87,U,88,G,89,cWW,ncWH,,cWW
+2,IL_8P9A_378,8P9A,0.0000,0,,sR,SSU rRNA,U,58,C,59,U,60,A,61,A,62,G,63,*,C,87,U,88,G,89,cWW,ncWH,,cWW
+3,IL_5UNE_008,5UNE,0.7844,0,Isolated basepair with bulged bases,A+B,RNA (47-MER),C,33,G,34,G,35,A,36,A,37,A,38,*,U,10,G,11,G,12,ncWW,,ntSH,cWW

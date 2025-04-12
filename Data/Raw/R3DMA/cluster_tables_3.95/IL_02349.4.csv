@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,break,,8,,9,,10,,11,,12,,13,1-13,2-12,3-11,4-5,5-10,6-9,7-8
+1,IL_6CB3_003,6CB3,0.1430,1,8x6 Sarcin-Ricin with bulged A; G-bulge,B,RNA (99-MER),G,7,G,8,G,9,G,11,U,12,A,13,G,14,*,C,91,A,92,A,93,G,94,A,95,C,96,cWW,tSH,tWH,cSH,tWH,tHS,cWW
+2,IL_4Y1M_006,4Y1M,0.0000,1,8x6 Sarcin-Ricin with bulged A; G-bulge,B,E. coli yybP-ykoY riboswitch,G,8,G,9,G,10,G,12,U,13,A,14,G,15,*,C,96,G,97,A,98,G,99,A,100,C,101,cWW,tSH,tWH,cSH,tWH,tHS,cWW
+3,IL_6N2V_001,6N2V,0.1075,1,,A,X. oryzae Mn riboswitch optimized construct,G,7,G,8,G,9,G,11,U,12,A,13,G,14,*,C,88,G,89,A,90,G,91,A,92,C,93,cWW,tSH,tWH,cSH,ntWH,tHS,cWW

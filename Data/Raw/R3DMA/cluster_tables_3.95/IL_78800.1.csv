@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,1-2,1-3,1-6,4-5
+1,IL_8CRE_481,8CRE,0.0000,2,,CM,SSU rRNA,U,1363,U,1364,C,1365,U,1366,*,A,1330,A,1333,,cSH,ncWW,cWW
+2,IL_8P9A_445,8P9A,0.1276,2,Minor groove platform (H),sR,SSU rRNA,U,1377,U,1378,C,1379,U,1380,*,A,1345,A,1348,ncSH,cSH,cWW,cWW

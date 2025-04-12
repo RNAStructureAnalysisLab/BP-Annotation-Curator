@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,1-5,3-4
+1,IL_5DO4_003,5DO4,0.7826,1,,A,RNA (25-MER),G,16,ADS,18,CFZ,19,*,G,10,CFZ,11,cWW,cWW
+2,IL_5J7L_268,5J7L,0.0000,1,Stack outside cWW,DA,LSU rRNA,G,930,U,932,A,933,*,U,847||A,C,848,cWW,cWW
+3,IL_6XJQ_007,6XJQ,0.3782,1,,A,Self-alkylating ribozyme (58-MER),C,23,U,25,G,26,*,C,35,G,36,cWW,cWW

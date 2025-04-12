@@ -1,0 +1,8 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,break,,8,,9,,10,,11,,12,,13,,14,1-14,2-13,3-12,3-13,4-11,5-10,6-9,7-8
+1,IL_7A0S_001,7A0S,0.0665,0,Triple sheared with non-canonical cWW,X,LSU rRNA,G,24,U,25,G,26,G,27,A,28,U,29,G,30,*,C,520,U,521,G,522,A,523,A,524,A,525,C,526,cWW,ntSH,tSH,,tSH,ntHS,cWw,cWW
+2,IL_4WF9_001,4WF9,0.0000,0,Triple sheared with non-canonical cWW,X,LSU rRNA,G,24,U,25,G,26,G,27,A,28,U,29,G,30,*,C,555,U,556,G,557,A,558,A,559,A,560,C,561,cWW,ntSH,tSH,,tSH,tHS,cWw,cWW
+3,IL_5J7L_245,5J7L,0.0581,0,Triple sheared with non-canonical cWW,DA,LSU rRNA,G,24,U,25,G,26,G,27,A,28,U,29,G,30,*,C,510,U,511,G,512,A,513,A,514,A,515,C,516,cWW,ntSH,tSH,,tSH,tHS,cWw,cWW
+4,IL_9DFE_001,9DFE,0.0807,0,Triple sheared with non-canonical cWW (H),1A,LSU rRNA,G,24,U,25,G,26,G,27,A,28,U,29,G,30,*,C,510,U,511,G,512,A,513,A,514,A,515,C,516,cWW,ntSH,tSH,,tSH,tHS,cWw,cWW
+5,IL_8P9A_244,8P9A,0.0822,0,Triple sheared with non-canonical cWW (H),AT+AR,5.8S rRNA,A,13,C,14,G,15,G,16,A,17,U,18,C,19,*,G,404,U,405,G,406,A,407,A,408,A,409,U,410,cWW,ntSH,tSH,,tSH,ntHS,cWw,cWW
+6,IL_8CRE_016,8CRE,0.0806,0,Triple sheared with non-canonical cWW (H),4+1,5.8S rRNA,A,13,C,14,G,15,G,16,A,17,U,18,C,19,*,G,404,U,405,G,406,A,407,A,408,A,409,U,410,cWW,ntSH,tSH,ncSW,tSH,ntHS,cWw,cWW
+7,IL_4V9F_001,4V9F,0.1070,0,Triple sheared with non-canonical cWW,0,LSU rRNA,G,21,U,22,G,23,G,24,A,25,U,26,U,27,*,A,516,U,517,G,518,A,519,A,520,A,521,U,522,cWW,,tSH,,tSH,tHS,cWw,cWW

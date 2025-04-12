@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,1-5,2-4
+1,HL_5J7L_151,5J7L,0.3189,2,DA,LSU rRNA,C,611,G,612,A,614,A,616,G,617,cWW,tSH
+2,HL_4V9F_019,4V9F,0.0000,2,0,LSU rRNA,G,670,A,671,U,673,U,675,C,676,cWW,tSH
+3,HL_2B3J_001,2B3J,0.3153,4,E,anticodon stem-loop of t-RNA-Arg2 (nucleotides 27-42),A,31,C,32,G,36,A,38,U,39,cWW,

@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,1-7,2-6,4-5
+1,HL_8KAJ_003,8KAJ,0.0000,0,I,RNA (65-MER),C,86,G,87,A,88,G,89,U,90,C,91,G,92,cWW,,ncSH
+2,HL_7MDL_001,7MDL,0.4408,1,E,RNA (90-MER),A,14||A,G,15||A,U,16||A,G,19||A,U,20||A,C,20||A|A,U,21||A,cWW,ncWW,ncSW

@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,1-7,5-6
+1,IL_6CZR_125,6CZR,0.1296,0,C-loop,1a,SSU rRNA,U,300,G,301,G,302,C,303,C,304,*,G,288,G,289,cWW,cWW
+2,IL_4LFB_013,4LFB,0.0000,0,C-loop,A,SSU rRNA,U,304,G,305,G,306,C,307,C,308,*,G,292,G,293,cWW,cWW
+3,IL_5J7L_016,5J7L,0.1676,0,C-loop,AA,SSU rRNA,U,304,G,305,A,306,C,307,C,308,*,G,292,G,293,cWW,cWW

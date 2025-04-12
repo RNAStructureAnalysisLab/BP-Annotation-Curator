@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,1-13,2-10,2-11,3-7,3-10
+1,HL_3SUX_005,3SUX,0.9348,0,X,THF riboswitch,G,37,A,38,C,39,G,40,G,41,G,42,G,43,A,44,G,45,U,46,U,47,G,48,U,49,cWW,,ncWW,,ncWW
+2,HL_3D0U_001,3D0U,0.0000,1,A,Lysine Riboswitch RNA,C,38,A,39,G,40,G,41,G,42,G,43,A,44,G,45,G,46,A,47,A,48,U,49,G,51,cWW,tHW,,ncHH,
+3,HL_3DIL_001,3DIL,0.0892,1,A,RNA (174-MER),C,41,A,42,G,43,G,44,G,45,G,46,A,47,G,48,G,49,A,50,A,51,U,52,G,54,cWW,tHW,,ncHH,

@@ -11,6 +11,7 @@ import time
 import os
 import shutil
 import csv
+import sys
 from bs4 import BeautifulSoup
 
 class Cluster_Downloader:
@@ -18,6 +19,7 @@ class Cluster_Downloader:
     CLUSTER_DOWNLOAD_DIRECTORY = 'Data/Raw/R3DMA'
     HOMEPAGE_URL = 'https://rna.bgsu.edu/rna3dhub/motifs'
     
+    version = ''
     failed_links = [] # R3DMA links that still need their contents downloaded
     clustered_pdb_ids = set() # PDB IDs that have been seen in downloaded data
     
@@ -28,14 +30,20 @@ class Cluster_Downloader:
             shutil.rmtree(Cluster_Downloader.CLUSTER_DOWNLOAD_DIRECTORY)
         os.makedirs(Cluster_Downloader.CLUSTER_DOWNLOAD_DIRECTORY)
         
-        # Dynamically find the URLs for all motif clusters
+        # Dynamically find the URLs for all motif clusters and get version
         urls = Cluster_Downloader.get_links(Cluster_Downloader.HOMEPAGE_URL)
+        if not urls: # If couldn't access homepage
+            return
+        Cluster_Downloader.version = urls[0].split('/')[-1]
         
-        # Scrape motif cluster table data for each cluster from a given URL
+        # For each motif type URL, get the links to all clusters on the page
+        cluster_links = []
         for url in urls:
-            links = Cluster_Downloader.get_links(url)
-            Cluster_Downloader.get_data_from_links(links)
- 
+            cluster_links.extend(Cluster_Downloader.get_links(url))
+            
+        # Get the table data for each cluster, and write as a CSV
+        Cluster_Downloader.get_data_from_links(cluster_links)
+        
         # Document currently used PDBs and clusters that couldn't be downloaded
         Cluster_Downloader.write_file(
             'pdb_ids.txt', Cluster_Downloader.clustered_pdb_ids
@@ -44,12 +52,11 @@ class Cluster_Downloader:
             'failed_links.txt', Cluster_Downloader.failed_links
         )
         
-    
     @staticmethod
     def get_links(url):
         attempts = 0
         while attempts < 3:
-            response = requests.get(Cluster_Downloader.HOMEPAGE_URL)
+            response = requests.get(url)
             
             if response.status_code != 200:
                 attempts += 1
@@ -57,10 +64,12 @@ class Cluster_Downloader:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 return [
                     anchor['href'] for anchor in soup.find_all('a', href=True) 
-                    if anchor['href'].startswith(
+                    if anchor['href'].startswith( # links for specific clusters
                         'https://rna.bgsu.edu/rna3dhub/motif/view/'
-                    ) or anchor['href'].startswith(
+                    ) or (
+                        anchor['href'].startswith( # links for motif types
                         'https://rna.bgsu.edu/rna3dhub/motifs/release/'
+                        ) and 'btn' in anchor.get('class', [])
                     )
                 ]
         
@@ -70,7 +79,20 @@ class Cluster_Downloader:
     @staticmethod
     def get_data_from_links(cluster_download_links):
         session = requests.Session()
+        csv_destination_path = os.path.join(
+            Cluster_Downloader.CLUSTER_DOWNLOAD_DIRECTORY, 
+            f'cluster_tables_{Cluster_Downloader.version}'
+        )
+        os.makedirs(csv_destination_path)
+        count = 0
+        
         for link in cluster_download_links:
+            # Display the remaining time to iterate through the for loop
+            Cluster_Downloader.print_remaining_time(
+                (len(cluster_download_links) - count) * 
+                Cluster_Downloader.CRAWL_DELAY
+            )
+            
             # Attempts to download the table for a cluster, up to 3 attempts
             for attempt in [1, 2, 3]:
                 response = session.get(link)
@@ -103,15 +125,14 @@ class Cluster_Downloader:
                         # Export table contents as a CSV
                         file_name = f'{link.split('/')[-1]}.csv'
                         file_path = os.path.join(
-                            Cluster_Downloader.CLUSTER_DOWNLOAD_DIRECTORY, 
-                            file_name
+                            csv_destination_path, file_name
                         )
                         with open(file_path, mode='w', newline='') as file:
                             writer = csv.writer(file)
-                            
                             writer.writerow(headers)
                             writer.writerows(rows)
                         
+                        # Wait 10 seconds before moving on to next link
                         time.sleep(Cluster_Downloader.CRAWL_DELAY)
                         break
                     
@@ -122,6 +143,19 @@ class Cluster_Downloader:
                         Cluster_Downloader.failed_links.append(link)
                     else:
                         time.sleep(Cluster_Downloader.CRAWL_DELAY)
+            
+            count += 1
+    
+    # TODO: move to a utilities class
+    # INPUT: an integer representing the amount of time left for the program to
+    # finish in seconds
+    @staticmethod
+    def print_remaining_time(remaining_time):
+        sys.stdout.write('\x1b[2K\r')  # Clear line and return
+        sys.stdout.write(
+            f'Estimated time until finish: {remaining_time} seconds'
+        )
+        sys.stdout.flush()
         
     @staticmethod
     def retry_download():
@@ -129,15 +163,22 @@ class Cluster_Downloader:
         Cluster_Downloader.failed_links = []
         
         # Check if the homepage is a failed link
-        if Cluster_Downloader.HOMEPAGE_URL in Cluster_Downloader.failed_links:
+        if Cluster_Downloader.HOMEPAGE_URL == urls[0]:
             # Dynamically find the URLs for all motif clusters
             urls = Cluster_Downloader.get_links(
                 Cluster_Downloader.HOMEPAGE_URL
             )
+            if not urls: # If couldn't access homepage
+                return
+            Cluster_Downloader.version = urls[0].split('/')[-1]
             
+            # For each motif type URL, get the links to all clusters on the page
+            cluster_links = []
             for url in urls:
-                links = Cluster_Downloader.get_links(url)
-                Cluster_Downloader.get_data_from_links(links)
+                cluster_links.extend(Cluster_Downloader.get_links(url))
+                
+            # Get the table data for each cluster, and write as a CSV
+            Cluster_Downloader.get_data_from_links(cluster_links)
         else:
            Cluster_Downloader.get_data_from_links(urls)
         
@@ -157,4 +198,3 @@ class Cluster_Downloader:
         with open(file_path, 'w') as file:
             for entry in data:
                 file.write(entry + '\n')
-        

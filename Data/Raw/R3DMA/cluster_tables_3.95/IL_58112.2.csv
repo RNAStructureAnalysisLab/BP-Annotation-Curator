@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,,8,1-8,2-6,2-7,3-6,4-5
+1,IL_6CF2_001,6CF2,0.3044,1,Non canonical cWW and near pair,G,RNA (35-MER),G,5,G,6,A,7,C,8,*,G,27,A,28,A,30,C,31,cWW,,cWW,,cWW
+2,IL_4PMI_008,4PMI,0.0000,1,tWW and non-canonical cWW,A,Rev-Response-Element RNA,G,46,G,47,G,48,C,49,*,G,70,G,71,A,73,C,74,cWW,ntWW,cWW,tWW,cWW
+3,IL_5J7L_296,5J7L,0.2468,1,Tandem non-canonical cWW pairs,DA,LSU rRNA,G,1432,A,1433,A,1434,G,1435,*,C,1557,C,1558,G,1560,C,1561,cWW,,cWW,tWW,cWW
+4,IL_6MDZ_001,6MDZ,0.7552,2,,E+C,RNA (23-mer),U,9,U,10,C,12,C,13,*,G,9,A,10,A,12,A,13,cWW,,,,cWW

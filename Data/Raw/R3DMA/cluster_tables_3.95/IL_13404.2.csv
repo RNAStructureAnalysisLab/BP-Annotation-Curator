@@ -1,0 +1,11 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,,8,1-8,2-7,3-6,4-5
+1,IL_1QBP_002,1QBP,0.1703,0,Tandem non-canonical cWW pairs,B+A,RNA (15-mer),U,22,U,23,C,24,G,25,*,U,7,U,8,C,9,G,10,cWW,ncWW,cWW,cWW
+2,IL_422D_001,422D,0.0000,0,Tandem non-canonical cWW pairs,A+B,RNA (12-mer),U,7,U,8,C,9,G,10,*,U,19,U,20,C,21,G,22,cWW,cWW,cWW,cWW
+3,IL_4ERD_002,4ERD,0.0975,0,Tandem non-canonical cWW pairs,C+D,RNA (22-mer),U,127,U,128,C,141,G,142,*,U,127,U,128,C,141,G,142,cWW,cWW,cWW,cWW
+4,IL_1IHA_001,1IHA,0.1515,0,Tandem non-canonical cWW pairs,A+B,RNA (9-mer),U,3,U,4,C,5,G,6,*,U,3,U,4,C,5,G,6,cWW,cWW,cWW,cWW
+5,IL_1ICG_001,1ICG,0.1589,0,Tandem non-canonical cWW pairs,A+B,RNA (9-mer),U,3,U,4,C,5,G,6,*,U,3,U,4,C,5,G,6,cWW,cWW,cWW,cWW
+6,IL_6L0Y_002,6L0Y,0.1687,0,,A,RNA (22-mer),U,10,U,11,C,12,G,13,*,U,10||||5_555,U,11||||5_555,C,12||||5_555,G,13||||5_555,cWW,cWW,cWW,cWW
+7,IL_255D_001,255D,0.1611,0,Tandem non-canonical cWW pairs,A,RNA (12-mer),U,5,U,6,C,7,G,8,*,U,5||||2_656,U,6||||2_656,C,7||||2_656,G,8||||2_656,cWW,cWW,cWW,cWW
+8,IL_413D_001,413D,0.1721,0,Tandem non-canonical cWW pairs,A,RNA (13-mer),U,6,U,7,C,8,G,9,*,U,6||||2_555,U,7||||2_555,C,8||||2_555,G,9||||2_555,cWW,cWW,cWW,cWW
+9,IL_8CRE_458,8CRE,0.2971,1,,CM,SSU rRNA,A,1368,G,1369,A,1370,G,1371,*,C,1324,A,1326,C,1327,U,1328,cWW,ncHW,ncWw,cWW
+10,IL_4WF9_124,4WF9,0.3403,0,,X,LSU rRNA,G,2217,G,2218,C,2219,U,2220,*,A,2123,U,2124,U,2125,C,2126,cWW,,ncWW,ncWW

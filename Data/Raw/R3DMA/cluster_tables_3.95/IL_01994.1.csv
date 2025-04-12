@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,,8,1-8,2-5,3-4,3-7,4-7,5-6
+1,IL_5T83_006,5T83,0.1386,1,A,Guanidine-I riboswitch,G,33,G,34,C,36,U,37,G,38,*,C,21,G,22,C,23,cWW,cWH,ncSH,cWW,ntHS,cWW
+2,IL_6DLR_006,6DLR,0.0000,1,A,Guanidine-I riboswitch,G,36,G,37,C,39,U,40,G,41,*,C,21,G,22,C,23,cWW,cWH,cSH,cWW,tHS,cWW
+3,IL_7MLW_009,7MLW,0.1605,0,F,Guanidine-I riboswitch,U,43,G,44,C,45,U,46,G,47,*,C,16,G,17,G,18,cWW,cWH,ncSH,cWW,tHS,cWW

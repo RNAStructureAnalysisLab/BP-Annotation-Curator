@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,1-4,2-3
+1,HL_8P9A_231,8P9A,0.0000,2,AR,LSU rRNA,C,543,C,544,G,547,G,548,ncWW,
+2,HL_5D0B_001,5D0B,0.4966,1,F,RNA (17-mer),U,33,U,35,A,36,A,37,cWW,cSH

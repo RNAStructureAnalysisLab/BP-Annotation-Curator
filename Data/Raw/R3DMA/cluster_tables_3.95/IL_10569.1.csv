@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,1-5,2-4,3-4
+1,IL_1HYS_003,1HYS,0.0000,0,,E+F,RNA (23-mer) + RNA (22-mer),A,867,A,868,A,869,*,DT,886,DT,887,ncWW,ncWW,ncWW
+2,IL_4V84_420,4V84,0.5081,0,Single stack bend,AV,RNA (34-MER),C,6181,A,6182,G,6183,*,C,6194,G,6195,ncWW,,cWW

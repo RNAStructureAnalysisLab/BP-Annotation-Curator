@@ -1,0 +1,17 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,1-5,2-3,2-4,3-4
+1,IL_4PCJ_004,4PCJ,0.5706,0,Major groove intercalation,A,trCUG-3('5),U,25,A,26,U,27,*,A,11,G,12,cWW,,,cWW
+2,IL_5VCI_004,5VCI,0.5369,0,Major groove intercalation,B+A,RNA (12-mer),U,2,A,3,U,4,*,A,11,G,12,cWW,,,cWW
+3,IL_1U6B_010,1U6B,0.5314,0,Major groove intercalation,B,197-MER,U,160,A,161,U,162,*,A,150,G,151,cWW,,,cWW
+4,IL_5DCV_005,5DCV,0.5076,0,Major groove intercalation,D,RNA (47-MER),U,3,A,4,U,5,*,A,48,G,49,cWW,,,cWW
+5,IL_5XTM_004,5XTM,0.4414,0,Major groove intercalation,D,RNA (47-MER),U,3,A,4,U,5,*,A,44,G,45,cWW,,,cWW
+6,IL_8P9A_334,8P9A,0.0925,0,Major groove platform (H),AR,LSU rRNA,U,2949,G,2950,G,2951,*,C,2876,G,2877,cWW,,,cWW
+7,IL_8CRE_115,8CRE,0.0933,0,Major groove platform (H),1,LSU rRNA,U,2921,G,2922,G,2923,*,C,2848,G,2849,cWW,,,cWW
+8,IL_4V9F_086,4V9F,0.0000,0,Major groove platform,0,LSU rRNA,U,2615,G,2616,G,2617,*,C,2542,G,2543,cWW,nchH,,cWW
+9,IL_4WF9_094,4WF9,0.0971,0,Major groove platform,X,LSU rRNA,U,2607,G,2608,G,2609,*,C,2534,G,2535,cWW,chH,,cWW
+10,IL_9DFE_096,9DFE,0.1325,0,Major groove platform (H),1A,LSU rRNA,U,2580,G,2581,G,2582,*,C,2507,G,2508,cWW,chH,,cWW
+11,IL_7A0S_088,7A0S,0.1659,0,Major groove platform,X,LSU rRNA,U,2559,G,2560,G,2561,*,C,2486,G,2487,cWW,chH,,cWW
+12,IL_8CRE_112,8CRE,0.2248,0,Major groove platform (H),1,LSU rRNA,U,2798,U,2799,G,2800,*,U,2834,G,2835,cWW,,,cWW
+13,IL_8P9A_331,8P9A,0.2389,0,Major groove platform (H),AR,LSU rRNA,U,2826,U,2827,G,2828,*,U,2862,G,2863,cWW,,,cWW
+14,IL_4V9F_083,4V9F,0.1982,0,Major groove platform,0,LSU rRNA,U,2492,C,2493,G,2494,*,U,2528,G,2529,cWW,cHH,,cWW
+15,IL_5J7L_394,5J7L,0.3559,0,Major groove platform,DA,LSU rRNA,PSU,2580,G,2581,G,2582,*,C,2507,G,2508,cWW,chH,,cWW
+16,IL_5J7L_393,5J7L,0.4350,0,Major groove platform,DA,LSU rRNA,PSU,2457,G,2458,A,2459,*,U,2493,G,2494,cWW,,ntSH,cWW

@@ -1,0 +1,385 @@
+[2025-04-11 17:43:51] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\6MPI.pdb
+[2025-04-11 17:43:51] : Job is created with job id: 24d6e800-bf47-48cf-9fea-c5b14385e670
+[2025-04-11 17:43:54] : Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:43:55] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\3KFU.pdb
+[2025-04-11 17:43:55] : Job is created with job id: fc493042-10b9-45cd-921a-521e06e01c91
+[2025-04-11 17:43:55] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\4LFB.pdb
+[2025-04-11 17:43:55] : Job is created with job id: 8f4d17e2-5350-4073-ad09-727c63030ca3
+[2025-04-11 17:43:56] : Job fc493042-10b9-45cd-921a-521e06e01c91 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:43:57] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:43:57] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\5Y58.pdb
+[2025-04-11 17:43:57] : Job is created with job id: 97e63015-8cd9-4251-b43d-957218b452c7
+[2025-04-11 17:43:57] : Job is created with job id: 61b4b04a-220c-463b-b426-2ab8f414405d
+[2025-04-11 17:43:58] : Job 61b4b04a-220c-463b-b426-2ab8f414405d is still processing. Sleeping for 10 minutes
+[2025-04-11 17:43:58] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:43:59] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\6CAQ.pdb
+[2025-04-11 17:43:59] : Job is created with job id: 326f7c13-4142-4d17-8ccb-c51e5a2cad82
+[2025-04-11 17:43:59] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\5F9F.pdb
+[2025-04-11 17:43:59] : Job is created with job id: f7dc1e3f-6bd9-411e-bf82-4c992e359f0c
+[2025-04-11 17:44:00] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 17:44:00] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:44:01] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\7A0S.pdb
+[2025-04-11 17:44:01] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\6MKN.pdb
+[2025-04-11 17:44:01] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\4WF9.pdb
+[2025-04-11 17:44:01] : Job is created with job id: 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42
+[2025-04-11 17:44:01] : Job is created with job id: d7e8ce23-052d-4786-adf0-677f458240cb
+[2025-04-11 17:44:01] : Job is created with job id: 3b51f21f-464f-4de2-b72a-ca8b056fb603
+[2025-04-11 17:44:02] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:44:02] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 17:44:02] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:53:54] : Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:53:57] : Job fc493042-10b9-45cd-921a-521e06e01c91 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:53:57] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:53:59] : Job 61b4b04a-220c-463b-b426-2ab8f414405d is still processing. Sleeping for 10 minutes
+[2025-04-11 17:53:59] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:54:00] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 17:54:00] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:54:02] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 17:54:02] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 17:54:02] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:03:55] : Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:03:58] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:03:59] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:03:59] : Job 61b4b04a-220c-463b-b426-2ab8f414405d is still processing. Sleeping for 10 minutes
+[2025-04-11 18:04:01] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 18:04:01] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:04:03] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 18:04:03] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:04:03] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:04:06] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\3KFU_CL.csv
+[2025-04-11 18:04:06] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\3KFU_RV.csv
+[2025-04-11 18:04:08] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\3KFU_MC.csv
+[2025-04-11 18:04:09] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\3KFU_FR.csv
+[2025-04-11 18:04:10] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\3KFU_MO.csv
+[2025-04-11 18:04:10] : Job fc493042-10b9-45cd-921a-521e06e01c91 is finished
+[2025-04-11 18:13:56] : Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:13:58] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:14:00] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:14:02] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 18:14:02] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:14:03] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 18:14:04] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:14:04] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:23:56] : Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:23:59] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:00] : Job 61b4b04a-220c-463b-b426-2ab8f414405d is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:00] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:02] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:02] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:04] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:04] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:24:04] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:00] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:01] : Job 61b4b04a-220c-463b-b426-2ab8f414405d is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:01] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:03] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:03] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:05] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:05] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:05] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:37] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\6MPI_CL.csv
+[2025-04-11 18:34:38] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\6MPI_RV.csv
+[2025-04-11 18:34:41] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\6MPI_MC.csv
+[2025-04-11 18:34:43] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\6MPI_FR.csv
+[2025-04-11 18:34:45] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\6MPI_MO.csv
+[2025-04-11 18:34:45] : Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:45] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:52] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\5H9F.pdb
+[2025-04-11 18:34:52] : Job is created with job id: ffa2ee56-170b-41d5-a56c-b1e63a6eb861
+[2025-04-11 18:34:52] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:52] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\4B3M.pdb
+[2025-04-11 18:34:52] : Job is created with job id: acc993cd-e40d-42e9-808f-64e21fb246a5
+[2025-04-11 18:34:52] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:34:53] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:34:53] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:00] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:02] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:03] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:03] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:05] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:05] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:06] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:06] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\5Y58_CL.csv
+[2025-04-11 18:44:07] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\5Y58_RV.csv
+[2025-04-11 18:44:08] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\5Y58_MC.csv
+[2025-04-11 18:44:09] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\5Y58_FR.csv
+[2025-04-11 18:44:09] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\5Y58_MO.csv
+[2025-04-11 18:44:09] : Job 61b4b04a-220c-463b-b426-2ab8f414405d is finished
+[2025-04-11 18:44:25] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\5JEA.pdb
+[2025-04-11 18:44:25] : Job is created with job id: 6ecca1e9-920d-48d3-8771-ce7a08e75830
+[2025-04-11 18:44:25] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:44:26] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:53] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:44:54] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:02] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:04] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:04] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:06] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:06] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:06] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:27] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:37] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\4LFB_CL.csv
+[2025-04-11 18:54:39] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\4LFB_RV.csv
+[2025-04-11 18:54:41] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\4LFB_MC.csv
+[2025-04-11 18:54:43] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\4LFB_FR.csv
+[2025-04-11 18:54:45] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\4LFB_MO.csv
+[2025-04-11 18:54:45] : Job 8f4d17e2-5350-4073-ad09-727c63030ca3 is finished
+[2025-04-11 18:54:53] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\1N32.pdb
+[2025-04-11 18:54:53] : Job is created with job id: 03129f85-7155-4868-88dc-07db549b3729
+[2025-04-11 18:54:53] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 18:54:53] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:54] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 18:54:54] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:03] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:05] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:05] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:07] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:07] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:27] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:54] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:54] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:04:55] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:04] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:05] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:06] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:08] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:08] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:08] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:28] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:55] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:55] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:14:55] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:06] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:06] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:09] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:09] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:09] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:09] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\4U7U_CL.csv
+[2025-04-11 19:24:10] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\4U7U_RV.csv
+[2025-04-11 19:24:11] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\4U7U_MC.csv
+[2025-04-11 19:24:13] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\4U7U_FR.csv
+[2025-04-11 19:24:14] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\4U7U_MO.csv
+[2025-04-11 19:24:14] : Job 97e63015-8cd9-4251-b43d-957218b452c7 is finished
+[2025-04-11 19:24:23] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\1N33.pdb
+[2025-04-11 19:24:23] : Job is created with job id: a7c21d5c-3a89-4c9f-8c4e-37b4f0353469
+[2025-04-11 19:24:23] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 19:24:23] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:29] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:55] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:56] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:24:56] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:07] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:10] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:10] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:10] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:24] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:29] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:46] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\6CAQ_CL.csv
+[2025-04-11 19:34:48] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\6CAQ_RV.csv
+[2025-04-11 19:34:50] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\6CAQ_MC.csv
+[2025-04-11 19:34:53] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\6CAQ_FR.csv
+[2025-04-11 19:34:54] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\6CAQ_MO.csv
+[2025-04-11 19:34:54] : Job 326f7c13-4142-4d17-8ccb-c51e5a2cad82 is finished
+[2025-04-11 19:34:56] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:56] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:34:57] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:35:03] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\1XNQ.pdb
+[2025-04-11 19:35:03] : Job is created with job id: ca40b0ee-cf01-4445-844b-6bf33f6ba620
+[2025-04-11 19:35:03] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 19:35:04] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:10] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:11] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:14] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\5F9F_CL.csv
+[2025-04-11 19:44:15] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\5F9F_RV.csv
+[2025-04-11 19:44:16] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\5F9F_MC.csv
+[2025-04-11 19:44:18] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\5F9F_FR.csv
+[2025-04-11 19:44:19] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\5F9F_MO.csv
+[2025-04-11 19:44:19] : Job f7dc1e3f-6bd9-411e-bf82-4c992e359f0c is finished
+[2025-04-11 19:44:25] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:28] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\7Z4D.pdb
+[2025-04-11 19:44:28] : Job is created with job id: 28152a52-d8dc-4968-b306-df02de0c50fa
+[2025-04-11 19:44:28] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 19:44:28] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:30] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:57] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:57] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:44:57] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:45:04] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:11] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:11] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:12] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:26] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:29] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:31] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:57] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:58] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:54:58] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 19:55:05] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:12] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:12] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:12] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:26] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:30] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:31] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:58] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:59] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:04:59] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:05:06] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:13] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:13] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:27] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:31] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:32] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:59] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:14:59] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:15:00] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:15:06] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:24:14] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 20:24:14] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:24:28] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:24:31] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 20:24:33] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:25:00] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:25:00] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:25:00] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:25:07] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:34:14] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:34:14] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 20:34:14] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:34:29] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:34:32] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 20:34:34] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:35:00] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:35:01] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:35:01] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:35:08] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:44:15] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 20:44:15] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:44:15] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:44:29] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:44:33] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 20:44:34] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:45:01] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:45:01] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:45:02] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:45:08] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:54:16] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 20:54:16] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:54:16] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:54:30] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:54:33] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 20:54:35] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:55:02] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:55:02] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:55:02] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 20:55:09] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:04:17] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:04:17] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 21:04:17] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:04:30] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:04:34] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 21:04:35] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:05:02] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:05:02] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:05:03] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:05:10] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:14:17] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:14:17] : Job d7e8ce23-052d-4786-adf0-677f458240cb is still processing. Sleeping for 10 minutes
+[2025-04-11 21:14:17] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:14:31] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:14:34] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 21:14:36] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:15:03] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:15:03] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:15:03] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:15:10] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:24:18] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:24:18] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:24:31] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:24:35] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 21:24:37] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:25:03] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:25:04] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:25:04] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:25:12] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:25:27] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\7A0S_CL.csv
+[2025-04-11 21:25:29] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\7A0S_RV.csv
+[2025-04-11 21:25:32] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\7A0S_MC.csv
+[2025-04-11 21:25:35] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\7A0S_FR.csv
+[2025-04-11 21:25:37] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\7A0S_MO.csv
+[2025-04-11 21:25:37] : Job d7e8ce23-052d-4786-adf0-677f458240cb is finished
+[2025-04-11 21:25:43] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\4ZT0.pdb
+[2025-04-11 21:25:43] : Job is created with job id: ce077c57-4ea9-4845-a0f6-2a7f0ed7410d
+[2025-04-11 21:25:43] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 21:25:43] : Job ce077c57-4ea9-4845-a0f6-2a7f0ed7410d is still processing. Sleeping for 10 minutes
+[2025-04-11 21:34:19] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:34:32] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:34:36] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 21:34:37] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:35:04] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:35:04] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:35:05] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:35:13] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:35:24] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\4WF9_CL.csv
+[2025-04-11 21:35:26] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\4WF9_RV.csv
+[2025-04-11 21:35:29] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\4WF9_MC.csv
+[2025-04-11 21:35:32] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\4WF9_FR.csv
+[2025-04-11 21:35:35] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\4WF9_MO.csv
+[2025-04-11 21:35:35] : Job 3b51f21f-464f-4de2-b72a-ca8b056fb603 is finished
+[2025-04-11 21:35:43] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\5XUZ.pdb
+[2025-04-11 21:35:43] : Job is created with job id: f5ed0e7f-bd2c-49ea-9579-3a0969c7b36b
+[2025-04-11 21:35:43] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 21:35:44] : Job f5ed0e7f-bd2c-49ea-9579-3a0969c7b36b is still processing. Sleeping for 10 minutes
+[2025-04-11 21:35:44] : Job ce077c57-4ea9-4845-a0f6-2a7f0ed7410d is still processing. Sleeping for 10 minutes
+[2025-04-11 21:44:19] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:44:33] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:44:36] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 21:44:38] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:45:04] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:45:05] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:45:08] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\5H9F_CL.csv
+[2025-04-11 21:45:09] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\5H9F_RV.csv
+[2025-04-11 21:45:10] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\5H9F_MC.csv
+[2025-04-11 21:45:11] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\5H9F_FR.csv
+[2025-04-11 21:45:12] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\5H9F_MO.csv
+[2025-04-11 21:45:12] : Job ffa2ee56-170b-41d5-a56c-b1e63a6eb861 is finished
+[2025-04-11 21:45:14] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:45:18] : Form submitted successfully for Data\Raw\RCSB\PDB_Files\7K98.pdb
+[2025-04-11 21:45:18] : Job is created with job id: 637fb6d0-4d9a-43ee-87b8-09a229f70f61
+[2025-04-11 21:45:18] : Threader: Job 24d6e800-bf47-48cf-9fea-c5b14385e670 is finished.
+[2025-04-11 21:45:19] : Job 637fb6d0-4d9a-43ee-87b8-09a229f70f61 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:45:44] : Job f5ed0e7f-bd2c-49ea-9579-3a0969c7b36b is still processing. Sleeping for 10 minutes
+[2025-04-11 21:45:45] : Job ce077c57-4ea9-4845-a0f6-2a7f0ed7410d is still processing. Sleeping for 10 minutes
+[2025-04-11 21:54:20] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:54:33] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:54:37] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 21:54:38] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:55:05] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:55:06] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:55:14] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:55:19] : Job 637fb6d0-4d9a-43ee-87b8-09a229f70f61 is still processing. Sleeping for 10 minutes
+[2025-04-11 21:55:45] : Job f5ed0e7f-bd2c-49ea-9579-3a0969c7b36b is still processing. Sleeping for 10 minutes
+[2025-04-11 21:55:45] : Job ce077c57-4ea9-4845-a0f6-2a7f0ed7410d is still processing. Sleeping for 10 minutes
+[2025-04-11 22:04:21] : Job 3c6e8a6b-b06f-4ba9-be9d-fe4797e0eb42 is still processing. Sleeping for 10 minutes
+[2025-04-11 22:04:34] : Job a7c21d5c-3a89-4c9f-8c4e-37b4f0353469 is still processing. Sleeping for 10 minutes
+[2025-04-11 22:04:37] : Job 28152a52-d8dc-4968-b306-df02de0c50fa is still processing. Sleeping for 10 minutes
+[2025-04-11 22:04:39] : Job 6ecca1e9-920d-48d3-8771-ce7a08e75830 is still processing. Sleeping for 10 minutes
+[2025-04-11 22:05:06] : Job 03129f85-7155-4868-88dc-07db549b3729 is still processing. Sleeping for 10 minutes
+[2025-04-11 22:05:15] : Job ca40b0ee-cf01-4445-844b-6bf33f6ba620 is still processing. Sleeping for 10 minutes
+[2025-04-11 22:05:20] : Job 637fb6d0-4d9a-43ee-87b8-09a229f70f61 is still processing. Sleeping for 10 minutes
+[2025-04-11 22:05:43] : File for CL downloaded and saved as Data\Raw\AnnotationTools\Annotations\4B3M_CL.csv
+[2025-04-11 22:05:45] : Job f5ed0e7f-bd2c-49ea-9579-3a0969c7b36b is still processing. Sleeping for 10 minutes
+[2025-04-11 22:05:45] : File for RV downloaded and saved as Data\Raw\AnnotationTools\Annotations\4B3M_RV.csv
+[2025-04-11 22:05:46] : Job ce077c57-4ea9-4845-a0f6-2a7f0ed7410d is still processing. Sleeping for 10 minutes
+[2025-04-11 22:05:48] : File for MC downloaded and saved as Data\Raw\AnnotationTools\Annotations\4B3M_MC.csv
+[2025-04-11 22:05:51] : File for FR downloaded and saved as Data\Raw\AnnotationTools\Annotations\4B3M_FR.csv
+[2025-04-11 22:05:52] : File for MO downloaded and saved as Data\Raw\AnnotationTools\Annotations\4B3M_MO.csv
+[2025-04-11 22:05:52] : Job acc993cd-e40d-42e9-808f-64e21fb246a5 is finished

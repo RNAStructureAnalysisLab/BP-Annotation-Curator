@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,,8,,9,1-9,3-6,4-7
+1,HL_5BJO_001,5BJO,0.0000,1,G-quadruplex fragment,E,RNA (36-MER),G,9,A,10,G,12,G,13,A,14,G,15,G,16,IU,17,C,18,cWW,cWH,cWH
+2,HL_5BJO_002,5BJO,0.6474,0,G-quadruplex fragment,E,RNA (36-MER),G,20,A,21,G,22,G,23,A,24,G,25,G,26,U,27,C,28,cWW,cWH,cWH

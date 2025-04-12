@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,1-7,2-6
+1,HL_4PR6_001,4PR6,0.1014,3,Pseudoknot,B,HDV RIBOZYME SELF-CLEAVED,C,119,U,120,C,121,C,122,C,124||A,G,125,G,128,cWW,tWW
+2,HL_3NKB_001,3NKB,0.0000,2,Pseudoknot,B,The hepatitis delta virus ribozyme,C,20,U,21,C,22,C,23,C,25,G,26,G,28,cWW,tWW
+3,HL_4PRF_001,4PRF,0.3659,3,Pseudoknot,B,Hepatitis Delta virus ribozyme,C,119,U,120,C,121,C,122,C,124,G,125,G,128,cWW,ntWW

@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,break,,3,,4,,5,,6,,7,break,,8,,9,,10,,11,1-11,2-3,5-10,6-9,7-8
+1,J3_3D2V_001,3D2V,0.0000,2,A,TPP riboswitch (THI element),C,6,A,7,*,U,39,U,40,G,42,A,44,C,45,*,G,70,G,71,A,72,G,73,cWW,cWW,tSH,tHS,cWW
+2,J3_8F4O_001,8F4O,0.7007,2,B,TPP riboswitch (THI element),U,14,C,15,*,G,51,U,52||A,A,53,A,56,C,57,*,G,82,G,83,A,84,A,85,cWW,cWW,,tHS,cWW

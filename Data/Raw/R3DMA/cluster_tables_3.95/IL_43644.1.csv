@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,,8,1-8,2-7,3-6,4-5
+1,IL_5J7L_327,5J7L,0.0000,0,Other IL,DA,LSU rRNA,C,2103,C,2104,U,2105,U,2106,*,A,2183,A,2184,U,2185,G,2186,cWW,ncWW,ntHS,ncWW
+2,IL_5EW4_001,5EW4,0.3180,0,Tandem non-canonical cWW pairs,B+A,RNA (22-mer),C,14,C,15,C,16,G,17,*,C,8,C,9,C,10,G,11,cWW,cWw,cBW,cWW

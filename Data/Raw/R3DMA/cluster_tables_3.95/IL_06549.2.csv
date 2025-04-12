@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,break,,3,,4,1-4,2-3
+1,IL_4WF9_027,4WF9,0.1414,4,Multiple bulged bases,X,LSU rRNA,G,820,G,822,*,C,832,C,836,cWW,cWW
+2,IL_7A0S_021,7A0S,0.1129,4,Multiple bulged bases,X,LSU rRNA,G,788,A,790,*,U,800,C,804,cWW,cWW
+3,IL_5J7L_265,5J7L,0.1273,4,Multiple bulged bases,DA,LSU rRNA,G,775,G,777,*,C,787,C,791,cWW,cWW
+4,IL_8P9A_261,8P9A,0.0000,4,Multiple bulged bases (H),AR,LSU rRNA,G,907,G,909,*,U,919,C,923,cWW,cWW
+5,IL_8CRE_036,8CRE,0.0377,4,,1,LSU rRNA,G,903,G,905,*,U,915,C,919,cWW,cWW
+6,IL_9DFE_021,9DFE,0.1376,4,,1A,LSU rRNA,G,775,A,777,*,U,787,C,791,cWW,cWW

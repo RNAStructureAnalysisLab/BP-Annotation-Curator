@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,1-7,2-6,4-5
+1,HL_8VU0_001,8VU0,0.6174,4,,C,tRNA,C,13,A,14,G,15,G,16,U,20,A,22,G,23,cWW,cWS,ntWW
+2,HL_6UFM_001,6UFM,0.0000,4,,A,tRNA,C,13,A,14,G,15,G,16,U,20,A,22,G,23,cWW,,
+3,HL_7OSM_115,7OSM,0.8428,3,tRNA D-loop,ASIT,tRNA,C,13,A,14,G,15,U,16,G,19,A,21,G,22,ncWW,,

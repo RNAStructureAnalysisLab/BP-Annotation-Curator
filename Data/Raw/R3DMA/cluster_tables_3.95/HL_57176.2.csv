@@ -1,0 +1,15 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,1-5
+1,HL_5NDH_002,5NDH,0.3924,1,,B,RNA (16-mer),G,6,A,7,C,8,G,9,C,11,cWW
+2,HL_5VJ9_003,5VJ9,0.3745,1,Pseudoknot geometry with 3' bulge,C,RNA (16-mer),G,6,A,7,C,8,G,9,C,11,cWW
+3,HL_5NDI_002,5NDI,0.3919,1,Pseudoknot geometry with 3' bulge,B,RNA (20-mer),G,8,A,9,C,10,G,11,C,13,cWW
+4,HL_9DFE_039,9DFE,0.4430,1,Pseudoknot geometry with 3' bulge (H),1A,LSU rRNA,C,1631,A,1631|||A,A,1632,G,1633,G,1635,cWW
+5,HL_7A0S_073,7A0S,0.3758,1,Pseudoknot geometry with 3' bulge,X,LSU rRNA,U,1647,C,1648,A,1649,A,1650,G,1652,ncWW
+6,HL_5J7L_166,5J7L,0.2328,2,Pseudoknot geometry with 3' bulge,DA,LSU rRNA,G,1324,U,1326,A,1327,A,1328,C,1330,cWW
+7,HL_4V9F_035,4V9F,0.0000,2,Pseudoknot geometry with 3' bulge,0,LSU rRNA,G,1430,U,1432,G,1433,A,1434,C,1436,cWW
+8,HL_4WF9_033,4WF9,0.1382,2,Pseudoknot geometry with 3' bulge,X,LSU rRNA,G,1361,U,1363,C,1364,G,1365,C,1367,cWW
+9,HL_9DFE_032,9DFE,0.1766,2,Pseudoknot geometry with 3' bulge (H),1A,LSU rRNA,G,1324,U,1326,C,1327,G,1328,C,1330,cWW
+10,HL_7A0S_033,7A0S,0.1664,2,Pseudoknot geometry with 3' bulge,X,LSU rRNA,G,1337,U,1339,C,1340,G,1341,C,1343,cWW
+11,HL_8CRE_031,8CRE,0.2744,2,Pseudoknot geometry with 3' bulge (H),1,LSU rRNA,A,1502,C,1504,A,1505,G,1506,U,1508,cWW
+12,HL_8P9A_144,8P9A,0.2638,2,Pseudoknot geometry with 3' bulge (H),AR,LSU rRNA,A,1506,C,1508,A,1509,G,1510,U,1512,cWW
+13,HL_5J7L_170,5J7L,0.2118,2,Pseudoknot geometry with 3' bulge,DA,LSU rRNA,G,1492,A,1494,A,1495,A,1496,C,1498,cWW
+14,HL_9DFE_036,9DFE,0.2698,2,Pseudoknot geometry with 3' bulge (H),1A,LSU rRNA,G,1492,A,1494,A,1495,A,1496,C,1498,cWW

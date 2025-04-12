@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13,,14,,15,1-2,1-15,2-14
+1,HL_5D5L_002,5D5L,0.4190,1,,A,PreQ1-II riboswitch,U,28,A,29,C,30,U,31,U,32,A,33,U,35,U,36,C,37,C,38,U,39,U,40,U,41,G,42,A,43,,cWW,cWW
+2,HL_4JF2_002,4JF2,0.0000,1,,A,PreQ1-II Riboswitch,U,28,A,29,C,30,U,31,U,32,U,34,U,35,U,36,C,37,C,38,U,39,U,40,U,41,G,42,A,43,,cWW,cWW
+3,HL_8P9A_236,8P9A,0.5208,0,Pseudoknot geometry (H),sR,SSU rRNA,A,829,U,830,U,831,U,832,U,833,G,834,U,835,U,836,G,837,G,838,U,839,U,840,U,841,C,842,U,843,ncSH,ncWW,

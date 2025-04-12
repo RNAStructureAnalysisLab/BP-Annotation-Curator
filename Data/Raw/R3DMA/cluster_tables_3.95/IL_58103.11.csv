@@ -1,0 +1,10 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,,8,,9,,10,1-3,1-10,4-10,5-6,6-9
+1,IL_4WF9_115,4WF9,0.2116,0,Symmetric double minor groove platform,Y,5S rRNA,U,32,U,33,C,34,C,35,C,36,*,G,42,A,43,A,44,C,45,A,46,,cWW,ncWS,cWW,ntSW
+2,IL_8P9A_368,8P9A,0.1737,0,Symmetric double minor groove platform (H),AS,5S rRNA,U,32,U,33,C,34,C,35,C,36,*,G,41,A,42,U,43,C,44,A,45,ncSH,cWW,cWS,cWW,tSW
+3,IL_8OI5_138,8OI5,0.1699,0,,3,5S rRNA,U,32,C,33,C,34,C,35,C,36,*,G,41,A,42,U,43,C,44,A,45,ncSH,cWW,cWS,cWW,ntSW
+4,IL_9DFE_113,9DFE,0.1101,0,,1B,5S rRNA,U,34,U,35,C,36,C,37,C,38,*,G,44,A,45,A,46,C,47,A,48,ncSH,cWW,cWS,cWW,tSW
+5,IL_4V9F_104,4V9F,0.0000,0,Symmetric double minor groove platform,9,5S rRNA,U,33,A,34,C,35,C,36,C,37,*,G,43,A,44,A,45,C,46,A,47,cSH,cWW,cWS,cWW,tSW
+6,IL_5NS3_002,5NS3,0.1060,0,Symmetric double minor groove platform,C,double-stranded RNA,A,34,C,35,C,36,C,37,C,38,*,G,44,A,45,A,46,C,47,U,48,ncSH,cWW,cWS,cWW,tSW
+7,IL_5J7L_358,5J7L,0.2282,0,Symmetric double minor groove platform,DB,5S rRNA,A,34,C,35,C,36,C,37,C,38,*,G,44,A,45,A,46,C,47,U,48,ncSH,cWW,cWS,cWW,tSW
+8,IL_7A0S_113,7A0S,0.4122,0,,Y,5S rRNA,A,36,C,37,C,38,C,39,C,40,*,G,46,A,47,A,48,C,49,U,50,ncSH,ncWW,,cWW,
+9,IL_1MJI_004,1MJI,0.7368,0,Symmetric double minor groove platform,D,5S rRNA fragment,A,34,C,35,C,36,C,37,C,38,*,G,44,A,45,A,46,C,47,U,48,ncSH,cWW,cWS,cWW,tSW

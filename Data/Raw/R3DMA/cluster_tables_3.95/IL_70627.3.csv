@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,break,,7,,8,,9,,10,1-10,3-8,6-7
+1,IL_4V9F_052,4V9F,0.7732,2,UAA/GAN,0,LSU rRNA,C,1483,G,1484,A,1485,A,1487,U,1488,G,1489,*,C,1456,U,1457,A,1458,G,1460,cWW,tHW,cWW
+2,IL_4GXY_004,4GXY,0.0000,1,,A,Adenosylcobalamin riboswitch,G,148,G,149,A,150,G,151,U,152,C,153,*,G,76,U,77,G,78,C,80,cWW,tHW,cWW
+3,IL_6VMY_002,6VMY,0.1594,1,,A,Cobalamin riboswitch,A,297,G,298,A,299,G,300,C,301,C,302,*,G,279,U,280,A,281,U,283,cWW,tHW,cWW

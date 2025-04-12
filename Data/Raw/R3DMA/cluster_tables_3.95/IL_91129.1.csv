@@ -1,0 +1,11 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,1-6,2-5,3-4
+1,IL_8CRE_450,8CRE,0.7064,0,Other IL (H),CM,SSU rRNA,U,1234,U,1235,U,1236,*,A,1219,C,1220,A,1221,cWW,,cWW
+2,IL_3LOA_003,3LOA,0.6222,1,Decoding loop with one bulged A,A+B,RNA (21-mer) + RNA (23-mer),C,1407,A,1408,C,1409,*,G,1491,A,1493,G,1494,cWW,,cWW
+3,IL_2ET8_003,2ET8,0.4885,1,Decoding loop related,B+A,RNA (22-mer),C,29,A,30,C,31,*,G,15,A,17,G,18,cWW,,cWW
+4,IL_7A0S_092,7A0S,0.3973,1,Other IL,X,LSU rRNA,C,2570,G,2571,U,2572,*,A,2579,C,2580,G,2582,cWW,,cWW
+5,IL_7Z4D_016,7Z4D,0.3800,0,,C+A,Target strand of 10 nucleotide complementary DNA substrate,DC,10,DG,11,DT,12,*,A,9,A,10,G,11,cWW,ncWH,cWW
+6,IL_7MLW_006,7MLW,0.3045,0,Isolated tWW contact,F,Guanidine-I riboswitch,A,92,C,93,G,94,*,C,71,U,72,U,73,cWW,,cWW
+7,IL_8AF0_002,8AF0,0.2811,0,Isolated cWH basepair,C+D,RNA (19-mer),G,34,U,35,C,36,*,G,34,U,35,C,36,cWW,cWH,cWW
+8,IL_406D_004,406D,0.0000,0,Isolated cWH basepair,A+E,RNA (17-mer),U,8||B,G,9||B,G,10||B,*,U,25||B,G,26||B,G,27||B,cWW,cWH,cWW
+9,IL_8CRE_405,8CRE,0.3502,1,Isolated cWH basepair (H),CM,SSU rRNA,A,263,U,265,C,266,*,G,285,A,286,U,287,cWW,,cWW
+10,IL_8AMI_001,8AMI,0.5051,0,Other IL,A+B,RNA (9-mer),U,4,G,5,G,6,*,U,4,G,5||A,G,6,cWW,,cWW

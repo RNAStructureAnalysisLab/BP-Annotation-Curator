@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,1-10,5-6,5-7
+1,HL_4WF9_067,4WF9,0.1903,0,Pseudoknot with intercalation,X,LSU rRNA,U,59,U,60,A,61,C,62,U,63,A,64,A,65,C,66,G,67,A,68,cWW,,ncSH
+2,HL_7A0S_001,7A0S,0.0000,0,Pseudoknot with intercalation,X,LSU rRNA,C,58,G,59,A,60,U,61,U,62,A,63,C,64,C,65,U,66,G,67,cWW,,cSH
+3,HL_4V9F_001,4V9F,0.1696,0,Pseudoknot with intercalation,0,LSU rRNA,U,55,G,56,C,57,C,58,A,59,A,60,G,61,C,62,U,63,G,64,cWW,cSH,
+4,HL_9DFE_001,9DFE,0.1962,0,Pseudoknot with intercalation (H),1A,LSU rRNA,U,59,G,60,G,61,C,62,U,63,A,64,C,65,C,66,U,67,G,68,cWW,,cSH
+5,HL_8CRE_074,8CRE,0.2305,0,Pseudoknot with intercalation (H),4,5.8S rRNA,C,47,A,48,G,49,C,50,G,51,A,52,A,53,A,54,U,55,G,56,cWW,,
+6,HL_8P9A_186,8P9A,0.2536,0,Pseudoknot with intercalation (H),AT,5.8S rRNA,C,47,A,48,G,49,C,50,G,51,A,52,A,53,A,54,U,55,G,56,cWW,,

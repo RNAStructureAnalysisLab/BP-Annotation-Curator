@@ -1,0 +1,2 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,,8,,9,break,,10,,11,,12,break,,13,,14,,15,,16,1-16,2-15,4-8,5-6,9-10,11-14,12-13
+1,J4_6VMY_001,6VMY,0.0000,2,A,Cobalamin riboswitch,G,245,G,246,A,247,A,248,A,249,*,U,264,G,265,C,266,G,267,*,C,275,A,276,C,277,*,G,304,A,306,A,308,C,309,cWW,cWW,ncSs,cWW,cWW,cWw,cWW

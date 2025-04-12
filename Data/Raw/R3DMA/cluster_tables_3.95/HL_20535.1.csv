@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,1-6,2-5
+1,HL_5VOE_001,5VOE,0.0000,2,A,Aptamer 11F7t (36-MER),G,15,A,16,UFT,17,A,19,UFT,20,CFL,22,cWW,cWH
+2,HL_8P9A_235,8P9A,0.6018,3,sR,SSU rRNA,U,715,C,716,C,717,G,720,G,722,G,723,ncWW,

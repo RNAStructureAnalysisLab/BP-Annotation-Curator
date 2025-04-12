@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,break,,6,,7,1-7,5-6
+1,IL_3PDR_001,3PDR,0.7027,1,,X,M-box riboswitch (ykoK leader),C,163,G,164,A,165,U,167,G,168,*,C,21,G,22,cWW,cWW
+2,IL_5J7L_036,5J7L,0.0778,0,Left turn,AA,SSU rRNA,G,774,G,775,G,776,A,777,G,778,*,U,804,C,805,cWW,cWW
+3,IL_4LFB_032,4LFB,0.0000,0,Left turn,A,SSU rRNA,G,774,G,775,G,776,A,777,G,778,*,U,804,C,805,cWW,cWW
+4,IL_6CZR_144,6CZR,0.1162,0,Left turn,1a,SSU rRNA,G,758,G,759,G,760,A,761,G,762,*,U,788,C,789,cWW,cWW

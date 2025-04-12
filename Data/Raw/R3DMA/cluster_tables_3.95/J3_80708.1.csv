@@ -1,0 +1,2 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,,8,,9,,10,break,,11,,12,1-12,3-6,4-5,8-12,10-11
+1,J3_3E5C_001,3E5C,0.0000,0,A,SMK box (SAM-III) Riboswitch,C,6,G,7,A,8,A,9,*,U,35,G,36,U,37,A,38,A,39,C,40,*,G,47,G,48,cWW,ntHS,cWW,tWS,cWW

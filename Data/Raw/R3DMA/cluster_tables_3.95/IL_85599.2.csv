@@ -1,0 +1,10 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,1-5,1-6,2-5,3-4
+1,IL_1L9A_004,1L9A,0.5401,0,Isolated tHS basepair with bulges,B,signal recognition particle RNA S domain,U,132,A,133,U,134,*,A,163,G,164,G,165,ncWWa,cWW,tHS,ncWW
+2,IL_4V9F_076,4V9F,0.2688,1,Isolated tHS basepair with bulges,0,LSU rRNA,C,2122,A,2123,G,2124,*,C,2269,G,2270,G,2272,,cWW,tHS,cWW
+3,IL_9DFE_082,9DFE,0.2222,1,,1A,LSU rRNA,C,2081,A,2082,G,2083,*,C,2236,G,2237,G,2239,,cWW,tHS,cWW
+4,IL_9DFE_010,9DFE,0.2193,1,,1A,LSU rRNA,C,288,A,289,G,290,*,U,350,G,351,G,353,,cWW,tHS,cWW
+5,IL_5J7L_325,5J7L,0.0000,1,Isolated tHS basepair with bulges,DA,LSU rRNA,U,2081,A,2082,G,2083,*,U,2236,G,2237,G,2239,,cWW,tHS,cWW
+6,IL_8CRE_100,8CRE,0.1394,1,,1,LSU rRNA,U,2401,A,2402,G,2403,*,U,2576,G,2577,G,2579,,cWW,tHS,cWW
+7,IL_8P9A_323,8P9A,0.1561,1,Isolated tHS basepair with bulges (H),AR,LSU rRNA,U,2423,A,2424,G,2425,*,U,2604,G,2605,G,2607,,cWW,tHS,cWW
+8,IL_7A0S_077,7A0S,0.1534,1,Isolated tHS basepair with bulges,X,LSU rRNA,U,2064,A,2065,G,2066,*,C,2215,G,2216,G,2218,,cWW,ntHS,cWW
+9,IL_4WF9_082,4WF9,0.1666,1,Isolated tHS basepair with bulges,X,LSU rRNA,U,2108,A,2109,G,2110,*,C,2263,G,2264,G,2266,,cWW,tHS,cWW

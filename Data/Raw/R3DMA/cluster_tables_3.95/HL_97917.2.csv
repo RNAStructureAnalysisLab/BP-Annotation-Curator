@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,1-6,2-5
+1,HL_4PQV_003,4PQV,0.6411,1,A,Flavivirus 3' UTR stem loop IV,G,57,G,58,G,60,G,61,A,62,C,63,cWW,tSH
+2,HL_3OIN_001,3OIN,0.0000,2,C,RNA (14-mer),C,4,U,5,A,8,A,9,C,10,G,11,cWW,
+3,HL_8P9A_212,8P9A,0.7804,4,sR,SSU rRNA,U,1055,U,1056,A,1061,A,1062,U,1063,G,1064,cWW,ncwW

@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,,8,break,,9,,10,,11,,12,,13,,14,,15,1-15,3-13,4-12,5-6,6-11,7-10,8-9
+1,IL_8P9A_235,8P9A,0.0000,0,8x7 Sarcin-Ricin; G-bulge (H),AR,LSU rRNA,C,82,U,83,U,84,A,85,G,86,U,87,A,88,A,89,*,U,97,G,98,A,99,A,100,G,101,C,102,G,103,cWW,tSW,tHH,cSH,tWH,tHS,cWW
+2,IL_8CRE_006,8CRE,0.0779,0,,1,LSU rRNA,C,81,U,82,C,83,A,84,G,85,U,86,A,87,G,88,*,U,96,G,97,A,98,A,99,G,100,C,101,G,102,cWW,tSW,tHH,cSH,tWH,tHS,cWW

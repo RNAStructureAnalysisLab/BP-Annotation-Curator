@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,,7,break,,8,,9,,10,,11,,12,,13,,14,,15,break,,16,,17,1-17,3-4,5-10,6-9,7-8,13-14,15-16
+1,J4_1QF6_001,1QF6,0.0000,1,tRNA junction,B,tRNA,A,7,A,9,G,10,*,C,25,A,26,G,27,C,28,*,G,42,A,43,A,44,G,45,G7M,46,U,47,C,48,G,49,*,U,65,U,66,cWW,cWW,ncWw,cWW,cWW,ncSH,cWW
+2,J4_4V90_004,4V90,0.8130,1,tRNA junction,AV,tRNA,A,7,A,9,G,10,*,C,25,A,26,G,27,G,28,*,C,42,C,43,G,44,U,45,G,46,U,47,C,48,C,49,*,G,65,U,66,cWW,cWW,ncWW,,cWW,,cWW

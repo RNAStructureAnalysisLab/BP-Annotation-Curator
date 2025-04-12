@@ -1,0 +1,21 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,1-7,2-3,2-6,3-6,4-5
+1,IL_3PDR_004,3PDR,0.5416,0,Major groove platform with extra cWW,X,M-box riboswitch (ykoK leader),C,33,U,34,C,35,C,36,*,G,149,U,150,G,151,cWW,cSH,cwW,,cWW
+2,IL_4V9F_003,4V9F,0.5113,0,Major groove platform with extra cWW,0,LSU rRNA,C,440,A,441,A,442,C,443,*,G,39,C,40,G,41,cWW,cSH,cWWa,ncWW,cWW
+3,IL_8CRE_059,8CRE,0.3462,1,Major groove platform with extra cWW (H),1,LSU rRNA,G,1258,G,1260,U,1261,G,1262,*,C,1271,U,1272,C,1273,cWW,ncSH,,ncWw,cWW
+4,IL_8P9A_284,8P9A,0.3548,1,Major groove platform with extra cWW (H),AR,LSU rRNA,G,1262,G,1264,U,1265,G,1266,*,C,1275,U,1276,C,1277,cWW,cSH,,cWw,cWW
+5,IL_1MMS_002,1MMS,0.2958,1,Major groove platform with extra cWW,C,23S RIBOSOMAL RNA,G,1087,G,1089,U,1090,G,1091,*,C,1100,U,1101,C,1102,cWW,cSH,,cWw,cWW
+6,IL_5D8H_003,5D8H,0.2859,1,Major groove platform with extra cWW,A,LSU rRNA,G,1197,G,1199,U,1200,G,1201,*,C,1210,U,1211,C,1212,cWW,cSH,,cWw,cWW
+7,IL_4V9F_028,4V9F,0.1395,0,Major groove platform with extra cWW,0,LSU rRNA,G,830,U,831,U,832,G,833,*,C,849,U,850,C,851,cWW,cSH,,cWw,cWW
+8,IL_8CRE_034,8CRE,0.1054,0,Major groove platform with extra cWW (H),1,LSU rRNA,G,865,G,866,U,867,U,868,*,A,884,U,885,C,886,cWW,cSH,,cWw,cWW
+9,IL_8P9A_259,8P9A,0.0904,0,Major groove platform with extra cWW (H),AR,LSU rRNA,G,869,G,870,U,871,U,872,*,A,888,U,889,C,890,cWW,cSH,,cWw,cWW
+10,IL_9DFE_020,9DFE,0.0000,0,Major groove platform with extra cWW (H),1A,LSU rRNA,G,738,G,739,U,740,G,741,*,C,756,U,757,C,758,cWW,cSH,ntSH,cWw,cWW
+11,IL_7A0S_019,7A0S,0.0914,0,Major groove platform with extra cWW,X,LSU rRNA,G,751,G,752,U,753,G,754,*,C,769,U,770,C,771,cWW,cSH,,cWw,cWW
+12,IL_8CRE_403,8CRE,0.1543,1,Major groove platform with extra cWW (H),CM,SSU rRNA,U,257,U,259,U,260,C,261,*,G,202,U,203,A,204,cWW,cSH,,cWw,cWW
+13,IL_8P9A_386,8P9A,0.1613,1,Major groove platform with extra cWW (H),sR,SSU rRNA,U,259,U,261,U,262,C,263,*,G,204,U,205,A,206,cWW,cSH,,cWw,cWW
+14,IL_8P9A_332,8P9A,0.3238,1,Major groove minor groove platform with extra cWW (H),AR,LSU rRNA,U,2858,U,2859,U,2861,U,2862,*,G,2828,U,2829,G,2830,cWW,ncWH,,cWw,cWW
+15,IL_8CRE_113,8CRE,0.3336,1,Major groove minor groove platform with extra cWW (H),1,LSU rRNA,U,2830,U,2831,U,2833,U,2834,*,G,2800,U,2801,G,2802,cWW,,,cWw,cWW
+16,IL_4V9F_084,4V9F,0.3539,1,Major groove minor groove platform with extra cWW,0,LSU rRNA,G,2524,G,2525,U,2527,U,2528,*,G,2494,U,2495,C,2496,cWW,cSH,,cWw,cWW
+17,IL_5J7L_337,5J7L,0.4071,1,Major groove minor groove platform with extra cWW,DA,LSU rRNA,U,2489,G,2490,U,2492,U,2493,*,A,2459,U,2460,A,2461,cWW,cSH,,cWw,cWW
+18,IL_9DFE_094,9DFE,0.3761,1,Major groove minor groove platform with extra cWW (H),1A,LSU rRNA,G,2489,G,2490,U,2492,U,2493,*,A,2459,U,2460,C,2461,cWW,cSH,,cWw,cWW
+19,IL_4WF9_092,4WF9,0.3883,1,Major groove minor groove platform with extra cWW,X,LSU rRNA,G,2516,G,2517,U,2519,U,2520,*,A,2486,U,2487,C,2488,cWW,cSH,,cWw,cWW
+20,IL_7A0S_086,7A0S,0.3968,1,Major groove minor groove platform with extra cWW,X,LSU rRNA,G,2468,G,2469,U,2471,U,2472,*,A,2438,U,2439,C,2440,cWW,cSH,ncWB,cWw,cWW

@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,,7,break,,8,,9,,10,,11,,12,,13,,14,1-14,2-13,3-12,4-5,5-10,6-9,7-8
+1,IL_8CRE_041,8CRE,0.0674,0,,1,LSU rRNA,G,987,A,988,G,989,G,990,U,991,A,992,A,993,*,U,1048,A,1049,A,1050,A,1051,U,1052,A,1053,U,1054,cWW,ncWw,cWB,cSH,tWH,tHS,cWW
+2,IL_8P9A_266,8P9A,0.0000,0,7x7 Sarcin-Ricin with intercalated A; G-bulge (H),AR,LSU rRNA,G,991,A,992,G,993,G,994,U,995,A,996,A,997,*,U,1052,A,1053,A,1054,A,1055,U,1056,A,1057,U,1058,cWW,cwW,cWB,cSH,tWH,tHS,cWW
+3,IL_4WF9_031,4WF9,0.1830,0,7x7 Sarcin-Ricin with intercalated A; G-bulge,X,LSU rRNA,G,901,A,902,G,903,G,904,U,905,A,906,G,907,*,C,960,G,961,A,962,A,963,U,964,G,965,C,966,cWW,cWW,ncWB,cSH,tWH,tHS,cWW
+4,IL_5J7L_270,5J7L,0.2081,0,7x7 Sarcin-Ricin with intercalated A; G-bulge,DA,LSU rRNA,G,856,G,857,G,858,G,859,U,860,A,861,G,862,*,C,915,G,916,A,917,A,918,U,919,A,920,C,921,cWW,cWW,cWB,cSH,tWH,tHS,cWW

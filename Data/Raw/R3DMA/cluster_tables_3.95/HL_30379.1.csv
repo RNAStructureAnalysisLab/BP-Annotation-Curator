@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,1-4
+1,HL_8J72_001,8J72,0.0000,1,Mini UNCG related,C,lncRNA Trincr1,C,4,A,6,A,7,G,8,cWW
+2,HL_8CRE_208,8CRE,0.9202,2,,CM,SSU rRNA,C,762,U,764,U,765,G,767,cWW

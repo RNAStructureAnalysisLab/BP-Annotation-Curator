@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,break,,7,,8,,9,,10,,11,,12,break,,13,,14,1-14,3-4,3-9,5-8,6-7,10-11,12-13
+1,J4_2AKE_003,2AKE,0.5969,2,tRNA junction,B,tRNA,G,7,G,9,G,10,*,C,25,G,26,U,27,*,A,43,A,44,G,45,U,47,U,48,G,49,*,U,65,C,66,cWW,cWW,,ncWW,ncWW,ncSH,cWW
+2,J4_5E81_030,5E81,0.0000,2,tRNA junction,3L,tRNA,U,7,A,9,G,10,*,C,25,A,26,G,27,*,U,43,U,44,G,45,G,46,C,48,G,49,*,C,65,A,66,cWW,cWW,,,ncWW,,cWW
+3,J4_5E7K_031,5E7K,0.2446,2,tRNA junction (H),3L,tRNA,U,7,A,9,G,10,*,C,25,A,26,G,27,*,U,43,U,44,G,45,G,46,C,48,G,49,*,C,65,A,66,cWW,ncWW,,,cWW,,cWW
+4,J4_1U0B_001,1U0B,0.3832,1,tRNA junction,A,tRNA,U,7,A,9,A,10,*,U,25,A,26,G,27,*,U,43,C,44,U,45,A,46,G,48,U,49,*,A,65,A,66,cWW,cWW,cHW,ncWB,cWW,,cWW

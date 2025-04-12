@@ -1,0 +1,47 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,1-6,2-5,3-4
+1,IL_8CRE_432,8CRE,0.4106,1,Isolated cWH basepair (H),CM,SSU rRNA,G,942,U,943,U,945,*,G,853,A,854,C,855,cWW,,ncWWa
+2,IL_406D_006,406D,0.3875,0,Isolated cWH basepair,E+A,RNA (17-mer),U,25||D,G,26||D,G,27||D,*,U,8||D,G,9||D,G,10||D,ncWW,ncHW,cWW
+3,IL_406D_002,406D,0.2064,0,Isolated cWH basepair,E+A,RNA (17-mer),U,25||A,G,26||A,G,27||A,*,U,8||A,G,9||A,G,10||A,cWW,ncHW,cWW
+4,IL_406D_005,406D,0.1890,0,Isolated cWH basepair,A+E,RNA (17-mer),U,8||C,G,9||C,G,10||C,*,U,25||C,G,26||C,G,27||C,cWW,ncHW,cWW
+5,IL_4E5C_001,4E5C,0.1053,0,Isolated cWH basepair,B+A,RNA (19-mer),C,9,G,10,G,11,*,C,9,G,10,G,11,cWW,cHW,cWW
+6,IL_4KQ0_003,4KQ0,0.1144,0,Isolated cWH basepair,B+E,RNA (19-mer),C,9,G,10,G,11,*,C,9,G,10,G,11,cWW,cHW,cWW
+7,IL_3R1D_014,3R1D,0.0878,0,Isolated cWH basepair,A+B,RNA (11-mer),C,2||A,GRB,3||A,G,4||A,*,C,8,G,9,G,10,cWW,cHW,cWW
+8,IL_3SJ2_001,3SJ2,0.0740,0,Isolated cWH basepair,A+B,RNA (19-mer) + RNA (17-mer),C,7,G,8,G,9,*,C,13,G,14,G,15,cWW,cHW,cWW
+9,IL_3SJ2_003,3SJ2,0.0614,0,Isolated cWH basepair,B+A,RNA (17-mer),C,7,G,8,G,9,*,C,13,G,14,G,15,cWW,cHW,cWW
+10,IL_3R1C_018,3R1C,0.0640,0,Isolated cWH basepair,Q+R,RNA (8-mer),C,5,G,6,G,7,*,C,2,G,3,G,4,cWW,cHW,cWW
+11,IL_3R1C_012,3R1C,0.0629,0,Isolated cWH basepair,L+K,RNA (8-mer),C,2,G,3,G,4,*,C,5,G,6,G,7,cWW,cHW,cWW
+12,IL_3R1C_011,3R1C,0.0554,0,Isolated cWH basepair,K+L,RNA (8-mer),C,2,G,3,G,4,*,C,5,G,6,G,7,cWW,cHW,cWW
+13,IL_3R1C_017,3R1C,0.0625,0,Isolated cWH basepair,R+Q,RNA (8-mer),C,5,G,6,G,7,*,C,2,G,3,G,4,cWW,cHW,cWW
+14,IL_3SJ2_002,3SJ2,0.0615,0,Isolated cWH basepair,A+B,RNA (19-mer) + RNA (17-mer),C,10,G,11,G,12,*,C,10,G,11,G,12,cWW,cHW,cWW
+15,IL_3CZW_001,3CZW,0.0000,0,Isolated cWH basepair,X,RNA (16-mer),U,7,G,8,A,9,*,U,10||||2_555,G,11||||2_555,A,12||||2_555,cWW,cHW,cWW
+16,IL_2R1S_002,2R1S,0.0922,0,Isolated cWH basepair,B+A,RNA (13-mer),5BU,19,G,20,A,21,*,5BU,6,G,7,A,8,cWW,cHW,cWW
+17,IL_3W3S_003,3W3S,0.0808,0,Isolated cWH basepair,B,Selenocysteine transfer RNA,G,47|||A,G,47|||B,U,47|||C,*,A,47|||N,G,47|||O,C,47|||P,cWW,cHW,cWW
+18,IL_4KTG_003,4KTG,0.1264,0,,E+B,RNA (19-mer),G,209,G,210,C,211,*,G,209,G,210,C,211,cWW,cHW,cWW
+19,IL_3R1D_003,3R1D,0.1260,0,Isolated cWH basepair,B+A,RNA (11-mer),C,2||A,GRB,3,G,4,*,C,8,G,9,G,10,cWW,cHW,cWW
+20,IL_4J50_003,4J50,0.1620,0,Isolated cWH basepair,A+B,RNA (19-mer),C,13,A,14,G,15,*,C,7,A,8,G,9,cWW,,cWW
+21,IL_4J50_001,4J50,0.1620,0,Isolated cWH basepair,B+A,RNA (19-mer),C,13,A,14,G,15,*,C,7,A,8,G,9,cWW,,cWW
+22,IL_6IA2_003,6IA2,0.1653,0,Isolated cWH basepair,A+B,RNA (19-mer),C,9,G,10||A,G,11,*,C,9,G,10||A,G,11||A,cWW,cHW,cWW
+23,IL_4KTG_001,4KTG,0.1534,0,,B+E,RNA (19-mer),G,203,G,204,C,205,*,G,215,G,216,C,217,cWW,cHW,cWW
+24,IL_4KTG_005,4KTG,0.1559,0,,E+B,RNA (19-mer),G,203,G,204,C,205,*,G,215,G,216,C,217,cWW,cHW,cWW
+25,IL_4KQ0_001,4KQ0,0.1332,0,Isolated cWH basepair,B+E,RNA (19-mer),C,3,G,4,G,5,*,C,15,G,16,G,17,cWW,cHW,cWW
+26,IL_4KQ0_005,4KQ0,0.1322,0,Isolated cWH basepair,E+B,RNA (19-mer),C,3,G,4,G,5,*,C,15,G,16,G,17,cWW,cHW,cWW
+27,IL_3R1D_002,3R1D,0.1571,0,Isolated cWH basepair,A+B,RNA (11-mer),C,5,G,6,G,7,*,C,5,G,6,G,7,cWW,cHW,cWW
+28,IL_4WF9_045,4WF9,0.1836,0,Isolated cWH basepair,X,LSU rRNA,C,1277,G,1278,C,1279,*,G,1243,G,1244,G,1245,cWW,cHW,cWW
+29,IL_5J7L_011,5J7L,0.1564,0,Isolated cWH basepair,AA,SSU rRNA,C,176,G,177,C,178,*,G,144,G,145,G,146,cWW,cHW,cWW
+30,IL_2H1M_002,2H1M,0.2021,0,Isolated cWH basepair,A+B,RNA (16-mer),A,5,G,6,U,7,*,A,26,A,27,U,28,cWW,ncHW,cWW
+31,IL_2H1M_003,2H1M,0.1640,0,Isolated cWH basepair,B+A,RNA (16-mer),A,21,G,22,U,23,*,A,10,A,11,U,12,cWW,ncHW,cWW
+32,IL_3D0M_001,3D0M,0.1572,0,Isolated cWH basepair,X,RNA (16-mer),U,7,G,8,A,9,*,U,10||||16_545,G,11||||16_545,A,12||||16_545,cWW,cHW,ncWW
+33,IL_6RA4_002,6RA4,0.1591,0,Isolated cWH basepair,L+M,RNA (9-mer),U,403,G,404,A,405,*,U,403,G,404,A,405,cWW,cHW,cWW
+34,IL_4KQ0_002,4KQ0,0.1500,0,Isolated cWH basepair,B+E,RNA (19-mer),C,6,G,7,G,8,*,C,12,G,13,G,14,cWW,cHW,cWW
+35,IL_4KQ0_004,4KQ0,0.1510,0,Isolated cWH basepair,E+B,RNA (19-mer),C,6,G,7,G,8,*,C,12,G,13,G,14,cWW,cHW,cWW
+36,IL_4KTG_004,4KTG,0.1873,0,,B+E,RNA (19-mer),G,212,G,213,C,214,*,G,206,G,207,C,208,cWW,cHW,cWW
+37,IL_4KTG_002,4KTG,0.1930,0,,E+B,RNA (19-mer),G,212,G,213,C,214,*,G,206,G,207,C,208,cWW,cHW,cWW
+38,IL_4WF9_121,4WF9,0.2162,0,Isolated cWH basepair,Y,5S rRNA,C,110,A,111,G,112,*,U,3,G,4,G,5,cWW,ncHW,ncWWa
+39,IL_7QQX_005,7QQX,0.2470,0,,A+C,FANCF sgRNA + FANCF off-target5 target strand,U,12,G,13,C,14,*,DG,7,DG,8,DA,9,cWW,cHW,cWW
+40,IL_8CRE_411,8CRE,0.2201,0,Isolated cWH basepair (H),CM,SSU rRNA,G,387,G,388,A,389,*,U,404,A,405,C,406,cWW,cHW,cWW
+41,IL_8P9A_394,8P9A,0.2253,0,Isolated cWH basepair,sR,SSU rRNA,G,389,G,390,A,391,*,U,406,A,407,C,408,cWW,cHW,cWW
+42,IL_3R1E_001,3R1E,0.1951,0,Isolated cWH basepair,A+B,RNA (8-mer),C,2,GRB,3,G,4,*,C,5,G,6,G,7,cWW,cHW,cWW
+43,IL_5F5F_001,5F5F,0.2254,0,Isolated cWH basepair,B,RNA (20-mer),U,5,G,6,C,7,*,G,14,G,15,A,16,cWW,cHW,cWW
+44,IL_5F5F_003,5F5F,0.2142,0,Isolated cWH basepair,F,RNA (20-mer),U,5,G,6,C,7,*,G,14,G,15,A,16,cWW,cHW,cWW
+45,IL_8P9A_442,8P9A,0.2435,0,Isolated cWH basepair,sR,SSU rRNA,U,1290,G,1291,G,1292,*,C,1323,G,1324,A,1325,cWW,cHW,cWW
+46,IL_8P9A_464,8P9A,0.5724,0,Isolated tWW contact,sR,SSU rRNA,C,1711,A,1712,G,1713,*,U,1688,A,1689,G,1690,ncWW,,ncWW

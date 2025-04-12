@@ -1,0 +1,2 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,break,,6,,7,,8,,9,,10,break,,11,,12,,13,,14,,15,,16,1-16,2-7,3-4,5-6,7-15,8-14,10-11,12-13
+1,J4_6DME_001,6DME,0.0000,0,A,ppGpp Riboswitch,A,4,G,5,U,6,*,A,50,G,51,*,U,68,A,69,C,70,A,71,C,72,*,G,94,C,95,A,96,A,97,G,98,U,99,cWW,tSW,cWW,cWW,csS,ncSs,cWW,cSH

@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,,6,break,,7,,8,,9,,10,1-10,6-7
+1,IL_4KQY_006,4KQY,0.2147,0,Pseudoknot,A,SAM-I riboswitch,U,85,C,86,C,87,A,88,G,89,C,90,*,G,106,G,107,A,108,A,109,cWW,cWW
+2,IL_4AOB_004,4AOB,0.1278,0,Pseudoknot,A,SAM-I riboswitch,U,64,C,65,C,66,U,67,G,68,C,69,*,G,82,A,83,A,84,A,85,cWW,cWW
+3,IL_5FJC_004,5FJC,0.0000,0,Pseudoknot,A,SAM-I riboswitch,U,64,C,65,C,66,U,67,G,68,C,69,*,G,82,A,83,A,84,A,85,cWW,cWW
+4,IL_3V7E_005,3V7E,0.2290,0,,C,SAM-I riboswitch,U,96,C,97,C,98,U,99,G,100,C,101,*,G,114,A,115,A,116,A,117,cWW,cWW

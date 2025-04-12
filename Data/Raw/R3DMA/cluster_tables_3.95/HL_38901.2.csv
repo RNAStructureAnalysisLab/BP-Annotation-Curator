@@ -1,0 +1,8 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,,4,,5,1-5,3-4
+1,HL_5F9R_004,5F9R,0.3894,0,D-loop related,A,RNA (116-MER),G,105,A,106,G,107,U,108,C,109,cWW,ncSH
+2,HL_3RG5_005,3RG5,0.2355,1,tRNA D-loop,B,Selenocysteine transfer RNA,G,15,U,16,G,19,U,20,C,20|||A,cWW,cSH
+3,HL_3W3S_001,3W3S,0.1850,1,tRNA D-loop,B,Selenocysteine transfer RNA,C,15,U,16,G,19,U,20,G,20|||A,cWW,cSH
+4,HL_3AM1_001,3AM1,0.0000,1,tRNA D-loop,B,ASL-truncated tRNA,U,18,U,19,G,21,U,22,A,23,cWW,cSH
+5,HL_3ADD_001,3ADD,0.2334,1,tRNA D-loop,C,Selenocysteine transfer RNA,G,15,U,16,G,19,U,20,C,20|||A,cWW,cSH
+6,HL_8P9A_219,8P9A,0.6098,1,,sR,SSU rRNA,C,1359,A,1360,U,1362,U,1363,G,1364,cWW,
+7,HL_4KR9_004,4KR9,0.9092,1,,X,RNA (39-MER),G,19,G,20,A,22,A,23,C,24,cWW,

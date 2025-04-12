@@ -1,0 +1,71 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,,6,1-6,2-5,3-4
+1,IL_8CRE_064,8CRE,0.4762,1,Isolated non-canonical cWW pair (H),1,LSU rRNA,C,1406,U,1407,G,1408,*,U,1394,U,1396,G,1397,cWW,cwW,cWW
+2,IL_8P9A_471,8P9A,0.4906,2,Isolated non-canonical cWW pair,sR,SSU rRNA,G,1352,U,1353,G,1354,*,U,1369,U,1372,C,1373,cWW,cwW,ncWW
+3,IL_5B2P_002,5B2P,0.4885,1,Isolated non-canonical cWW pair,B,Guide RNA,C,44,U,45,C,46,*,G,28,U,30,G,31,cWW,cwW,cWW
+4,IL_8P9A_415,8P9A,0.2885,1,Isolated non-canonical cWW pair,sR,SSU rRNA,A,850,U,851,C,852,*,G,819,U,821,U,822,cWW,cwW,cWW
+5,IL_4WF9_018,4WF9,0.3211,0,Isolated non-canonical cWW pair,X,LSU rRNA,U,638,U,639,G,640,*,U,705,U,706,G,707,cWW,,cWW
+6,IL_4KYY_002,4KYY,0.3372,0,Isolated non-canonical cWW pair,A+B,RNA 17-mer,U,8,U,9,G,10,*,U,8,U,9,G,10,cWW,,cWW
+7,IL_8CRE_464,8CRE,0.3289,0,Isolated non-canonical cWW pair (H),CM,SSU rRNA,C,1496,U,1497,G,1498,*,U,1483,U,1484,G,1485,cWW,,cWW
+8,IL_7A0S_107,7A0S,0.3253,0,Isolated non-canonical cWW pair,Y,5S rRNA,C,97,C,98,G,99,*,U,82,C,83,G,84,cWW,ncWB,cWW
+9,IL_8CRE_473,8CRE,0.2585,0,Isolated non-canonical cWW pair (H),CM,SSU rRNA,U,1721,U,1722,G,1723,*,U,1652,U,1653,A,1654,cWW,,ncWW
+10,IL_8P9A_459,8P9A,0.2976,0,Isolated non-canonical cWW pair,sR,SSU rRNA,U,1734,U,1735,G,1736,*,U,1665,U,1666,A,1667,cWW,,cWW
+11,IL_4Y1M_005,4Y1M,0.1843,0,Isolated non-canonical cWW pair,B,E. coli yybP-ykoY riboswitch,U,4,U,5,U,6,*,A,103,U,104,A,105,cWW,ncwW,cWW
+12,IL_8P9A_245,8P9A,0.2245,0,Isolated non-canonical cWW pair,AR,LSU rRNA,A,628,U,629,A,630,*,U,429,U,430,U,431,cWW,,cWW
+13,IL_7A0S_011,7A0S,0.2186,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,573,C,574,U,575,*,A,584,U,585,G,586,cWW,cWW,cWW
+14,IL_5J7L_257,5J7L,0.1845,0,Isolated non-canonical cWW pair,DA,LSU rRNA,C,564,C,565,U,566,*,A,575,U,576,G,577,cWW,cWW,cWW
+15,IL_4WF9_017,4WF9,0.1420,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,607,C,608,U,609,*,A,618,U,619,G,620,cWW,cWW,cWW
+16,IL_9DFE_013,9DFE,0.1637,0,Isolated non-canonical cWW pair,1A,LSU rRNA,C,564,C,565,U,566,*,A,575,U,576,G,577,cWW,cWW,cWW
+17,IL_7QQP_007,7QQP,0.2219,0,,A+C,AAVS1 sgRNA + AAVS1 off-target3 target strand,A,7,C,8,U,9,*,DA,12,DC,13,DT,14,cWW,ncWw,ncWW
+18,IL_7A0S_078,7A0S,0.2204,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,2068,U,2069,G,2070,*,U,2211,U,2212,G,2213,cWW,cwW,cWW
+19,IL_9DFE_083,9DFE,0.2277,0,Isolated non-canonical cWW pair,1A,LSU rRNA,C,2085,U,2086,G,2087,*,U,2232,U,2233,G,2234,cWW,cwW,cWW
+20,IL_5J7L_326,5J7L,0.1999,0,Isolated non-canonical cWW pair,DA,LSU rRNA,C,2232,U,2233,G,2234,*,U,2085,U,2086,G,2087,cWW,cwW,cWW
+21,IL_8P9A_413,8P9A,0.2448,0,Isolated non-canonical cWW pair,sR,SSU rRNA,A,799,U,800,G,801,*,U,748,U,749,U,750,cWW,cwW,cWW
+22,IL_8CRE_429,8CRE,0.2127,0,Isolated non-canonical cWW pair (H),CM,SSU rRNA,A,783,U,784,G,785,*,U,733,U,734,U,735,cWW,cwW,cWW
+23,IL_8P9A_350,8P9A,0.1897,0,Isolated non-canonical cWW pair,AR,LSU rRNA,A,3168,U,3169,A,3170,*,U,3280,U,3281,U,3282,cWW,cwW,cWW
+24,IL_4P3U_007,4P3U,0.1664,0,Isolated non-canonical cWW pair,D+C,RNA (23-mer),G,42,U,43,C,44,*,G,5,U,6,C,7,cWW,ncwW,cWW
+25,IL_5B2P_001,5B2P,0.1237,0,Isolated non-canonical cWW pair,B,Guide RNA,U,24,U,25,C,26,*,G,48,U,49,A,50,cWW,cwW,cWW
+26,IL_4KYY_003,4KYY,0.0865,0,Isolated non-canonical cWW pair,A+B,RNA 17-mer,A,11,U,12,C,13,*,G,5,U,6,U,7,cWW,cwW,cWW
+27,IL_2O3Y_004,2O3Y,0.0789,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cwW,cWW
+28,IL_3BNN_008,3BNN,0.0000,0,Isolated non-canonical cWW pair,C+D,A site of human ribosome,G,17,U,18,C,19,*,G,3,U,4,C,5,cWW,cwW,cWW
+29,IL_3BNN_005,3BNN,0.0932,0,Isolated non-canonical cWW pair,C+D,A site of human ribosome,G,3,U,4,C,5,*,G,17,U,18,C,19,cWW,cwW,cWW
+30,IL_3BNR_012,3BNR,0.0751,0,Isolated non-canonical cWW pair,C+D,"A site of human mitochondrial ribosome, chain one + A site of human mitochondrial ribosome, chain three",G,19,U,20,C,21,*,G,3,U,4,C,5,cWW,cwW,cWW
+31,IL_4K31_001,4K31,0.1075,0,Isolated non-canonical cWW pair,B+C,RNA (23-mer),G,5,U,6,C,7,*,G,19,U,20,C,21,cWW,cwW,cWW
+32,IL_4K31_004,4K31,0.1072,0,Isolated non-canonical cWW pair,C+B,RNA (23-mer),G,5,U,6,C,7,*,G,19,U,20,C,21,cWW,cwW,cWW
+33,IL_4KYY_001,4KYY,0.1105,0,Isolated non-canonical cWW pair,B+A,RNA 17-mer,A,11,U,12,C,13,*,G,5,U,6,U,7,cWW,cwW,cWW
+34,IL_2OE8_001,2OE8,0.0913,0,Isolated non-canonical cWW pair,B+A,RNA (17-mer),G,1494,U,1495,C,1496,*,G,1405,U,1406,C,1407,cWW,cwW,cWW
+35,IL_2OE5_001,2OE5,0.1084,0,Isolated non-canonical cWW pair,B+A,RNA (17-mer),G,1494,U,1495,C,1496,*,G,1405,U,1406,C,1407,cWW,cwW,cWW
+36,IL_3TD0_006,3TD0,0.1120,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cwW,cWW
+37,IL_2O3Y_001,2O3Y,0.0979,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW,cwW,cWW
+38,IL_5ZTM_002,5ZTM,0.1186,0,Isolated non-canonical cWW pair,C,non-coding mRNA sequence roX2,A,123,U,124,C,125,*,G,157,U,158,U,159,cWW,cwW,cWW
+39,IL_3U4M_001,3U4M,0.1195,0,Isolated non-canonical cWW pair,B,LSU rRNA,A,2108,U,2109,G,2110,*,C,2179,U,2180,U,2181,cWW,cwW,cWW
+40,IL_4JGN_001,4JGN,0.1186,0,Isolated non-canonical cWW pair,E,RNA (20-mer),C,517||||4_555,U,518||||4_555,G,519||||4_555,*,C,505,U,506,G,507,cWW,cwW,cWW
+41,IL_4P3U_006,4P3U,0.1433,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cwW,cWW
+42,IL_1MFQ_002,1MFQ,0.1069,0,Isolated non-canonical cWW pair,A,SRP RNA,A,228,U,229,C,230,*,G,120,U,121,U,122,cWW,cwW,cWW
+43,IL_8P9A_343,8P9A,0.1394,0,Isolated non-canonical cWW pair,AR,LSU rRNA,A,3012,U,3013,U,3014,*,A,3040,U,3041,U,3042,cWW,cwW,cWW
+44,IL_8CRE_124,8CRE,0.1366,0,Isolated non-canonical cWW pair (H),1,LSU rRNA,A,2984,U,2985,U,2986,*,A,3012,U,3013,U,3014,cWW,cwW,cWW
+45,IL_5WTI_002,5WTI,0.1411,0,Isolated non-canonical cWW pair,B,RNA (123-MER),G,10,U,11,C,12,*,G,18,U,19,C,20,cWW,cwW,cWW
+46,IL_4TS2_004,4TS2,0.1461,0,Isolated non-canonical cWW pair,Y+X,"Spinach aptamer RNA, bimolecular construct",C,77,U,78,C,79,*,G,20,U,21,G,22,cWW,cwW,cWW
+47,IL_8CRE_037,8CRE,0.1648,0,Isolated non-canonical cWW pair (H),1,LSU rRNA,A,961,U,962,A,963,*,U,950,U,951,U,952,cWW,cwW,cWW
+48,IL_8P9A_262,8P9A,0.1537,0,Isolated non-canonical cWW pair,AR,LSU rRNA,A,965,U,966,A,967,*,U,954,U,955,U,956,cWW,cwW,cWW
+49,IL_2O3V_001,2O3V,0.1340,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW,cwW,cWW
+50,IL_7XPL_001,7XPL,0.1360,0,Isolated non-canonical cWW pair,H+G,BMG3 RNA strand B,A,6,U,7,G,8,*,C,22,U,23,U,24,cWW,cwW,cWW
+51,IL_1U6B_005,1U6B,0.1865,0,Isolated non-canonical cWW pair,B,197-MER,A,117,U,118,G,119,*,C,100,U,101,U,102,cWW,cwW,cWW
+52,IL_2ET8_004,2ET8,0.1734,0,Isolated non-canonical cWW pair,B+A,RNA (22-mer),G,27,U,28,C,29,*,G,18,U,19,C,20,cWW,cwW,cWW
+53,IL_3BNR_007,3BNR,0.1228,0,Isolated non-canonical cWW pair,C+D,"A site of human mitochondrial ribosome, chain one + A site of human mitochondrial ribosome, chain three",G,5,U,6,C,7,*,G,17,U,18,C,19,cWW,cwW,cWW
+54,IL_7L0Z_001,7L0Z,0.1559,0,Isolated non-canonical cWW pair,G,RNA (69-MER),G,10,U,11,G,12,*,C,58,U,59,C,60,cWW,cwW,cWW
+55,IL_3BNT_001,3BNT,0.1625,0,Isolated non-canonical cWW pair,A,A site of human mitochondrial ribosome,G,4,U,5,C,6,*,G,18||||4_665,U,19||||4_665,C,20||||4_665,cWW,cwW,cWW
+56,IL_2O3V_004,2O3V,0.1390,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cwW,cWW
+57,IL_3TD0_001,3TD0,0.1428,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,42,U,43,C,44,*,G,5,U,6,C,7,cWW,ncwW,cWW
+58,IL_4ZC7_001,4ZC7,0.1874,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,42,U,43,C,44,*,G,5,U,6,C,7,cWW,ncWw,cWW
+59,IL_8CRE_404,8CRE,0.1610,0,Isolated non-canonical cWW pair (H),CM,SSU rRNA,A,255,C,256,U,257,*,A,204,U,205,U,206,cWW,cWW,cWW
+60,IL_8P9A_387,8P9A,0.1871,0,Isolated non-canonical cWW pair,sR,SSU rRNA,A,206,U,207,U,208,*,A,257,C,258,U,259,cWW,cWW,cWW
+61,IL_6SX2_001,6SX2,0.1965,0,Isolated non-canonical cWW pair,D+C,RNA (19-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,cWW,ncwW,cWW
+62,IL_2O3X_004,2O3X,0.1959,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cwW,cWW
+63,IL_4KNQ_001,4KNQ,0.1761,0,Isolated non-canonical cWW pair,B,RNA (20-mer),C,216||||4_555,C,217||||4_555,G,218||||4_555,*,C,204,C,205,G,206,cWW,cWw,cWW
+64,IL_4V9F_047,4V9F,0.1459,0,Isolated non-canonical cWW pair,0,LSU rRNA,G,1349,U,1350,G,1351,*,C,1303,U,1304,C,1305,cWW,cwW,cWW
+65,IL_5T3K_002,5T3K,0.1694,0,Isolated non-canonical cWW pair,A+B,RNA (17-mer) + RNA (16-mer),G,10,U,11,C,12,*,G,24,75B,25,C,26,cWW,cwW,cWW
+66,IL_1T0E_002,1T0E,0.2170,0,Isolated non-canonical cWW pair,A+C,RNA (18-mer) + RNA (17-mer),G,10||A,U,11,C,12,*,G,14,U,15,C,16,cWW,cwW,cWW
+67,IL_1ZX7_006,1ZX7,0.1655,0,Isolated non-canonical cWW pair,E+F,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW,cwW,cWW
+68,IL_8FEQ_001,8FEQ,0.1763,0,Isolated non-canonical cWW pair,AAA,RNA 16mer with two separated s(2)U,G,4,SUR,5,A,6,*,U,11||||4_555,SUR,12||||4_555,C,13||||4_555,cWW,cwW,cWW
+69,IL_1L9A_009,1L9A,0.2710,0,Isolated non-canonical cWW pair,B,signal recognition particle RNA S domain,A,228,U,229,C,230,*,G,120,U,121,U,122,ncWW,ncwW,cWW
+70,IL_5J7L_273,5J7L,0.3461,0,Isolated non-canonical cWW pair,DA,LSU rRNA,U,870,U,871,U,872,*,A,905,U,906,G,907,cWW,cwW,cWW

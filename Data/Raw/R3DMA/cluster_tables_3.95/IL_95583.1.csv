@@ -1,0 +1,13 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,,1,,2,,3,break,,4,,5,1-5,2-5,3-4
+1,IL_3RW6_003,3RW6,0.7181,1,Minor groove platform,H,constitutive transport element(CTE)of Mason-Pfizer monkey virus RNA,U,38,A,40,U,41,*,A,20,G,21,cWW,tHS,cWW
+2,IL_6CZR_155,6CZR,0.5248,2,Minor groove platform,1a,SSU rRNA,U,1181,G,1184,C,1185,*,G,1040,G,1041,cWW,ntHS,cWW
+3,IL_5J7L_048,5J7L,0.5774,2,Minor groove platform,AA,SSU rRNA,U,1199,U,1202,C,1203,*,G,1057,G,1058,cWW,tHS,cWW
+4,IL_4LFB_045,4LFB,0.5499,2,Minor groove platform,A,SSU rRNA,U,1199,G,1202,C,1203,*,G,1057,G,1058,cWW,tHS,cWW
+5,IL_9DFE_073,9DFE,0.3101,1,Minor groove platform,1A,LSU rRNA,G,1846,A,1848,G,1849,*,C,1893,C,1894,cWW,ncWS,cWW
+6,IL_1U9S_005,1U9S,0.1387,1,"Minor groove platform, major groove intercalation",A,RIBONUCLEASE P,C,136,G,138,C,139,*,G,161,G,162,cWW,ntHS,cWW
+7,IL_5J7L_314,5J7L,0.0000,1,"Minor groove platform, major groove intercalation",DA,LSU rRNA,C,1837,G,1839,G,1840,*,C,1902,G,1903,cWW,ntHS,cWW
+8,IL_4V9F_066,4V9F,0.1403,1,"Minor groove platform, major groove intercalation",0,LSU rRNA,C,1893,A,1895,G,1896,*,C,1943,G,1944,cWW,,cWW
+9,IL_9DFE_071,9DFE,0.1297,1,"Minor groove platform, major groove intercalation",1A,LSU rRNA,C,1837,G,1839,G,1840,*,C,1902,G,1903,cWW,ntHS,cWW
+10,IL_8P9A_312,8P9A,0.1527,1,"Minor groove platform, major groove intercalation",AR,LSU rRNA,C,2196,A,2198,G,2199,*,C,2245,G,2246,cWW,,cWW
+11,IL_8CRE_089,8CRE,0.1594,1,,1,LSU rRNA,C,2174,A,2176,G,2177,*,C,2223,G,2224,cWW,,cWW
+12,IL_7A0S_066,7A0S,0.1712,1,"Minor groove platform, major groove intercalation",X,LSU rRNA,C,1829,G,1831,G,1832,*,C,1885,G,1886,cWW,,cWW

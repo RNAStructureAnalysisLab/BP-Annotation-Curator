@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,,1,,2,,3,,4,break,,5,,6,,7,,8,1-8,2-7,3-6,4-5
+1,IL_3BNR_011,3BNR,0.5992,1,D+C,"A site of human mitochondrial ribosome, chain three",C,5,A,6,C,7,C,8,*,G,15,C,16,A,17,G,19,cWW,,,cWW
+2,IL_5J7L_299,5J7L,0.0000,1,DA,LSU rRNA,U,1468,A,1469,A,1470,G,1471,*,U,1520,G,1521,A,1522,G,1524,cWW,tHH,tHS,cWW
+3,IL_9DFE_045,9DFE,0.2965,1,1A,LSU rRNA,U,1240,A,1241,A,1242,G,1243,*,C,1202,G,1203,A,1204,G,1206,cWW,tHH,tHS,cWW
