@@ -1,9 +1,17 @@
-import os
+a = 5
+b = 5
+c = 5
 
-file_path = os.path.join('Data', 'Raw', 'RCSB', 'PDB_Files', '6MKN.pdb')
-
-with open(file_path, 'r') as file:
-    for line in file:
-        print(line.strip())
-        
-print(file_path)
+if a == b:
+    print('first')
+    
+if (
+    a == b
+):
+    print('second')
+    
+if (
+    a == b and
+    a == c
+):
+    print('third')

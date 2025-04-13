@@ -1,0 +1,224 @@
+{
+    "1N33": {
+        "A362G": {
+            "A365U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A365U": {
+            "A362G": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "1SAQ": {
+        "A102I": {
+            "B115C": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A107C": {
+            "B110I": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B110I": {
+            "A107C": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B115C": {
+            "A102I": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "C202I": {
+            "D215C": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "C207C": {
+            "D210I": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "D210I": {
+            "C207C": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "D215C": {
+            "C202I": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "1XNQ": {
+        "A362G": {
+            "A365U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A365U": {
+            "A362G": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "3DD2": {
+        "B6c": {
+            "B18A": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B18A": {
+            "B6c": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "4FRG": {
+        "B10G": {
+            "B13U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B13U": {
+            "B10G": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "X10G": {
+            "X13U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "X13U": {
+            "X10G": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "4FRN": {
+        "A10G": {
+            "A13U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A13U": {
+            "A10G": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B10G": {
+            "B13U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B13U": {
+            "B10G": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "4WF9": {
+        "X2229C": {
+            "X2231C": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "X2231C": {
+            "X2229C": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "5DO4": {
+        "A6c": {
+            "A18a": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A18a": {
+            "A6c": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "5NWQ": {
+        "A11U": {
+            "A39c": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A39c": {
+            "A11U": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B11U": {
+            "B39c": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B39c": {
+            "B11U": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "6QIT": {
+        "A101u": {
+            "B3A": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "A102u": {
+            "B6A": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B3A": {
+            "A101u": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B6A": {
+            "A102u": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "6RTI": {
+        "X21u": {
+            "X23c": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "X23c": {
+            "X21u": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    },
+    "8I3Z": {
+        "B33G": {
+            "B101u": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B46C": {
+            "B101u": [
+                "UNK_SHORT_DESC"
+            ]
+        },
+        "B101u": {
+            "B33G": [
+                "UNK_SHORT_DESC"
+            ],
+            "B46C": [
+                "UNK_SHORT_DESC"
+            ]
+        }
+    }
+}

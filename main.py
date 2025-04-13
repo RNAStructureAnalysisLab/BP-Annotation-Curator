@@ -6,6 +6,8 @@
 from DataManagement.RawDataLoading.Cluster_Downloader import Cluster_Downloader
 from DataManagement.RawDataLoading.PDB_Downloader import PDB_Downloader
 from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Downloader
+from DataManagement.DataPreparation.Preprocessor import Preprocessor
+from DataManagement.DataPreparation.Table_Extender import Table_Extender
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -113,7 +115,7 @@ if 4 >= starting_step_number:
 # =============================================================================
 # STEP 5: (MANUAL STEP, Dr. Islam) Push all PDB files to DSSR for annotation
 
-print('STEP 5 unimplimented. Skipping.')
+print('STEP 5 unimplimented. Skipping')
 
 # =============================================================================
 # STEP 6: Perform data exploration on the annotations
@@ -127,4 +129,12 @@ print('STEP 6 unimplimented. Skipping')
 
 if 7 >= starting_step_number:
     print('Beginning STEP 5:\n')
+    Preprocessor.convert_all()
+
+# =============================================================================
+# STEP 8: Extend the motif cluster tables originally from R3DMA
+
+if 8 >= starting_step_number:
+    print('Beginning STEP 8:\n')
+    Table_Extender.run()
     
