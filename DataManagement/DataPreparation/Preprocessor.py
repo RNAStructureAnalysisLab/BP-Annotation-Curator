@@ -7,7 +7,6 @@ import shutil
 import re
 
 # TODO add multithreading and a time to finish estimation
-# TODO make it so that the JSON files are written and accessed only once.
 # TODO rejecting residue pairs leads to innacuracies in other pipeline steps
 # since Table_Extender might treat these as 'nbp' which is 'Not a Base Pair'.
 # However, it is not gauranteed that they actually are not base pair
@@ -29,9 +28,11 @@ class Preprocessor:
     RENAMING_CONVENTION = {}
     DESCRIPTIONS_TO_REJECT = {}
     
+    json_cache = {} # key is the output file name, value is the dictionary
+    
     # ACTION: iterates through every PDB CSV file in INPUT_DIRECTORY, and
     # passes them on individually to the helper function, to_json, for conversion
-    # into JSON
+    # into JSON compatible dictionary
     @staticmethod
     def convert_all():
         # Programmatically initialize certain class variables
@@ -47,10 +48,14 @@ class Preprocessor:
         for csv_file_name in os.listdir(Preprocessor.INPUT_DIRECTORY):
             if csv_file_name.endswith('.csv'):
                 Preprocessor._to_json(csv_file_name)
+        
+        # Save annoation as a JSON file in OUTPUT_DIRECTORY
+        for output_file_name, annotation in Preprocessor.json_cache.items():
+            Preprocessor._export_json(output_file_name, annotation)
            
     # INPUT: the name of a CSV file representating a tool annotation
-    # ACTION: converts the CSV file into a reformatted JSON file and stores in
-    # a new directory called OUTPUT_DIRECTORY
+    # ACTION: Reformats the data found in the CSV file and stores it in a 
+    # JSON compatible dictionary
     @staticmethod
     def _to_json(csv_file_name):
         accepted_output_file_name = os.path.splitext(csv_file_name)[0]
@@ -66,8 +71,8 @@ class Preprocessor:
             accepted_annotations, rejected_annotations
         )
             
-        Preprocessor._export_json(accepted_output_file_name, accepted_annotations)
-        Preprocessor._export_json(rejected_output_file_name, rejected_annotations)
+        Preprocessor._to_cache(accepted_output_file_name, accepted_annotations)
+        Preprocessor._to_cache(rejected_output_file_name, rejected_annotations)
                 
     # INPUT:s a string representing the name of a CSV annotation file
     # OUTPUT: returns a dictionary representing the base pairing information in
@@ -147,35 +152,12 @@ class Preprocessor:
     
     @staticmethod
     def _export_json(output_file_name, annotations):
-        try:
-            pdb_id, tool = output_file_name.split('_')
-        except Exception: # output_file_name has '_rejected' in the name
-            pdb_id, tool, rejected_tag = output_file_name.split('_')
-            tool = f'{tool}_{rejected_tag}'
         output_file_path = os.path.join(
-            Preprocessor.OUTPUT_DIRECTORY, tool + '.json'
+            Preprocessor.OUTPUT_DIRECTORY, output_file_name + '.json'
         )
-        
-        # load data currently in the JSON file if any
-        try:
-            with open(output_file_path, 'r') as json_file:
-                data = json.load(json_file)
-        except: # JSON file doesn't exist yet so start as if blank
-            data = {}
-        if pdb_id not in data:
-            data[pdb_id] = {}
-        for base_pair, descriptions in annotations.items():
-            # Change the data type so it is JSON compatible
-            base_pair_1 = str(base_pair[0])
-            base_pair_2 = str(base_pair[1])
-            descriptions = list(descriptions)
-            
-            if base_pair_1 not in data[pdb_id]:
-                data[pdb_id][base_pair_1] = {}
-            data[pdb_id][base_pair_1][base_pair_2] = descriptions
   
         with open(output_file_path, 'w') as json_file:
-            json.dump(data, json_file, indent=4)
+            json.dump(annotations, json_file, indent=4)
         
     # INPUT: a tuple representing a residue pair, and a set representing the
     # possible interactions for that residue
@@ -308,3 +290,30 @@ class Preprocessor:
             residue2_groups.group(1), int(residue2_groups.group(2)),
             residue2_groups.group(3)
         )
+            
+    # INPUT: a string representing a file name, IE: 7A0S_CL, and its annotation
+    # ACTION: Further processes output_file_name to remove the part with the 
+    # PDB ID. Then stores this as the key in json_cache with its annotation
+    @staticmethod
+    def _to_cache(output_file_name, annotations):
+        try:
+            pdb_id, tool = output_file_name.split('_')
+            output_file_name = tool
+        except ValueError: # output_file_name has '_rejected' in the name
+            pdb_id, tool, rejected_tag = output_file_name.split('_')
+            output_file_name = f'{tool}_{rejected_tag}'
+        
+        if output_file_name not in Preprocessor.json_cache:
+            Preprocessor.json_cache[output_file_name] = {}
+        data = Preprocessor.json_cache[output_file_name]
+        
+        if pdb_id not in data:
+            data[pdb_id] = {}
+        for base_pair, descriptions in annotations.items():
+            base_1 = str(base_pair[0])
+            base_2 = str(base_pair[1])
+            descriptions = list(descriptions)
+
+            if base_1 not in data[pdb_id]:
+                data[pdb_id][base_1] = {}
+            data[pdb_id][base_1][base_2] = descriptions

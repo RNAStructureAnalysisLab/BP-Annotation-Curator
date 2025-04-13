@@ -1,17 +1,5 @@
-a = 5
-b = 5
-c = 5
+contact_type = 'ncSH'
 
-if a == b:
-    print('first')
-    
-if (
-    a == b
-):
-    print('second')
-    
-if (
-    a == b and
-    a == c
-):
-    print('third')
+contact_type = contact_type[:-2] + contact_type[-1] + contact_type[-2]
+
+print(contact_type)

@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,1-6,3-4,3-5,4-5
+1,IL_7VTI_002,7VTI,0.5772,1,,B,crRNA,G,5,A,6,G,7,A,9,*,U,30,U,31,"cWW,cWW,cWW,cWW,nbp,cWW","nbp,cSH,nbp,nbp,nbp,nbp","ntSH,tSH,nbp,tSH,nbp,tSH","cWW,cWW,cWW,cWW,nbp,cWW"
+2,IL_5DCV_006,5DCV,0.1235,0,Major groove platform with intercalated tWH,D,RNA (47-MER),C,45,U,46,A,47,A,48,*,U,5,G,6,"cWW,cWW,cWW,cWW,nbp,cWW","cSH,cSH,cSH,cSH,nbp,cSH","ntSH,tSH,tSH,nbp,nbp,nbp","cWW,cWW,cWW,cWW,nbp,cWW"
+3,IL_5VCI_003,5VCI,0.0,0,Major groove platform with intercalated tWH,A+B,RNA (22-mer) + RNA (12-mer),C,8,U,9,A,10,A,11,*,U,4,G,5,"cWW,cWW,cWW,cWW,nbp,cWW","cSH,cSH,cSH,cSH,nbp,cSH","nbp,tSH,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,nbp,cWW"
+4,IL_4PCJ_003,4PCJ,0.0688,0,Major groove platform with intercalated tWH,A,trCUG-3('5),C,8,U,9,A,10,A,11,*,U,27,G,28,"cWW,cWW,cWW,cWW,nbp,cWW","cSH,cSH,cSH,cSH,nbp,cSH","nbp,tSH,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,nbp,cWW"
+5,IL_5XTM_005,5XTM,0.1035,0,Major groove platform with intercalated tWH,D,RNA (47-MER),C,41,U,42,A,43,A,44,*,U,5,G,6,"cWW,cWW,cWW,cWW,nbp,cWW","cSH,cSH,cSH,cSH,nbp,cSH","ntSH,tSH,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,nbp,cWW"
+6,IL_1U6B_009,1U6B,0.121,0,Major groove platform with intercalated tWH,B,197-MER,C,147,U,148,A,149,A,150,*,U,162,G,163,"cWW,cWW,cWW,cWW,nbp,cWW","cSH,cSH,cSH,nbp,nbp,cSH","nbp,cWW,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,nbp,cWW"

@@ -3,11 +3,14 @@
 # TODO finish description of use
 # =============================================================================
 
+
 from DataManagement.RawDataLoading.Cluster_Downloader import Cluster_Downloader
 from DataManagement.RawDataLoading.PDB_Downloader import PDB_Downloader
 from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Downloader
 from DataManagement.DataPreparation.Preprocessor import Preprocessor
 from DataManagement.DataPreparation.Table_Extender import Table_Extender
+from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
+
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -40,6 +43,10 @@ while True:
     
 # =============================================================================
 
+
+
+
+
 # =============================================================================
 # STEP 1: Retrieve motif cluster table data for each cluster in R3DMA
 
@@ -63,6 +70,10 @@ if 1 >= starting_step_number:
             
 # =============================================================================
 
+
+
+
+
 # =============================================================================
 # STEP 2: Download PDB or PDBx files from RCSB for each PDB_ID in R3DMA
 
@@ -85,12 +96,24 @@ if 2 >= starting_step_number:
             print('Incorrect input, please enter a single letter.')
             
 # =============================================================================
+
+
+
+
+            
+# =============================================================================
 # STEP 3: Convert any downloaded PDBx files to the PDB file format
 
 if 3 >= starting_step_number:
     print('Beginning STEP 3:\n')
     
     print('STEP 3 currently unimplimented. Skipping.')
+    
+# =============================================================================
+
+
+
+
     
 # =============================================================================
 # STEP 4: Push all PDB files to ClaRNA for annotation
@@ -111,6 +134,12 @@ if 4 >= starting_step_number:
             break
         else:
             print('Incorrect input, please enter a single letter.')
+            
+# =============================================================================
+
+
+
+
 
 # =============================================================================
 # STEP 5: (MANUAL STEP, Dr. Islam) Push all PDB files to DSSR for annotation
@@ -118,11 +147,23 @@ if 4 >= starting_step_number:
 print('STEP 5 unimplimented. Skipping')
 
 # =============================================================================
+
+
+
+
+
+# =============================================================================
 # STEP 6: Perform data exploration on the annotations
 
 print('STEP 6 unimplimented. Skipping')
+# perhaps don't make this a pipeline step but a jupyter notebook that happens
+# to evaluate the data from between STEP 5 and STEP 7
 
 # =============================================================================
+  
+
+
+
 
 # =============================================================================
 # STEP 7: Preprocess the annotation data
@@ -130,6 +171,12 @@ print('STEP 6 unimplimented. Skipping')
 if 7 >= starting_step_number:
     print('Beginning STEP 7:\n')
     Preprocessor.convert_all()
+    
+# =============================================================================
+
+
+
+
 
 # =============================================================================
 # STEP 8: Extend the motif cluster tables originally from R3DMA
@@ -137,4 +184,18 @@ if 7 >= starting_step_number:
 if 8 >= starting_step_number:
     print('Beginning STEP 8:\n')
     Table_Extender.run()
+    
+# =============================================================================
+
+
+
+
+    
+# =============================================================================
+# STEP 9: Create tool consensus tables for each motif cluster from STEP 8
+# TODO: incorporate other tool consensus paradigms
+
+if 9 >= starting_step_number:
+    print('Beginning STEP 9:\n')
+    Tool_Consensus.run()
     

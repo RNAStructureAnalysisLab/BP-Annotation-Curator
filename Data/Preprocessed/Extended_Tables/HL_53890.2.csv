@@ -1,0 +1,9 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,2-4,2-3,1-4,3-4
+2,HL_8S95_003,8S95,0.5694,2,,C,"Lysine tRNA scaffold,Poliovirus cloverleaf RNA",C,67,C,68,C,70,G,71,G,73,"cWW,cWW,cWW,cWW,nbp,cWW","ncWH,cWH,cWH,nbp,nbp,cWH","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+3,HL_6VMY_004,6VMY,0.4886,2,,A,Cobalamin riboswitch,C,287,C,288,A,290,G,291,G,293,"cWW,cWW,cWW,cWW,nbp,cWW","ncWH,cWH,nbp,nbp,nbp,cWH","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+4,HL_1P6V_001,1P6V,0.5879,1,UNCG variation,B,45-MER,C,26,U,27,C,29,G,30,G,31,"cWW,cWW,cWW,cWW,nbp,cWW","nbp,tSH,nbp,nbp,nbp,nbp","nbp,nbp,nbp,cWW,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+5,HL_7A0S_023,7A0S,0.3763,2,,X,LSU rRNA,U,792,G,793,A,795,A,796,G,798,"cWW,cWW,cWW,cWW,nbp,cWW","cSW,tSH,nbp,tSW,nbp,cSW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+6,HL_2NUE_001,2NUE,0.3459,1,GNRA related,C,46-MER,C,21,G,22,A,24,A,25,G,26,"cWW,cWW,cWW,cWW,nbp,cWW","ncSW,tSH,nbp,tSH,nbp,tSH","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+12,HL_4WF9_007,4WF9,0.2729,1,,X,LSU rRNA,A,228,A,229,A,230,A,231,U,233,"cWW,cWW,cWW,cWW,nbp,cWW","cSW,cSW,cSW,cSW,nbp,cSW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+13,HL_7A0S_007,7A0S,0.0,1,,X,LSU rRNA,A,202,G,203,A,204,A,205,U,207,"cWW,cWW,cWW,cWW,nbp,cWW","cSW,cSW,nbp,nbp,nbp,tSW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,cWW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+15,HL_4UYK_003,4UYK,0.4552,1,,R,SRP RNA,U,98,G,99,U,100,A,101,G,103,"cWW,cWW,cWW,cWW,nbp,cWW","ntSW,tSW,tSW,tSW,nbp,tSW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,cSW"

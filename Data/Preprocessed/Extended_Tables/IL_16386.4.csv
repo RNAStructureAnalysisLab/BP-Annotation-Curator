@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,1-5,3-4
+1,IL_8I3Z_001,8I3Z,0.0795,0,B+A,RNA (31-MER),C,32,G,33,G,34,*,C,5,G,6,"cWW,cWW,cWW,cWW,nbp,cWW","cWW,cWW,cWW,cWW,nbp,cWW"
+2,IL_8HBA_003,8HBA,0.0768,0,B,RNA (55-MER),C,32,G,33,G,34,*,C,5,G,6,"cWW,cWW,cWW,cWW,nbp,cWW","cWW,cWW,cWW,cWW,nbp,cWW"
+3,IL_8GXB_001,8GXB,0.0,0,A,NAD+ II riboswitch,C,40,G,41,G,42,*,C,5,G,6,"cWW,cWW,cWW,cWW,nbp,cWW","cWW,cWW,cWW,cWW,nbp,cWW"
+4,IL_8GXB_003,8GXB,0.1032,0,B,NAD+ II riboswitch,C,40,G,41,G,42,*,C,5,G,6,"cWW,cWW,cWW,cWW,nbp,cWW","cWW,cWW,cWW,cWW,nbp,cWW"

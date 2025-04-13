@@ -1,5 +1,14 @@
 # AUTHOR: Kristopher Church
 
+# USE: Table_Extender is designed to generate motif cluster tables that
+# minimize bias towards RNA 3D Motif Atlas (R3DMA). The original tables came
+# from R3DMA and the bias is that columns are placed in the table only if
+# R3DMA believes there is at least one base pairing interaction contact type in
+# that column. This means, it won't include columns that would be purely blank.
+# However, other tools might report contact types in locations corresponding
+# to these blank columns. Thus Table_Extender adds these omitted columns and
+# includes the reported contact type from the tool that felt there is something
+
 import json
 import os
 import shutil
@@ -27,6 +36,10 @@ class Table_Extender:
     
     model_cache = {} # key = path to PDB file, value = model of PDB structure
     
+    # ACTION: the main method of the class, ensures the output directory is
+    # empty upon start, generates the extended tables, and places them there as
+    # CSV files.
+    @staticmethod
     def run():
         # Reset the contents of the Extended_Tables folder to be blank
         if os.path.exists(Table_Extender.EXTENDED_TABLES_DIRECTORY):
@@ -48,7 +61,8 @@ class Table_Extender:
     # name is 'ASIT' or 'VVV'
     # Initializes each contact type to be a 6-tuple. Each element in 
     # the 6-tuple a contact type reported from a specific tool in the order
-    # of: R3DMA, CL, # TODO finish this
+    # of: R3DMA, CL, FR, MC, MO, RV
+    @staticmethod
     def _prepare_dataframe(motif_cluster):
         used_pdb_ids = []
         with open(Table_Extender.USED_PDBS_FILE_PATH, 'r') as pdb_ids_file:
@@ -82,23 +96,25 @@ class Table_Extender:
         # TODO make a csv showing which rows are dropped
         motif_cluster.drop(rows_to_drop, inplace=True)
      
+    @staticmethod
     def _fill_table(motif_cluster):
         column_names = motif_cluster.columns
         segments = Table_Extender._get_segments(column_names)
+        
+        # Load the JSON files
+        json_files = {}
+        for tool in Table_Extender.TUPLE_SCHEMA:
+            if tool == 'R3DMA':
+                continue # Skip since this is not an annotation tool
+            file_path = os.path.join(
+                Table_Extender.JSON_ANNOTATION_DIRECTORY, f'{tool}.json'
+            )
+            with open(file_path, 'r') as file:
+                json_files[tool] = json.load(file)
+        
         for i in range(len(motif_cluster)):
             row = motif_cluster.iloc[i]
             mapping = Table_Extender._map_chains_to_segments(row, segments)
-            
-            # Load the JSON files
-            json_files = {}
-            for tool in Table_Extender.TUPLE_SCHEMA:
-                if tool == 'R3DMA':
-                    continue # Skip since this is not an annotation tool
-                file_path = os.path.join(
-                    Table_Extender.JSON_ANNOTATION_DIRECTORY, f'{tool}.json'
-                )
-                with open(file_path, 'r') as file:
-                    json_files[tool] = json.load(file)
             
             # Create a dictionary mapping the residues to their column label
             residue_to_column = {}
@@ -109,7 +125,6 @@ class Table_Extender:
                             f'{chain}{row.iloc[column_index]}' + 
                             f'{row.iloc[column_index - 1]}'
                         ] = column_names[column_index]
-            
             # Add residues found in the JSON files
             for chain, chain_segments in mapping.items():
                 for segment in chain_segments:
@@ -127,6 +142,7 @@ class Table_Extender:
     # OUTPUT: A list of integer pairs. Each integer is a column index. First
     # element in the pair is when a chain starts, and second is when that chain
     # ends. Each pair is a segment of the chain that is part of the motif
+    @staticmethod
     def _get_segments(column_names):
         pair_list = []
         start_index = -1 # -1 represents 'uninitialized'
@@ -145,6 +161,7 @@ class Table_Extender:
     # OUTPUT: A dictionary where the key is a chain, and the value is a list of
     # integer pairs. Each pair represents the range of columns in the dataframe
     # corresponding to that chain
+    @staticmethod
     def _map_chains_to_segments(row, segments):
         chains = row['Chain(s)'].split('+')
         chain_count = len(chains)
@@ -168,7 +185,9 @@ class Table_Extender:
                     already_compared.add(comparison)
                 
                 if Table_Extender._in_pdb(row, chain, segment):
-                    mapping[chain] = segment
+                    if chain not in mapping:
+                        mapping[chain] = []
+                    mapping[chain].append(segment)
                     segment_index += 1
                 chain_index = (chain_index + 1) % chain_count
                 
@@ -181,7 +200,13 @@ class Table_Extender:
         # Regardless, how would I ever know the correct mapping here since it
         # can be anything in the form x1, B, x2, A where x1 and x2 are A or B?
         # !!!CONSIDER 8VFS in IL_00225.12.csv (the chains could map to either)
-          
+    
+    # INPUT: a row from motif_cluster dataframe, a string representing the
+    # chain ID, and a pair of integers representing a column index interval
+    # for which columns in the row MIGHT belong to that chain.
+    # ACTION: Returns True if the chain and segment do seem to match, False
+    # otherwise.
+    @staticmethod
     def _in_pdb(row, chain, segment):
         pdb_path = os.path.join(
             Table_Extender.PDB_DIRECTORY, f"{row['PDB']}.pdb"
@@ -217,7 +242,16 @@ class Table_Extender:
         # TODO: perhaps in the preprocessor create a JSON for the models to
         # allow O(1) look-up
         
-    # TODO
+    # INPUT: motif_cluster dataframe, a dictionary mapping a residue to a 
+    # position column index in the dataframe, a string for pdb, a string for 
+    # residue which is in a format like 'A160C', a dictionary with tool name 
+    # key and json file value, the position row index for current row in the 
+    # dataframe
+    # ACTION: Checks the annotation JSON files to see all second residues the
+    # first pairs up with. If the second is part of the cluster and the 
+    # interaction between the two residues is a base pairing one, it inserts
+    # the associated contact type into the dataframe
+    @staticmethod
     def _add_to_table(
         motif_cluster, residue_to_column, pdb, residue, json_files, 
         row_index
@@ -225,7 +259,7 @@ class Table_Extender:
         for tool, file in json_files.items():
             info = file[pdb].get(residue) # !!!some PDBs like 5JEA are blank, tool issue
             if info == None:
-                continue
+                continue # Might not be correct since it will consider absence as 'nbp' when maybe it should invalidate the row
             
             for second_residue, contact_types in info.items():
                 if second_residue not in residue_to_column:
@@ -248,7 +282,10 @@ class Table_Extender:
                         first_column, second_column = (
                             second_column, first_column
                         )
-                        raise Exception('Unfinisehd. Reversal logic needed') # TODO
+                        contact_type = (
+                            contact_type[:-2] + contact_type[-1] + 
+                            contact_type[-2]
+                        )
                     
                     column_name = f'{first_column}-{second_column}'
                     
@@ -267,8 +304,11 @@ class Table_Extender:
                         )
                         motif_cluster[column_name] = 'nbp,nbp,nbp,nbp,nbp,nbp'
                         motif_cluster.loc[row_label, column_name] = six_tuple
-                    
     
+    # INPUT: A comma deliminated string representing a six tuple, a string
+    # representing an annotation tool name, and a string for contact type
+    # OUTPUT: Returns the six tuple string with the contact type inserted
+    @staticmethod
     def _update_tuple(six_tuple, tool, contact_type):
         six_tuple = six_tuple.split(',')
         for i in range(len(Table_Extender.TUPLE_SCHEMA)):
@@ -276,7 +316,8 @@ class Table_Extender:
                 six_tuple[i] = contact_type
                 six_tuple = ','.join(six_tuple)
                 return six_tuple
-        
+     
+    @staticmethod
     def _export(motif_cluster, file_name):
         file_path = os.path.join(
             Table_Extender.EXTENDED_TABLES_DIRECTORY, file_name
