@@ -7,6 +7,7 @@ import shutil
 import re
 
 # TODO add multithreading and a time to finish estimation
+# TODO make it so that the JSON files are written and accessed only once.
 # TODO rejecting residue pairs leads to innacuracies in other pipeline steps
 # since Table_Extender might treat these as 'nbp' which is 'Not a Base Pair'.
 # However, it is not gauranteed that they actually are not base pair
@@ -28,7 +29,7 @@ class Preprocessor:
     RENAMING_CONVENTION = {}
     DESCRIPTIONS_TO_REJECT = {}
     
-    # ACTION: iterates through every CSV file in INPUT_DIRECTORY, and
+    # ACTION: iterates through every PDB CSV file in INPUT_DIRECTORY, and
     # passes them on individually to the helper function, to_json, for conversion
     # into JSON
     @staticmethod
@@ -159,16 +160,16 @@ class Preprocessor:
         try:
             with open(output_file_path, 'r') as json_file:
                 data = json.load(json_file)
-        except:
+        except: # JSON file doesn't exist yet so start as if blank
             data = {}
+        if pdb_id not in data:
+            data[pdb_id] = {}
         for base_pair, descriptions in annotations.items():
             # Change the data type so it is JSON compatible
             base_pair_1 = str(base_pair[0])
             base_pair_2 = str(base_pair[1])
             descriptions = list(descriptions)
             
-            if pdb_id not in data:
-                data[pdb_id] = {}
             if base_pair_1 not in data[pdb_id]:
                 data[pdb_id][base_pair_1] = {}
             data[pdb_id][base_pair_1][base_pair_2] = descriptions

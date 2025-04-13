@@ -128,7 +128,7 @@ print('STEP 6 unimplimented. Skipping')
 # STEP 7: Preprocess the annotation data
 
 if 7 >= starting_step_number:
-    print('Beginning STEP 5:\n')
+    print('Beginning STEP 7:\n')
     Preprocessor.convert_all()
 
 # =============================================================================

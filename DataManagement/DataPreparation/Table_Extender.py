@@ -1,10 +1,12 @@
 # AUTHOR: Kristopher Church
 
 import json
-import csv
 import os
+import shutil
 import pandas as pd
-from Bio.PDB import PDBParser
+from Bio.PDB import PDBParser # Biopython library
+
+# TODO so far not DSSR compatible
 
 class Table_Extender:
     MOTIF_CLUSTER_DIRECTORY = os.path.join(
@@ -13,16 +15,24 @@ class Table_Extender:
     JSON_ANNOTATION_DIRECTORY = os.path.join(
         'Data', 'Preprocessed', 'JSON_annotations'
     )
-    EXTENDED_TABLES_DIRECTORY = os.path.join('extended_tables')
+    EXTENDED_TABLES_DIRECTORY = os.path.join(
+        'Data', 'Preprocessed', 'Extended_Tables'
+    )
     USED_PDBS_FILE_PATH = os.path.join(
         'Data', 'Raw', 'RCSB', 'used_pdb_ids.txt'
     )
     PDB_DIRECTORY = os.path.join('Data', 'Raw', 'RCSB', 'PDB_Files')
     PARSER = PDBParser(QUIET=True)
+    TUPLE_SCHEMA = ['R3DMA', 'CL', 'FR', 'MC', 'MO', 'RV']
     
     model_cache = {} # key = path to PDB file, value = model of PDB structure
     
     def run():
+        # Reset the contents of the Extended_Tables folder to be blank
+        if os.path.exists(Table_Extender.EXTENDED_TABLES_DIRECTORY):
+            shutil.rmtree(Table_Extender.EXTENDED_TABLES_DIRECTORY)
+        os.makedirs(Table_Extender.EXTENDED_TABLES_DIRECTORY)
+        
         for file_name in os.listdir(Table_Extender.MOTIF_CLUSTER_DIRECTORY):
             motif_cluster = pd.read_csv(
                 os.path.join(Table_Extender.MOTIF_CLUSTER_DIRECTORY, file_name)
@@ -30,8 +40,7 @@ class Table_Extender:
             
             Table_Extender._prepare_dataframe(motif_cluster)
             Table_Extender._fill_table(motif_cluster)
-            
-            # TODO
+            Table_Extender._export(motif_cluster, file_name)
             
     # INPUT: A pandas dataframe representing motif cluster table
     # ACTION: Modify dataframe in-place by removing rows where
@@ -73,7 +82,6 @@ class Table_Extender:
         # TODO make a csv showing which rows are dropped
         motif_cluster.drop(rows_to_drop, inplace=True)
      
-    # TODO
     def _fill_table(motif_cluster):
         column_names = motif_cluster.columns
         segments = Table_Extender._get_segments(column_names)
@@ -83,7 +91,9 @@ class Table_Extender:
             
             # Load the JSON files
             json_files = {}
-            for tool in ['CL', 'FR', 'MC', 'MO', 'RV']:
+            for tool in Table_Extender.TUPLE_SCHEMA:
+                if tool == 'R3DMA':
+                    continue # Skip since this is not an annotation tool
                 file_path = os.path.join(
                     Table_Extender.JSON_ANNOTATION_DIRECTORY, f'{tool}.json'
                 )
@@ -110,7 +120,7 @@ class Table_Extender:
                         )
                         Table_Extender._add_to_table(
                             motif_cluster, residue_to_column, row['PDB'], 
-                            residue, json_files, column_index
+                            residue, json_files, i
                         )
        
     # INPUT: A list with the column_names of a motif cluster table
@@ -210,7 +220,67 @@ class Table_Extender:
     # TODO
     def _add_to_table(
         motif_cluster, residue_to_column, pdb, residue, json_files, 
-        column_index
+        row_index
     ):
         for tool, file in json_files.items():
-            info = file[pdb].get(residue)
+            info = file[pdb].get(residue) # !!!some PDBs like 5JEA are blank, tool issue
+            if info == None:
+                continue
+            
+            for second_residue, contact_types in info.items():
+                if second_residue not in residue_to_column:
+                    continue # Is not part of the cluster
+                    
+                if '' in contact_types:
+                    contact_types.remove('')
+                if contact_types:
+                    first_column = residue_to_column[residue]
+                    second_column = residue_to_column[second_residue]
+                    if len(contact_types) > 1:
+                        contact_type = '?' # Multiple options, ambiguous
+                    elif tool == 'CL':
+                        contact_type = contact_types[0].split(' ')[0]
+                    else:
+                        contact_type = contact_types[0]
+                    
+                    # Ensure order for first_column < second_column
+                    if int(first_column) > int(second_column):
+                        first_column, second_column = (
+                            second_column, first_column
+                        )
+                        raise Exception('Unfinisehd. Reversal logic needed') # TODO
+                    
+                    column_name = f'{first_column}-{second_column}'
+                    
+                    # If column already exists, insert. Otherwise make new
+                    # column
+                    row_label = motif_cluster.index[row_index]
+                    if column_name in motif_cluster.columns:
+                        six_tuple = motif_cluster.loc[row_label, column_name]
+                        six_tuple = Table_Extender._update_tuple(
+                            six_tuple, tool, contact_type
+                        )
+                        motif_cluster.loc[row_label, column_name] = six_tuple
+                    else:
+                        six_tuple = Table_Extender._update_tuple(
+                            'nbp,nbp,nbp,nbp,nbp,nbp', tool, contact_type
+                        )
+                        motif_cluster[column_name] = 'nbp,nbp,nbp,nbp,nbp,nbp'
+                        motif_cluster.loc[row_label, column_name] = six_tuple
+                    
+    
+    def _update_tuple(six_tuple, tool, contact_type):
+        six_tuple = six_tuple.split(',')
+        for i in range(len(Table_Extender.TUPLE_SCHEMA)):
+            if tool == Table_Extender.TUPLE_SCHEMA[i]:
+                six_tuple[i] = contact_type
+                six_tuple = ','.join(six_tuple)
+                return six_tuple
+        
+    def _export(motif_cluster, file_name):
+        file_path = os.path.join(
+            Table_Extender.EXTENDED_TABLES_DIRECTORY, file_name
+        )
+        motif_cluster.to_csv(file_path, index=False)
+            
+        
