@@ -1,0 +1,5 @@
+"residue1","residue2","n_type","description","full description"
+"B3","B4","CC","","stacking"
+"B4","B3","CC","","REV:stacking"
+"B5","B6","GC","","stacking"
+"B6","B5","CG","","REV:stacking"

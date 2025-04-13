@@ -34,7 +34,7 @@ class Annotation_Downloader:
     @staticmethod 
     def if_failed_pdb_ids():
         failed_pdb_ids = Threader.get_failed_pdb_ids()
-        with open(Threader.RETRY_INPUT_FILENAME, 'w') as file:
+        with open(Annotation_Downloader.RETRY_INPUT_FILENAME, 'w') as file:
             for pdb_id in failed_pdb_ids:
                 file.write(f'{pdb_id}\n')
         

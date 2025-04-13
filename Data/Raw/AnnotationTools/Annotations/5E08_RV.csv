@@ -1,0 +1,7 @@
+"residue1","residue2","n_type","description","full description"
+"N5","N12","GC","WW_cis","PP_cis_XIX"
+"N6","N11","CG","WW_cis","PP_cis_XIX"
+"N10","N11","GG","SH_cis","SH_cis_na"
+"N11","N6","GC","WW_cis","REV:PP_cis_XIX"
+"N11","N10","GG","HS_cis","REV:SH_cis_na"
+"N12","N5","CG","WW_cis","REV:PP_cis_XIX"

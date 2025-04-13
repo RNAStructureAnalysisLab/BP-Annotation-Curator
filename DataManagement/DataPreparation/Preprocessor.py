@@ -6,17 +6,25 @@ import os
 import shutil
 import re
 
-# TODO add multithreading
+# TODO add multithreading and a time to finish estimation
+# TODO rejecting residue pairs leads to innacuracies in other pipeline steps
+# since Table_Extender might treat these as 'nbp' which is 'Not a Base Pair'.
+# However, it is not gauranteed that they actually are not base pair
+# interactions. (perhaps store them as '?' to represent ambiguity?)
+# TODO re-evaluate the contact type dictionaries to see which should be made
+# blank or how they can be converted to leontis-westhof style
+# Might want to save them as 'REJECT' still but put them into the accepted
+# dictionary, and the Table_Extender pipeline step will then remove rows with 
+# REJECT from the final table
 
 class Preprocessor:
-    # TODO modify paths for this project structure
     INPUT_DIRECTORY = os.path.join(
         'Data', 'Raw', 'AnnotationTools', 'Annotations'
     )
     OUTPUT_DIRECTORY = os.path.join('Data', 'Preprocessed', 'JSON_Annotations')
     initialize_variables = True # False after _on_start() has been invoked
     
-    # Following two will be initialized programmatically by on_start()
+    # Following two will be initialized programmatically by _on_start()
     RENAMING_CONVENTION = {}
     DESCRIPTIONS_TO_REJECT = {}
     
@@ -218,13 +226,17 @@ class Preprocessor:
         
         # Create a set of notations that should be removed since they don't cleanly correspond to leontis-westhof nomenclature
         Preprocessor.DESCRIPTIONS_TO_REJECT = {
-            '?H_0BPh', '?W_6BPh', 'base-ribose-stacking', '?SW_2BR', '?W_345BPh', '?H_0BR', 'UNK_SHORT_DESC', 'W_6BR', 
+            '?H_0BPh', '?W_6BPh', '?SW_2BR', '?W_345BPh', '?H_0BR', 'UNK_SHORT_DESC', 'W_6BR', 
             'tW+.', '?diagonal-nc-ww', 'diagonal-nc-ww', '?W_345BR', 'c.-W', 'W_345BPh', 't.-M', 'cW-.', '?H_789BR', 'diagonal-c', 'c.-M', 
             'H_789BPh', 't.-W', 'cW+.', 'H_789BR', 'SW_2BR', '?SW_2BPh', '?W_6BR', '?diagonal-c', 't.+W', 'tW-.', '?S_1BPh', '?S_1BR', 
             '?H_789BPh', 'SW_2BPh', 'tm+.', 'H_0BR', 'W_345BR', 'W_6BPh', 'c.+M', 't.-m', 'tm-.', 't.+m', 'tM-.', 'cM+.', 't.+M', 'c.+W'
         }
-        # Types that will be converted to empty strings:
-        # {'?<>', '', '>>', '<<', '<>', '?><', '><', '--', '?<<', '?>>',}
+        # Types that will be converted to empty strings (stacking, base
+        # phosphate, and base ribose interactions):
+        # {
+        # 'base-ribose-stacking',
+        #'?<>', '', '>>', '<<', '<>', '?><', '><', '--', '?<<', '?>>',
+        # }
         
         Preprocessor.initialize_variables = False
         
@@ -260,7 +272,6 @@ class Preprocessor:
     #OUTPUT: the sorted contents of the original two dictionaries in increasing
     # order, but not strictly lexicographically. IE: D9U is less than D29U
     # because 9 is less than 29. But D9U is less than E5C because D is before E
-    # TODO convert to a version that accepts one argument
     @staticmethod
     def _sort_annotations(accepted_annotations, rejected_annotations):
         sorted_accepted_annotations = {

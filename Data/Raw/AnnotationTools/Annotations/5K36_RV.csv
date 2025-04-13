@@ -1,0 +1,7 @@
+"residue1","residue2","n_type","description","full description"
+"L2","L12","AU","WW_cis","MM_cis_XX"
+"L4","L11","UU","WW_tran","WW_tran_XII,XIII"
+"L5","L14","AA","HW_tran","HW_tran_V"
+"L11","L4","UU","WW_tran","REV:WW_tran_XII,XIII"
+"L12","L2","UA","WW_cis","REV:MM_cis_XX"
+"L14","L5","AA","WH_tran","REV:HW_tran_V"

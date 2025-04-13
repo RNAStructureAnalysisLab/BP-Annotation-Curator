@@ -1,0 +1,5 @@
+"residue1","residue2","n_type","description","full description"
+"X10","X11","UG","","stacking"
+"X11","X10","GU","","REV:stacking"
+"X11","X12","GA","","stacking"
+"X12","X11","AG","","REV:stacking"

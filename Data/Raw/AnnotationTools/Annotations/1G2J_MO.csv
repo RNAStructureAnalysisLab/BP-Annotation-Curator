@@ -1,0 +1,7 @@
+"residue1","residue2","n_type","description","full description"
+"A1","A2","CC",">>",">>"
+"A2","A1","CC","<<","REV:>>"
+"A2","A3","CC",">>",">>"
+"A3","A2","CC","<<","REV:>>"
+"A7","A8","GG",">>",">>"
+"A8","A7","GG","<<","REV:>>"

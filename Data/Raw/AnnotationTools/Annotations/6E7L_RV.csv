@@ -1,0 +1,3 @@
+"residue1","residue2","n_type","description","full description"
+"A5","A6","UG","","stacking"
+"A6","A5","GU","","REV:stacking"

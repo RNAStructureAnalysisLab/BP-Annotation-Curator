@@ -1,0 +1,5 @@
+"residue1","residue2","n_type","description","full description"
+"A2","A3","--",">>","stacking_adjacent_5p_upward"
+"A3","A2","--","<<","REV:stacking_adjacent_5p_upward"
+"A6","A7","--",">>","stacking_adjacent_5p_upward"
+"A7","A6","--","<<","REV:stacking_adjacent_5p_upward"
