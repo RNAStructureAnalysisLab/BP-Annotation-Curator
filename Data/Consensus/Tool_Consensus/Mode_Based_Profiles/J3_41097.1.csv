@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,break.1,Unnamed: 24,8,Unnamed: 26,9,1-9,2-5,3-4,7-8
+1,J3_3R4F_002,3R4F,0.0,1,phi29 pRNA,A,pRNA,G,4,U,5,G,6,*,C,43,U,44,U,46,G,47,*,U,62,C,63,cWW 0.83,cWW 0.50,cWW 0.83,cWW 0.83
+2,J3_4KZ2_001,4KZ2,0.4361,1,phi29 pRNA,A+B+C,phi29 pRNA 3WJ core RNA 18 mer + phi29 pRNA 3WJ core RNA 16 mer,G,8,U,9,G,10,*,C,9,U,10,U,12,G,13,*,U,8,C,9,cWW 0.83,cWW 0.67,cWW 0.83,cWW 0.83

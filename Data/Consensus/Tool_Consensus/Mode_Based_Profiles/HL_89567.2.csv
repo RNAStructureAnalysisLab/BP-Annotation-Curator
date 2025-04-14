@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,1-5
+3,HL_7A0S_040,7A0S,0.1072,3,X,LSU rRNA,C,1628,G,1629,C,1631,C,1633,G,1635,cWW 0.83
+5,HL_4WF9_038,4WF9,0.1068,3,X,LSU rRNA,C,1656,G,1657,C,1659,C,1661,G,1663,cWW 0.83
+8,HL_1S03_001,1S03,0.5485,3,A,47-MER,A,22,G,23,A,26,A,27,U,29,cWW 0.83

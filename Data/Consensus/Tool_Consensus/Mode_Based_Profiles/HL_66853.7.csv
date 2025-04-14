@@ -1,0 +1,12 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,2-6,4-5,3-6
+1,HL_7UZ0_001,7UZ0,0.3361,2,A,tRNA,C,13,A,14,G,15,G,18,U,19,A,20,G,21,cWW 0.83,nbp 0.83,nbp 0.5,nbp 1.00
+2,HL_7E8O_001,7E8O,0.3345,2,X,tRNA,C,13,A,14,G,15,G,18,U,19,A,20,G,21,cWW 0.83,nbp 1.00,cSH 0.83,nbp 1.00
+3,HL_4WJ4_001,4WJ4,0.2691,3,B,tRNA,C,13,A,14,G,15,G,19,U,20,A,21,G,22,cWW 0.83,nbp 0.83,nbp 0.67,nbp 1.00
+4,HL_4MGN_002,4MGN,0.2792,2,B,tRNA-glycine,C,13,A,14,G,15,G,18,U,19,A,20,G,21,cWW 0.83,nbp 0.5,cSH 0.67,nbp 0.83
+5,HL_8S95_001,8S95,0.2223,3,C,"Lysine tRNA scaffold,Poliovirus cloverleaf RNA",C,13,A,14,G,15,G,19,U,20,A,21,G,22,cWW 0.83,nbp 0.5,nbp 0.67,nbp 0.83
+6,HL_6CU1_003,6CU1,0.2549,2,A,Y RNA-like,C,58,A,59,A,60,G,63,U,64,A,65,G,66,cWW 0.83,cWS 0.83,cSH 0.67,nbp 1.00
+7,HL_4YCP_001,4YCP,0.2831,3,B,tRNA,C,13,A,14,A,15,G,19,U,20,A,21,G,22,cWW 0.83,cWS 0.83,cSH 0.83,nbp 1.00
+8,HL_4YCO_001,4YCO,0.2397,3,D,tRNA,C,13,A,14,G,15,G,19,U,20,A,21,G,22,cWW 0.83,cWS 0.83,cSH 0.83,nbp 1.00
+9,HL_8UO6_005,8UO6,0.0,3,B,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,C,13,A,14,G,15,G,19,U,20,A,21,G,22,cWW 0.83,cWS 0.67,cSH 0.67,nbp 1.00
+10,HL_8UO6_001,8UO6,0.0913,3,A,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,C,13,A,14,G,15,G,19,U,20,A,21,G,22,cWW 0.83,nbp 0.67,cSH 0.83,nbp 1.00
+11,HL_6UGG_004,6UGG,0.3056,4,B,tRNA,C,12,A,13,G,14,G,18,U,20,A,21,G,22,cWW 0.83,nbp 0.83,nbp 1.00,nbp 1.00

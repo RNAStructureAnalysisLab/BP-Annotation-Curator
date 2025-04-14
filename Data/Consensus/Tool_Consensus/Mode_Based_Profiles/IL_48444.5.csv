@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,break,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,1-8,3-6,4-5
+2,IL_7A0S_058,7A0S,0.5123,2,X,LSU rRNA,C,1514,U,1515,A,1516,C,1517,*,G,1503,G,1504,U,1505,G,1508,cWW 0.83,cWW 0.83,cWW 0.83
+3,IL_1L9A_001,1L9A,0.0,1,B,signal recognition particle RNA S domain,U,117,A,118,A,119,G,120,*,C,230,A,231,G,232,A,234,cWW 0.83,nbp 0.67,cWW 0.83
+4,IL_1MFQ_001,1MFQ,0.2745,1,A,SRP RNA,U,117,A,118,A,119,G,120,*,C,230,A,231,G,232,A,234,cWW 0.83,nbp 0.67,cWW 0.83

@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,1-4
+1,HL_7PMM_002,7PMM,0.1004,3,D,RNA (45mer) containing HP92 of the 23S rRNA,C,21,U,25,C,26,G,27,cWW 0.83
+2,HL_7PMQ_004,7PMQ,0.0,3,F,RNA (42-MER),C,30,U,34,C,35,G,36,cWW 0.83
+3,HL_3MOJ_002,3MOJ,0.2611,3,A,LSU rRNA,C,2551,U,2555,C,2556,G,2557,cWW 0.83

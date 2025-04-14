@@ -1,0 +1,2 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,break,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,break.1,Unnamed: 31,12,Unnamed: 33,13,Unnamed: 35,14,Unnamed: 37,15,1-15,2-14,4-10,5-9,5-13,7-8,11-12
+1,J3_4R4V_001,4R4V,0.0,0,A,VS ribozyme RNA,C,610,G,611,C,612,A,613,A,614,U,615,C,616,*,G,643,U,644,A,645,G,646,*,C,772,G,773,A,774,G,775,cWW 0.83,nbp 0.5,cSW 0.83,cHW 0.83,cWW 0.83,cWW 0.83,cWW 0.83

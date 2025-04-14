@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,break,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,Unnamed: 33,13,Unnamed: 35,14,1-14,2-13,3-11,3-12,4-11,5-10,6-9,7-8,6-10,7-9
+1,IL_3KTW_004,3KTW,0.0,0,tSH-tHW-tHS with extra cWW pairs,C,SRP RNA,G,201,C,202,C,203,A,204,G,205,G,206,C,207,*,G,216,A,217,G,218,C,219,A,220,A,221,C,222,cWW 0.83,nbp 0.67,tWH 0.67,tSH 0.67,tHW 0.83,nbp 0.67,cWW 0.83,cWW 0.83,nbp 0.83,nbp 0.83
+2,IL_3NDB_008,3NDB,0.241,0,,M,SRP RNA,G,200,C,201,C,202,A,203,G,204,G,205,C,206,*,G,215,A,216,G,217,C,218,A,219,A,220,C,221,cWW 0.83,cWW 0.83,tWH 0.83,nbp 0.5,tHW 0.83,? 0.00,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00

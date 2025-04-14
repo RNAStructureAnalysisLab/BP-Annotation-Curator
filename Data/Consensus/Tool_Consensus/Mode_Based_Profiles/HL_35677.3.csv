@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,2-4,4-5,2-6
+1,HL_2Z75_003,2Z75,0.7254,0,,B,glmS ribozyme,C,78,U,79,U,80,C,81,C,82,U,83,G,84,C,85,G,86,cWW 0.83,cWH 0.50,nbp 1.00,nbp 1.00
+2,HL_6YML_001,6YML,0.6345,1,,A,"Chains: A,C",C,15,G,16,G,17,C,18,U,19,C,21,C,22,U,23,G,24,cWW 0.83,nbp 1.00,nbp 1.00,nbp 0.83
+3,HL_6YL5_005,6YL5,0.6435,1,,I,"Chains: A,B,C,D,E,F,G,H,I,J,K,L",C,15,G,16,G,17,C,18,U,19,C,21,C,22,U,23,G,24,cWW 0.83,nbp 1.00,nbp 1.00,nbp 0.83
+5,HL_7D8O_001,7D8O,0.0934,1,Pseudoknot with intercalation,B,Antitoxin RNA,U,4,G,5,U,7,U,8,U,9,G,10,C,11,U,12,A,13,cWW 0.83,nbp 1.00,nbp 0.67,nbp 1.00
+6,HL_2XDB_001,2XDB,0.0,1,Pseudoknot with intercalation,G,TOXI,U,4,G,5,U,7,U,8,U,9,G,10,C,11,U,12,A,13,cWW 0.83,nbp 1.00,nbp 0.5,nbp 1.00
+7,HL_2XD0_006,2XD0,0.1277,1,Pseudoknot with intercalation,W,TOXI,U,4,G,5,U,7,U,8,U,9,G,10,C,11,U,12,A,13,cWW 0.83,nbp 1.00,nbp 0.5,nbp 1.00

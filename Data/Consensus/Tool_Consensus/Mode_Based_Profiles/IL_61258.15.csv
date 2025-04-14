@@ -1,0 +1,30 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,3-5,1-4,1-3
+1,IL_7A0S_025,7A0S,1.3076,0,Single bulged C,X,LSU rRNA,G,938,C,939,G,940,*,C,863,C,864,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+3,IL_7A0S_010,7A0S,0.773,0,Single bulged C,X,LSU rRNA,G,558,C,559,G,560,*,C,552,C,553,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+8,IL_3SNP_003,3SNP,0.6255,0,Single bulged C,D,ferritin H IRE RNA,G,7,C,8,U,9,*,A,24,C,25,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+9,IL_3SN2_001,3SN2,0.6479,0,Single bulged C,B,transferrin receptor iron regulatory element B RNA,U,7,C,8,G,9,*,C,24,A,25,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+11,IL_7A0S_055,7A0S,0.5129,0,Single bulged C,X,LSU rRNA,G,1488,C,1489,U,1490,*,A,1534,C,1535,cWW 0.83,cWW 0.67,nbp 0.83,nbp 1.00,nbp 1.00
+12,IL_6CK5_003,6CK5,0.5289,0,Single bulged C,A,Guanidine-I riboswitch,U,39,C,40,G,41,*,C,21,A,22,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+13,IL_3HHN_003,3HHN,0.3784,0,Single bulged C,E,"Class I ligase ribozyme, self-ligation product",G,46,C,47,U,48,*,A,112,C,113,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
+14,IL_8F5G_002,8F5G,0.4334,0,Single bulged C,D,RNA,G,8,C,9,U,10,*,A,19,C,20,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
+15,IL_3IVK_001,3IVK,0.4647,0,Single bulged C,M,class I ligase product,G,46,C,47,U,48,*,A,112,C,113,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
+16,IL_9DE7_001,9DE7,0.4087,0,,A,RNA (58-MER),U,4,C,5,U,6,*,A,55,A,56,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
+17,IL_5KPY_001,5KPY,0.5215,0,Single bulged C,A,5-hydroxytryptophan RNA aptamer,U,25,C,26,G,27,*,C,43,A,44,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+18,IL_1S03_006,1S03,0.2971,0,Single bulged C,B,47-MER,G,9,C,10,G,11,*,C,39,C,40,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+19,IL_1DQF_001,1DQF,0.2519,0,Single bulged C,B+A,RNA (10-mer),U,15,C,16,G,17,*,C,3,A,4,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+20,IL_7KGA_004,7KGA,0.2057,0,Single bulged C,B,Flavivirus DB element,A,44,C,45,U,46,*,A,10,U,11,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+21,IL_7A0S_032,7A0S,0.1265,0,Single bulged C,X,LSU rRNA,U,1005,C,1006,A,1007,*,U,1170,A,1171,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 0.83
+24,IL_4WF9_035,4WF9,0.1704,0,Single bulged C,X,LSU rRNA,C,1038,C,1039,A,1040,*,U,1203,G,1204,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+25,IL_7PMM_001,7PMM,0.4022,0,Single bulged C,D,RNA (45mer) containing HP92 of the 23S rRNA,U,33,C,34,G,35,*,C,13,A,14,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+26,IL_1DQH_001,1DQH,0.4698,0,Single bulged C,B+A,RNA (10-mer),U,15,C,16,G,17,*,C,3,A,4,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+27,IL_5F5H_001,5F5H,0.4756,0,Single bulged C,C,RNA (21-mer),G,18,C,19,U,20,*,A,4,C,5,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
+28,IL_5F5H_002,5F5H,0.4918,0,Single bulged C,D,RNA (21-mer),G,18,C,19,U,20,*,A,4,C,5,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+29,IL_1S03_002,1S03,0.4458,0,Single bulged C,A,47-MER,G,9,C,10,G,11,*,C,39,C,40,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+30,IL_7KGA_001,7KGA,0.5234,0,Single bulged C,A,Flavivirus DB element,A,44,C,45,U,46,*,A,10,U,11,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
+31,IL_6XKO_001,6XKO,0.379,0,Single bulged C,A,PreQ1-III riboswitch,G,78,C,79,G,80,*,C,56,C,57,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+32,IL_6ZDP_001,6ZDP,0.4953,0,Single bulged C,B,Chains: B,A,1346,C,1347,U,1348,*,A,1290,U,1291,cWW 0.83,cWW 0.83,nbp 0.83,nbp 0.83,nbp 1.00
+36,IL_3DIL_001,3DIL,0.6151,0,Single bulged C,A,RNA (174-MER),G,12,C,13,G,14,*,C,78,C,79,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+37,IL_3D0U_001,3D0U,0.7333,0,Single bulged C,A,Lysine Riboswitch RNA,G,9,C,10,G,11,*,C,75,C,76,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+38,IL_4C7O_003,4C7O,0.8098,0,Single bulged C,E,SRP RNA,C,31,C,32,G,33,*,C,12,G,13,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+39,IL_3SN2_002,3SN2,1.1555,0,Single bulged C,B,transferrin receptor iron regulatory element B RNA,G,18,C,19,C,20,*,G,13,C,14,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+40,IL_1KUQ_002,1KUQ,1.0063,0,Single bulged C,B,16S RIBOSOMAL RNA FRAGMENT,C,46,C,47,C,48,*,G,21,G,22,cWW 0.83,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00
