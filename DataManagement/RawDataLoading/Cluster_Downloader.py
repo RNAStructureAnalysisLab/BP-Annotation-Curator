@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 
 class Cluster_Downloader:
     CRAWL_DELAY = 10 # https://rna.bgsu.edu/robots.txt suggests 10 seconds
-    CLUSTER_DOWNLOAD_DIRECTORY = 'Data/Raw/R3DMA'
+    CLUSTER_DOWNLOAD_DIRECTORY = os.path.join('Data', 'Raw', 'R3DMA')
     HOMEPAGE_URL = 'https://rna.bgsu.edu/rna3dhub/motifs'
     
     version = ''

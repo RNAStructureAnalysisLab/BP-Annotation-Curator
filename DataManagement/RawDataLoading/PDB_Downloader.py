@@ -15,10 +15,10 @@ import sys
 
 class PDB_Downloader:
     CRAWL_DELAY = 1 # No delay specified at https://www.rcsb.org/robots.txt
-    OUTPUT_DIRECTORY = 'Data/Raw/RCSB'
-    INPUT_FILE = 'Data/Raw/R3DMA/pdb_ids.txt'
-    PDB_OUTPUT_DIRECTORY = f'{OUTPUT_DIRECTORY}/PDB_Files'
-    PDBX_OUTPUT_DIRECTORY = f'{OUTPUT_DIRECTORY}/PDBx_Files'
+    OUTPUT_DIRECTORY = os.path.join('Data', 'Raw', 'RCSB')
+    INPUT_FILE = os.path.join('Data', 'Raw', 'R3DMA', 'pdb_ids.txt')
+    PDB_OUTPUT_DIRECTORY = os.path.join(OUTPUT_DIRECTORY, 'PDB_Files')
+    PDBX_OUTPUT_DIRECTORY = os.path.join(OUTPUT_DIRECTORY, 'PDBx_Files')
     RCSB_URL = 'https://files.rcsb.org/download'
     SESSION = requests.Session()
     
