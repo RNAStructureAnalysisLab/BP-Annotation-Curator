@@ -1,4 +1,4 @@
-Cluster,PDB,Chain(s),Residue IDs,Nucleotides,Consensus Contact Type,Is BP (R3DMA),Is BP (CL),Is BP (FR),Is BP (MC),Is BP (RV),Is BP Count,Matches (R3DMA),Matches (CL),Matches (FR),Matches (MC),Matches (RV),Matches Count
+Cluster,PDB,Chain(s),Residue IDs,Nucleotides,Consensus Contact Type,Agree BP (R3DMA),Agree BP (CL),Agree BP (FR),Agree BP (MC),Agree BP (RV),Agree BP Count,Matches (R3DMA),Matches (CL),Matches (FR),Matches (MC),Matches (RV),Matches Count
 HL_00317.1,6SVS,A,"(54, 67)","('C', 'A')",nbp,True,False,True,True,True,4,True,False,True,True,True,4
 HL_00317.1,6SVS,A,"(53, 68)","('C', 'A')",nbp,True,True,False,True,True,4,True,True,False,True,True,4
 HL_00317.1,6SVS,A,"(50, 69)","('U', 'A')",cWW,True,True,True,True,True,5,True,True,True,True,True,5

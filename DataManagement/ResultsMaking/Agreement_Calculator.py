@@ -73,12 +73,12 @@ class Agreement_Calculator:
                         'Cluster': cluster_name, 'PDB': pdb, 'Chain(s)': chains,
                         'Residue IDs': residue_ids, 'Nucleotides': nucleotides,
                         'Consensus Contact Type': contact_type, 
-                        'Is BP (R3DMA)': presence_list[0][0],
-                        'Is BP (CL)': presence_list[1][0],
-                        'Is BP (FR)': presence_list[2][0],
-                        'Is BP (MC)': presence_list[3][0],
-                        'Is BP (RV)': presence_list[4][0],
-                        'Is BP Count': Agreement_Calculator._sum(
+                        'Agree BP (R3DMA)': presence_list[0][0],
+                        'Agree BP (CL)': presence_list[1][0],
+                        'Agree BP (FR)': presence_list[2][0],
+                        'Agree BP (MC)': presence_list[3][0],
+                        'Agree BP (RV)': presence_list[4][0],
+                        'Agree BP Count': Agreement_Calculator._sum(
                             presence_list, 0
                         ),
                         'Matches (R3DMA)': presence_list[0][1],
