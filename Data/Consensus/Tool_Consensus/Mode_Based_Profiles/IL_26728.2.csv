@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,break,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,2-3,2-7,3-4,3-7,5-6,2-8,3-6
-1,IL_7SZU_002,7SZU,0.2439,0,R,RNA aptamer,U,21,G,22,U,23,C,24,G,25,*,C,52,U,53,G,54,G,55,cWW 0.83,? 0.00,nbp 0.67,nbp 0.67,cWW 0.67,cWW 0.83,nbp 0.83,nbp 0.83
-2,IL_7EOM_002,7EOM,0.0,0,A,Pepper (49-MER),U,40,G,41,U,42,C,43,G,44,*,C,7,U,8,G,9,G,10,cWW 0.83,cSH 0.83,nbp 0.50,cSH 0.67,cWW 0.67,cWW 0.83,nbp 0.83,nbp 0.83
-3,IL_7EOG_002,7EOG,0.0591,0,A,Pepper (49-MER),U,40,G,41,U,42,C,43,G,44,*,C,7,U,8,G,9,G,10,cWW 0.83,cSH 0.83,nbp 0.83,cSH 0.67,cWW 0.67,cWW 0.83,nbp 0.83,nbp 0.83
+1,IL_7SZU_002,7SZU,0.2439,0,R,RNA aptamer,U,21,G,22,U,23,C,24,G,25,*,C,52,U,53,G,54,G,55,cWW 1.00,cSH 0.60,nbp 0.60,nbp 0.60,cWW 0.80,cWW 1.00,nbp 0.80,nbp 0.80
+2,IL_7EOM_002,7EOM,0.0,0,A,Pepper (49-MER),U,40,G,41,U,42,C,43,G,44,*,C,7,U,8,G,9,G,10,cWW 1.00,cSH 1.00,? 0.00,cSH 0.80,cWW 0.80,cWW 1.00,nbp 0.80,nbp 0.80
+3,IL_7EOG_002,7EOG,0.0591,0,A,Pepper (49-MER),U,40,G,41,U,42,C,43,G,44,*,C,7,U,8,G,9,G,10,cWW 1.00,cSH 1.00,nbp 0.80,cSH 0.80,cWW 0.80,cWW 1.00,nbp 0.80,nbp 0.80

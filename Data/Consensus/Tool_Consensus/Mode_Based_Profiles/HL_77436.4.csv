@@ -1,12 +1,12 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,1-7,2-6,3-5,1-6,3-4,2-7,3-6
-2,HL_1QTQ_002,1QTQ,0.5479,2,tRNA anticodon loop,B,tRNA,A,931,U,932,U,933,U,935,A,937,U,938,U,939,cWW 0.83,nbp 0.83,tSH 0.67,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-3,HL_4JXZ_002,4JXZ,0.5572,2,tRNA anticodon loop,B,RNA (71-MER),U,931,U,932,U,933,U,935,A,937,U,938,A,939,cWW 0.83,nbp 0.67,nbp 0.5,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-4,HL_4JYZ_002,4JYZ,0.5623,2,tRNA anticodon loop,B,tRNA,U,931,OMU,932,U,933,U,935,2MA,937,PSU,938,A,939,cWW 0.83,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-5,HL_2D6F_005,2D6F,0.6308,2,tRNA anticodon loop,F,tRNA,G,931,C,932,U,933,G,936,G,937,A,938,C,939,cWW 0.83,cWW 0.83,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
-6,HL_3IVK_005,3IVK,0.5422,1,T-loop related,M,class I ligase product,G,92,U,93,U,94,A,95,A,96,A,98,C,99,cWW 0.83,nbp 0.67,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-8,HL_4LFB_025,4LFB,0.1588,1,T-loop related,A,SSU rRNA,G,1089,U,1090,U,1091,A,1092,A,1093,U,1095,C,1096,cWW 0.83,cWW 0.67,nbp 0.83,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00
-12,HL_3R4F_001,3R4F,0.2262,1,T-loop related,A,pRNA,A,24,U,25,U,26,G,27,A,28,U,30,U,31,cWW 0.83,cWW 0.67,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
-17,HL_7TZS_002,7TZS,0.4524,1,T-loop related,X,TPP riboswitch (THI element),G,66,A,67,U,68,A,69,A,70,U,71,C,73,cWW 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83
-18,HL_3K0J_002,3K0J,0.4465,1,T-loop related,E,RNA (87-MER),G,66,A,67,U,68,A,69,A,70,U,71,C,73,cWW 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83
-19,HL_3D2V_002,3D2V,0.4526,1,T-loop related,A,TPP riboswitch (THI element),G,54,G,55,U,56,A,57,A,58,U,59,C,61,cWW 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83
-24,HL_4WF9_019,4WF9,0.5765,2,Other HL,X,LSU rRNA,C,654,A,655,G,656,U,657,A,659,U,661,G,662,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.67
+2,HL_1QTQ_002,1QTQ,0.5479,2,tRNA anticodon loop,B,tRNA,A,931,U,932,U,933,U,935,A,937,U,938,U,939,cWW 1.00,nbp 0.80,tSH 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+3,HL_4JXZ_002,4JXZ,0.5572,2,tRNA anticodon loop,B,RNA (71-MER),U,931,U,932,U,933,U,935,A,937,U,938,A,939,cWW 1.00,nbp 0.60,tSH 0.60,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+4,HL_4JYZ_002,4JYZ,0.5623,2,tRNA anticodon loop,B,tRNA,U,931,OMU,932,U,933,U,935,2MA,937,PSU,938,A,939,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+5,HL_2D6F_005,2D6F,0.6308,2,tRNA anticodon loop,F,tRNA,G,931,C,932,U,933,G,936,G,937,A,938,C,939,cWW 1.00,cWW 1.00,nbp 0.80,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00
+6,HL_3IVK_005,3IVK,0.5422,1,T-loop related,M,class I ligase product,G,92,U,93,U,94,A,95,A,96,A,98,C,99,cWW 1.00,nbp 0.60,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+8,HL_4LFB_025,4LFB,0.1588,1,T-loop related,A,SSU rRNA,G,1089,U,1090,U,1091,A,1092,A,1093,U,1095,C,1096,cWW 1.00,cWW 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 0.80,nbp 1.00
+12,HL_3R4F_001,3R4F,0.2262,1,T-loop related,A,pRNA,A,24,U,25,U,26,G,27,A,28,U,30,U,31,cWW 1.00,cWW 0.80,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
+17,HL_7TZS_002,7TZS,0.4524,1,T-loop related,X,TPP riboswitch (THI element),G,66,A,67,U,68,A,69,A,70,U,71,C,73,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.80
+18,HL_3K0J_002,3K0J,0.4465,1,T-loop related,E,RNA (87-MER),G,66,A,67,U,68,A,69,A,70,U,71,C,73,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.80
+19,HL_3D2V_002,3D2V,0.4526,1,T-loop related,A,TPP riboswitch (THI element),G,54,G,55,U,56,A,57,A,58,U,59,C,61,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.80
+24,HL_4WF9_019,4WF9,0.5765,2,Other HL,X,LSU rRNA,C,654,A,655,G,656,U,657,A,659,U,661,G,662,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.60

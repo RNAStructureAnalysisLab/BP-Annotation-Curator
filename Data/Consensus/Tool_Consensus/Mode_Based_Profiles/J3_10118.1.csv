@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,break.1,Unnamed: 19,6,Unnamed: 21,7,1-7,3-4,5-6
-1,J3_7KI3_001,7KI3,0.0,5,B+C,miR-122 + HCV genotype 1a miR-122 site-1,U,8,G,9,U,14,*,A,4,G,5,*,C,20,A,22,cWW 0.83,cWW 0.83,cWW 0.83
+1,J3_7KI3_001,7KI3,0.0,5,B+C,miR-122 + HCV genotype 1a miR-122 site-1,U,8,G,9,U,14,*,A,4,G,5,*,C,20,A,22,cWW 1.00,cWW 1.00,cWW 1.00

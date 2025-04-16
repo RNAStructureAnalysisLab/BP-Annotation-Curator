@@ -10,7 +10,7 @@ from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Do
 from DataManagement.DataPreparation.Preprocessor import Preprocessor
 from DataManagement.DataPreparation.Table_Extender import Table_Extender
 from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
-
+from DataManagement.ResultsMaking.Agreement_Calculator import Agreement_Calculator
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -27,6 +27,8 @@ print(
     STEP 7: Preprocess the annotation data
     STEP 8: Extend the motif cluster tables originally from R3DMA
     STEP 9: Create tool consensus tables for each motif cluster from STEP 8
+    STEP 10: Find the base pair intersections between the extended tables and
+        the tools
     *more to come...
     -------------------------------------
     
@@ -198,4 +200,12 @@ if 8 >= starting_step_number:
 if 9 >= starting_step_number:
     print('Beginning STEP 9:\n')
     Tool_Consensus.run()
+    
+# =============================================================================
+# STEP 10: Find the base pair intersections between the extended table and 
+# tools annotations
+
+if 10 >= starting_step_number:
+    print('Beginning STEP 10:\n')
+    Agreement_Calculator.run()
     

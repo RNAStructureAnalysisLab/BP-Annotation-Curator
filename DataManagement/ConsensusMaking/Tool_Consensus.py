@@ -20,6 +20,7 @@ class Tool_Consensus:
     table = pd.DataFrame
     ambiguities = []
     
+    @staticmethod
     def run():
         # Reset the contents of Mode_Based_Profiles folder to be blank
         if os.path.exists(Tool_Consensus.OUTPUT_DIRECTORY):
@@ -39,7 +40,8 @@ class Tool_Consensus:
         with open(Tool_Consensus.AMBIGUITIES_FILE_PATH, 'w') as file:
             for line in Tool_Consensus.ambiguities:
                 file.write(line)
-                
+    
+    @staticmethod         
     def _find_consensus(csv_file_name):
         for row_label, _ in Tool_Consensus.table.iterrows():
             
@@ -55,6 +57,7 @@ class Tool_Consensus:
     
     # TODO: still in progress, comments might need to be streamlined as they 
     # reflect different intents based on different moments during development
+    @staticmethod
     def _condense(entry, csv_file_name, row_label, column_name):
         entry = entry.split(',')
         
@@ -124,6 +127,7 @@ class Tool_Consensus:
         
         return f'{contact_type} {weight:.2f}'
     
+    @staticmethod
     def _export_table(csv_file_name):
         file_path = os.path.join(Tool_Consensus.OUTPUT_DIRECTORY, csv_file_name)
         Tool_Consensus.table.to_csv(file_path, index=False)

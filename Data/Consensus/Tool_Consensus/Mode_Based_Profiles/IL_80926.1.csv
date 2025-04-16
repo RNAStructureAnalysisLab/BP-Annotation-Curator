@@ -1,7 +1,7 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,break,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,1-11,2-10,3-9,4-8,6-7,3-10,5-7,3-4,5-8
-1,IL_1X9K_001,1X9K,0.1769,1,B+A,RNA (13-mer),G,6,A,7,G,8,A,9,A,10,G,11,*,C,5,A,6,U,8,C,9,C,10,cWW 0.83,nbp 0.83,tSH 0.67,nbp 0.67,cWW 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
-2,IL_1M5K_001,1M5K,0.1523,1,B+A,RNA HAIRPIN RIBOZYME,G,6,A,7,G,8,A,9,A,10,G,11,*,C,11,A2M,12,U,14,C,15,C,16,cWW 0.83,cWW 0.67,tSH 0.67,nbp 0.83,cWW 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
-3,IL_3BBM_001,3BBM,0.0,0,B+A,Loop A and Loop B Ribozyme strand,G,6,A,7,G,8,A,9,A,10,G,11,*,C,4,A2M,5,U,7,C,8,C,9,cWW 0.83,cWW 0.67,tSH 0.67,nbp 0.83,cWW 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
-4,IL_3GS8_001,3GS8,0.0869,1,B+A,RNA (12-mer),G,6,A,7,G,8,A,9,A,10,G,11,*,C,4,A,5,U,7,C,8,C,9,cWW 0.83,cWW 0.67,tSH 0.83,tHS 0.83,cWW 0.83,nbp 0.83,nbp 1.00,nbp 0.83,nbp 0.83
-6,IL_1ZFT_001,1ZFT,0.1076,-1,B+A,RNA (12-mer),G,6,A,7,I,8,A,9,A,10,G,11,*,C,4,A2M,5,U,7,C,8,C,9,cWW 0.83,cWW 0.67,nbp 0.83,nbp 0.83,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-7,IL_2NPY_001,2NPY,0.1223,0,B+A,RNA (12-mer),G,6,A,7,G,8,A,9,A,10,G,11,*,C,4,2AU,5,U,7,C,8,C,9,cWW 0.83,cWW 0.67,? 0.00,nbp 1.00,cWW 0.83,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00
+1,IL_1X9K_001,1X9K,0.1769,1,B+A,RNA (13-mer),G,6,A,7,G,8,A,9,A,10,G,11,*,C,5,A,6,U,8,C,9,C,10,cWW 1.00,nbp 0.80,tSH 0.80,nbp 0.60,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
+2,IL_1M5K_001,1M5K,0.1523,1,B+A,RNA HAIRPIN RIBOZYME,G,6,A,7,G,8,A,9,A,10,G,11,*,C,11,A2M,12,U,14,C,15,C,16,cWW 1.00,cWW 0.80,tSH 0.80,nbp 0.80,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00
+3,IL_3BBM_001,3BBM,0.0,0,B+A,Loop A and Loop B Ribozyme strand,G,6,A,7,G,8,A,9,A,10,G,11,*,C,4,A2M,5,U,7,C,8,C,9,cWW 1.00,cWW 0.80,tSH 0.80,nbp 0.80,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
+4,IL_3GS8_001,3GS8,0.0869,1,B+A,RNA (12-mer),G,6,A,7,G,8,A,9,A,10,G,11,*,C,4,A,5,U,7,C,8,C,9,cWW 1.00,cWW 0.80,tSH 1.00,tHS 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 0.80,nbp 0.80
+6,IL_1ZFT_001,1ZFT,0.1076,-1,B+A,RNA (12-mer),G,6,A,7,I,8,A,9,A,10,G,11,*,C,4,A2M,5,U,7,C,8,C,9,cWW 1.00,cWW 0.80,nbp 0.80,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+7,IL_2NPY_001,2NPY,0.1223,0,B+A,RNA (12-mer),G,6,A,7,G,8,A,9,A,10,G,11,*,C,4,2AU,5,U,7,C,8,C,9,cWW 1.00,cWW 0.80,tSH 0.60,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.80,nbp 1.00

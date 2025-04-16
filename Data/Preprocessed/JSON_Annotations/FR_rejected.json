@@ -52,8 +52,8 @@
         },
         "R58A": {
             "R60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "R60U": {
@@ -66,8 +66,8 @@
         },
         "R61C": {
             "R60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -255,8 +255,8 @@
         },
         "C13C": {
             "C12U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D5A": {
@@ -266,8 +266,8 @@
         },
         "D13C": {
             "D12U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ],
             "D14A": [
                 "UNK_SHORT_DESC"
@@ -440,8 +440,8 @@
         },
         "A10C": {
             "A9A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A15G": {
@@ -529,8 +529,8 @@
         },
         "B961C": {
             "B960U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B975C": {
@@ -594,8 +594,8 @@
     "1FFY": {
         "T36U": {
             "T35A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "T38A": {
@@ -636,8 +636,8 @@
                 "W_345BPh"
             ],
             "T58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "T61C": {
@@ -687,8 +687,8 @@
         },
         "A61C": {
             "A60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A68C": {
@@ -762,8 +762,8 @@
         },
         "E748C": {
             "E747C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "E754C": {
@@ -929,8 +929,8 @@
         },
         "D959U": {
             "D957A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D958G": [
                 "H_789BPh"
@@ -941,9 +941,9 @@
         },
         "D960C": {
             "D959U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -1021,9 +1021,9 @@
         },
         "A165C": {
             "A164G": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "A168U": {
@@ -1215,9 +1215,9 @@
         },
         "B165C": {
             "B164G": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "B168U": {
@@ -1362,9 +1362,9 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "B62C": {
@@ -1396,8 +1396,8 @@
         },
         "T21A": {
             "T47G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "T46G": {
@@ -1410,8 +1410,8 @@
                 "UNK_SHORT_DESC"
             ],
             "T46G": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ],
             "T48C": [
                 "UNK_SHORT_DESC"
@@ -1432,8 +1432,8 @@
                 "W_345BPh"
             ],
             "T58G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "T59A": [
                 "H_789BPh"
@@ -1614,8 +1614,8 @@
         },
         "D19C": {
             "D18U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -1657,8 +1657,8 @@
         },
         "C958A": {
             "C960U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C960U": {
@@ -1698,14 +1698,14 @@
         },
         "D1958A": {
             "D1960U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D1960U": {
             "D1958A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D1959U": [
                 "H_789BPh"
@@ -1716,8 +1716,8 @@
         },
         "D1961C": {
             "D1960U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -1754,8 +1754,8 @@
         },
         "B559A": {
             "B561U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B561U": {
@@ -1771,8 +1771,8 @@
         },
         "B562C": {
             "B561U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -2171,8 +2171,8 @@
         },
         "B11C": {
             "B10U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B15C": {
@@ -2368,8 +2368,8 @@
         },
         "B62A": {
             "B61U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B63C": {
@@ -3237,8 +3237,8 @@
         },
         "A345C": {
             "A344A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A352C": {
@@ -3263,8 +3263,8 @@
         },
         "A360A": {
             "A50A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A362G": {
@@ -3823,8 +3823,8 @@
         },
         "A789U": {
             "A792A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A790A": {
@@ -4106,8 +4106,8 @@
         },
         "A977A": {
             "A1224G": [
-                "H_789BPh",
-                "W_6BR"
+                "W_6BR",
+                "H_789BPh"
             ]
         },
         "A978A": {
@@ -4313,8 +4313,8 @@
         },
         "A1132C": {
             "A1129C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1134G": {
@@ -4411,8 +4411,8 @@
         },
         "A1200C": {
             "A1053G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1204A": {
@@ -4539,8 +4539,8 @@
         },
         "A1282C": {
             "A1281U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1286A": {
@@ -4778,8 +4778,8 @@
         },
         "A1452C": {
             "A1451A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1460A": {
@@ -4922,8 +4922,8 @@
         },
         "A31G": {
             "A48C": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A33A": {
@@ -5257,8 +5257,8 @@
         },
         "A345C": {
             "A344A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A352C": {
@@ -5791,8 +5791,8 @@
         },
         "A789U": {
             "A792A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A790A": {
@@ -6002,8 +6002,8 @@
         },
         "A961U": {
             "A1223C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A964A": {
@@ -6029,8 +6029,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1366C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A976G": {
@@ -6043,8 +6043,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1224G": [
-                "H_789BPh",
                 "UNK_SHORT_DESC",
+                "H_789BPh",
                 "W_6BR"
             ]
         },
@@ -6266,8 +6266,8 @@
         },
         "A1140C": {
             "A1139G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1142G": {
@@ -6699,8 +6699,8 @@
         },
         "A1452C": {
             "A1451A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1460A": {
@@ -6865,8 +6865,8 @@
         },
         "A105A": {
             "A98A": [
-                "W_6BPh",
-                "W_6BR"
+                "W_6BR",
+                "W_6BPh"
             ]
         },
         "A106A": {
@@ -7142,8 +7142,8 @@
         },
         "A27C": {
             "A26G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C24G": {
@@ -7543,8 +7543,8 @@
         },
         "B948C": {
             "B947U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B955U": {
@@ -7579,8 +7579,8 @@
     "1QU2": {
         "T36U": {
             "T35A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "T38A": {
@@ -7621,8 +7621,8 @@
                 "W_345BPh"
             ],
             "T58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "T61C": {
@@ -7639,9 +7639,9 @@
         },
         "C415C": {
             "C413A": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "C416C": {
@@ -7980,8 +7980,8 @@
         },
         "A61C": {
             "A60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A75C": {
@@ -8402,8 +8402,8 @@
                 "H_789BR"
             ],
             "A220A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A225A": {
@@ -8707,8 +8707,8 @@
         },
         "D921U": {
             "D920G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "D924A": {
@@ -8764,8 +8764,8 @@
         },
         "D985A": {
             "D986C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D986C": {
@@ -8849,8 +8849,8 @@
                 "UNK_SHORT_DESC"
             ],
             "D36G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D39C": {
@@ -9309,8 +9309,8 @@
         },
         "A360A": {
             "A50A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A363A": {
@@ -9413,8 +9413,8 @@
         },
         "A423G": {
             "A424G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A424G": {
@@ -9445,14 +9445,14 @@
         },
         "A430A": {
             "A429U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A431A": {
             "A410G": [
-                "H_789BPh",
-                "W_6BR"
+                "W_6BR",
+                "H_789BPh"
             ],
             "A432A": [
                 "UNK_SHORT_DESC"
@@ -9962,8 +9962,8 @@
         },
         "A789U": {
             "A792A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A790A": {
@@ -9991,8 +9991,8 @@
         },
         "A796C": {
             "A795C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A800G": {
@@ -10012,8 +10012,8 @@
         },
         "A815A": {
             "A1509C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A1527C": [
                 "UNK_SHORT_DESC"
@@ -10060,8 +10060,8 @@
         },
         "A841U": {
             "A848C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A848C": {
@@ -10226,8 +10226,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1366C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A1367C": [
                 "W_6BR"
@@ -10386,8 +10386,8 @@
         },
         "A1086U": {
             "A1085U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1091U": {
@@ -10464,8 +10464,8 @@
         },
         "A1132C": {
             "A1129C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1137C": {
@@ -10672,8 +10672,8 @@
         },
         "A1282C": {
             "A1281U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1286A": {
@@ -10919,8 +10919,8 @@
         },
         "A1452C": {
             "A1451A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1460A": {
@@ -11153,8 +11153,8 @@
         },
         "B235C": {
             "B234U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D202G": {
@@ -11269,8 +11269,8 @@
         },
         "D42U": {
             "A4C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B12G": [
                 "UNK_SHORT_DESC"
@@ -11667,8 +11667,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B35C": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "B34C": {
@@ -11738,8 +11738,8 @@
         },
         "B15A": {
             "B14C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B19A": {
@@ -11802,8 +11802,8 @@
         },
         "C561C": {
             "C560U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D501G": {
@@ -11843,8 +11843,8 @@
         },
         "D560U": {
             "D558A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "D559A": [
                 "H_789BPh"
@@ -11896,8 +11896,8 @@
         },
         "C1956U": {
             "C1955U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ],
             "C1957C": [
                 "UNK_SHORT_DESC"
@@ -11905,9 +11905,9 @@
         },
         "C1957C": {
             "C1956U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "D1938A": {
@@ -11945,8 +11945,8 @@
         },
         "D1957C": {
             "D1956U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -12001,8 +12001,8 @@
         },
         "B60U": {
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B59G": [
                 "H_789BPh"
@@ -12185,9 +12185,9 @@
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "C70G": {
@@ -12301,8 +12301,8 @@
         },
         "B46G": {
             "B16U": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "B47A": {
@@ -12627,8 +12627,8 @@
         },
         "E960U": {
             "E958A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "E961C": {
@@ -12951,8 +12951,8 @@
                 "W_345BPh"
             ],
             "D957A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D960C": [
                 "UNK_SHORT_DESC"
@@ -12960,8 +12960,8 @@
         },
         "D960C": {
             "D959U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -13013,8 +13013,8 @@
         },
         "C17C": {
             "C16C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C22G": {
@@ -13060,8 +13060,8 @@
         },
         "D17C": {
             "D16C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D22G": {
@@ -13096,8 +13096,8 @@
         },
         "D61C": {
             "D60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D70G": {
@@ -13121,8 +13121,8 @@
         },
         "B18C": {
             "B17U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B28A": {
@@ -13455,8 +13455,8 @@
         },
         "M6101A": {
             "M6100C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "M6102C": {
@@ -13592,9 +13592,9 @@
         },
         "T61C": {
             "T60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "T62C": {
@@ -13640,8 +13640,8 @@
         },
         "A6G": {
             "D37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B9A": {
@@ -13700,8 +13700,8 @@
         },
         "D42U": {
             "A4C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B12G": [
                 "UNK_SHORT_DESC"
@@ -14252,8 +14252,8 @@
         },
         "B1492A": {
             "B1491A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -14265,8 +14265,8 @@
         },
         "B1492A": {
             "B1491A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -14296,8 +14296,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A19U": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A18A": {
@@ -14343,8 +14343,8 @@
         },
         "A31A": {
             "A8C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A37A": {
@@ -14624,8 +14624,8 @@
         },
         "D42U": {
             "A4C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B12G": [
                 "UNK_SHORT_DESC"
@@ -14652,8 +14652,8 @@
         },
         "P6G": {
             "D37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         }
     },
@@ -14678,8 +14678,8 @@
         },
         "B8A": {
             "B7G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         }
     },
@@ -14719,8 +14719,8 @@
         },
         "A35A": {
             "A13A": [
-                "SW_2BPh",
-                "W_6BR"
+                "W_6BR",
+                "SW_2BPh"
             ],
             "A37G": [
                 "UNK_SHORT_DESC"
@@ -14756,8 +14756,8 @@
         },
         "B35A": {
             "B13A": [
-                "SW_2BPh",
-                "W_6BR"
+                "W_6BR",
+                "SW_2BPh"
             ],
             "B37G": [
                 "UNK_SHORT_DESC"
@@ -15164,9 +15164,9 @@
         },
         "R165C": {
             "R164G": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "R167U": {
@@ -15264,8 +15264,8 @@
                 "UNK_SHORT_DESC"
             ],
             "R239U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ],
             "R241U": [
                 "UNK_SHORT_DESC"
@@ -15715,8 +15715,8 @@
         },
         "D15U": {
             "D13C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D14G": [
                 "H_789BPh"
@@ -16042,9 +16042,9 @@
         },
         "B961C": {
             "B960U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -16059,8 +16059,8 @@
         },
         "A15C": {
             "A13U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A16U": {
@@ -16233,8 +16233,8 @@
         },
         "C20C": {
             "C19G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C21U": {
@@ -16268,8 +16268,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C59A": [
                 "H_789BPh"
@@ -16280,8 +16280,8 @@
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D20C": {
@@ -16495,8 +16495,8 @@
                 "W_6BPh"
             ],
             "C59U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C9A": {
@@ -16511,8 +16511,8 @@
         },
         "C20AC": {
             "C8C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "C47FA": {
@@ -16553,8 +16553,8 @@
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D8C": {
@@ -16563,8 +16563,8 @@
                 "W_6BPh"
             ],
             "D59U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D10C": {
@@ -16574,8 +16574,8 @@
         },
         "D20AC": {
             "D8C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "D55U": {
@@ -16598,8 +16598,8 @@
                 "W_345BPh"
             ],
             "D58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D61C": [
                 "UNK_SHORT_DESC"
@@ -16607,9 +16607,9 @@
         },
         "D61C": {
             "D60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -16631,8 +16631,8 @@
         },
         "U3A": {
             "U2G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "U5G": {
@@ -16682,8 +16682,8 @@
         },
         "E37G": {
             "E36G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "E56C": {
@@ -16698,8 +16698,8 @@
         },
         "E58A": {
             "E60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "E60U": {
@@ -16712,8 +16712,8 @@
         },
         "E61C": {
             "E60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "E75C": {
@@ -16858,8 +16858,8 @@
         },
         "H61C": {
             "H60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "H75C": {
@@ -16957,8 +16957,8 @@
         },
         "B64A": {
             "B66U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B66U": {
@@ -16966,8 +16966,8 @@
                 "W_345BPh"
             ],
             "B64A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B67C": [
                 "UNK_SHORT_DESC"
@@ -16975,8 +16975,8 @@
         },
         "B67C": {
             "B66U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -17040,8 +17040,8 @@
         },
         "B6212U": {
             "B6211U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -17053,8 +17053,8 @@
         },
         "A6G": {
             "C37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B12G": {
@@ -17100,8 +17100,8 @@
         },
         "C42U": {
             "A4C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B12G": [
                 "UNK_SHORT_DESC"
@@ -17210,8 +17210,8 @@
         },
         "D60C": {
             "D59U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D61C": {
@@ -17990,8 +17990,8 @@
                 "W_6BPh"
             ],
             "F35C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "F38A": {
@@ -18062,8 +18062,8 @@
         },
         "X25C": {
             "X24U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "X26C": {
@@ -18088,8 +18088,8 @@
         },
         "X43C": {
             "X42U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "X48A": {
@@ -18138,8 +18138,8 @@
         },
         "X76C": {
             "X75U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "X81A": {
@@ -18222,8 +18222,8 @@
         },
         "C58A": {
             "C60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C60U": {
@@ -18231,8 +18231,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C61C": [
                 "UNK_SHORT_DESC"
@@ -18240,8 +18240,8 @@
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D8U": {
@@ -18427,8 +18427,8 @@
         },
         "B3A": {
             "D6A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C47G": {
@@ -18520,8 +18520,8 @@
         },
         "C55U": {
             "A4C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A24G": [
                 "UNK_SHORT_DESC"
@@ -18555,8 +18555,8 @@
         },
         "A6G": {
             "D37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B8G": {
@@ -18617,8 +18617,8 @@
         },
         "D42U": {
             "A4C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B12G": [
                 "UNK_SHORT_DESC"
@@ -18760,8 +18760,8 @@
         },
         "C1010A": {
             "C1009C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "C1012U": {
@@ -18855,8 +18855,8 @@
         },
         "E1010A": {
             "E1009C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         }
     },
@@ -18960,8 +18960,8 @@
         },
         "D61C": {
             "D60C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "E19G": {
@@ -19018,8 +19018,8 @@
         },
         "A13U": {
             "A110A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A25A": {
@@ -19527,8 +19527,8 @@
         },
         "C63C": {
             "C62A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C69G": {
@@ -19679,8 +19679,8 @@
         },
         "M63C": {
             "M62A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "M69G": {
@@ -20178,8 +20178,8 @@
         },
         "K58A": {
             "K60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "K60U": {
@@ -20195,8 +20195,8 @@
         },
         "K61C": {
             "K60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "L8U": {
@@ -20246,8 +20246,8 @@
         },
         "L58A": {
             "L60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "L60U": {
@@ -20263,8 +20263,8 @@
         },
         "L61C": {
             "L60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "M11C": {
@@ -20294,8 +20294,8 @@
         },
         "M35U": {
             "M34G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "M51A": {
@@ -20368,8 +20368,8 @@
         },
         "N35U": {
             "N34G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "N51A": {
@@ -20563,8 +20563,8 @@
         },
         "D142G": {
             "D141A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D144U": {
@@ -20908,8 +20908,8 @@
         },
         "R82A": {
             "R53U": [
-                "H_789BPh",
-                "W_6BR"
+                "W_6BR",
+                "H_789BPh"
             ]
         },
         "R92C": {
@@ -21217,8 +21217,8 @@
         },
         "A32C": {
             "A31G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A37C": {
@@ -21253,8 +21253,8 @@
         },
         "B32C": {
             "B31G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B37C": {
@@ -21289,8 +21289,8 @@
         },
         "C32C": {
             "C31G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C37C": {
@@ -21397,8 +21397,8 @@
         },
         "C10C": {
             "C9A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -21443,8 +21443,8 @@
                 "UNK_SHORT_DESC"
             ],
             "D18G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D20C": {
@@ -21904,8 +21904,8 @@
         },
         "B111C": {
             "B110G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C54A": {
@@ -21945,8 +21945,8 @@
         },
         "H111C": {
             "H110G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -22068,8 +22068,8 @@
         },
         "A131C": {
             "A129U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A155A": {
@@ -22227,8 +22227,8 @@
         },
         "X131C": {
             "X129U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X132U": {
@@ -22485,8 +22485,8 @@
         },
         "A46U": {
             "A45U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -22503,8 +22503,8 @@
         },
         "B1531A": {
             "B1530G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B1532U": {
@@ -22526,8 +22526,8 @@
         },
         "C1531A": {
             "C1530G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "C1532U": {
@@ -22564,8 +22564,8 @@
         },
         "A58A": {
             "A60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A60U": {
@@ -22578,8 +22578,8 @@
         },
         "A61C": {
             "A60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B8A": {
@@ -22610,8 +22610,8 @@
                 "W_345BPh"
             ],
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B59U": [
                 "H_789BPh"
@@ -22619,8 +22619,8 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -22648,8 +22648,8 @@
                 "H_0BR"
             ],
             "A48U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A50C": {
@@ -22703,8 +22703,8 @@
                 "H_0BR"
             ],
             "B48U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B50C": {
@@ -22865,8 +22865,8 @@
                 "UNK_SHORT_DESC"
             ],
             "F11U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "F17A": {
@@ -22935,8 +22935,8 @@
         },
         "H14G": {
             "H11U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "H17A": {
@@ -23210,8 +23210,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A71A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A42A": {
@@ -23266,8 +23266,8 @@
         },
         "A71A": {
             "A41U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A47G": [
                 "SW_2BR"
@@ -23288,8 +23288,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B71A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "B42A": {
@@ -23338,8 +23338,8 @@
         },
         "B71A": {
             "B41U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B47G": [
                 "SW_2BR"
@@ -23367,8 +23367,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A70A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A41A": {
@@ -23409,8 +23409,8 @@
         },
         "A70A": {
             "A40U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A76A": {
@@ -23433,8 +23433,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B70A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "B41A": {
@@ -23467,8 +23467,8 @@
         },
         "B56C": {
             "B55C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B60C": {
@@ -23481,8 +23481,8 @@
         },
         "B70A": {
             "B40U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         }
     },
@@ -23832,8 +23832,8 @@
         },
         "A58C": {
             "A56U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -24095,8 +24095,8 @@
         },
         "D21C": {
             "D20C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -24133,8 +24133,8 @@
         },
         "B58A": {
             "B60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B60U": {
@@ -24142,8 +24142,8 @@
                 "W_345BPh"
             ],
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B61C": [
                 "UNK_SHORT_DESC"
@@ -24151,8 +24151,8 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -24205,8 +24205,8 @@
         },
         "A61C": {
             "A60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B11C": {
@@ -24288,8 +24288,8 @@
         },
         "C1658A": {
             "C1660U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C1660U": {
@@ -24360,8 +24360,8 @@
         },
         "B58A": {
             "B60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B59G": {
@@ -24374,14 +24374,14 @@
                 "W_345BPh"
             ],
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B75C": {
@@ -24450,8 +24450,8 @@
                 "W_345BPh"
             ],
             "E58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "E59G": [
                 "H_789BPh"
@@ -24462,8 +24462,8 @@
         },
         "E61C": {
             "E60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "E75C": {
@@ -24548,9 +24548,9 @@
         },
         "A69C": {
             "A68G": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "A71G": {
@@ -24967,8 +24967,8 @@
         },
         "A360A": {
             "A50A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A363A": {
@@ -25559,8 +25559,8 @@
         },
         "A805C": {
             "A804U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A812C": {
@@ -25620,8 +25620,8 @@
         },
         "A841U": {
             "A848C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A848C": {
@@ -25801,8 +25801,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1366C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A976G": {
@@ -25818,8 +25818,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1224G": [
-                "H_789BPh",
-                "W_6BR"
+                "W_6BR",
+                "H_789BPh"
             ]
         },
         "A978A": {
@@ -26114,8 +26114,8 @@
         },
         "A1200C": {
             "A1053G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1204A": {
@@ -26416,8 +26416,8 @@
         },
         "A1452C": {
             "A1447A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1460A": {
@@ -26693,8 +26693,8 @@
         },
         "A22C": {
             "A21A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A29G": {
@@ -26709,8 +26709,8 @@
         },
         "A40A": {
             "A7U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A41U": {
@@ -26773,8 +26773,8 @@
         },
         "D120C": {
             "D123C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D123C": {
@@ -26998,8 +26998,8 @@
         },
         "B62U": {
             "B61A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "B66C": {
@@ -27082,8 +27082,8 @@
         },
         "X62U": {
             "X61A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X66C": {
@@ -27168,8 +27168,8 @@
         },
         "A60U": {
             "A59A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A64C": {
@@ -27252,8 +27252,8 @@
         },
         "B60U": {
             "B59A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B64C": {
@@ -27342,8 +27342,8 @@
         },
         "A57C": {
             "A56U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A73A": {
@@ -27441,8 +27441,8 @@
         },
         "C5A": {
             "C4A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "R4A": {
@@ -27452,8 +27452,8 @@
         },
         "R5A": {
             "R4A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "R12A": {
@@ -27480,8 +27480,8 @@
         },
         "E5A": {
             "E4A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "E12A": {
@@ -27511,8 +27511,8 @@
         },
         "K5A": {
             "K4A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "K12A": {
@@ -27527,8 +27527,8 @@
         },
         "M5A": {
             "M4A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "M12A": {
@@ -27548,8 +27548,8 @@
         },
         "R5A": {
             "R4A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         }
     },
@@ -27574,8 +27574,8 @@
         },
         "A34U": {
             "A33A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A36U": {
@@ -27614,8 +27614,8 @@
         },
         "A55A": {
             "A72A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A63C": {
@@ -27713,9 +27713,9 @@
         },
         "B916C": {
             "B915G": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "B922A": {
@@ -27748,8 +27748,8 @@
         },
         "B961C": {
             "B960U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -27899,8 +27899,8 @@
         },
         "D8G": {
             "D6A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         }
     },
@@ -28181,8 +28181,8 @@
         },
         "B57A": {
             "B59U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B59U": {
@@ -28190,8 +28190,8 @@
                 "W_345BPh"
             ],
             "B57A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B60C": [
                 "UNK_SHORT_DESC"
@@ -28199,8 +28199,8 @@
         },
         "B60C": {
             "B59U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B72G": {
@@ -28351,8 +28351,8 @@
         },
         "E60C": {
             "E59U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "E72G": {
@@ -29314,8 +29314,8 @@
         },
         "A796C": {
             "A795C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A800G": {
@@ -29372,8 +29372,8 @@
         },
         "A840C": {
             "A839U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A858G": {
@@ -29548,8 +29548,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1366C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A976G": {
@@ -29605,8 +29605,8 @@
         },
         "A1005A": {
             "A1006C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A1006C": {
@@ -30057,8 +30057,8 @@
         },
         "A1381U": {
             "A1380U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1403C": {
@@ -30188,8 +30188,8 @@
         },
         "A36G": {
             "A79C": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "A59G": {
@@ -30209,8 +30209,8 @@
         },
         "A79C": {
             "A36G": [
-                "H_789BPh",
                 "UNK_SHORT_DESC",
+                "H_789BPh",
                 "H_789BR"
             ]
         },
@@ -30308,8 +30308,8 @@
         },
         "B31A": {
             "B30U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B34U": {
@@ -30334,8 +30334,8 @@
         },
         "B41C": {
             "B40A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -30360,8 +30360,8 @@
         },
         "B22U": {
             "B37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B29U": {
@@ -30376,8 +30376,8 @@
         },
         "B31A": {
             "B30U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B34U": {
@@ -30470,8 +30470,8 @@
         },
         "D38U": {
             "D37U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D40A": {
@@ -30479,14 +30479,14 @@
                 "UNK_SHORT_DESC"
             ],
             "D30U": [
-                "W_6BPh",
-                "W_6BR"
+                "W_6BR",
+                "W_6BPh"
             ]
         },
         "D41C": {
             "D40A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D46G": {
@@ -30589,8 +30589,8 @@
         },
         "H22U": {
             "H37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "H29U": {
@@ -30655,8 +30655,8 @@
         },
         "J31A": {
             "J30U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "J34U": {
@@ -30712,8 +30712,8 @@
         },
         "L22U": {
             "L37U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "L28G": {
@@ -30754,8 +30754,8 @@
         },
         "L38U": {
             "L37U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "L39C": {
@@ -30896,8 +30896,8 @@
         },
         "B57A": {
             "B59U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B58G": {
@@ -30910,8 +30910,8 @@
                 "W_345BPh"
             ],
             "B57A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B60C": [
                 "UNK_SHORT_DESC"
@@ -30919,8 +30919,8 @@
         },
         "B60C": {
             "B59U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C19A": {
@@ -31005,8 +31005,8 @@
         },
         "D57A": {
             "D59U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D58G": {
@@ -31049,8 +31049,8 @@
         },
         "B43C": {
             "B42A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B48C": {
@@ -31070,8 +31070,8 @@
         },
         "B58C": {
             "B57U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B97A": {
@@ -31385,8 +31385,8 @@
         },
         "B40G": {
             "B39A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B41G": {
@@ -31401,8 +31401,8 @@
         },
         "D40G": {
             "D39A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D41G": {
@@ -31467,20 +31467,20 @@
     "4PJO": {
         "1132G": {
             "1135A": [
-                "W_345BPh",
-                "W_345BR"
+                "W_345BR",
+                "W_345BPh"
             ]
         },
         "1137U": {
             "1136G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "2132G": {
             "2135A": [
-                "W_345BPh",
-                "W_345BR"
+                "W_345BR",
+                "W_345BPh"
             ]
         },
         "2135A": {
@@ -31495,14 +31495,14 @@
         },
         "2137U": {
             "2136G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "3132G": {
             "3135A": [
-                "W_345BPh",
-                "W_345BR"
+                "W_345BR",
+                "W_345BPh"
             ]
         },
         "3135A": {
@@ -31517,8 +31517,8 @@
         },
         "4132G": {
             "4135A": [
-                "W_345BPh",
-                "W_345BR"
+                "W_345BR",
+                "W_345BPh"
             ]
         }
     },
@@ -31540,14 +31540,14 @@
         },
         "V74C": {
             "V73C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "V89C": {
             "V88A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "V94A": {
@@ -31714,8 +31714,8 @@
         },
         "A33A": {
             "A48G": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A44C": {
@@ -31885,8 +31885,8 @@
         },
         "C48C": {
             "C20U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "C55U": {
@@ -31909,14 +31909,14 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -32000,8 +32000,8 @@
                 "H_789BPh"
             ],
             "D48A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "C7A": {
@@ -32055,8 +32055,8 @@
                 "H_789BPh"
             ],
             "F48A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "E7A": {
@@ -32354,8 +32354,8 @@
         },
         "A14U": {
             "A12U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A13U": [
                 "H_789BPh"
@@ -32441,8 +32441,8 @@
         },
         "A696A": {
             "A695U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A708U": {
@@ -32527,8 +32527,8 @@
         },
         "C58A": {
             "C60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C59G": {
@@ -32541,8 +32541,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C59G": [
                 "H_789BPh"
@@ -33122,8 +33122,8 @@
         },
         "A40C": {
             "A39G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A45G": {
@@ -33192,8 +33192,8 @@
         },
         "C16U": {
             "C14U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C15U": [
                 "H_789BPh"
@@ -33221,8 +33221,8 @@
                 "W_6BPh"
             ],
             "L6C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "L29U": {
@@ -33265,8 +33265,8 @@
                 "W_6BPh"
             ],
             "X6C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "X29U": {
@@ -33454,8 +33454,8 @@
         },
         "C19C": {
             "C18U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C22A": {
@@ -34133,8 +34133,8 @@
         },
         "X469A": {
             "X416G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "X474A": {
@@ -34149,8 +34149,8 @@
         },
         "X477U": {
             "X476A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "X494U": {
@@ -34380,8 +34380,8 @@
         },
         "X616G": {
             "X614U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "X2058A": [
                 "W_345BPh"
@@ -34510,8 +34510,8 @@
         },
         "X682A": {
             "X673G": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ],
             "X683G": [
                 "UNK_SHORT_DESC"
@@ -34863,8 +34863,8 @@
         },
         "X924G": {
             "X923A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X925G": {
@@ -34987,8 +34987,8 @@
         },
         "X1026C": {
             "X1025A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "X1029C": {
@@ -35249,8 +35249,8 @@
         },
         "X1293U": {
             "X2087A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "X1302G": {
@@ -35337,8 +35337,8 @@
         },
         "X1351C": {
             "X1349U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "X1350U": [
                 "H_789BPh"
@@ -35478,8 +35478,8 @@
         },
         "X1435C": {
             "X1434U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "X1449A": {
@@ -35492,8 +35492,8 @@
                 "UNK_SHORT_DESC"
             ],
             "X1451U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X1451U": {
@@ -35560,8 +35560,8 @@
         },
         "X1495C": {
             "X1494G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "X1504U": [
                 "UNK_SHORT_DESC"
@@ -35711,8 +35711,8 @@
         },
         "X1573A": {
             "X1592A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "X1576A": {
@@ -35772,8 +35772,8 @@
         },
         "X1613G": {
             "X1612C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X1616A": {
@@ -35875,8 +35875,8 @@
         },
         "X1661C": {
             "X1659C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "X1662A": {
@@ -36151,8 +36151,8 @@
         },
         "X1813A": {
             "X2633C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X1814A": {
@@ -36342,8 +36342,8 @@
         },
         "X1978U": {
             "X1981G": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "X1979A": {
@@ -36593,8 +36593,8 @@
         },
         "X2252A": {
             "X2119U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ],
             "X2253C": [
                 "UNK_SHORT_DESC"
@@ -36602,8 +36602,8 @@
         },
         "X2253C": {
             "X2252A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X2254A": {
@@ -37143,8 +37143,8 @@
         },
         "X2772C": {
             "X2782C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X2774G": {
@@ -37492,8 +37492,8 @@
         },
         "B58A": {
             "B60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B59G": {
@@ -37514,8 +37514,8 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B74C": {
@@ -37550,8 +37550,8 @@
         },
         "R15U": {
             "R14C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         }
     },
@@ -37592,8 +37592,8 @@
         },
         "B17A": {
             "B19U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B19U": {
@@ -38006,8 +38006,8 @@
         },
         "D58A": {
             "D60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D60U": {
@@ -38015,8 +38015,8 @@
                 "W_345BPh"
             ],
             "D58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D59U": [
                 "H_789BPh"
@@ -38027,9 +38027,9 @@
         },
         "D61C": {
             "D60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "E3G": {
@@ -38090,8 +38090,8 @@
         },
         "E58A": {
             "E60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "E60U": {
@@ -38099,8 +38099,8 @@
                 "W_345BPh"
             ],
             "E58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "E59U": [
                 "H_789BPh"
@@ -38151,8 +38151,8 @@
         },
         "F58A": {
             "F60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "F60U": {
@@ -38160,8 +38160,8 @@
                 "W_345BPh"
             ],
             "F58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "F59U": [
                 "H_789BPh"
@@ -38172,9 +38172,9 @@
         },
         "F61C": {
             "F60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -38209,8 +38209,8 @@
         },
         "B58A": {
             "B60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B59G": {
@@ -38223,8 +38223,8 @@
                 "W_345BPh"
             ],
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B59G": [
                 "H_789BPh"
@@ -38235,8 +38235,8 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -38316,8 +38316,8 @@
         },
         "C58A": {
             "C60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C59A": {
@@ -38330,8 +38330,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C59A": [
                 "H_789BPh"
@@ -38359,8 +38359,8 @@
         },
         "D58A": {
             "D60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D60U": {
@@ -38373,16 +38373,16 @@
         },
         "D61C": {
             "D60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
     "4Z0C": {
         "B5A": {
             "B4G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B9A": {
@@ -38402,8 +38402,8 @@
         },
         "C5A": {
             "C4G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C9A": {
@@ -38431,8 +38431,8 @@
         },
         "C9A": {
             "C8A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "C13C": {
@@ -38541,8 +38541,8 @@
         },
         "I24A": {
             "I23A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "I25C": {
@@ -38623,8 +38623,8 @@
         },
         "A53A": {
             "A52A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A59G": {
@@ -38725,8 +38725,8 @@
         },
         "B44U": {
             "B43G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B55C": {
@@ -38879,8 +38879,8 @@
         },
         "C58A": {
             "C60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C60U": {
@@ -38888,8 +38888,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C59G": [
                 "H_789BPh"
@@ -38897,8 +38897,8 @@
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C75C": {
@@ -38949,8 +38949,8 @@
                 "W_345BPh"
             ],
             "D58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D59G": [
                 "H_789BPh"
@@ -38958,8 +38958,8 @@
         },
         "D61C": {
             "D60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D75C": {
@@ -38979,8 +38979,8 @@
         },
         "B10C": {
             "B9A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "B11A": {
@@ -39195,8 +39195,8 @@
         },
         "P58A": {
             "P60C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "P60C": {
@@ -39209,8 +39209,8 @@
         },
         "P61C": {
             "P60C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -39311,8 +39311,8 @@
         },
         "A44U": {
             "A43G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A55C": {
@@ -39384,8 +39384,8 @@
         },
         "B961U": {
             "B959A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B960A": [
                 "H_789BPh"
@@ -39443,8 +39443,8 @@
         },
         "D961U": {
             "D959A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D960A": [
                 "H_789BPh"
@@ -39452,8 +39452,8 @@
         },
         "D962C": {
             "D961U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -39581,8 +39581,8 @@
         },
         "A24C": {
             "B24C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A30A": {
@@ -39647,8 +39647,8 @@
         },
         "B24C": {
             "A24C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "B30A": {
@@ -39782,8 +39782,8 @@
         },
         "B40G": {
             "B39A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B41G": {
@@ -39798,8 +39798,8 @@
         },
         "F40G": {
             "F39A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "F41G": {
@@ -39859,8 +39859,8 @@
         },
         "A55A": {
             "A72A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A57U": {
@@ -39919,8 +39919,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B72A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B57U": {
@@ -39973,14 +39973,14 @@
                 "UNK_SHORT_DESC"
             ],
             "C52A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C55A": {
             "C72A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C57U": {
@@ -40026,8 +40026,8 @@
                 "UNK_SHORT_DESC"
             ],
             "D72A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D62U": {
@@ -40760,8 +40760,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "C61C": {
@@ -40832,9 +40832,9 @@
         },
         "E61C": {
             "E60U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "E74C": {
@@ -40883,8 +40883,8 @@
         },
         "F20A": {
             "D2G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         }
     },
@@ -40958,8 +40958,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A51A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A51A": {
@@ -41310,8 +41310,8 @@
         },
         "A69C": {
             "A68G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A74G": {
@@ -41775,8 +41775,8 @@
                 "W_6BPh"
             ],
             "L6C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "L8G": {
@@ -41866,8 +41866,8 @@
         },
         "C57A": {
             "C59U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C59U": {
@@ -41928,8 +41928,8 @@
         },
         "D57A": {
             "D59U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D59U": {
@@ -42069,8 +42069,8 @@
                 "UNK_SHORT_DESC"
             ],
             "G19A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "G15G": {
@@ -42136,8 +42136,8 @@
         },
         "R-29G": {
             "R-30G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "R-28U": [
                 "UNK_SHORT_DESC"
@@ -42470,8 +42470,8 @@
         },
         "A48CC": {
             "A48BU": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A63U": {
@@ -42486,8 +42486,8 @@
         },
         "B48CC": {
             "B48BU": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B63U": {
@@ -42944,8 +42944,8 @@
         },
         "A11C": {
             "A10A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B9G": {
@@ -42966,8 +42966,8 @@
         },
         "B11C": {
             "B10A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C9G": {
@@ -43003,8 +43003,8 @@
         },
         "D11C": {
             "D10A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -43096,8 +43096,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B-9U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "B-4U": [
                 "UNK_SHORT_DESC"
@@ -43441,8 +43441,8 @@
         },
         "A9A": {
             "A8A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A23G": {
@@ -43968,8 +43968,8 @@
         },
         "B11C": {
             "B10A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C9G": {
@@ -43987,8 +43987,8 @@
         },
         "C11C": {
             "C10A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D9G": {
@@ -44025,8 +44025,8 @@
         },
         "I43C": {
             "I42A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "I48C": {
@@ -44044,8 +44044,8 @@
         },
         "I58C": {
             "I57U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "I67C": {
@@ -44097,8 +44097,8 @@
         },
         "C44U": {
             "C43G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C55C": {
@@ -44380,8 +44380,8 @@
         },
         "F61C": {
             "F60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -44457,8 +44457,8 @@
         },
         "B9A": {
             "B8A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "B10U": [
                 "UNK_SHORT_DESC"
@@ -44477,8 +44477,8 @@
         },
         "B12U": {
             "B10U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B11A": [
                 "H_789BPh"
@@ -44486,8 +44486,8 @@
         },
         "B22C": {
             "B21A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B23U": {
@@ -44524,8 +44524,8 @@
         },
         "C58A": {
             "C60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C60U": {
@@ -44533,8 +44533,8 @@
                 "W_345BPh"
             ],
             "C58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C59A": [
                 "H_789BPh"
@@ -44545,8 +44545,8 @@
         },
         "C61C": {
             "C60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C73U": {
@@ -44589,8 +44589,8 @@
                 "W_345BPh"
             ],
             "D58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "D59A": [
                 "H_789BPh"
@@ -44601,8 +44601,8 @@
         },
         "D61C": {
             "D60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "D73U": {
@@ -44770,8 +44770,8 @@
         },
         "B-8U": {
             "B-10U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B-9C": [
                 "H_789BPh"
@@ -44948,8 +44948,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B-4A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B-8G": {
@@ -45278,8 +45278,8 @@
         },
         "A8A": {
             "A7A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B13G": {
@@ -45294,8 +45294,8 @@
         },
         "B19C": {
             "B18U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B30U": {
@@ -45338,8 +45338,8 @@
         },
         "C8A": {
             "C7A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D13G": {
@@ -45354,8 +45354,8 @@
         },
         "D19C": {
             "D18U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "D30U": {
@@ -45471,8 +45471,8 @@
         },
         "I43C": {
             "I42A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "I48C": {
@@ -45490,8 +45490,8 @@
         },
         "I58C": {
             "I57U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "I74U": {
@@ -46339,8 +46339,8 @@
         },
         "A796C": {
             "A795C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "A800G": {
@@ -46417,8 +46417,8 @@
         },
         "A841U": {
             "A848C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A848C": {
@@ -46605,8 +46605,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1366C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A976G": {
@@ -46657,8 +46657,8 @@
         },
         "A1005A": {
             "A1006C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "A1025U": [
                 "UNK_SHORT_DESC"
@@ -47530,8 +47530,8 @@
         },
         "A104G": {
             "A103A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A107U": {
@@ -47612,8 +47612,8 @@
         },
         "B104G": {
             "B103A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B107U": {
@@ -47651,8 +47651,8 @@
         },
         "A32C": {
             "A31A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A43G": {
@@ -47691,8 +47691,8 @@
         },
         "C313U": {
             "C312G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "C331G": {
@@ -47702,8 +47702,8 @@
         },
         "C332U": {
             "C331G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -47732,8 +47732,8 @@
     "6DB9": {
         "R27C": {
             "R26A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R43G": {
@@ -47988,8 +47988,8 @@
         },
         "Y75U": {
             "X39U": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ],
             "Y73A": [
                 "H_789BR"
@@ -48084,8 +48084,8 @@
         },
         "B15A": {
             "B14U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B16C": {
@@ -48142,8 +48142,8 @@
         },
         "B13A": {
             "B12U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B14C": {
@@ -48705,8 +48705,8 @@
         },
         "A14C": {
             "A13U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A20C": {
@@ -48759,8 +48759,8 @@
         },
         "A64C": {
             "A63G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A72A": {
@@ -48795,8 +48795,8 @@
         },
         "B14C": {
             "B13U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B20C": {
@@ -48858,8 +48858,8 @@
                 "W_6BPh"
             ],
             "B72A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B75A": {
@@ -48889,8 +48889,8 @@
         },
         "U14C": {
             "U13U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "U20C": {
@@ -48985,8 +48985,8 @@
         },
         "B79A": {
             "B81U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B81U": {
@@ -49114,8 +49114,8 @@
         },
         "A34A": {
             "A33G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A36A": {
@@ -49157,8 +49157,8 @@
         },
         "B34A": {
             "B33G": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B36A": {
@@ -49174,8 +49174,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B39U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B44A": {
@@ -49272,8 +49272,8 @@
         },
         "B69C": {
             "B68U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -49401,8 +49401,8 @@
                 "W_345BPh"
             ],
             "A71A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A72C": [
                 "H_789BPh"
@@ -49525,8 +49525,8 @@
         },
         "B74C": {
             "B73U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B85U": {
@@ -49724,8 +49724,8 @@
                 "H_0BR"
             ],
             "A190JU": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A190FG": {
@@ -50508,8 +50508,8 @@
         },
         "A815A": {
             "A1509C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A1527C": [
                 "UNK_SHORT_DESC"
@@ -50699,8 +50699,8 @@
         },
         "A961U": {
             "A1223C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A964A": {
@@ -50731,8 +50731,8 @@
                 "UNK_SHORT_DESC"
             ],
             "A1366C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A1367C": [
                 "W_6BR"
@@ -50887,8 +50887,8 @@
         },
         "A1066C": {
             "A1065U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1067A": {
@@ -50980,8 +50980,8 @@
         },
         "A1132C": {
             "A1129C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1144G": {
@@ -51083,8 +51083,8 @@
         },
         "A1236A": {
             "A1334G": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A1250A": {
@@ -51137,8 +51137,8 @@
         },
         "A1282C": {
             "A1281U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1286A": {
@@ -51186,8 +51186,8 @@
         },
         "A1318A": {
             "A979C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A1319A": {
@@ -52426,8 +52426,8 @@
         },
         "A815A": {
             "A1509C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A1527C": [
                 "UNK_SHORT_DESC"
@@ -52647,8 +52647,8 @@
         },
         "A977A": {
             "A1224G": [
-                "H_789BPh",
-                "W_6BR"
+                "W_6BR",
+                "H_789BPh"
             ]
         },
         "A978A": {
@@ -52855,8 +52855,8 @@
         },
         "A1132C": {
             "A1129C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1137C": {
@@ -53006,8 +53006,8 @@
         },
         "A1282C": {
             "A1281U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A1286A": {
@@ -53177,8 +53177,8 @@
         },
         "A1381U": {
             "A1380U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A1394A": {
@@ -53892,8 +53892,8 @@
         },
         "B60U": {
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B59A": [
                 "H_789BPh"
@@ -54163,8 +54163,8 @@
         },
         "D1059G": {
             "D1058U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D1064C": {
@@ -55088,8 +55088,8 @@
         },
         "A80U": {
             "A30U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A79G": [
                 "UNK_SHORT_DESC"
@@ -55536,8 +55536,8 @@
         },
         "A58A": {
             "A60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A59G": {
@@ -55550,8 +55550,8 @@
                 "W_345BPh"
             ],
             "A58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A59G": [
                 "H_789BPh"
@@ -55559,8 +55559,8 @@
         },
         "A61C": {
             "A60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B8A": {
@@ -55600,8 +55600,8 @@
         },
         "B58A": {
             "B60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B59G": {
@@ -55614,8 +55614,8 @@
                 "W_345BPh"
             ],
             "B58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B59G": [
                 "H_789BPh"
@@ -55623,8 +55623,8 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -55668,8 +55668,8 @@
         },
         "A260C": {
             "A259G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A276A": {
@@ -55829,8 +55829,8 @@
         },
         "A24C": {
             "B24C": [
-                "H_789BPh",
                 "UNK_SHORT_DESC",
+                "H_789BPh",
                 "H_789BR"
             ]
         },
@@ -55892,8 +55892,8 @@
         },
         "B24C": {
             "A24C": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B35C": {
@@ -56665,8 +56665,8 @@
         },
         "X34U": {
             "X33C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X39C": {
@@ -56676,8 +56676,8 @@
         },
         "X45C": {
             "X191G": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ],
             "X192G": [
                 "UNK_SHORT_DESC"
@@ -57126,8 +57126,8 @@
         },
         "X322A": {
             "X341A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ],
             "X342G": [
                 "SW_2BPh"
@@ -57285,8 +57285,8 @@
         },
         "X444U": {
             "X443A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "X449C": {
@@ -57978,8 +57978,8 @@
         },
         "X890U": {
             "X911A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "X911A": {
@@ -58087,8 +58087,8 @@
         },
         "X993C": {
             "X992A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "X996C": {
@@ -58264,8 +58264,8 @@
         },
         "X1106A": {
             "X1105U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X1107A": {
@@ -59077,8 +59077,8 @@
         },
         "X1744G": {
             "X1747G": [
-                "W_345BPh",
-                "W_345BR"
+                "W_345BR",
+                "W_345BPh"
             ]
         },
         "X1746A": {
@@ -59158,8 +59158,8 @@
                 "UNK_SHORT_DESC"
             ],
             "X2585C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X1778U": {
@@ -59347,8 +59347,8 @@
         },
         "X1934U": {
             "X1937G": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "X1937G": {
@@ -59686,8 +59686,8 @@
         },
         "X2291U": {
             "X2290A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "X2295C": {
@@ -59748,8 +59748,8 @@
                 "UNK_SHORT_DESC"
             ],
             "X2364C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "X2316G": {
@@ -59965,8 +59965,8 @@
         },
         "X2486C": {
             "X2485U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X2499C": {
@@ -60156,8 +60156,8 @@
         },
         "X2692A": {
             "X2691C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X2693U": {
@@ -60230,8 +60230,8 @@
         },
         "X2732C": {
             "X2730A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "X2733A": {
@@ -60409,8 +60409,8 @@
         },
         "Y28A": {
             "Y29C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "Y29C": {
@@ -60508,8 +60508,8 @@
         },
         "B4U": {
             "B3U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B5U": {
@@ -60916,14 +60916,14 @@
         },
         "X57A": {
             "X59U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "X59U": {
             "X57A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "X58A": [
                 "H_789BPh"
@@ -60934,8 +60934,8 @@
         },
         "X60C": {
             "X59U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         }
     },
@@ -61245,8 +61245,8 @@
         },
         "B12U": {
             "B11U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B35G": {
@@ -61433,9 +61433,9 @@
         },
         "A61C": {
             "A60C": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "B9A": {
@@ -61499,9 +61499,9 @@
         },
         "B61C": {
             "B60C": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -61513,8 +61513,8 @@
         },
         "B4U": {
             "B3U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "B5U": {
@@ -61939,8 +61939,8 @@
     "7JJU": {
         "A9C": {
             "A8G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A26G": {
@@ -61976,8 +61976,8 @@
         },
         "B9C": {
             "B8G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B26G": {
@@ -62035,8 +62035,8 @@
         },
         "B31A": {
             "B56A": [
-                "H_789BPh",
-                "W_6BR"
+                "W_6BR",
+                "H_789BPh"
             ]
         },
         "B44G": {
@@ -62233,14 +62233,14 @@
     "7JRT": {
         "A51C": {
             "A50G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A118C": {
             "A117G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B9G": {
@@ -62255,8 +62255,8 @@
         },
         "B51C": {
             "B50G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B67C": {
@@ -62360,9 +62360,9 @@
         },
         "C62C": {
             "C61C": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "F9A": {
@@ -62407,9 +62407,9 @@
         },
         "F62C": {
             "F61C": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -62560,8 +62560,8 @@
         },
         "C14U": {
             "C13A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C15G": {
@@ -62623,8 +62623,8 @@
         },
         "A58A": {
             "A60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A60U": {
@@ -62785,8 +62785,8 @@
         },
         "G50A": {
             "G46G": [
-                "H_789BR",
                 "UNK_SHORT_DESC",
+                "H_789BR",
                 "W_6BPh"
             ],
             "G49G": [
@@ -62954,8 +62954,8 @@
                 "SW_2BR"
             ],
             "E60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "E60U": {
@@ -62963,8 +62963,8 @@
                 "W_345BPh"
             ],
             "E58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "E59U": [
                 "H_789BPh"
@@ -62975,8 +62975,8 @@
         },
         "E61C": {
             "E60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "E73G": {
@@ -63120,8 +63120,8 @@
         },
         "R44C": {
             "R43A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R56A": {
@@ -63181,8 +63181,8 @@
         },
         "A61A": {
             "A63U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A62G": {
@@ -63195,8 +63195,8 @@
                 "W_345BPh"
             ],
             "A61A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "A62G": [
                 "H_789BPh"
@@ -64219,8 +64219,8 @@
         },
         "R39C": {
             "R38A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R52C": {
@@ -64252,8 +64252,8 @@
         },
         "X45A": {
             "X46U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "X46U": {
@@ -64498,8 +64498,8 @@
         },
         "B50C": {
             "B49G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B60G": {
@@ -64524,8 +64524,8 @@
         },
         "B72C": {
             "B71U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -64542,8 +64542,8 @@
         },
         "A34C": {
             "A33G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A37G": {
@@ -64589,8 +64589,8 @@
         },
         "A76C": {
             "A75U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -64642,8 +64642,8 @@
         },
         "A61C": {
             "A60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B16C": {
@@ -64681,8 +64681,8 @@
         },
         "B61C": {
             "B60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -64754,8 +64754,8 @@
         },
         "C79G": {
             "C78C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "C108A": {
@@ -64780,8 +64780,8 @@
         },
         "D37U": {
             "D36U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "D38U": {
@@ -64879,8 +64879,8 @@
         },
         "E61C": {
             "E60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "F55U": {
@@ -64898,14 +64898,14 @@
         },
         "F58A": {
             "F60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "F60U": {
             "F58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "F59G": [
                 "H_789BPh"
@@ -64931,8 +64931,8 @@
         },
         "A44U": {
             "A43G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A55C": {
@@ -65283,8 +65283,8 @@
         },
         "A45A": {
             "A46U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "A46U": {
@@ -65353,8 +65353,8 @@
         },
         "B45A": {
             "B46U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "B46U": {
@@ -65560,8 +65560,8 @@
         },
         "E37A": {
             "E36A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "E45G": {
@@ -65571,8 +65571,8 @@
         },
         "E47EA": {
             "E47FG": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "E47FG": {
@@ -65592,8 +65592,8 @@
         },
         "E58A": {
             "E60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "E60U": {
@@ -65601,8 +65601,8 @@
                 "W_345BPh"
             ],
             "E58A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "E59U": [
                 "H_789BPh"
@@ -65613,8 +65613,8 @@
         },
         "E61C": {
             "E60U": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "E73G": {
@@ -65797,8 +65797,8 @@
                 "H_789BR"
             ],
             "G12U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ],
             "G18U": [
                 "UNK_SHORT_DESC"
@@ -66555,8 +66555,8 @@
         },
         "B48C": {
             "B20BG": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "B49C": {
@@ -66566,8 +66566,8 @@
         },
         "B58A": {
             "B60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B60U": {
@@ -66741,8 +66741,8 @@
         },
         "J3C": {
             "J2U": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "J34U": {
@@ -66790,8 +66790,8 @@
         },
         "A45C": {
             "A44U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B13G": {
@@ -66816,8 +66816,8 @@
         },
         "B45C": {
             "B44U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -66870,8 +66870,8 @@
         },
         "A47C": {
             "A46U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B11G": {
@@ -66912,8 +66912,8 @@
         },
         "B47C": {
             "B46U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -66950,8 +66950,8 @@
         },
         "A43A": {
             "A45U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A45U": {
@@ -66964,8 +66964,8 @@
         },
         "A46C": {
             "A45U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "B8G": {
@@ -67011,9 +67011,9 @@
         },
         "B46C": {
             "B45U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         }
     },
@@ -67030,8 +67030,8 @@
         },
         "A39A": {
             "A35G": [
-                "H_789BR",
                 "UNK_SHORT_DESC",
+                "H_789BR",
                 "W_6BPh"
             ],
             "A38G": [
@@ -67100,14 +67100,14 @@
         },
         "I92G": {
             "I91C": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "J44U": {
             "J43G": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "J47A": {
@@ -67457,8 +67457,8 @@
         },
         "C140U": {
             "C138A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "C139G": [
                 "H_789BPh"
@@ -67469,9 +67469,9 @@
         },
         "C141C": {
             "C140U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "C153G": {
@@ -67654,8 +67654,8 @@
         },
         "A38A": {
             "A15C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ],
             "A34A": [
                 "UNK_SHORT_DESC"
@@ -67718,8 +67718,8 @@
         },
         "B23U": {
             "B26U": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "B25A": {
@@ -67747,8 +67747,8 @@
         },
         "B38A": {
             "B15C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ],
             "B34A": [
                 "UNK_SHORT_DESC"
@@ -67796,8 +67796,8 @@
         },
         "C23U": {
             "C26U": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "C25A": {
@@ -67820,8 +67820,8 @@
         },
         "C38A": {
             "C15C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C43A": {
@@ -67884,8 +67884,8 @@
                 "UNK_SHORT_DESC"
             ],
             "D26U": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ]
         },
         "D24G": {
@@ -67913,8 +67913,8 @@
         },
         "D38A": {
             "D15C": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ],
             "D34A": [
                 "UNK_SHORT_DESC"
@@ -68104,8 +68104,8 @@
         },
         "N33C": {
             "N32A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "N43A": {
@@ -68156,8 +68156,8 @@
         },
         "R15A": {
             "R14A": [
-                "H_0BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_0BR"
             ]
         },
         "R16C": {
@@ -68187,8 +68187,8 @@
         },
         "R33C": {
             "R32A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R43A": {
@@ -68223,8 +68223,8 @@
         },
         "R108U": {
             "R106C": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "R107C": [
                 "H_789BPh"
@@ -68313,8 +68313,8 @@
                 "SW_2BR"
             ],
             "A118U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "A118U": {
@@ -68322,14 +68322,14 @@
                 "W_345BPh"
             ],
             "A116A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "A119C": {
             "A118U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A133C": {
@@ -68412,8 +68412,8 @@
                 "SW_2BR"
             ],
             "B118U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B117G": {
@@ -68426,8 +68426,8 @@
                 "W_345BPh"
             ],
             "B116A": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ],
             "B119C": [
                 "UNK_SHORT_DESC"
@@ -68435,9 +68435,9 @@
         },
         "B119C": {
             "B118U": [
-                "H_789BPh",
+                "UNK_SHORT_DESC",
                 "H_0BR",
-                "UNK_SHORT_DESC"
+                "H_789BPh"
             ]
         },
         "B133C": {
@@ -68479,8 +68479,8 @@
         },
         "A46C": {
             "A45U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "A61C": {
@@ -68581,8 +68581,8 @@
         },
         "R67C": {
             "R66A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -68630,8 +68630,8 @@
         },
         "C61C": {
             "C60A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R12A": {
@@ -68674,8 +68674,8 @@
         },
         "R61C": {
             "R60A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R85C": {
@@ -68750,8 +68750,8 @@
         },
         "C64C": {
             "C63A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "C87C": {
@@ -68796,8 +68796,8 @@
         },
         "R27C": {
             "R26C": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R35C": {
@@ -68827,8 +68827,8 @@
         },
         "R64C": {
             "R63A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -68850,14 +68850,14 @@
         },
         "R20A": {
             "R19A": [
-                "H_789BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BPh"
             ]
         },
         "R22C": {
             "R21A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R38A": {
@@ -68932,8 +68932,8 @@
         },
         "C58A": {
             "C60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "C59G": {
@@ -69002,8 +69002,8 @@
         },
         "D58A": {
             "D60U": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "D59G": {
@@ -69079,8 +69079,8 @@
         },
         "R61C": {
             "R60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "R71C": {
@@ -69131,8 +69131,8 @@
         },
         "T61C": {
             "T60U": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         }
     },
@@ -69245,8 +69245,8 @@
                 "UNK_SHORT_DESC"
             ],
             "G19A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "G15G": {
@@ -69332,8 +69332,8 @@
                 "UNK_SHORT_DESC"
             ],
             "B-4A": [
-                "SW_2BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "SW_2BR"
             ]
         },
         "B-8G": {
@@ -69488,8 +69488,8 @@
         },
         "B21A": {
             "B47U": [
-                "H_789BR",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "H_789BR"
             ]
         },
         "B22G": {
@@ -69499,8 +69499,8 @@
         },
         "B47U": {
             "B21A": [
-                "W_345BPh",
-                "UNK_SHORT_DESC"
+                "UNK_SHORT_DESC",
+                "W_345BPh"
             ],
             "B48C": [
                 "UNK_SHORT_DESC"
@@ -70063,8 +70063,8 @@
     "9DN4": {
         "E12C": {
             "E11A": [
-                "H_789BPh",
-                "H_0BR"
+                "H_0BR",
+                "H_789BPh"
             ]
         },
         "F12C": {

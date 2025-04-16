@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,2-6,3-6
-1,HL_1VTQ_004,1VTQ,0.0,3,A,T-RNA-ASP,PSU,13,A,14,A,15,H2U,19,C,20,A,21,G,22,nbp 0.83,cWS 0.83,nbp 0.83
+1,HL_1VTQ_004,1VTQ,0.0,3,A,T-RNA-ASP,PSU,13,A,14,A,15,H2U,19,C,20,A,21,G,22,nbp 0.80,cWS 1.00,nbp 0.80

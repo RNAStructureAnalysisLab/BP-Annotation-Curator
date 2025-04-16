@@ -1,6 +1,6 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,1-6,2-5,3-5
-1,HL_5WWT_001,5WWT,0.4967,3,tRNA D-loop,C,tRNA,C,13,A,14,G,15,G,16,A,21,G,22,"cWW,cWW,cWW,cWW,nbp,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
-2,HL_3EPH_001,3EPH,0.2186,3,tRNA D-loop,E,tRNA,C,13,A,14,G,15,U,16,A,21,G,22,"cWW,cWW,cWW,cWW,nbp,cWW","cWS,cWS,cWS,tWS,nbp,cWS","nbp,cSS,nbp,nbp,nbp,nbp"
-3,HL_3TUP_001,3TUP,0.0,4,tRNA D-loop,T,tRNA,C,13,A,14,G,15,U,16,A,21,G,22,"cWW,cWW,cWW,cWW,nbp,cWW","ncWS,cWS,cWS,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
-4,HL_3FOZ_004,3FOZ,0.1305,4,tRNA D-loop,D,tRNA(Phe),C,13,A,14,G,15,U,16,A,21,G,22,"cWW,cWW,cWW,cWW,nbp,cWW","cWS,cWS,cWS,nbp,nbp,cWS","nbp,nbp,nbp,nbp,nbp,nbp"
-5,HL_1IL2_007,1IL2,0.4971,4,,C,tRNA,PSU,913,A,914,A,915,H2U,916,A,921,G,922,"cWW,nbp,nbp,nbp,nbp,nbp","cWS,cWS,cWS,cWS,nbp,cWS","nbp,nbp,nbp,nbp,nbp,nbp"
+1,HL_5WWT_001,5WWT,0.4967,3,tRNA D-loop,C,tRNA,C,13,A,14,G,15,G,16,A,21,G,22,"cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp"
+2,HL_3EPH_001,3EPH,0.2186,3,tRNA D-loop,E,tRNA,C,13,A,14,G,15,U,16,A,21,G,22,"cWW,cWW,cWW,cWW,cWW","cWS,cWS,cWS,tWS,cWS","nbp,cSS,nbp,nbp,nbp"
+3,HL_3TUP_001,3TUP,0.0,4,tRNA D-loop,T,tRNA,C,13,A,14,G,15,U,16,A,21,G,22,"cWW,cWW,cWW,cWW,cWW","ncWS,cWS,cWS,nbp,nbp","nbp,nbp,nbp,nbp,nbp"
+4,HL_3FOZ_004,3FOZ,0.1305,4,tRNA D-loop,D,tRNA(Phe),C,13,A,14,G,15,U,16,A,21,G,22,"cWW,cWW,cWW,cWW,cWW","cWS,cWS,cWS,nbp,cWS","nbp,nbp,nbp,nbp,nbp"
+5,HL_1IL2_007,1IL2,0.4971,4,,C,tRNA,PSU,913,A,914,A,915,H2U,916,A,921,G,922,"cWW,nbp,nbp,nbp,nbp","cWS,cWS,cWS,cWS,cWS","nbp,nbp,nbp,nbp,nbp"

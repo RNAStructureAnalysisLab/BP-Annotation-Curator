@@ -46,7 +46,8 @@ class Preprocessor:
         
         # Begin converting each CSV into a JSON
         for csv_file_name in os.listdir(Preprocessor.INPUT_DIRECTORY):
-            if csv_file_name.endswith('.csv'):
+            tool = os.path.splitext(csv_file_name)[0].split('_')[1]
+            if csv_file_name.endswith('.csv') and 'MO' != tool:
                 Preprocessor._to_json(csv_file_name)
         
         # Save annoation as a JSON file in OUTPUT_DIRECTORY

@@ -1,8 +1,8 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,break,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,1-7,2-6,2-7,3-5,3-6,4-5,3-7
-1,IL_4QIK_001,4QIK,0.4164,0,D+C,RNA (23-mer),U,11,G,12,U,13,G,14,*,C,10,U,11,G,12,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00,cWW 0.67,cWW 0.83,nbp 1.00
-2,IL_4N0T_004,4N0T,0.0,0,B,U6 snRNA,G,78,A,79,U,80,G,81,*,C,66,C,67,C,68,cWW 0.83,nbp 0.83,nbp 1.00,nbp 0.67,cWW 0.83,cWW 0.83,nbp 1.00
-4,IL_7KJT_002,7KJT,0.3625,0,A,tRNA,C,39,C,40,A,41,G,42,*,C,28,U,29,G,30,nbp 0.83,nbp 1.00,nbp 0.5,nbp 1.00,nbp 0.67,cWW 0.83,nbp 1.00
-5,IL_6ZDU_001,6ZDU,0.4792,0,C,"Chains: C,D",A,1283,U,1284,A,1285,G,1286,*,C,1268,U,1269,U,1270,cWW 0.67,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00,cWW 0.83,nbp 0.83
-6,IL_4PHY_003,4PHY,0.6509,1,A+B,RNA (26-MER) + RNA (20-mer),G,17,A,18,U,19,C,20,*,G,31,A,33,C,34,cWW 0.83,cWW 0.50,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.5,nbp 1.00
-7,IL_7MLW_007,7MLW,0.7425,1,F,Guanidine-I riboswitch,G,89,A,90,A,91,A,92,*,U,73,G,75,C,76,cWW 0.83,cWW 0.67,nbp 1.00,nbp 1.00,nbp 1.00,cWW 0.83,nbp 1.00
-8,IL_6VMY_001,6VMY,0.6093,0,A,Cobalamin riboswitch,U,219,C,220,C,221,G,222,*,C,230,A,231,G,232,cWW 0.83,tWH 0.83,nbp 1.00,nbp 1.00,nbp 1.00,cWW 0.83,nbp 1.00
+1,IL_4QIK_001,4QIK,0.4164,0,D+C,RNA (23-mer),U,11,G,12,U,13,G,14,*,C,10,U,11,G,12,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,cWW 0.80,cWW 1.00,nbp 1.00
+2,IL_4N0T_004,4N0T,0.0,0,B,U6 snRNA,G,78,A,79,U,80,G,81,*,C,66,C,67,C,68,cWW 1.00,nbp 0.80,nbp 1.00,nbp 0.60,cWW 1.00,cWW 1.00,nbp 1.00
+4,IL_7KJT_002,7KJT,0.3625,0,A,tRNA,C,39,C,40,A,41,G,42,*,C,28,U,29,G,30,nbp 0.80,nbp 1.00,cWW 0.60,nbp 1.00,nbp 0.60,cWW 1.00,nbp 1.00
+5,IL_6ZDU_001,6ZDU,0.4792,0,C,"Chains: C,D",A,1283,U,1284,A,1285,G,1286,*,C,1268,U,1269,U,1270,cWW 0.80,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00,cWW 1.00,nbp 0.80
+6,IL_4PHY_003,4PHY,0.6509,1,A+B,RNA (26-MER) + RNA (20-mer),G,17,A,18,U,19,C,20,*,G,31,A,33,C,34,cWW 1.00,cWW 0.60,nbp 1.00,nbp 1.00,nbp 1.00,cWW 0.60,nbp 1.00
+7,IL_7MLW_007,7MLW,0.7425,1,F,Guanidine-I riboswitch,G,89,A,90,A,91,A,92,*,U,73,G,75,C,76,cWW 1.00,cWW 0.80,nbp 1.00,nbp 1.00,nbp 1.00,cWW 1.00,nbp 1.00
+8,IL_6VMY_001,6VMY,0.6093,0,A,Cobalamin riboswitch,U,219,C,220,C,221,G,222,*,C,230,A,231,G,232,cWW 1.00,tWH 1.00,nbp 1.00,nbp 1.00,nbp 1.00,cWW 1.00,nbp 1.00

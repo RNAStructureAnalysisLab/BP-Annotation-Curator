@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,break,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,Unnamed: 34,14,1-14,8-11,9-10,8-12
-1,IL_5U30_004,5U30,0.0,2,B,sgRNA,U,28,G,29,U,30,G,31,C,32,C,33,A,35,G,37,G,38,*,C,54,A,55,A,56,A,57,G,58,"ncWW,cWW,nbp,cWW,nbp,cWW","ncWW,cWW,cWW,cWW,nbp,cWW","cWW,cWW,cWW,cWW,nbp,cWW","nbp,cWW,nbp,nbp,nbp,nbp"
+1,IL_5U30_004,5U30,0.0,2,B,sgRNA,U,28,G,29,U,30,G,31,C,32,C,33,A,35,G,37,G,38,*,C,54,A,55,A,56,A,57,G,58,"ncWW,cWW,nbp,cWW,cWW","ncWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp"

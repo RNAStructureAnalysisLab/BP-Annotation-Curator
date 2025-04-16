@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,Unnamed: 27,11,1-11,2-10,5-6
-1,HL_2A64_003,2A64,0.0,1,A,ribonuclease P RNA,C,97,G,98,A,99,A,100,U,101,C,103,A,104,U,105,A,106,A,107,G,108,cWW 0.83,tSH 0.67,nbp 0.67
+1,HL_2A64_003,2A64,0.0,1,A,ribonuclease P RNA,C,97,G,98,A,99,A,100,U,101,C,103,A,104,U,105,A,106,A,107,G,108,cWW 1.00,tSH 0.80,nbp 0.60

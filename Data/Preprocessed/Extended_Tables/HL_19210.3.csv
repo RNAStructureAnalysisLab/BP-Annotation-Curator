@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-9,2-6,3-5
-3,HL_6PRV_001,6PRV,0.0735,1,A,LSU rRNA,C,1064,U,1065,U,1066,A,1067,G,1068,A,1069,G,1071,C,1072,A,1073,G,1074,"cWW,cWW,cWW,cWW,nbp,cWW","nbp,cWW,nbp,cWW,nbp,cWW","nbp,tWH,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp,nbp"
-4,HL_1MMS_001,1MMS,0.0,1,C,23S RIBOSOMAL RNA,C,1064,U,1065,U,1066,A,1067,G,1068,A,1069,G,1071,C,1072,A,1073,G,1074,"cWW,cWW,cWW,cWW,nbp,cWW","nbp,cWW,nbp,cWW,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp,nbp"
-5,HL_5D8H_001,5D8H,0.0661,1,A,LSU rRNA,C,1174,U,1175,U,1176,A,1177,G,1178,A,1179,G,1181,C,1182,A,1183,G,1184,"cWW,cWW,cWW,cWW,nbp,cWW","nbp,cWW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp,nbp"
+3,HL_6PRV_001,6PRV,0.0735,1,A,LSU rRNA,C,1064,U,1065,U,1066,A,1067,G,1068,A,1069,G,1071,C,1072,A,1073,G,1074,"cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,cWW,cWW","nbp,tWH,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp"
+4,HL_1MMS_001,1MMS,0.0,1,C,23S RIBOSOMAL RNA,C,1064,U,1065,U,1066,A,1067,G,1068,A,1069,G,1071,C,1072,A,1073,G,1074,"cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,cWW,nbp","nbp,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp"
+5,HL_5D8H_001,5D8H,0.0661,1,A,LSU rRNA,C,1174,U,1175,U,1176,A,1177,G,1178,A,1179,G,1181,C,1182,A,1183,G,1184,"cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp"
