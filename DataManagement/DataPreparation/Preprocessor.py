@@ -6,7 +6,6 @@ import os
 import shutil
 import re
 
-# TODO add multithreading and a time to finish estimation
 # TODO rejecting residue pairs leads to innacuracies in other pipeline steps
 # since Table_Extender might treat these as 'nbp' which is 'Not a Base Pair'.
 # However, it is not gauranteed that they actually are not base pair
@@ -216,7 +215,8 @@ class Preprocessor:
             '?H_789BPh', 'SW_2BPh', 'tm+.', 'H_0BR', 'W_345BR', 'W_6BPh', 'c.+M', 't.-m', 'tm-.', 't.+m', 'tM-.', 'cM+.', 't.+M', 'c.+W'
         }
         # Types that will be converted to empty strings (stacking, base
-        # phosphate, and base ribose interactions):
+        # phosphate, and base ribose interactions): 
+        # TODO some are not written down, write them all down
         # {
         # 'base-ribose-stacking',
         #'?<>', '', '>>', '<<', '<>', '?><', '><', '--', '?<<', '?>>',

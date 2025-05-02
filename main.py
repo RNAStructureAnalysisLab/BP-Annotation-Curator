@@ -3,14 +3,16 @@
 # TODO finish description of use
 # =============================================================================
 
-
+import sys
 from DataManagement.RawDataLoading.Cluster_Downloader import Cluster_Downloader
 from DataManagement.RawDataLoading.PDB_Downloader import PDB_Downloader
+from DataManagement.DataPreparation.PDB_Maker import PDB_Maker
 from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Downloader
 from DataManagement.DataPreparation.Preprocessor import Preprocessor
 from DataManagement.DataPreparation.Table_Extender import Table_Extender
 from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
 from DataManagement.ResultsMaking.Agreement_Calculator import Agreement_Calculator
+from DataManagement.ResultsMaking.Agreement_Analyzer import Agreement_Analyzer
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -108,8 +110,10 @@ if 2 >= starting_step_number:
 
 if 3 >= starting_step_number:
     print('Beginning STEP 3:\n')
+    PDB_Maker.convert_all()
     
-    print('STEP 3 currently unimplimented. Skipping.')
+print("Finished step 3, terminating program. Remove this feature when testing finished")
+sys.exit() # TODO here for testing, remove
     
 # =============================================================================
 
@@ -146,7 +150,16 @@ if 4 >= starting_step_number:
 # =============================================================================
 # STEP 5: (MANUAL STEP, Dr. Islam) Push all PDB files to DSSR for annotation
 
-print('STEP 5 unimplimented. Skipping')
+if 5 >= starting_step_number:
+    print("Beginning STEP 5:\n")
+    response = input(
+        "Ensure that DSSR annotations have been manually added into " +
+        "'Data/AnnotationTools/Annotations'. Otherwise the following steps " +
+        "the pipeline will not make use of this data. Proceed (y/n): "
+    )
+    
+    if response == "n" or response == "N":
+        sys.exit()
 
 # =============================================================================
 
@@ -208,4 +221,7 @@ if 9 >= starting_step_number:
 if 10 >= starting_step_number:
     print('Beginning STEP 10:\n')
     Agreement_Calculator.run()
+if 11 >= starting_step_number: # should be step 10, temporary
+    print('Beginning STEP 11:\n')
+    Agreement_Analyzer.run()
     
