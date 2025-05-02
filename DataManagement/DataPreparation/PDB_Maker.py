@@ -54,7 +54,7 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
                 PDB_Maker.to_new_chain = {
                     v:k for k, v in PDB_Maker.to_original_chain[structure.id].items()
                 }
-                print("is working up until here")
+                
                 # Remove unwanted chains, for reducing file size to allow PDB
                 for model in structure:
                     for chain in list(model):
@@ -133,7 +133,7 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
     # OUTPUT: a boolean that is True when the nucleotide type of the residue
     # is valid
     def accept_residue(self, residue):
-        structure_id, model_id, chain_id, _ = residue.get_full_id()
+        structure_id, model_id, chain_id, residue_id = residue.get_full_id()
         
         if chain_id in PDB_Maker.to_original_chain[structure_id].values():
             # Modify original chain
