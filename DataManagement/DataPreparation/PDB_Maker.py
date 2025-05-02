@@ -1,6 +1,6 @@
 # AUTHORS: Jackie Luc and Kristopher Church
 
-import os, re
+import os
 import pandas as pd
 from Bio.PDB import MMCIFParser, PDBIO, Select
 
@@ -25,6 +25,9 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
     # made single character for the conversion. The mappings are saved so
     # that the original chain IDs can be restored later in the pipeline
     to_original_chain = {}
+    # Dictionary with the original chain ID as the key, and the new chain ID as
+    # the value
+    to_new_chain = {}
     chains_per_pdb = {} # PDB IDs as keys and values are sets of chain IDs
     
     # ACTION: Iterates through each PDBx file in INPUT_DIRECTORY, and converts
@@ -48,24 +51,22 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
             
             try:
                 structure = PDB_Maker.PARSER.get_structure(pdb_id, input_file_path)
-                # Dictionary with the original chain ID as the key, and the new chain ID as
-                # the value
-                to_new_chain = {
+                PDB_Maker.to_new_chain = {
                     v:k for k, v in PDB_Maker.to_original_chain[structure.id].items()
                 }
-                
+                print("is working up until here")
                 # Remove unwanted chains, for reducing file size to allow PDB
                 for model in structure:
                     for chain in list(model):
-                        if chain.id not in to_new_chain:
+                        if chain.id not in PDB_Maker.to_new_chain:
                             model.detach_child(chain.id)
                             
                 # Update chain IDs
                 for model in structure:
                     for chain in model:
-                        if chain.id in to_new_chain:
-                            chain.id = to_new_chain[chain.id]
-                
+                        if chain.id in PDB_Maker.to_new_chain:
+                            chain.id = PDB_Maker.to_new_chain[chain.id]
+                            
                 # Insert the converted PDBx files into the PDB directory
                 io = PDBIO()
                 io.set_structure(structure)
@@ -73,6 +74,7 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
                 successfully_converted.append(pdb_id)
             except Exception as e:
                 unsuccessfully_converted.append((pdb_id, str(e)))
+                print(str(e))
             
      
     @staticmethod 
@@ -85,11 +87,13 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
             
             for _, row in cluster.iterrows():
                 pdb = row["PDB"]
-                chain = row["Chain(s)"]
-                if pdb in PDB_Maker.chains_per_pdb:
-                    PDB_Maker.chains_per_pdb[pdb].add(chain)
-                else:
-                    PDB_Maker.chains_per_pdb[pdb] = {chain}
+                chains = str(row["Chain(s)"])
+                split_chains = chains.split("+")
+                for chain in split_chains:
+                    if pdb in PDB_Maker.chains_per_pdb:
+                        PDB_Maker.chains_per_pdb[pdb].add(chain)
+                    else:
+                        PDB_Maker.chains_per_pdb[pdb] = {chain}
      
     @staticmethod 
     def load_chain_mappings():
@@ -97,6 +101,7 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
             count = 0
             temp = {}
             for chain in chains:
+                chain = str(chain)
                 if len(chain) == 1: # If the chain is a single letter
                     temp[chain] = chain # Doesn't require remapping
                 elif len(chain) > 1:
@@ -128,7 +133,7 @@ class PDB_Maker(Select): # Inherits from "Select" found in Bio.PDB
     # OUTPUT: a boolean that is True when the nucleotide type of the residue
     # is valid
     def accept_residue(self, residue):
-        structure_id, model_id, chain_id = residue.get_full_id()
+        structure_id, model_id, chain_id, _ = residue.get_full_id()
         
         if chain_id in PDB_Maker.to_original_chain[structure_id].values():
             # Modify original chain
