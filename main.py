@@ -158,8 +158,18 @@ if 5 >= starting_step_number:
         "the pipeline will not make use of this data. Proceed (y/n): "
     )
     
-    if response == "n" or response == "N":
-        sys.exit()
+    while True:
+        if response == "n" or response == "N":
+            print(
+                "Rerun starting from STEP 5 once you have the data by " +
+                "entering 'y' or 'Y' to proceed."
+            )
+            sys.exit()
+        elif response == 'y' or response == "Y":
+            # TODO Reintroduce multi-character chain names into the DSSR PDB files
+            break
+        else:
+            print("Incorrect input, please enter a single letter.")
 
 # =============================================================================
 
@@ -171,7 +181,7 @@ if 5 >= starting_step_number:
 # STEP 6: Perform data exploration on the annotations
 
 print('STEP 6 unimplimented. Skipping')
-# perhaps don't make this a pipeline step but a jupyter notebook that happens
+# perhaps don't make this a python class but a jupyter notebook that happens
 # to evaluate the data from between STEP 5 and STEP 7
 
 # =============================================================================
@@ -221,7 +231,7 @@ if 9 >= starting_step_number:
 if 10 >= starting_step_number:
     print('Beginning STEP 10:\n')
     Agreement_Calculator.run()
-if 11 >= starting_step_number: # should be step 10, temporary
+if 11 >= starting_step_number: # should be part of step 10, temporary
     print('Beginning STEP 11:\n')
     Agreement_Analyzer.run()
     
