@@ -1,0 +1,93 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/5MWI.pdb -o=dssr_annotations/5MWI.pdb.dssr
+Date and time: Sun May  4 17:07:51 2025
+File name: 5MWI.pdb
+    no. of DNA/RNA chains: 1 [A=26]
+    no. of nucleotides:    26
+    no. of atoms:          625
+    no. of waters:         71
+    no. of metals:         0
+
+****************************************************************************
+List of 6 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 GC A.G1,A.C2
+   2 nts=3 UGC A.U3,A.G4,A.C5
+   3 nts=3 UGC A.U6,A.G7,A.C8
+   4 nts=3 UGC A.U9,A.G10,A.C11
+   5 nts=7 UGCUGCU A.U12,A.G13,A.C14,A.U15,A.G16,A.C17,A.U18
+   6 nts=8 GCUGCUGC A.G19,A.C20,A.U21,A.G22,A.C23,A.U24,A.G25,A.C26
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=26 GCUGCUGCUGCUGCUGCUGCUGCUGC A.G1,A.C2,A.U3,A.G4,A.C5,A.U6,A.G7,A.C8,A.U9,A.G10,A.C11,A.U12,A.G13,A.C14,A.U15,A.G16,A.C17,A.U18,A.G19,A.C20,A.U21,A.G22,A.C23,A.U24,A.G25,A.C26
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>5MWI nts=26 [whole]
+GCUGCUGCUGCUGCUGCUGCUGCUGC
+..........................
+>5MWI-A #1 nts=26 2.60(0.54) [chain] RNA
+GCUGCUGCUGCUGCUGCUGCUGCUGC
+..........................
+
+****************************************************************************
+Summary of structural features of 26 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  G . A.G1      0.026  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   2  C . A.C2      0.010  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  U . A.U3      0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   4  G . A.G4      0.021  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  C . A.C5      0.015  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  U . A.U6      0.016  anti,~C3'-endo,non-pair-contact,ss-non-loop
+   7  G . A.G7      0.018  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  C . A.C8      0.020  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  U . A.U9      0.021  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  G . A.G10     0.034  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  C . A.C11     0.023  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  12  U . A.U12     0.007  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  13  G . A.G13     0.033  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  14  C . A.C14     0.012  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  15  U . A.U15     0.017  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  16  G . A.G16     0.030  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  17  C . A.C17     0.024  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  18  U . A.U18     0.020  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  19  G . A.G19     0.023  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  20  C . A.C20     0.024  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  21  U . A.U21     0.016  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  22  G . A.G22     0.028  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  23  C . A.C23     0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  24  U . A.U24     0.027  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  25  G . A.G25     0.024  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  26  C . A.C26     0.029  anti,~C3'-endo,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 5 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

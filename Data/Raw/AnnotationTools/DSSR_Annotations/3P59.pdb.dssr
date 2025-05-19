@@ -1,0 +1,517 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/3P59.pdb -o=dssr_annotations/3P59.pdb.dssr
+Date and time: Sun May  4 17:05:37 2025
+File name: 3P59.pdb
+    no. of DNA/RNA chains: 8 [A=15,B=10,C=15,D=10,E=15,F=10,G=13,H=10]
+    no. of nucleotides:    98
+    no. of atoms:          2264
+    no. of waters:         118
+    no. of metals:         12 [Mg=2,Co=10]
+
+****************************************************************************
+List of 1 type of 4 modified nucleotides
+      nt    count  list
+   1 5BU-u    4    A.5BU59,C.5BU59,E.5BU59,G.5BU59
+
+****************************************************************************
+List of 41 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 A.C46          D.G107         C-G WC          19-XIX    cWW  cW-W
+   2 A.C47          D.G106         C-G WC          19-XIX    cWW  cW-W
+   3 A.G48          D.C105         G-C WC          19-XIX    cWW  cW-W
+   4 A.G49          D.C104         G-C WC          19-XIX    cWW  cW-W
+   5 A.A50          B.U113         A-U WC          20-XX     cWW  cW-W
+   6 A.G51          B.C112         G-C WC          19-XIX    cWW  cW-W
+   7 A.G52          B.C111         G-C WC          19-XIX    cWW  cW-W
+   8 A.C58          B.G110         C-G WC          19-XIX    cWW  cW-W
+   9 A.5BU59        B.A109         u-A WC          20-XX     cWW  cW-W
+  10 A.G60          B.C108         G-C WC          19-XIX    cWW  cW-W
+  11 B.C104         G.G49          C-G WC          19-XIX    cWW  cW-W
+  12 B.C105         G.G48          C-G WC          19-XIX    cWW  cW-W
+  13 B.G106         G.C47          G-C WC          19-XIX    cWW  cW-W
+  14 B.G107         G.C46          G-C WC          19-XIX    cWW  cW-W
+  15 C.C46          F.G107         C-G WC          19-XIX    cWW  cW-W
+  16 C.C47          F.G106         C-G WC          19-XIX    cWW  cW-W
+  17 C.G48          F.C105         G-C WC          19-XIX    cWW  cW-W
+  18 C.G49          F.C104         G-C WC          19-XIX    cWW  cW-W
+  19 C.A50          D.U113         A-U WC          20-XX     cWW  cW-W
+  20 C.G51          D.C112         G-C WC          19-XIX    cWW  cW-W
+  21 C.G52          D.C111         G-C WC          19-XIX    cWW  cW-W
+  22 C.C58          D.G110         C-G ~Wobble     --        cWW  cW-W
+  23 C.G60          D.C108         G-C --          --        cHW  cM-W
+  24 E.C46          H.G107         C-G WC          19-XIX    cWW  cW-W
+  25 E.C47          H.G106         C-G WC          19-XIX    cWW  cW-W
+  26 E.G48          H.C105         G-C WC          19-XIX    cWW  cW-W
+  27 E.G49          H.C104         G-C WC          19-XIX    cWW  cW-W
+  28 E.A50          F.U113         A-U WC          20-XX     cWW  cW-W
+  29 E.G51          F.C112         G-C WC          19-XIX    cWW  cW-W
+  30 E.C55          E.C58          C+C --          --        tWW  tW+W
+  31 E.C55          F.G110         C-G --          --        tWH  tW-M
+  32 E.A57          F.C111         A-C ~Wobble     --        cWW  cW-W
+  33 E.C58          F.G110         C-G WC          19-XIX    cWW  cW-W
+  34 E.5BU59        F.A109         u-A WC          20-XX     cWW  cW-W
+  35 E.G60          F.C108         G-C WC          19-XIX    cWW  cW-W
+  36 G.A50          H.U113         A-U WC          20-XX     cWW  cW-W
+  37 G.G51          H.C112         G-C WC          19-XIX    cWW  cW-W
+  38 G.G52          H.C111         G-C WC          19-XIX    cWW  cW-W
+  39 G.C58          H.G110         C-G WC          19-XIX    cWW  cW-W
+  40 G.5BU59        H.A109         u-A WC          20-XX     cWW  cW-W
+  41 G.G60          H.C108         G-C WC          19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 1 multiplet
+   1 nts=3 CCG E.C55,E.C58,F.G110
+
+****************************************************************************
+List of 4 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[3] bps=10
+      strand-1 5'-CuGCCGGAGG-3'
+       bp-type    ||||||||||
+      strand-2 3'-GACGGCCUCC-5'
+      helix-form  ..xAAAx.A
+   1 A.C58          B.G110         C-G WC           19-XIX    cWW  cW-W
+   2 A.5BU59        B.A109         u-A WC           20-XX     cWW  cW-W
+   3 A.G60          B.C108         G-C WC           19-XIX    cWW  cW-W
+   4 G.C46          B.G107         C-G WC           19-XIX    cWW  cW-W
+   5 G.C47          B.G106         C-G WC           19-XIX    cWW  cW-W
+   6 G.G48          B.C105         G-C WC           19-XIX    cWW  cW-W
+   7 G.G49          B.C104         G-C WC           19-XIX    cWW  cW-W
+   8 G.A50          H.U113         A-U WC           20-XX     cWW  cW-W
+   9 G.G51          H.C112         G-C WC           19-XIX    cWW  cW-W
+  10 G.G52          H.C111         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  helix#2[2] bps=8
+      strand-1 5'-CCUCCGGC-3'
+       bp-type    |||||||.
+      strand-2 3'-GGAGGCCG-5'
+      helix-form  AAxAA.x
+   1 B.C111         A.G52          C-G WC           19-XIX    cWW  cW-W
+   2 B.C112         A.G51          C-G WC           19-XIX    cWW  cW-W
+   3 B.U113         A.A50          U-A WC           20-XX     cWW  cW-W
+   4 D.C104         A.G49          C-G WC           19-XIX    cWW  cW-W
+   5 D.C105         A.G48          C-G WC           19-XIX    cWW  cW-W
+   6 D.G106         A.C47          G-C WC           19-XIX    cWW  cW-W
+   7 D.G107         A.C46          G-C WC           19-XIX    cWW  cW-W
+   8 D.C108         C.G60          C-G --           --        cWH  cW-M
+  --------------------------------------------------------------------------
+  helix#3[3] bps=11
+      strand-1 5'-CCUCCGGCAGC-3'
+       bp-type    ||||||||||.
+      strand-2 3'-GGAGGCCGuCA-5'
+      helix-form  AAxAAAx...
+   1 D.C111         C.G52          C-G WC           19-XIX    cWW  cW-W
+   2 D.C112         C.G51          C-G WC           19-XIX    cWW  cW-W
+   3 D.U113         C.A50          U-A WC           20-XX     cWW  cW-W
+   4 F.C104         C.G49          C-G WC           19-XIX    cWW  cW-W
+   5 F.C105         C.G48          C-G WC           19-XIX    cWW  cW-W
+   6 F.G106         C.C47          G-C WC           19-XIX    cWW  cW-W
+   7 F.G107         C.C46          G-C WC           19-XIX    cWW  cW-W
+   8 F.C108         E.G60          C-G WC           19-XIX    cWW  cW-W
+   9 F.A109         E.5BU59        A-u WC           20-XX     cWW  cW-W
+  10 F.G110         E.C58          G-C WC           19-XIX    cWW  cW-W
+  11 F.C111         E.A57          C-A ~Wobble      --        cWW  cW-W
+  --------------------------------------------------------------------------
+  helix#4[3] bps=9
+      strand-1 5'-CUCCGGCAG-3'
+       bp-type    |||||||||
+      strand-2 3'-GAGGCCGuC-5'
+      helix-form  .x.A.x..
+   1 F.C112         E.G51          C-G WC           19-XIX    cWW  cW-W
+   2 F.U113         E.A50          U-A WC           20-XX     cWW  cW-W
+   3 H.C104         E.G49          C-G WC           19-XIX    cWW  cW-W
+   4 H.C105         E.G48          C-G WC           19-XIX    cWW  cW-W
+   5 H.G106         E.C47          G-C WC           19-XIX    cWW  cW-W
+   6 H.G107         E.C46          G-C WC           19-XIX    cWW  cW-W
+   7 H.C108         G.G60          C-G WC           19-XIX    cWW  cW-W
+   8 H.A109         G.5BU59        A-u WC           20-XX     cWW  cW-W
+   9 H.G110         G.C58          G-C WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 11 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#2] bps=4
+      strand-1 5'-CCGG-3'
+       bp-type    ||||
+      strand-2 3'-GGCC-5'
+      helix-form  .AA
+   1 A.C46          D.G107         C-G WC           19-XIX    cWW  cW-W
+   2 A.C47          D.G106         C-G WC           19-XIX    cWW  cW-W
+   3 A.G48          D.C105         G-C WC           19-XIX    cWW  cW-W
+   4 A.G49          D.C104         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#2[#2] bps=3
+      strand-1 5'-AGG-3'
+       bp-type    |||
+      strand-2 3'-UCC-5'
+      helix-form  AA
+   1 A.A50          B.U113         A-U WC           20-XX     cWW  cW-W
+   2 A.G51          B.C112         G-C WC           19-XIX    cWW  cW-W
+   3 A.G52          B.C111         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#3[#1] bps=3
+      strand-1 5'-CuG-3'
+       bp-type    |||
+      strand-2 3'-GAC-5'
+      helix-form  ..
+   1 A.C58          B.G110         C-G WC           19-XIX    cWW  cW-W
+   2 A.5BU59        B.A109         u-A WC           20-XX     cWW  cW-W
+   3 A.G60          B.C108         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#4[#1] bps=4
+      strand-1 5'-CCGG-3'
+       bp-type    ||||
+      strand-2 3'-GGCC-5'
+      helix-form  AAA
+   1 B.C104         G.G49          C-G WC           19-XIX    cWW  cW-W
+   2 B.C105         G.G48          C-G WC           19-XIX    cWW  cW-W
+   3 B.G106         G.C47          G-C WC           19-XIX    cWW  cW-W
+   4 B.G107         G.C46          G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#5[#3] bps=4
+      strand-1 5'-CCGG-3'
+       bp-type    ||||
+      strand-2 3'-GGCC-5'
+      helix-form  AAA
+   1 C.C46          F.G107         C-G WC           19-XIX    cWW  cW-W
+   2 C.C47          F.G106         C-G WC           19-XIX    cWW  cW-W
+   3 C.G48          F.C105         G-C WC           19-XIX    cWW  cW-W
+   4 C.G49          F.C104         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#6[#3] bps=3
+      strand-1 5'-AGG-3'
+       bp-type    |||
+      strand-2 3'-UCC-5'
+      helix-form  AA
+   1 C.A50          D.U113         A-U WC           20-XX     cWW  cW-W
+   2 C.G51          D.C112         G-C WC           19-XIX    cWW  cW-W
+   3 C.G52          D.C111         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#7[#4] bps=4
+      strand-1 5'-CCGG-3'
+       bp-type    ||||
+      strand-2 3'-GGCC-5'
+      helix-form  .A.
+   1 E.C46          H.G107         C-G WC           19-XIX    cWW  cW-W
+   2 E.C47          H.G106         C-G WC           19-XIX    cWW  cW-W
+   3 E.G48          H.C105         G-C WC           19-XIX    cWW  cW-W
+   4 E.G49          H.C104         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#8[#4] bps=2
+      strand-1 5'-AG-3'
+       bp-type    ||
+      strand-2 3'-UC-5'
+      helix-form  .
+   1 E.A50          F.U113         A-U WC           20-XX     cWW  cW-W
+   2 E.G51          F.C112         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#9[#3] bps=3
+      strand-1 5'-CuG-3'
+       bp-type    |||
+      strand-2 3'-GAC-5'
+      helix-form  ..
+   1 E.C58          F.G110         C-G WC           19-XIX    cWW  cW-W
+   2 E.5BU59        F.A109         u-A WC           20-XX     cWW  cW-W
+   3 E.G60          F.C108         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#10[#1] bps=3
+      strand-1 5'-AGG-3'
+       bp-type    |||
+      strand-2 3'-UCC-5'
+      helix-form  .A
+   1 G.A50          H.U113         A-U WC           20-XX     cWW  cW-W
+   2 G.G51          H.C112         G-C WC           19-XIX    cWW  cW-W
+   3 G.G52          H.C111         G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#11[#4] bps=3
+      strand-1 5'-CuG-3'
+       bp-type    |||
+      strand-2 3'-GAC-5'
+      helix-form  ..
+   1 G.C58          H.G110         C-G WC           19-XIX    cWW  cW-W
+   2 G.5BU59        H.A109         u-A WC           20-XX     cWW  cW-W
+   3 G.G60          H.C108         G-C WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 4 coaxial stacks
+   1 Helix#1 contains 3 stems: [#3,#4,#10]
+   2 Helix#2 contains 2 stems: [#2,#1]
+   3 Helix#3 contains 3 stems: [#6,#5,#9]
+   4 Helix#4 contains 3 stems: [#8,#7,#11]
+
+****************************************************************************
+List of 23 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 GA A.G49,A.A50
+   2 nts=2 GC A.G60,G.C46
+   3 nts=2 CU B.C104,H.U113
+   4 nts=2 GC B.G107,B.C108
+   5 nts=2 CG C.C46,E.G60
+   6 nts=2 GA C.G49,C.A50
+   7 nts=2 AC C.A57,C.C58
+   8 nts=2 UC D.U113,F.C104
+   9 nts=2 CG E.C46,G.G60
+  10 nts=2 GA E.G49,E.A50
+  11 nts=2 GC F.G107,F.C108
+  12 nts=2 GC F.G110,F.C111
+  13 nts=2 UC F.U113,H.C104
+  14 nts=2 GA G.G49,G.A50
+  15 nts=2 GC H.G107,H.C108
+  16 nts=3 UAC A.U56,A.A57,A.C58
+  17 nts=3 GAA C.G52,C.A53,C.A54
+  18 nts=3 GCA D.G107,D.C108,D.A109
+  19 nts=3 UAC E.U56,E.A57,E.C58
+  20 nts=4 CGuG A.C46,C.G60,C.5BU59,D.G110
+  21 nts=4 GAAC A.G52,A.A53,A.A54,A.C55
+  22 nts=4 GGAA E.G51,E.G52,E.A53,E.A54
+  23 nts=4 GAAC G.G52,G.A53,G.A54,G.C55
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=7 CCCUCCC B.C105,B.C111,C.C55,C.U56,D.C104,E.C55,H.C111
+
+****************************************************************************
+List of 1 atom-base capping interaction
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 sugar      O2'@C.C55            C.A54          3.47
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      isolated WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 1 bulge
+   1 bulge: nts=9; [5,0]; linked by [#2,#3]
+     summary: [2] 5 0 [A.52 B.111 A.58 B.110] 3 3
+     nts=9 GAACUACGC A.G52,A.A53,A.A54,A.C55,A.U56,A.A57,A.C58,B.G110,B.C111
+       nts=5 AACUA A.A53,A.A54,A.C55,A.U56,A.A57
+       nts=0
+
+****************************************************************************
+List of 1 internal loop
+   1 asymmetric internal loop: nts=11; [6,1]; linked by [#8,#9]
+     summary: [2] 6 1 [E.51 F.112 E.58 F.110] 2 3
+     nts=11 GGAACUACGCC E.G51,E.G52,E.A53,E.A54,E.C55,E.U56,E.A57,E.C58,F.G110,F.C111,F.C112
+       nts=6 GAACUA E.G52,E.A53,E.A54,E.C55,E.U56,E.A57
+       nts=1 C F.C111
+
+****************************************************************************
+List of 3 non-loop single-stranded segments
+   1 nts=8 AACUACuG C.A53,C.A54,C.C55,C.U56,C.A57,C.C58,C.5BU59,C.G60
+   2 nts=3 CAG D.C108,D.A109,D.G110
+   3 nts=3 AAC G.A53,G.A54,G.C55
+
+****************************************************************************
+List of 6 splayed-apart dinucleotides
+   1 A.C55    A.U56    angle=130    distance=15.7     ratio=0.91
+   2 B.G110   B.C111   angle=86     distance=13.1     ratio=0.69
+   3 C.C55    C.U56    angle=87     distance=13.0     ratio=0.69
+   4 D.G110   D.C111   angle=94     distance=13.8     ratio=0.74
+   5 E.A54    E.C55    angle=110    distance=15.2     ratio=0.82
+   6 H.G110   H.C111   angle=90     distance=13.3     ratio=0.71
+----------------------------------------------------------------
+Summary of 6 splayed-apart units
+   1 nts=2 CU A.C55,A.U56
+   2 nts=2 GC B.G110,B.C111
+   3 nts=2 CU C.C55,C.U56
+   4 nts=2 GC D.G110,D.C111
+   5 nts=2 AC E.A54,E.C55
+   6 nts=2 GC H.G110,H.C111
+
+****************************************************************************
+Special notes:
+   o cross-paired segments in separate chains, be *careful* with .dbn
+
+****************************************************************************
+This structure contains *2-order pseudoknot
+   o You may want to run DSSR again with the '--nested' option which removes
+     pseudoknots to get a fully nested secondary structure representation.
+   o The DSSR-derived dbn may be problematic (see notes above).
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>3P59 nts=98 [whole]
+CCGGAGGAACUACuG&CCGGCAGCCU&CCGGAGGAACUACuG&CCGGCAGCCU&CCGGAGGAACUACuG&CCGGCAGCCU&CCGGAGGAAC&CuG&CCGGCAGCCU
+(((((((.....(((&[[[[))))))&[[[[[[[........&))))...]]]&{{{{((......(((&]]]]))).))&]]]](((...&(((&}}}}))))))
+>3P59-A #1 nts=15 0.76(1.82) [chain] RNA
+CCGGAGGAACUACuG
+(((((((.....(((
+>3P59-B #2 nts=10 3.65(1.35) [chain] RNA
+CCGGCAGCCU
+[[[[))))))
+>3P59-C #3 nts=15 0.48(1.95) [chain] RNA
+CCGGAGGAACUACuG
+[[[[[[[........
+>3P59-D #4 nts=10 3.57(1.22) [chain] RNA
+CCGGCAGCCU
+))))...]]]
+>3P59-E #5 nts=15 0.78(1.91) [chain] RNA
+CCGGAGGAACUACuG
+{{{{((......(((
+>3P59-F #6 nts=10 3.14(1.00) [chain] RNA
+CCGGCAGCCU
+]]]]))).))
+>3P59-G #7 nts=13 0.92(2.02) [chain] RNA*
+CCGGAGGAAC&CuG
+]]]](((...&(((
+>3P59-H #8 nts=10 3.97(1.18) [chain] RNA
+CCGGCAGCCU
+}}}}))))))
+
+****************************************************************************
+Summary of structural features of 98 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C ( A.C46    0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+   2  C ( A.C47    0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   3  G ( A.G48    0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   4  G ( A.G49    0.023  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+   5  A ( A.A50    0.028  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+   6  G ( A.G51    0.034  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   7  G ( A.G52    0.015  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,bulge
+   8  A . A.A53    0.017  anti,~C3'-endo,non-pair-contact,bulge
+   9  A . A.A54    0.014  anti,~C3'-endo,BI,non-pair-contact,bulge
+  10  C . A.C55    0.018  anti,~C3'-endo,BII,non-pair-contact,bulge,splayed-apart
+  11  U . A.U56    0.022  turn,anti,~C3'-endo,non-pair-contact,bulge,splayed-apart
+  12  A . A.A57    0.014  anti,~C3'-endo,BI,non-pair-contact,bulge
+  13  C ( A.C58    0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,bulge
+  14  u ( A.5BU59  0.041  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  15  G ( A.G60    0.024  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  16  C [ B.C104   0.016  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  17  C [ B.C105   0.025  pseudoknotted,anti,~C3'-endo,BI,non-stack,canonical,helix,stem,coaxial-stack
+  18  G [ B.G106   0.031  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  19  G [ B.G107   0.019  pseudoknotted,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  20  C ) B.C108   0.022  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  21  A ) B.A109   0.021  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  22  G ) B.G110   0.026  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,bulge,phosphate,splayed-apart
+  23  C ) B.C111   0.008  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,bulge,splayed-apart
+  24  C ) B.C112   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  25  U ) B.U113   0.006  anti,~C2'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  26  C [ C.C46    0.014  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  27  C [ C.C47    0.021  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  28  G [ C.G48    0.037  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  29  G [ C.G49    0.016  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  30  A [ C.A50    0.017  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  31  G [ C.G51    0.021  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  32  G [ C.G52    0.013  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  33  A . C.A53    0.015  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  34  A . C.A54    0.018  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-acceptor
+  35  C . C.C55    0.011  anti,~C3'-endo,BII,non-stack,non-pair-contact,ss-non-loop,cap-donor,splayed-apart
+  36  U . C.U56    0.005  anti,~C3'-endo,BI,non-stack,ss-non-loop,splayed-apart
+  37  A . C.A57    0.031  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  38  C . C.C58    0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,ss-non-loop
+  39  u . C.5BU59  0.054  modified,anti,~C3'-endo,non-pair-contact,ss-non-loop
+  40  G . C.G60    0.018  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop,phosphate
+  41  C ) D.C104   0.022  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  42  C ) D.C105   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  43  G ) D.G106   0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  44  G ) D.G107   0.024  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  45  C . D.C108   0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop
+  46  A . D.A109   0.025  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  47  G . D.G110   0.015  turn,anti,~C3'-endo,non-canonical,non-pair-contact,ss-non-loop,splayed-apart
+  48  C ] D.C111   0.014  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,splayed-apart
+  49  C ] D.C112   0.007  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  50  U ] D.U113   0.016  pseudoknotted,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  51  C { E.C46    0.012  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  52  C { E.C47    0.008  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  53  G { E.G48    0.021  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  54  G { E.G49    0.023  pseudoknotted,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  55  A ( E.A50    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  56  G ( E.G51    0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,internal-loop
+  57  G . E.G52    0.032  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  58  A . E.A53    0.024  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  59  A . E.A54    0.020  anti,~C2'-endo,non-pair-contact,internal-loop,splayed-apart
+  60  C . E.C55    0.004  anti,~C2'-endo,BII,non-stack,non-canonical,non-pair-contact,multiplet,internal-loop,phosphate,splayed-apart
+  61  U . E.U56    0.009  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  62  A . E.A57    0.023  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,internal-loop
+  63  C ( E.C58    0.017  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop
+  64  u ( E.5BU59  0.063  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  65  G ( E.G60    0.011  anti,~C2'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  66  C ] F.C104   0.014  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  67  C ] F.C105   0.022  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  68  G ] F.G106   0.016  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  69  G ] F.G107   0.022  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  70  C ) F.C108   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  71  A ) F.A109   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  72  G ) F.G110   0.041  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop,phosphate
+  73  C . F.C111   0.021  turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,internal-loop
+  74  C ) F.C112   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,internal-loop
+  75  U ) F.U113   0.011  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  76  C ] G.C46    0.013  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  77  C ] G.C47    0.013  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  78  G ] G.G48    0.030  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  79  G ] G.G49    0.040  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  80  A ( G.A50    0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  81  G ( G.G51    0.028  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  82  G ( G.G52    0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  83  A . G.A53    0.012  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  84  A . G.A54    0.013  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  85  C . G.C55    0.010  break,anti,~C3'-endo,non-pair-contact,ss-non-loop
+  86  C ( G.C58    0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  87  u ( G.5BU59  0.044  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  88  G ( G.G60    0.023  anti,~C2'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  89  C } H.C104   0.012  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  90  C } H.C105   0.018  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  91  G } H.G106   0.020  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  92  G } H.G107   0.018  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  93  C ) H.C108   0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  94  A ) H.A109   0.015  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  95  G ) H.G110   0.018  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,phosphate,splayed-apart
+  96  C ) H.C111   0.014  anti,~C3'-endo,BI,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,splayed-apart
+  97  C ) H.C112   0.017  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  98  U ) H.U113   0.010  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+
+****************************************************************************
+List of 13 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-multiplets.pdb -- an ensemble of multiplets
+   3 dssr-stems.pdb -- an ensemble of stems
+   4 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   5 dssr-bulges.pdb -- an ensemble of bulges
+   6 dssr-iloops.pdb -- an ensemble of internal loops
+   7 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   8 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   9 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+  10 dssr-torsions.txt -- backbone torsion angles and suite names
+  11 dssr-splays.pdb -- an ensemble of splayed-apart units
+  12 dssr-stacks.pdb -- an ensemble of base stacks
+  13 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

@@ -1,0 +1,83 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/7QUA.pdb -o=dssr_annotations/7QUA.pdb.dssr
+Date and time: Sun May  4 17:09:38 2025
+File name: 7QUA.pdb
+    no. of DNA/RNA chains: 1 [A=12]
+    no. of nucleotides:    12
+    no. of atoms:          499
+    no. of waters:         108
+    no. of metals:         4 [Na=2,Mg=2]
+
+****************************************************************************
+List of 1 type of 1 modified nucleotide
+      nt    count  list
+   1 XMP-g    1    A.XMP1005
+
+****************************************************************************
+List of 1 base stack
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=11 GCGgAUUAGCG A.G1002,A.C1003,A.G1004,A.XMP1005,A.A1006,A.U1007,A.U1008,A.A1009,A.G1010,A.C1011,A.G1012
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=1 C A.C1001
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=12 CGCGgAUUAGCG A.C1001,A.G1002,A.C1003,A.G1004,A.XMP1005,A.A1006,A.U1007,A.U1008,A.A1009,A.G1010,A.C1011,A.G1012
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>7QUA nts=12 [whole]
+CGCGgAUUAGCG
+............
+>7QUA-A #1 nts=12 2.64(0.36) [chain] RNA
+CGCGgAUUAGCG
+............
+
+****************************************************************************
+Summary of structural features of 12 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . A.C1001   0.003  anti,~C3'-endo,BI,non-stack,ss-non-loop
+   2  G . A.G1002   0.017  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  C . A.C1003   0.008  anti,~C3'-endo,non-pair-contact,ss-non-loop
+   4  G . A.G1004   0.015  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  g . A.XMP1005 0.072  modified,anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  A . A.A1006   0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  U . A.U1007   0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  U . A.U1008   0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  A . A.A1009   0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  G . A.G1010   0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  C . A.C1011   0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  12  G . A.G1012   0.018  anti,~C3'-endo,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 5 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

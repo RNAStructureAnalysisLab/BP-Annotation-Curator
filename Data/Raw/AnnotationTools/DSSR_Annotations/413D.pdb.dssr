@@ -1,0 +1,80 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/413D.pdb -o=dssr_annotations/413D.pdb.dssr
+Date and time: Sun May  4 17:05:49 2025
+File name: 413D.pdb
+    no. of DNA/RNA chains: 1 [A=13]
+    no. of nucleotides:    13
+    no. of atoms:          308
+    no. of waters:         37
+    no. of metals:         0
+
+****************************************************************************
+List of 2 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=5 GAGCU A.G2,A.A3,A.G4,A.C5,A.U6
+   2 nts=7 UCGGCUC A.U7,A.C8,A.G9,A.G10,A.C11,A.U12,A.C13
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=1 U A.U1
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=13 UGAGCUUCGGCUC A.U1,A.G2,A.A3,A.G4,A.C5,A.U6,A.U7,A.C8,A.G9,A.G10,A.C11,A.U12,A.C13
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>413D nts=13 [whole]
+UGAGCUUCGGCUC
+.............
+>413D-A #1 nts=13 2.97(0.38) [chain] RNA
+UGAGCUUCGGCUC
+.............
+
+****************************************************************************
+Summary of structural features of 13 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  U . A.U1    0.003  anti,~C3'-endo,BI,non-stack,ss-non-loop
+   2  G . A.G2    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  A . A.A3    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   4  G . A.G4    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  C . A.C5    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  U . A.U6    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  U . A.U7    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  C . A.C8    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  G . A.G9    0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  G . A.G10   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  C . A.C11   0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  12  U . A.U12   0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  13  C . A.C13   0.008  anti,~C3'-endo,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 5 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

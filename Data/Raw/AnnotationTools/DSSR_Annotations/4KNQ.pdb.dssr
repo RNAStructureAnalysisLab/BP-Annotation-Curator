@@ -1,0 +1,89 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/4KNQ.pdb -o=dssr_annotations/4KNQ.pdb.dssr
+Date and time: Sun May  4 17:06:03 2025
+File name: 4KNQ.pdb
+    no. of DNA/RNA chains: 1 [B=20]
+    no. of nucleotides:    20
+    no. of atoms:          1573
+    no. of waters:         144
+    no. of metals:         0
+
+****************************************************************************
+List of 4 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 CW B.C202,A.TRP20
+   2 nts=2 GC B.G203,B.C204
+   3 nts=3 CGC B.C205,B.G206,B.C207
+   4 nts=12 CGCCGCCGCCGC B.C208,B.G209,B.C210,B.C211,B.G212,B.C213,B.C214,B.G215,B.C216,B.C217,B.G218,B.C219
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=2 CG B.C201,B.G220
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=20 CCGCCGCCGCCGCCGCCGCG B.C201,B.C202,B.G203,B.C204,B.C205,B.G206,B.C207,B.C208,B.G209,B.C210,B.C211,B.G212,B.C213,B.C214,B.G215,B.C216,B.C217,B.G218,B.C219,B.G220
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>4KNQ nts=20 [whole]
+CCGCCGCCGCCGCCGCCGCG
+....................
+>4KNQ-B #1 nts=20 2.41(0.95) [chain] RNA
+CCGCCGCCGCCGCCGCCGCG
+....................
+
+****************************************************************************
+Summary of structural features of 20 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . B.C201    0.006  anti,~C2'-endo,non-stack,ss-non-loop,phosphate
+   2  C . B.C202    0.010  anti,~C3'-endo,BI,ss-non-loop,phosphate
+   3  G . B.G203    0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   4  C . B.C204    0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  C . B.C205    0.002  anti,~C3'-endo,non-pair-contact,ss-non-loop
+   6  G . B.G206    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  C . B.C207    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  C . B.C208    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  G . B.G209    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  C . B.C210    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  C . B.C211    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  12  G . B.G212    0.015  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  13  C . B.C213    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  14  C . B.C214    0.018  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  15  G . B.G215    0.017  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  16  C . B.C216    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  17  C . B.C217    0.004  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  18  G . B.G218    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  19  C . B.C219    0.005  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  20  G . B.G220    0.011  anti,~C3'-endo,non-stack,ss-non-loop
+
+****************************************************************************
+List of 5 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

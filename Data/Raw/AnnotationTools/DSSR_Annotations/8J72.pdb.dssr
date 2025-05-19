@@ -1,0 +1,150 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/8J72.pdb -o=dssr_annotations/8J72.pdb.dssr
+Date and time: Sun May  4 17:09:59 2025
+File name: 8J72.pdb
+    no. of DNA/RNA chains: 1 [C=9]
+    no. of nucleotides:    9
+    no. of atoms:          4496
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 3 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 C.G2           C.C10          G-C WC          19-XIX    cWW  cW-W
+   2 C.G3           C.C9           G-C WC          19-XIX    cWW  cW-W
+   3 C.C4           C.G8           C-G WC          19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 1 helix
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[1] bps=3
+      strand-1 5'-GGC-3'
+       bp-type    |||
+      strand-2 3'-CCG-5'
+      helix-form  ..
+   1 C.G2           C.C10          G-C WC           19-XIX    cWW  cW-W
+   2 C.G3           C.C9           G-C WC           19-XIX    cWW  cW-W
+   3 C.C4           C.G8           C-G WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 1 stem
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=3
+      strand-1 5'-GGC-3'
+       bp-type    |||
+      strand-2 3'-CCG-5'
+      helix-form  ..
+   1 C.G2           C.C10          G-C WC           19-XIX    cWW  cW-W
+   2 C.G3           C.C9           G-C WC           19-XIX    cWW  cW-W
+   3 C.C4           C.G8           C-G WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 2 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 YA B.TYR689,C.A6
+   2 nts=2 AG C.A7,C.G8
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=1 A C.A5
+
+****************************************************************************
+List of 1 atom-base capping interaction
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 sugar      O4'@C.A6             C.A7           3.07
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      isolated WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 1 hairpin loop
+   1 hairpin loop: nts=5; [3]; linked by [#1]
+     summary: [1] 3 [C.4 C.8] 3
+     nts=5 CAAAG C.C4,C.A5,C.A6,C.A7,C.G8
+       nts=3 AAA C.A5,C.A6,C.A7
+
+****************************************************************************
+List of 2 splayed-apart dinucleotides
+   1 C.C4     C.A5     angle=125    distance=17.8     ratio=0.89
+   2 C.A5     C.A6     angle=155    distance=17.8     ratio=0.98
+----------------------------------------------------------------
+Summary of 1 splayed-apart unit
+   1 nts=3 CAA C.C4,C.A5,C.A6
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>8J72 nts=9 [whole]
+GGCAAAGCC
+(((...)))
+>8J72-C #1 nts=9 1.20(1.67) [chain] RNA
+GGCAAAGCC
+(((...)))
+
+****************************************************************************
+Summary of structural features of 9 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  G ( C.G2     0.003  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end,phosphate
+   2  G ( C.G3     0.003  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,phosphate
+   3  C ( C.C4     0.001  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end,hairpin-loop,phosphate,splayed-apart
+   4  A . C.A5     0.001  turn,anti,~C2'-endo,non-stack,hairpin-loop,phosphate,splayed-apart
+   5  A . C.A6     0.001  anti,~C2'-endo,BII,non-pair-contact,hairpin-loop,cap-donor,phosphate,splayed-apart
+   6  A . C.A7     0.001  syn,~C3'-endo,non-pair-contact,hairpin-loop,cap-acceptor,phosphate
+   7  G ) C.G8     0.002  turn,anti,~C2'-endo,BII,canonical,non-pair-contact,helix-end,stem-end,hairpin-loop,phosphate
+   8  C ) C.C9     0.001  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+   9  C ) C.C10    0.001  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end
+
+****************************************************************************
+List of 11 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-stems.pdb -- an ensemble of stems
+   3 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   4 dssr-hairpins.pdb -- an ensemble of hairpin loops
+   5 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   6 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   7 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   8 dssr-torsions.txt -- backbone torsion angles and suite names
+   9 dssr-splays.pdb -- an ensemble of splayed-apart units
+  10 dssr-stacks.pdb -- an ensemble of base stacks
+  11 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

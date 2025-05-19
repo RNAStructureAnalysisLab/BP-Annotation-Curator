@@ -1,0 +1,123 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/5JEA.pdb -o=dssr_annotations/5JEA.pdb.dssr
+Date and time: Sun May  4 17:07:44 2025
+File name: 5JEA.pdb
+    no. of DNA/RNA chains: 1 [R=26]
+    no. of nucleotides:    26
+    no. of atoms:          27142
+    no. of waters:         134
+    no. of metals:         5 [Na=4,Zn=1]
+
+****************************************************************************
+List of 4 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 R.C-39         R.G-31         C+G --          --        cWH  cW+M
+   2 R.C-39         R.G-30         C+G ~Hoogsteen  --        cWH  cW+M
+   3 R.C-38         R.G-33         C-G ~Wobble     --        cWW  cW-W
+   4 R.C-38         R.G-32         C-G --          --        cWW  cW-W
+
+****************************************************************************
+List of 7 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 RA J.ARG600,R.A0
+   2 nts=3 RUF B.ARG119,R.U-28,H.PHE177
+   3 nts=3 RUR J.ARG811,R.U-6,J.ARG896
+   4 nts=3 CCC R.C-41,R.C-40,R.C-39
+   5 nts=3 CGA R.C-37,R.G-36,R.A-35
+   6 nts=5 AGGGG R.A-34,R.G-33,R.G-32,R.G-31,R.G-30
+   7 nts=6 YUUUUU J.TYR595,R.U-1,R.U-2,R.U-3,R.U-4,R.U-5
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=4 CGUU R.C-38,R.G-29,R.U-12,R.U-11
+
+****************************************************************************
+List of 1 atom-base capping interaction
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 sugar      O2'@R.U-12           R.U-11         2.91
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=26* CCCCCGAAGGGGGUUUUUUUUUUUUA R.C-41,R.C-40,R.C-39,R.C-38,R.C-37,R.G-36,R.A-35,R.A-34,R.G-33,R.G-32,R.G-31,R.G-30,R.G-29,R.U-28,R.U-27,R.U-14,R.U-13,R.U-12,R.U-11,R.U-6,R.U-5,R.U-4,R.U-3,R.U-2,R.U-1,R.A0
+
+****************************************************************************
+List of 1 splayed-apart dinucleotide
+   1 R.U-1     R.A0      angle=100    distance=14.3     ratio=0.77
+----------------------------------------------------------------
+Summary of 1 splayed-apart unit
+   1 nts=2 UA R.U-1,R.A0
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>5JEA nts=26 [whole]
+CCCCCGAAGGGGGUU&UUUU&UUUUUUA
+...............&....&.......
+>5JEA-R #1 nts=26 0.52(3.57) [chain] RNA*
+CCCCCGAAGGGGGUU&UUUU&UUUUUUA
+...............&....&.......
+
+****************************************************************************
+Summary of structural features of 26 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . R.C-41    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   2  C . R.C-40    0.017  anti,~C3'-endo,non-pair-contact,ss-non-loop
+   3  C . R.C-39    0.010  anti,~C3'-endo,non-canonical,non-pair-contact,ss-non-loop
+   4  C . R.C-38    0.009  anti,~C2'-endo,non-stack,non-canonical,non-pair-contact,ss-non-loop
+   5  C . R.C-37    0.012  anti,~C3'-endo,non-pair-contact,ss-non-loop
+   6  G . R.G-36    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  A . R.A-35    0.010  turn,syn,~C2'-endo,non-pair-contact,ss-non-loop
+   8  A . R.A-34    0.010  syn,~C2'-endo,BI,non-pair-contact,ss-non-loop
+   9  G . R.G-33    0.004  anti,~C3'-endo,non-canonical,non-pair-contact,ss-non-loop,phosphate
+  10  G . R.G-32    0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,ss-non-loop,phosphate
+  11  G . R.G-31    0.017  ~C2'-endo,BI,non-canonical,non-pair-contact,ss-non-loop
+  12  G . R.G-30    0.006  anti,~C2'-endo,non-canonical,non-pair-contact,ss-non-loop,phosphate
+  13  G . R.G-29    0.006  turn,anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate
+  14  U . R.U-28    0.005  anti,~C2'-endo,non-pair-contact,ss-non-loop
+  15  U . R.U-27    ---    break,~C2'-endo,non-stack,ss-non-loop,phosphate
+  16  U . R.U-14    ---    ~C2'-endo,non-stack,ss-non-loop
+  17  U . R.U-13    ---    turn,~C2'-endo,non-stack,ss-non-loop
+  18  U . R.U-12    0.009  turn,syn,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,cap-donor
+  19  U . R.U-11    0.008  break,anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,cap-acceptor,phosphate
+  20  U . R.U-6     0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
+  21  U . R.U-5     0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  22  U . R.U-4     0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  23  U . R.U-3     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  24  U . R.U-2     0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  25  U . R.U-1     0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+  26  A . R.A0      0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+
+****************************************************************************
+List of 8 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   3 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   4 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   5 dssr-torsions.txt -- backbone torsion angles and suite names
+   6 dssr-splays.pdb -- an ensemble of splayed-apart units
+   7 dssr-stacks.pdb -- an ensemble of base stacks
+   8 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:02

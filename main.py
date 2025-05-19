@@ -8,6 +8,7 @@ from DataManagement.RawDataLoading.Cluster_Downloader import Cluster_Downloader
 from DataManagement.RawDataLoading.PDB_Downloader import PDB_Downloader
 from DataManagement.DataPreparation.PDB_Maker import PDB_Maker
 from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Downloader
+from DataManagement.DataPreparation.Chain_Restorer import Chain_Restorer
 from DataManagement.DataPreparation.Preprocessor import Preprocessor
 from DataManagement.DataPreparation.Table_Extender import Table_Extender
 from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
@@ -112,9 +113,6 @@ if 3 >= starting_step_number:
     print('Beginning STEP 3:\n')
     PDB_Maker.convert_all()
     
-print("Finished step 3, terminating program. Remove this feature when testing finished")
-sys.exit() # TODO here for testing, remove
-    
 # =============================================================================
 
 
@@ -154,8 +152,9 @@ if 5 >= starting_step_number:
     print("Beginning STEP 5:\n")
     response = input(
         "Ensure that DSSR annotations have been manually added into " +
-        "'Data/AnnotationTools/Annotations'. Otherwise the following steps " +
-        "the pipeline will not make use of this data. Proceed (y/n): "
+        "'Data/Raw/AnnotationTools/DSSR_Annotations'. Otherwise the " + 
+        "following steps in the pipeline will not make use of this data. " + 
+        "Proceed (y/n): "
     )
     
     while True:
@@ -166,11 +165,13 @@ if 5 >= starting_step_number:
             )
             sys.exit()
         elif response == 'y' or response == "Y":
-            # TODO Reintroduce multi-character chain names into the DSSR PDB files
+            Chain_Restorer.restore()
             break
         else:
             print("Incorrect input, please enter a single letter.")
 
+print("Finished step 5, terminating program. Remove this feature when testing finished")
+sys.exit() # TODO here for testing, remove
 # =============================================================================
 
 
@@ -234,4 +235,12 @@ if 10 >= starting_step_number:
 if 11 >= starting_step_number: # should be part of step 10, temporary
     print('Beginning STEP 11:\n')
     Agreement_Analyzer.run()
+    
+    
+# TODO: verify that pdb 8CRE is getting processed when we run the entire
+# project again from the beginning. Originally is a PDBx file.
+# For some reson it didn't end up in my list of files to convert to PDB and as
+# such am missing a DSSR file for it. Some others missing too. Could be a 
+# problem with one of the files, or a mistake when I was manually trying to 
+# insert things
     

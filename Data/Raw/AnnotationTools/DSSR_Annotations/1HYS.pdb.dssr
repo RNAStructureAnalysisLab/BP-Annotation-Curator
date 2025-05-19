@@ -1,0 +1,268 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/1HYS.pdb -o=dssr_annotations/1HYS.pdb.dssr
+Date and time: Sun May  4 17:04:31 2025
+File name: 1HYS.pdb
+    no. of DNA/RNA chains: 2 [E=23,F=22]
+    no. of nucleotides:    45
+    no. of atoms:          12139
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 22 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 E.C855         F.DG899        C-G WC          19-XIX    cWW  cW-W
+   2 E.A856         F.DT898        A-T WC          20-XX     cWW  cW-W
+   3 E.G857         F.DC897        G-C WC          19-XIX    cWW  cW-W
+   4 E.C858         F.DG896        C-G WC          19-XIX    cWW  cW-W
+   5 E.C859         F.DG895        C-G WC          19-XIX    cWW  cW-W
+   6 E.A860         F.DT894        A-T WC          20-XX     cWW  cW-W
+   7 E.C861         F.DG893        C-G WC          19-XIX    cWW  cW-W
+   8 E.U862         F.DA892        U-A WC          20-XX     cWW  cW-W
+   9 E.U863         F.DA891        U-A WC          20-XX     cWW  cW-W
+  10 E.U864         F.DA890        U-A WC          20-XX     cWW  cW-W
+  11 E.U865         F.DA889        U-A WC          20-XX     cWW  cW-W
+  12 E.U866         F.DA888        U-A WC          20-XX     cWW  cW-W
+  13 E.A867         F.DT887        A-T WC          20-XX     cWW  cW-W
+  14 E.A868         F.DT886        A-T WC          20-XX     cWW  cW-W
+  15 E.A870         F.DT885        A-T WC          20-XX     cWW  cW-W
+  16 E.G871         F.DT884        G-T Wobble      28-XXVIII cWW  cW-W
+  17 E.A872         F.DT882        A-T --          --        cWW  cW-W
+  18 E.A873         F.DT881        A-T --          --        cWW  cW-W
+  19 E.A873         F.DT882        A-T WC          20-XX     cWW  cW-W
+  20 E.A874         F.DT880        A-T WC          20-XX     cWW  cW-W
+  21 E.A875         F.DT879        A-T WC          20-XX     cWW  cW-W
+  22 E.G876         F.DC878        G-C WC          19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 1 helix
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[3] bps=20
+      strand-1 5'-CAGCCACUUUUUAAAGAAAG-3'
+       bp-type    ||||||||||||||||||||
+      strand-2 3'-GTCGGTGAAAAATTTTTTTC-5'
+      helix-form  .AAA.....A.A.x.xx..
+   1 E.C855         F.DG899        C-G WC           19-XIX    cWW  cW-W
+   2 E.A856         F.DT898        A-T WC           20-XX     cWW  cW-W
+   3 E.G857         F.DC897        G-C WC           19-XIX    cWW  cW-W
+   4 E.C858         F.DG896        C-G WC           19-XIX    cWW  cW-W
+   5 E.C859         F.DG895        C-G WC           19-XIX    cWW  cW-W
+   6 E.A860         F.DT894        A-T WC           20-XX     cWW  cW-W
+   7 E.C861         F.DG893        C-G WC           19-XIX    cWW  cW-W
+   8 E.U862         F.DA892        U-A WC           20-XX     cWW  cW-W
+   9 E.U863         F.DA891        U-A WC           20-XX     cWW  cW-W
+  10 E.U864         F.DA890        U-A WC           20-XX     cWW  cW-W
+  11 E.U865         F.DA889        U-A WC           20-XX     cWW  cW-W
+  12 E.U866         F.DA888        U-A WC           20-XX     cWW  cW-W
+  13 E.A867         F.DT887        A-T WC           20-XX     cWW  cW-W
+  14 E.A868         F.DT886        A-T WC           20-XX     cWW  cW-W
+  15 E.A870         F.DT885        A-T WC           20-XX     cWW  cW-W
+  16 E.G871         F.DT884        G-T Wobble       28-XXVIII cWW  cW-W
+  17 E.A873         F.DT882        A-T WC           20-XX     cWW  cW-W
+  18 E.A874         F.DT880        A-T WC           20-XX     cWW  cW-W
+  19 E.A875         F.DT879        A-T WC           20-XX     cWW  cW-W
+  20 E.G876         F.DC878        G-C WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 3 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=14
+      strand-1 5'-CAGCCACUUUUUAA-3'
+       bp-type    ||||||||||||||
+      strand-2 3'-GTCGGTGAAAAATT-5'
+      helix-form  .AAA.....A.A.
+   1 E.C855         F.DG899        C-G WC           19-XIX    cWW  cW-W
+   2 E.A856         F.DT898        A-T WC           20-XX     cWW  cW-W
+   3 E.G857         F.DC897        G-C WC           19-XIX    cWW  cW-W
+   4 E.C858         F.DG896        C-G WC           19-XIX    cWW  cW-W
+   5 E.C859         F.DG895        C-G WC           19-XIX    cWW  cW-W
+   6 E.A860         F.DT894        A-T WC           20-XX     cWW  cW-W
+   7 E.C861         F.DG893        C-G WC           19-XIX    cWW  cW-W
+   8 E.U862         F.DA892        U-A WC           20-XX     cWW  cW-W
+   9 E.U863         F.DA891        U-A WC           20-XX     cWW  cW-W
+  10 E.U864         F.DA890        U-A WC           20-XX     cWW  cW-W
+  11 E.U865         F.DA889        U-A WC           20-XX     cWW  cW-W
+  12 E.U866         F.DA888        U-A WC           20-XX     cWW  cW-W
+  13 E.A867         F.DT887        A-T WC           20-XX     cWW  cW-W
+  14 E.A868         F.DT886        A-T WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#2[#1] bps=2
+      strand-1 5'-AG-3'
+       bp-type    ||
+      strand-2 3'-TT-5'
+      helix-form  .
+   1 E.A870         F.DT885        A-T WC           20-XX     cWW  cW-W
+   2 E.G871         F.DT884        G-T Wobble       28-XXVIII cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#3[#1] bps=3
+      strand-1 5'-AAG-3'
+       bp-type    |||
+      strand-2 3'-TTC-5'
+      helix-form  ..
+   1 E.A874         F.DT880        A-T WC           20-XX     cWW  cW-W
+   2 E.A875         F.DT879        A-T WC           20-XX     cWW  cW-W
+   3 E.G876         F.DC878        G-C WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 1 isolated WC/wobble pair
+  Note: isolated WC/wobble pairs are assigned negative indices to
+        differentiate them from the stem numbers, which are positive.
+        --------------------------------------------------------------------
+[#1]     -1 E.A873         F.DT882        A-T WC           20-XX     cWW  cW-W
+
+****************************************************************************
+List of 1 coaxial stack
+   1 Helix#1 contains 3 stems: [#1,#2,#3]
+
+****************************************************************************
+List of 4 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 TT F.DT885,F.DT886
+   2 nts=3 AAA E.A868,E.A869,E.A870
+   3 nts=4 GAAA E.G871,E.A872,E.A873,E.A874
+   4 nts=5 TTTCT F.DT880,F.DT881,F.DT882,F.DC883,F.DT884
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=3 UGC E.U854,E.G876,F.DC878
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      isolated WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 2 bulges
+   1 bulge: nts=5; [1,0]; linked by [#1,#2]
+     summary: [2] 1 0 [E.868 F.886 E.870 F.885] 14 2
+     nts=5 AAATT E.A868,E.A869,E.A870,F.DT885,F.DT886
+       nts=1 A E.A869
+       nts=0
+   2 bulge: nts=5; [0,1]; linked by [#-1,#3]
+     summary: [2] 0 1 [E.873 F.882 E.874 F.880] 1 3
+     nts=5 AATTT E.A873,E.A874,F.DT880,F.DT881,F.DT882
+       nts=0
+       nts=1 T F.DT881
+
+****************************************************************************
+List of 1 internal loop
+   1 symmetric internal loop: nts=6; [1,1]; linked by [#2,#-1]
+     summary: [2] 1 1 [E.871 F.884 E.873 F.882] 2 1
+     nts=6 GAATCT E.G871,E.A872,E.A873,F.DT882,F.DC883,F.DT884
+       nts=1 A E.A872
+       nts=1 C F.DC883
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=1 U E.U854
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>1HYS nts=45 [whole]
+UCAGCCACUUUUUAAAAGAAAAG&CTTTTCTTTTAAAAAGTGGCTG
+.((((((((((((((.((.((((&))).).))))))))))))))))
+>1HYS-E #1 nts=23 2.88(0.50) [chain] RNA
+UCAGCCACUUUUUAAAAGAAAAG
+.((((((((((((((.((.((((
+>1HYS-F #2 nts=22 3.43(0.74) [chain] DNA
+CTTTTCTTTTAAAAAGTGGCTG
+))).).))))))))))))))))
+
+****************************************************************************
+Summary of structural features of 45 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  U . E.U854   0.033  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop
+   2  C ( E.C855   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,phosphate
+   3  A ( E.A856   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   4  G ( E.G857   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   5  C ( E.C858   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+   6  C ( E.C859   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   7  A ( E.A860   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   8  C ( E.C861   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   9  U ( E.U862   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  10  U ( E.U863   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  11  U ( E.U864   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  12  U ( E.U865   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  13  U ( E.U866   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  14  A ( E.A867   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  15  A ( E.A868   0.010  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+  16  A . E.A869   0.012  anti,~C3'-endo,BI,non-pair-contact,bulge
+  17  A ( E.A870   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+  18  G ( E.G871   0.015  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  19  A . E.A872   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,internal-loop,phosphate
+  20  A ( E.A873   0.008  anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix,bulge,internal-loop
+  21  A ( E.A874   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+  22  A ( E.A875   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  23  G ( E.G876   0.005  anti,~C3'-endo,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  24  C ) F.DC878  0.011  anti,~C2'-endo,BI,non-stack,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  25  T ) F.DT879  0.007  anti,~C2'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack
+  26  T ) F.DT880  0.005  anti,~C2'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+  27  T . F.DT881  0.013  anti,~C2'-endo,BI,non-canonical,non-pair-contact,bulge
+  28  T ) F.DT882  0.006  anti,~C2'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix,bulge,internal-loop
+  29  C . F.DC883  0.016  anti,~C2'-endo,BI,non-pair-contact,internal-loop
+  30  T ) F.DT884  0.008  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  31  T ) F.DT885  0.007  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge
+  32  T ) F.DT886  0.012  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,bulge,phosphate
+  33  T ) F.DT887  0.012  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  34  A ) F.DA888  0.011  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  35  A ) F.DA889  0.004  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  36  A ) F.DA890  0.003  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  37  A ) F.DA891  0.005  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  38  A ) F.DA892  0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  39  G ) F.DG893  0.003  anti,~C2'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  40  T ) F.DT894  0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  41  G ) F.DG895  0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  42  G ) F.DG896  0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  43  C ) F.DC897  0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  44  T ) F.DT898  0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  45  G ) F.DG899  0.007  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,phosphate
+
+****************************************************************************
+List of 10 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-stems.pdb -- an ensemble of stems
+   3 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   4 dssr-bulges.pdb -- an ensemble of bulges
+   5 dssr-iloops.pdb -- an ensemble of internal loops
+   6 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   7 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   8 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   9 dssr-torsions.txt -- backbone torsion angles and suite names
+  10 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:01

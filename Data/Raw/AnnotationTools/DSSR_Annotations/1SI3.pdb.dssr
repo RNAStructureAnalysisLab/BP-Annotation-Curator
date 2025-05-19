@@ -1,0 +1,88 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/1SI3.pdb -o=dssr_annotations/1SI3.pdb.dssr
+Date and time: Sun May  4 17:04:55 2025
+File name: 1SI3.pdb
+    no. of DNA/RNA chains: 1 [B=9]
+    no. of nucleotides:    9
+    no. of atoms:          1177
+    no. of waters:         15
+    no. of metals:         0
+
+****************************************************************************
+List of 2 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=3 CUF B.C408,B.U409,A.PHE292
+   2 nts=7 CGUGACU B.C401,B.G402,B.U403,B.G404,B.A405,B.C406,B.U407
+
+****************************************************************************
+List of 1 atom-base capping interaction
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 phosphate  OP1@B.U407           B.C408         3.29
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=9 CGUGACUCU B.C401,B.G402,B.U403,B.G404,B.A405,B.C406,B.U407,B.C408,B.U409
+
+****************************************************************************
+List of 1 splayed-apart dinucleotide
+   1 B.U407   B.C408   angle=116    distance=16.8     ratio=0.85
+----------------------------------------------------------------
+Summary of 1 splayed-apart unit
+   1 nts=2 UC B.U407,B.C408
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>1SI3 nts=9 [whole]
+CGUGACUCU
+.........
+>1SI3-B #1 nts=9 3.56(0.54) [chain] RNA
+CGUGACUCU
+.........
+
+****************************************************************************
+Summary of structural features of 9 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . B.C401   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   2  G . B.G402   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   3  U . B.U403   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   4  G . B.G404   0.016  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   5  A . B.A405   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  C . B.C406   0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   7  U . B.U407   0.013  turn,anti,~C3'-endo,non-pair-contact,ss-non-loop,cap-donor,phosphate,splayed-apart
+   8  C . B.C408   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-acceptor,phosphate,splayed-apart
+   9  U . B.U409   0.005  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
+
+****************************************************************************
+List of 7 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-splays.pdb -- an ensemble of splayed-apart units
+   6 dssr-stacks.pdb -- an ensemble of base stacks
+   7 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

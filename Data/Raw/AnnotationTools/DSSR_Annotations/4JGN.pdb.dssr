@@ -1,0 +1,84 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/4JGN.pdb -o=dssr_annotations/4JGN.pdb.dssr
+Date and time: Sun May  4 17:06:01 2025
+File name: 4JGN.pdb
+    no. of DNA/RNA chains: 1 [E=20]
+    no. of nucleotides:    20
+    no. of atoms:          1575
+    no. of waters:         132
+    no. of metals:         0
+
+****************************************************************************
+List of 3 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 QU A.GLN31,E.U502
+   2 nts=4 WUGC A.TRP20,E.U503,E.G504,E.C505
+   3 nts=16 UGCUGCUGCUGCUGCU E.U506,E.G507,E.C508,E.U509,E.G510,E.C511,E.U512,E.G513,E.C514,E.U515,E.G516,E.C517,E.U518,E.G519,E.C520,E.U521
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=20 UUGCUGCUGCUGCUGCUGCU E.U502,E.U503,E.G504,E.C505,E.U506,E.G507,E.C508,E.U509,E.G510,E.C511,E.U512,E.G513,E.C514,E.U515,E.G516,E.C517,E.U518,E.G519,E.C520,E.U521
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>4JGN nts=20 [whole]
+UUGCUGCUGCUGCUGCUGCU
+....................
+>4JGN-E #1 nts=20 2.35(0.99) [chain] RNA
+UUGCUGCUGCUGCUGCUGCU
+....................
+
+****************************************************************************
+Summary of structural features of 20 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  U . E.U502    0.028  anti,~C2'-endo,ss-non-loop,phosphate
+   2  U . E.U503    0.040  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   3  G . E.G504    0.023  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   4  C . E.C505    0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  U . E.U506    0.019  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  G . E.G507    0.024  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  C . E.C508    0.019  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  U . E.U509    0.020  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  G . E.G510    0.030  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  C . E.C511    0.017  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  U . E.U512    0.039  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  12  G . E.G513    0.030  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  13  C . E.C514    0.030  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  14  U . E.U515    0.045  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  15  G . E.G516    0.020  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  16  C . E.C517    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  17  U . E.U518    0.017  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  18  G . E.G519    0.020  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  19  C . E.C520    0.015  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  20  U . E.U521    0.010  anti,~C3'-endo,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 5 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

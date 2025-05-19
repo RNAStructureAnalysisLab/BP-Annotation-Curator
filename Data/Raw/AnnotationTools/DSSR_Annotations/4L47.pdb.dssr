@@ -1,0 +1,133 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/4L47.pdb -o=dssr_annotations/4L47.pdb.dssr
+Date and time: Sun May  4 17:06:05 2025
+File name: 4L47.pdb
+    no. of DNA/RNA chains: 1 [A=13]
+    no. of nucleotides:    13
+    no. of atoms:          279
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 4 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 A.U29          A.A41          U-A WC          20-XX     cWW  cW-W
+   2 A.C30          A.G40          C-G WC          19-XIX    cWW  cW-W
+   3 A.G31          A.C39          G-C WC          19-XIX    cWW  cW-W
+   4 A.U33          A.G36          U-G --          --        tSH  tm-M
+
+****************************************************************************
+List of 1 helix
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[1] bps=3
+      strand-1 5'-UCG-3'
+       bp-type    |||
+      strand-2 3'-AGC-5'
+      helix-form  ..
+   1 A.U29          A.A41          U-A WC           20-XX     cWW  cW-W
+   2 A.C30          A.G40          C-G WC           19-XIX    cWW  cW-W
+   3 A.G31          A.C39          G-C WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 1 stem
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=3
+      strand-1 5'-UCG-3'
+       bp-type    |||
+      strand-2 3'-AGC-5'
+      helix-form  ..
+   1 A.U29          A.A41          U-A WC           20-XX     cWW  cW-W
+   2 A.C30          A.G40          C-G WC           19-XIX    cWW  cW-W
+   3 A.G31          A.C39          G-C WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 3 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 UU A.U32,A.U33
+   2 nts=3 CGG A.C34,A.G35,A.G36
+   3 nts=3 GAC A.G37^A,A.A38,A.C39
+
+****************************************************************************
+List of 1 atom-base capping interaction
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 phosphate  OP2@A.G35            A.U33          2.80
+
+****************************************************************************
+List of 1 non-loop single-stranded segment
+   1 nts=7* UUCGGGA A.U32,A.U33,A.C34,A.G35,A.G36,A.G37^A,A.A38
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>4L47 nts=13 [whole]
+UCGUUCGG&GACGA
+(((.....&..)))
+>4L47-A #1 nts=13 0.63(2.70) [chain] RNA*
+UCGUUCGG&GACGA
+(((.....&..)))
+
+****************************************************************************
+Summary of structural features of 13 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  U ( A.U29   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end
+   2  C ( A.C30   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+   3  G ( A.G31   0.007  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end
+   4  U . A.U32   0.012  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  U . A.U33   0.005  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,ss-non-loop,cap-acceptor
+   6  C . A.C34   0.015  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  G . A.G35   0.007  u-turn,anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-donor,phosphate
+   8  G . A.G36   0.015  break,u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,ss-non-loop,phosphate
+   9  G . A.G37^A 0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  A . A.A38   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  C ) A.C39   0.008  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end
+  12  G ) A.G40   0.001  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+  13  A ) A.A41   0.002  anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end
+
+****************************************************************************
+List of 9 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-stems.pdb -- an ensemble of stems
+   3 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   4 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   5 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   6 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   7 dssr-torsions.txt -- backbone torsion angles and suite names
+   8 dssr-stacks.pdb -- an ensemble of base stacks
+   9 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

@@ -1,0 +1,1003 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/2IL9.pdb -o=dssr_annotations/2IL9.pdb.dssr
+Date and time: Sun May  4 17:05:13 2025
+File name: 2IL9.pdb
+    no. of DNA/RNA chains: 2 [A=135,M=132]
+    no. of nucleotides:    267
+    no. of atoms:          5665
+    no. of waters:         0
+    no. of metals:         0
+
+****************************************************************************
+List of 115 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 A.C6003        A.A6077        C-A --          --        cW.  cW-.
+   2 A.G6005        A.G6076        G-G --          --        cWW  cW-W
+   3 A.A6006        A.U6071        A-U --          --        cW.  cW-.
+   4 A.A6006        A.A6075        A-A --          --        cWH  cW-M
+   5 A.U6008        A.G6070        U-G --          --        cWW  cW-W
+   6 A.A6009        A.A6069        A-A --          --        cWW  cW-W
+   7 A.G6011        A.U6068        G-U --          --        cWW  cW-W
+   8 A.C6016        A.U6063        C-U --          --        cW.  cW-.
+   9 A.C6016        A.G6064        C-G WC          19-XIX    cWW  cW-W
+  10 A.U6017        A.U6063        U-U --          --        cWW  cW-W
+  11 A.U6018        A.A6061        U-A ~Wobble     --        cWW  cW-W
+  12 A.A6019        A.U6060        A-U --          --        cWW  cW-W
+  13 A.U6020        A.A6059        U-A WC          20-XX     cWW  cW-W
+  14 A.A6022        A.A6023        A+A Platform    --        cSH  cm+M
+  15 A.A6023        A.U6056        A-U WC          20-XX     cWW  cW-W
+  16 A.A6024        A.U6055        A-U WC          20-XX     cWW  cW-W
+  17 A.A6025        A.U6054        A-U WC          20-XX     cWW  cW-W
+  18 A.U6026        A.G6053        U-G Wobble      28-XXVIII cWW  cW-W
+  19 A.U6027        A.A6052        U-A WC          20-XX     cWW  cW-W
+  20 A.A6028        A.U6051        A-U --          --        cWW  cW-W
+  21 A.G6029        A.A6050        G-A Sheared     11-XI     tSH  tm-M
+  22 A.G6030        A.U6031        G+U Platform    --        cSH  cm+M
+  23 A.G6030        M.A6135        G+A --          --        tWS  tW+m
+  24 A.U6032        M.U6137        U+U --          --        cHS  cM+m
+  25 A.A6033        M.C6104        A-C --          --        cWS  cW-m
+  26 A.G6040        M.C6145        G-C WC          19-XIX    cWW  cW-W
+  27 A.A6041        M.U6144        A-U --          --        c.W  c.-W
+  28 A.G6042        M.C6143        G-C ~Wobble     --        cWW  cW-W
+  29 A.G6043        M.C6142        G-C --          --        cWW  cW-W
+  30 A.U6044        M.C6141        U-C --          --        cWW  cW-W
+  31 A.U6045        M.A6140        U-A --          --        cW.  cW-.
+  32 A.A6049        M.U6134        A-U --          --        cSS  cm-m
+  33 A.A6050        M.G6107        A+G Linker      --        tSS  tm+m
+  34 A.G6078        A.C6114        G-C WC          19-XIX    cWW  cW-W
+  35 A.G6079        A.C6113        G-C WC          19-XIX    cWW  cW-W
+  36 A.U6080        A.A6112        U-A --          --        tH.  tM-.
+  37 A.C6081        A.G6111        C-G --          --        cWW  cW-W
+  38 A.U6082        A.G6110        U-G Wobble      28-XXVIII cWW  cW-W
+  39 A.U6083        A.U6096        U-U --          --        cWW  cW-W
+  40 A.G6084        A.C6095        G-C ~Wobble     --        cWW  cW-W
+  41 A.C6084^A      A.G6084^F      C-G --          --        cWW  cW-W
+  42 A.G6084^B      A.A6084^E      G-A Sheared     11-XI     tSH  tm-M
+  43 A.U6097        A.A6135        U+A rWC         21-XXI    tWW  tW+W
+  44 A.A6098        A.A6105        A-A --          05-V      tHW  tM-W
+  45 A.C6099        A.G6136        C+G --          --        cWH  cW+M
+  46 A.C6100        A.C6102        C-C --          --        tWH  tW-M
+  47 A.A6101        A.G6138        A-G --          --        cWW  cW-W
+  48 A.A6101        A.U6139        A-U WC          20-XX     cWW  cW-W
+  49 A.C6102        A.G6138        C-G WC          19-XIX    cWW  cW-W
+  50 A.A6103        A.G6136        A-G --          --        cWW  cW-W
+  51 A.C6104        M.U6032        C-U --          --        cSW  cm-W
+  52 A.A6106        A.U6134        A-U WC          20-XX     cWW  cW-W
+  53 A.G6107        A.C6133        G-C WC          19-XIX    cWW  cW-W
+  54 A.G6107        M.A6050        G+A Linker      --        tSW  tm+W
+  55 A.A6108        A.U6132        A-U WC          20-XX     cWW  cW-W
+  56 A.U6109        A.A6131        U-A --          --        cWW  cW-W
+  57 A.G6115        A.C6127        G-C --          --        cWW  cW-W
+  58 A.G6116        A.C6126        G-C --          --        cWW  cW-W
+  59 A.A6117        A.U6125        A-U --          --        tW.  tW-.
+  60 A.G6118        A.C6124        G-C WC          19-XIX    cWW  cW-W
+  61 A.C6119        A.G6119^E      C-G WC          19-XIX    cWW  cW-W
+  62 A.G6119^A      A.A6119^D      G-A Sheared     11-XI     tSH  tm-M
+  63 A.A6135        M.G6030        A+G --          --        tSW  tm+W
+  64 A.G6136        M.U6032        G+U --          --        tSH  tm+M
+  65 A.A6140        M.U6045        A-U --          --        cWW  cW-W
+  66 A.C6141        M.U6044        C-U --          --        cWW  cW-W
+  67 A.C6142        M.G6043        C-G WC          19-XIX    cWW  cW-W
+  68 A.C6143        M.G6042        C-G WC          19-XIX    cWW  cW-W
+  69 A.U6144        M.A6041        U-A --          --        cWW  cW-W
+  70 A.C6145        M.G6040        C-G WC          19-XIX    cWW  cW-W
+  71 A.G6146        M.C6039        G-C WC          19-XIX    cWW  cW-W
+  72 M.U6004        M.G6076        U-G Wobble      28-XXVIII cWW  cW-W
+  73 M.G6013        M.C6065        G-C --          --        tHW  tM-W
+  74 M.A6014        M.C6065        A-C --          --        c.W  c.-W
+  75 M.U6015        M.G6064        U-G --          --        c.W  c.-W
+  76 M.C6016        M.U6063        C-U --          --        cWW  cW-W
+  77 M.U6017        M.U6062        U-U --          --        cWW  cW-W
+  78 M.U6018        M.A6061        U-A WC          20-XX     cWW  cW-W
+  79 M.A6019        M.U6060        A-U WC          20-XX     cWW  cW-W
+  80 M.U6021        M.A6058        U-A WC          20-XX     cWW  cW-W
+  81 M.A6022        M.U6057        A-U WC          20-XX     cWW  cW-W
+  82 M.A6023        M.U6056        A+U --          --        cWH  cW+M
+  83 M.A6024        M.U6055        A-U WC          20-XX     cWW  cW-W
+  84 M.A6025        M.U6054        A-U WC          20-XX     cWW  cW-W
+  85 M.U6026        M.G6053        U-G Wobble      28-XXVIII cWW  cW-W
+  86 M.U6027        M.A6052        U-A WC          20-XX     cWW  cW-W
+  87 M.A6028        M.U6051        A-U WC          20-XX     cWW  cW-W
+  88 M.G6029        M.A6050        G-A Sheared     11-XI     tSH  tm-M
+  89 M.G6078        M.C6114        G-C --          --        cWW  cW-W
+  90 M.G6079        M.C6113        G-C WC          19-XIX    cWW  cW-W
+  91 M.U6080        M.A6112        U-A WC          20-XX     cWW  cW-W
+  92 M.C6081        M.G6111        C-G WC          19-XIX    cWW  cW-W
+  93 M.U6082        M.G6110        U-G Wobble      28-XXVIII cWW  cW-W
+  94 M.U6083        M.U6096        U-U --          16-XVI    cWW  cW-W
+  95 M.G6084        M.C6095        G-C --          --        cWW  cW-W
+  96 M.C6084^A      M.G6084^F      C-G ~Wobble     --        cWW  cW-W
+  97 M.G6084^B      M.A6084^E      G-A Sheared     11-XI     tSH  tm-M
+  98 M.U6097        M.A6135        U+A rWC         21-XXI    tWW  tW+W
+  99 M.A6098        M.A6105        A-A --          --        tHW  tM-W
+ 100 M.C6099        M.C6104        C-C --          --        --   --
+ 101 M.C6100        M.C6102        C-C ~rHoogsteen --        tWH  tW-M
+ 102 M.C6100        M.A6103        C-A --          --        tWH  tW-M
+ 103 M.A6101        M.U6139        A-U ~Wobble     --        cWW  cW-W
+ 104 M.C6102        M.U6139        C-U --          18-XVIII  cWW  cW-W
+ 105 M.C6104        M.U6137        C-U --          18-XVIII  cWW  cW-W
+ 106 M.A6106        M.U6134        A-U WC          20-XX     cWW  cW-W
+ 107 M.G6107        M.C6133        G-C WC          19-XIX    cWW  cW-W
+ 108 M.A6108        M.U6132        A-U WC          20-XX     cWW  cW-W
+ 109 M.U6109        M.A6131        U-A --          --        cWW  cW-W
+ 110 M.G6115        M.C6127        G-C --          --        cWW  cW-W
+ 111 M.G6116        M.C6126        G-C --          --        cWW  cW-W
+ 112 M.A6117        M.U6125        A-U WC          20-XX     cWW  cW-W
+ 113 M.G6118        M.C6124        G-C WC          19-XIX    cWW  cW-W
+ 114 M.C6119        M.G6119^E      C-G WC          19-XIX    cWW  cW-W
+ 115 M.G6119^A      M.A6119^D      G-A Sheared     11-XI     tSH  tm-M
+
+****************************************************************************
+List of 12 multiplets
+   1 nts=3 AUA A.A6006,A.U6071,A.A6075
+   2 nts=3* CUG A.C6016,A.U6063,A.G6064
+   3 nts=3 AAU A.A6022,A.A6023,A.U6056
+   4 nts=3 AAU A.A6049,M.A6106,M.U6134
+   5 nts=3 UAG A.U6097,A.A6135,M.G6030
+   6 nts=3 CCG A.C6100,A.C6102,A.G6138
+   7 nts=3 CCU M.C6100,M.C6102,M.U6139
+   8 nts=4 GAGC A.G6029,A.A6050,M.G6107,M.C6133
+   9 nts=4 GUUA A.G6030,A.U6031,M.U6097,M.A6135
+  10 nts=4 UCCU A.U6032,M.C6099,M.C6104,M.U6137
+  11 nts=4 CAGU A.C6099,A.A6103,A.G6136,M.U6032
+  12 nts=4 GCGA A.G6107,A.C6133,M.G6029,M.A6050
+
+****************************************************************************
+List of 8 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[1] bps=13
+      strand-1 5'-CUUAUAAAUUAGG-3'
+       bp-type    |.|.||||||...
+      strand-2 3'-GUAUAUUUGAUAU-5'
+      helix-form  .x..x......x
+   1 A.C6016        A.G6064        C-G WC           19-XIX    cWW  cW-W
+   2 A.U6017        A.U6063        U-U --           --        cWW  cW-W
+   3 A.U6018        A.A6061        U-A WC           20-XX     cWW  cW-W
+   4 A.A6019        A.U6060        A-U --           --        cWW  cW-W
+   5 A.U6020        A.A6059        U-A WC           20-XX     cWW  cW-W
+   6 A.A6023        A.U6056        A-U WC           20-XX     cWW  cW-W
+   7 A.A6024        A.U6055        A-U WC           20-XX     cWW  cW-W
+   8 A.A6025        A.U6054        A-U WC           20-XX     cWW  cW-W
+   9 A.U6026        A.G6053        U-G Wobble       28-XXVIII cWW  cW-W
+  10 A.U6027        A.A6052        U-A WC           20-XX     cWW  cW-W
+  11 A.A6028        A.U6051        A-U --           --        cWW  cW-W
+  12 A.G6029        A.A6050        G-A Sheared      11-XI     tSH  tm-M
+  13 A.G6030        A.U6031        G+U Platform     --        cSH  cm+M
+  --------------------------------------------------------------------------
+  helix#2[2] bps=20
+      strand-1 5'-GAGGUUUACAAAGAUGGACC-3'
+       bp-type    |.|...|....|||.||||.
+      strand-2 3'-CUCCCAACUAUUCUAUCUGG-5'
+      helix-form  .....xxxxxxAA.x....
+   1 A.G6040        M.C6145        G-C WC           19-XIX    cWW  cW-W
+   2 A.A6041        M.U6144        A-U --           --        c.W  c.-W
+   3 A.G6042        M.C6143        G-C WC           19-XIX    cWW  cW-W
+   4 A.G6043        M.C6142        G-C --           --        cWW  cW-W
+   5 A.U6044        M.C6141        U-C --           --        cWW  cW-W
+   6 A.U6045        M.A6140        U-A --           --        cW.  cW-.
+   7 M.U6139        M.A6101        U-A WC           20-XX     cWW  cW-W
+   8 M.A6103        M.C6100        A-C --           --        tHW  tM-W
+   9 M.C6104        M.U6137        C-U --           18-XVIII  cWW  cW-W
+  10 M.A6105        M.A6098        A-A --           --        tWH  tW-M
+  11 M.A6135        M.U6097        A+U rWC          21-XXI    tWW  tW+W
+  12 M.A6106        M.U6134        A-U WC           20-XX     cWW  cW-W
+  13 M.G6107        M.C6133        G-C WC           19-XIX    cWW  cW-W
+  14 M.A6108        M.U6132        A-U WC           20-XX     cWW  cW-W
+  15 M.U6109        M.A6131        U-A --           --        cWW  cW-W
+  16 M.G6110        M.U6082        G-U Wobble       28-XXVIII cWW  cW-W
+  17 M.G6111        M.C6081        G-C WC           19-XIX    cWW  cW-W
+  18 M.A6112        M.U6080        A-U WC           20-XX     cWW  cW-W
+  19 M.C6113        M.G6079        C-G WC           19-XIX    cWW  cW-W
+  20 M.C6114        M.G6078        C-G --           --        cWW  cW-W
+  --------------------------------------------------------------------------
+  helix#3[5] bps=27
+      strand-1 5'-AGAGAGGUCUAUCUUAUGGUACCCUCG-3'
+       bp-type    .....||..|.|||....||..||.||
+      strand-2 3'-AUAGCCCAGGUAGAAACACAUUGGAGC-5'
+      helix-form  .x.xx....x...xxxxx.x......
+   1 A.A6069        A.A6009        A-A --           --        cWW  cW-W
+   2 A.G6070        A.U6008        G-U --           --        cWW  cW-W
+   3 A.A6075        A.A6006        A-A --           --        cHW  cM-W
+   4 A.G6076        A.G6005        G-G --           --        cWW  cW-W
+   5 A.A6077        A.C6003        A-C --           --        c.W  c.-W
+   6 A.G6078        A.C6114        G-C WC           19-XIX    cWW  cW-W
+   7 A.G6079        A.C6113        G-C WC           19-XIX    cWW  cW-W
+   8 A.U6080        A.A6112        U-A --           --        tH.  tM-.
+   9 A.C6081        A.G6111        C-G --           --        cWW  cW-W
+  10 A.U6082        A.G6110        U-G Wobble       28-XXVIII cWW  cW-W
+  11 A.A6131        A.U6109        A-U --           --        cWW  cW-W
+  12 A.U6132        A.A6108        U-A WC           20-XX     cWW  cW-W
+  13 A.C6133        A.G6107        C-G WC           19-XIX    cWW  cW-W
+  14 A.U6134        A.A6106        U-A WC           20-XX     cWW  cW-W
+  15 A.U6097        A.A6135        U+A rWC          21-XXI    tWW  tW+W
+  16 A.A6098        A.A6105        A-A --           05-V      tHW  tM-W
+  17 M.U6032        A.C6104        U-C --           --        cWS  cW-m
+  18 A.G6136        A.A6103        G-A --           --        cWW  cW-W
+  19 A.G6138        A.C6102        G-C WC           19-XIX    cWW  cW-W
+  20 A.U6139        A.A6101        U-A WC           20-XX     cWW  cW-W
+  21 A.A6140        M.U6045        A-U --           --        cWW  cW-W
+  22 A.C6141        M.U6044        C-U --           --        cWW  cW-W
+  23 A.C6142        M.G6043        C-G WC           19-XIX    cWW  cW-W
+  24 A.C6143        M.G6042        C-G WC           19-XIX    cWW  cW-W
+  25 A.U6144        M.A6041        U-A --           --        cWW  cW-W
+  26 A.C6145        M.G6040        C-G WC           19-XIX    cWW  cW-W
+  27 A.G6146        M.C6039        G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  helix#4[0] bps=4
+      strand-1 5'-UGCG-3'
+       bp-type    .|..
+      strand-2 3'-UCGA-5'
+      helix-form  ...
+   1 A.U6083        A.U6096        U-U --           --        cWW  cW-W
+   2 A.G6084        A.C6095        G-C WC           19-XIX    cWW  cW-W
+   3 A.C6084^A      A.G6084^F      C-G --           --        cWW  cW-W
+   4 A.G6084^B      A.A6084^E      G-A Sheared      11-XI     tSH  tm-M
+  --------------------------------------------------------------------------
+  helix#5[1] bps=6
+      strand-1 5'-GGAGCG-3'
+       bp-type    ...||.
+      strand-2 3'-CCUCGA-5'
+      helix-form  .....
+   1 A.G6115        A.C6127        G-C --           --        cWW  cW-W
+   2 A.G6116        A.C6126        G-C --           --        cWW  cW-W
+   3 A.A6117        A.U6125        A-U --           --        tW.  tW-.
+   4 A.G6118        A.C6124        G-C WC           19-XIX    cWW  cW-W
+   5 A.C6119        A.G6119^E      C-G WC           19-XIX    cWW  cW-W
+   6 A.G6119^A      A.A6119^D      G-A Sheared      11-XI     tSH  tm-M
+  --------------------------------------------------------------------------
+  helix#6[3] bps=15
+      strand-1 5'-AUCUUAUAAAAUUAG-3'
+       bp-type    ....||||.|||||.
+      strand-2 3'-CGUUAUAUUUUGAUA-5'
+      helix-form  .....x........
+   1 M.A6014        M.C6065        A-C --           --        c.W  c.-W
+   2 M.U6015        M.G6064        U-G --           --        c.W  c.-W
+   3 M.C6016        M.U6063        C-U --           --        cWW  cW-W
+   4 M.U6017        M.U6062        U-U --           --        cWW  cW-W
+   5 M.U6018        M.A6061        U-A WC           20-XX     cWW  cW-W
+   6 M.A6019        M.U6060        A-U WC           20-XX     cWW  cW-W
+   7 M.U6021        M.A6058        U-A WC           20-XX     cWW  cW-W
+   8 M.A6022        M.U6057        A-U WC           20-XX     cWW  cW-W
+   9 M.A6023        M.U6056        A+U --           --        cWH  cW+M
+  10 M.A6024        M.U6055        A-U WC           20-XX     cWW  cW-W
+  11 M.A6025        M.U6054        A-U WC           20-XX     cWW  cW-W
+  12 M.U6026        M.G6053        U-G Wobble       28-XXVIII cWW  cW-W
+  13 M.U6027        M.A6052        U-A WC           20-XX     cWW  cW-W
+  14 M.A6028        M.U6051        A-U WC           20-XX     cWW  cW-W
+  15 M.G6029        M.A6050        G-A Sheared      11-XI     tSH  tm-M
+  --------------------------------------------------------------------------
+  helix#7[0] bps=4
+      strand-1 5'-UGCG-3'
+       bp-type    ..|.
+      strand-2 3'-UCGA-5'
+      helix-form  ...
+   1 M.U6083        M.U6096        U-U --           16-XVI    cWW  cW-W
+   2 M.G6084        M.C6095        G-C --           --        cWW  cW-W
+   3 M.C6084^A      M.G6084^F      C-G WC           19-XIX    cWW  cW-W
+   4 M.G6084^B      M.A6084^E      G-A Sheared      11-XI     tSH  tm-M
+  --------------------------------------------------------------------------
+  helix#8[1] bps=6
+      strand-1 5'-GGAGCG-3'
+       bp-type    |.|||.
+      strand-2 3'-CCUCGA-5'
+      helix-form  .....
+   1 M.G6115        M.C6127        G-C WC           19-XIX    cWW  cW-W
+   2 M.G6116        M.C6126        G-C --           --        cWW  cW-W
+   3 M.A6117        M.U6125        A-U WC           20-XX     cWW  cW-W
+   4 M.G6118        M.C6124        G-C WC           19-XIX    cWW  cW-W
+   5 M.C6119        M.G6119^E      C-G WC           19-XIX    cWW  cW-W
+   6 M.G6119^A      M.A6119^D      G-A Sheared      11-XI     tSH  tm-M
+
+****************************************************************************
+List of 13 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=5
+      strand-1 5'-AAAUU-3'
+       bp-type    |||||
+      strand-2 3'-UUUGA-5'
+      helix-form  ....
+   1 A.A6023        A.U6056        A-U WC           20-XX     cWW  cW-W
+   2 A.A6024        A.U6055        A-U WC           20-XX     cWW  cW-W
+   3 A.A6025        A.U6054        A-U WC           20-XX     cWW  cW-W
+   4 A.U6026        A.G6053        U-G Wobble       28-XXVIII cWW  cW-W
+   5 A.U6027        A.A6052        U-A WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#2[#3] bps=2
+      strand-1 5'-GG-3'
+       bp-type    ||
+      strand-2 3'-CC-5'
+      helix-form  .
+   1 A.G6078        A.C6114        G-C WC           19-XIX    cWW  cW-W
+   2 A.G6079        A.C6113        G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#3[#3] bps=2
+      strand-1 5'-AC-3'
+       bp-type    ||
+      strand-2 3'-UG-5'
+      helix-form  .
+   1 A.A6101        A.U6139        A-U WC           20-XX     cWW  cW-W
+   2 A.C6102        A.G6138        C-G WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#4[#3] bps=3
+      strand-1 5'-AGA-3'
+       bp-type    |||
+      strand-2 3'-UCU-5'
+      helix-form  ..
+   1 A.A6106        A.U6134        A-U WC           20-XX     cWW  cW-W
+   2 A.G6107        A.C6133        G-C WC           19-XIX    cWW  cW-W
+   3 A.A6108        A.U6132        A-U WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#5[#5] bps=2
+      strand-1 5'-GC-3'
+       bp-type    ||
+      strand-2 3'-CG-5'
+      helix-form  .
+   1 A.G6118        A.C6124        G-C WC           19-XIX    cWW  cW-W
+   2 A.C6119        A.G6119^E      C-G WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#6[#3] bps=2
+      strand-1 5'-CC-3'
+       bp-type    ||
+      strand-2 3'-GG-5'
+      helix-form  .
+   1 A.C6142        M.G6043        C-G WC           19-XIX    cWW  cW-W
+   2 A.C6143        M.G6042        C-G WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#7[#3] bps=2
+      strand-1 5'-CG-3'
+       bp-type    ||
+      strand-2 3'-GC-5'
+      helix-form  .
+   1 A.C6145        M.G6040        C-G WC           19-XIX    cWW  cW-W
+   2 A.G6146        M.C6039        G-C WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#8[#6] bps=2
+      strand-1 5'-UA-3'
+       bp-type    ||
+      strand-2 3'-AU-5'
+      helix-form  .
+   1 M.U6018        M.A6061        U-A WC           20-XX     cWW  cW-W
+   2 M.A6019        M.U6060        A-U WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#9[#6] bps=2
+      strand-1 5'-UA-3'
+       bp-type    ||
+      strand-2 3'-AU-5'
+      helix-form  .
+   1 M.U6021        M.A6058        U-A WC           20-XX     cWW  cW-W
+   2 M.A6022        M.U6057        A-U WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#10[#6] bps=5
+      strand-1 5'-AAUUA-3'
+       bp-type    |||||
+      strand-2 3'-UUGAU-5'
+      helix-form  ....
+   1 M.A6024        M.U6055        A-U WC           20-XX     cWW  cW-W
+   2 M.A6025        M.U6054        A-U WC           20-XX     cWW  cW-W
+   3 M.U6026        M.G6053        U-G Wobble       28-XXVIII cWW  cW-W
+   4 M.U6027        M.A6052        U-A WC           20-XX     cWW  cW-W
+   5 M.A6028        M.U6051        A-U WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#11[#2] bps=4
+      strand-1 5'-GUCU-3'
+       bp-type    ||||
+      strand-2 3'-CAGG-5'
+      helix-form  ...
+   1 M.G6079        M.C6113        G-C WC           19-XIX    cWW  cW-W
+   2 M.U6080        M.A6112        U-A WC           20-XX     cWW  cW-W
+   3 M.C6081        M.G6111        C-G WC           19-XIX    cWW  cW-W
+   4 M.U6082        M.G6110        U-G Wobble       28-XXVIII cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#12[#2] bps=3
+      strand-1 5'-AGA-3'
+       bp-type    |||
+      strand-2 3'-UCU-5'
+      helix-form  AA
+   1 M.A6106        M.U6134        A-U WC           20-XX     cWW  cW-W
+   2 M.G6107        M.C6133        G-C WC           19-XIX    cWW  cW-W
+   3 M.A6108        M.U6132        A-U WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#13[#8] bps=3
+      strand-1 5'-AGC-3'
+       bp-type    |||
+      strand-2 3'-UCG-5'
+      helix-form  ..
+   1 M.A6117        M.U6125        A-U WC           20-XX     cWW  cW-W
+   2 M.G6118        M.C6124        G-C WC           19-XIX    cWW  cW-W
+   3 M.C6119        M.G6119^E      C-G WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 5 isolated WC/wobble pairs
+  Note: isolated WC/wobble pairs are assigned negative indices to
+        differentiate them from the stem numbers, which are positive.
+        --------------------------------------------------------------------
+[#1]     -1 A.C6016        A.G6064        C-G WC           19-XIX    cWW  cW-W
+[#1]     -2 A.U6020        A.A6059        U-A WC           20-XX     cWW  cW-W
+[#2]     -3 A.G6040        M.C6145        G-C WC           19-XIX    cWW  cW-W
+[#3]     -4 A.U6082        A.G6110        U-G Wobble       28-XXVIII cWW  cW-W
+--       -5 M.U6004        M.G6076        U-G Wobble       28-XXVIII cWW  cW-W
+
+****************************************************************************
+List of 3 coaxial stacks
+   1 Helix#2 contains 2 stems: [#12,#11]
+   2 Helix#3 contains 5 stems: [#2,#4,#3,#6,#7]
+   3 Helix#6 contains 3 stems: [#8,#9,#10]
+
+****************************************************************************
+List of 58 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 CC A.C6003,A.C6114
+   2 nts=2 AA A.A6047,A.A6048
+   3 nts=2 UA A.U6057,A.A6058
+   4 nts=2 AU A.A6059,A.U6060
+   5 nts=2 AU A.A6067,A.U6068
+   6 nts=2 AG A.A6069,A.G6070
+   7 nts=2 AG A.A6075,A.G6076
+   8 nts=2 GC A.G6084,A.C6084^A
+   9 nts=2 AC A.A6103,A.C6104
+  10 nts=2 CG A.C6119,A.G6119^A
+  11 nts=2 AU A.A6131,A.U6132
+  12 nts=2 CU A.C6143,A.U6144
+  13 nts=2 UU M.U6020,M.U6021
+  14 nts=2 AG M.A6028,M.G6029
+  15 nts=2 GU M.G6043,M.U6044
+  16 nts=2 AA M.A6058,M.A6059
+  17 nts=2 AC M.A6103,M.C6104
+  18 nts=2 GG M.G6119^A,M.G6119^E
+  19 nts=2 CC M.C6126,M.C6127
+  20 nts=2 AU M.A6131,M.U6132
+  21 nts=2 UC M.U6144,M.C6145
+  22 nts=3 AUU A.A6014,A.U6012,A.U6066
+  23 nts=3 UGC A.U6017,A.G6064,A.C6065
+  24 nts=3 UAG A.U6027,A.A6028,A.G6029
+  25 nts=3 AAA A.A6084^C,A.A6084^D,A.A6084^E
+  26 nts=3 GGA A.G6115,A.G6116,A.A6117
+  27 nts=3 CAG A.C6145,M.A6041,M.G6042
+  28 nts=3 AAA M.A6022,M.A6023,M.A6024
+  29 nts=3 GAA M.G6030,M.A6049,M.A6050
+  30 nts=3 AAA M.A6046,M.A6048,M.A6047
+  31 nts=3 UGC M.U6063,M.G6064,M.C6065
+  32 nts=3 UGC M.U6083,M.G6084,M.C6084^A
+  33 nts=3 AAA M.A6084^C,M.A6084^D,M.A6084^E
+  34 nts=3 AUG M.A6108,M.U6109,M.G6110
+  35 nts=3 AAA M.A6119^B,M.A6119^C,M.A6119^D
+  36 nts=4 AUUA A.A6019,A.U6020,A.U6021,A.A6022
+  37 nts=4 GAAU A.G6030,A.A6049,A.A6050,A.U6051
+  38 nts=4 UUAA A.U6031,A.U6032,A.A6033,A.A6034
+  39 nts=4 GUCU A.G6079,A.U6080,A.C6081,A.U6082
+  40 nts=4 GGCU A.G6084^B,A.G6084^F,A.C6095,A.U6096
+  41 nts=4 AACC A.A6101,A.A6140,A.C6141,A.C6142
+  42 nts=4 AAAG A.A6119^B,A.A6119^C,A.A6119^D,A.G6119^E
+  43 nts=4 UCCG M.U6004,M.C6003,M.C6114,M.G6079
+  44 nts=4 AUGA M.A6009,M.U6010,M.G6011,M.A6067
+  45 nts=4 UAAA M.U6032,M.A6033,M.A6034,M.A6035
+  46 nts=4 GGCU M.G6084^B,M.G6084^F,M.C6095,M.U6096
+  47 nts=5 CCAAU A.C6100,A.C6099,A.A6098,A.A6135,A.U6134
+  48 nts=5 CCAAU M.C6100,M.C6099,M.A6098,M.A6135,M.U6134
+  49 nts=5 AGGAA M.A6117,M.G6116,M.G6115,M.A6128,M.A6129
+  50 nts=6 AUAGUG A.A6106,A.U6097,A.A6105,A.G6136,A.U6137,A.G6138
+  51 nts=6 AUGGAC A.A6108,A.U6109,A.G6110,A.G6111,A.A6112,A.C6113
+  52 nts=6 GUCCAA A.G6118,A.U6125,A.C6126,A.C6127,A.A6128,A.A6129
+  53 nts=6 GAUCUU M.G6013,M.A6014,M.U6015,M.C6016,M.U6017,M.U6018
+  54 nts=6 CAACCC M.C6102,M.A6101,M.A6140,M.C6141,M.C6142,M.C6143
+  55 nts=7 UUGGAGG A.U6045,A.U6044,A.G6043,A.G6042,A.A6041,A.G6040,M.G6146
+  56 nts=7 UCAGGAG M.U6008,M.C6007,M.A6006,M.G6005,M.G6076,M.A6077,M.G6078
+  57 nts=7 AUAGUGU M.A6106,M.U6097,M.A6105,M.G6136,M.U6137,M.G6138,M.U6139
+  58 nts=8 UAUCAGAG A.U6010,A.A6009,A.U6008,A.C6007,A.A6006,A.G6005,A.A6077,A.G6078
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=23 GGUUACAUAUUUUUUUUUUUUAU A.G6011,A.G6013,A.U6015,A.U6018,A.A6035,A.C6039,A.A6046,A.U6056,A.A6061,A.U6062,A.U6063,A.U6071,A.U6083,A.U6130,M.U6012,M.U6031,M.U6036,M.U6045,M.U6056,M.U6062,M.U6066,M.A6075,M.U6130
+
+****************************************************************************
+List of 8 atom-base capping interactions
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 phosphate  OP2@A.U6015          A.G6013        3.03
+   2 sugar      O2'@A.G6013          A.A6014        2.30
+   3 phosphate  OP1@A.A6049          A.G6029        3.42
+   4 phosphate  OP2@A.A6084^D        A.G6084^B      3.18
+   5 phosphate  OP2@A.A6119^C        A.G6119^A      2.87
+   6 sugar      O4'@A.G6136          M.G6030        2.86
+   7 phosphate  OP2@M.A6084^D        M.G6084^B      3.16
+   8 phosphate  OP2@M.A6119^C        M.G6119^A      3.26
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      isolated WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 4 hairpin loops
+   1 hairpin loop: nts=25; [23]; linked by [#-4]
+     summary: [1] 23 [A.6082 A.6110] 1
+     nts=25 UUGCGAAAGCUUACCACACAAGAUG A.U6082,A.U6083,A.G6084,A.C6084^A,A.G6084^B,A.A6084^C,A.A6084^D,A.A6084^E,A.G6084^F,A.C6095,A.U6096,A.U6097,A.A6098,A.C6099,A.C6100,A.A6101,A.C6102,A.A6103,A.C6104,A.A6105,A.A6106,A.G6107,A.A6108,A.U6109,A.G6110
+       nts=23 UGCGAAAGCUUACCACACAAGAU A.U6083,A.G6084,A.C6084^A,A.G6084^B,A.A6084^C,A.A6084^D,A.A6084^E,A.G6084^F,A.C6095,A.U6096,A.U6097,A.A6098,A.C6099,A.C6100,A.A6101,A.C6102,A.A6103,A.C6104,A.A6105,A.A6106,A.G6107,A.A6108,A.U6109
+   2 hairpin loop: nts=6; [4]; linked by [#5]
+     summary: [1] 4 [A.6119 A.6119] 2
+     nts=6 CGAAAG A.C6119,A.G6119^A,A.A6119^B,A.A6119^C,A.A6119^D,A.G6119^E
+       nts=4 GAAA A.G6119^A,A.A6119^B,A.A6119^C,A.A6119^D
+   3 hairpin loop: nts=25; [23]; linked by [#11]
+     summary: [1] 23 [M.6082 M.6110] 4
+     nts=25 UUGCGAAAGCUUACCACACAAGAUG M.U6082,M.U6083,M.G6084,M.C6084^A,M.G6084^B,M.A6084^C,M.A6084^D,M.A6084^E,M.G6084^F,M.C6095,M.U6096,M.U6097,M.A6098,M.C6099,M.C6100,M.A6101,M.C6102,M.A6103,M.C6104,M.A6105,M.A6106,M.G6107,M.A6108,M.U6109,M.G6110
+       nts=23 UGCGAAAGCUUACCACACAAGAU M.U6083,M.G6084,M.C6084^A,M.G6084^B,M.A6084^C,M.A6084^D,M.A6084^E,M.G6084^F,M.C6095,M.U6096,M.U6097,M.A6098,M.C6099,M.C6100,M.A6101,M.C6102,M.A6103,M.C6104,M.A6105,M.A6106,M.G6107,M.A6108,M.U6109
+   4 hairpin loop: nts=6; [4]; linked by [#13]
+     summary: [1] 4 [M.6119 M.6119] 3
+     nts=6 CGAAAG M.C6119,M.G6119^A,M.A6119^B,M.A6119^C,M.A6119^D,M.G6119^E
+       nts=4 GAAA M.G6119^A,M.A6119^B,M.A6119^C,M.A6119^D
+
+****************************************************************************
+List of 7 internal loops
+   1 symmetric internal loop: nts=6; [1,1]; linked by [#6,#7]
+     summary: [2] 1 1 [A.6143 M.6042 A.6145 M.6040] 2 2
+     nts=6 CUCGAG A.C6143,A.U6144,A.C6145,M.G6040,M.A6041,M.G6042
+       nts=1 U A.U6144
+       nts=1 A M.A6041
+   2 symmetric internal loop: nts=6; [1,1]; linked by [#8,#9]
+     summary: [2] 1 1 [M.6019 M.6060 M.6021 M.6058] 2 2
+     nts=6 AUUAAU M.A6019,M.U6020,M.U6021,M.A6058,M.A6059,M.U6060
+       nts=1 U M.U6020
+       nts=1 A M.A6059
+   3 symmetric internal loop: nts=6; [1,1]; linked by [#9,#10]
+     summary: [2] 1 1 [M.6022 M.6057 M.6024 M.6055] 2 5
+     nts=6 AAAUUU M.A6022,M.A6023,M.A6024,M.U6055,M.U6056,M.U6057
+       nts=1 A M.A6023
+       nts=1 U M.U6056
+   4 symmetric internal loop: nts=8; [2,2]; linked by [#-2,#1]
+     summary: [2] 2 2 [A.6020 A.6059 A.6023 A.6056] 1 5
+     nts=8 UUAAUUAA A.U6020,A.U6021,A.A6022,A.A6023,A.U6056,A.U6057,A.A6058,A.A6059
+       nts=2 UA A.U6021,A.A6022
+       nts=2 UA A.U6057,A.A6058
+   5 symmetric internal loop: nts=8; [2,2]; linked by [#2,#-4]
+     summary: [2] 2 2 [A.6079 A.6113 A.6082 A.6110] 2 1
+     nts=8 GUCUGGAC A.G6079,A.U6080,A.C6081,A.U6082,A.G6110,A.G6111,A.A6112,A.C6113
+       nts=2 UC A.U6080,A.C6081
+       nts=2 GA A.G6111,A.A6112
+   6 symmetric internal loop: nts=10; [3,3]; linked by [#3,#4]
+     summary: [2] 3 3 [A.6102 A.6138 A.6106 A.6134] 2 3
+     nts=10 CACAAUAGUG A.C6102,A.A6103,A.C6104,A.A6105,A.A6106,A.U6134,A.A6135,A.G6136,A.U6137,A.G6138
+       nts=3 ACA A.A6103,A.C6104,A.A6105
+       nts=3 AGU A.A6135,A.G6136,A.U6137
+   7 asymmetric internal loop: nts=11; [3,4]; linked by [#-1,#-2]
+     summary: [2] 3 4 [A.6016 A.6064 A.6020 A.6059] 1 1
+     nts=11 CUUAUAUAUUG A.C6016,A.U6017,A.U6018,A.A6019,A.U6020,A.A6059,A.U6060,A.A6061,A.U6062,A.U6063,A.G6064
+       nts=3 UUA A.U6017,A.U6018,A.A6019
+       nts=4 UAUU A.U6060,A.A6061,A.U6062,A.U6063
+
+****************************************************************************
+List of 17 non-loop single-stranded segments
+   1 nts=13 CUGACUAUGUGAU A.C6003,A.U6004,A.G6005,A.A6006,A.C6007,A.U6008,A.A6009,A.U6010,A.G6011,A.U6012,A.G6013,A.A6014,A.U6015
+   2 nts=9* AGGUUAAAC A.A6028,A.G6029,A.G6030,A.U6031,A.U6032,A.A6033,A.A6034,A.A6035,A.C6039
+   3 nts=11 AGGUUAAAAAU A.A6041,A.G6042,A.G6043,A.U6044,A.U6045,A.A6046,A.A6047,A.A6048,A.A6049,A.A6050,A.U6051
+   4 nts=10* CUAUAGUAGA A.C6065,A.U6066,A.A6067,A.U6068,A.A6069,A.G6070,A.U6071,A.A6075,A.G6076,A.A6077
+   5 nts=3 GGA A.G6115,A.G6116,A.A6117
+   6 nts=7 UCCAAUA A.U6125,A.C6126,A.C6127,A.A6128,A.A6129,A.U6130,A.A6131
+   7 nts=2 AC A.A6140,A.C6141
+   8 nts=1 C M.C6003
+   9 nts=13 GACUAUGUGAUCU M.G6005,M.A6006,M.C6007,M.U6008,M.A6009,M.U6010,M.G6011,M.U6012,M.G6013,M.A6014,M.U6015,M.C6016,M.U6017
+  10 nts=8 GGUUAAAU M.G6029,M.G6030,M.U6031,M.U6032,M.A6033,M.A6034,M.A6035,M.U6036
+  11 nts=7 UUAAAAA M.U6044,M.U6045,M.A6046,M.A6047,M.A6048,M.A6049,M.A6050
+  12 nts=7* UUGCUAA M.U6062,M.U6063,M.G6064,M.C6065,M.U6066,M.A6067,M.A6075
+  13 nts=2 AG M.A6077,M.G6078
+  14 nts=3 CGG M.C6114,M.G6115,M.G6116
+  15 nts=6 CCAAUA M.C6126,M.C6127,M.A6128,M.A6129,M.U6130,M.A6131
+  16 nts=10 AGUGUACCCU M.A6135,M.G6136,M.U6137,M.G6138,M.U6139,M.A6140,M.C6141,M.C6142,M.C6143,M.U6144
+  17 nts=1 G M.G6146
+
+****************************************************************************
+List of 9 A-minor motifs (types I, II, or X)
+   1  type=X A|C-U	A.A6033|M.C6104,M.U6137 --
+        -M.C6104	H-bonds[1]: "N1*O2(carbonyl)[3.30]"
+        +M.U6137	H-bonds[1]: "N6(amino)-O2'(hydroxyl)[3.01]"
+   2  type=II A|A-U	A.A6049|M.A6106,M.U6134 WC
+        +M.A6106	H-bonds[0]: ""
+        -M.U6134	H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.80],N3-O2'(hydroxyl)[2.85]"
+   3  type=I A|G-C	A.A6050|M.G6107,M.C6133 WC
+        +M.G6107	H-bonds[2]: "N1-O2'(hydroxyl)[2.84],N3-N2(amino)[2.82]"
+        -M.C6133	H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.87],O2'(hydroxyl)-O2(carbonyl)[3.15]"
+   4  type=X A|C-G	M.A6034|A.C6102,A.G6138 WC
+        -A.C6102	H-bonds[0]: ""
+        +A.G6138	H-bonds[1]: "N6(amino)-O2'(hydroxyl)[3.55]"
+   5  type=X A|A-G	M.A6034|A.A6103,A.G6136 --
+        -A.A6103	H-bonds[1]: "N1-O2'(hydroxyl)[3.28]"
+        +A.G6136	H-bonds[0]: ""
+   6  type=X A|A-G	M.A6035|A.A6101,A.G6138 --
+        -A.A6101	H-bonds[0]: ""
+        +A.G6138	H-bonds[1]: "N6(amino)-O2'(hydroxyl)[3.12]"
+   7  type=X A|C-G	M.A6035|A.C6102,A.G6138 WC
+        -A.C6102	H-bonds[0]: ""
+        +A.G6138	H-bonds[1]: "N6(amino)-O2'(hydroxyl)[3.12]"
+   8  type=II A|A-U	M.A6049|A.A6106,A.U6134 WC
+        +A.A6106	H-bonds[0]: ""
+        -A.U6134	H-bonds[2]: "O2'(hydroxyl)-O3'[3.58],N3-O2'(hydroxyl)[2.64]"
+   9  type=I A|U-A	M.A6129|M.U6080,M.A6112 WC
+        +M.U6080	H-bonds[1]: "N1-O2'(hydroxyl)[3.11]"
+        -M.A6112	H-bonds[2]: "O2'(hydroxyl)-O2'(hydroxyl)[2.99],O2'(hydroxyl)-N3[2.49]"
+
+****************************************************************************
+List of 2 ribose zippers
+   1 nts=4 AACU A.A6049,A.A6050,M.C6133,M.U6134
+   2 nts=4 CUAA A.C6133,A.U6134,M.A6049,M.A6050
+
+****************************************************************************
+List of 16 splayed-apart dinucleotides
+   1 A.A6014   A.U6015   angle=90     distance=13.2     ratio=0.71
+   2 A.U6045   A.A6046   angle=129    distance=17.4     ratio=0.90
+   3 A.A6048   A.A6049   angle=135    distance=17.2     ratio=0.92
+   4 A.U6082   A.U6083   angle=121    distance=15.9     ratio=0.87
+   5 A.U6096   A.U6097   angle=97     distance=14.8     ratio=0.75
+   6 A.C6114   A.G6115   angle=102    distance=14.3     ratio=0.78
+   7 A.A6129   A.U6130   angle=129    distance=15.5     ratio=0.90
+   8 A.U6130   A.A6131   angle=96     distance=15.6     ratio=0.74
+   9 M.A6035   M.U6036   angle=136    distance=16.6     ratio=0.93
+  10 M.U6045   M.A6046   angle=152    distance=18.6     ratio=0.97
+  11 M.A6048   M.A6049   angle=135    distance=16.6     ratio=0.92
+  12 M.A6075   M.G6076   angle=130    distance=15.7     ratio=0.91
+  13 M.U6082   M.U6083   angle=127    distance=16.7     ratio=0.89
+  14 M.U6096   M.U6097   angle=96     distance=14.6     ratio=0.75
+  15 M.A6129   M.U6130   angle=127    distance=15.9     ratio=0.90
+  16 M.U6130   M.A6131   angle=112    distance=16.6     ratio=0.83
+----------------------------------------------------------------
+Summary of 14 splayed-apart units
+   1 nts=2 AU A.A6014,A.U6015
+   2 nts=2 UA A.U6045,A.A6046
+   3 nts=2 AA A.A6048,A.A6049
+   4 nts=2 UU A.U6082,A.U6083
+   5 nts=2 UU A.U6096,A.U6097
+   6 nts=2 CG A.C6114,A.G6115
+   7 nts=3 AUA A.A6129,A.U6130,A.A6131
+   8 nts=2 AU M.A6035,M.U6036
+   9 nts=2 UA M.U6045,M.A6046
+  10 nts=2 AA M.A6048,M.A6049
+  11 nts=2 AG M.A6075,M.G6076
+  12 nts=2 UU M.U6082,M.U6083
+  13 nts=2 UU M.U6096,M.U6097
+  14 nts=3 AUA M.A6129,M.U6130,M.A6131
+
+****************************************************************************
+Special notes:
+   o cross-paired segments in separate chains, be *careful* with .dbn
+
+****************************************************************************
+This structure contains *1-order pseudoknot
+   o You may want to run DSSR again with the '--nested' option which removes
+     pseudoknots to get a fully nested secondary structure representation.
+   o The DSSR-derived dbn may be problematic (see notes above).
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>2IL9 nts=267 [whole]
+CUGACUAUGUGAUCUUAUUAAAAUUAGGUUAAA&CGAGGUUAAAAAUAGUUUUAAUAUUGCUAUAGU&AGAGGUCUUGCGAAAGCUUACCACACAAGAUGGACCGGAGCGAAAGCUCCAAUAUCUAGUGUACCCUCG&CUGACUAUGUGAUCUUAUUAAAAUUAGGUUAAAU&CGAGGUUAAAAAUAGUUUUAAUAUUGCUA&AGAGGUCUUGCGAAAGCUUACCACACAAGAUGGACCGGAGCGAAAGCUCCAAUAUCUAGUGUACCCUCG
+.............(...(..(((((........&.[...........)))))..)....).......&...[[..[..............((...(((.]..]]...((....)).......)))...))..[[.[[&.(.............((.((.(((((........&]].]].......))))).)).))......&.)..((((...................[[[.))))...(((....)))......]]]..........].
+>2IL9-A #1 nts=135 0.42(3.18) [chain] RNA*
+CUGACUAUGUGAUCUUAUUAAAAUUAGGUUAAA&CGAGGUUAAAAAUAGUUUUAAUAUUGCUAUAGU&AGAGGUCUUGCGAAAGCUUACCACACAAGAUGGACCGGAGCGAAAGCUCCAAUAUCUAGUGUACCCUCG
+.............(...(..(((((........&.[...........)))))..)....).......&...[[..[..............((...(((.]..]]...((....)).......)))...))..[[.[[
+>2IL9-M #2 nts=132 0.39(3.22) [chain] RNA*
+CUGACUAUGUGAUCUUAUUAAAAUUAGGUUAAAU&CGAGGUUAAAAAUAGUUUUAAUAUUGCUA&AGAGGUCUUGCGAAAGCUUACCACACAAGAUGGACCGGAGCGAAAGCUCCAAUAUCUAGUGUACCCUCG
+.(.............((.((.(((((........&]].]].......))))).)).))......&.)..((((...................[[[.))))...(((....)))......]]]..........].
+
+****************************************************************************
+Summary of structural features of 267 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . A.C6003   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+   2  U . A.U6004   0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  G . A.G6005   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+   4  A . A.A6006   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop
+   5  C . A.C6007   0.001  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  U . A.U6008   0.001  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+   7  A . A.A6009   0.001  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+   8  U . A.U6010   0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  G . A.G6011   0.004  turn,anti,~C3'-endo,BI,non-stack,non-canonical,non-pair-contact,ss-non-loop
+  10  U . A.U6012   0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  11  G . A.G6013   0.009  anti,~C3'-endo,BI,non-stack,non-pair-contact,ss-non-loop,cap-donor,cap-acceptor,phosphate
+  12  A . A.A6014   0.019  syn,~C3'-endo,BI,non-pair-contact,ss-non-loop,cap-acceptor,splayed-apart
+  13  U . A.U6015   0.002  anti,~C3'-endo,BI,non-stack,ss-non-loop,cap-donor,phosphate,splayed-apart
+  14  C ( A.C6016   0.002  anti,~C3'-endo,BI,isolated-canonical,non-canonical,non-pair-contact,helix-end,multiplet,internal-loop
+  15  U . A.U6017   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+  16  U . A.U6018   0.003  anti,~C3'-endo,BI,non-stack,non-canonical,helix,internal-loop
+  17  A . A.A6019   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+  18  U ( A.U6020   0.003  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop
+  19  U . A.U6021   0.004  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  20  A . A.A6022   0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,internal-loop
+  21  A ( A.A6023   0.010  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,multiplet,internal-loop
+  22  A ( A.A6024   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  23  A ( A.A6025   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  24  U ( A.U6026   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  25  U ( A.U6027   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end
+  26  A . A.A6028   0.012  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  27  G . A.G6029   0.005  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop,cap-acceptor
+  28  G . A.G6030   0.004  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix-end,multiplet,ss-non-loop
+  29  U . A.U6031   0.008  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix-end,multiplet,ss-non-loop,phosphate
+  30  U . A.U6032   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,ss-non-loop,phosphate
+  31  A . A.A6033   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,ss-non-loop,A-minor
+  32  A . A.A6034   0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  33  A . A.A6035   0.001  break,anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop
+  34  C . A.C6039   0.001  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop
+  35  G [ A.G6040   0.003  pseudoknotted,anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix-end,phosphate
+  36  A . A.A6041   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  37  G . A.G6042   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  38  G . A.G6043   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  39  U . A.U6044   0.006  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+  40  U . A.U6045   0.002  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix,ss-non-loop,splayed-apart
+  41  A . A.A6046   0.005  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop,splayed-apart
+  42  A . A.A6047   0.009  turn,anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  43  A . A.A6048   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,splayed-apart
+  44  A . A.A6049   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,ss-non-loop,A-minor,ribose-zipper,cap-donor,phosphate,splayed-apart
+  45  A . A.A6050   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop,A-minor,ribose-zipper,phosphate
+  46  U . A.U6051   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  47  A ) A.A6052   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end
+  48  G ) A.G6053   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  49  U ) A.U6054   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  50  U ) A.U6055   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  51  U ) A.U6056   0.006  anti,~C3'-endo,BI,non-stack,canonical,helix,stem-end,multiplet,internal-loop
+  52  U . A.U6057   0.007  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  53  A . A.A6058   0.012  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  54  A ) A.A6059   0.005  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix,internal-loop
+  55  U . A.U6060   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+  56  A . A.A6061   0.003  anti,~C3'-endo,non-stack,non-canonical,non-pair-contact,helix,internal-loop
+  57  U . A.U6062   0.004  turn,anti,~C3'-endo,BI,non-stack,internal-loop
+  58  U . A.U6063   0.002  anti,~C3'-endo,non-stack,non-canonical,helix,multiplet,internal-loop
+  59  G ) A.G6064   0.003  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix-end,multiplet,internal-loop
+  60  C . A.C6065   0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  61  U . A.U6066   0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  62  A . A.A6067   0.002  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  63  U . A.U6068   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,ss-non-loop
+  64  A . A.A6069   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+  65  G . A.G6070   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+  66  U . A.U6071   0.003  break,anti,~C3'-endo,non-stack,non-canonical,non-pair-contact,multiplet,ss-non-loop
+  67  A . A.A6075   0.002  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop
+  68  G . A.G6076   0.004  syn,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+  69  A . A.A6077   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate
+  70  G [ A.G6078   0.008  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+  71  G [ A.G6079   0.012  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  72  U . A.U6080   0.020  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+  73  C . A.C6081   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+  74  U [ A.U6082   0.013  pseudoknotted,anti,~C3'-endo,isolated-canonical,non-pair-contact,helix,hairpin-loop,internal-loop,splayed-apart
+  75  U . A.U6083   0.008  anti,~C3'-endo,BI,non-stack,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate,splayed-apart
+  76  G . A.G6084   0.012  anti,~C3'-endo,non-canonical,non-pair-contact,helix,hairpin-loop
+  77  C . A.C6084^A 0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+  78  G . A.G6084^B 0.009  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+  79  A . A.A6084^C 0.010  turn,u-turn,syn,~C3'-endo,non-pair-contact,hairpin-loop
+  80  A . A.A6084^D 0.004  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+  81  A . A.A6084^E 0.006  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+  82  G . A.G6084^F 0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+  83  C . A.C6095   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+  84  U . A.U6096   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+  85  U . A.U6097   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,splayed-apart
+  86  A . A.A6098   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+  87  C . A.C6099   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop
+  88  C . A.C6100   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop
+  89  A ( A.A6101   0.004  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,A-minor
+  90  C ( A.C6102   0.007  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,internal-loop,A-minor
+  91  A . A.A6103   0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,internal-loop,A-minor
+  92  C . A.C6104   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop,internal-loop
+  93  A . A.A6105   0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,hairpin-loop,internal-loop
+  94  A ( A.A6106   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,internal-loop,A-minor
+  95  G ( A.G6107   0.019  anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,hairpin-loop
+  96  A ( A.A6108   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+  97  U . A.U6109   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+  98  G ] A.G6110   0.007  pseudoknotted,anti,~C3'-endo,isolated-canonical,non-pair-contact,helix,hairpin-loop,internal-loop
+  99  G . A.G6111   0.013  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 100  A . A.A6112   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 101  C ] A.C6113   0.004  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 102  C ] A.C6114   0.012  pseudoknotted,turn,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,splayed-apart
+ 103  G . A.G6115   0.014  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop,splayed-apart
+ 104  G . A.G6116   0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 105  A . A.A6117   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 106  G ( A.G6118   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end
+ 107  C ( A.C6119   0.020  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 108  G . A.G6119^A 0.011  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+ 109  A . A.A6119^B 0.012  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+ 110  A . A.A6119^C 0.005  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+ 111  A . A.A6119^D 0.010  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 112  G ) A.G6119^E 0.020  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 113  C ) A.C6124   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end
+ 114  U . A.U6125   0.010  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 115  C . A.C6126   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 116  C . A.C6127   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+ 117  A . A.A6128   0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 118  A . A.A6129   0.010  anti,~C3'-endo,non-pair-contact,ss-non-loop,splayed-apart
+ 119  U . A.U6130   0.004  anti,~C3'-endo,non-stack,ss-non-loop,splayed-apart
+ 120  A . A.A6131   0.014  anti,BI,non-canonical,non-pair-contact,helix,ss-non-loop,splayed-apart
+ 121  U ) A.U6132   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,phosphate
+ 122  C ) A.C6133   0.014  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,ribose-zipper
+ 123  U ) A.U6134   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,A-minor,ribose-zipper
+ 124  A . A.A6135   0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,internal-loop
+ 125  G . A.G6136   0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,internal-loop,A-minor,cap-donor
+ 126  U . A.U6137   0.007  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 127  G ) A.G6138   0.020  anti,~C3'-endo,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,internal-loop,A-minor
+ 128  U ) A.U6139   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 129  A . A.A6140   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 130  C . A.C6141   0.002  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 131  C [ A.C6142   0.005  pseudoknotted,anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 132  C [ A.C6143   0.008  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 133  U . A.U6144   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 134  C [ A.C6145   0.002  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 135  G [ A.G6146   0.004  pseudoknotted,anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+ 136  C . M.C6003   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 137  U ( M.U6004   0.002  anti,~C3'-endo,BI,isolated-canonical,non-pair-contact
+ 138  G . M.G6005   0.004  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 139  A . M.A6006   0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 140  C . M.C6007   0.001  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 141  U . M.U6008   0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 142  A . M.A6009   0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 143  U . M.U6010   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 144  G . M.G6011   0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 145  U . M.U6012   0.007  anti,~C3'-endo,BI,non-stack,non-pair-contact,ss-non-loop,phosphate
+ 146  G . M.G6013   0.018  anti,~C3'-endo,non-canonical,non-pair-contact,ss-non-loop
+ 147  A . M.A6014   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+ 148  U . M.U6015   0.003  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 149  C . M.C6016   0.002  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 150  U . M.U6017   0.001  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 151  U ( M.U6018   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 152  A ( M.A6019   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 153  U . M.U6020   0.006  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 154  U ( M.U6021   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 155  A ( M.A6022   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 156  A . M.A6023   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+ 157  A ( M.A6024   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 158  A ( M.A6025   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 159  U ( M.U6026   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 160  U ( M.U6027   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 161  A ( M.A6028   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 162  G . M.G6029   0.006  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix-end,multiplet,ss-non-loop
+ 163  G . M.G6030   0.008  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,ss-non-loop,cap-acceptor
+ 164  U . M.U6031   0.003  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate
+ 165  U . M.U6032   0.002  anti,~C3'-endo,BII,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop,phosphate
+ 166  A . M.A6033   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 167  A . M.A6034   0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,A-minor
+ 168  A . M.A6035   0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop,A-minor,splayed-apart
+ 169  U . M.U6036   0.001  break,anti,~C3'-endo,non-stack,ss-non-loop,splayed-apart
+ 170  C ] M.C6039   0.002  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+ 171  G ] M.G6040   0.002  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 172  A . M.A6041   0.007  anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+ 173  G ] M.G6042   0.007  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 174  G ] M.G6043   0.005  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 175  U . M.U6044   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 176  U . M.U6045   0.004  anti,~C3'-endo,non-stack,non-canonical,helix,ss-non-loop,splayed-apart
+ 177  A . M.A6046   0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop,splayed-apart
+ 178  A . M.A6047   0.006  turn,anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 179  A . M.A6048   0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,splayed-apart
+ 180  A . M.A6049   0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,A-minor,ribose-zipper,splayed-apart
+ 181  A . M.A6050   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,multiplet,ss-non-loop,ribose-zipper,phosphate
+ 182  U ) M.U6051   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 183  A ) M.A6052   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 184  G ) M.G6053   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 185  U ) M.U6054   0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 186  U ) M.U6055   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 187  U . M.U6056   0.007  syn,~C3'-endo,BI,non-stack,non-canonical,helix,internal-loop
+ 188  U ) M.U6057   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 189  A ) M.A6058   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 190  A . M.A6059   0.009  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+ 191  U ) M.U6060   0.003  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+ 192  A ) M.A6061   0.002  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 193  U . M.U6062   0.002  anti,~C3'-endo,BI,non-stack,non-canonical,non-pair-contact,helix,ss-non-loop
+ 194  U . M.U6063   0.001  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 195  G . M.G6064   0.002  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 196  C . M.C6065   0.001  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+ 197  U . M.U6066   0.002  anti,~C3'-endo,BI,non-stack,non-pair-contact,ss-non-loop
+ 198  A . M.A6067   0.002  break,anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 199  A . M.A6075   0.001  anti,~C3'-endo,non-stack,ss-non-loop,splayed-apart
+ 200  G ) M.G6076   0.003  anti,~C3'-endo,isolated-canonical,non-pair-contact,splayed-apart
+ 201  A . M.A6077   0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 202  G . M.G6078   0.008  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+ 203  G ( M.G6079   0.014  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 204  U ( M.U6080   0.013  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
+ 205  C ( M.C6081   0.011  anti,~C3'-endo,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 206  U ( M.U6082   0.013  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,splayed-apart
+ 207  U . M.U6083   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+ 208  G . M.G6084   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 209  C . M.C6084^A 0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,hairpin-loop
+ 210  G . M.G6084^B 0.012  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+ 211  A . M.A6084^C 0.012  turn,u-turn,anti,~C3'-endo,non-pair-contact,hairpin-loop
+ 212  A . M.A6084^D 0.006  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+ 213  A . M.A6084^E 0.006  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 214  G . M.G6084^F 0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 215  C . M.C6095   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 216  U . M.U6096   0.003  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+ 217  U . M.U6097   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,splayed-apart
+ 218  A . M.A6098   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 219  C . M.C6099   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,multiplet,hairpin-loop
+ 220  C . M.C6100   0.004  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop
+ 221  A . M.A6101   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 222  C . M.C6102   0.011  anti,~C3'-endo,non-canonical,non-pair-contact,multiplet,hairpin-loop
+ 223  A . M.A6103   0.009  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 224  C . M.C6104   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,hairpin-loop,A-minor
+ 225  A . M.A6105   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 226  A [ M.A6106   0.008  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,hairpin-loop,A-minor
+ 227  G [ M.G6107   0.009  pseudoknotted,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,hairpin-loop,A-minor
+ 228  A [ M.A6108   0.006  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 229  U . M.U6109   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,hairpin-loop
+ 230  G ) M.G6110   0.007  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+ 231  G ) M.G6111   0.011  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+ 232  A ) M.A6112   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,A-minor
+ 233  C ) M.C6113   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 234  C . M.C6114   0.009  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop
+ 235  G . M.G6115   0.012  anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,ss-non-loop,phosphate
+ 236  G . M.G6116   0.015  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 237  A ( M.A6117   0.011  anti,~C3'-endo,canonical,non-pair-contact,helix,stem-end
+ 238  G ( M.G6118   0.012  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 239  C ( M.C6119   0.010  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 240  G . M.G6119^A 0.017  u-turn,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor
+ 241  A . M.A6119^B 0.006  turn,u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop
+ 242  A . M.A6119^C 0.007  u-turn,anti,~C3'-endo,BI,non-pair-contact,hairpin-loop,cap-donor,phosphate
+ 243  A . M.A6119^D 0.013  u-turn,anti,~C3'-endo,non-canonical,non-pair-contact,helix-end,hairpin-loop,phosphate
+ 244  G ) M.G6119^E 0.029  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,hairpin-loop
+ 245  C ) M.C6124   0.008  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+ 246  U ) M.U6125   0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end
+ 247  C . M.C6126   0.010  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 248  C . M.C6127   0.011  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,ss-non-loop
+ 249  A . M.A6128   0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 250  A . M.A6129   0.010  anti,~C3'-endo,non-pair-contact,ss-non-loop,A-minor,splayed-apart
+ 251  U . M.U6130   0.006  anti,~C3'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+ 252  A . M.A6131   0.011  anti,BI,non-canonical,non-pair-contact,helix,ss-non-loop,phosphate,splayed-apart
+ 253  U ] M.U6132   0.006  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack
+ 254  C ] M.C6133   0.010  pseudoknotted,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,multiplet,A-minor,ribose-zipper
+ 255  U ] M.U6134   0.003  pseudoknotted,anti,~C3'-endo,BI,canonical,non-canonical,non-pair-contact,helix,stem-end,coaxial-stack,multiplet,A-minor,ribose-zipper
+ 256  A . M.A6135   0.005  anti,~C3'-endo,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop
+ 257  G . M.G6136   0.016  anti,~C3'-endo,non-pair-contact,ss-non-loop
+ 258  U . M.U6137   0.007  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop,A-minor
+ 259  G . M.G6138   0.012  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+ 260  U . M.U6139   0.005  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,multiplet,ss-non-loop
+ 261  A . M.A6140   0.009  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 262  C . M.C6141   0.001  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 263  C . M.C6142   0.004  anti,~C3'-endo,non-canonical,non-pair-contact,helix,ss-non-loop
+ 264  C . M.C6143   0.004  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 265  U . M.U6144   0.006  anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,ss-non-loop
+ 266  C ] M.C6145   0.002  pseudoknotted,anti,~C3'-endo,BI,isolated-canonical,non-pair-contact,helix-end
+ 267  G . M.G6146   0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 14 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-multiplets.pdb -- an ensemble of multiplets
+   3 dssr-stems.pdb -- an ensemble of stems
+   4 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   5 dssr-hairpins.pdb -- an ensemble of hairpin loops
+   6 dssr-iloops.pdb -- an ensemble of internal loops
+   7 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   8 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   9 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+  10 dssr-torsions.txt -- backbone torsion angles and suite names
+  11 dssr-splays.pdb -- an ensemble of splayed-apart units
+  12 dssr-Aminors.pdb -- an ensemble of A minor motifs (types I and II)
+  13 dssr-stacks.pdb -- an ensemble of base stacks
+  14 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

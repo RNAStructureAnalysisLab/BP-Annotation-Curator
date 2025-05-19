@@ -1,0 +1,351 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/8EPK.pdb -o=dssr_annotations/8EPK.pdb.dssr
+Date and time: Sun May  4 17:09:53 2025
+File name: 8EPK.pdb
+    no. of DNA/RNA chains: 2 [E=31,F=31]
+    no. of nucleotides:    62
+    no. of atoms:          5870
+    no. of waters:         10
+    no. of metals:         4 [Mg=2,Ca=2]
+
+****************************************************************************
+List of 7 types of 60 modified nucleotides
+      nt    count  list
+   1 A2M-a   12    E.A2M5,E.A2M8,E.A2M10,E.A2M17,E.A2M18,E.A2M29,F.A2M5,F.A2M8,F.A2M10,F.A2M17,F.A2M18,F.A2M29
+   2 ATD-t    2    E.ATD31,F.ATD31
+   3 CFZ-c   12    E.CFZ6,E.CFZ11,E.CFZ12,E.CFZ14,E.CFZ21,E.CFZ25,F.CFZ6,F.CFZ11,F.CFZ12,F.CFZ14,F.CFZ21,F.CFZ25
+   4 OMC-c    8    E.OMC24,E.OMC27,E.OMC28,E.OMC30,F.OMC24,F.OMC27,F.OMC28,F.OMC30
+   5 OMG-g   12    E.OMG1,E.OMG3,E.OMG4,E.OMG13,E.OMG15,E.OMG20,F.OMG1,F.OMG3,F.OMG4,F.OMG13,F.OMG15,F.OMG20
+   6 OMU-u    4    E.OMU2,E.OMU22,F.OMU2,F.OMU22
+   7 UFT-u   10    E.UFT7,E.UFT9,E.UFT16,E.UFT19,E.UFT26,F.UFT7,F.UFT9,F.UFT16,F.UFT19,F.UFT26
+
+****************************************************************************
+List of 24 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 E.OMG1         E.OMC30        g-c WC          19-XIX    cWW  cW-W
+   2 E.OMU2         E.A2M29        u-a WC          20-XX     cWW  cW-W
+   3 E.OMG3         E.OMC28        g-c WC          19-XIX    cWW  cW-W
+   4 E.OMG4         E.OMC27        g-c WC          19-XIX    cWW  cW-W
+   5 E.A2M5         E.UFT26        a-u WC          20-XX     cWW  cW-W
+   6 E.CFZ6         E.CFZ25        c-c --          --        cWW  cW-W
+   7 E.UFT7         E.OMC24        u+c --          --        tWW  tW+W
+   8 E.A2M8         E.OMU22        a-u rHoogsteen  24-XXIV   tHW  tM-W
+   9 E.A2M10        E.G23          a-G Sheared     11-XI     tHS  tM-m
+  10 E.OMG13        E.CFZ21        g-c WC          19-XIX    cWW  cW-W
+  11 E.CFZ14        E.OMG20        c-g WC          19-XIX    cWW  cW-W
+  12 E.OMG15        E.A2M18        g+a --          10-X      tSW  tm+W
+  13 F.OMG1         F.OMC30        g-c WC          19-XIX    cWW  cW-W
+  14 F.OMU2         F.A2M29        u-a WC          20-XX     cWW  cW-W
+  15 F.OMG3         F.OMC28        g-c WC          19-XIX    cWW  cW-W
+  16 F.OMG4         F.OMC27        g-c WC          19-XIX    cWW  cW-W
+  17 F.A2M5         F.UFT26        a-u WC          20-XX     cWW  cW-W
+  18 F.CFZ6         F.CFZ25        c-c --          --        cWW  cW-W
+  19 F.UFT7         F.OMC24        u+c --          --        tWW  tW+W
+  20 F.A2M8         F.OMU22        a-u rHoogsteen  24-XXIV   tHW  tM-W
+  21 F.A2M10        F.G23          a-G Sheared     11-XI     tHS  tM-m
+  22 F.OMG13        F.CFZ21        g-c WC          19-XIX    cWW  cW-W
+  23 F.CFZ14        F.OMG20        c-g WC          19-XIX    cWW  cW-W
+  24 F.OMG15        F.A2M18        g+a --          10-X      tSW  tm+W
+
+****************************************************************************
+List of 2 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[2] bps=12
+      strand-1 5'-guggacuaagcg-3'
+       bp-type    |||||....||.
+      strand-2 3'-caccuccGucga-5'
+      helix-form  AAAA..xxxAx
+   1 E.OMG1         E.OMC30        g-c WC           19-XIX    cWW  cW-W
+   2 E.OMU2         E.A2M29        u-a WC           20-XX     cWW  cW-W
+   3 E.OMG3         E.OMC28        g-c WC           19-XIX    cWW  cW-W
+   4 E.OMG4         E.OMC27        g-c WC           19-XIX    cWW  cW-W
+   5 E.A2M5         E.UFT26        a-u WC           20-XX     cWW  cW-W
+   6 E.CFZ6         E.CFZ25        c-c --           --        cWW  cW-W
+   7 E.UFT7         E.OMC24        u+c --           --        tWW  tW+W
+   8 E.A2M10        E.G23          a-G Sheared      11-XI     tHS  tM-m
+   9 E.A2M8         E.OMU22        a-u rHoogsteen   24-XXIV   tHW  tM-W
+  10 E.OMG13        E.CFZ21        g-c WC           19-XIX    cWW  cW-W
+  11 E.CFZ14        E.OMG20        c-g WC           19-XIX    cWW  cW-W
+  12 E.OMG15        E.A2M18        g+a --           10-X      tSW  tm+W
+  --------------------------------------------------------------------------
+  helix#2[2] bps=12
+      strand-1 5'-guggacuaagcg-3'
+       bp-type    |||||....||.
+      strand-2 3'-caccuccGucga-5'
+      helix-form  AAAA..xxxAx
+   1 F.OMG1         F.OMC30        g-c WC           19-XIX    cWW  cW-W
+   2 F.OMU2         F.A2M29        u-a WC           20-XX     cWW  cW-W
+   3 F.OMG3         F.OMC28        g-c WC           19-XIX    cWW  cW-W
+   4 F.OMG4         F.OMC27        g-c WC           19-XIX    cWW  cW-W
+   5 F.A2M5         F.UFT26        a-u WC           20-XX     cWW  cW-W
+   6 F.CFZ6         F.CFZ25        c-c --           --        cWW  cW-W
+   7 F.UFT7         F.OMC24        u+c --           --        tWW  tW+W
+   8 F.A2M10        F.G23          a-G Sheared      11-XI     tHS  tM-m
+   9 F.A2M8         F.OMU22        a-u rHoogsteen   24-XXIV   tHW  tM-W
+  10 F.OMG13        F.CFZ21        g-c WC           19-XIX    cWW  cW-W
+  11 F.CFZ14        F.OMG20        c-g WC           19-XIX    cWW  cW-W
+  12 F.OMG15        F.A2M18        g+a --           10-X      tSW  tm+W
+
+****************************************************************************
+List of 4 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=5
+      strand-1 5'-gugga-3'
+       bp-type    |||||
+      strand-2 3'-caccu-5'
+      helix-form  AAAA
+   1 E.OMG1         E.OMC30        g-c WC           19-XIX    cWW  cW-W
+   2 E.OMU2         E.A2M29        u-a WC           20-XX     cWW  cW-W
+   3 E.OMG3         E.OMC28        g-c WC           19-XIX    cWW  cW-W
+   4 E.OMG4         E.OMC27        g-c WC           19-XIX    cWW  cW-W
+   5 E.A2M5         E.UFT26        a-u WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#2[#1] bps=2
+      strand-1 5'-gc-3'
+       bp-type    ||
+      strand-2 3'-cg-5'
+      helix-form  A
+   1 E.OMG13        E.CFZ21        g-c WC           19-XIX    cWW  cW-W
+   2 E.CFZ14        E.OMG20        c-g WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#3[#2] bps=5
+      strand-1 5'-gugga-3'
+       bp-type    |||||
+      strand-2 3'-caccu-5'
+      helix-form  AAAA
+   1 F.OMG1         F.OMC30        g-c WC           19-XIX    cWW  cW-W
+   2 F.OMU2         F.A2M29        u-a WC           20-XX     cWW  cW-W
+   3 F.OMG3         F.OMC28        g-c WC           19-XIX    cWW  cW-W
+   4 F.OMG4         F.OMC27        g-c WC           19-XIX    cWW  cW-W
+   5 F.A2M5         F.UFT26        a-u WC           20-XX     cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#4[#2] bps=2
+      strand-1 5'-gc-3'
+       bp-type    ||
+      strand-2 3'-cg-5'
+      helix-form  A
+   1 F.OMG13        F.CFZ21        g-c WC           19-XIX    cWW  cW-W
+   2 F.CFZ14        F.OMG20        c-g WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 2 coaxial stacks
+   1 Helix#1 contains 2 stems: [#1,#2]
+   2 Helix#2 contains 2 stems: [#3,#4]
+
+****************************************************************************
+List of 10 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 gt E.OMG1,E.ATD31
+   2 nts=2 ag E.A2M18,E.OMG20
+   3 nts=2 gt F.OMG1,F.ATD31
+   4 nts=2 ag F.A2M18,F.OMG20
+   5 nts=3 cga E.CFZ14,E.OMG15,E.A2M17
+   6 nts=3 cga F.CFZ14,F.OMG15,F.A2M17
+   7 nts=6 acuGuc E.A2M5,E.CFZ6,E.UFT7,E.G23,E.OMU22,E.CFZ21
+   8 nts=6 gaaccu E.OMG13,E.A2M8,E.A2M10,E.OMC24,E.CFZ25,E.UFT26
+   9 nts=6 acuGuc F.A2M5,F.CFZ6,F.UFT7,F.G23,F.OMU22,F.CFZ21
+  10 nts=6 gaaccu F.OMG13,F.A2M8,F.A2M10,F.OMC24,F.CFZ25,F.UFT26
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=10 uccuuuccuu E.UFT9,E.CFZ11,E.CFZ12,E.UFT16,E.UFT19,F.UFT9,F.CFZ11,F.CFZ12,F.UFT16,F.UFT19
+
+****************************************************************************
+List of 3 atom-base capping interactions
+    dv: vertical distance of the atom above the nucleotide base
+    -----------------------------------------------------------
+     type       atom                 nt             dv
+   1 sugar      O4'@E.A2M17          E.A2M18        3.22
+   2 sugar      O4'@E.ATD31          E.OMC30        3.16
+   3 sugar      O4'@F.A2M17          F.A2M18        3.22
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      isolated WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 2 hairpin loops
+   1 hairpin loop: nts=7; [5]; linked by [#2]
+     summary: [1] 5 [E.14 E.20] 2
+     nts=7 cguaaug E.CFZ14,E.OMG15,E.UFT16,E.A2M17,E.A2M18,E.UFT19,E.OMG20
+       nts=5 guaau E.OMG15,E.UFT16,E.A2M17,E.A2M18,E.UFT19
+   2 hairpin loop: nts=7; [5]; linked by [#4]
+     summary: [1] 5 [F.14 F.20] 2
+     nts=7 cguaaug F.CFZ14,F.OMG15,F.UFT16,F.A2M17,F.A2M18,F.UFT19,F.OMG20
+       nts=5 guaau F.OMG15,F.UFT16,F.A2M17,F.A2M18,F.UFT19
+
+****************************************************************************
+List of 2 internal loops
+   1 asymmetric internal loop: nts=15; [7,4]; linked by [#1,#2]
+     summary: [2] 7 4 [E.5 E.26 E.13 E.21] 5 2
+     nts=15 acuauaccgcuGccu E.A2M5,E.CFZ6,E.UFT7,E.A2M8,E.UFT9,E.A2M10,E.CFZ11,E.CFZ12,E.OMG13,E.CFZ21,E.OMU22,E.G23,E.OMC24,E.CFZ25,E.UFT26
+       nts=7 cuauacc E.CFZ6,E.UFT7,E.A2M8,E.UFT9,E.A2M10,E.CFZ11,E.CFZ12
+       nts=4 uGcc E.OMU22,E.G23,E.OMC24,E.CFZ25
+   2 asymmetric internal loop: nts=15; [7,4]; linked by [#3,#4]
+     summary: [2] 7 4 [F.5 F.26 F.13 F.21] 5 2
+     nts=15 acuauaccgcuGccu F.A2M5,F.CFZ6,F.UFT7,F.A2M8,F.UFT9,F.A2M10,F.CFZ11,F.CFZ12,F.OMG13,F.CFZ21,F.OMU22,F.G23,F.OMC24,F.CFZ25,F.UFT26
+       nts=7 cuauacc F.CFZ6,F.UFT7,F.A2M8,F.UFT9,F.A2M10,F.CFZ11,F.CFZ12
+       nts=4 uGcc F.OMU22,F.G23,F.OMC24,F.CFZ25
+
+****************************************************************************
+List of 2 non-loop single-stranded segments
+   1 nts=1 t E.ATD31
+   2 nts=1 t F.ATD31
+
+****************************************************************************
+List of 14 splayed-apart dinucleotides
+   1 E.A2M8     E.UFT9     angle=128    distance=17.0     ratio=0.90
+   2 E.UFT9     E.A2M10    angle=133    distance=17.2     ratio=0.92
+   3 E.CFZ11    E.CFZ12    angle=131    distance=14.5     ratio=0.91
+   4 E.CFZ12    E.OMG13    angle=112    distance=15.5     ratio=0.83
+   5 E.OMG15    E.UFT16    angle=112    distance=14.1     ratio=0.83
+   6 E.A2M18    E.UFT19    angle=109    distance=13.5     ratio=0.81
+   7 E.UFT19    E.OMG20    angle=109    distance=15.1     ratio=0.82
+   8 F.A2M8     F.UFT9     angle=129    distance=17.2     ratio=0.90
+   9 F.UFT9     F.A2M10    angle=134    distance=17.4     ratio=0.92
+  10 F.CFZ11    F.CFZ12    angle=135    distance=14.6     ratio=0.92
+  11 F.CFZ12    F.OMG13    angle=110    distance=15.3     ratio=0.82
+  12 F.OMG15    F.UFT16    angle=118    distance=14.7     ratio=0.86
+  13 F.A2M18    F.UFT19    angle=109    distance=13.6     ratio=0.82
+  14 F.UFT19    F.OMG20    angle=111    distance=15.1     ratio=0.82
+----------------------------------------------------------------
+Summary of 8 splayed-apart units
+   1 nts=3 aua E.A2M8,E.UFT9,E.A2M10
+   2 nts=3 ccg E.CFZ11,E.CFZ12,E.OMG13
+   3 nts=2 gu E.OMG15,E.UFT16
+   4 nts=3 aug E.A2M18,E.UFT19,E.OMG20
+   5 nts=3 aua F.A2M8,F.UFT9,F.A2M10
+   6 nts=3 ccg F.CFZ11,F.CFZ12,F.OMG13
+   7 nts=2 gu F.OMG15,F.UFT16
+   8 nts=3 aug F.A2M18,F.UFT19,F.OMG20
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>8EPK nts=62 [whole]
+guggacuauaccgcguaaugcuGccuccact&guggacuauaccgcguaaugcuGccuccact
+(((((.......((.....))....))))).&(((((.......((.....))....))))).
+>8EPK-E #1 nts=31 0.22(3.69) [chain] RNA[30]/1
+guggacuauaccgcguaaugcuGccuccact
+(((((.......((.....))....))))).
+>8EPK-F #2 nts=31 0.24(3.68) [chain] RNA[30]/1
+guggacuauaccgcguaaugcuGccuccact
+(((((.......((.....))....))))).
+
+****************************************************************************
+Summary of structural features of 62 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  g ( E.OMG1     0.079  modified,anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+   2  u ( E.OMU2     0.048  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   3  g ( E.OMG3     0.071  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   4  g ( E.OMG4     0.071  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+   5  a ( E.A2M5     0.068  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+   6  c . E.CFZ6     0.035  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+   7  u . E.UFT7     0.050  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+   8  a . E.A2M8     0.064  modified,anti,~C2'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+   9  u . E.UFT9     0.051  modified,turn,anti,~C3'-endo,non-stack,internal-loop,phosphate,splayed-apart
+  10  a . E.A2M10    0.062  modified,anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,splayed-apart
+  11  c . E.CFZ11    0.028  modified,turn,syn,non-stack,non-pair-contact,internal-loop,splayed-apart
+  12  c . E.CFZ12    0.026  modified,syn,non-stack,non-pair-contact,internal-loop,splayed-apart
+  13  g ( E.OMG13    0.075  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,splayed-apart
+  14  c ( E.CFZ14    0.028  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+  15  g . E.OMG15    0.073  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+  16  u . E.UFT16    0.053  modified,turn,~C2'-endo,non-stack,hairpin-loop,splayed-apart
+  17  a . E.A2M17    0.066  modified,anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-donor
+  18  a . E.A2M18    0.068  modified,turn,syn,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,splayed-apart
+  19  u . E.UFT19    0.049  modified,turn,anti,~C3'-endo,non-stack,hairpin-loop,splayed-apart
+  20  g ) E.OMG20    0.078  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate,splayed-apart
+  21  c ) E.CFZ21    0.030  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  22  u . E.OMU22    0.050  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+  23  G . E.G23      0.004  anti,~C2'-endo,non-canonical,non-pair-contact,helix,internal-loop
+  24  c . E.OMC24    0.030  modified,syn,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+  25  c . E.CFZ25    0.031  modified,anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+  26  u ) E.UFT26    0.052  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  27  c ) E.OMC27    0.028  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  28  c ) E.OMC28    0.029  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  29  a ) E.A2M29    0.062  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack,phosphate
+  30  c ) E.OMC30    0.028  modified,anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack,cap-acceptor
+  31  t . E.ATD31    0.103  modified,anti,non-pair-contact,ss-non-loop,cap-donor
+  32  g ( F.OMG1     0.079  modified,anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  33  u ( F.OMU2     0.051  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  34  g ( F.OMG3     0.075  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  35  g ( F.OMG4     0.072  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  36  a ( F.A2M5     0.068  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  37  c . F.CFZ6     0.032  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+  38  u . F.UFT7     0.048  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+  39  a . F.A2M8     0.063  modified,anti,~C2'-endo,non-canonical,non-pair-contact,helix,internal-loop,phosphate,splayed-apart
+  40  u . F.UFT9     0.052  modified,turn,anti,~C3'-endo,non-stack,internal-loop,phosphate,splayed-apart
+  41  a . F.A2M10    0.062  modified,anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop,splayed-apart
+  42  c . F.CFZ11    0.027  modified,turn,syn,non-stack,non-pair-contact,internal-loop,splayed-apart
+  43  c . F.CFZ12    0.027  modified,syn,non-stack,non-pair-contact,internal-loop,splayed-apart
+  44  g ( F.OMG13    0.074  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop,splayed-apart
+  45  c ( F.CFZ14    0.028  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop
+  46  g . F.OMG15    0.072  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,splayed-apart
+  47  u . F.UFT16    0.049  modified,turn,~C2'-endo,non-stack,hairpin-loop,splayed-apart
+  48  a . F.A2M17    0.066  modified,anti,~C2'-endo,non-pair-contact,hairpin-loop,cap-donor
+  49  a . F.A2M18    0.067  modified,turn,syn,~C3'-endo,BI,non-canonical,non-pair-contact,helix-end,hairpin-loop,cap-acceptor,splayed-apart
+  50  u . F.UFT19    0.048  modified,turn,anti,~C3'-endo,non-stack,hairpin-loop,splayed-apart
+  51  g ) F.OMG20    0.078  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,hairpin-loop,phosphate,splayed-apart
+  52  c ) F.CFZ21    0.029  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  53  u . F.OMU22    0.051  modified,anti,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop
+  54  G . F.G23      0.003  anti,~C2'-endo,BII,non-canonical,non-pair-contact,helix,internal-loop
+  55  c . F.OMC24    0.032  modified,syn,~C3'-endo,BI,non-canonical,non-pair-contact,helix,internal-loop,phosphate
+  56  c . F.CFZ25    0.033  modified,anti,~C3'-endo,non-canonical,non-pair-contact,helix,internal-loop
+  57  u ) F.UFT26    0.053  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem-end,coaxial-stack,internal-loop
+  58  c ) F.OMC27    0.027  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  59  c ) F.OMC28    0.030  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  60  a ) F.A2M29    0.064  modified,anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,coaxial-stack
+  61  c ) F.OMC30    0.026  modified,anti,~C3'-endo,canonical,non-pair-contact,helix-end,stem-end,coaxial-stack
+  62  t . F.ATD31    0.103  modified,anti,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 12 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-stems.pdb -- an ensemble of stems
+   3 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   4 dssr-hairpins.pdb -- an ensemble of hairpin loops
+   5 dssr-iloops.pdb -- an ensemble of internal loops
+   6 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   7 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   8 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   9 dssr-torsions.txt -- backbone torsion angles and suite names
+  10 dssr-splays.pdb -- an ensemble of splayed-apart units
+  11 dssr-stacks.pdb -- an ensemble of base stacks
+  12 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
+
+****************************************************************************
+Time used: 00:00:00:00

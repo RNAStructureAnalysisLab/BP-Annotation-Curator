@@ -1,0 +1,122 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/3R9W.pdb -o=dssr_annotations/3R9W.pdb.dssr
+Date and time: Sun May  4 17:05:39 2025
+File name: 3R9W.pdb
+    no. of DNA/RNA chains: 1 [B=34]
+    no. of nucleotides:    35
+    no. of atoms:          3280
+    no. of waters:         91
+    no. of metals:         2 [Mg=1,Ca=1]
+
+****************************************************************************
+List of 1 type of 1 modified nucleotide
+      nt    count  list
+   1 GNP-g    1    A.GNP402
+
+****************************************************************************
+List of 7 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 RA A.ARG207,B.A1531
+   2 nts=2 CC B.C1538,B.C1539
+   3 nts=3 YUC A.TYR276,B.U1537,B.C1536
+   4 nts=3 AAC B.A1507,B.A1508,B.C1509
+   5 nts=6 GGUUGG B.G1525,B.G1526,B.U1527,B.U1528,B.G1529,B.G1530
+   6 nts=7 GUAGGGG B.G1511,B.U1512,B.A1513,B.G1514,B.G1515,B.G1516,B.G1517
+   7 nts=7 AACCUGC B.A1518,B.A1519,B.C1520,B.C1521,B.U1522,B.G1523,B.C1524
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=6 CCUCAg B.C1506,B.C1510,B.U1532,B.C1533,B.A1534,A.GNP402
+
+****************************************************************************
+List of 2 non-loop single-stranded segments
+   1 nts=34 CAACCGUAGGGGAACCUGCGGUUGGAUCACCUCC B.C1506,B.A1507,B.A1508,B.C1509,B.C1510,B.G1511,B.U1512,B.A1513,B.G1514,B.G1515,B.G1516,B.G1517,B.A1518,B.A1519,B.C1520,B.C1521,B.U1522,B.G1523,B.C1524,B.G1525,B.G1526,B.U1527,B.U1528,B.G1529,B.G1530,B.A1531,B.U1532,B.C1533,B.A1534,B.C1535,B.C1536,B.U1537,B.C1538,B.C1539
+   2 nts=1 g A.GNP402
+
+****************************************************************************
+List of 2 splayed-apart dinucleotides
+   1 B.A1531  B.U1532  angle=85     distance=13.4     ratio=0.68
+   2 B.U1532  B.C1533  angle=94     distance=14.7     ratio=0.73
+----------------------------------------------------------------
+Summary of 1 splayed-apart unit
+   1 nts=3 AUC B.A1531,B.U1532,B.C1533
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>3R9W nts=35 [whole]
+CAACCGUAGGGGAACCUGCGGUUGGAUCACCUCC&g
+..................................&.
+>3R9W-B #1 nts=34 2.63(2.01) [chain] RNA
+CAACCGUAGGGGAACCUGCGGUUGGAUCACCUCC
+..................................
+
+****************************************************************************
+Summary of structural features of 35 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . B.C1506  0.008  anti,~C3'-endo,BI,non-stack,ss-non-loop
+   2  A . B.A1507  0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  A . B.A1508  0.016  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   4  C . B.C1509  0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   5  C . B.C1510  0.006  anti,~C3'-endo,BI,non-stack,ss-non-loop
+   6  G . B.G1511  0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  U . B.U1512  0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  A . B.A1513  0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  G . B.G1514  0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  G . B.G1515  0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  11  G . B.G1516  0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  12  G . B.G1517  0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  13  A . B.A1518  0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  14  A . B.A1519  0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  15  C . B.C1520  0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  16  C . B.C1521  0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  17  U . B.U1522  0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  18  G . B.G1523  0.013  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  19  C . B.C1524  0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  20  G . B.G1525  0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  21  G . B.G1526  0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  22  U . B.U1527  0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  23  U . B.U1528  0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  24  G . B.G1529  0.009  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  25  G . B.G1530  0.013  anti,~C2'-endo,non-pair-contact,ss-non-loop,phosphate
+  26  A . B.A1531  0.016  turn,anti,~C2'-endo,ss-non-loop,splayed-apart
+  27  U . B.U1532  0.012  anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,phosphate,splayed-apart
+  28  C . B.C1533  0.006  anti,~C2'-endo,non-stack,non-pair-contact,ss-non-loop,splayed-apart
+  29  A . B.A1534  0.010  anti,~C2'-endo,BII,non-stack,non-pair-contact,ss-non-loop,phosphate
+  30  C . B.C1535  0.009  anti,~C2'-endo,ss-non-loop
+  31  C . B.C1536  0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  32  U . B.U1537  0.012  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  33  C . B.C1538  0.006  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  34  C . B.C1539  0.005  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  35  g . A.GNP402 0.013  modified,anti,~C2'-endo,non-stack,ss-non-loop
+
+****************************************************************************
+List of 6 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-splays.pdb -- an ensemble of splayed-apart units
+   6 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

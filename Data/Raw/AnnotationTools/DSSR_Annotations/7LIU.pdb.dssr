@@ -1,0 +1,201 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/7LIU.pdb -o=dssr_annotations/7LIU.pdb.dssr
+Date and time: Sun May  4 17:09:25 2025
+File name: 7LIU.pdb
+    no. of DNA/RNA chains: 2 [X=14,Y=14]
+    no. of nucleotides:    30
+    no. of atoms:          7658
+    no. of waters:         8
+    no. of metals:         4 [Be=2,Mg=2]
+
+****************************************************************************
+List of 1 type of 2 modified nucleotides
+      nt    count  list
+   1 08T-a    2    A.08T902,B.08T902
+
+****************************************************************************
+List of 8 base pairs
+     nt1            nt2            bp  name        Saenger   LW   DSSR
+   1 X.G705         Y.DC714        G-C WC          19-XIX    cWW  cW-W
+   2 X.G706         Y.DC713        G-C WC          19-XIX    cWW  cW-W
+   3 X.G707         Y.DC712        G-C WC          19-XIX    cWW  cW-W
+   4 X.DC708        Y.DG711        C-G WC          19-XIX    cWW  cW-W
+   5 X.DG711        Y.DC708        G-C WC          19-XIX    cWW  cW-W
+   6 X.DC712        Y.G707         C-G WC          19-XIX    cWW  cW-W
+   7 X.DC713        Y.G706         C-G WC          19-XIX    cWW  cW-W
+   8 X.DC714        Y.G705         C-G WC          19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 2 helices
+  Note: a helix is defined by base-stacking interactions, regardless of bp
+        type and backbone connectivity, and may contain more than one stem.
+      helix#number[stems-contained] bps=number-of-base-pairs in the helix
+      bp-type: '|' for a canonical WC/wobble pair, '.' otherwise
+      helix-form: classification of a dinucleotide step comprising the bp
+        above the given designation and the bp that follows it. Types
+        include 'A', 'B' or 'Z' for the common A-, B- and Z-form helices,
+        '.' for an unclassified step, and 'x' for a step without a
+        continuous backbone.
+      --------------------------------------------------------------------
+  helix#1[1] bps=4
+      strand-1 5'-GGGC-3'
+       bp-type    ||||
+      strand-2 3'-CCCG-5'
+      helix-form  A..
+   1 X.G705         Y.DC714        G-C WC           19-XIX    cWW  cW-W
+   2 X.G706         Y.DC713        G-C WC           19-XIX    cWW  cW-W
+   3 X.G707         Y.DC712        G-C WC           19-XIX    cWW  cW-W
+   4 X.DC708        Y.DG711        C-G WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  helix#2[1] bps=4
+      strand-1 5'-GCCC-3'
+       bp-type    ||||
+      strand-2 3'-CGGG-5'
+      helix-form  AA.
+   1 X.DG711        Y.DC708        G-C WC           19-XIX    cWW  cW-W
+   2 X.DC712        Y.G707         C-G WC           19-XIX    cWW  cW-W
+   3 X.DC713        Y.G706         C-G WC           19-XIX    cWW  cW-W
+   4 X.DC714        Y.G705         C-G WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 2 stems
+  Note: a stem is defined as a helix consisting of only canonical WC/wobble
+        pairs, with a continuous backbone.
+      stem#number[#helix-number containing this stem]
+      Other terms are defined as in the above Helix section.
+      --------------------------------------------------------------------
+  stem#1[#1] bps=4
+      strand-1 5'-GGGC-3'
+       bp-type    ||||
+      strand-2 3'-CCCG-5'
+      helix-form  A..
+   1 X.G705         Y.DC714        G-C WC           19-XIX    cWW  cW-W
+   2 X.G706         Y.DC713        G-C WC           19-XIX    cWW  cW-W
+   3 X.G707         Y.DC712        G-C WC           19-XIX    cWW  cW-W
+   4 X.DC708        Y.DG711        C-G WC           19-XIX    cWW  cW-W
+  --------------------------------------------------------------------------
+  stem#2[#2] bps=4
+      strand-1 5'-GCCC-3'
+       bp-type    ||||
+      strand-2 3'-CGGG-5'
+      helix-form  AA.
+   1 X.DG711        Y.DC708        G-C WC           19-XIX    cWW  cW-W
+   2 X.DC712        Y.G707         C-G WC           19-XIX    cWW  cW-W
+   3 X.DC713        Y.G706         C-G WC           19-XIX    cWW  cW-W
+   4 X.DC714        Y.G705         C-G WC           19-XIX    cWW  cW-W
+
+****************************************************************************
+List of 6 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=2 Ya A.TYR200,A.08T902
+   2 nts=2 Ya B.TYR200,B.08T902
+   3 nts=3 CCC X.DC708,X.DC709,X.DC710
+   4 nts=3 CCC Y.DC708,Y.DC709,Y.DC710
+   5 nts=4 GGGC X.G701,X.G702,X.G703,X.C704
+   6 nts=4 GGGC Y.G701,Y.G702,Y.G703,Y.C704
+
+****************************************************************************
+Nucleotides not involved in stacking interactions
+     nts=1 C X.DC714
+
+****************************************************************************
+Note: for the various types of loops listed below, numbers within the first
+      set of brackets are the number of loop nts, and numbers in the second
+      set of brackets are the identities of the stems (positive number) or
+      isolated WC/wobble pairs (negative numbers) to which they are linked.
+
+****************************************************************************
+List of 1 internal loop
+   1 symmetric internal loop: nts=8; [2,2]; linked by [#1,#2]
+     summary: [2] 2 2 [X.708 Y.711 X.711 Y.708] 4 4
+     nts=8 CCCGCCCG X.DC708,X.DC709,X.DC710,X.DG711,Y.DC708,Y.DC709,Y.DC710,Y.DG711
+       nts=2 CC X.DC709,X.DC710
+       nts=2 CC Y.DC709,Y.DC710
+
+****************************************************************************
+List of 4 non-loop single-stranded segments
+   1 nts=4 GGGC X.G701,X.G702,X.G703,X.C704
+   2 nts=4 GGGC Y.G701,Y.G702,Y.G703,Y.C704
+   3 nts=1 a A.08T902
+   4 nts=1 a B.08T902
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>7LIU nts=30 [whole]
+GGGCGGGCCCGCCC&GGGCGGGCCCGCCC&a&a
+....((((..((((&....))))..))))&.&.
+>7LIU-X #1 nts=14 1.54(1.93) [chain] DNA[7]/RNA[7]
+GGGCGGGCCCGCCC
+....((((..((((
+>7LIU-Y #2 nts=14 1.86(1.89) [chain] DNA[7]/RNA[7]
+GGGCGGGCCCGCCC
+....))))..))))
+
+****************************************************************************
+Summary of structural features of 30 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  G . X.G701    0.015  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   2  G . X.G702    0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   3  G . X.G703    0.017  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
+   4  C . X.C704    0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+   5  G ( X.G705    0.019  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,phosphate
+   6  G ( X.G706    0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+   7  G ( X.G707    0.012  anti,~C3'-endo,canonical,non-pair-contact,helix,stem
+   8  C ( X.DC708   0.005  anti,BI,canonical,non-pair-contact,helix-end,stem-end,internal-loop
+   9  C . X.DC709   0.007  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  10  C . X.DC710   0.005  anti,~C2'-endo,non-pair-contact,internal-loop
+  11  G ( X.DG711   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,internal-loop
+  12  C ( X.DC712   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  13  C ( X.DC713   0.006  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  14  C ( X.DC714   0.005  anti,~C2'-endo,non-stack,canonical,helix-end,stem-end
+  15  G . Y.G701    0.014  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  16  G . Y.G702    0.011  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  17  G . Y.G703    0.016  anti,~C3'-endo,non-pair-contact,ss-non-loop,phosphate
+  18  C . Y.C704    0.007  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  19  G ) Y.G705    0.018  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,phosphate
+  20  G ) Y.G706    0.009  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem,phosphate
+  21  G ) Y.G707    0.006  anti,~C3'-endo,canonical,non-pair-contact,helix,stem
+  22  C ) Y.DC708   0.004  anti,BI,canonical,non-pair-contact,helix-end,stem-end,internal-loop,phosphate
+  23  C . Y.DC709   0.005  anti,~C3'-endo,BI,non-pair-contact,internal-loop
+  24  C . Y.DC710   0.003  anti,~C2'-endo,non-pair-contact,internal-loop
+  25  G ) Y.DG711   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix-end,stem-end,internal-loop
+  26  C ) Y.DC712   0.005  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  27  C ) Y.DC713   0.004  anti,~C3'-endo,BI,canonical,non-pair-contact,helix,stem
+  28  C ) Y.DC714   0.003  anti,~C2'-endo,canonical,non-pair-contact,helix-end,stem-end
+  29  a . A.08T902  0.068  modified,anti,~C2'-endo,ss-non-loop
+  30  a . B.08T902  0.065  modified,anti,~C2'-endo,ss-non-loop
+
+****************************************************************************
+List of 9 additional files
+   1 dssr-pairs.pdb -- an ensemble of base pairs
+   2 dssr-stems.pdb -- an ensemble of stems
+   3 dssr-helices.pdb -- an ensemble of helices (coaxial stacking)
+   4 dssr-iloops.pdb -- an ensemble of internal loops
+   5 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   6 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   7 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   8 dssr-torsions.txt -- backbone torsion angles and suite names
+   9 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00

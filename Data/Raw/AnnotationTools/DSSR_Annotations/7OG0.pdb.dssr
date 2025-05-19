@@ -1,0 +1,101 @@
+****************************************************************************
+           DSSR: an Integrated Software Tool for
+          Dissecting the Spatial Structure of RNA
+           v2.4.2-2023may01 by xiangjun@x3dna.org
+
+****************************************************************************
+Note: By default, each nucleotide is identified by chainId.name#. So a
+      common case would be B.A1689, meaning adenosine #1689 on chain B.
+      One-letter base names for modified nucleotides are put in lower
+      case (e.g., 'c' for 5MC). For further information about the output
+      notation, please refer to the DSSR User Manual.
+    Questions and suggestions are *always* welcome on the 3DNA Forum.
+
+Command: dssr -i=pdb_files/7OG0.pdb -o=dssr_annotations/7OG0.pdb.dssr
+Date and time: Sun May  4 17:09:28 2025
+File name: 7OG0.pdb
+    no. of DNA/RNA chains: 2 [D=17,E=17]
+    no. of nucleotides:    34
+    no. of atoms:          8896
+    no. of waters:         157
+    no. of metals:         2 [Ca=2]
+
+****************************************************************************
+List of 2 base stacks
+  Note: a stack is an ordered list of nucleotides assembled together via
+        base-stacking interactions, regardless of backbone connectivity.
+        Stacking interactions within a stem are *not* included.
+   1 nts=17 CCCCCCCCCGGGGGGGG D.C2,D.C3,D.C4,D.C5,D.C6,D.C7,D.C8,D.C9,D.C10,D.G11,D.G12,D.G13,D.G14,D.G15,D.G16,D.G17,D.G18
+   2 nts=17 CCCCCCCCCGGGGGGGG E.C2,E.C3,E.C4,E.C5,E.C6,E.C7,E.C8,E.C9,E.C10,E.G11,E.G12,E.G13,E.G14,E.G15,E.G16,E.G17,E.G18
+
+****************************************************************************
+List of 2 non-loop single-stranded segments
+   1 nts=17 CCCCCCCCCGGGGGGGG D.C2,D.C3,D.C4,D.C5,D.C6,D.C7,D.C8,D.C9,D.C10,D.G11,D.G12,D.G13,D.G14,D.G15,D.G16,D.G17,D.G18
+   2 nts=17 CCCCCCCCCGGGGGGGG E.C2,E.C3,E.C4,E.C5,E.C6,E.C7,E.C8,E.C9,E.C10,E.G11,E.G12,E.G13,E.G14,E.G15,E.G16,E.G17,E.G18
+
+****************************************************************************
+Secondary structures in dot-bracket notation (dbn) as a whole and per chain
+>7OG0 nts=34 [whole]
+CCCCCCCCCGGGGGGGG&CCCCCCCCCGGGGGGGG
+.................&.................
+>7OG0-D #1 nts=17 2.73(0.14) [chain] RNA
+CCCCCCCCCGGGGGGGG
+.................
+>7OG0-E #2 nts=17 2.75(0.11) [chain] RNA
+CCCCCCCCCGGGGGGGG
+.................
+
+****************************************************************************
+Summary of structural features of 34 nucleotides
+  Note: the first five columns are: (1) serial number, (2) one-letter
+    shorthand name, (3) dbn, (4) id string, (5) rmsd (~zero) of base
+    ring atoms fitted against those in a standard base reference
+    frame. The sixth (last) column contains a comma-separated list of
+    features whose meanings are mostly self-explanatory, except for:
+      turn: angle C1'(i-1)--C1'(i)--C1'(i+1) < 90 degrees
+      break: no backbone linkage between O3'(i-1) and P(i)
+   1  C . D.C2     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   2  C . D.C3     0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   3  C . D.C4     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   4  C . D.C5     0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+   5  C . D.C6     0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   6  C . D.C7     0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   7  C . D.C8     0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   8  C . D.C9     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+   9  C . D.C10    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  10  G . D.G11    0.008  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  11  G . D.G12    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  12  G . D.G13    0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  13  G . D.G14    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  14  G . D.G15    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  15  G . D.G16    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  16  G . D.G17    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  17  G . D.G18    0.002  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  18  C . E.C2     0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  19  C . E.C3     0.002  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  20  C . E.C4     0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  21  C . E.C5     0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+  22  C . E.C6     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  23  C . E.C7     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  24  C . E.C8     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  25  C . E.C9     0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  26  C . E.C10    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  27  G . E.G11    0.006  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop,phosphate
+  28  G . E.G12    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  29  G . E.G13    0.003  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  30  G . E.G14    0.004  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  31  G . E.G15    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  32  G . E.G16    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  33  G . E.G17    0.005  anti,~C3'-endo,BI,non-pair-contact,ss-non-loop
+  34  G . E.G18    0.003  anti,~C3'-endo,non-pair-contact,ss-non-loop
+
+****************************************************************************
+List of 5 additional files
+   1 dssr-2ndstrs.bpseq -- secondary structure in bpseq format
+   2 dssr-2ndstrs.ct -- secondary structure in connectivity table format
+   3 dssr-2ndstrs.dbn -- secondary structure in dot-bracket notation
+   4 dssr-torsions.txt -- backbone torsion angles and suite names
+   5 dssr-stacks.pdb -- an ensemble of base stacks
+
+****************************************************************************
+Time used: 00:00:00:00
