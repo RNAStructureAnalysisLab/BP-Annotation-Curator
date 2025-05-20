@@ -67,19 +67,21 @@ class Chain_Restorer:
         pdbx_file_names = os.listdir(Chain_Restorer.PDBX_DIRECTORY)
         for pdbx in pdbx_file_names:
             pdbx = os.path.splitext(pdbx)[0] # get only the PDBx ID
-            for tool in ['CL', 'MC', 'FR', 'MO']:
-                pdb_file_name = os.path.join(
-                    Chain_Restorer.ANNOTATION_DIRECTORY, f"{pdbx}_{tool}.csv"
-                )
-                if not os.path.exists(pdb_file_name):
-                    continue  # Skip if file doesn't exist
-                df = pd.read_csv(pdb_file_name)
-                df['residue1'] = df['residue1'].astype(str)
-                df['residue2'] = df['residue2'].astype(str)
-                for i in range(len(df)):
-                    Chain_Restorer._convert_chain(i, df, 'residue1', pdbx)
-                    Chain_Restorer._convert_chain(i, df, 'residue2', pdbx)
-                df.to_csv(pdb_file_name, index=False)
+            if Chain_Restorer._was_remapped(pdbx):
+                for tool in ['CL', 'MC', 'FR', 'MO']:
+                    pdb_file_name = os.path.join(
+                        Chain_Restorer.ANNOTATION_DIRECTORY, 
+                        f"{pdbx}_{tool}.csv"
+                    )
+                    if not os.path.exists(pdb_file_name):
+                        continue  # Skip if file doesn't exist
+                    df = pd.read_csv(
+                        pdb_file_name, dtype={'residue1': str, 'residue2': str}
+                    )
+                    for i in range(len(df)):
+                        Chain_Restorer._convert_chain(i, df, 'residue1', pdbx)
+                        Chain_Restorer._convert_chain(i, df, 'residue2', pdbx)
+                    df.to_csv(pdb_file_name, index=False)
                         
     
     @staticmethod
@@ -98,6 +100,13 @@ class Chain_Restorer:
             with open(pdb_output_file_name, 'w') as file:
                 pass
             '''
+    
+    @staticmethod
+    def _was_remapped(pdb_id):
+        for key, value in Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb_id].items():
+            if key != value:
+                return True
+        return False
     
     @staticmethod
     def _convert_chain(i, df, column_name, pdb_id):

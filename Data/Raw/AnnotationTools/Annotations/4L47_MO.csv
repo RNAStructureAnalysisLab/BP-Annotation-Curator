@@ -1,15 +1,15 @@
-"residue1","residue2","n_type","description","full description"
-"A29","A30","UC",">>",">>"
-"A30","A29","CU","<<","REV:>>"
-"A31","A32","GU",">>",">>"
-"A31","A40","GG","<>","<>"
-"A32","A31","UG","<<","REV:>>"
-"A34","A35","CG",">>",">>"
-"A35","A34","GC","<<","REV:>>"
-"A37","A38","GA",">>",">>"
-"A38","A37","AG","<<","REV:>>"
-"A38","A39","AC",">>",">>"
-"A39","A38","CA","<<","REV:>>"
-"A40","A31","GG","<>","REV:<>"
-"A40","A41","GA",">>",">>"
-"A41","A40","AG","<<","REV:>>"
+residue1,residue2,n_type,description,full description
+QY29,QY30,UC,>>,>>
+QY30,QY29,CU,<<,REV:>>
+QY31,QY32,GU,>>,>>
+QY31,QY40,GG,<>,<>
+QY32,QY31,UG,<<,REV:>>
+QY34,QY35,CG,>>,>>
+QY35,QY34,GC,<<,REV:>>
+QY37,QY38,GA,>>,>>
+QY38,QY37,AG,<<,REV:>>
+QY38,QY39,AC,>>,>>
+QY39,QY38,CA,<<,REV:>>
+QY40,QY31,GG,<>,REV:<>
+QY40,QY41,GA,>>,>>
+QY41,QY40,AG,<<,REV:>>

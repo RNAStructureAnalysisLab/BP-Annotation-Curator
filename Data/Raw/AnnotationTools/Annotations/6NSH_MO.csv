@@ -1,17 +1,17 @@
-"residue1","residue2","n_type","description","full description"
-"A28","A29","UU",">>",">>"
-"A29","A28","UU","<<","REV:>>"
-"A29","A30","UC",">>",">>"
-"A30","A29","CU","<<","REV:>>"
-"A30","A41","CA","<>","<>"
-"A31","A32","GU",">>",">>"
-"A31","A40","GG","<>","<>"
-"A32","A31","UG","<<","REV:>>"
-"A32","A33","UU",">>",">>"
-"A33","A32","UU","<<","REV:>>"
-"A35","A36","GG",">>",">>"
-"A36","A35","GG","<<","REV:>>"
-"A38","A39","AC",">>",">>"
-"A39","A38","CA","<<","REV:>>"
-"A40","A31","GG","<>","REV:<>"
-"A41","A30","AC","<>","REV:<>"
+residue1,residue2,n_type,description,full description
+XV28,XV29,UU,>>,>>
+XV29,XV28,UU,<<,REV:>>
+XV29,XV30,UC,>>,>>
+XV30,XV29,CU,<<,REV:>>
+XV30,XV41,CA,<>,<>
+XV31,XV32,GU,>>,>>
+XV31,XV40,GG,<>,<>
+XV32,XV31,UG,<<,REV:>>
+XV32,XV33,UU,>>,>>
+XV33,XV32,UU,<<,REV:>>
+XV35,XV36,GG,>>,>>
+XV36,XV35,GG,<<,REV:>>
+XV38,XV39,AC,>>,>>
+XV39,XV38,CA,<<,REV:>>
+XV40,XV31,GG,<>,REV:<>
+XV41,XV30,AC,<>,REV:<>

@@ -1,15 +1,15 @@
-"residue1","residue2","n_type","description","full description"
-"A1","A2","AG",">>",">>"
-"A2","A1","GA","<<","REV:>>"
-"A2","A3","GU",">>",">>"
-"A3","A2","UG","<<","REV:>>"
-"A3","A4","UA",">>",">>"
-"A4","A3","AU","<<","REV:>>"
-"A4","A5","AG","><","><"
-"A5","A4","GA","><","REV:><"
-"A7","A8","AA",">>",">>"
-"A8","A7","AA","<<","REV:>>"
-"A8","A9","AC",">>",">>"
-"A9","A8","CA","<<","REV:>>"
-"A11","A12","AG",">>",">>"
-"A12","A11","GA","<<","REV:>>"
+residue1,residue2,n_type,description,full description
+VVV1,VVV2,AG,>>,>>
+VVV2,VVV1,GA,<<,REV:>>
+VVV2,VVV3,GU,>>,>>
+VVV3,VVV2,UG,<<,REV:>>
+VVV3,VVV4,UA,>>,>>
+VVV4,VVV3,AU,<<,REV:>>
+VVV4,VVV5,AG,><,><
+VVV5,VVV4,GA,><,REV:><
+VVV7,VVV8,AA,>>,>>
+VVV8,VVV7,AA,<<,REV:>>
+VVV8,VVV9,AC,>>,>>
+VVV9,VVV8,CA,<<,REV:>>
+VVV11,VVV12,AG,>>,>>
+VVV12,VVV11,GA,<<,REV:>>

@@ -1,10 +1,8 @@
-import re
+import os
+import pandas as pd
 
-RESIDUE_TEMPLATE = r'([a-zA-Z]+|\d[a-zA-Z]+|\d)(-?\d+)'
+path = os.path.join('Data', 'Raw', 'AnnotationTools', 'Annotations', '4V9F_CL.csv')
+df = pd.read_csv(path, dtype={'residue1': str, 'residue2': str})
+print(df['residue1'].dtype)
 
-string = "08"
-
-groups = re.match(RESIDUE_TEMPLATE, string)
-
-print(groups.group(1))
-print(groups.group(2))
+print(df.head(50))
