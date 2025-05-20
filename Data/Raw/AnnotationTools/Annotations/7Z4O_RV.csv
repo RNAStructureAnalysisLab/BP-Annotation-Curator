@@ -1,0 +1,7 @@
+"residue1","residue2","n_type","description","full description"
+"A2","A9","GC","WW_cis","PP_cis_XIX"
+"A3","A8","UA","WW_cis","MM_cis_XX"
+"A4","A7","AA","SW_cis","SW_cis_na"
+"A7","A4","AA","WS_cis","REV:SW_cis_na"
+"A8","A3","AU","WW_cis","REV:MM_cis_XX"
+"A9","A2","CG","WW_cis","REV:PP_cis_XIX"

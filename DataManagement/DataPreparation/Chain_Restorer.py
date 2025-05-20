@@ -9,14 +9,18 @@
 # -----------------------------------------------------------------------------
 
 import os
+import re
+import pandas as pd
 
 class Chain_Restorer:
-    OUTPUT_DIRECTORY = os.path.join(
+    ANNOTATION_DIRECTORY = os.path.join(
         'Data', 'Raw', 'AnnotationTools', 'Annotations'
     )
-    INPUT_DIRECTORY = os.path.join(
+    DSSR_DIRECTORY = os.path.join(
         'Data', 'Raw', 'AnnotationTools', 'DSSR_Annotations'
     )
+    PDBX_DIRECTORY = os.path.join('Data', 'Raw', 'RCSB', 'PDBx_Files')
+    RESIDUE_TEMPLATE = r'([a-zA-Z]+|\d[a-zA-Z]+|\d)(-?\d+)'
     ORIGINAL_PDB_CHAINS = {} # initialized by parse()
     
     @staticmethod
@@ -54,11 +58,35 @@ class Chain_Restorer:
                     nested_dictionary[current_id] = original_id
                     
                 chain_dictionary[pdb_id] = nested_dictionary
-                
+          
+    # ACTION: Gets a list of files that were PDBx. Then visits
+    # 'Data/Raw/AnnotationTools/Annotations' and replaces the chain IDs of PDB
+    # files that used to be PDBx
     @staticmethod
     def _update_non_dssr_annotations():
-        pass
+        pdbx_file_names = os.listdir(Chain_Restorer.PDBX_DIRECTORY)
+        for pdbx in pdbx_file_names:
+            pdbx = os.splitext(pdbx)[0] # get only the PDBx ID
+            for tool in ['CL', 'MC', 'FR', 'MO']:
+                pdb_file_name = os.path.join(
+                    Chain_Restorer.ANNOTATION_DIRECTORY, f"{pdbx}_{tool}.csv"
+                )
+                df = pd.read_csv(pdb_file_name)
+                for i in range(len(df)):
+                    Chain_Restorer._convert_chain(i, df, 'residue1', pdbx)
+                    Chain_Restorer._convert_chain(i, df, 'residue2', pdbx)
+                df.to_csv(pdb_file_name, index=False)
+                        
     
     @staticmethod
     def _add_dssr_annotations():
         pass
+    
+    @staticmethod
+    def _convert_chain(i, df, column_name, pdb_id):
+        residue = df.loc[i][column_name]
+        groups = re.match(Chain_Restorer.RESIDUE_TEMPLATE, residue)
+        df.at[i, column_name] = (
+            f"{Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb_id][groups.group(1)]}" + 
+            f"{groups.group(2)}"
+        )
