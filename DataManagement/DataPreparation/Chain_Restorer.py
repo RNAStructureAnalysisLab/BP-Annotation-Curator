@@ -66,7 +66,7 @@ class Chain_Restorer:
     def _update_non_dssr_annotations():
         pdbx_file_names = os.listdir(Chain_Restorer.PDBX_DIRECTORY)
         for pdbx in pdbx_file_names:
-            pdbx = os.splitext(pdbx)[0] # get only the PDBx ID
+            pdbx = os.path.splitext(pdbx)[0] # get only the PDBx ID
             for tool in ['CL', 'MC', 'FR', 'MO']:
                 pdb_file_name = os.path.join(
                     Chain_Restorer.ANNOTATION_DIRECTORY, f"{pdbx}_{tool}.csv"
@@ -74,6 +74,8 @@ class Chain_Restorer:
                 if not os.path.exists(pdb_file_name):
                     continue  # Skip if file doesn't exist
                 df = pd.read_csv(pdb_file_name)
+                df['residue1'] = df['residue1'].astype(str)
+                df['residue2'] = df['residue2'].astype(str)
                 for i in range(len(df)):
                     Chain_Restorer._convert_chain(i, df, 'residue1', pdbx)
                     Chain_Restorer._convert_chain(i, df, 'residue2', pdbx)
@@ -101,7 +103,11 @@ class Chain_Restorer:
     def _convert_chain(i, df, column_name, pdb_id):
         residue = df.loc[i][column_name]
         groups = re.match(Chain_Restorer.RESIDUE_TEMPLATE, residue)
-        df.at[i, column_name] = (
-            f"{Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb_id][groups.group(1)]}" + 
-            f"{groups.group(2)}"
-        )
+        try:
+            df.at[i, column_name] = (
+                f"{Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb_id][groups.group(1)]}" + 
+                f"{groups.group(2)}"
+            )
+        # This happens when it was already remapped from a previous run
+        except KeyError:
+            return

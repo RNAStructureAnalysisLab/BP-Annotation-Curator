@@ -1,11 +1,10 @@
-contact_type = 'ncSH'
+import re
 
-contact_type = contact_type[:-2] + contact_type[-1] + contact_type[-2]
+RESIDUE_TEMPLATE = r'([a-zA-Z]+|\d[a-zA-Z]+|\d)(-?\d+)'
 
-print(contact_type)
+string = "08"
 
-contact_type = 'cSH'
+groups = re.match(RESIDUE_TEMPLATE, string)
 
-contact_type = contact_type[:-2] + contact_type[-1] + contact_type[-2]
-
-print(contact_type)
+print(groups.group(1))
+print(groups.group(2))

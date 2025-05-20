@@ -243,4 +243,6 @@ if 11 >= starting_step_number: # should be part of step 10, temporary
 # such am missing a DSSR file for it. Some others missing too. Could be a 
 # problem with one of the files, or a mistake when I was manually trying to 
 # insert things
+# NOTE: 4L47 and 4V9F are having issues with the remapping, make sure they are
+# fine
     
