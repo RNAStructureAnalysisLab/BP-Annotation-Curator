@@ -71,6 +71,8 @@ class Chain_Restorer:
                 pdb_file_name = os.path.join(
                     Chain_Restorer.ANNOTATION_DIRECTORY, f"{pdbx}_{tool}.csv"
                 )
+                if not os.path.exists(pdb_file_name):
+                    continue  # Skip if file doesn't exist
                 df = pd.read_csv(pdb_file_name)
                 for i in range(len(df)):
                     Chain_Restorer._convert_chain(i, df, 'residue1', pdbx)
@@ -80,7 +82,20 @@ class Chain_Restorer:
     
     @staticmethod
     def _add_dssr_annotations():
-        pass
+        pdbx_file_names = os.listdir(Chain_Restorer.PDBX_DIRECTORY)
+        dssr_file_names = os.listdir(Chain_Restorer.DSSR_DIRECTORY)
+        for pdb in dssr_file_names:
+            pdb_input_file_name = os.path.join(
+                Chain_Restorer.DSSR_DIRECTORY, pdb
+            )
+            pdb = pdb.split('.')[0] # Reduce to only the PDB ID
+            pdb_output_file_name = os.path.join(
+                Chain_Restorer.ANNOTATION_DIRECTORY, f"{pdb}_DSSR.csv"
+            )
+            '''
+            with open(pdb_output_file_name, 'w') as file:
+                pass
+            '''
     
     @staticmethod
     def _convert_chain(i, df, column_name, pdb_id):
