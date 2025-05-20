@@ -1,0 +1,13 @@
+residue1,residue2,n_type,description
+A1,AFZ25,Gc,cWW
+A2,AFZ24,Gc,cWW
+A3,AFZ23,Gc,cWW
+A5,A22,AA,cmW
+A7,AFZ19,Ac,tWM
+A8,ADS18,A+a,tM+M
+A8,AMS21,Au,cWW
+A9,AFT20,Au,cWW
+A10,AFZ19,Gc,cWW
+AFZ11,A16,cG,cWW
+AMS12,A15,uA,cWm
+ADS18,AFT20,au,cMM

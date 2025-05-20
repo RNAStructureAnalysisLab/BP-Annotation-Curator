@@ -1,0 +1,9 @@
+residue1,residue2,n_type,description
+H1,H10,AA,tMm
+H2,H9,GC,cWW
+H3,H8,UA,cWW
+H4,H7,AA,cmW
+V1,V10,AA,tMm
+V2,V9,GC,cWW
+V3,V8,UA,cWW
+V4,V7,AA,cmW

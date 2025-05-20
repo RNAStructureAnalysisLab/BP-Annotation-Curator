@@ -1,0 +1,10 @@
+residue1,residue2,n_type,description
+CTP1,C20,gC,cWW
+C2,C19,GC,cWW
+C3,C18,CG,cWW
+C4,C17,GC,cWW
+C5,C16,CG,cWW
+C6,C15,GC,cWW
+C7,C14,GC,cWW
+C8,C13,CG,cWW
+C9,C12,U+G,tm+W

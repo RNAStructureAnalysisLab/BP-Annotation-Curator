@@ -21,7 +21,7 @@ class Chain_Restorer:
     )
     PDBX_DIRECTORY = os.path.join('Data', 'Raw', 'RCSB', 'PDBx_Files')
     RESIDUE_TEMPLATE = r'([a-zA-Z]+|\d[a-zA-Z]+|\d)(-?\d+)'
-    ORIGINAL_PDB_CHAINS = {} # initialized by parse()
+    ORIGINAL_PDB_CHAINS = {} # initialized by restore()
     
     @staticmethod
     def restore():
@@ -86,7 +86,12 @@ class Chain_Restorer:
     
     @staticmethod
     def _add_dssr_annotations():
-        pdbx_file_names = os.listdir(Chain_Restorer.PDBX_DIRECTORY)
+        pdbx_ids = [
+            pdbx.split('.')[0] for pdbx in os.listdir(
+                Chain_Restorer.PDBX_DIRECTORY
+            )
+        ]
+        header = r'List of (\d+) base pairs'
         dssr_file_names = os.listdir(Chain_Restorer.DSSR_DIRECTORY)
         for pdb in dssr_file_names:
             pdb_input_file_name = os.path.join(
@@ -96,10 +101,61 @@ class Chain_Restorer:
             pdb_output_file_name = os.path.join(
                 Chain_Restorer.ANNOTATION_DIRECTORY, f"{pdb}_DSSR.csv"
             )
-            '''
-            with open(pdb_output_file_name, 'w') as file:
-                pass
-            '''
+            rows = []
+            
+            # Read file line by line. Store relevant base pairing information 
+            # in 'rows'
+            with open(pdb_input_file_name, 'r') as dssr_file:
+                found_base_pairs = False
+                base_pair_count = 0
+                number_of_base_pairs = None
+                for line in dssr_file:
+                    if not found_base_pairs:
+                        match = re.match(header, line)
+                        if match:
+                            number_of_base_pairs = int(match.group(1))
+                            found_base_pairs = True
+                    elif base_pair_count > number_of_base_pairs:
+                        break
+                    elif base_pair_count > 0:
+                        parts = [
+                            part.strip() for part in line.split(' ') if part
+                        ]
+                        
+                        if pdb in pdbx_ids:
+                            residue1 = (
+                                Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
+                                    parts[1].split('.')[0]
+                                ] + parts[1].split('.')[1][1:]
+                            )
+                            residue2 = (
+                                Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
+                                    parts[2].split('.')[0]
+                                ] + parts[2].split('.')[1][1:]
+                            )
+                        else:
+                            residue1 = (
+                                parts[1].split('.')[0] + 
+                                parts[1].split('.')[1][1:]
+                            )
+                            residue2 = (
+                                parts[2].split('.')[0] +
+                                parts[2].split('.')[1][1:]
+                            )
+                        
+                        n_type = "".join(parts[3].split('-'))
+                        contact_type = "".join(parts[-1].split('-'))
+                        rows.append({
+                            "residue1": residue1, "residue2": residue2, 
+                            "n_type": n_type, "description": contact_type
+                        })
+                        base_pair_count += 1
+                    else:
+                        base_pair_count += 1
+                        
+            # Write 'rows' as a csv file in 'ANNOTATION_DIRECTORY'
+            df = pd.DataFrame(rows)
+            df.to_csv(pdb_output_file_name, index=False)
     
     @staticmethod
     def _was_remapped(pdb_id):

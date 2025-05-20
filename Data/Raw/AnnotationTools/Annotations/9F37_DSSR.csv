@@ -1,0 +1,12 @@
+residue1,residue2,n_type,description
+R5,V15,CG,cWW
+R6,V14,CG,cWW
+R7,V13,UA,cWW
+R8,V12,CG,cWW
+R9,V11,UA,cWW
+R16,BTP804,Gc,cWW
+R17,BTP805,Cg,cWW
+V1,V10,AA,tMm
+V2,V9,GC,cWW
+V3,V8,UA,cWW
+V4,V7,AA,cmW

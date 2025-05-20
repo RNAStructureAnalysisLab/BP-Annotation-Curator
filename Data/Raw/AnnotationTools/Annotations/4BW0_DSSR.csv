@@ -1,0 +1,12 @@
+residue1,residue2,n_type,description
+A1,A25,GC,cWW
+A2,A24,GC,cWW
+A3,A23,GC,cWW
+A4,A22,GA,tmM
+A5,A21,GA,tmM
+A6,A17,A+G,tW+m
+A6,A20,AG,tMm
+A7,A16,GC,cWW
+A8,A15,CG,cWW
+A9,A14,CG,cWW
+A10,A13,GA,tmM

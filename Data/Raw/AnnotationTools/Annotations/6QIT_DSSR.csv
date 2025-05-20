@@ -1,0 +1,14 @@
+residue1,residue2,n_type,description
+A1,B8,GC,cWW
+A2,B7,CG,cWW
+A5,D5,C+C,t.+W
+A7,B2,GC,cWW
+A8,B1,CG,cWW
+B3,A48/101,A+?,..+m
+B6,A48/102,A+?,..+m
+C1,D8,GC,cWW
+C2,D7,CG,cWW
+C7,D2,GC,cWW
+C8,D1,CG,cWW
+D3,C48/101,A+?,..+m
+D6,D48/101,A+?,..+m

@@ -1,0 +1,16 @@
+residue1,residue2,n_type,description
+D4,D36,GC,cWW
+D5,D35,GC,cWW
+D6,D34,A+A,tW+W
+D8,D33,AA,tWM
+D9,D32,AA,tWM
+D10,D31,UA,tWM
+D11,D28,G+G,tm+m
+D16,D27,GA,cWW
+D16,D28,GG,cW.
+D17,D26,GC,cWW
+D17,D32,G+A,tm+m
+D18,D25,CG,cWW
+D19,D24,CG,cWW
+D20,D23,U+G,tm+W
+D27,D31,AA,cmW

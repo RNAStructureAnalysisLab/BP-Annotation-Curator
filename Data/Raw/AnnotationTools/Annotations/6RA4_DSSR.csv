@@ -1,0 +1,7 @@
+residue1,residue2,n_type,description
+L401,M407,CU,cWW
+L402,M406,GC,cWW
+L403,M405,UA,cWW
+L404,M404,G+G,cM+W
+L405,M403,AU,cWW
+L406,M402,CG,cWW

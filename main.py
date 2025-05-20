@@ -169,9 +169,7 @@ if 5 >= starting_step_number:
             break
         else:
             print("Incorrect input, please enter a single letter.")
-
-print("Finished step 5, terminating program. Remove this feature when testing finished")
-sys.exit() # TODO here for testing, remove
+            
 # =============================================================================
 
 
@@ -243,6 +241,5 @@ if 11 >= starting_step_number: # should be part of step 10, temporary
 # such am missing a DSSR file for it. Some others missing too. Could be a 
 # problem with one of the files, or a mistake when I was manually trying to 
 # insert things
-# NOTE: 4L47 and 4V9F are having issues with the remapping, make sure they are
-# fine
+# NOTE: 4L47 and 4V9F are good ones to verify step 4
     

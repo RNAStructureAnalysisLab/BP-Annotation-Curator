@@ -1,0 +1,9 @@
+residue1,residue2,n_type,description
+R1,R14,UG,cWW
+R2,R13,CG,cWW
+R3,R12,GC,cWW
+R4,R11,CG,cWW
+R5,R10,CG,cWW
+S3,S12,GC,cWW
+S4,S11,CG,cWW
+S5,S10,CG,cWW

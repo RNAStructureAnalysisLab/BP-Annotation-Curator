@@ -1,0 +1,17 @@
+residue1,residue2,n_type,description
+B2,B37,GC,cWW
+B3,B36,GC,cWW
+B4,B35,GC,cWW
+B5,B34,GC,cWW
+B6,B33,UA,cWW
+B7,B32,GC,cWW
+B8,B31,AU,cWW
+B9,B30,AU,cWW
+B10,B29,GC,cWW
+B11,B28,GA,tmM
+B12,B23,A+G,tW+m
+B13,B22,GC,cWW
+B13,B28,G+A,tm+m
+B14,B21,GC,cWW
+B15,B20,CG,cWW
+B16,B19,U+G,t.+W
