@@ -1,9 +1,9 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,1-5,4-5,2-4
-1,HL_5KK5_001,5KK5,0.854,1,B,RNA (40-MER),C,-11,U,-10,C,-9,U,-8,G,-6,cWW 0.80,nbp 0.60,nbp 1.00
-2,HL_5XH7_001,5XH7,0.7423,1,B,crRNA,C,-11,U,-10,C,-9,U,-8,G,-6,cWW 0.80,nbp 1.00,nbp 1.00
-3,HL_5MGA_001,5MGA,0.5659,1,B,RNA (40-MER),C,-11,U,-10,G,-9,U,-8,G,-6,cWW 0.80,nbp 1.00,nbp 1.00
+1,HL_5KK5_001,5KK5,0.854,1,B,RNA (40-MER),C,-11,U,-10,C,-9,U,-8,G,-6,cWW 0.83,nbp 0.5,nbp 1.00
+2,HL_5XH7_001,5XH7,0.7423,1,B,crRNA,C,-11,U,-10,C,-9,U,-8,G,-6,cWW 0.83,nbp 1.00,nbp 1.00
+3,HL_5MGA_001,5MGA,0.5659,1,B,RNA (40-MER),C,-11,U,-10,G,-9,U,-8,G,-6,cWW 0.83,nbp 1.00,nbp 1.00
 4,HL_3HHN_007,3HHN,0.3303,0,E,"Class I ligase ribozyme, self-ligation product",C,40,G,41,A,42,A,43,G,44,cWW 1.00,nbp 1.00,nbp 1.00
-5,HL_3IVK_002,3IVK,0.3015,0,M,class I ligase product,C,40,G,41,A,42,A,43,G,44,cWW 1.00,nbp 1.00,nbp 0.80
+5,HL_3IVK_002,3IVK,0.3015,0,M,class I ligase product,C,40,G,41,A,42,A,43,G,44,cWW 1.00,nbp 1.00,nbp 0.83
 6,HL_4ZNP_001,4ZNP,0.2989,1,A,pfI Riboswitch,G,26,G,27,A,28,A,29,C,31,cWW 1.00,nbp 1.00,nbp 1.00
 7,HL_9BUN_001,9BUN,0.145,1,A,RNA (48-MER),G,7,G,8,A,9,A,10,C,12,cWW 1.00,nbp 1.00,nbp 1.00
 8,HL_7A0S_044,7A0S,0.1346,0,X,LSU rRNA,C,1743,G,1744,C,1745,A,1746,G,1747,cWW 1.00,nbp 1.00,nbp 1.00

@@ -12,7 +12,7 @@ class Agreement_Calculator:
         'Data', 'Preprocessed', 'Extended_Tables'
     )
     OUTPUT_DIRECTORY = os.path.join('Data', 'ResultsAnalysis')
-    TOOLS = ['R3DMA', 'CL', 'FR', 'MC', 'RV']
+    TOOLS = ['R3DMA', 'CL', 'FR', 'MC', 'RV', 'DSSR']
     
     consensus = pd.DataFrame
     extended_table = pd.DataFrame
@@ -78,6 +78,7 @@ class Agreement_Calculator:
                         'Agree BP (FR)': presence_list[2][0],
                         'Agree BP (MC)': presence_list[3][0],
                         'Agree BP (RV)': presence_list[4][0],
+                        'Agree BP (DSSR)': presence_list[5][0],
                         'Agree BP Count': Agreement_Calculator._sum(
                             presence_list, 0
                         ),
@@ -86,6 +87,7 @@ class Agreement_Calculator:
                         'Matches (FR)': presence_list[2][1],
                         'Matches (MC)': presence_list[3][1],
                         'Matches (RV)': presence_list[4][1],
+                        'Matches (DSSR)': presence_list[5][1],
                         'Matches Count': Agreement_Calculator._sum(
                             presence_list, 1
                         )

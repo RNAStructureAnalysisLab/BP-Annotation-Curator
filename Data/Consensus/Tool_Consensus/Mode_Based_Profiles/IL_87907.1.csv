@@ -1,102 +1,102 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,3-5,2-4,1-5,2-6
-2,IL_1XJR_003,1XJR,0.3888,1,Isolated non-canonical cWW pair,A,s2m RNA,C,16,A,17,C,18,*,G,32,G,34,G,35,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
-4,IL_4P3U_001,4P3U,0.3476,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-7,IL_7A0S_042,7A0S,0.3135,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,1252,C,1253,G,1254,*,C,1218,C,1219,G,1220,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-8,IL_5D0B_001,5D0B,0.2384,0,Isolated non-canonical cWW pair,F,RNA (17-mer),A,37,A,38,U,39,*,A,31,C,32,U,33,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 0.80,nbp 1.00
-9,IL_7A0S_026,7A0S,0.2238,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,864,A,865,U,866,*,A,936,C,937,G,938,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-12,IL_7ECP_002,7ECP,0.2854,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),G,3,C,4,C,5,*,G,8,U,9,C,10,cWW 1.00,cWW 0.80,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00
-13,IL_7ECP_001,7ECP,0.2211,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),G,8,U,9,C,10,*,G,3,C,4,C,5,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.80,nbp 0.80
-17,IL_3RW6_004,3RW6,0.3025,0,Isolated non-canonical cWW pair,H,constitutive transport element(CTE)of Mason-Pfizer monkey virus RNA,C,33,U,34,G,35,*,C,24,C,25,G,26,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-19,IL_4LFB_063,4LFB,0.2878,0,Isolated non-canonical cWW pair,A,SSU rRNA,G,1464,C,1465,C,1466,*,G,1435,U,1436,C,1437,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-23,IL_7A0S_020,7A0S,0.2274,0,Isolated non-canonical cWW pair,X,LSU rRNA,G,767,U,768,C,769,*,G,754,C,755,C,756,cWW 1.00,cWW 0.80,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
-28,IL_4WF9_020,4WF9,0.2129,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,851,U,852,G,853,*,C,717,C,718,G,719,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-29,IL_7A0S_014,7A0S,0.2107,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,819,U,820,A,821,*,U,685,C,686,G,687,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-34,IL_4WF9_083,4WF9,0.1922,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,2111,C,2112,U,2113,*,A,2260,A,2261,G,2262,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-39,IL_4LFB_069,4LFB,0.2503,0,Isolated non-canonical cWW pair,A,SSU rRNA,G,1405,U,1406,5MC,1407,*,G,1494,U,1495,C,1496,cWW 1.00,? 0.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-40,IL_4PDQ_001,4PDQ,0.2794,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-41,IL_4ZC7_004,4ZC7,0.233,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-42,IL_1ZZ5_002,1ZZ5,0.2602,0,Isolated non-canonical cWW pair,A+B,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-45,IL_7KJT_001,7KJT,0.2758,0,Isolated non-canonical cWW pair,A,tRNA,G,2,C,3,C,4,*,G,69,C,70,C,71,nbp 0.60,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.60
-47,IL_7VYX_001,7VYX,0.256,0,Isolated non-canonical cWW pair,C,sgRNA,G,11,A,12,C,13,*,G,53,C,54,C,55,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-48,IL_4P3U_012,4P3U,0.2048,0,Isolated non-canonical cWW pair,D+C,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-52,IL_4PDQ_004,4PDQ,0.2019,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-54,IL_2ZKO_001,2ZKO,0.1487,0,Isolated non-canonical cWW pair,C+D,RNA (21-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-55,IL_3GM7_001,3GM7,0.1388,0,Isolated non-canonical cWW pair,G+H,RNA (18-mer),C,1,U,2,G,3,*,C,16,U,17,G,18,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-56,IL_4E48_005,4E48,0.143,0,Isolated non-canonical cWW pair,B+A,RNA (20-mer),C,25,U,26,G,27,*,C,14,U,15,G,16,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+2,IL_1XJR_003,1XJR,0.3888,1,Isolated non-canonical cWW pair,A,s2m RNA,C,16,A,17,C,18,*,G,32,G,34,G,35,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+4,IL_4P3U_001,4P3U,0.3476,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+7,IL_7A0S_042,7A0S,0.3135,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,1252,C,1253,G,1254,*,C,1218,C,1219,G,1220,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+8,IL_5D0B_001,5D0B,0.2384,0,Isolated non-canonical cWW pair,F,RNA (17-mer),A,37,A,38,U,39,*,A,31,C,32,U,33,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 0.83,nbp 1.00
+9,IL_7A0S_026,7A0S,0.2238,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,864,A,865,U,866,*,A,936,C,937,G,938,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+12,IL_7ECP_002,7ECP,0.2854,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),G,3,C,4,C,5,*,G,8,U,9,C,10,cWW 1.00,cWW 0.83,cWW 1.00,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
+13,IL_7ECP_001,7ECP,0.2211,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),G,8,U,9,C,10,*,G,3,C,4,C,5,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 0.83
+17,IL_3RW6_004,3RW6,0.3025,0,Isolated non-canonical cWW pair,H,constitutive transport element(CTE)of Mason-Pfizer monkey virus RNA,C,33,U,34,G,35,*,C,24,C,25,G,26,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+19,IL_4LFB_063,4LFB,0.2878,0,Isolated non-canonical cWW pair,A,SSU rRNA,G,1464,C,1465,C,1466,*,G,1435,U,1436,C,1437,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+23,IL_7A0S_020,7A0S,0.2274,0,Isolated non-canonical cWW pair,X,LSU rRNA,G,767,U,768,C,769,*,G,754,C,755,C,756,cWW 1.00,cWW 0.83,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+28,IL_4WF9_020,4WF9,0.2129,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,851,U,852,G,853,*,C,717,C,718,G,719,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+29,IL_7A0S_014,7A0S,0.2107,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,819,U,820,A,821,*,U,685,C,686,G,687,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+34,IL_4WF9_083,4WF9,0.1922,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,2111,C,2112,U,2113,*,A,2260,A,2261,G,2262,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+39,IL_4LFB_069,4LFB,0.2503,0,Isolated non-canonical cWW pair,A,SSU rRNA,G,1405,U,1406,5MC,1407,*,G,1494,U,1495,C,1496,cWW 1.00,cWW 0.50,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+40,IL_4PDQ_001,4PDQ,0.2794,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+41,IL_4ZC7_004,4ZC7,0.233,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+42,IL_1ZZ5_002,1ZZ5,0.2602,0,Isolated non-canonical cWW pair,A+B,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+45,IL_7KJT_001,7KJT,0.2758,0,Isolated non-canonical cWW pair,A,tRNA,G,2,C,3,C,4,*,G,69,C,70,C,71,? 0.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,? 0.00
+47,IL_7VYX_001,7VYX,0.256,0,Isolated non-canonical cWW pair,C,sgRNA,G,11,A,12,C,13,*,G,53,C,54,C,55,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+48,IL_4P3U_012,4P3U,0.2048,0,Isolated non-canonical cWW pair,D+C,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+52,IL_4PDQ_004,4PDQ,0.2019,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+54,IL_2ZKO_001,2ZKO,0.1487,0,Isolated non-canonical cWW pair,C+D,RNA (21-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+55,IL_3GM7_001,3GM7,0.1388,0,Isolated non-canonical cWW pair,G+H,RNA (18-mer),C,1,U,2,G,3,*,C,16,U,17,G,18,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+56,IL_4E48_005,4E48,0.143,0,Isolated non-canonical cWW pair,B+A,RNA (20-mer),C,25,U,26,G,27,*,C,14,U,15,G,16,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 59,IL_6IA2_005,6IA2,0.1099,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),G,2,A,3,G,4,*,C,16,C,17,C,18,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-62,IL_6OL3_002,6OL3,0.0,0,Isolated non-canonical cWW pair,C,VA RNA,G,53,A,54,C,55,*,G,78,C,79,C,80,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-66,IL_7ZLQ_002,7ZLQ,0.134,0,,D+E,RNA (13-mer),G,5,C,6,C,7,*,G,5,C,6,C,7,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-67,IL_6IA2_004,6IA2,0.122,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),G,11,A,12,G,13,*,C,7,C,8,C,9,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-68,IL_1YZ9_002,1YZ9,0.1182,0,Isolated non-canonical cWW pair,E+F,RNA (11-mer),A,4,C,5,U,6,*,A,15,C,16,U,17,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.80,nbp 1.00
-69,IL_4E59_001,4E59,0.1347,0,Isolated non-canonical cWW pair,A+B,RNA duplex containing CCG repeats,C,2,C,3,G,4,*,C,2,C,3,G,4,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-70,IL_3GM7_002,3GM7,0.1421,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,13,U,14,G,15,*,C,4,U,5,G,6,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-71,IL_3GM7_004,3GM7,0.1934,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,7,U,8,G,9,*,C,10,U,11,G,12,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-72,IL_3GM7_005,3GM7,0.1595,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,4,U,5,G,6,*,C,13,U,14,G,15,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-75,IL_5VCI_002,5VCI,0.1305,0,Isolated non-canonical cWW pair,A+B,RNA (22-mer) + RNA (12-mer),C,4,U,5,G,6,*,C,7,U,8,G,9,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-76,IL_3GM7_003,3GM7,0.1633,0,Isolated non-canonical cWW pair,G+H,RNA (18-mer),C,7,U,8,G,9,*,C,10,U,11,G,12,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-77,IL_3GM7_006,3GM7,0.1232,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,1,U,2,G,3,*,C,16,U,17,G,18,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-78,IL_3SZX_001,3SZX,0.1653,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),C,13,U,14,G,15,*,C,7,U,8,G,9,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-79,IL_4E48_003,4E48,0.1388,0,Isolated non-canonical cWW pair,B+A,RNA (20-mer),C,31,U,32,G,33,*,C,8,U,9,G,10,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-80,IL_4E48_002,4E48,0.1629,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,5,U,6,G,7,*,C,34,U,35,G,36,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-81,IL_4E48_001,4E48,0.1869,0,Isolated non-canonical cWW pair,B+A,RNA (20-mer),C,37,U,38,G,39,*,C,2,U,3,G,4,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-82,IL_4E48_004,4E48,0.1823,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,11,U,12,G,13,*,C,28,U,29,G,30,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-83,IL_1UN6_005,1UN6,0.1971,0,Isolated non-canonical cWW pair,F,5S RIBOSOMAL RNA,C,95,U,96,G,97,*,C,79,U,80,G,81,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-84,IL_5AOX_001,5AOX,0.1728,0,Isolated non-canonical cWW pair,C,ALU JO CONSENSUS RNA,C,18,A,19,C,20,*,G,9,C,10,G,11,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-85,IL_1U9S_007,1U9S,0.1442,0,Isolated non-canonical cWW pair,A,RIBONUCLEASE P,C,191,A,192,C,193,*,G,177,C,178,G,179,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-86,IL_5Y85_006,5Y85,0.1122,0,Isolated non-canonical cWW pair,C+D,RNA (18-mer) + DNA/RNA (50-MER),G,13,A,14,C,15,*,G,4,C,5,C,6,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-87,IL_3MEI_002,3MEI,0.1239,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,8,C,9,C,10,*,G,13,C,14,C,15,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-89,IL_5CCB_001,5CCB,0.1254,0,Isolated non-canonical cWW pair,N,tRNA,A,37,A,38,U,39,*,A,31,C,32,U,33,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-90,IL_5Y7M_007,5Y7M,0.1494,0,Isolated non-canonical cWW pair,D,RNA (52-MER),G,37,A,38,U,39,*,A,11,C,12,C,13,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-95,IL_4E48_006,4E48,0.1917,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,17,U,18,G,19,*,C,22,U,23,G,24,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-96,IL_4NGF_002,4NGF,0.1538,0,Isolated non-canonical cWW pair,H+G,RNA (17-mer),G,7,U,8,C,9,*,G,7,U,8,C,9,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-97,IL_3SZX_002,3SZX,0.146,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),C,10,U,11,G,12,*,C,10,U,11,G,12,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-101,IL_4X4N_005,4X4N,0.1302,0,Isolated non-canonical cWW pair,D,G70A tRNA minihelix,G,28,A,29,U,30,*,G,2,C,3,C,4,cWW 1.00,cWW 0.60,cWW 0.60,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-102,IL_7ECO_006,7ECO,0.1774,0,Isolated non-canonical cWW pair,F+E,RNA (12-mer),G,3,U,4,C,5,*,G,8,U,9,C,10,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-103,IL_1ZH5_001,1ZH5,0.1749,0,Isolated non-canonical cWW pair,D+C,RNA (9-mer),C,3,U,4,G,5,*,C,3,U,4,G,5,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-104,IL_5AY2_001,5AY2,0.1874,0,Isolated non-canonical cWW pair,A+B,RNA (12-mer),A,3,C,4,U,5,*,A,8,C,9,U,10,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 0.80,nbp 0.80,nbp 1.00
-105,IL_5AY2_003,5AY2,0.175,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),A,3,C,4,U,5,*,A,8,C,9,U,10,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 0.80,nbp 0.80,nbp 1.00
-106,IL_7ECO_005,7ECO,0.1831,0,Isolated non-canonical cWW pair,E+F,RNA (12-mer),G,3,U,4,C,5,*,G,8,U,9,C,10,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-112,IL_7A0S_031,7A0S,0.2083,0,Isolated non-canonical cWW pair,X,LSU rRNA,U,974,C,975,C,976,*,G,963,A,964,G,965,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-113,IL_7QQP_008,7QQP,0.1944,0,,A+C,AAVS1 sgRNA + AAVS1 off-target3 target strand,A,14,C,15,A,16,*,DT,5,DC,6,DT,7,nbp 0.80,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-114,IL_7Y2P_001,7Y2P,0.1996,0,,A+B,RNA (13-mer),C,3,U,4,G,5,*,C,9,U,10,G,11,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-115,IL_7Y2P_002,7Y2P,0.196,0,,B+A,RNA (13-mer),C,3,U,4,G,5,*,C,9,U,10,G,11,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-116,IL_9D5J_002,9D5J,0.1834,0,Isolated non-canonical cWW pair,C+D,RNA Top Strand Containing 8-azanebularine (8AZ) + RNA Bottom Strand containing deoxyinosine complementary to a guanosine adjacent to the target site,G,14,A,15,G,16,*,C,17,C,18,C,19,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+62,IL_6OL3_002,6OL3,0.0,0,Isolated non-canonical cWW pair,C,VA RNA,G,53,A,54,C,55,*,G,78,C,79,C,80,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+66,IL_7ZLQ_002,7ZLQ,0.134,0,,D+E,RNA (13-mer),G,5,C,6,C,7,*,G,5,C,6,C,7,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+67,IL_6IA2_004,6IA2,0.122,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),G,11,A,12,G,13,*,C,7,C,8,C,9,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+68,IL_1YZ9_002,1YZ9,0.1182,0,Isolated non-canonical cWW pair,E+F,RNA (11-mer),A,4,C,5,U,6,*,A,15,C,16,U,17,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00
+69,IL_4E59_001,4E59,0.1347,0,Isolated non-canonical cWW pair,A+B,RNA duplex containing CCG repeats,C,2,C,3,G,4,*,C,2,C,3,G,4,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+70,IL_3GM7_002,3GM7,0.1421,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,13,U,14,G,15,*,C,4,U,5,G,6,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+71,IL_3GM7_004,3GM7,0.1934,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,7,U,8,G,9,*,C,10,U,11,G,12,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+72,IL_3GM7_005,3GM7,0.1595,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,4,U,5,G,6,*,C,13,U,14,G,15,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+75,IL_5VCI_002,5VCI,0.1305,0,Isolated non-canonical cWW pair,A+B,RNA (22-mer) + RNA (12-mer),C,4,U,5,G,6,*,C,7,U,8,G,9,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+76,IL_3GM7_003,3GM7,0.1633,0,Isolated non-canonical cWW pair,G+H,RNA (18-mer),C,7,U,8,G,9,*,C,10,U,11,G,12,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+77,IL_3GM7_006,3GM7,0.1232,0,Isolated non-canonical cWW pair,H+G,RNA (18-mer),C,1,U,2,G,3,*,C,16,U,17,G,18,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+78,IL_3SZX_001,3SZX,0.1653,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),C,13,U,14,G,15,*,C,7,U,8,G,9,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+79,IL_4E48_003,4E48,0.1388,0,Isolated non-canonical cWW pair,B+A,RNA (20-mer),C,31,U,32,G,33,*,C,8,U,9,G,10,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+80,IL_4E48_002,4E48,0.1629,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,5,U,6,G,7,*,C,34,U,35,G,36,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+81,IL_4E48_001,4E48,0.1869,0,Isolated non-canonical cWW pair,B+A,RNA (20-mer),C,37,U,38,G,39,*,C,2,U,3,G,4,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+82,IL_4E48_004,4E48,0.1823,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,11,U,12,G,13,*,C,28,U,29,G,30,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+83,IL_1UN6_005,1UN6,0.1971,0,Isolated non-canonical cWW pair,F,5S RIBOSOMAL RNA,C,95,U,96,G,97,*,C,79,U,80,G,81,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+84,IL_5AOX_001,5AOX,0.1728,0,Isolated non-canonical cWW pair,C,ALU JO CONSENSUS RNA,C,18,A,19,C,20,*,G,9,C,10,G,11,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+85,IL_1U9S_007,1U9S,0.1442,0,Isolated non-canonical cWW pair,A,RIBONUCLEASE P,C,191,A,192,C,193,*,G,177,C,178,G,179,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+86,IL_5Y85_006,5Y85,0.1122,0,Isolated non-canonical cWW pair,C+D,RNA (18-mer) + DNA/RNA (50-MER),G,13,A,14,C,15,*,G,4,C,5,C,6,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+87,IL_3MEI_002,3MEI,0.1239,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,8,C,9,C,10,*,G,13,C,14,C,15,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+89,IL_5CCB_001,5CCB,0.1254,0,Isolated non-canonical cWW pair,N,tRNA,A,37,A,38,U,39,*,A,31,C,32,U,33,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+90,IL_5Y7M_007,5Y7M,0.1494,0,Isolated non-canonical cWW pair,D,RNA (52-MER),G,37,A,38,U,39,*,A,11,C,12,C,13,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+95,IL_4E48_006,4E48,0.1917,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,17,U,18,G,19,*,C,22,U,23,G,24,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+96,IL_4NGF_002,4NGF,0.1538,0,Isolated non-canonical cWW pair,H+G,RNA (17-mer),G,7,U,8,C,9,*,G,7,U,8,C,9,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+97,IL_3SZX_002,3SZX,0.146,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),C,10,U,11,G,12,*,C,10,U,11,G,12,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+101,IL_4X4N_005,4X4N,0.1302,0,Isolated non-canonical cWW pair,D,G70A tRNA minihelix,G,28,A,29,U,30,*,G,2,C,3,C,4,cWW 1.00,cWW 0.67,cWW 0.67,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+102,IL_7ECO_006,7ECO,0.1774,0,Isolated non-canonical cWW pair,F+E,RNA (12-mer),G,3,U,4,C,5,*,G,8,U,9,C,10,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+103,IL_1ZH5_001,1ZH5,0.1749,0,Isolated non-canonical cWW pair,D+C,RNA (9-mer),C,3,U,4,G,5,*,C,3,U,4,G,5,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+104,IL_5AY2_001,5AY2,0.1874,0,Isolated non-canonical cWW pair,A+B,RNA (12-mer),A,3,C,4,U,5,*,A,8,C,9,U,10,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 0.83,nbp 0.83,nbp 1.00
+105,IL_5AY2_003,5AY2,0.175,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),A,3,C,4,U,5,*,A,8,C,9,U,10,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 0.83,nbp 0.83,nbp 1.00
+106,IL_7ECO_005,7ECO,0.1831,0,Isolated non-canonical cWW pair,E+F,RNA (12-mer),G,3,U,4,C,5,*,G,8,U,9,C,10,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+112,IL_7A0S_031,7A0S,0.2083,0,Isolated non-canonical cWW pair,X,LSU rRNA,U,974,C,975,C,976,*,G,963,A,964,G,965,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+113,IL_7QQP_008,7QQP,0.1944,0,,A+C,AAVS1 sgRNA + AAVS1 off-target3 target strand,A,14,C,15,A,16,*,DT,5,DC,6,DT,7,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+114,IL_7Y2P_001,7Y2P,0.1996,0,,A+B,RNA (13-mer),C,3,U,4,G,5,*,C,9,U,10,G,11,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+115,IL_7Y2P_002,7Y2P,0.196,0,,B+A,RNA (13-mer),C,3,U,4,G,5,*,C,9,U,10,G,11,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+116,IL_9D5J_002,9D5J,0.1834,0,Isolated non-canonical cWW pair,C+D,RNA Top Strand Containing 8-azanebularine (8AZ) + RNA Bottom Strand containing deoxyinosine complementary to a guanosine adjacent to the target site,G,14,A,15,G,16,*,C,17,C,18,C,19,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 117,IL_7KFN_001,7KFN,0.1782,0,Isolated non-canonical cWW pair,B+C,Gli1 8AZ 23mer RNA + Gli1 1W5 23mer RNA,G,14,A,15,G,16,*,C,8,C,9,C,10,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-118,IL_1Z7F_005,1Z7F,0.1577,0,Isolated non-canonical cWW pair,C+B,RNA (16-mer),A,26,A,27,U,28,*,A,5,C,6,U,7,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-119,IL_1Z79_001,1Z79,0.1392,0,,A+B,RNA 5'-R(*GP*CP*AP*GP*AP*(A5M)P*UP*UP*AP*AP*AP*UP*CP*UP*GP*C)-3',A,10,A,11,U,12,*,A,5,A5M,6,U,7,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-120,IL_3SZX_003,3SZX,0.1359,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),C,7,U,8,G,9,*,C,13,U,14,G,15,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-122,IL_4WF9_042,4WF9,0.1602,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,1160,A,1161,C,1162,*,G,1081,C,1082,G,1083,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-123,IL_4YHW_001,4YHW,0.1566,0,Isolated non-canonical cWW pair,E+C,U6 snRNA fragment,C,68,C,69,U,70,*,A,11,C,12,G,13,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-124,IL_4YHW_002,4YHW,0.1772,0,Isolated non-canonical cWW pair,D+F,U4 snRNA fragment + U6 snRNA fragment,A,11,C,12,G,13,*,C,68,C,69,U,70,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+118,IL_1Z7F_005,1Z7F,0.1577,0,Isolated non-canonical cWW pair,C+B,RNA (16-mer),A,26,A,27,U,28,*,A,5,C,6,U,7,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+119,IL_1Z79_001,1Z79,0.1392,0,,A+B,RNA 5'-R(*GP*CP*AP*GP*AP*(A5M)P*UP*UP*AP*AP*AP*UP*CP*UP*GP*C)-3',A,10,A,11,U,12,*,A,5,A5M,6,U,7,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+120,IL_3SZX_003,3SZX,0.1359,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),C,7,U,8,G,9,*,C,13,U,14,G,15,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+122,IL_4WF9_042,4WF9,0.1602,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,1160,A,1161,C,1162,*,G,1081,C,1082,G,1083,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+123,IL_4YHW_001,4YHW,0.1566,0,Isolated non-canonical cWW pair,E+C,U6 snRNA fragment,C,68,C,69,U,70,*,A,11,C,12,G,13,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+124,IL_4YHW_002,4YHW,0.1772,0,Isolated non-canonical cWW pair,D+F,U4 snRNA fragment + U6 snRNA fragment,A,11,C,12,G,13,*,C,68,C,69,U,70,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 128,IL_6IA2_001,6IA2,0.144,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),G,2,A,3,G,4,*,C,16,C,17,C,18,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-129,IL_7MLW_001,7MLW,0.1881,0,Isolated non-canonical cWW pair,F,Guanidine-I riboswitch,U,4,C,5,G,6,*,C,57,A,58,A,59,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+129,IL_7MLW_001,7MLW,0.1881,0,Isolated non-canonical cWW pair,F,Guanidine-I riboswitch,U,4,C,5,G,6,*,C,57,A,58,A,59,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 130,IL_4AOB_005,4AOB,0.2189,0,Isolated non-canonical cWW pair,A,SAM-I riboswitch,C,78,G,79,U,80,*,G,71,A,72,G,73,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-132,IL_1Y27_001,1Y27,0.2646,0,Isolated non-canonical cWW pair,X,Purine riboswitch,C,43,A,44,A,45,*,U,25,C,26,G,27,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-133,IL_1Z7F_006,1Z7F,0.2685,0,Isolated non-canonical cWW pair,B+C,RNA (16-mer),A,10,A,11,U,12,*,A,21,C,22,U,23,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-134,IL_1Z79_002,1Z79,0.2652,0,,B+A,RNA 5'-R(*GP*CP*AP*GP*AP*(A5M)P*UP*UP*AP*AP*AP*UP*CP*UP*GP*C)-3',A,10,A,11,U,12,*,A,5,A5M,6,U,7,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-135,IL_7ECN_002,7ECN,0.3071,0,Isolated non-canonical cWW pair,A+B,RNA (12-mer),G,8,A,9,C,10,*,G,3,C,4,C,5,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-136,IL_7ECN_001,7ECN,0.23,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),G,8,A,9,C,10,*,G,3,C,4,C,5,cWW 1.00,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-137,IL_7ECK_013,7ECK,0.2245,0,Isolated non-canonical cWW pair,J+I,DNA/RNA (5'-R(*GP*GP*AP*CP*U)-D(P*(CBR))-R(P*GP*AP*AP*UP*CP*C)-3'),A,8,A,9,U,10,*,A,3,C,4,U,5,cWW 1.00,nbp 0.60,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
-138,IL_7ECK_015,7ECK,0.216,0,Isolated non-canonical cWW pair,I+J,DNA/RNA (5'-R(*GP*GP*AP*CP*U)-D(P*(CBR))-R(P*GP*AP*AP*UP*CP*C)-3'),A,8,A,9,U,10,*,A,3,C,4,U,5,cWW 0.60,nbp 0.60,cWW 1.00,nbp 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+132,IL_1Y27_001,1Y27,0.2646,0,Isolated non-canonical cWW pair,X,Purine riboswitch,C,43,A,44,A,45,*,U,25,C,26,G,27,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+133,IL_1Z7F_006,1Z7F,0.2685,0,Isolated non-canonical cWW pair,B+C,RNA (16-mer),A,10,A,11,U,12,*,A,21,C,22,U,23,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+134,IL_1Z79_002,1Z79,0.2652,0,,B+A,RNA 5'-R(*GP*CP*AP*GP*AP*(A5M)P*UP*UP*AP*AP*AP*UP*CP*UP*GP*C)-3',A,10,A,11,U,12,*,A,5,A5M,6,U,7,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+135,IL_7ECN_002,7ECN,0.3071,0,Isolated non-canonical cWW pair,A+B,RNA (12-mer),G,8,A,9,C,10,*,G,3,C,4,C,5,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+136,IL_7ECN_001,7ECN,0.23,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),G,8,A,9,C,10,*,G,3,C,4,C,5,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+137,IL_7ECK_013,7ECK,0.2245,0,Isolated non-canonical cWW pair,J+I,DNA/RNA (5'-R(*GP*GP*AP*CP*U)-D(P*(CBR))-R(P*GP*AP*AP*UP*CP*C)-3'),A,8,A,9,U,10,*,A,3,C,4,U,5,cWW 1.00,nbp 0.50,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+138,IL_7ECK_015,7ECK,0.216,0,Isolated non-canonical cWW pair,I+J,DNA/RNA (5'-R(*GP*GP*AP*CP*U)-D(P*(CBR))-R(P*GP*AP*AP*UP*CP*C)-3'),A,8,A,9,U,10,*,A,3,C,4,U,5,cWW 0.67,nbp 0.50,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 139,IL_8AF0_001,8AF0,0.1773,0,Isolated non-canonical cWW pair,D+C,RNA (19-mer),A,37,C,38,G,39,*,C,31,C,32,U,33,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-140,IL_5ED1_002,5ED1,0.2561,0,Isolated non-canonical cWW pair,B+C,RNA (23-mer),G,13,A,14,C,15,*,G,9,A,10,C,11,cWW 1.00,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-142,IL_4J50_002,4J50,0.314,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),C,10,A,11,G,12,*,C,10,A,11,G,12,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-144,IL_8AF0_004,8AF0,0.3733,0,Isolated non-canonical cWW pair,C+D,RNA (19-mer),A,37,C,38,G,39,*,C,31,C,32,U,33,cWW 0.60,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.80
+140,IL_5ED1_002,5ED1,0.2561,0,Isolated non-canonical cWW pair,B+C,RNA (23-mer),G,13,A,14,C,15,*,G,9,A,10,C,11,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+142,IL_4J50_002,4J50,0.314,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),C,10,A,11,G,12,*,C,10,A,11,G,12,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+144,IL_8AF0_004,8AF0,0.3733,0,Isolated non-canonical cWW pair,C+D,RNA (19-mer),A,37,C,38,G,39,*,C,31,C,32,U,33,cWW 0.67,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83
 145,IL_4LFB_059,4LFB,0.369,0,Isolated non-canonical cWW pair,A,SSU rRNA,C,1412,A,1413,U,1414,*,G,1486,G,1487,G,1488,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 147,IL_4LFB_006,4LFB,0.3745,0,Isolated non-canonical cWW pair,A,SSU rRNA,C,67,G,68,G,69,*,C,99,A,101,G,102,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-153,IL_5UNE_007,5UNE,0.2974,0,Isolated non-canonical cWW pair,A+B,RNA (47-MER),G,31,G,32,C,33,*,G,12,G,13,C,14,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.80
-154,IL_5UNE_003,5UNE,0.2726,0,Isolated non-canonical cWW pair,B+A,RNA (47-MER),G,31,G,32,C,33,*,G,12,G,13,C,14,cWW 1.00,nbp 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+153,IL_5UNE_007,5UNE,0.2974,0,Isolated non-canonical cWW pair,A+B,RNA (47-MER),G,31,G,32,C,33,*,G,12,G,13,C,14,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83
+154,IL_5UNE_003,5UNE,0.2726,0,Isolated non-canonical cWW pair,B+A,RNA (47-MER),G,31,G,32,C,33,*,G,12,G,13,C,14,cWW 1.00,? 0.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 160,IL_8D29_001,8D29,0.3222,0,Isolated non-canonical cWW pair,C,RNA (34-MER),G,4,A,5,U,6,*,A,29,G,30,C,31,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 161,IL_3DIL_006,3DIL,0.3095,0,Isolated non-canonical cWW pair,A,RNA (174-MER),G,115,G,116,G,117,*,C,137,A,138,C,139,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 162,IL_8PFQ_001,8PFQ,0.2902,0,,A+B,"Chains: A,B",C,3,G,4,A,5,*,U,28,A,29,G,30,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-163,IL_3D0U_006,3D0U,0.295,0,Isolated non-canonical cWW pair,A,Lysine Riboswitch RNA,G,112,G,113,G,114,*,C,134,A,135,C,136,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.80
+163,IL_3D0U_006,3D0U,0.295,0,Isolated non-canonical cWW pair,A,Lysine Riboswitch RNA,G,112,G,113,G,114,*,C,134,A,135,C,136,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83
 166,IL_4M4O_002,4M4O,0.2762,0,Isolated non-canonical cWW pair,B,RNA (59-MER),G,46,A,47,C,48,*,G,12,G,13,C,14,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 167,IL_2R8S_001,2R8S,0.3075,0,Isolated non-canonical cWW pair,R,P4-P6 RNA RIBOZYME DOMAIN,G,110,G,111,G,112,*,C,208,A,210,C,211,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-171,IL_3HHN_004,3HHN,0.3112,0,Isolated non-canonical cWW pair,E,"Class I ligase ribozyme, self-ligation product",A,102,A,103,C,104,*,G,87,G,88,U,89,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.80,nbp 0.80,nbp 0.80,nbp 1.00
-172,IL_3IVK_002,3IVK,0.3519,0,Isolated non-canonical cWW pair,M,class I ligase product,A,102,A,103,C,104,*,G,87,G,88,U,89,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.60,nbp 0.80,nbp 0.80,nbp 0.80
+171,IL_3HHN_004,3HHN,0.3112,0,Isolated non-canonical cWW pair,E,"Class I ligase ribozyme, self-ligation product",A,102,A,103,C,104,*,G,87,G,88,U,89,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00
+172,IL_3IVK_002,3IVK,0.3519,0,Isolated non-canonical cWW pair,M,class I ligase product,A,102,A,103,C,104,*,G,87,G,88,U,89,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.5,nbp 0.83,nbp 0.83,nbp 0.83
 175,IL_8PFQ_003,8PFQ,0.3016,0,,B+A,"Chains: A,B",C,23,G,24,A,25,*,U,8,A,9,G,10,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-179,IL_1MFQ_003,1MFQ,0.4013,0,Isolated non-canonical cWW pair,A,SRP RNA,U,132,A,133,U,134,*,A,163,G,164,G,165,cWW 1.00,cWW 0.80,cWW 0.60,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-180,IL_3CUL_008,3CUL,0.3327,0,Isolated non-canonical cWW pair,C,RNA (92-MER),C,87,A,88,G,89,*,U,57,G,58,G,59,cWW 1.00,cWW 1.00,nbp 0.60,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-181,IL_4M6D_011,4M6D,0.3213,0,Isolated non-canonical cWW pair,H,aptamer,G,46,A,47,C,48,*,G,12,G,13,C,14,cWW 0.80,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
-182,IL_4M4O_001,4M4O,0.2862,0,Isolated non-canonical cWW pair,B,RNA (59-MER),A,52,C,53,G,54,*,C,6,A,7,U,8,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-183,IL_5UNE_006,5UNE,0.4285,0,Isolated non-canonical cWW pair,B+A,RNA (47-MER),U,16,A,17,G,18,*,C,27,A,28,G,29,cWW 1.00,cWW 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+179,IL_1MFQ_003,1MFQ,0.4013,0,Isolated non-canonical cWW pair,A,SRP RNA,U,132,A,133,U,134,*,A,163,G,164,G,165,cWW 1.00,cWW 0.83,cWW 0.67,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+180,IL_3CUL_008,3CUL,0.3327,0,Isolated non-canonical cWW pair,C,RNA (92-MER),C,87,A,88,G,89,*,U,57,G,58,G,59,cWW 1.00,cWW 1.00,nbp 0.50,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+181,IL_4M6D_011,4M6D,0.3213,0,Isolated non-canonical cWW pair,H,aptamer,G,46,A,47,C,48,*,G,12,G,13,C,14,cWW 0.83,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
+182,IL_4M4O_001,4M4O,0.2862,0,Isolated non-canonical cWW pair,B,RNA (59-MER),A,52,C,53,G,54,*,C,6,A,7,U,8,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+183,IL_5UNE_006,5UNE,0.4285,0,Isolated non-canonical cWW pair,B+A,RNA (47-MER),U,16,A,17,G,18,*,C,27,A,28,G,29,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00

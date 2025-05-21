@@ -6,6 +6,7 @@ import statistics
 import pandas as pd
 
 # TODO organize the code later when have time
+# TODO DSSR not fully integrated
 class Agreement_Analyzer:
     RESULTS_DIRECTORY = os.path.join('Data', 'ResultsAnalysis')
     OUTPUT_DIRECTORY = os.path.join(
@@ -16,10 +17,10 @@ class Agreement_Analyzer:
             RESULTS_DIRECTORY, 'base_pairing_agreements.csv'
         )
     )
-    TOOLS = ['R3DMA', 'CL', 'FR', 'MC', 'RV']
+    TOOLS = ['R3DMA', 'CL', 'FR', 'MC', 'RV', 'DSSR']
     
-    bp_interaction_counts = [[0,0], [0,0], [0,0], [0,0], [0,0]]
-    nbp_interaction_counts = [[0,0], [0,0], [0,0], [0,0], [0,0]]
+    bp_interaction_counts = [[0,0], [0,0], [0,0], [0,0], [0,0], [0,0]]
+    nbp_interaction_counts = [[0,0], [0,0], [0,0], [0,0], [0,0], [0,0]]
     total_bp_interactions = 0
     total_nbp_interactions = 0
     

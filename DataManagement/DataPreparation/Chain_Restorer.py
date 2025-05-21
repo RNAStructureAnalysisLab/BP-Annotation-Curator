@@ -1,11 +1,11 @@
 # AUTHOR: Kristopher Church
 # -----------------------------------------------------------------------------
 # PURPOSE:
-# TODO: update the purpose description, somewhat outdated
-# Creates DSSR CSV files that are stored into 
-# 'Data/AnnotationTools/Annotations'. These files are renamed to be consistent
-# with the names of the other files, and the chain IDs in the originall DSSR
-# file are remapped to the original chain IDs
+# Converts the dssr annotations into CSV files and stores them into
+# 'Data/AnnotationTools/Annotations'. When converted to a CSV, the chain IDs
+# found in the dssr file, are replaced with the original chain ID found in the
+# corresponding PDBx file. Applies this chain ID replacement to non dssr
+# annotations as well
 # -----------------------------------------------------------------------------
 
 import os
@@ -92,6 +92,7 @@ class Chain_Restorer:
             )
         ]
         header = r'List of (\d+) base pairs'
+        dssr_residue_template = r'(\d*[a-zA-Z]+)([-]?\d+)(.*)'
         dssr_file_names = os.listdir(Chain_Restorer.DSSR_DIRECTORY)
         for pdb in dssr_file_names:
             pdb_input_file_name = os.path.join(
@@ -121,30 +122,28 @@ class Chain_Restorer:
                         parts = [
                             part.strip() for part in line.split(' ') if part
                         ]
-                        
+                        residue1 = parts[1].split('.')
+                        residue2 = parts[2].split('.')
+                        match1 = re.match(dssr_residue_template, residue1[1])
+                        match2 = re.match(dssr_residue_template, residue2[1])
+                       
                         if pdb in pdbx_ids:
                             residue1 = (
                                 Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
-                                    parts[1].split('.')[0]
-                                ] + parts[1].split('.')[1][1:]
+                                    residue1[0]
+                                ] + match1.group(2)
                             )
                             residue2 = (
                                 Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
-                                    parts[2].split('.')[0]
-                                ] + parts[2].split('.')[1][1:]
+                                    residue2[0]
+                                ] + match2.group(2)
                             )
                         else:
-                            residue1 = (
-                                parts[1].split('.')[0] + 
-                                parts[1].split('.')[1][1:]
-                            )
-                            residue2 = (
-                                parts[2].split('.')[0] +
-                                parts[2].split('.')[1][1:]
-                            )
+                            residue1 = residue1[0] + match1.group(2)
+                            residue2 = residue2[0] + match2.group(2)
                         
-                        n_type = "".join(parts[3].split('-'))
-                        contact_type = "".join(parts[-1].split('-'))
+                        n_type = match1.group(1) + match2.group(1)
+                        contact_type = parts[-1]
                         rows.append({
                             "residue1": residue1, "residue2": residue2, 
                             "n_type": n_type, "description": contact_type

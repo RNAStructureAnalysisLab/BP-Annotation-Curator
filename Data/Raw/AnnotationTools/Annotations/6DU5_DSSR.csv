@@ -1,9 +1,9 @@
 residue1,residue2,n_type,description
-B3,B25,CG,cWW
-B5,B23,GC,cWW
-B5,B24,GA,cWW
-B6,B22,GC,cWW
-B7,B21,UG,cWW
-B8,B20,GA,tmM
-B9,B17,U+A,tW+W
-B11,B16,G+G,cW+M
+B3,B25,CG,cW-W
+B5,B23,GC,cW-W
+B5,B24,GA,cW-W
+B6,B22,GC,cW-W
+B7,B21,UG,cW-W
+B8,B20,GA,tm-M
+B9,B17,UA,tW+W
+B11,B16,GG,cW+M

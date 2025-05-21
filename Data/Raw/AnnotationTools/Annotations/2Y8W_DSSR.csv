@@ -1,7 +1,7 @@
 residue1,residue2,n_type,description
-B6,BG21,CG,cWW
-B7,B20,CG,cWW
-B8,B19,CG,cWW
-B9,B18,CG,cWW
-B10,B17,AU,cWW
-B11,B16,CG,cWW
+B6,B21,CG,cW-W
+B7,B20,CG,cW-W
+B8,B19,CG,cW-W
+B9,B18,CG,cW-W
+B10,B17,AU,cW-W
+B11,B16,CG,cW-W

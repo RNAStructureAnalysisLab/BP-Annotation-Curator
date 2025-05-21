@@ -8,7 +8,7 @@
 7,HL_3V7E_001,3V7E,0.2223,0,Pseudoknot geometry,C,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW 1.00,nbp 1.00
 8,HL_3IVK_004,3IVK,0.5279,1,Pseudoknot geometry,M,class I ligase product,G,75,G,77,G,78,C,79,A,80,G,81,C,82,cWW 1.00,nbp 1.00
 9,HL_3HHN_009,3HHN,0.5143,1,Pseudoknot geometry,E,"Class I ligase ribozyme, self-ligation product",G,75,G,77,G,78,C,79,A,80,G,81,C,82,cWW 1.00,nbp 1.00
-12,HL_4WF9_014,4WF9,0.5229,1,Pseudoknot geometry,X,LSU rRNA,G,456,A,458,C,459,C,460,A,461,U,462,C,463,cWW 1.00,nbp 0.80
+12,HL_4WF9_014,4WF9,0.5229,1,Pseudoknot geometry,X,LSU rRNA,G,456,A,458,C,459,C,460,A,461,U,462,C,463,cWW 1.00,nbp 0.83
 13,HL_7A0S_014,7A0S,0.6017,1,Pseudoknot geometry,X,LSU rRNA,G,423,A,425,C,426,C,427,A,428,C,429,C,430,cWW 1.00,nbp 1.00
-14,HL_1WZ2_006,1WZ2,0.7758,2,Pseudoknot geometry,D,tRNA,A,934,C,937,A,938,A,939,G,940,A,941,U,942,cWW 1.00,nbp 0.60
+14,HL_1WZ2_006,1WZ2,0.7758,2,Pseudoknot geometry,D,tRNA,A,934,C,937,A,938,A,939,G,940,A,941,U,942,cWW 1.00,nbp 0.67
 15,HL_4OQU_002,4OQU,0.7542,2,Pseudoknot geometry,A,SAM-I/IV riboswitch,G,32,C,34,G,35,G,36,A,37,C,38,C,40,cWW 1.00,nbp 1.00

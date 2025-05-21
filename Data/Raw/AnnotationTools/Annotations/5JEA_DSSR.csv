@@ -1,5 +1,5 @@
 residue1,residue2,n_type,description
-R-39,R-31,C+G,cW+M
-R-39,R-30,C+G,cW+M
-R-38,R-33,CG,cWW
-R-38,R-32,CG,cWW
+R-39,R-31,CG,cW+M
+R-39,R-30,CG,cW+M
+R-38,R-33,CG,cW-W
+R-38,R-32,CG,cW-W

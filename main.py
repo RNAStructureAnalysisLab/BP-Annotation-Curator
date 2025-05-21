@@ -169,7 +169,7 @@ if 5 >= starting_step_number:
             break
         else:
             print("Incorrect input, please enter a single letter.")
-            
+
 # =============================================================================
 
 
@@ -195,7 +195,7 @@ print('STEP 6 unimplimented. Skipping')
 if 7 >= starting_step_number:
     print('Beginning STEP 7:\n')
     Preprocessor.convert_all()
-    
+
 # =============================================================================
 
 
@@ -240,6 +240,16 @@ if 11 >= starting_step_number: # should be part of step 10, temporary
 # For some reson it didn't end up in my list of files to convert to PDB and as
 # such am missing a DSSR file for it. Some others missing too. Could be a 
 # problem with one of the files, or a mistake when I was manually trying to 
-# insert things
-# NOTE: 4L47 and 4V9F are good ones to verify step 4
+# insert things (Same for 5J7L)
+# NOTE: 4L47 and 4V9F are good ones to verify step 5
+# TODO: 1F7U dssr is strange. For example it reports the nucleoside 
+# pseudouridine (P). P is not featured in the other annotations. a residue that
+# is P seems to be completely omitted. Does R3DMA also omit these from the cluster
+# or does it represent P as a 'U' since they are similar? If it represents it
+# as a U, then this would explain the occurrence of "nbp" being reported for 
+# certain residues, where it was a modified nucleoside
+
+#TODO: IL_85033 has some unusual contact types reported from R3DMA
+# NOTE: HL_28252.5 from version 3.95 is a good example of a cluster with
+# nonstandard nucleosides
     

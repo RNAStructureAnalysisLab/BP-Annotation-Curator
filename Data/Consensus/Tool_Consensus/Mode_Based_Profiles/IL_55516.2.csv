@@ -1,5 +1,5 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,1-7,2-6,3-4,3-6,4-5,3-5,2-7,2-4,1-6
-1,IL_3DD2_004,3DD2,0.5187,2,,B,RNA (26-MER),G,3,A,4,A,5,A,8,*,UFT,21,A,22,CFL,23,nbp 0.80,nbp 0.80,nbp 0.80,cSW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+1,IL_3DD2_004,3DD2,0.5187,2,,B,RNA (26-MER),G,3,A,4,A,5,A,8,*,UFT,21,A,22,CFL,23,nbp 0.83,nbp 0.83,nbp 0.83,cSW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 4,IL_7SZU_003,7SZU,0.2969,0,,R,RNA aptamer,G,49,C,50,A,51,C,52,*,G,25,A,26,C,27,cWW 1.00,cWW 1.00,cSH 1.00,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-5,IL_6DME_003,6DME,0.0,0,,A,ppGpp Riboswitch,G,33,A,34,A,35,G,36,*,C,20,A,21,C,22,cWW 1.00,cWW 0.60,nbp 0.60,nbp 0.80,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00
-7,IL_2A64_008,2A64,0.6105,1,,A,ribonuclease P RNA,G,237,U,238,A,239,A,241,*,U,191,G,192,C,193,cWW 0.60,nbp 1.00,nbp 0.60,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.80,nbp 0.80
+5,IL_6DME_003,6DME,0.0,0,,A,ppGpp Riboswitch,G,33,A,34,A,35,G,36,*,C,20,A,21,C,22,cWW 1.00,cWW 0.67,? 0.00,nbp 0.83,cWW 1.00,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
+7,IL_2A64_008,2A64,0.6105,1,,A,ribonuclease P RNA,G,237,U,238,A,239,A,241,*,U,191,G,192,C,193,cWW 0.67,nbp 1.00,nbp 0.67,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.67,nbp 0.67

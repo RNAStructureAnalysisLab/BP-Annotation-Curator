@@ -1,9 +1,9 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,1-4,2-5,2-4
-3,IL_4WF9_098,4WF9,1.2929,0,Single bulged A,X,LSU rRNA,C,2628,A,2629,G,2630,*,C,2618,G,2619,cWW 1.00,cWW 1.00,nbp 0.80,nbp 0.80,nbp 1.00
-4,IL_7KGA_005,7KGA,0.9447,0,Single bulged A,B,Flavivirus DB element,U,39,A,40,G,41,*,C,14,A,15,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+3,IL_4WF9_098,4WF9,1.2929,0,Single bulged A,X,LSU rRNA,C,2628,A,2629,G,2630,*,C,2618,G,2619,cWW 1.00,cWW 1.00,nbp 0.83,nbp 0.83,nbp 1.00
+4,IL_7KGA_005,7KGA,0.9447,0,Single bulged A,B,Flavivirus DB element,U,39,A,40,G,41,*,C,14,A,15,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 7,IL_2NZ4_004,2NZ4,1.1621,0,,F+Q,substrate strand RNA 13-mer + GlmS ribozyme,C,5,A,6,G,7,*,C,52,G,53,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 8,IL_2OZB_001,2OZB,0.837,0,Single bulged A,C,RNA comprising the 5' Stem-Loop RNA of  U4snRNA,U,24,A,25,G,26,*,C,47,G,48,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-16,IL_4LFB_035,4LFB,0.3425,0,Single bulged A,A,SSU rRNA,U,1393,A,1394,C,1395,*,G,922,A,923,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+16,IL_4LFB_035,4LFB,0.3425,0,Single bulged A,A,SSU rRNA,U,1393,A,1394,C,1395,*,G,922,A,923,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 18,IL_8VM9_003,8VM9,0.3312,0,Single bulged A,R,RNA (85-MER),U,43,A,44,G,45,*,C,75,G,76,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 21,IL_4L8H_001,4L8H,0.5814,0,Single bulged A,R,RNA operator hairpin,C,4,A,5,U,6,*,A,16,G,17,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 24,IL_1JZV_002,1JZV,0.4738,0,Single bulged A,B+A,RNA (9-mer),U,12,A,13,C,14,*,G,4,A,5,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
@@ -12,34 +12,34 @@
 28,IL_1NBS_005,1NBS,0.4531,0,Single bulged A,B,RNase P class B,G,129,A,130,C,131,*,G,113,C,114,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 30,IL_7A0S_002,7A0S,0.5071,0,Single bulged A,X,LSU rRNA,G,454,A,455,C,456,*,G,36,C,37,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 31,IL_4WF9_002,4WF9,0.4272,0,Single bulged A,X,LSU rRNA,G,488,A,489,C,490,*,G,36,C,37,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-35,IL_1U9S_001,1U9S,0.4517,0,Single bulged A,A,RIBONUCLEASE P,G,107,A,108,C,109,*,G,95,C,96,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+35,IL_1U9S_001,1U9S,0.4517,0,Single bulged A,A,RIBONUCLEASE P,G,107,A,108,C,109,*,G,95,C,96,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 37,IL_1GID_009,1GID,0.3666,0,Single bulged A,B,P4-P6 RNA RIBOZYME DOMAIN,C,209,A,210,C,211,*,G,110,G,111,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 38,IL_3V7E_001,3V7E,0.491,0,Single bulged A,C,SAM-I riboswitch,G,13,A,14,G,15,*,C,40,C,41,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 39,IL_4P3U_002,4P3U,0.4755,0,Single bulged A,B+A,RNA (23-mer),A,40,A,41,G,42,*,C,7,U,8,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 40,IL_4AOB_001,4AOB,0.4168,0,Single bulged A,A,SAM-I riboswitch,G,13,A,14,G,15,*,C,40,C,41,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-42,IL_8VFS_002,8VFS,0.0,0,Single bulged A,A+B,RNA (27-MER),A,11,A,12,G,13,*,C,17,U,18,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+42,IL_8VFS_002,8VFS,0.0,0,Single bulged A,A+B,RNA (27-MER),A,11,A,12,G,13,*,C,17,U,18,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 43,IL_5AOX_002,5AOX,0.2812,0,Single bulged A,C,ALU JO CONSENSUS RNA,G,56,A,57,G,58,*,C,108,C,109,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-44,IL_9DE7_002,9DE7,0.2653,0,,A,RNA (58-MER),A,15,A,16,G,17,*,C,45,U,46,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
-45,IL_3CGP_002,3CGP,0.3049,0,Single bulged A,B+A,RNA (13-mer),U,19,A,20,A,21,*,PSU,6,A,7,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
+44,IL_9DE7_002,9DE7,0.2653,0,,A,RNA (58-MER),A,15,A,16,G,17,*,C,45,U,46,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
+45,IL_3CGP_002,3CGP,0.3049,0,Single bulged A,B+A,RNA (13-mer),U,19,A,20,A,21,*,PSU,6,A,7,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 46,IL_1DUQ_002,1DUQ,0.2564,0,Single bulged A,B+A,THE REV BINDING ELEMENT,G,120,A,121,C,122,*,G,108,C,109,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 47,IL_1CSL_002,1CSL,0.2809,0,Single bulged A,B+A,RNA (15-mer),G,67,A,68,C,69,*,G,50,C,51,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 48,IL_1I9X_002,1I9X,0.2788,0,Single bulged A,B+A,RNA (13-mer),U,4,A,5,A,6,*,U,9,A,10,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 51,IL_4P3U_011,4P3U,0.3726,0,Single bulged A,C+D,RNA (23-mer),A,17,A,18,G,19,*,C,30,U,31,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-52,IL_4P3U_005,4P3U,0.3615,0,Single bulged A,A+B,RNA (23-mer),A,17,A,18,G,19,*,C,30,U,31,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+52,IL_4P3U_005,4P3U,0.3615,0,Single bulged A,A+B,RNA (23-mer),A,17,A,18,G,19,*,C,30,U,31,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 53,IL_4P3U_008,4P3U,0.4091,0,Single bulged A,D+C,RNA (23-mer),A,40,A,41,G,42,*,C,7,U,8,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-54,IL_1EFO_002,1EFO,0.3787,0,,B+A,RNA (10-mer),G,15,A,16,G,17,*,DC,3,DC,4,nbp 0.80,nbp 0.80,nbp 1.00,nbp 1.00,nbp 1.00
+54,IL_1EFO_002,1EFO,0.3787,0,,B+A,RNA (10-mer),G,15,A,16,G,17,*,DC,3,DC,4,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 55,IL_4R4V_003,4R4V,0.3795,0,Single bulged A,A,VS ribozyme RNA,C,651,A,652,G,653,*,C,766,G,767,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 61,IL_4WF9_022,4WF9,0.5557,0,Single bulged A,X,LSU rRNA,G,808,A,809,A,810,*,U,742,C,743,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 63,IL_7A0S_016,7A0S,0.5624,0,Single bulged A,X,LSU rRNA,G,776,A,777,G,778,*,C,710,C,711,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-65,IL_3CGR_002,3CGR,0.5102,0,Single bulged A,B+A,RNA (13-mer),A,19,A,20,C,21,*,G,6,PSU,7,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-66,IL_3CGS_002,3CGS,0.5749,0,Single bulged A,B+A,RNA (13-mer),G,20,A,21,C,22,*,G,5,PSU,6,nbp 0.80,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-69,IL_5WWT_001,5WWT,0.4771,0,Single bulged A,C,tRNA,G,37,A,38,U,39,*,A,31,C,32,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+65,IL_3CGR_002,3CGR,0.5102,0,Single bulged A,B+A,RNA (13-mer),A,19,A,20,C,21,*,G,6,PSU,7,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+66,IL_3CGS_002,3CGS,0.5749,0,Single bulged A,B+A,RNA (13-mer),G,20,A,21,C,22,*,G,5,PSU,6,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+69,IL_5WWT_001,5WWT,0.4771,0,Single bulged A,C,tRNA,G,37,A,38,U,39,*,A,31,C,32,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 70,IL_7MKY_001,7MKY,0.4968,0,Single bulged A,A,RNA (66-MER),G,49,A,50,U,51,*,A,35,C,36,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 71,IL_8VMB_002,8VMB,0.5619,0,Single bulged A,R,RNA (83-MER),U,46,A,47,G,48,*,C,75,G,76,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 73,IL_7DLZ_001,7DLZ,0.5998,0,Single bulged A,X,RNA (45-MER),U,6,A,7,C,8,*,G,39,G,40,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 74,IL_8VMA_003,8VMA,0.7219,0,Single bulged A,C,RNA (88-MER),U,46,A,47,G,48,*,C,78,G,79,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 76,IL_7VTI_001,7VTI,0.7472,0,Single bulged A,B,crRNA,U,31,A,32,C,33,*,G,4,G,5,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-77,IL_4PHY_004,4PHY,0.7148,0,Single bulged A,A+B,RNA (26-MER) + RNA (20-mer),C,20,A,21,C,22,*,G,30,G,31,cWW 0.60,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
+77,IL_4PHY_004,4PHY,0.7148,0,Single bulged A,A+B,RNA (26-MER) + RNA (20-mer),C,20,A,21,C,22,*,G,30,G,31,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 78,IL_8UO6_001,8UO6,0.6995,0,Single bulged A,A,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,G,60,A,61,C,62,*,G,42,C,43,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 79,IL_7A0S_012,7A0S,0.5628,0,Single bulged A,X,LSU rRNA,G,600,A,601,C,602,*,G,678,C,679,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 82,IL_4WF9_068,4WF9,0.5203,0,Single bulged A,X,LSU rRNA,G,2007,A,2008,U,2009,*,G,1797,C,1798,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
@@ -49,7 +49,7 @@
 92,IL_8UIW_001,8UIW,0.6134,0,Single bulged A,N,yjdF RNA (R. gauvreauii),G,44,A,45,U,46,*,A,63,C,64,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 93,IL_6D3P_004,6D3P,0.6742,0,Single bulged A,A,RNA (45-MER),G,27,A,28,G,29,*,C,12,C,13,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 94,IL_7JJU_002,7JJU,0.3909,0,Single bulged A,A,PLRV_xrRNA,C,31,A,32,U,33,*,A,12,G,13,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-95,IL_7JJU_004,7JJU,0.3869,0,Single bulged A,B,PLRV_xrRNA,C,31,A,32,U,33,*,A,12,G,13,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+95,IL_7JJU_004,7JJU,0.3869,0,Single bulged A,B,PLRV_xrRNA,C,31,A,32,U,33,*,A,12,G,13,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 96,IL_6CYT_001,6CYT,0.5484,0,Single bulged A,N,RNA (17-mer),G,34,A,35,G,36,*,C,29,C,30,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 97,IL_1MFQ_005,1MFQ,0.6841,0,Single bulged A,A,SRP RNA,G,175,A,176,G,177,*,C,220,C,221,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 98,IL_4R4V_004,4R4V,0.4939,0,Single bulged A,A,VS ribozyme RNA,U,712,A,713,G,714,*,C,660,A,661,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
@@ -63,10 +63,10 @@
 112,IL_7KGA_002,7KGA,0.7085,0,Single bulged A,A,Flavivirus DB element,U,39,A,40,G,41,*,C,14,A,15,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 113,IL_3OXE_001,3OXE,0.7907,0,Single bulged A,A,domain II of glycine riboswitch,G,12,A,13,A,14,*,U,27,C,28,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 117,IL_8XZL_003,8XZL,1.028,0,Single bulged A,A,RNA (53-MER),G,32,A,33,C,34,*,G,27,C,28,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-118,IL_4LFB_002,4LFB,1.0798,0,Single bulged A,A,SSU rRNA,G,396,A,397,C,398,*,G,44,U,45,cWW 1.00,cWW 1.00,nbp 0.80,nbp 1.00,nbp 1.00
+118,IL_4LFB_002,4LFB,1.0798,0,Single bulged A,A,SSU rRNA,G,396,A,397,C,398,*,G,44,U,45,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 121,IL_4P97_002,4P97,1.0924,0,Single bulged A,B+A,RNA (11-mer),G,38,A,39,G,40,*,C,12,C,13,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 122,IL_5CNR_002,5CNR,1.0631,0,Single bulged A,B+A,RNA (11-mer),G,38,A,39,G,40,*,C,12,C,13,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 123,IL_4PHY_002,4PHY,1.0621,0,Single bulged A,B+A,RNA (20-mer),G,38,A,39,G,40,*,C,12,C,13,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 126,IL_7JNH_003,7JNH,1.4295,0,Major groove intercalation,B,Core double ENE RNA (Xtal construct) from Oryza sativa transposon,U,55,A,56,C,57,*,G,35,G,36,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-127,IL_4WF9_112,4WF9,1.4611,0,Major groove intercalation,Y,5S rRNA,U,63,A,64,G,65,*,C,15,A,16,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.80
+127,IL_4WF9_112,4WF9,1.4611,0,Major groove intercalation,Y,5S rRNA,U,63,A,64,G,65,*,C,15,A,16,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83
 130,IL_7DLZ_002,7DLZ,1.6141,0,Major groove intercalation,X,RNA (45-MER),U,9,A,10,C,11,*,G,37,G,38,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00

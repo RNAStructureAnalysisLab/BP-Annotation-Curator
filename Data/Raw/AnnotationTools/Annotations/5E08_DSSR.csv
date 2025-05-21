@@ -1,4 +1,4 @@
 residue1,residue2,n_type,description
-N5,N12,GC,cWW
-N6,N11,CG,cWW
-N10,N11,G+G,cm+M
+N5,N12,GC,cW-W
+N6,N11,CG,cW-W
+N10,N11,GG,cm+M

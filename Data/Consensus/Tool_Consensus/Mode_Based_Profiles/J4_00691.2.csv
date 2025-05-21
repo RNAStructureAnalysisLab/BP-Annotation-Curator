@@ -1,6 +1,6 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,break.1,Unnamed: 18,5,Unnamed: 20,6,break.2,Unnamed: 23,7,Unnamed: 25,8,1-8,2-3,4-5,6-7,3-5
-1,J4_1M5K_001,1M5K,0.3235,0,,B+A,RNA HAIRPIN RIBOZYME,U,84,G,85,*,C,7,U,8,*,A,14,A,15,*,U,68,A,69,cWW 1.00,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.80
-2,J4_7VYX_003,7VYX,0.3167,0,,C,sgRNA,C,6,U,7,*,A,59,C,60,*,G,82,C,83,*,G,103,G,104,cWW 0.60,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.80
+1,J4_1M5K_001,1M5K,0.3235,0,,B+A,RNA HAIRPIN RIBOZYME,U,84,G,85,*,C,7,U,8,*,A,14,A,15,*,U,68,A,69,cWW 1.00,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.83
+2,J4_7VYX_003,7VYX,0.3167,0,,C,sgRNA,C,6,U,7,*,A,59,C,60,*,G,82,C,83,*,G,103,G,104,cWW 0.67,cWW 1.00,cWW 1.00,cWW 1.00,nbp 0.83
 3,J4_8SP9_002,8SP9,0.2568,0,,C,"tRNA scaffold,CVB3 Cloverleaf RNA",G,38,C,39,*,G,63,G,64,*,C,74,G,75,*,C,108,C,109,cWW 1.00,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00
 4,J4_8VM8_001,8VM8,0.417,0,,R,RNA (93-MER),G,10,C,11,*,G,35,G,36,*,C,46,G,47,*,C,83,C,84,cWW 1.00,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00
 5,J4_8DP3_001,8DP3,0.3815,0,,R,RNA (90-MER),G,10,C,11,*,G,35,G,36,*,C,46,G,47,*,C,80,C,81,cWW 1.00,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00

@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-6,4-5
-1,IL_4WF9_054,4WF9,0.3012,1,Other IL,X,LSU rRNA,C,1624,U,1625,A,1626,G,1627,*,C,1461,G,1462,A,1463,G,1465,"cWW,cWW,cWW,cWW,cWW","nbp,tWW,nbp,nbp,tWW","nbp,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,cWW"
-2,IL_2ZY6_001,2ZY6,0.1827,1,tSH-tHW,A,phenylalanyl transfer RNA,A,7,U,8,A,9,G,10,*,C,25,G,26,A,27,U,29,"cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH","ntHS,tHS,tHS,tHS,tHS","cWW,cWW,cWW,cWW,cWW"
-6,IL_7A0S_053,7A0S,0.1362,1,tSH-tHW,X,LSU rRNA,C,1451,U,1452,A,1453,U,1454,*,A,1567,A,1568,A,1569,G,1571,"cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH","tHS,tHS,tHS,tHS,tHS","cWW,cWW,cWW,cWW,cWW"
+1,IL_4WF9_054,4WF9,0.3012,1,Other IL,X,LSU rRNA,C,1624,U,1625,A,1626,G,1627,*,C,1461,G,1462,A,1463,G,1465,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,tWW,nbp,nbp,tWW,tWW","nbp,nbp,nbp,nbp,nbp,tHH","cWW,cWW,cWW,cWW,cWW,cWW"
+2,IL_2ZY6_001,2ZY6,0.1827,1,tSH-tHW,A,phenylalanyl transfer RNA,A,7,U,8,A,9,G,10,*,C,25,G,26,A,27,U,29,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH","ntHS,tHS,tHS,tHS,tHS,tHS","cWW,cWW,cWW,cWW,cWW,cWW"
+6,IL_7A0S_053,7A0S,0.1362,1,tSH-tHW,X,LSU rRNA,C,1451,U,1452,A,1453,U,1454,*,A,1567,A,1568,A,1569,G,1571,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH","tHS,tHS,tHS,tHS,tHS,tHS","cWW,cWW,cWW,cWW,cWW,cWW"

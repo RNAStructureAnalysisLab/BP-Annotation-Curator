@@ -1,8 +1,8 @@
 residue1,residue2,n_type,description
-B1,B2,G+U,cm+M
-B6,B20,CG,cWW
-B7,B19,AU,cWW
-B8,B18,GC,cWW
-B9,B17,CG,cWW
-B10,B16,CG,cWW
-B11,B15,GA,tmM
+B1,B2,GU,cm+M
+B6,B20,CG,cW-W
+B7,B19,AU,cW-W
+B8,B18,GC,cW-W
+B9,B17,CG,cW-W
+B10,B16,CG,cW-W
+B11,B15,GA,tm-M

@@ -88,6 +88,7 @@ class Preprocessor:
             Preprocessor.INPUT_DIRECTORY, csv_file_name
         )
         is_clarna = 'CL' in csv_file_name.split('_')[1]
+        is_dssr = 'DSSR' in csv_file_name.split('_')[1]
         accepted_annotations = {}
         rejected_annotations = {}
         with open(input_file_path, 'r') as annotation_csv_file:
@@ -96,12 +97,13 @@ class Preprocessor:
             for csv_row in csv_reader:
                 if is_clarna:
                     residue1, residue2, nucleotides, weight, description, _ = csv_row
+                elif is_dssr:
+                    residue1, residue2, nucleotides, description = csv_row
                 else:
                     residue1, residue2, nucleotides, description, _ = csv_row
                 residue_pair = (
                     f'{residue1}{nucleotides[0]}', f'{residue2}{nucleotides[1]}'
                 )
-                
                 new_residue_pair, new_description = Preprocessor._ensure_format(
                     residue_pair, description
                 )
@@ -178,7 +180,7 @@ class Preprocessor:
             first = residue_pair[1]
             second = residue_pair[0]
             residue_pair = (first, second)
-            
+        
         # Change description to a proper notation
         description = Preprocessor._rename(description, was_reversed)
         
@@ -206,10 +208,12 @@ class Preprocessor:
                 # Other style contact types to r3dma style ones
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}-{replace(e[1])}'] = r3dma_style
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}+{replace(e[1])}'] = r3dma_style
+                # Ensure that any already in the R3DMA style remain so
+                Preprocessor.RENAMING_CONVENTION[r3dma_style] = r3dma_style
         
         # Create a set of notations that should be removed since they don't cleanly correspond to leontis-westhof nomenclature
         Preprocessor.DESCRIPTIONS_TO_REJECT = {
-            '?H_0BPh', '?W_6BPh', '?SW_2BR', '?W_345BPh', '?H_0BR', 'UNK_SHORT_DESC', 'W_6BR', 
+            '?H_0BPh', '?W_6BPh', '?SW_2BR', '?W_345BPh', '?H_0BR', 'UNK_SHORT_DESC', 'W_6BR', '--',
             'tW+.', '?diagonal-nc-ww', 'diagonal-nc-ww', '?W_345BR', 'c.-W', 'W_345BPh', 't.-M', 'cW-.', '?H_789BR', 'diagonal-c', 'c.-M', 
             'H_789BPh', 't.-W', 'cW+.', 'H_789BR', 'SW_2BR', '?SW_2BPh', '?W_6BR', '?diagonal-c', 't.+W', 'tW-.', '?S_1BPh', '?S_1BR', 
             '?H_789BPh', 'SW_2BPh', 'tm+.', 'H_0BR', 'W_345BR', 'W_6BPh', 'c.+M', 't.-m', 'tm-.', 't.+m', 'tM-.', 'cM+.', 't.+M', 'c.+W'
@@ -240,15 +244,20 @@ class Preprocessor:
         elif description not in Preprocessor.RENAMING_CONVENTION:
             return ''
         elif was_reversed:
-            # TODO Assuming no DSSR styled description
-            # Swaps the placement of two edges, IE: ?WH_tran --> ?HW_tran
-            delimiter_index = description.find('_')
-            description = (
-                description[:delimiter_index - 2] + 
-                description[delimiter_index - 1] + 
-                description[delimiter_index - 2] + 
-                description[delimiter_index:]
-            )
+            if '_' in description:
+                # Swaps the placement of two edges, IE: ?WH_tran --> ?HW_tran
+                delimiter_index = description.find('_')
+                description = (
+                    description[:delimiter_index - 2] + 
+                    description[delimiter_index - 1] + 
+                    description[delimiter_index - 2] + 
+                    description[delimiter_index:]
+                )
+            else: # Swap placement for a DSSR styled contact type
+                description = (
+                    description[0] + description[-1] + description[-2] + 
+                    description[-3]
+                )
             
         return Preprocessor.RENAMING_CONVENTION[description]
        

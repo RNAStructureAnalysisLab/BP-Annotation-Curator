@@ -15,8 +15,6 @@ import shutil
 import pandas as pd
 from Bio.PDB import PDBParser # Biopython library
 
-# TODO so far not DSSR compatible
-
 class Table_Extender:
     MOTIF_CLUSTER_DIRECTORY = os.path.join(
         'Data', 'Raw', 'R3DMA', 'cluster_tables_3.95'
@@ -32,7 +30,7 @@ class Table_Extender:
     )
     PDB_DIRECTORY = os.path.join('Data', 'Raw', 'RCSB', 'PDB_Files')
     PARSER = PDBParser(QUIET=True)
-    TUPLE_SCHEMA = ['R3DMA', 'CL', 'FR', 'MC', 'RV']
+    TUPLE_SCHEMA = ['R3DMA', 'CL', 'FR', 'MC', 'RV', 'DSSR']
     
     model_cache = {} # key = path to PDB file, value = model of PDB structure
     
@@ -75,8 +73,8 @@ class Table_Extender:
             row = motif_cluster.iloc[i]
             if (
                 row['PDB'] not in used_pdb_ids or
-                'VVV' in row['Chain(s)'] or
-                'ASIT' in row['Chain(s)'] or
+                #'VVV' in row['Chain(s)'] or
+                #'ASIT' in row['Chain(s)'] or
                 any('|' in str(entry) for entry in row)
             ):
                 rows_to_drop.append(i)
@@ -88,7 +86,7 @@ class Table_Extender:
                     contact_type = motif_cluster.at[i, column_name]
                     if isinstance(contact_type, float): # blanks are floats
                         contact_type = 'nbp' # nbp: 'Not a Base Pair'
-                    six_tuple = contact_type + ',nbp,nbp,nbp,nbp'
+                    six_tuple = contact_type + ',nbp,nbp,nbp,nbp,nbp'
                     motif_cluster.at[i, column_name] = six_tuple
                 else:
                     break
@@ -300,9 +298,9 @@ class Table_Extender:
                         motif_cluster.loc[row_label, column_name] = six_tuple
                     else:
                         six_tuple = Table_Extender._update_tuple(
-                            'nbp,nbp,nbp,nbp,nbp', tool, contact_type
+                            'nbp,nbp,nbp,nbp,nbp,nbp', tool, contact_type
                         )
-                        motif_cluster[column_name] = 'nbp,nbp,nbp,nbp,nbp'
+                        motif_cluster[column_name] = 'nbp,nbp,nbp,nbp,nbp,nbp'
                         motif_cluster.loc[row_label, column_name] = six_tuple
     
     # INPUT: A comma deliminated string representing a six tuple, a string

@@ -1,4 +1,4 @@
 residue1,residue2,n_type,description
-L2,L12,AU,cWW
-L4,L11,U+U,tW+W
-L5,L14,AA,tMW
+L2,L12,AU,cW-W
+L4,L11,UU,tW+W
+L5,L14,AA,tM-W

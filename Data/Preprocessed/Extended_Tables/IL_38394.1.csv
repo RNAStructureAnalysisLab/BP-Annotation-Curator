@@ -1,3 +1,3 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,break,Unnamed: 25,9,Unnamed: 27,10,1-10,2-6,8-9,1-6
-1,IL_7TZS_002,7TZS,0.0,0,Stack outside cWW,X,TPP riboswitch (THI element),C,38,U,39,G,40,A,41,G,42,A,43,A,44,A,45,*,U,20,G,21,"cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH","cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp"
-2,IL_8F4O_006,8F4O,0.3308,0,,B,TPP riboswitch (THI element),C,38,U,39,G,40,A,41,G,42,A,43,A,44,A,45,*,U,20,G,21,"cWW,cWW,cWW,cWW,cWW","ntWH,tWH,tWH,tWH,tWH","cWW,cWW,cWW,cWW,cWW","nbp,tWH,nbp,nbp,nbp"
+1,IL_7TZS_002,7TZS,0.0,0,Stack outside cWW,X,TPP riboswitch (THI element),C,38,U,39,G,40,A,41,G,42,A,43,A,44,A,45,*,U,20,G,21,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
+2,IL_8F4O_006,8F4O,0.3308,0,,B,TPP riboswitch (THI element),C,38,U,39,G,40,A,41,G,42,A,43,A,44,A,45,*,U,20,G,21,"cWW,cWW,cWW,cWW,cWW,cWW","ntWH,tWH,tWH,tWH,tWH,tWH","cWW,cWW,cWW,cWW,cWW,cWW","nbp,tWH,nbp,nbp,nbp,nbp"

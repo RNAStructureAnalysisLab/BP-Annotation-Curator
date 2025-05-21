@@ -1,6 +1,6 @@
 residue1,residue2,n_type,description
-C2,D6,GU,cWW
-C3,D5,CG,cWW
-C4,D4,UU,cWW
-C5,D3,GC,cWW
-C6,D2,UG,cWW
+C2,D6,GU,cW-W
+C3,D5,CG,cW-W
+C4,D4,UU,cW-W
+C5,D3,GC,cW-W
+C6,D2,UG,cW-W

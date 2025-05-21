@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,1-8,2-7,3-6
-1,HL_1EC6_001,1EC6,0.769,6,C,20-MER RNA HAIRPIN,G,4,A,5,C,6,C,7,A,9,C,15,C,16,C,17,"cWW,cWW,cWW,cWW,cWW","ncWWa,cWW,nbp,cWW,nbp","nbp,nbp,nbp,nbp,nbp"
-2,HL_8SYK_003,8SYK,0.0,5,A,RNA device 43 truncation mutant 3 (U100C),G,57,A,58,A,59,G,60,A,61,A,67,C,68,C,69,"cWW,cWW,cWW,cWW,cWW","ncWWa,cWW,nbp,cWW,nbp","nbp,tSH,nbp,nbp,nbp"
-3,HL_3EGZ_001,3EGZ,0.2885,5,B,Tetracycline aptamer and artificial riboswitch,G,12,A,13,A,14,G,15,A,16,A,22,C,23,C,24,"cWW,cWW,cWW,cWW,cWW","ncWWa,cWW,nbp,cWW,cWW","nbp,tSH,nbp,nbp,nbp"
+1,HL_1EC6_001,1EC6,0.769,6,C,20-MER RNA HAIRPIN,G,4,A,5,C,6,C,7,A,9,C,15,C,16,C,17,"cWW,cWW,cWW,cWW,cWW,cWW","ncWWa,cWW,nbp,cWW,nbp,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
+2,HL_8SYK_003,8SYK,0.0,5,A,RNA device 43 truncation mutant 3 (U100C),G,57,A,58,A,59,G,60,A,61,A,67,C,68,C,69,"cWW,cWW,cWW,cWW,cWW,cWW","ncWWa,cWW,nbp,cWW,nbp,cWW","nbp,tSH,nbp,nbp,nbp,nbp"
+3,HL_3EGZ_001,3EGZ,0.2885,5,B,Tetracycline aptamer and artificial riboswitch,G,12,A,13,A,14,G,15,A,16,A,22,C,23,C,24,"cWW,cWW,cWW,cWW,cWW,cWW","ncWWa,cWW,nbp,cWW,cWW,cWW","nbp,tSH,nbp,nbp,nbp,nbp"

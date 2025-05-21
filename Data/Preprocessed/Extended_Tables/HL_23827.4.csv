@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-9,3-7,4-6,3-6
-1,HL_6DME_003,6DME,0.601,1,A,ppGpp Riboswitch,G,78,G,79,A,80,U,81,A,83,A,84,A,85,G,86,A,87,C,88,"cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH","tWH,tWH,tWH,tWH,tWH","nbp,tWH,nbp,nbp,tWH"
+1,HL_6DME_003,6DME,0.601,1,A,ppGpp Riboswitch,G,78,G,79,A,80,U,81,A,83,A,84,A,85,G,86,A,87,C,88,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH","tWH,tWH,tWH,tWH,tWH,tWH","nbp,tWH,nbp,nbp,tWH,nbp"

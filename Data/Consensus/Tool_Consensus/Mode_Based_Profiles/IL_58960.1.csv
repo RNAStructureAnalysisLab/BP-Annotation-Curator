@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,break,Unnamed: 26,10,Unnamed: 28,11,1-11,4-8,9-10,5-8,5-7
-1,IL_4FRN_003,4FRN,0.2749,0,B,Cobalamin riboswitch aptamer domain,A,6,A,7,A,8,A,9,G,10,C,11,A,12,U,13,G,14,*,C,75,U,76,cWW 1.00,nbp 0.80,cWW 1.00,nbp 0.80,nbp 1.00
+1,IL_4FRN_003,4FRN,0.2749,0,B,Cobalamin riboswitch aptamer domain,A,6,A,7,A,8,A,9,G,10,C,11,A,12,U,13,G,14,*,C,75,U,76,cWW 1.00,nbp 0.67,cWW 1.00,nbp 0.67,nbp 1.00
 2,IL_4M4O_003,4M4O,0.0,0,B,RNA (59-MER),U,15,A,16,A,17,A,18,G,19,A,20,G,21,U,22,G,23,*,C,44,A,45,cWW 1.00,tWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00
-3,IL_4M6D_012,4M6D,0.2197,0,H,aptamer,U,15,A,16,A,17,A,18,G,19,A,20,G,21,U,22,G,23,*,C,44,A,45,cWW 0.80,tWW 1.00,cWW 1.00,nbp 1.00,nbp 0.80
+3,IL_4M6D_012,4M6D,0.2197,0,H,aptamer,U,15,A,16,A,17,A,18,G,19,A,20,G,21,U,22,G,23,*,C,44,A,45,cWW 0.83,tWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83

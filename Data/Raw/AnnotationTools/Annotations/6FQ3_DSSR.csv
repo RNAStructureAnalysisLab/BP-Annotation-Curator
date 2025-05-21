@@ -1,6 +1,6 @@
 residue1,residue2,n_type,description
-B1,B13,GC,cWW
-B2,B12,GC,cWW
-B3,B11,AU,cWW
-B4,B10,GC,cWW
-B5,B9,UA,cWW
+B1,B13,GC,cW-W
+B2,B12,GC,cW-W
+B3,B11,AU,cW-W
+B4,B10,GC,cW-W
+B5,B9,UA,cW-W

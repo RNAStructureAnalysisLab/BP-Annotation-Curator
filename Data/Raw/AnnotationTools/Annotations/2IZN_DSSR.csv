@@ -1,9 +1,9 @@
 residue1,residue2,n_type,description
-R3,R17,AU,cWW
-R4,R16,UA,cWW
-R5,R15,CG,cWW
-R7,R14,CG,cWW
-R8,R13,GC,cWW
-S5,S15,CG,cWW
-S7,S14,CG,cWW
-S8,S13,GC,cWW
+R3,R17,AU,cW-W
+R4,R16,UA,cW-W
+R5,R15,CG,cW-W
+R7,R14,CG,cW-W
+R8,R13,GC,cW-W
+S5,S15,CG,cW-W
+S7,S14,CG,cW-W
+S8,S13,GC,cW-W

@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,break,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,1-11,7-8,4-6
-1,IL_3IAB_001,3IAB,0.0,11,R,P3 domain of the RNA component of RNase MRP,C,64,A,65,U,67,A,68,A,69,A,71,G,73,*,C,88,A,93,A,95,G,99,"cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW","nbp,cWH,nbp,nbp,cWH"
+1,IL_3IAB_001,3IAB,0.0,11,R,P3 domain of the RNA component of RNase MRP,C,64,A,65,U,67,A,68,A,69,A,71,G,73,*,C,88,A,93,A,95,G,99,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWH,nbp,nbp,cWH,cWH"
