@@ -9,6 +9,7 @@ from DataManagement.RawDataLoading.PDB_Downloader import PDB_Downloader
 from DataManagement.DataPreparation.PDB_Maker import PDB_Maker
 from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Downloader
 from DataManagement.DataPreparation.Chain_Restorer import Chain_Restorer
+from DataManagement.DataExploration.Explorer import Explorer
 from DataManagement.DataPreparation.Preprocessor import Preprocessor
 from DataManagement.DataPreparation.Table_Extender import Table_Extender
 from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
@@ -179,10 +180,11 @@ if 5 >= starting_step_number:
 # =============================================================================
 # STEP 6: Perform data exploration on the annotations
 
-print('STEP 6 unimplimented. Skipping')
-# perhaps don't make this a python class but a jupyter notebook that happens
-# to evaluate the data from between STEP 5 and STEP 7
-
+# TODO: in progress, continue adding features as needed
+if 6 >= starting_step_number:
+    print('Beginning STEP 6:\n')
+    Explorer.explore()
+input("Pausing. Remove when validation for this step is completed")
 # =============================================================================
   
 
