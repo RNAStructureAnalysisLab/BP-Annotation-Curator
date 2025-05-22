@@ -1,11 +1,9 @@
 residue1,residue2,n_type,description
-A1,A53,gU,cW-W
 A2,A52,UA,cW-W
 A3,A51,UA,cW-W
 A4,A50,CG,cW-W
 A5,A49,CG,cW-W
 A6,A48,CG,cW-W
-A7,A216,Ga,tm+W
 A8,A36,AG,tM-m
 A9,A31,AG,tM+.
 A9,A35,AU,cW-W

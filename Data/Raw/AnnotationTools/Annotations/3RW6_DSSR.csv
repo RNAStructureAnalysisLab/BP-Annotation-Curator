@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-H1,H62,gc,cW-W
 H2,H61,GU,cW-W
 H3,H60,CG,cW-W
 H4,H59,AU,cW-W
@@ -27,7 +26,6 @@ H25,H34,CU,cW-W
 H26,H33,GC,cW-W
 H27,H32,GC,cW-W
 H28,H31,GA,tm-M
-F1,F62,gc,cW-W
 F2,F61,GU,cW-W
 F3,F60,CG,cW-W
 F4,F59,AU,cW-W

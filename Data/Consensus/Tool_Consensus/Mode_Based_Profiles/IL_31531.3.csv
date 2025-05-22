@@ -3,7 +3,6 @@
 3,IL_1ZZ5_001,1ZZ5,0.2739,0,Decoding loop related,A+B,RNA (15-mer) + RNA (14-mer),G,7,A,8,A,9,G,10,*,C,26,A,27,C,28,cWW 1.00,cWW 1.00,nbp 1.00
 4,IL_3C3Z_003,3C3Z,0.3622,0,Decoding loop related,B+A,HIV-1 subtype F genomic RNA,G,7,A,8,A,9,G,10,*,C,15,A,16,C,17,cWW 1.00,cWW 1.00,nbp 0.83
 5,IL_4PDQ_002,4PDQ,0.3274,0,,B+A,RNA (23-mer),G,39,A,40,A,41,G,42,*,C,7,A,8,C,9,cWW 1.00,cWW 1.00,nbp 0.83
-6,IL_4LFB_070,4LFB,0.245,0,,A,SSU rRNA,G,1491,A,1492,A,1493,G,1494,*,5MC,1407,A,1408,C,1409,cWW 1.00,nbp 0.83,nbp 0.83
 7,IL_2ET8_002,2ET8,0.0,0,Decoding loop related,B+A,RNA (22-mer),G,38,A,39,A,40,G,41,*,C,6,A,7,C,8,cWW 1.00,cWW 1.00,nbp 0.83
 8,IL_2O3X_002,2O3X,0.104,0,Decoding loop related,B+A,RNA (23-mer),G,39,A,40,A,41,G,42,*,C,7,A,8,C,9,cWW 1.00,cWW 1.00,nbp 0.83
 9,IL_4ZC7_003,4ZC7,0.1845,0,Decoding loop related,A+B,RNA duplex,A,16,A,17,A,18,G,19,*,C,30,G,31,U,32,cWW 1.00,cWW 1.00,nbp 0.83

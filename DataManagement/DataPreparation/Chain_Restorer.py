@@ -6,6 +6,10 @@
 # found in the dssr file, are replaced with the original chain ID found in the
 # corresponding PDBx file. Applies this chain ID replacement to non dssr
 # annotations as well
+# NOTE: does not transfer over entries that contain modified nucleosides
+# because it seems that other tools don't include those either, so cases where
+# a modified nucleoside exists can't be fairly compared across tools since the
+# other tools will always fail.
 # -----------------------------------------------------------------------------
 
 import os
@@ -92,7 +96,7 @@ class Chain_Restorer:
             )
         ]
         header = r'List of (\d+) base pairs'
-        dssr_residue_template = r'(\d*[a-zA-Z]+)([-]?\d+)(.*)'
+        dssr_residue_template = r'([AGCU])(-?\d+)' # disregard modified nucleosides
         dssr_file_names = os.listdir(Chain_Restorer.DSSR_DIRECTORY)
         for pdb in dssr_file_names:
             pdb_input_file_name = os.path.join(
@@ -127,22 +131,27 @@ class Chain_Restorer:
                         match1 = re.match(dssr_residue_template, residue1[1])
                         match2 = re.match(dssr_residue_template, residue2[1])
                        
-                        if pdb in pdbx_ids:
-                            residue1 = (
-                                Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
-                                    residue1[0]
-                                ] + match1.group(2)
-                            )
-                            residue2 = (
-                                Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
-                                    residue2[0]
-                                ] + match2.group(2)
-                            )
-                        else:
-                            residue1 = residue1[0] + match1.group(2)
-                            residue2 = residue2[0] + match2.group(2)
+                        try:
+                            if pdb in pdbx_ids:
+                                residue1 = (
+                                    Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
+                                        residue1[0]
+                                    ] + match1.group(2)
+                                )
+                                residue2 = (
+                                    Chain_Restorer.ORIGINAL_PDB_CHAINS[pdb][
+                                        residue2[0]
+                                    ] + match2.group(2)
+                                )
+                            else:
+                                residue1 = residue1[0] + match1.group(2)
+                                residue2 = residue2[0] + match2.group(2)
+                        except AttributeError:
+                            # Should be a modified nucleoside so disregard
+                            base_pair_count += 1
+                            continue
                         
-                        n_type = match1.group(1) + match2.group(1)
+                        n_type = parts[3].replace('-', '').replace('+', '')
                         contact_type = parts[-1]
                         rows.append({
                             "residue1": residue1, "residue2": residue2, 

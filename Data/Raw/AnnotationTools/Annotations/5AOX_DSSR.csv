@@ -1,6 +1,4 @@
 residue1,residue2,n_type,description
-C1,C48,gC,cW-W
-C1,C49,gG,tm+m
 C2,C47,GC,cW-W
 C3,C46,CG,cW-W
 C4,C45,CG,cW-W
@@ -46,9 +44,6 @@ C67,F65,AG,tW-M
 C101,F68,CC,cM+W
 C102,F68,GC,cM+W
 C117,C118,UA,cm-W
-F1,F48,gC,cW-W
-F1,F49,gG,tW+m
-F1,F117,gU,cm-m
 F2,F47,GC,cW-W
 F3,F28,CA,tm+W
 F3,F46,CG,cW-W

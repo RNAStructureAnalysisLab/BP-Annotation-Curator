@@ -4,11 +4,7 @@ A2,B11,GC,cW-W
 A3,B10,CG,cW-W
 A4,B8,GU,cW-W
 A4,B9,GA,tm-M
-A5,B8,aU,.W+W
-A6,B7,Au,cW-W
-A7,B6,uA,cW-W
 A8,B4,UG,cW-W
-A8,B5,Ua,.W+W
 A9,B4,AG,tM-m
 A10,B3,GC,cW-W
 A11,B2,CG,cW-W
@@ -18,10 +14,6 @@ C2,D11,GC,cW-W
 C3,D10,CG,cW-W
 C4,D8,GU,cW-W
 C4,D9,GA,tm-M
-C5,D8,aU,.W+W
-C6,D7,Au,cW-W
-C7,D6,uA,cW-W
-C8,D5,Ua,.W+W
 C9,D4,AG,tM-m
 C10,D3,GC,cW-W
 C11,D2,CG,cW-W

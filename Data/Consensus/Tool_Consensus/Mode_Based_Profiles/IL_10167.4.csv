@@ -8,7 +8,6 @@
 12,IL_3R1C_011,3R1C,0.0554,0,Isolated cWH basepair,K+L,RNA (8-mer),C,2,G,3,G,4,*,C,5,G,6,G,7,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 13,IL_3R1C_017,3R1C,0.0625,0,Isolated cWH basepair,R+Q,RNA (8-mer),C,5,G,6,G,7,*,C,2,G,3,G,4,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 14,IL_3SJ2_002,3SJ2,0.0615,0,Isolated cWH basepair,A+B,RNA (19-mer) + RNA (17-mer),C,10,G,11,G,12,*,C,10,G,11,G,12,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-16,IL_2R1S_002,2R1S,0.0922,0,Isolated cWH basepair,B+A,RNA (13-mer),5BU,19,G,20,A,21,*,5BU,6,G,7,A,8,nbp 0.83,cHW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 18,IL_4KTG_003,4KTG,0.1264,0,,E+B,RNA (19-mer),G,209,G,210,C,211,*,G,209,G,210,C,211,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 20,IL_4J50_003,4J50,0.162,0,Isolated cWH basepair,A+B,RNA (19-mer),C,13,A,14,G,15,*,C,7,A,8,G,9,cWW 1.00,cHW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 21,IL_4J50_001,4J50,0.162,0,Isolated cWH basepair,B+A,RNA (19-mer),C,13,A,14,G,15,*,C,7,A,8,G,9,cWW 1.00,cHW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
@@ -26,7 +25,5 @@
 36,IL_4KTG_004,4KTG,0.1873,0,,B+E,RNA (19-mer),G,212,G,213,C,214,*,G,206,G,207,C,208,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 37,IL_4KTG_002,4KTG,0.193,0,,E+B,RNA (19-mer),G,212,G,213,C,214,*,G,206,G,207,C,208,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 38,IL_4WF9_121,4WF9,0.2162,0,Isolated cWH basepair,Y,5S rRNA,C,110,A,111,G,112,*,U,3,G,4,G,5,cWW 1.00,cHW 0.83,cWW 0.67,nbp 1.00,nbp 1.00,nbp 1.00
-39,IL_7QQX_005,7QQX,0.247,0,,A+C,FANCF sgRNA + FANCF off-target5 target strand,U,12,G,13,C,14,*,DG,7,DG,8,DA,9,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
-42,IL_3R1E_001,3R1E,0.1951,0,Isolated cWH basepair,A+B,RNA (8-mer),C,2,GRB,3,G,4,*,C,5,G,6,G,7,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 43,IL_5F5F_001,5F5F,0.2254,0,Isolated cWH basepair,B,RNA (20-mer),U,5,G,6,C,7,*,G,14,G,15,A,16,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 44,IL_5F5F_003,5F5F,0.2142,0,Isolated cWH basepair,F,RNA (20-mer),U,5,G,6,C,7,*,G,14,G,15,A,16,cWW 1.00,cHW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00

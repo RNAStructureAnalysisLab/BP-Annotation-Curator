@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-C1,C72,gC,cW-W
 C2,C71,CG,cW-W
 C3,C70,GC,cW-W
 C4,C69,CG,cW-W
@@ -36,7 +35,6 @@ C51,C63,GC,cW-W
 C52,C62,GC,cW-W
 C53,C61,GC,cW-W
 C54,C58,UA,tW+W
-E1,E72,gC,cW-W
 E2,E71,CG,cW-W
 E3,E70,GC,cW-W
 E4,E69,CG,cW-W

@@ -5,4 +5,3 @@
 8,IL_3NJ7_003,3NJ7,0.0134,0,Isolated near basepair,D+C,RNA (10-mer),C,6,A,7,G,8,*,C,3,A,4,G,5,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00
 14,IL_7A0S_041,7A0S,0.459,1,Isolated cWS basepair,X,LSU rRNA,A,1260,U,1262,G,1263,*,C,1210,G,1211,U,1212,cWW 1.00,cSW 0.67,cWW 1.00,nbp 1.00
 15,IL_4WF9_044,4WF9,0.4721,1,Isolated cWS basepair,X,LSU rRNA,A,1285,U,1287,G,1288,*,C,1235,G,1236,U,1237,cWW 1.00,cSW 0.67,cWW 1.00,nbp 1.00
-19,IL_7QR8_004,7QR8,0.6427,0,,A+C,PTPRC sgRNA + PTPRC off-target1 target strand,C,7,U,8,C,9,*,DG,11,DT,12,DG,13,nbp 0.83,nbp 1.00,nbp 0.83,nbp 1.00

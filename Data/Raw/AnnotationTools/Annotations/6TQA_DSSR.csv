@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-E1,E21,Gc,cW-W
 E2,E20,GC,cW-W
 E3,E19,UA,cW-W
 E4,E18,GC,cW-W
@@ -8,7 +7,6 @@ E6,E16,CG,cW-W
 E7,E15,UA,cW-W
 E8,E14,AU,cW-W
 E9,E13,AU,cW-W
-F1,F21,Gc,cW-W
 F2,F20,GC,cW-W
 F3,F19,UA,cW-W
 F4,F18,GC,cW-W
@@ -17,7 +15,6 @@ F6,F16,CG,cW-W
 F7,F15,UA,cW-W
 F8,F14,AU,cW-W
 F9,F13,AU,cW-W
-G1,G21,Gc,cW-W
 G2,G20,GC,cW-W
 G3,G19,UA,cW-W
 G4,G18,GC,cW-W
@@ -26,7 +23,6 @@ G6,G16,CG,cW-W
 G7,G15,UA,cW-W
 G8,G14,AU,cW-W
 G9,G13,AU,cW-W
-H1,H21,Gc,cW-W
 H2,H20,GC,cW-W
 H3,H19,UA,cW-W
 H4,H18,GC,cW-W

@@ -1,11 +1,9 @@
 residue1,residue2,n_type,description
-C6,C20,CG,cW-W
 C7,C19,UA,cW-W
 C8,C18,GC,cW-W
 C9,C17,CG,cW-W
 C10,C16,CG,cW-W
 C11,C15,GA,tm-M
-D6,D20,CG,cW-W
 D7,D19,UA,cW-W
 D8,D18,GC,cW-W
 D9,D17,CG,cW-W

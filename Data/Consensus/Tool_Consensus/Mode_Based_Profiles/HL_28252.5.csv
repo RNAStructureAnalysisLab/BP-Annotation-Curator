@@ -1,27 +1,10 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,2-6,2-8,3-5,3-6,2-9,1-6
-1,HL_2FMT_005,2FMT,0.5879,0,T-loop related,D,FORMYL-METHIONYL-TRNAFMET2,G,31,OMC,32,U,33,C,34,A,35,U,36,A,37,A,38,C,39,cWW 1.00,nbp 1.00,nbp 0.83,nbp 0.67,nbp 0.83,nbp 1.00,nbp 1.00
 2,HL_4R4V_003,4R4V,0.5916,0,T-loop related,A,VS ribozyme RNA,G,689,U,690,U,691,G,692,A,693,C,694,U,695,A,696,C,697,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
 3,HL_1P6V_004,1P6V,0.4991,0,T-loop with 2 bulged bases not stacked,B,45-MER,G,45,U,46,U,47,C,48,G,49,A,50,U,51,U,52,C,53,cWW 0.83,tWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00
 5,HL_2ZNI_003,2ZNI,0.3508,0,T-loop with 2 stacked bulged bases,C,bacterial tRNA,G,53,U,54,G,55,A,56,A,57,A,58,C,59,U,60,C,61,cWW 1.00,tWH 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 10,HL_7A0S_018,7A0S,0.3226,1,T-loop with 2 stacked bulged bases,X,LSU rRNA,U,575,A,576,U,577,U,578,G,579,A,580,A,581,G,582,A,584,cWW 1.00,nbp 0.83,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 12,HL_4WF9_018,4WF9,0.2978,1,T-loop with 2 stacked bulged bases,X,LSU rRNA,U,609,U,610,U,611,U,612,G,613,U,614,A,615,G,616,A,618,cWW 1.00,nbp 0.67,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 14,HL_5T5A_001,5T5A,0.2956,0,T-loop with 2 stacked bulged bases,A,DNA/RNA (71-MER),G,21,U,22,G,23,C,24,A,25,A,26,G,27,C,28,C,29,cWW 1.00,tWH 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
-19,HL_1H4S_003,1H4S,0.2867,0,T-loop with 2 stacked bulged bases,T,tRNA,G,53,5MU,54,PSU,55,C,56,A,57,G,58,A,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-20,HL_2FMT_006,2FMT,0.3069,0,T-loop with 2 stacked bulged bases,D,FORMYL-METHIONYL-TRNAFMET2,G,53,5MU,54,PSU,55,C,56,A,57,A,58,A,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-21,HL_1VTQ_003,1VTQ,0.2261,0,T-loop with 2 stacked bulged bases,A,T-RNA-ASP,G,52,5MU,53,PSU,54,C,55,A,56,A,57,U,58,U,59,C,60,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-22,HL_4JYZ_003,4JYZ,0.2269,0,T-loop with 2 stacked bulged bases,B,tRNA,G,953,5MU,954,PSU,955,C,956,G,957,A,958,A,959,U,960,C,961,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-25,HL_2DLC_003,2DLC,0.266,0,T-loop with 2 stacked bulged bases,Y,T-RNA (76-MER),G,553,5MU,554,PSU,555,C,556,G,557,1MA,558,C,559,U,560,C,561,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-26,HL_3KFU_006,3KFU,0.231,0,T-loop with 2 stacked bulged bases,L,tRNA,G,53,5MU,54,PSU,55,C,56,G,57,A,58,G,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-27,HL_1QF6_003,1QF6,0.2507,0,T-loop with 2 stacked bulged bases,B,tRNA,G,53,5MU,54,PSU,55,C,56,G,57,A,58,C,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-28,HL_7VNV_003,7VNV,0.2218,0,T-loop with 2 stacked bulged bases,A,tRNA,G,53,SUR,54,PSU,55,OMC,56,7S3,57,1MA,58,G,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-29,HL_1F7U_003,1F7U,0.2212,0,T-loop with 2 stacked bulged bases,B,TRNA(ARG),G,953,5MU,954,PSU,955,C,956,A,957,1MA,958,G,959,U,960,C,961,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-30,HL_8JOZ_004,8JOZ,0.2384,0,T-loop with 2 stacked bulged bases,B,tRNA,G,53,5MU,54,PSU,55,C,56,G,57,A,58,A,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-31,HL_1SER_002,1SER,0.2456,0,T-loop with 2 stacked bulged bases,T,tRNA,G,53,5MU,54,PSU,55,C,56,G,57,A,58,A,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-32,HL_1FIR_003,1FIR,0.2639,0,T-loop with 2 stacked bulged bases,A,tRNA,G,53,2MU,54,PSU,55,C,56,A,57,1MA,58,G,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-33,HL_1IL2_003,1IL2,0.2455,0,T-loop with 2 stacked bulged bases,C,tRNA,G,953,5MU,954,PSU,955,C,956,A,957,A,958,U,959,U,960,C,961,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-34,HL_1B23_003,1B23,0.2583,0,T-loop with 2 stacked bulged bases,R,tRNA,G,53,5MU,54,PSU,55,C,56,G,57,A,58,C,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-35,HL_1H3E_004,1H3E,0.1888,0,T-loop with 2 stacked bulged bases,B,tRNA,G,53,5MU,54,PSU,55,C,56,G,57,MAD,58,A,59,U,60,C,61,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-37,HL_2CZJ_002,2CZJ,0.2954,0,,B,tmRNA (63-MER),G,53,5MU,54,PSU,55,C,56,G,57,A,58,C,59,U,60,C,61,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 38,HL_5Y85_003,5Y85,0.2618,0,T-loop with 2 stacked bulged bases,D,DNA/RNA (50-MER),G,11,U,12,G,13,C,14,A,15,A,16,G,17,U,18,C,19,cWW 1.00,tWH 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 39,HL_3ICQ_005,3ICQ,0.2229,0,T-loop with 2 stacked bulged bases,E,RNA (62-MER),G,53,U,54,U,55,C,56,G,57,A,58,U,59,C,60,C,61,cWW 1.00,tWH 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 40,HL_6UFG_008,6UFG,0.1847,0,T-loop with 2 stacked bulged bases,B,tRNA,G,54,U,55,U,56,C,57,A,58,A,59,G,60,U,61,C,62,cWW 1.00,tWH 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00

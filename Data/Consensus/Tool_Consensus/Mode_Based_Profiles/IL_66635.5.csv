@@ -20,4 +20,3 @@
 23,IL_5WT1_001,5WT1,0.2417,0,Stack outside cWW,C,tRNA,G,43,G,44,U,45,*,A,26,C,27,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.67
 24,IL_7VTI_003,7VTI,0.4235,1,Major groove intercalation,B,crRNA,U,27,A,29,U,30,*,A,9,G,10,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 26,IL_4WF9_106,4WF9,0.3219,0,Major groove intercalation,X,LSU rRNA,U,2898,A,2899,C,2900,*,G,2858,G,2859,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-27,IL_3DD2_003,3DD2,0.5535,1,Major groove intercalation,B,RNA (26-MER),G,16,A,18,CFL,19,*,G,10,CFL,11,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00

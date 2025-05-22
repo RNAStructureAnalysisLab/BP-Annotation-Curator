@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-A1,A99,gC,cW-W
 A2,A98,GC,cW-W
 A3,A97,CG,cW-W
 A4,A96,UG,cW-W
@@ -46,7 +45,6 @@ A74,A83,AU,cW-W
 A75,A82,CG,cW-W
 A76,A81,CG,cW-W
 A77,A80,GA,tm-M
-B1,B99,gC,cW-W
 B2,B98,GC,cW-W
 B3,B97,CG,cW-W
 B4,B96,UG,cW-W

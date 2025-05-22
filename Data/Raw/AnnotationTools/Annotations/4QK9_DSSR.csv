@@ -2,7 +2,6 @@ residue1,residue2,n_type,description
 A3,A73,CA,cm-W
 A3,A113,CG,cW-W
 A4,A112,GC,cW-W
-A4,A201,Ga,tm+m
 A5,A111,CG,cW-W
 A6,A110,UA,cW-W
 A7,A109,GA,tm-M
@@ -27,7 +26,6 @@ A43,A96,GC,cW-W
 A44,A93,GC,cW-W
 A44,A97,GA,cm-W
 A45,A92,GC,cW-W
-A45,A202,Ga,tm+m
 A46,A91,GC,cW-W
 A47,A90,UA,cW-W
 A48,A89,GA,tm-M

@@ -1,9 +1,7 @@
 residue1,residue2,n_type,description
 C1,C25,GC,cW-W
 C2,C24,CG,cW-W
-C3,C23,uA,cW+M
 C4,C22,CG,cW-W
-C5,C21,uu,cW-W
 C6,C20,GA,tm-M
 C7,C19,AG,tM-m
 C8,C15,CG,cW-W
@@ -11,9 +9,7 @@ C9,C14,CG,cW-W
 C10,C13,GA,tm-M
 D1,D25,GC,cW-W
 D2,D24,CG,cW-W
-D3,D23,uA,cW+M
 D4,D22,CG,cW-W
-D5,D21,uu,cW-W
 D6,D20,GA,tm-M
 D7,D19,AG,tM-m
 D8,D15,CG,cW-W

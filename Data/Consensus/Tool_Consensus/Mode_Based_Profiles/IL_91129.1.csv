@@ -2,6 +2,5 @@
 2,IL_3LOA_003,3LOA,0.6222,1,Decoding loop with one bulged A,A+B,RNA (21-mer) + RNA (23-mer),C,1407,A,1408,C,1409,*,G,1491,A,1493,G,1494,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 3,IL_2ET8_003,2ET8,0.4885,1,Decoding loop related,B+A,RNA (22-mer),C,29,A,30,C,31,*,G,15,A,17,G,18,cWW 1.00,cWH 0.67,cWW 1.00,nbp 0.83,nbp 0.83,nbp 1.00
 4,IL_7A0S_092,7A0S,0.3973,1,Other IL,X,LSU rRNA,C,2570,G,2571,U,2572,*,A,2579,C,2580,G,2582,cWW 1.00,cWH 0.67,cWW 1.00,nbp 0.83,nbp 1.00,nbp 0.83
-5,IL_7Z4D_016,7Z4D,0.38,0,,C+A,Target strand of 10 nucleotide complementary DNA substrate,DC,10,DG,11,DT,12,*,A,9,A,10,G,11,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 6,IL_7MLW_006,7MLW,0.3045,0,Isolated tWW contact,F,Guanidine-I riboswitch,A,92,C,93,G,94,*,C,71,U,72,U,73,cWW 1.00,nbp 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 7,IL_8AF0_002,8AF0,0.2811,0,Isolated cWH basepair,C+D,RNA (19-mer),G,34,U,35,C,36,*,G,34,U,35,C,36,cWW 1.00,cWH 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00

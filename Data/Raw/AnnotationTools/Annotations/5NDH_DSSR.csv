@@ -1,6 +1,5 @@
 residue1,residue2,n_type,description
 A1,A16,GC,cW-W
-A2,A15,cG,cW-W
 A3,A14,GC,cW-W
 A4,A13,GC,cW-W
 A5,A12,GC,cW-W
@@ -11,7 +10,6 @@ A8,C9,CG,cW-W
 A9,C8,GC,cW-W
 A11,C7,CA,cm-W
 B1,B16,GC,cW-W
-B2,B15,cG,cW-W
 B3,B14,GC,cW-W
 B4,B13,GC,cW-W
 B5,B12,GC,cW-W
@@ -22,13 +20,11 @@ B8,D9,CG,cW-W
 B9,D8,GC,cW-W
 B11,D7,CA,cm-W
 C1,C16,GC,cW-W
-C2,C15,cG,cW-W
 C3,C14,GC,cW-W
 C4,C13,GC,cW-W
 C5,C12,GC,cW-W
 C6,C11,GC,cW-W
 D1,D16,GC,cW-W
-D2,D15,cG,cW-W
 D3,D14,GC,cW-W
 D4,D13,GC,cW-W
 D5,D12,GC,cW-W

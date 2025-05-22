@@ -14,6 +14,4 @@
 17,IL_5EW4_002,5EW4,0.4049,0,Tandem non-canonical cWW pairs,A+B,RNA (22-mer),C,14,C,15,C,16,G,17,*,C,8,C,9,C,10,G,11,cWW 1.00,cWW 0.67,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 19,IL_1L9A_005,1L9A,0.278,0,Tandem non-canonical cWW pairs,B,signal recognition particle RNA S domain,G,156,A,157,C,158,C,159,*,G,138,A,139,C,140,C,141,cWW 1.00,cWW 0.67,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 20,IL_4K27_001,4K27,0.2666,0,Tandem non-canonical cWW pairs,U,Myotonic Dystrophy Type 2 RNA,C,4,C,5,U,6,G,7,*,C,49,C,50,U,51,G,52,cWW 1.00,cWW 0.83,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00
-25,IL_3CJZ_001,3CJZ,0.1948,0,Tandem non-canonical cWW pairs,A+B,RNA (13-mer),G,5,M2G,6,A,7,C,8,*,G,18,M2G,19,A,20,C,21,cWW 1.00,nbp 0.83,nbp 0.83,cWW 1.00,nbp 1.00,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
 26,IL_5LQO_002,5LQO,0.1606,0,Tandem non-canonical cWW pairs,A+B,RNA (10-mer),G,4,G,5,A,6,C,7,*,G,4,G,5,A,6,C,7,cWW 1.00,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 0.83
-27,IL_5LQT_002,5LQT,0.0,0,Tandem non-canonical cWW pairs,A+B,RNA (10-mer),G,4,G,5,6MZ,6,C,7,*,G,4,G,5,6MZ,6,C,7,cWW 1.00,nbp 0.83,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 0.83

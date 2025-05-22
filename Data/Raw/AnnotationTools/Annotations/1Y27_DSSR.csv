@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-X15,X81,Gc,cW-W
 X16,X80,AU,cW-W
 X17,X79,UG,cW-W
 X18,X78,CG,cW-W
@@ -27,7 +26,6 @@ X46,X53,GC,cW-W
 X47,X51,UU,tW-M
 X49,X76,UA,cW-m
 X50,X75,CU,cW-m
-X51,X101,Ug,.W+m
 X54,X72,CG,cW-W
 X55,X71,GC,cW-W
 X56,X70,GC,cW-W
@@ -36,4 +34,3 @@ X58,X68,CG,cW-W
 X59,X67,AU,cW-W
 X61,X65,CA,cm-W
 X62,X63,GU,cm+M
-X74,X101,Cg,.W-W

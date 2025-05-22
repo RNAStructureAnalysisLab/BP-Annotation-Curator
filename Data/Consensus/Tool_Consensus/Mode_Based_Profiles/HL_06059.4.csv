@@ -1,12 +1,8 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,2-8,3-6,1-8,3-5,3-7,3-8
-3,HL_1VTQ_002,1VTQ,0.3744,0,tRNA anticodon loop,A,T-RNA-ASP,C,31,PSU,32,U,33,G,34,U,35,C,36,1MG,37,C,38,G,39,cWW 1.00,nbp 1.00,tWH 0.50,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-4,HL_1B23_004,1B23,0.5199,0,tRNA anticodon loop,R,tRNA,A,31,PSU,32,U,33,G,34,C,35,A,36,MIA,37,A,38,PSU,39,nbp 0.83,nbp 1.00,nbp 0.50,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-7,HL_1FIR_005,1FIR,0.2913,0,tRNA anticodon loop,A,tRNA,A,31,C,32,U,33,70U,34,U,35,U,36,12A,37,A,38,PSU,39,nbp 0.83,? 0.00,nbp 0.67,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 12,HL_6UFH_007,6UFH,0.2204,0,tRNA anticodon loop (H),B,tRNA,G,32,C,33,U,34,G,35,A,36,U,37,A,38,A,39,C,40,cWW 1.00,? 0.00,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00
 13,HL_6UFG_007,6UFG,0.143,0,tRNA anticodon loop,B,tRNA,G,32,C,33,U,34,G,35,A,36,U,37,A,38,A,39,C,40,cWW 1.00,cWW 0.83,nbp 0.83,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 24,HL_6UFM_002,6UFM,0.1634,0,tRNA anticodon loop,A,tRNA,G,32,C,33,U,34,G,35,A,36,U,37,A,38,A,39,C,40,cWW 1.00,nbp 0.67,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 25,HL_2AZX_005,2AZX,0.1743,0,tRNA anticodon loop,D,72-MER,A,531,C,532,U,533,C,534,C,535,A,536,G,537,A,538,U,539,cWW 1.00,cWW 0.67,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
-27,HL_7VNV_002,7VNV,0.1444,0,tRNA anticodon loop,A,tRNA,C,31,OMC,32,U,33,OMU,34,A,35,C,36,A,37,A,38,G,39,cWW 1.00,nbp 1.00,nbp 0.50,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 28,HL_7QR4_001,7QR4,0.2108,0,Anticodon loop related,B,RNA CPEB3 ribozyme,G,19,U,20,U,21,C,22,A,23,C,24,G,25,U,26,C,27,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 29,HL_7QR3_001,7QR3,0.1957,0,Anticodon loop related,C,chimpanzee CPEB3 ribozyme,G,19,U,20,U,21,C,22,A,23,C,24,G,25,U,26,C,27,cWW 1.00,nbp 1.00,nbp 0.50,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 30,HL_5T83_002,5T83,0.2416,0,Anticodon loop related,A,Guanidine-I riboswitch,U,56,U,57,U,58,C,59,A,60,C,61,A,62,A,63,A,64,cWW 1.00,cWW 0.67,nbp 0.50,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
@@ -19,8 +15,6 @@
 43,HL_1N33_036,1N33,0.1962,0,tRNA anticodon loop,Y,ANTICODON STEM-LOOP OF SER TRANSFER RNA,C,31,C,32,U,33,G,34,G,35,A,36,A,37,A,38,G,39,cWW 1.00,nbp 0.67,nbp 0.67,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 44,HL_4R4V_001,4R4V,0.2101,0,Anticodon loop related,A,VS ribozyme RNA,C,626,G,627,U,628,C,629,G,630,U,631,C,632,G,633,G,634,cWW 1.00,tSH 1.00,nbp 0.67,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 45,HL_3WFS_002,3WFS,0.2765,0,tRNA anticodon loop,A,tRNA,A,31,C,32,U,33,G,34,A,35,A,36,A,37,A,38,U,39,cWW 0.83,nbp 0.5,nbp 0.67,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-47,HL_1N32_033,1N32,0.3418,0,tRNA anticodon loop,Y,ANTICODON STEM-LOOP OF LEU-2 TRANSFER RNA,C,31,U,32,U,33,G,34,A,35,G,36,G,37,PSU,38,G,39,cWW 1.00,nbp 1.00,nbp 0.67,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
-48,HL_1XNQ_034,1XNQ,0.3669,0,tRNA anticodon loop,X,Anticodon tRNA,G,31,C,32,U,33,I,34,C,35,G,36,A,37,A,38,C,39,cWW 1.00,nbp 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 49,HL_4MGN_003,4MGN,0.3388,0,tRNA anticodon loop,B,tRNA-glycine,C,30,U,31,U,32,G,33,C,34,C,35,A,36,A,37,G,38,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 50,HL_1N78_002,1N78,0.3819,0,tRNA anticodon loop,C,tRNA(Glu),C,531,C,532,U,533,C,534,U,535,C,536,A,537,A,538,G,539,cWW 1.00,cWW 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 52,HL_3W3S_002,3W3S,0.413,0,tRNA anticodon loop,B,Selenocysteine transfer RNA,A,31,C,32,U,33,U,34,C,35,A,36,A,37,A,38,U,39,cWW 1.00,nbp 0.5,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00

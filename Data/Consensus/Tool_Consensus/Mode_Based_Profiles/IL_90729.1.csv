@@ -5,7 +5,6 @@
 5,IL_3MOJ_004,3MOJ,0.4225,0,Single stack bend,A,LSU rRNA,C,2540,A,2541,A,2542,*,U,2522,G,2523,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 6,IL_7A0S_022,7A0S,0.2644,0,Single stack bend,X,LSU rRNA,G,951,A,952,G,953,*,C,850,C,851,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 7,IL_4WF9_028,4WF9,0.2999,0,Single stack bend,X,LSU rRNA,G,984,A,985,G,986,*,C,882,C,883,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-13,IL_7QR8_009,7QR8,0.212,0,,A+C,PTPRC sgRNA + PTPRC off-target1 target strand,C,14,U,15,A,16,*,DT,5,DG,6,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00
 14,IL_7MLX_001,7MLX,0.129,0,Single stack bend,R,RNA (65-MER),G,48,A,49,U,50,*,A,37,C,38,cWW 1.00,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 16,IL_4WF9_007,4WF9,0.0,0,Single stack bend,X,LSU rRNA,G,215,A,216,G,217,*,C,186,C,187,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 18,IL_7A0S_005,7A0S,0.1476,0,Single stack bend,X,LSU rRNA,A,189,A,190,G,191,*,C,160,U,161,cWW 1.00,cWW 1.00,nbp 0.83,nbp 1.00,nbp 1.00

@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-V6,V56,gC,cW-W
 V7,V55,GC,cW-W
 V8,V54,CG,cW-W
 V9,V53,GC,cW-W
@@ -14,8 +13,6 @@ V17,V20,UA,cm+M
 V17,V45,UA,cW-W
 V20,V46,AC,cW-m
 V21,V45,AA,cM+m
-V21,V101,Ag,.W+W
-V22,V101,Cg,.W-W
 V25,V43,GC,cW-W
 V26,V42,UA,cW-W
 V27,V41,UA,cW-W
@@ -24,4 +21,3 @@ V29,V39,CG,cW-W
 V30,V38,UA,cW-W
 V31,V37,CG,cW-W
 V32,V35,GA,tm-M
-V44,V101,Ug,.W+m

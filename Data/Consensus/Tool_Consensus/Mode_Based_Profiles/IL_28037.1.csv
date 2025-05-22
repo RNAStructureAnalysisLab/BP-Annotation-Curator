@@ -6,7 +6,6 @@
 11,IL_4Y1M_005,4Y1M,0.1843,0,Isolated non-canonical cWW pair,B,E. coli yybP-ykoY riboswitch,U,4,U,5,U,6,*,A,103,U,104,A,105,cWW 1.00,cWW 0.50,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
 13,IL_7A0S_011,7A0S,0.2186,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,573,C,574,U,575,*,A,584,U,585,G,586,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 0.83,nbp 0.83,nbp 1.00
 15,IL_4WF9_017,4WF9,0.142,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,607,C,608,U,609,*,A,618,U,619,G,620,cWW 1.00,cWW 1.00,cWW 1.00,nbp 1.00,nbp 0.83,nbp 1.00,nbp 1.00
-17,IL_7QQP_007,7QQP,0.2219,0,,A+C,AAVS1 sgRNA + AAVS1 off-target3 target strand,A,7,C,8,U,9,*,DA,12,DC,13,DT,14,nbp 0.83,nbp 0.83,nbp 0.83,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 18,IL_7A0S_078,7A0S,0.2204,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,2068,U,2069,G,2070,*,U,2211,U,2212,G,2213,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 24,IL_4P3U_007,4P3U,0.1664,0,Isolated non-canonical cWW pair,D+C,RNA (23-mer),G,42,U,43,C,44,*,G,5,U,6,C,7,cWW 1.00,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 25,IL_5B2P_001,5B2P,0.1237,0,Isolated non-canonical cWW pair,B,Guide RNA,U,24,U,25,C,26,*,G,48,U,49,A,50,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
@@ -39,6 +38,5 @@
 58,IL_4ZC7_001,4ZC7,0.1874,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,42,U,43,C,44,*,G,5,U,6,C,7,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 61,IL_6SX2_001,6SX2,0.1965,0,Isolated non-canonical cWW pair,D+C,RNA (19-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,cWW 1.00,nbp 0.50,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 62,IL_2O3X_004,2O3X,0.1959,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-65,IL_5T3K_002,5T3K,0.1694,0,Isolated non-canonical cWW pair,A+B,RNA (17-mer) + RNA (16-mer),G,10,U,11,C,12,*,G,24,75B,25,C,26,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 67,IL_1ZX7_006,1ZX7,0.1655,0,Isolated non-canonical cWW pair,E+F,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW 1.00,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00
 69,IL_1L9A_009,1L9A,0.271,0,Isolated non-canonical cWW pair,B,signal recognition particle RNA S domain,A,228,U,229,C,230,*,G,120,U,121,U,122,cWW 0.67,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00,nbp 1.00

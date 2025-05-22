@@ -55,8 +55,8 @@ class Table_Extender:
             
     # INPUT: A pandas dataframe representing motif cluster table
     # ACTION: Modify dataframe in-place by removing rows where
-    # PDBs that weren't used, where the residue_id contains '|', or the chain
-    # name is 'ASIT' or 'VVV'
+    # PDBs that weren't used, where the residue_id contains '|', where the
+    # nucleoside is not A, G, C, or U, // ( or the chain name is 'ASIT' or 'VVV')
     # Initializes each contact type to be a 6-tuple. Each element in 
     # the 6-tuple a contact type reported from a specific tool in the order
     # of: R3DMA, CL, FR, MC, MO, RV
@@ -75,7 +75,8 @@ class Table_Extender:
                 row['PDB'] not in used_pdb_ids or
                 #'VVV' in row['Chain(s)'] or
                 #'ASIT' in row['Chain(s)'] or
-                any('|' in str(entry) for entry in row)
+                any('|' in str(entry) for entry in row) or
+                Table_Extender._has_modified_nucleoside(row)
             ):
                 rows_to_drop.append(i)
                 continue
@@ -135,6 +136,17 @@ class Table_Extender:
                             motif_cluster, residue_to_column, row['PDB'], 
                             residue, json_files, i
                         )
+                        
+    @staticmethod
+    def _has_modified_nucleoside(row):
+        standard_nucleosides = ['A', 'G', 'C', 'U']
+        
+        for column_name, value in row.items():
+            if "Unnamed" in column_name and value not in standard_nucleosides:
+                return True
+            
+        return False
+                
        
     # INPUT: A list with the column_names of a motif cluster table
     # OUTPUT: A list of integer pairs. Each integer is a column index. First

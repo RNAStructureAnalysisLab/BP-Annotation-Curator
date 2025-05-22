@@ -1,5 +1,4 @@
 residue1,residue2,n_type,description
-A1,A40,gC,cW-W
 A2,A39,GU,cW-W
 A3,A38,CG,cW-W
 A4,A37,UA,cW-W
@@ -27,7 +26,6 @@ A28,B8,UA,cW-W
 A29,B7,UA,cW-W
 A30,B6,UA,cW-W
 A31,B5,UA,cW-W
-C1,C40,gC,cW-W
 C2,C39,GU,cW-W
 C3,C38,CG,cW-W
 C4,C37,UA,cW-W
@@ -53,7 +51,6 @@ C29,D6,UA,cW-W
 C30,D5,UA,cW-W
 C31,D4,UA,cW-W
 C35,D3,CA,cm-m
-E1,E40,gC,cW-W
 E2,E39,GU,cW-W
 E3,E38,CG,cW-W
 E4,E37,UA,cW-W
@@ -81,7 +78,6 @@ E28,F8,UA,cW-W
 E29,F7,UA,cW-W
 E30,F6,UA,cW-W
 E31,F5,UA,cW-W
-G1,G40,gC,cW-W
 G2,G39,GU,cW-W
 G3,G38,CG,cW-W
 G4,G37,UA,cW-W

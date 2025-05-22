@@ -1,6 +1,9 @@
 # AUTHOR: Kristopher Chruch
 # USE: This file represents the entire pipeline of the base pairing project.
 # TODO finish description of use
+
+# TODO: Within the R3DMA directory, create a text file 'current_version" which
+# has the version, instead of it being in the name of the cluster directory
 # =============================================================================
 
 import sys
@@ -183,8 +186,8 @@ if 5 >= starting_step_number:
 # TODO: in progress, continue adding features as needed
 if 6 >= starting_step_number:
     print('Beginning STEP 6:\n')
-    Explorer.explore()
-input("Pausing. Remove when validation for this step is completed")
+    #Explorer.explore()
+#input("Pausing. Remove when validation for this step is completed")
 # =============================================================================
   
 
@@ -210,7 +213,7 @@ if 7 >= starting_step_number:
 if 8 >= starting_step_number:
     print('Beginning STEP 8:\n')
     Table_Extender.run()
-    
+input("pause. remove when validation is finished")   
 # =============================================================================
 
 
@@ -244,7 +247,7 @@ if 11 >= starting_step_number: # should be part of step 10, temporary
 # problem with one of the files, or a mistake when I was manually trying to 
 # insert things (Same for 5J7L)
 # NOTE: 4L47 and 4V9F are good ones to verify step 5
-# TODO: 1F7U dssr is strange. For example it reports the nucleoside 
+# TODO: 1F7U  and 2NZ4 dssr are strange. For example it reports the nucleoside 
 # pseudouridine (P). P is not featured in the other annotations. a residue that
 # is P seems to be completely omitted. Does R3DMA also omit these from the cluster
 # or does it represent P as a 'U' since they are similar? If it represents it

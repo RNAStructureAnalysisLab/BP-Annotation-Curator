@@ -1,12 +1,10 @@
 residue1,residue2,n_type,description
-B1,C6,gC,cW-W
 B5,C5,GC,cW-W
 B6,C4,CG,cW-W
 B7,C3,CG,cW-W
 B8,C2,GC,cW-W
 B9,C1,UA,cW-W
 B10,B87,GA,tm+m
-B10,D1,Gt,cW-W
 B11,D2,UA,cW-W
 B12,B168,GA,cm-m
 B12,D3,GC,cW-W

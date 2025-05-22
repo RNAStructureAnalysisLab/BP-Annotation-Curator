@@ -1,3 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4
-1,IL_1J9H_005,1J9H,0.3503,0,Other IL,A+B,RNA (9-mer),G,3,U,4,C,5,*,G,15,CBR,16,"cWW,nbp,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,cWW,cWW"
 3,IL_4LFB_007,4LFB,0.0,1,Multiple bulged bases,A,SSU rRNA,U,129,A,130,C,131,*,G,231,G,232,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
