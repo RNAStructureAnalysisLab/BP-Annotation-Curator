@@ -3,8 +3,65 @@
 import os
 import shutil
 import statistics
+import numpy as np
 import pandas as pd
 
+class Agreement_Analyzer:
+    RESULTS_DIRECTORY = os.path.join('Data', 'ResultsAnalysis')
+    OUTPUT_DIRECTORY = os.path.join(
+        RESULTS_DIRECTORY, 'BasePairingAgreementsSummary'
+    )
+    AGREEMENT_DF = pd.read_csv(
+        os.path.join(
+            RESULTS_DIRECTORY, 'base_pairing_agreements.csv'
+        )
+    )
+    TOOL_COUNT = 6
+    
+    @staticmethod
+    def run():
+        total_counts = (
+            Agreement_Analyzer.AGREEMENT_DF[
+                'Consensus Contact Type'
+            ].value_counts()
+        )
+        frequencies_df = pd.DataFrame()
+        contact_types = np.sort(
+            Agreement_Analyzer.AGREEMENT_DF['Consensus Contact Type'].unique()
+        )
+        frequencies_df['Consensus Contact Type'] = contact_types
+        
+        for relation in ['Agree BP', 'Matches']:
+            groups = (
+                Agreement_Analyzer.AGREEMENT_DF.groupby(
+                    f'{relation} Count'
+                )['Consensus Contact Type'].value_counts()
+            )
+            
+            for i in range(Agreement_Analyzer.TOOL_COUNT + 1):
+                counts = []
+                for contact_type in contact_types:
+                    try:
+                        counts.append(groups.loc[i, contact_type])
+                    except KeyError:
+                        counts.append(0)
+                    
+                relation = (
+                    'Agree BP' if relation == 'Agree BP' else 'Fully Match'
+                )
+                frequencies_df[f'{i} {relation}'] = counts
+            
+        frequencies_df['Total Counts'] = frequencies_df['Consensus Contact Type'].map(total_counts)
+        
+        frequencies_df.to_csv(
+            os.path.join(
+                Agreement_Analyzer.OUTPUT_DIRECTORY, 
+                'agreement_frequencies.csv'
+            ),
+            index=False
+        )
+
+'''
 # TODO organize the code later when have time
 # TODO DSSR not fully integrated
 class Agreement_Analyzer:
@@ -116,21 +173,20 @@ class Agreement_Analyzer:
         output_path = os.path.join(Agreement_Analyzer.OUTPUT_DIRECTORY, 'tool_base_pairing_reporting.csv')
         df.to_csv(output_path, index=False)
         
-        '''
         # Now get differences across columns (bp - nbp)
-        column_deviation = Agreement_Analyzer._get_column_differences()
-        column_deviation = Agreement_Analyzer._get_deviations(column_deviation)
-        summary = []
-        summary.append({
-            'Deviation (R3DMA)': column_deviation[0],
-            'Deviation (CL)': column_deviation[1],
-            'Deviation (FR)': column_deviation[2],
-            'Deviation (MC)': column_deviation[3],
-            'Deviation (RV)': column_deviation[4]
-        })
-        df = pd.DataFrame(summary)
-        output_path = os.path.join(Agreement_Analyzer.OUTPUT_DIRECTORY, 'tool_')
-        '''
+        #column_deviation = Agreement_Analyzer._get_column_differences()
+        #column_deviation = Agreement_Analyzer._get_deviations(column_deviation)
+        #summary = []
+        #summary.append({
+        #    'Deviation (R3DMA)': column_deviation[0],
+        #    'Deviation (CL)': column_deviation[1],
+        #    'Deviation (FR)': column_deviation[2],
+        #    'Deviation (MC)': column_deviation[3],
+        #    'Deviation (RV)': column_deviation[4]
+        #})
+        #df = pd.DataFrame(summary)
+        #output_path = os.path.join(Agreement_Analyzer.OUTPUT_DIRECTORY, 'tool_')
+        
     @staticmethod
     def _normalize():
         for i in range(len(Agreement_Analyzer.TOOLS)):
@@ -174,3 +230,4 @@ class Agreement_Analyzer:
         for pair in Agreement_Analyzer.bp_interaction_counts:
             bp_agreement.append(pair[0])
         return bp_agreement
+'''

@@ -213,7 +213,7 @@ if 7 >= starting_step_number:
 if 8 >= starting_step_number:
     print('Beginning STEP 8:\n')
     Table_Extender.run()
-input("pause. remove when validation is finished")   
+  
 # =============================================================================
 
 
