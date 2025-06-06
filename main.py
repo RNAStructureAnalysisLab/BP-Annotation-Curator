@@ -164,8 +164,8 @@ if 5 >= starting_step_number:
     while True:
         if response == "n" or response == "N":
             print(
-                "Rerun starting from STEP 5 once you have the data by " +
-                "entering 'y' or 'Y' to proceed."
+                "Rerun starting from STEP 5 once you have the data and " +
+                "enter 'y' or 'Y' to proceed."
             )
             sys.exit()
         elif response == 'y' or response == "Y":
@@ -186,8 +186,8 @@ if 5 >= starting_step_number:
 # TODO: in progress, continue adding features as needed
 if 6 >= starting_step_number:
     print('Beginning STEP 6:\n')
-    #Explorer.explore()
-#input("Pausing. Remove when validation for this step is completed")
+    Explorer.document_descriptions()
+input("Pausing. Remove when validation for this step is completed")
 # =============================================================================
   
 
