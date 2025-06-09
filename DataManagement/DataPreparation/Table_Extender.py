@@ -274,9 +274,9 @@ class Table_Extender:
             for second_residue, contact_types in info.items():
                 if second_residue not in residue_to_column:
                     continue # Is not part of the cluster
-                    
-                if '' in contact_types:
-                    contact_types.remove('')
+                
+                if 'nbp' in contact_types:
+                    contact_types.remove('nbp')
                 if contact_types:
                     first_column = residue_to_column[residue]
                     second_column = residue_to_column[second_residue]
@@ -288,7 +288,7 @@ class Table_Extender:
                         contact_type = contact_types[0]
                     
                     # Ensure order for first_column < second_column
-                    if int(first_column) > int(second_column):
+                    if int(first_column) > int(second_column) and contact_type != "REJECT":
                         first_column, second_column = (
                             second_column, first_column
                         )
@@ -329,6 +329,26 @@ class Table_Extender:
      
     @staticmethod
     def _export(motif_cluster, file_name):
+        columns_to_drop = []
+        for column_name in motif_cluster.columns[::-1]:
+            if '-' not in column_name:
+                break  # stop when the header is not a contact type column
+
+            drop_column = True
+            for i in range(len(motif_cluster)):
+                contact_type = motif_cluster.iloc[i, motif_cluster.columns.get_loc(column_name)]
+                if 'REJECT' in contact_type:
+                    motif_cluster.iloc[i, motif_cluster.columns.get_loc(column_name)] = 'INCOMPATIBLE'
+                    contact_type = 'INCOMPATIBLE'
+
+                if contact_type != 'nbp,nbp,nbp,nbp,nbp,nbp' and contact_type != 'INCOMPATIBLE':
+                    drop_column = False
+                    break
+
+            if drop_column:
+                columns_to_drop.append(column_name)
+        motif_cluster.drop(columns_to_drop, axis=1, inplace=True)
+        
         file_path = os.path.join(
             Table_Extender.EXTENDED_TABLES_DIRECTORY, file_name
         )

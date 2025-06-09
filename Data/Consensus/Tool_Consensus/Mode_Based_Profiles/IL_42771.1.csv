@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3,1-2
-2,IL_8T29_003,8T29,0.8499,1,Other IL,R,RNA (90-MER),C,54,A,56,*,U,65,G,66,cWW 1.00,cWW 1.00,nbp 0.83
-4,IL_6JQ5_002,6JQ5,0.0,2,Multiple bulged bases,A,RNA (82-MER),U,34,A,36,*,U,58,A,60,cWW 1.00,cWW 1.00,nbp 1.00
-5,IL_6JQ5_005,6JQ5,0.06,2,Multiple bulged bases,B,RNA (82-MER),U,34,A,36,*,U,58,A,60,cWW 1.00,cWW 1.00,nbp 1.00
-6,IL_6JQ6_005,6JQ6,0.0783,2,Multiple bulged bases,U,RNA (81-MER),U,34,A,36,*,U,58,A,60,cWW 1.00,cWW 1.00,nbp 1.00
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3
+2,IL_8T29_003,8T29,0.8499,1,Other IL,R,RNA (90-MER),C,54,A,56,*,U,65,G,66,cWW 1.00,cWW 1.00
+4,IL_6JQ5_002,6JQ5,0.0,2,Multiple bulged bases,A,RNA (82-MER),U,34,A,36,*,U,58,A,60,cWW 1.00,cWW 1.00
+5,IL_6JQ5_005,6JQ5,0.06,2,Multiple bulged bases,B,RNA (82-MER),U,34,A,36,*,U,58,A,60,cWW 1.00,cWW 1.00
+6,IL_6JQ6_005,6JQ6,0.0783,2,Multiple bulged bases,U,RNA (81-MER),U,34,A,36,*,U,58,A,60,cWW 1.00,cWW 1.00

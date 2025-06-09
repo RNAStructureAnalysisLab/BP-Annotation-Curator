@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-8,3-4
-1,HL_4PKD_002,4PKD,0.0,2,V,U1 snRNA stem-loops 1 and 2 (55-MER),U,92,A,94,U,95,C,96,C,98,G,99,A,100,A,101,G,102,G,103,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH","cSH,cSH,cSH,nbp,cSH,cSH"
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-8
+1,HL_4PKD_002,4PKD,0.0,2,V,U1 snRNA stem-loops 1 and 2 (55-MER),U,92,A,94,U,95,C,96,C,98,G,99,A,100,A,101,G,102,G,103,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,nbp,tWH,tWH,tWH,tWH"

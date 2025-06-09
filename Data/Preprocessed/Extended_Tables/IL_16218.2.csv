@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,break,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,2-8,5-6,8-9
-3,IL_7A0S_039,7A0S,0.8452,1,X,LSU rRNA,C,1087,A,1088,C,1089,C,1090,C,1091,*,G,1070,U,1071,G,1073,G,1074,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWS,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,cWW,cWW","ncSH,cSH,nbp,nbp,cSH,cSH"
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,break,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,5-6
+3,IL_7A0S_039,7A0S,0.8452,1,X,LSU rRNA,C,1087,A,1088,C,1089,C,1090,C,1091,*,G,1070,U,1071,G,1073,G,1074,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"

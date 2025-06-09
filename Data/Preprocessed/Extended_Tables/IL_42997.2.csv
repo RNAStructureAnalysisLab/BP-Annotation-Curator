@@ -1,7 +1,7 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,2-6
-1,IL_7A0S_030,7A0S,0.2345,0,Isolated near basepair,X,LSU rRNA,A,883,C,884,A,885,*,U,917,A,918,U,919,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,nbp"
-2,IL_2ZI0_001,2ZI0,0.2465,0,Isolated near basepair,D+C,RNA (21-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
-7,IL_3NJ7_004,3NJ7,0.0,0,Isolated near basepair,C+D,RNA (10-mer),C,6,A,7,G,8,*,C,3,A,4,G,5,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
-8,IL_3NJ7_003,3NJ7,0.0134,0,Isolated near basepair,D+C,RNA (10-mer),C,6,A,7,G,8,*,C,3,A,4,G,5,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
-14,IL_7A0S_041,7A0S,0.459,1,Isolated cWS basepair,X,LSU rRNA,A,1260,U,1262,G,1263,*,C,1210,G,1211,U,1212,"cWW,cWW,cWW,cWW,cWW,cWW","cSW,cSW,cSW,nbp,cSW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
-15,IL_4WF9_044,4WF9,0.4721,1,Isolated cWS basepair,X,LSU rRNA,A,1285,U,1287,G,1288,*,C,1235,G,1236,U,1237,"cWW,cWW,cWW,cWW,cWW,cWW","cSW,cSW,cSW,nbp,cSW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,3-4
+1,IL_7A0S_030,7A0S,0.2345,0,Isolated near basepair,X,LSU rRNA,A,883,C,884,A,885,*,U,917,A,918,U,919,"cWW,nbp,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+2,IL_2ZI0_001,2ZI0,0.2465,0,Isolated near basepair,D+C,RNA (21-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+7,IL_3NJ7_004,3NJ7,0.0,0,Isolated near basepair,C+D,RNA (10-mer),C,6,A,7,G,8,*,C,3,A,4,G,5,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+8,IL_3NJ7_003,3NJ7,0.0134,0,Isolated near basepair,D+C,RNA (10-mer),C,6,A,7,G,8,*,C,3,A,4,G,5,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+14,IL_7A0S_041,7A0S,0.459,1,Isolated cWS basepair,X,LSU rRNA,A,1260,U,1262,G,1263,*,C,1210,G,1211,U,1212,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,nbp,cWW,cWW,cWW,cWW"
+15,IL_4WF9_044,4WF9,0.4721,1,Isolated cWS basepair,X,LSU rRNA,A,1285,U,1287,G,1288,*,C,1235,G,1236,U,1237,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,nbp,cWW,cWW,cWW,cWW"

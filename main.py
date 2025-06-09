@@ -187,7 +187,7 @@ if 5 >= starting_step_number:
 if 6 >= starting_step_number:
     print('Beginning STEP 6:\n')
     Explorer.document_descriptions()
-input("Pausing. Remove when validation for this step is completed")
+    
 # =============================================================================
   
 
@@ -200,7 +200,7 @@ input("Pausing. Remove when validation for this step is completed")
 if 7 >= starting_step_number:
     print('Beginning STEP 7:\n')
     Preprocessor.convert_all()
-
+    
 # =============================================================================
 
 
@@ -213,7 +213,7 @@ if 7 >= starting_step_number:
 if 8 >= starting_step_number:
     print('Beginning STEP 8:\n')
     Table_Extender.run()
-  
+
 # =============================================================================
 
 
@@ -227,7 +227,7 @@ if 8 >= starting_step_number:
 if 9 >= starting_step_number:
     print('Beginning STEP 9:\n')
     Tool_Consensus.run()
-    
+
 # =============================================================================
 # STEP 10: Find the base pair intersections between the extended table and 
 # tools annotations

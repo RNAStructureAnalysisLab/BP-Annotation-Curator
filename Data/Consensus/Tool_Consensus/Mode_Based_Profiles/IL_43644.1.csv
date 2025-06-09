@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-6,4-5,2-6,1-7
-2,IL_5EW4_001,5EW4,0.318,0,Tandem non-canonical cWW pairs,B+A,RNA (22-mer),C,14,C,15,C,16,G,17,*,C,8,C,9,C,10,G,11,cWW 1.00,cWW 0.83,cWW 0.67,cWW 1.00,nbp 0.83,nbp 0.83
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,4-5
+2,IL_5EW4_001,5EW4,0.318,0,Tandem non-canonical cWW pairs,B+A,RNA (22-mer),C,14,C,15,C,16,G,17,*,C,8,C,9,C,10,G,11,cWW 1.00,cWW 0.83,cWW 1.00

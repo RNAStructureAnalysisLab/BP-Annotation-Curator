@@ -62,6 +62,8 @@ class Agreement_Calculator:
                             row_label, column_name
                         )
                     )
+                    if contact_type == None:
+                        continue
                     presence_list = (
                         Agreement_Calculator._tools_presence(
                             row_label, column_name, contact_type
@@ -109,6 +111,8 @@ class Agreement_Calculator:
         contact_type = Agreement_Calculator.consensus.loc[
             row_label, column_name
         ].split(' ')[0]
+        if contact_type == 'INCOMPATIBLE':
+            return (None, None, None)
         column_name1, column_name2 = column_name.split('-')
         columns = list(Agreement_Calculator.consensus.columns)
         
@@ -174,7 +178,6 @@ class Agreement_Calculator:
             return (True, False) # Both agree is bp, but disagree on what
         else: # consensus_contact_type == 'nbp'
             return (False, False) # Both disagree on whether residues are bp
-        
         # !!!
         # TODO would like to do deeper analysis on instances where consensus is
         # nbp, and instances where it is not. This will tell us whether a tool

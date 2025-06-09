@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,Unnamed: 34,14,Unnamed: 36,15,1-15,10-14,11-13
-1,HL_7JJU_001,7JJU,0.0309,2,Pseudoknot geometry,A,PLRV_xrRNA,C,14,A,17,C,18,A,19,C,20,G,21,A,22,G,23,U,24,U,25,G,26,C,27,A,28,A,29,G,30,cWW 1.00,tWH 1.00,nbp 1.00
-2,HL_7JJU_002,7JJU,0.0,2,Pseudoknot geometry,B,PLRV_xrRNA,C,14,A,17,C,18,A,19,C,20,G,21,A,22,G,23,U,24,U,25,G,26,C,27,A,28,A,29,G,30,cWW 1.00,tWH 1.00,nbp 1.00
-3,HL_6D3P_002,6D3P,0.8875,0,Pseudoknot geometry,A,RNA (45-MER),C,13,A,14,U,15,C,16,C,17,G,18,A,19,G,20,U,21,U,22,G,23,C,24,A,25,A,26,G,27,cWW 1.00,tWH 1.00,nbp 0.83
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,Unnamed: 34,14,Unnamed: 36,15,1-15,10-14
+1,HL_7JJU_001,7JJU,0.0309,2,Pseudoknot geometry,A,PLRV_xrRNA,C,14,A,17,C,18,A,19,C,20,G,21,A,22,G,23,U,24,U,25,G,26,C,27,A,28,A,29,G,30,cWW 1.00,tWH 1.00
+2,HL_7JJU_002,7JJU,0.0,2,Pseudoknot geometry,B,PLRV_xrRNA,C,14,A,17,C,18,A,19,C,20,G,21,A,22,G,23,U,24,U,25,G,26,C,27,A,28,A,29,G,30,cWW 1.00,tWH 0.83
+3,HL_6D3P_002,6D3P,0.8875,0,Pseudoknot geometry,A,RNA (45-MER),C,13,A,14,U,15,C,16,C,17,G,18,A,19,G,20,U,21,U,22,G,23,C,24,A,25,A,26,G,27,cWW 1.00,tWH 0.83

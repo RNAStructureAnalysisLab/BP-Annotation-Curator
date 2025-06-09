@@ -37,7 +37,7 @@ class Preprocessor:
         # Programmatically initialize certain class variables
         if Preprocessor.initialize_variables:
             Preprocessor._on_start()
-        
+            
         # Ensure OUTPUT_DIRECTORY exists, make empty if so
         if os.path.exists(Preprocessor.OUTPUT_DIRECTORY):
             shutil.rmtree(Preprocessor.OUTPUT_DIRECTORY)
@@ -112,26 +112,31 @@ class Preprocessor:
                 if new_description == 'REJECT':
                     if residue_pair in rejected_annotations:
                         rejected_annotations[residue_pair].add(description)
+                        accepted_annotations[residue_pair].add(new_description)
                     else:
                         rejected_annotations[residue_pair] = {description}
+                        accepted_annotations[residue_pair] = {new_description}
+                        # NOTE: adding to accepted annotatios now because
+                        # if I don't add them into the final JSON, they might
+                        # then get treated as nbp
                 
                 # Add to accepted_annotations otherwise
                 elif is_clarna: # Adding procedure for ClaRNA
-                    if new_description == '':
-                        weighted_description = ''
+                    if new_description == 'nbp' or new_description == 'REJECT':
+                        weighted_description = new_description
                     else:
                         weighted_description = f'{new_description} {weight}'
                     
-                    if new_residue_pair in accepted_annotations and new_description != '':
+                    if new_residue_pair in accepted_annotations and new_description != 'nbp' and new_description != 'REJECT':
                         cl_descriptions = list(
                             accepted_annotations[new_residue_pair]
                         )
                         
                         # Retain only instance with the highest weight
                         # Loop assumes there ar at most 2 elements where one is
-                        # ''
+                        # 'nbp'
                         for cl_description in cl_descriptions:
-                            if cl_description != '':
+                            if cl_description != 'nbp' and cl_description != 'REJECT':
                                 stored_weight = cl_description.split(' ')[1]
                                 if float(weight) > float(stored_weight):
                                     accepted_annotations[new_residue_pair].remove(cl_description)
@@ -189,6 +194,7 @@ class Preprocessor:
     # ACTION: Initializes the class variables RENAMING_CONVENTION and
     # DESCRIPTIONS_TO_REJECT. Sets on_start to False so that this is performed
     # only once
+    # TODO: can make this implementation better/more efficient
     @staticmethod
     def _on_start():
         # Initialize RENAMING_CONVENTION and DESCRIPTIONS_TO_REMOVE
@@ -200,31 +206,36 @@ class Preprocessor:
         
         for e in edge_to_edge_interactions:
             for c in conformations:
-                r3dma_style = f'{c[0]}{e}'
+                lw_style = f'{c[0]}{e}'
                 
-                # ClaRNA style contact types to r3dma style ones
-                Preprocessor.RENAMING_CONVENTION[f'{e}_{c}'] = r3dma_style
-                Preprocessor.RENAMING_CONVENTION[f'?{e}_{c}'] = r3dma_style
-                # Other style contact types to r3dma style ones
-                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}-{replace(e[1])}'] = r3dma_style
-                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}+{replace(e[1])}'] = r3dma_style
-                # Ensure that any already in the R3DMA style remain so
-                Preprocessor.RENAMING_CONVENTION[r3dma_style] = r3dma_style
+                # ClaRNA style contact types to lw style ones
+                Preprocessor.RENAMING_CONVENTION[f'{e}_{c}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'?{e}_{c}'] = lw_style
+                # DSSR style contact types to lw style ones
+                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}-{replace(e[1])}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}+{replace(e[1])}'] = lw_style
+                # R3DMA style contact types to lw style ones
+                Preprocessor.RENAMING_CONVENTION[lw_style] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'n{lw_style}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'{lw_style}a'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'n{lw_style}a'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{e[0].lower()}{e[1]}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'n{c[0]}{e[0].lower()}{e[1]}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{e[0].lower()}{e[1]}a'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'n{c[0]}{e[0].lower()}{e[1]}a'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{e[0]}{e[1].lower()}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'n{c[0]}{e[0]}{e[1].lower()}'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'{c[0]}{e[0]}{e[1].lower()}a'] = lw_style
+                Preprocessor.RENAMING_CONVENTION[f'n{c[0]}{e[0]}{e[1].lower()}a'] = lw_style
         
-        # Create a set of notations that should be removed since they don't cleanly correspond to leontis-westhof nomenclature
+        # Create a set of notations that should be made blank
         Preprocessor.DESCRIPTIONS_TO_REJECT = {
-            '?H_0BPh', '?W_6BPh', '?SW_2BR', '?W_345BPh', '?H_0BR', 'UNK_SHORT_DESC', 'W_6BR', '--',
-            'tW+.', '?diagonal-nc-ww', 'diagonal-nc-ww', '?W_345BR', 'c.-W', 'W_345BPh', 't.-M', 'cW-.', '?H_789BR', 'diagonal-c', 'c.-M', 
-            'H_789BPh', 't.-W', 'cW+.', 'H_789BR', 'SW_2BR', '?SW_2BPh', '?W_6BR', '?diagonal-c', 't.+W', 'tW-.', '?S_1BPh', '?S_1BR', 
-            '?H_789BPh', 'SW_2BPh', 'tm+.', 'H_0BR', 'W_345BR', 'W_6BPh', 'c.+M', 't.-m', 'tm-.', 't.+m', 'tM-.', 'cM+.', 't.+M', 'c.+W'
+            'UNK_SHORT_DESC', 'tW+.',
+            't.-M', 'cW-.', 'c.-M', 't.-W', 'cW+.', 
+            't.+W', 'tW-.', 'tm+.', 'c.+M', 't.-m', 'tm-.', 
+            't.+m', 'tM-.', 'cM+.', 't.+M', 'c.+W',
+            'cBW', 'tBW', 'ncBW', 'ntBW', 'cWB', 'tWB', 'ncWB', 'ntWB'
         }
-        # Types that will be converted to empty strings (stacking, base
-        # phosphate, and base ribose interactions): 
-        # TODO some are not written down, write them all down
-        # {
-        # 'base-ribose-stacking',
-        #'?<>', '', '>>', '<<', '<>', '?><', '><', '--', '?<<', '?>>',
-        # }
         
         Preprocessor.initialize_variables = False
         
@@ -242,7 +253,7 @@ class Preprocessor:
         if description in Preprocessor.DESCRIPTIONS_TO_REJECT:
             return 'REJECT'
         elif description not in Preprocessor.RENAMING_CONVENTION:
-            return ''
+            return 'nbp'
         elif was_reversed:
             if '_' in description:
                 # Swaps the placement of two edges, IE: ?WH_tran --> ?HW_tran
@@ -253,7 +264,7 @@ class Preprocessor:
                     description[delimiter_index - 2] + 
                     description[delimiter_index:]
                 )
-            else: # Swap placement for a DSSR styled contact type
+            elif description != '?diagonal-nc-ww' and description != 'diagonal-nc-ww' and description != '?diagonal-c' and description != 'diagonal-c': # Swap placement for a DSSR styled contact type
                 description = (
                     description[0] + description[-1] + description[-2] + 
                     description[-3]

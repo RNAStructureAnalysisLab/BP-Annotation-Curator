@@ -1,7 +1,7 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-6,4-5,3-7,3-5
-1,IL_1QBP_002,1QBP,0.1703,0,Tandem non-canonical cWW pairs,B+A,RNA (15-mer),U,22,U,23,C,24,G,25,*,U,7,U,8,C,9,G,10,cWW 1.00,cWW 0.83,cWW 0.83,cWW 1.00,nbp 1.00,nbp 1.00
-2,IL_422D_001,422D,0.0,0,Tandem non-canonical cWW pairs,A+B,RNA (12-mer),U,7,U,8,C,9,G,10,*,U,19,U,20,C,21,G,22,cWW 1.00,cWW 0.83,cWW 0.83,cWW 1.00,nbp 0.83,nbp 1.00
-3,IL_4ERD_002,4ERD,0.0975,0,Tandem non-canonical cWW pairs,C+D,RNA (22-mer),U,127,U,128,C,141,G,142,*,U,127,U,128,C,141,G,142,cWW 1.00,cWW 0.83,cWW 0.67,cWW 1.00,nbp 0.83,nbp 1.00
-4,IL_1IHA_001,1IHA,0.1515,0,Tandem non-canonical cWW pairs,A+B,RNA (9-mer),U,3,U,4,C,5,G,6,*,U,3,U,4,C,5,G,6,cWW 1.00,cWW 0.83,cWW 0.83,cWW 1.00,nbp 0.83,nbp 1.00
-5,IL_1ICG_001,1ICG,0.1589,0,Tandem non-canonical cWW pairs,A+B,RNA (9-mer),U,3,U,4,C,5,G,6,*,U,3,U,4,C,5,G,6,cWW 1.00,cWW 0.83,cWW 0.83,cWW 1.00,nbp 0.83,nbp 1.00
-10,IL_4WF9_124,4WF9,0.3403,0,,X,LSU rRNA,G,2217,G,2218,C,2219,U,2220,*,A,2123,U,2124,U,2125,C,2126,cWW 1.00,nbp 0.67,nbp 0.67,nbp 0.67,nbp 0.67,? 0.00
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-6,4-5,3-5,3-7
+1,IL_1QBP_002,1QBP,0.1703,0,Tandem non-canonical cWW pairs,B+A,RNA (15-mer),U,22,U,23,C,24,G,25,*,U,7,U,8,C,9,G,10,cWW 1.00,cWW 0.83,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00
+2,IL_422D_001,422D,0.0,0,Tandem non-canonical cWW pairs,A+B,RNA (12-mer),U,7,U,8,C,9,G,10,*,U,19,U,20,C,21,G,22,cWW 1.00,cWW 0.83,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00
+3,IL_4ERD_002,4ERD,0.0975,0,Tandem non-canonical cWW pairs,C+D,RNA (22-mer),U,127,U,128,C,141,G,142,*,U,127,U,128,C,141,G,142,cWW 0.83,cWW 0.83,cWW 0.67,cWW 1.00,nbp 1.00,nbp 1.00
+4,IL_1IHA_001,1IHA,0.1515,0,Tandem non-canonical cWW pairs,A+B,RNA (9-mer),U,3,U,4,C,5,G,6,*,U,3,U,4,C,5,G,6,cWW 0.83,cWW 0.83,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00
+5,IL_1ICG_001,1ICG,0.1589,0,Tandem non-canonical cWW pairs,A+B,RNA (9-mer),U,3,U,4,C,5,G,6,*,U,3,U,4,C,5,G,6,cWW 0.83,cWW 0.83,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00
+10,IL_4WF9_124,4WF9,0.3403,0,,X,LSU rRNA,G,2217,G,2218,C,2219,U,2220,*,A,2123,U,2124,U,2125,C,2126,cWW 1.00,nbp 0.83,nbp 0.83,nbp 0.83,nbp 0.67,nbp 0.83

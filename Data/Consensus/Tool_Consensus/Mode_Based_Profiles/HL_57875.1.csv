@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,1-4,2-3,1-3,2-4
-1,HL_8UO6_003,8UO6,0.8001,3,A,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,A,77,A,78,U,82,U,83,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-3,HL_3NDB_001,3NDB,0.5646,2,M,SRP RNA,U,162,G,163,G,166,G,167,cWW 1.00,nbp 0.67,nbp 1.00,nbp 1.00
-4,HL_2A64_001,2A64,0.0,2,A,ribonuclease P RNA,G,31,G,32,U,35,C,36,cWW 1.00,nbp 1.00,nbp 1.00,nbp 1.00
-5,HL_6N5P_002,6N5P,0.4305,3,A,cyclic di-AMP riboswitch,G,58,U,59,G,63,C,64,cWW 0.67,nbp 0.67,nbp 0.83,nbp 0.83
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,1-4,2-3
+1,HL_8UO6_003,8UO6,0.8001,3,A,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,A,77,A,78,U,82,U,83,cWW 1.00,nbp 1.00
+3,HL_3NDB_001,3NDB,0.5646,2,M,SRP RNA,U,162,G,163,G,166,G,167,cWW 0.83,INCOMPATIBLE 1.00
+4,HL_2A64_001,2A64,0.0,2,A,ribonuclease P RNA,G,31,G,32,U,35,C,36,cWW 1.00,nbp 1.00
+5,HL_6N5P_002,6N5P,0.4305,3,A,cyclic di-AMP riboswitch,G,58,U,59,G,63,C,64,cWW 0.67,nbp 0.83

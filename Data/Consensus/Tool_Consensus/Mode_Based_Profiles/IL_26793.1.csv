@@ -1,6 +1,6 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,2-5,3-4,1-4,2-4
-1,IL_5VSU_003,5VSU,0.4592,0,Single stack bend,I,U6 snRNA,A,75,A,76,G,77,*,C,69,U,70,cWW 1.00,nbp 0.83,cWW 1.00,nbp 0.83,nbp 1.00
-3,IL_7KGA_006,7KGA,0.3326,0,Single stack bend,B,Flavivirus DB element,A,37,C,38,U,39,*,A,15,U,16,cWW 1.00,nbp 0.67,cWW 1.00,nbp 0.83,nbp 0.83
-9,IL_7A0S_054,7A0S,0.1699,0,Single stack bend,X,LSU rRNA,A,1463,A,1464,G,1465,*,C,1477,U,1478,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00
-11,IL_7A0S_083,7A0S,0.2475,0,Single stack bend,X,LSU rRNA,C,2477,C,2478,U,2479,*,A,2432,G,2433,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00,nbp 0.83
-13,IL_4WF9_089,4WF9,0.249,0,Single stack bend,X,LSU rRNA,C,2525,C,2526,U,2527,*,A,2480,G,2481,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00,nbp 1.00
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,2-5,3-4,2-4
+1,IL_5VSU_003,5VSU,0.4592,0,Single stack bend,I,U6 snRNA,A,75,A,76,G,77,*,C,69,U,70,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00
+3,IL_7KGA_006,7KGA,0.3326,0,Single stack bend,B,Flavivirus DB element,A,37,C,38,U,39,*,A,15,U,16,cWW 1.00,nbp 0.83,cWW 1.00,nbp 1.00
+9,IL_7A0S_054,7A0S,0.1699,0,Single stack bend,X,LSU rRNA,A,1463,A,1464,G,1465,*,C,1477,U,1478,cWW 1.00,nbp 1.00,cWW 1.00,nbp 1.00
+11,IL_7A0S_083,7A0S,0.2475,0,Single stack bend,X,LSU rRNA,C,2477,C,2478,U,2479,*,A,2432,G,2433,cWW 1.00,nbp 1.00,cWW 1.00,nbp 0.83
+13,IL_4WF9_089,4WF9,0.249,0,Single stack bend,X,LSU rRNA,C,2525,C,2526,U,2527,*,A,2480,G,2481,cWW 0.83,nbp 1.00,cWW 1.00,nbp 1.00

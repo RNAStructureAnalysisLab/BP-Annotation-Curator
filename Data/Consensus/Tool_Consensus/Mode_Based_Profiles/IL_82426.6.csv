@@ -2,4 +2,4 @@
 1,IL_4KZD_005,4KZD,0.1272,2,Part of G-quadruplex,R,RNA (84-MER),A,53,G,54,U,55,G,57,A,58,G,59,G,61,U,62,G,63,*,C,25,G,26,G,27,G,28,U,29,cWW 1.00,cHW 1.00,nbp 0.67,cHW 1.00,cHW 1.00,cHW 1.00,cWW 1.00,nbp 0.83
 2,IL_8K7W_003,8K7W,0.0742,2,,A,RNA (49-MER),A,34,G,35,U,36,G,38,A,39,G,40,G,42,U,43,G,44,*,C,9,G,10,G,11,G,12,U,13,cWW 1.00,cHW 1.00,nbp 0.50,cHW 1.00,cHW 1.00,cHW 1.00,cWW 1.00,nbp 0.67
 3,IL_7L0Z_003,7L0Z,0.069,2,Part of G-quadruplex,G,RNA (69-MER),A,45,G,46,U,47,G,49,A,50,G,51,G,53,U,54,G,55,*,C,18,G,19,G,20,G,21,U,22,cWW 1.00,cHW 1.00,nbp 0.67,cHW 1.00,cHW 1.00,cHW 1.00,cWW 1.00,nbp 0.83
-4,IL_4TS2_006,4TS2,0.0664,2,Part of G-quadruplex,Y+X,"Spinach aptamer RNA, bimolecular construct",A,64,G,65,U,66,G,68,A,69,G,70,G,72,U,73,G,74,*,C,28,G,29,G,30,G,31,U,32,cWW 1.00,cHW 1.00,? 0.00,cHW 1.00,cHW 1.00,cHW 1.00,cWW 1.00,nbp 0.83
+4,IL_4TS2_006,4TS2,0.0664,2,Part of G-quadruplex,Y+X,"Spinach aptamer RNA, bimolecular construct",A,64,G,65,U,66,G,68,A,69,G,70,G,72,U,73,G,74,*,C,28,G,29,G,30,G,31,U,32,cWW 1.00,cHW 1.00,? 0.00,cHW 0.83,cHW 1.00,cHW 1.00,cWW 1.00,nbp 0.83

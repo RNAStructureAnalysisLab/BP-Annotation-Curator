@@ -20,6 +20,10 @@ class Agreement_Analyzer:
     
     @staticmethod
     def run():
+        if os.path.exists(Agreement_Analyzer.OUTPUT_DIRECTORY):
+            shutil.rmtree(Agreement_Analyzer.OUTPUT_DIRECTORY)
+        os.makedirs(Agreement_Analyzer.OUTPUT_DIRECTORY)
+        
         total_counts = (
             Agreement_Analyzer.AGREEMENT_DF[
                 'Consensus Contact Type'
