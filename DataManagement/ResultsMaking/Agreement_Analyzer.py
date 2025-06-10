@@ -11,11 +11,7 @@ class Agreement_Analyzer:
     OUTPUT_DIRECTORY = os.path.join(
         RESULTS_DIRECTORY, 'BasePairingAgreementsSummary'
     )
-    AGREEMENT_DF = pd.read_csv(
-        os.path.join(
-            RESULTS_DIRECTORY, 'base_pairing_agreements.csv'
-        )
-    )
+    AGREEMENT_DF = pd.DataFrame
     TOOL_COUNT = 6
     
     @staticmethod
@@ -23,6 +19,12 @@ class Agreement_Analyzer:
         if os.path.exists(Agreement_Analyzer.OUTPUT_DIRECTORY):
             shutil.rmtree(Agreement_Analyzer.OUTPUT_DIRECTORY)
         os.makedirs(Agreement_Analyzer.OUTPUT_DIRECTORY)
+        
+        Agreement_Analyzer.AGREEMENT_DF = pd.read_csv(
+            os.path.join(
+                Agreement_Analyzer.RESULTS_DIRECTORY, 'base_pairing_agreements.csv'
+            )
+        )
         
         total_counts = (
             Agreement_Analyzer.AGREEMENT_DF[

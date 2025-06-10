@@ -57,6 +57,7 @@ class Agreement_Calculator:
                     Agreement_Calculator.consensus.columns
             ):
                 if '-' in column_name:
+                    consensus, consensus_count_cluster, consensus_proportion, consensus_count_row = Agreement_Calculator._get_consensus_information(row_label, column_name)
                     residue_ids, nucleotides, contact_type = (
                         Agreement_Calculator._get_base_pair(
                             row_label, column_name
@@ -92,7 +93,11 @@ class Agreement_Calculator:
                         'Matches (DSSR)': presence_list[5][1],
                         'Matches Count': Agreement_Calculator._sum(
                             presence_list, 1
-                        )
+                        ),
+                        'Cluster Consensus': consensus,
+                        'Cluster Consensus Count': consensus_count_cluster,
+                        'Cluster Consensus Proportion': consensus_proportion,
+                        'Cluster Consensus Count in that BP': consensus_count_row
                     })
                     
                 else:
@@ -196,3 +201,42 @@ class Agreement_Calculator:
                 boolean_sum += int(second)
         
         return boolean_sum
+    
+    # TODO: this is fine, but redesign the invoking function so that it iterate
+    # through the entire column at once
+    @staticmethod
+    def _get_consensus_information(row_label, column_name):
+        counts = {} # counts of the contact type in the entire column
+        column = Agreement_Calculator.extended_table[column_name]
+        most_frequent_contact_type = '?'
+        max_count = 0
+        total_count = 0
+        
+        for contact_types in column:
+            contact_types = contact_types.strip().split(',')
+            for contact_type in contact_types:
+                if contact_type == 'REJECT':
+                    continue
+                total_count += 1
+                
+                # add to total counts
+                if contact_type not in counts:
+                    counts[contact_type] = 1
+                else:
+                    counts[contact_type] = counts[contact_type] + 1
+                
+                current_count = counts[contact_type]
+                if current_count > max_count:
+                    most_frequent_contact_type = contact_type
+                    max_count = current_count
+                elif current_count == max_count:
+                    most_frequent_contact_type = '?'
+        
+        row_values = column.loc[row_label]
+        row_values = row_values.strip().split(',')
+        row_count = 0
+        for contact_type in row_values:
+            if contact_type == most_frequent_contact_type:
+                row_count += 1
+        
+        return (most_frequent_contact_type, max_count, max_count/total_count, row_count)
