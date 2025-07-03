@@ -58,7 +58,7 @@ class Agreement_Calculator:
             ):
                 if '-' in column_name:
                     consensus, consensus_count_cluster, consensus_proportion, consensus_count_row = Agreement_Calculator._get_consensus_information(row_label, column_name)
-                    residue_ids, nucleotides, contact_type = (
+                    residue_ids, nucleotides, contact_type, all_annotations = (
                         Agreement_Calculator._get_base_pair(
                             row_label, column_name
                         )
@@ -97,7 +97,9 @@ class Agreement_Calculator:
                         'Cluster Consensus': consensus,
                         'Cluster Consensus Count': consensus_count_cluster,
                         'Cluster Consensus Proportion': consensus_proportion,
-                        'Cluster Consensus Count in that BP': consensus_count_row
+                        'Cluster Consensus Count in that BP': consensus_count_row,
+                        'All Annotations': all_annotations,
+                        'Comments': None
                     })
                     
                 else:
@@ -116,8 +118,11 @@ class Agreement_Calculator:
         contact_type = Agreement_Calculator.consensus.loc[
             row_label, column_name
         ].split(' ')[0]
+        all_annotations = Agreement_Calculator.extended_table.loc[
+            row_label, column_name
+        ].split(' ')[0]
         if contact_type == 'INCOMPATIBLE':
-            return (None, None, None)
+            return (None, None, None, None)
         column_name1, column_name2 = column_name.split('-')
         columns = list(Agreement_Calculator.consensus.columns)
         
@@ -143,7 +148,7 @@ class Agreement_Calculator:
         ]
         nucleotides = (nucleotide1, nucleotide2)
         
-        return (residue_ids, nucleotides, contact_type)
+        return (residue_ids, nucleotides, contact_type, all_annotations)
         
 
     @staticmethod

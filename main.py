@@ -227,6 +227,7 @@ if 8 >= starting_step_number:
 if 9 >= starting_step_number:
     print('Beginning STEP 9:\n')
     Tool_Consensus.run()
+    #Consensus_V1.run()
 
 # =============================================================================
 # STEP 10: Find the base pair intersections between the extended table and 
