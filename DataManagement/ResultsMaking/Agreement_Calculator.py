@@ -60,7 +60,7 @@ class Agreement_Calculator:
                     consensus, consensus_count_cluster, consensus_proportion, consensus_count_row = Agreement_Calculator._get_consensus_information(row_label, column_name)
                     residue_ids, nucleotides, contact_type, all_annotations = (
                         Agreement_Calculator._get_base_pair(
-                            row_label, column_name
+                            row_label, column_name, consensus
                         )
                     )
                     if contact_type == None:
@@ -114,7 +114,8 @@ class Agreement_Calculator:
         df.to_csv(output_path, index=False)
     
     @staticmethod
-    def _get_base_pair(row_label, column_name):
+    def _get_base_pair(row_label, column_name, cluster_consensus):
+        # TODO 7/14/2025 let's just do tool consensus here, its easier
         contact_type = Agreement_Calculator.consensus.loc[
             row_label, column_name
         ].split(' ')[0]

@@ -72,13 +72,19 @@ class Tool_Consensus:
         if len(counts) == 1:
             contact_type, _ = counts.most_common(1)[0]
             weight = 1.00
-        else:
-            top1, top2 = counts.most_common(2)
-            if top1[1] == top2[1]: # If there was a tie
+        else: 
+            max_count = max(counts.values())
+            tied_items = [(item, count) for item, count in counts.items() if count == max_count]
+            length_tied_items = len(tied_items)
+            contact_type, weight = (None, None)
+            if length_tied_items == 2:
+                contact_type, amount = Tool_Consensus.get_tie_from_two(tied_items)
+                weight = amount / len(entry)
+            elif length_tied_items > 2:
                 contact_type = '?'
                 weight = 0.0
-            else:
-                contact_type, amount = top1
+            else: # length_tied_items == 1
+                contact_type, amount = tied_items[0]
                 weight = amount / len(entry)
         if contact_type.startswith('n') and contact_type != 'nbp':
             contact_type = contact_type[1:]
@@ -132,4 +138,21 @@ class Tool_Consensus:
         file_path = os.path.join(Tool_Consensus.OUTPUT_DIRECTORY, csv_file_name)
         Tool_Consensus.table.to_csv(file_path, index=False)
         
+    # ACTION: Resolves a tie when strictly two contact types are tying. A
+    # contact type that is not 'nbp' wins when tied against 'nbp'.
+    @staticmethod
+    def get_tie_from_two(tied_items):
+        first, amount = tied_items[0]
+        second = tied_items[1][0]
+        result = 'nbp'
+        if first != 'nbp' and second != 'nbp':
+            result = '?'
+            amount = 0.0
+        else:
+            if first != 'nbp':
+                result = first
+            if second != 'nbp':
+                result = second
+        
+        return result, amount
         
