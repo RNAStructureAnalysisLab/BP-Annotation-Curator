@@ -1,7 +1,7 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4
 3,IL_7ELQ_002,7ELQ,0.6063,2,,A,NMT1 RNA,C,32,C,33,G,36,*,C,15,A,16,G,17,cWW 0.83,INCOMPATIBLE 1.00,cWW 1.00
 4,IL_7A0S_112,7A0S,0.5631,1,,Y,5S rRNA,G,66,C,67,G,69,*,C,19,A,20,C,21,cWW 0.67,cWW 0.83,cWW 0.83
-5,IL_7DLZ_003,7DLZ,0.4693,1,,X,RNA (45-MER),C,33,C,34,C,36,*,G,12,A,13,G,14,cWW 1.00,? 0.00,cWW 1.00
+5,IL_7DLZ_003,7DLZ,0.4693,1,,X,RNA (45-MER),C,33,C,34,C,36,*,G,12,A,13,G,14,cWW 1.00,cWW 0.3333333333333333,cWW 1.00
 7,IL_5ML7_010,5ML7,0.4083,1,Isolated non-canonical cWW with bulges,B,23S ribosomal RNA,G,2196,C,2197,A,2199,*,U,2181,A,2182,C,2183,cWW 0.83,cWW 0.83,cWW 1.00
 8,IL_4PKD_001,4PKD,0.3525,1,Isolated non-canonical cWW with bulges,V,U1 snRNA stem-loops 1 and 2 (55-MER),A,86,U,87,C,89,*,G,106,U,107,U,108,cWW 1.00,cWW 0.83,cWW 0.83
 9,IL_7A0S_089,7A0S,0.4217,2,Isolated non-canonical cWW with bulges,X,LSU rRNA,G,2553,C,2554,G,2557,*,C,2489,U,2490,C,2491,cWW 1.00,nbp 0.67,cWW 0.83

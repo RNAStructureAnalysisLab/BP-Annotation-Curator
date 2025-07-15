@@ -12,15 +12,15 @@
 17,IL_4WF9_090,4WF9,0.117,0,Major groove platform,X,LSU rRNA,C,2523,A,2524,C,2525,*,G,2481,G,2482,cWW 0.83,cSH 0.67,nbp 1.00,cWW 0.83,nbp 1.00
 18,IL_7A0S_084,7A0S,0.1127,0,Major groove platform,X,LSU rRNA,C,2475,A,2476,C,2477,*,G,2433,G,2434,cWW 0.83,cSH 0.67,nbp 0.83,cWW 1.00,nbp 1.00
 20,IL_1I6U_001,1I6U,0.1639,0,Major groove platform,C,16S RRNA FRAGMENT,U,9,A,10,A,11,*,U,28,G,29,cWW 0.83,cSH 0.83,nbp 0.5,cWW 1.00,nbp 1.00
-22,IL_1S03_008,1S03,0.2021,0,Major groove platform,B,47-MER,C,34,A,35,A,36,*,U,16,G,17,cWW 1.00,cSH 0.83,? 0.00,cWW 1.00,nbp 1.00
-23,IL_1S03_004,1S03,0.1954,0,Major groove platform,A,47-MER,C,34,A,35,A,36,*,U,16,G,17,cWW 1.00,cSH 0.83,? 0.00,cWW 1.00,nbp 1.00
-26,IL_4WF9_078,4WF9,0.2316,0,Major groove platform,X,LSU rRNA,C,2077,A,2078,G,2079,*,C,2644,G,2645,cWW 1.00,? 0.00,nbp 0.83,cWW 0.83,nbp 1.00
+22,IL_1S03_008,1S03,0.2021,0,Major groove platform,B,47-MER,C,34,A,35,A,36,*,U,16,G,17,cWW 1.00,cSH 0.83,tSH 0.5,cWW 1.00,nbp 1.00
+23,IL_1S03_004,1S03,0.1954,0,Major groove platform,A,47-MER,C,34,A,35,A,36,*,U,16,G,17,cWW 1.00,cSH 0.83,tSH 0.5,cWW 1.00,nbp 1.00
+26,IL_4WF9_078,4WF9,0.2316,0,Major groove platform,X,LSU rRNA,C,2077,A,2078,G,2079,*,C,2644,G,2645,cWW 1.00,cSH 0.5,nbp 0.83,cWW 0.83,nbp 1.00
 27,IL_7A0S_073,7A0S,0.2054,0,Major groove platform,X,LSU rRNA,C,2033,A,2034,G,2035,*,C,2596,G,2597,cWW 1.00,nbp 0.67,nbp 0.83,cWW 0.83,nbp 1.00
 29,IL_7A0S_085,7A0S,0.3004,0,Major groove platform,X,LSU rRNA,U,2436,G,2437,A,2438,*,U,2472,G,2473,cWW 1.00,nbp 0.67,nbp 0.67,cWW 1.00,nbp 1.00
-30,IL_4WF9_091,4WF9,0.3208,0,Major groove platform,X,LSU rRNA,U,2484,U,2485,A,2486,*,U,2520,G,2521,cWW 1.00,? 0.00,nbp 1.00,cWW 1.00,nbp 1.00
+30,IL_4WF9_091,4WF9,0.3208,0,Major groove platform,X,LSU rRNA,U,2484,U,2485,A,2486,*,U,2520,G,2521,cWW 1.00,cSH 0.5,nbp 1.00,cWW 1.00,nbp 1.00
 34,IL_4OQU_002,4OQU,0.1942,0,Major groove platform,A,SAM-I/IV riboswitch,C,42,A,43,A,44,*,U,29,G,30,cWW 1.00,cSH 0.67,nbp 1.00,cWW 1.00,nbp 1.00
 35,IL_3OXE_003,3OXE,0.2045,0,Major groove platform,A,domain II of glycine riboswitch,C,68,U,69,C,70,*,G,35,G,36,cWW 1.00,cSH 0.67,nbp 1.00,cWW 1.00,nbp 1.00
-36,IL_3NKB_002,3NKB,0.1395,0,Major groove platform,B,The hepatitis delta virus ribozyme,G,55,U,56,A,57,*,U,47,C,48,cWW 1.00,? 0.00,nbp 1.00,cWW 1.00,nbp 1.00
+36,IL_3NKB_002,3NKB,0.1395,0,Major groove platform,B,The hepatitis delta virus ribozyme,G,55,U,56,A,57,*,U,47,C,48,cWW 1.00,cSH 0.5,nbp 1.00,cWW 1.00,nbp 1.00
 37,IL_8TSV_001,8TSV,0.1313,0,Major groove platform,A+B,Zika virus stem-loop A (SLA) top stem,U,6,G,7,C,8,*,G,19,A,20,cWW 1.00,cSH 0.67,nbp 0.67,cWW 0.83,nbp 1.00
 38,IL_4LFB_024,4LFB,0.2031,0,Major groove platform,A,SSU rRNA,G,594,G,595,C,596,*,G,644,C,645,cWW 1.00,nbp 0.5,nbp 0.50,cWW 0.83,nbp 0.83
 42,IL_4WF9_026,4WF9,0.3379,0,Major groove platform,X,LSU rRNA,G,783,A,784,C,785,*,G,802,C,803,cWW 0.83,cSH 0.67,nbp 0.83,cWW 0.83,nbp 1.00

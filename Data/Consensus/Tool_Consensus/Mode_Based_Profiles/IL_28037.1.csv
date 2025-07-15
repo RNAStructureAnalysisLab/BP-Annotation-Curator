@@ -1,7 +1,7 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4
 3,IL_5B2P_002,5B2P,0.4885,1,Isolated non-canonical cWW pair,B,Guide RNA,C,44,U,45,C,46,*,G,28,U,30,G,31,cWW 0.83,cWW 0.83,cWW 1.00
-5,IL_4WF9_018,4WF9,0.3211,0,Isolated non-canonical cWW pair,X,LSU rRNA,U,638,U,639,G,640,*,U,705,U,706,G,707,cWW 0.83,? 0.00,cWW 0.83
-6,IL_4KYY_002,4KYY,0.3372,0,Isolated non-canonical cWW pair,A+B,RNA 17-mer,U,8,U,9,G,10,*,U,8,U,9,G,10,cWW 1.00,? 0.00,cWW 0.83
+5,IL_4WF9_018,4WF9,0.3211,0,Isolated non-canonical cWW pair,X,LSU rRNA,U,638,U,639,G,640,*,U,705,U,706,G,707,cWW 0.83,cWW 0.5,cWW 0.83
+6,IL_4KYY_002,4KYY,0.3372,0,Isolated non-canonical cWW pair,A+B,RNA 17-mer,U,8,U,9,G,10,*,U,8,U,9,G,10,cWW 1.00,cWW 0.5,cWW 0.83
 8,IL_7A0S_107,7A0S,0.3253,0,Isolated non-canonical cWW pair,Y,5S rRNA,C,97,C,98,G,99,*,U,82,C,83,G,84,cWW 1.00,cWW 0.83,cWW 0.83
 11,IL_4Y1M_005,4Y1M,0.1843,0,Isolated non-canonical cWW pair,B,E. coli yybP-ykoY riboswitch,U,4,U,5,U,6,*,A,103,U,104,A,105,cWW 1.00,cWW 0.50,cWW 1.00
 13,IL_7A0S_011,7A0S,0.2186,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,573,C,574,U,575,*,A,584,U,585,G,586,cWW 1.00,cWW 0.83,cWW 1.00

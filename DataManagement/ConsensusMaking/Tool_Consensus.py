@@ -86,7 +86,7 @@ class Tool_Consensus:
             else: # length_tied_items == 1
                 contact_type, amount = tied_items[0]
                 weight = amount / len(entry)
-        if contact_type.startswith('n') and contact_type != 'nbp':
+        if contact_type.startswith('n') and contact_type != 'nbp': #TODO: "nbp" is chosen if "ncSs,nbp,nbp,cSS,nbp,cSS". Whe sould check for 'n' earlier to fix this
             contact_type = contact_type[1:]
         original_consensus = (contact_type, weight)
         

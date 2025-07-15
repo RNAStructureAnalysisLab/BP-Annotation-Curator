@@ -3,6 +3,7 @@
 import os
 import shutil
 import pandas as pd
+from collections import Counter
 
 class Agreement_Calculator:
     CONSENSUS_DIRECTORY = os.path.join( # TODO use cluster consensus instead when finished
@@ -16,7 +17,7 @@ class Agreement_Calculator:
     
     consensus = pd.DataFrame
     extended_table = pd.DataFrame
-    
+        
     # table with each base pair in the extended table, shows whether it was 
     # also reported by an annotation tool, and whether it's contact type 
     # matched with that annotation tool.
@@ -114,16 +115,20 @@ class Agreement_Calculator:
         df.to_csv(output_path, index=False)
     
     @staticmethod
-    def _get_base_pair(row_label, column_name, cluster_consensus):
-        # TODO 7/14/2025 let's just do tool consensus here, its easier
+    def _get_base_pair(row_label, column_name, consensus):
+        '''
         contact_type = Agreement_Calculator.consensus.loc[
             row_label, column_name
         ].split(' ')[0]
+        '''
         all_annotations = Agreement_Calculator.extended_table.loc[
             row_label, column_name
         ].split(' ')[0]
-        if contact_type == 'INCOMPATIBLE':
+        if all_annotations == 'INCOMPATIBLE':
             return (None, None, None, None)
+        contact_type = Agreement_Calculator._resolve_contact_type(
+            all_annotations, consensus
+        )
         column_name1, column_name2 = column_name.split('-')
         columns = list(Agreement_Calculator.consensus.columns)
         
@@ -246,3 +251,71 @@ class Agreement_Calculator:
                 row_count += 1
         
         return (most_frequent_contact_type, max_count, max_count/total_count, row_count)
+   
+    #==========================================================================
+    # RESOLVE CONTACT TYPE Section Below:
+    #==========================================================================
+    
+    @staticmethod
+    def _resolve_contact_type(all_annotations, cluster_consensus):
+        all_annotations = all_annotations.split(',')
+        Agreement_Calculator._ensure_lw(all_annotations)
+        most_reported = Agreement_Calculator._most_reported_contact_types(all_annotations)
+        if 'REJECT' in most_reported:
+            most_reported.remove('REJECT')
+        contact_type = Agreement_Calculator._tool_consensus(most_reported, cluster_consensus)
+        if isinstance(contact_type, list):
+            contact_type = contact_type[0]
+        return contact_type
+    
+    @staticmethod
+    def _ensure_lw(all_annotations):
+        for i in range(len(all_annotations)):
+            annotation = all_annotations[i]
+            if 'n' in annotation and annotation != 'nbp':
+                annotation = annotation[1] + annotation[2:].upper()
+            elif annotation != 'nbp':
+                annotation = annotation[0] + annotation[1:].upper()
+            all_annotations[i] = annotation
+    
+    @staticmethod
+    def _most_reported_contact_types(all_annotations):
+        counts = Counter(all_annotations)
+        max_count = max(counts.values())
+        return [item for item, count in counts.items() if count == max_count]
+    
+    @staticmethod
+    def _tool_consensus(most_reported, cluster_consensus):
+        amount_tied = len(most_reported)
+        if amount_tied == 2:
+            contact_type = Agreement_Calculator._get_tie_from_two(most_reported, cluster_consensus)
+        elif amount_tied > 2:
+            contact_type = Agreement_Calculator._cluster_based_tie_breaker(most_reported, cluster_consensus)
+        else: # amount_tied == 1
+            contact_type = most_reported
+        return contact_type
+    
+    @staticmethod
+    def _get_tie_from_two(most_reported, cluster_consensus):
+        first = most_reported[0]
+        second = most_reported[1]
+        result = 'nbp'
+        if first != 'nbp' and second != 'nbp':
+            result = Agreement_Calculator._cluster_based_tie_breaker(most_reported, cluster_consensus)
+        else:
+            if first != 'nbp':
+                result = first
+            if second != 'nbp':
+                result = second
+        
+        return result
+    
+    @staticmethod
+    def _cluster_based_tie_breaker(most_reported, cluster_consensus):
+        if cluster_consensus in most_reported:
+            return cluster_consensus
+        else:
+            return '?'
+    
+    #==========================================================================
+                

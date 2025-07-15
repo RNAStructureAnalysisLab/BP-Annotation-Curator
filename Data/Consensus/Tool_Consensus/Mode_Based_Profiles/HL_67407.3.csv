@@ -1,6 +1,6 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-9,2-10
 1,HL_6WZR_002,6WZR,0.417,1,A,ZMP/ZTP riboswitch,C,62,G,63,C,65,C,66,G,67,U,68,C,69,U,70,G,71,G,72,cWW 1.00,nbp 0.67,nbp 1.00
-2,HL_5BTP_004,5BTP,0.403,1,B,RNA (62-MER),C,62,G,63,C,65,C,66,G,67,U,68,C,69,U,70,G,71,G,72,cWW 1.00,? 0.00,nbp 1.00
+2,HL_5BTP_004,5BTP,0.403,1,B,RNA (62-MER),C,62,G,63,C,65,C,66,G,67,U,68,C,69,U,70,G,71,G,72,cWW 1.00,cHW 0.5,nbp 1.00
 3,HL_9BZC_003,9BZC,0.0,1,A,RNA (87-MER),C,77,G,78,C,80,C,81,G,82,U,83,C,84,U,85,G,86,G,87,cWW 1.00,nbp 0.50,nbp 1.00
 4,HL_4XWF_002,4XWF,0.1542,1,A,ZMP/ZTP riboswitch,C,50,G,51,C,53,C,54,G,55,C,56,C,57,U,58,G,59,G,60,cWW 1.00,nbp 0.67,nbp 1.00
 5,HL_4ZNP_002,4ZNP,0.2023,1,A,pfI Riboswitch,C,58,G,59,C,61,C,62,G,63,C,64,C,65,U,66,G,67,G,68,cWW 1.00,nbp 0.50,nbp 1.00

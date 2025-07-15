@@ -24,7 +24,7 @@
 55,HL_3AM1_004,3AM1,0.2267,0,T-loop with 2 stacked bulged bases,B,ASL-truncated tRNA,G,59,U,60,U,61,C,62,G,63,A,64,U,65,U,66,C,67,cWW 0.83,tWH 1.00,nbp 1.00
 56,HL_8K2Z_003,8K2Z,0.2058,0,T-loop with 2 stacked bulged bases,A,RNA (57-MER),G,38,U,39,U,40,C,41,A,42,A,43,A,44,U,45,C,46,cWW 0.83,tWH 1.00,nbp 1.00
 57,HL_5E6M_003,5E6M,0.2213,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW 1.00,nbp 0.67,nbp 1.00
-58,HL_4QEI_003,4QEI,0.2494,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW 1.00,? 0.00,nbp 1.00
+58,HL_4QEI_003,4QEI,0.2494,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW 1.00,tWW 0.5,nbp 1.00
 59,HL_3TUP_003,3TUP,0.2035,0,T-loop with 2 stacked bulged bases,T,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW 0.83,tWH 0.67,nbp 1.00
 60,HL_1N78_003,1N78,0.1805,0,T-loop with 2 stacked bulged bases,C,tRNA(Glu),G,553,U,554,U,555,C,556,G,557,A,558,U,559,U,560,C,561,cWW 1.00,tWH 0.83,nbp 1.00
 61,HL_3EPH_003,3EPH,0.1971,0,T-loop with 2 stacked bulged bases,E,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,C,60,C,61,cWW 1.00,tWH 1.00,nbp 1.00

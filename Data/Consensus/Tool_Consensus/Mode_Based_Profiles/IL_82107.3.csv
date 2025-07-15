@@ -1,5 +1,5 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3,3-4,2-4
-1,IL_5M0H_004,5M0H,0.3045,2,Multiple bulged bases,A,ASH1 E3 (42 nt-TL/TLR),A,35,C,36,*,G,8,U,11,? 0.00,cWW 1.00,nbp 0.83,nbp 0.83
+1,IL_5M0H_004,5M0H,0.3045,2,Multiple bulged bases,A,ASH1 E3 (42 nt-TL/TLR),A,35,C,36,*,G,8,U,11,cWW 0.5,cWW 1.00,nbp 0.83,nbp 0.83
 2,IL_4WF9_071,4WF9,0.2701,2,Major groove intercalation,X,LSU rRNA,U,1868,G,1869,*,U,1925,A,1928,cWW 1.00,cWW 0.83,nbp 1.00,nbp 1.00
 5,IL_5WLH_001,5WLH,0.1847,2,Multiple bulged bases,B,pre-crRNA,A,-23,G,-22,*,C,-7,U,-4,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00
 6,IL_5W1H_001,5W1H,0.1814,2,Multiple bulged bases,B,mature crRNA,A,-23,G,-22,*,C,-7,U,-4,cWW 0.83,cWW 0.83,nbp 1.00,nbp 1.00
