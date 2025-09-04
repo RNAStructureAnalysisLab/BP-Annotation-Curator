@@ -18,6 +18,7 @@ from DataManagement.DataPreparation.Table_Extender import Table_Extender
 from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
 from DataManagement.ResultsMaking.Agreement_Calculator import Agreement_Calculator
 from DataManagement.ResultsMaking.Agreement_Analyzer import Agreement_Analyzer
+from DataManagement.DataExploration.Catalogue import Catalogue
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -239,6 +240,9 @@ if 10 >= starting_step_number:
 if 11 >= starting_step_number: # should be part of step 10, temporary
     print('Beginning STEP 11:\n')
     Agreement_Analyzer.run()
+if 12 >= starting_step_number:
+    print('Beginning STEP 12:\n')
+    Catalogue.run()
     
     
 # TODO: verify that pdb 8CRE is getting processed when we run the entire
