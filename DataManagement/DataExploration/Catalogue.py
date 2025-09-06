@@ -1,7 +1,161 @@
 import os
+import json
 import pandas as pd
 from collections import Counter
+import re
+from collections import defaultdict
 
+class Catalogue:
+    extended_tables_directory = os.path.join(
+        'Data', 'Preprocessed', 'Extended_Tables'    
+    )
+    
+    @staticmethod
+    def run():
+        tier1_ties, tier2_ties, tier3_ties = {}, {}, {}
+        for table_name in os.listdir(Catalogue.extended_tables_directory):
+            cluster_df = pd.read_csv(os.path.join(
+                Catalogue.extended_tables_directory, table_name    
+            ))
+            Catalogue._find_ties(cluster_df, tier1_ties, tier2_ties, tier3_ties, table_name)
+        print(tier1_ties)
+        print(tier3_ties)
+            
+    @staticmethod
+    def _find_ties(cluster_df, tier1_ties, tier2_ties, tier3_ties, table_name):
+        pdb_ids = cluster_df['PDB']
+        for column in cluster_df.columns[::-1]:
+            if '-' not in column:
+                break
+            column_data = cluster_df[column].str.split(',')
+            column_data = Catalogue._standardize(column_data)
+            column_data = Catalogue._condense(column_data)
+            Catalogue._add_tier1_ties(column_data, tier1_ties, column, table_name, pdb_ids)
+            Catalogue._add_tier2_ties(column_data, tier1_ties, column, table_name, pdb_ids)
+            Catalogue._add_tier3_ties(column_data, tier1_ties, column, table_name, pdb_ids)
+            
+            
+    @staticmethod
+    def _standardize(column_data: pd.Series) -> pd.Series:
+        def transform_segment(segment: str) -> str:
+            if segment.startswith("nc"):
+                return "c" + segment[2:].upper()
+            elif segment.startswith("c"):
+                return "c" + segment[1:].upper()
+            elif segment.startswith("nt"):
+                return "t" + segment[2:].upper()
+            elif segment.startswith("t"):
+                return "t" + segment[1:].upper()
+            return segment
+    
+        return column_data.apply(lambda lst: [transform_segment(s) for s in lst])
+
+    @staticmethod
+    def _condense(column_data: pd.Series) -> pd.Series:
+        def condense_list(lst):
+            if not lst:
+                return []
+            counts = Counter(lst)
+            # Preserve the order of first occurrence
+            seen = []
+            condensed = []
+            for item in lst:
+                if item not in seen:
+                    condensed.append(f"{counts[item]}{item}")
+                    seen.append(item)
+            return condensed
+
+        return column_data.apply(condense_list)
+
+    @staticmethod
+    def _add_tier1_ties(column_data, tier1_ties, column, table_name, pdb_ids):
+        """
+        Detects ties in contact types and inserts them into tier1_ties.
+        
+        Args:
+            column_data (pd.Series): each row is a list of contact types (like ['5cWW', '1nbp'])
+            tier1_ties (dict): dictionary to update in place
+            column (str): the column name being processed
+            table_name (str): the table name (cluster_table_name)
+            pdb_ids (pd.Series): corresponding pdb ids for each row
+        """
+        
+        for i, entry in enumerate(column_data):
+            if not entry:
+                continue
+            
+            # Parse (coeff, contact_type)
+            parsed = []
+            for ct in entry:
+                j = 0
+                while j < len(ct) and ct[j].isdigit():
+                    j += 1
+                coeff = int(ct[:j]) if j > 0 else 0
+                parsed.append((coeff, ct))
+            
+            max_coeff = max(coeff for coeff, _ in parsed)
+            winners = [ct for coeff, ct in parsed if coeff == max_coeff]
+            
+            if len(winners) > 1:  # Tie found
+                # Ensure nested dict exists
+                if table_name not in tier1_ties:
+                    tier1_ties[table_name] = {}
+                if column not in tier1_ties[table_name]:
+                    tier1_ties[table_name][column] = []
+                
+                # Append the pdb id associated with this tie
+                tier1_ties[table_name][column].append(pdb_ids.iloc[i])
+
+                
+    @staticmethod
+    def _add_tier2_ties(column_data, tier1_ties, column, table_name, pdb_ids):
+        pass
+    
+    @staticmethod
+    def _add_tier3_ties(column_data, tier3_ties, column, table_name, pdb_ids):
+        def parse_contact(contact):
+            """Split contact into (coefficient, suffix, caps)."""
+            match = re.match(r"(\d+)([A-Za-z]+)", contact)
+            if not match:
+                return 0, contact, set()
+            coeff = int(match.group(1))
+            suffix = match.group(2)
+            caps = {c for c in suffix if c.isupper()}
+            return coeff, suffix, caps
+
+        for entry, pdb in zip(column_data, pdb_ids):
+            if not entry:
+                continue
+
+            # --- Group contacts by overlapping capitalized letters ---
+            groups = []
+            for contact in entry:
+                coeff, suffix, caps = parse_contact(contact)
+                placed = False
+                for group in groups:
+                    if not group["caps"].isdisjoint(caps):  # overlap → same group
+                        group["coeff"] += coeff
+                        group["suffixes"].append(suffix)
+                        group["caps"].update(caps)
+                        placed = True
+                        break
+                if not placed:
+                    groups.append({"coeff": coeff, "suffixes": [suffix], "caps": caps})
+
+            # --- Build combined contact types ---
+            combined_contacts = [
+                (g["coeff"], "".join(g["suffixes"])) for g in groups
+            ]
+
+            # --- Find max coefficient ---
+            max_coeff = max(c[0] for c in combined_contacts)
+            top_contacts = [c for c in combined_contacts if c[0] == max_coeff]
+
+            # --- If tie, store result ---
+            if len(top_contacts) > 1:
+                tier3_ties.setdefault(table_name, {}).setdefault(column, []).append(pdb)
+
+'''
 class Catalogue:
     extended_tables_directory = os.path.join(
         "Data", "Preprocessed", "Extended_Tables"
@@ -212,3 +366,4 @@ class Catalogue:
                 tie_dict[key] = value  # keep only ties
     
         return tie_dict
+'''

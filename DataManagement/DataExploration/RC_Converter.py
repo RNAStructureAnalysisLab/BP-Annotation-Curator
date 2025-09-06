@@ -45,7 +45,7 @@ class RC_Converter:
             for contact_type in [
                 'cWW', 'cWH', 'cWS', 'cSW', 'cSH', 'cSS', 'cHW', 'cHH', 'cHS',
                 'tWW', 'tWH', 'tWS', 'tSW', 'tSH', 'tSS', 'tHW', 'tHH', 'tHS',
-                'nbp', 'REJECT'
+                'nbp', 'REJECT', 'INCOMPATIBLE'
             ]:
                 absolute_rc_notation = f"r{rc.get(contact_type, 0)}c{cc.get(contact_type, 0)}"
                 
@@ -60,9 +60,13 @@ class RC_Converter:
     def _standardize(column_data: pd.Series) -> pd.Series:
         def transform_segment(segment: str) -> str:
             if segment.startswith("nc"):
-                return "nc" + segment[2:].upper()
+                return "c" + segment[2:].upper()
             elif segment.startswith("c"):
                 return "c" + segment[1:].upper()
+            elif segment.startswith("nt"):
+                return "t" + segment[2:].upper()
+            elif segment.startswith("t"):
+                return "t" + segment[1:].upper()
             return segment
     
         return column_data.apply(lambda lst: [transform_segment(s) for s in lst])

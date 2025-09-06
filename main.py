@@ -243,8 +243,8 @@ if 11 >= starting_step_number: # should be part of step 10, temporary
     Agreement_Analyzer.run()
 if 12 >= starting_step_number:
     print('Beginning STEP 12:\n')
-    #Catalogue.run()
-    RC_Converter.run()
+    #RC_Converter.run()
+    Catalogue.run()
     
     
 # TODO: verify that pdb 8CRE is getting processed when we run the entire
