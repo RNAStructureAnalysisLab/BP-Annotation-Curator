@@ -10,17 +10,28 @@ class Catalogue:
 
     @staticmethod
     def run():
+        global_lookup = {}
         for table_name in Catalogue.extended_table_names:
             cluster_csv = pd.read_csv(os.path.join(
                 Catalogue.extended_tables_directory, table_name
             ))
             formalized_cluster = Catalogue._formalize(cluster_csv)
             formalized_cluster['PDB'] = cluster_csv['PDB']
-            print(formalized_cluster)
             ranked_cluster = Catalogue._convert_to_rankings(formalized_cluster)
-            print(ranked_cluster)
-            input("wait")
-            
+            Catalogue._build_dictionary(ranked_cluster, table_name, global_lookup)
+        ties = Catalogue._filter_ties(global_lookup)
+        #print(ties)
+        #input("wait")
+        
+        #let's look up instances of that one example I thought of:
+        #print(ties.keys())
+        #input("okay")
+        
+        print(f"""
+              {ties[('2r1c1', '2r2c1', '2r2c1')]}
+              {ties[('2r1c1', '2r1c1', '2r1c1')]}
+              """)
+        input("alright")
             
     @staticmethod 
     def _formalize(cluster_csv):
@@ -159,3 +170,45 @@ class Catalogue:
             ranked_cluster[column] = formalized_cluster[column].apply(rank_list)
     
         return ranked_cluster
+
+    @staticmethod
+    def _build_dictionary(ranked_cluster: pd.DataFrame, table_name: str, lookup: dict):
+        for col in ranked_cluster.columns:
+            if col == "PDB":
+                continue
+    
+            for idx, row in ranked_cluster.iterrows():
+                key = tuple(sorted(row[col]))  # tuple of ranked list
+                pdb_id = row["PDB"]
+    
+                value = [pdb_id, col, table_name]
+    
+                if key not in lookup:
+                    lookup[key] = []
+                lookup[key].append(value)
+    
+        return lookup
+    
+    @staticmethod
+    def _filter_ties(global_lookup: dict) -> dict:
+        tie_dict = {}
+    
+        for key, value in global_lookup.items():
+            # Extract the leading coefficient from each item in the tuple
+            counts = []
+            for item in key:
+                num_str = ""
+                i = 0
+                while i < len(item) and item[i].isdigit():
+                    num_str += item[i]
+                    i += 1
+                counts.append(int(num_str))
+    
+            # Find the maximum coefficient
+            max_count = max(counts)
+    
+            # Count how many items have that maximum
+            if counts.count(max_count) >= 2:
+                tie_dict[key] = value  # keep only ties
+    
+        return tie_dict
