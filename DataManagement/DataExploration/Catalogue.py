@@ -19,7 +19,6 @@ class Catalogue:
             ))
             Catalogue._find_ties(cluster_df, tier1_ties, tier2_ties, tier3_ties, table_name)
         print(tier1_ties)
-        print(tier3_ties)
             
     @staticmethod
     def _find_ties(cluster_df, tier1_ties, tier2_ties, tier3_ties, table_name):
@@ -30,9 +29,9 @@ class Catalogue:
             column_data = cluster_df[column].str.split(',')
             column_data = Catalogue._standardize(column_data)
             column_data = Catalogue._condense(column_data)
-            Catalogue._add_tier1_ties(column_data, tier1_ties, column, table_name, pdb_ids)
-            Catalogue._add_tier2_ties(column_data, tier1_ties, column, table_name, pdb_ids)
-            Catalogue._add_tier3_ties(column_data, tier1_ties, column, table_name, pdb_ids)
+            Catalogue._add_tier1_ties(column_data)
+            #Catalogue._add_tier2_ties(column_data, tier1_ties, column, table_name, pdb_ids)
+            #Catalogue._add_tier3_ties(column_data, tier1_ties, column, table_name, pdb_ids)
             
             
     @staticmethod
@@ -67,6 +66,38 @@ class Catalogue:
 
         return column_data.apply(condense_list)
 
+    @staticmethod
+    def _add_tier1_ties(column_data):
+        for entry in column_data:
+            max_count = 0
+            most_frequent_contact_types = set()
+            for contact_type in entry:
+                count, contact_type = Catalogue._split_contact_type(contact_type)
+                if most_frequent_contact_types.empty():
+                    most_frequent_contact_types.add(contact_type)
+                    max_count = count
+                elif count == max_count:
+                    most_frequent_contact_types.add(contact_type)
+                elif count > max_count:
+                    max_count = count
+                    most_frequent_contact_types = set()
+                    most_frequent_contact_types.add(contact_type)
+            consensus = Catalogue._resolve_tie(most_frequent_contact_types)
+                    
+    @staticmethod
+    def _split_contact_type(string):
+        number, contact_type = "", ""
+        for character in string:
+            if character.isdigit():
+                number += character
+            else:
+                contact_type += character
+        return (int(number), contact_type)
+    
+    @staticmethod
+    def _resolve_tie(most_frequent_contact_types):
+        return None
+    '''
     @staticmethod
     def _add_tier1_ties(column_data, tier1_ties, column, table_name, pdb_ids):
         """
@@ -105,7 +136,7 @@ class Catalogue:
                 
                 # Append the pdb id associated with this tie
                 tier1_ties[table_name][column].append(pdb_ids.iloc[i])
-
+    '''
                 
     @staticmethod
     def _add_tier2_ties(column_data, tier1_ties, column, table_name, pdb_ids):
