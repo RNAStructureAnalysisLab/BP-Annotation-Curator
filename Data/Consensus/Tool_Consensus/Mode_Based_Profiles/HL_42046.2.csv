@@ -1,5 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7
-1,HL_5F5H_002,5F5H,0.061,1,D,RNA (21-mer),C,8,G,9,U,10,U,11,U,13,A,14,G,15,cWW 1.00
-2,HL_5F5H_001,5F5H,0.0,1,C,RNA (21-mer),C,8,G,9,U,10,U,11,U,13,A,14,G,15,cWW 1.00
-3,HL_5F5F_003,5F5F,0.0722,1,F,RNA (20-mer),C,7,G,8,U,9,U,10,U,12,A,13,G,14,cWW 1.00
-4,HL_5F5F_001,5F5F,0.076,1,B,RNA (20-mer),C,7,G,8,U,9,U,10,U,12,A,13,G,14,cWW 1.00
