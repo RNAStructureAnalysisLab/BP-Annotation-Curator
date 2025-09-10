@@ -1,0 +1,9 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,1-6,2-3,1-3
+1,HL_4FRN_007,4FRN,0.2754,3,T-loop with unstacked turn,B,Cobalamin riboswitch aptamer domain,G,56,U,57,A,61,C,62,U,63,C,64,cWW,tWH,nbp
+2,HL_4FRG_003,4FRG,0.3658,3,T-loop with unstacked turn,B,cobalamin riboswitch aptamer domain,G,58,U,59,A,63,C,64,U,65,C,66,cWW,tWH,nbp
+3,HL_6DN2_004,6DN2,0.3795,2,T-loop with unstacked turn,Y,RNA (56-MER),G,88,U,89,A,92,G,93,U,94,C,95,cWW,tWH,nbp
+4,HL_3F2X_005,3F2X,0.3947,2,T-loop with unstacked turn,X,FMN riboswitch,G,88,U,89,A,92,G,93,U,94,C,95,cWW,tWH,nbp
+5,HL_3F2X_002,3F2X,0.2823,2,T-loop with unstacked turn,X,FMN riboswitch,G,36,U,37,A,40,G,41,U,42,C,43,cWW,tWH,nbp
+6,HL_6DN2_002,6DN2,0.2498,2,T-loop with unstacked turn,X,RNA RIBOSWITCH,G,36,U,37,A,40,G,41,U,42,C,43,cWW,tWH,nbp
+12,HL_4WF9_012,4WF9,0.1233,3,T-loop with unstacked turn,X,LSU rRNA,G,370,U,371,A,375,A,376,U,377,C,378,cWW,tWH,nbp
+13,HL_7A0S_012,7A0S,0.4976,3,T-loop with unstacked turn,X,LSU rRNA,G,338,U,339,A,343,G,344,U,345,C,346,cWW,nbp,nbp

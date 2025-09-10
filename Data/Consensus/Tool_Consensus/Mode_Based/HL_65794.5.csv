@@ -1,0 +1,11 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,1-6,2-3
+1,HL_3R4F_005,3R4F,0.4068,0,Pseudoknot geometry,A,pRNA,U,52,G,53,G,54,U,55,U,56,G,57,cWW,nbp
+2,HL_1U6B_002,1U6B,0.383,0,Pseudoknot geometry,B,197-MER,C,70,G,71,C,72,C,73,C,74,G,75,cWW,nbp
+3,HL_4PQV_002,4PQV,0.4248,1,Pseudoknot geometry,A,Flavivirus 3' UTR stem loop IV,C,28,G,29,C,30,C,31,G,32,G,34,cWW,nbp
+4,HL_4WF9_061,4WF9,0.2512,0,Ribsomal LSU H95,X,LSU rRNA,U,2728,G,2729,C,2730,C,2731,A,2732,A,2733,cWW,nbp
+5,HL_7A0S_064,7A0S,0.1887,0,Ribsomal LSU H95,X,LSU rRNA,U,2680,A,2681,C,2682,C,2683,A,2684,A,2685,cWW,nbp
+7,HL_6UFM_005,6UFM,0.2255,0,Pseudoknot geometry,B,RNA (98-MER),G,50,G,51,A,52,A,53,A,54,C,55,cWW,nbp
+11,HL_8KEB_002,8KEB,0.5094,1,,A,RNA (72-MER),G,34,A,36,A,37,U,38,A,39,C,40,cWW,nbp
+12,HL_4GXY_003,4GXY,0.4779,1,Pseudoknot geometry,A,Adenosylcobalamin riboswitch,G,65,C,67,C,68,C,69,G,70,C,71,cWW,nbp
+13,HL_8K1E_001,8K1E,0.6191,1,,A,RNA (58-MER),G,23,A,25,C,26,G,27,G,28,C,29,cWW,nbp
+14,HL_7YSE_002,7YSE,0.7698,1,Pseudoknot geometry,E,tRNA,U,32,G,34,C,35,C,36,A,37,A,38,cWW,nbp

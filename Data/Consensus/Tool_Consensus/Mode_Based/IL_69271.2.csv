@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,break,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,1-12,2-11,8-9
+1,IL_9BZC_002,9BZC,0.3303,2,A,RNA (87-MER),C,12,U,13,G,14,A,15,C,16,G,17,G,18,G,21,*,C,33,A,34,U,35,G,36,cWW,cWW,cWW
+2,IL_5BTP_005,5BTP,0.0,3,B,RNA (62-MER),C,15,U,16,G,17,A,18,C,19,G,20,G,21,G,25,*,C,38,A,39,U,40,G,41,cWW,cWW,cWW
+3,IL_6WZR_002,6WZR,0.0855,3,A,ZMP/ZTP riboswitch,C,15,U,16,G,17,A,18,C,19,G,20,G,21,G,25,*,C,38,A,39,U,40,G,41,cWW,cWW,cWW

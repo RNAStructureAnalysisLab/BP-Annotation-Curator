@@ -55,13 +55,17 @@ class Tool_Consensus_2:
         for column_name in cluster_df.columns[::-1]:
             if '-' not in column_name:
                 break
-            consensus_df[column_name] = cluster_df[column_name].apply(
-                lambda cell: Tool_Consensus_2._get_mode(cell, table_name, rc_dictionary, column_name)
+            consensus_df[column_name] = cluster_df.apply(
+                lambda row: Tool_Consensus_2._get_mode(
+                    row[column_name], table_name, rc_dictionary, column_name, row["PDB"]
+                ),
+                axis=1
             )
+
         return consensus_df
     
     @staticmethod
-    def _get_mode(cell, table_name, rc_dictionary, column_name):
+    def _get_mode(cell, table_name, rc_dictionary, column_name, pdb):
         items = [x for x in cell.split(",")]
         if not items:
             return None
@@ -70,7 +74,7 @@ class Tool_Consensus_2:
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
-            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name)
+            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb)
         
         return mode
     
@@ -81,42 +85,55 @@ class Tool_Consensus_2:
         )
         
     @staticmethod
-    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name):
+    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb):
         mode = None
         max_count = 0
-        for i in [True, False]: # just loop through twice
-            checking_consensus_count = i
-            for contact_type in top_contact_types:
-                if contact_type == 'INCOMPATIBLE' or contact_type == 'REJECT':
-                    continue
-                rc = rc_dictionary[table_name][column_name][contact_type]
-                counts = re.match(r"r(\d+)c(\d+)", rc)
-                if checking_consensus_count:
-                    consensus_count = int(counts.group(2))
-                    if consensus_count == max_count:
-                        mode = None
-                        break
-                    if  consensus_count > max_count:
-                        max_count = consensus_count
-                        mode = contact_type
+        for combine_contact_types in [False, True]:
+            for checking_consensus_count in [True, False]:
+                for contact_type in top_contact_types:
+                    if contact_type == 'INCOMPATIBLE' or contact_type == 'REJECT':
+                        continue
+                    rc = Tool_Consensus_2._get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type)
+                    counts = re.match(r"r(\d+)c(\d+)", rc)
+                    if checking_consensus_count:
+                        consensus_count = int(counts.group(2))
+                        if consensus_count == max_count:
+                            mode = None
+                            break
+                        if  consensus_count > max_count:
+                            max_count = consensus_count
+                            mode = contact_type
+                    else: # comparing report counts instead
+                        report_count = int(counts.group(1))
+                        if report_count == max_count:
+                            mode = None
+                            break
+                        if report_count > max_count:
+                            max_count = report_count
+                            mode = contact_type
+                if mode == None:
+                    max_count = 0
                 else:
-                    report_count = int(counts.group(1))
-                    if report_count == max_count:
-                        mode = None
-                        break
-                    if report_count > max_count:
-                        max_count = report_count
-                        mode = contact_type
-            if mode == None:
-                max_count = 0
-            else:
-                Tool_Consensus_2.tie_instances.append({
-                    'cluster': table_name, 'PDB': pdb, 'column': column_name, 
-                    'tied_contact_types': top_contact_types
-                })
-                return mode
-        
-        input("need to add further logic for resolving ties")
-        # TODO Further logic for resolving ties
+                    if checking_consensus_count:
+                        case = "motif-wide consensus count"
+                    else:
+                        case = "report count"
+                    Tool_Consensus_2.tie_instances.append({
+                        'cluster': table_name, 'PDB': pdb, 'column': column_name, 
+                        'tied_contact_types': top_contact_types, 'resolved_with': case
+                    })
+                    return mode
+
+        print("WARNING: unresolved tie")
         
         return None
+    
+    @staticmethod
+    def _get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type):
+        if not combine_contact_types or contact_type == 'nbp':
+            return rc_dictionary[table_name][column_name][contact_type]
+        else:
+            for contact_type_key in rc_dictionary[table_name][column_name].keys():
+                counts_by_first_edge = (0,0)
+                counts_by_second_edge = (0,0)
+                if r""
