@@ -1,0 +1,2 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,break,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,Unnamed: 33,13,1-13,4-12,5-11,7-10,8-9,6-10
+1,IL_5D8H_001,5D8H,0.2887,1,Kink-turn,A,LSU rRNA,C,1153,U,1154,A,1155,G,1157,A,1158,C,1159,A,1160,G,1161,*,U,1218,C,1219,G,1220,A,1221,G,1222,cWW 1.00,tSH 0.83,tHS 0.83,cWW 0.5,cWW 0.83,nbp 0.83

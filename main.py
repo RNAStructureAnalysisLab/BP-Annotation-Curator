@@ -244,8 +244,7 @@ if 11 >= starting_step_number: # should be part of step 10, temporary
     Agreement_Analyzer.run()
 if 12 >= starting_step_number:
     print('Beginning STEP 12:\n')
-    #RC_Converter.run()
-    #Catalogue.run()
+    RC_Converter.run()
     Tool_Consensus_2.run()
     
     

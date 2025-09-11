@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,break,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,break.1,Unnamed: 25,9,Unnamed: 27,10,1-10,2-3,8-9
+1,J3_1E8O_001,1E8O,0.2468,0,E,7SL RNA,C,103,G,104,*,U,123,G,124,U,125,A,126,G,127,U,128,*,A,143,G,144,cWW 1.00,cWW 0.83,cWW 1.00
+2,J3_4UYK_002,4UYK,0.0,0,R,SRP RNA,C,16,G,17,*,U,35,G,36,U,37,A,38,A,39,C,40,*,G,61,G,62,cWW 1.00,cWW 0.83,cWW 1.00
+3,J3_5AOX_001,5AOX,0.372,0,C,ALU JO CONSENSUS RNA,C,4,G,5,*,U,24,G,25,U,26,A,27,A,28,U,29,*,A,44,G,45,cWW 0.83,cWW 0.83,cWW 1.00

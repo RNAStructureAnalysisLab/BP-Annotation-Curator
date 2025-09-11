@@ -1,0 +1,3 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,2-6
+2,HL_6N5P_001,6N5P,0.0,2,A,cyclic di-AMP riboswitch,A,14,U,15,G,16,U,17,G,19,U,21,U,22,cWW 1.00,cWW 0.83
+3,HL_7A0S_021,7A0S,0.7118,1,X,LSU rRNA,C,651,C,652,G,653,A,655,U,656,A,657,G,658,cWW 1.00,cWW 0.67

@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5
+1,HL_5NDH_002,5NDH,0.3924,1,,B,RNA (16-mer),G,6,A,7,C,8,G,9,C,11,cWW 1.00
+2,HL_5VJ9_003,5VJ9,0.3745,1,Pseudoknot geometry with 3' bulge,C,RNA (16-mer),G,6,A,7,C,8,G,9,C,11,cWW 1.00
+3,HL_5NDI_002,5NDI,0.3919,1,Pseudoknot geometry with 3' bulge,B,RNA (20-mer),G,8,A,9,C,10,G,11,C,13,cWW 1.00
+5,HL_7A0S_073,7A0S,0.3758,1,Pseudoknot geometry with 3' bulge,X,LSU rRNA,U,1647,C,1648,A,1649,A,1650,G,1652,cWW 0.83
+8,HL_4WF9_033,4WF9,0.1382,2,Pseudoknot geometry with 3' bulge,X,LSU rRNA,G,1361,U,1363,C,1364,G,1365,C,1367,cWW 1.00
+10,HL_7A0S_033,7A0S,0.1664,2,Pseudoknot geometry with 3' bulge,X,LSU rRNA,G,1337,U,1339,C,1340,G,1341,C,1343,cWW 1.00

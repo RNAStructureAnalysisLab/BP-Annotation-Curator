@@ -1,0 +1,18 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4
+2,IL_1U6B_001,1U6B,0.3005,1,Isolated non-canonical cWW pair,B,197-MER,G,19,C,20,G,22,*,C,29,A,30,C,31,cWW 0.83,nbp 0.67,cWW 1.00
+3,IL_2QEK_001,2QEK,0.3111,1,,A+B,HIV-1 subtype F DIS genomic RNA,G,7,A,8,G,10,*,C,15,A,16,C,17,cWW 0.83,cWW 0.67,cWW 0.83
+4,IL_4RUM_001,4RUM,0.2979,1,Isolated non-canonical cWW pair,A,NiCo riboswitch RNA,G,13,A,14,C,16,*,G,88,A,89,C,90,cWW 0.83,cWW 0.67,cWW 1.00
+7,IL_7A0S_038,7A0S,0.4249,1,Isolated non-canonical cWW pair,X,LSU rRNA,G,1042,A,1043,G,1045,*,C,1132,G,1133,C,1134,cWW 0.83,cWW 0.67,cWW 1.00
+8,IL_4WF9_041,4WF9,0.4039,1,Isolated non-canonical cWW pair,X,LSU rRNA,G,1075,A,1076,G,1078,*,C,1165,G,1166,C,1167,cWW 0.83,cWW 0.67,cWW 1.00
+9,IL_4K31_002,4K31,0.3399,1,Isolated non-canonical cWW pair,C+B,RNA (23-mer),A,16,A,17,G,19,*,C,7,G,8,U,9,cWW 1.00,cWW 1.00,cWW 1.00
+10,IL_4K31_003,4K31,0.3546,1,Isolated non-canonical cWW pair,B+C,RNA (23-mer),A,16,A,17,G,19,*,C,7,G,8,U,9,cWW 1.00,cWW 1.00,cWW 1.00
+11,IL_6TFF_003,6TFF,0.337,1,,A,nadA RNA,C,34,A,35,C,37,*,G,23,G,24,G,25,cWW 1.00,cWW 1.00,cWW 1.00
+12,IL_7D7W_003,7D7W,0.4482,1,,A,18GAAA (52-MER),C,34,A,35,C,37,*,G,23,G,24,G,25,cWW 1.00,cWW 1.00,cWW 1.00
+13,IL_7D7V_003,7D7V,0.3735,1,,A,nadA RNA,C,41,A,42,U,44,*,G,22,G,23,G,24,cWW 1.00,cWW 1.00,cWW 0.83
+16,IL_5T3K_001,5T3K,0.0,1,Isolated non-canonical cWW pair,A+B,RNA (17-mer) + RNA (16-mer),G,7,A,8,G,10,*,C,26,A,27,C,28,cWW 0.83,cWW 0.67,cWW 1.00
+17,IL_3TD0_005,3TD0,0.1602,1,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,16,A,17,G,19,*,C,30,G,31,C,32,cWW 1.00,cWW 1.00,cWW 1.00
+18,IL_3TD0_002,3TD0,0.1982,1,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,39,A,40,G,42,*,C,7,G,8,C,9,cWW 1.00,cWW 1.00,cWW 1.00
+19,IL_7LYF_004,7LYF,0.3246,1,Isolated non-canonical cWW pair,A,tRNA,C,51,G,52,C,54,*,G,70,A,71,G,72,cWW 1.00,cWW 1.00,cWW 0.83
+20,IL_6WBR_001,6WBR,0.2311,0,Isolated non-canonical cWW pair,B,RNA (94-MER),G,26,G,27,A,28,*,U,41,A,42,C,43,cWW 0.83,? 0.00,cWW 1.00
+21,IL_5UNE_004,5UNE,0.3037,0,Isolated non-canonical cWW pair,B+A,RNA (47-MER),C,27,A,28,G,29,*,U,16,A,17,G,18,cWW 1.00,cWW 0.67,cWW 1.00
+22,IL_5ZTM_001,5ZTM,0.4387,0,Isolated non-canonical cWW pair,C,non-coding mRNA sequence roX2,C,162,C,163,G,164,*,U,118,A,119,G,120,cWW 0.83,cWW 1.00,cWW 0.83

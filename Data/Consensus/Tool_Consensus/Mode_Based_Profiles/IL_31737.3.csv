@@ -1,0 +1,11 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,2-4
+2,IL_3C3Z_002,3C3Z,0.5172,2,Decoding loop related,B+A,HIV-1 subtype F genomic RNA,C,15,A,16,C,17,*,G,7,G,10,cWW 1.00,cWW 0.83,nbp 1.00
+3,IL_8UO6_002,8UO6,0.5157,2,,B,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,C,41,G,42,C,43,*,G,60,G,63,cWW 1.00,cWW 1.00,nbp 1.00
+4,IL_2O3X_003,2O3X,0.2934,2,Decoding loop related,B+A,RNA (23-mer),C,30,A,31,C,32,*,G,16,G,19,cWW 1.00,cWW 1.00,nbp 1.00
+5,IL_4M6D_013,4M6D,0.4085,1,,H,aptamer,G,26,A,27,G,28,*,C,39,C,41,cWW 1.00,cWW 0.83,nbp 1.00
+6,IL_4M4O_004,4M4O,0.3623,1,,B,RNA (59-MER),G,26,A,27,G,28,*,C,39,C,41,cWW 0.83,cWW 0.83,nbp 0.83
+7,IL_7A0S_044,7A0S,0.2396,1,Intercalated cWW,X,LSU rRNA,G,1241,A,1242,G,1243,*,U,1232,C,1234,cWW 1.00,cWW 1.00,nbp 1.00
+8,IL_2ET8_001,2ET8,0.0,1,Stack and bulge,B+A,RNA (22-mer),G,41,U,42,C,43,*,G,4,C,6,cWW 1.00,cWW 1.00,nbp 1.00
+9,IL_2O3X_001,2O3X,0.1302,1,Stack and bulge,B+A,RNA (23-mer),G,42,U,43,C,44,*,G,5,C,7,cWW 0.83,cWW 1.00,nbp 1.00
+11,IL_4WF9_047,4WF9,0.3063,1,Intercalated cWW,X,LSU rRNA,G,1266,A,1267,C,1268,*,G,1257,U,1259,cWW 0.83,cWW 1.00,nbp 0.83
+12,IL_8VFS_003,8VFS,0.2677,1,,A+B,RNA (27-MER),C,14,C,15,G,16,*,C,14,G,16,cWW 0.83,cWW 1.00,nbp 1.00

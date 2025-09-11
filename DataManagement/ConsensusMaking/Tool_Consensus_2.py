@@ -69,13 +69,16 @@ class Tool_Consensus_2:
         competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")]
         if not competing_contact_types:
             return None
+        if 'REJECT' in competing_contact_types: # TODO why are there still rows with REJECT?
+            print("why is this here")
+            return 'INCOMPATIBLE'
 
         counts = Counter(competing_contact_types)
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
             mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df)
-        
+
         return mode
     
     @staticmethod
@@ -91,7 +94,7 @@ class Tool_Consensus_2:
             max_count = 0
             for checking_consensus_count in [True, False]:
                 for contact_type in top_contact_types:
-                    if contact_type == 'INCOMPATIBLE' or contact_type == 'REJECT':
+                    if 'INCOMPATIBLE' in contact_type or 'REJECT' in contact_type:
                         continue
                     rc, edge_based = Tool_Consensus_2._get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type)
                     counts = re.match(r"r(\d+)c(\d+)", rc)
@@ -129,8 +132,8 @@ class Tool_Consensus_2:
                     })
                     return mode
 
-        print("WARNING: unresolved tie")
-        print(f"{table_name} {column_name} {pdb} {top_contact_types} {rows_in_df}")
+        #print("WARNING: unresolved tie")
+        #print(f"{table_name} {column_name} {pdb} {top_contact_types} {rows_in_df}")
         
         return None
     

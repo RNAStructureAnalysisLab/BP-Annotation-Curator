@@ -7,5 +7,5 @@
 9,IL_4LFB_025,4LFB,0.1286,0,Major groove minor groove platform; mini C-loop,A,SSU rRNA,A,640,U,641,A,642,C,643,*,G,597,U,598,cWW,nbp,nbp,nbp,nbp,cWW,nbp,nbp
 10,IL_4PDB_002,4PDB,0.1116,0,Major groove minor groove platform; mini C-loop,I,SELEX RNA aptamer,A,24,U,25,A,26,U,27,*,A,14,U,15,cWW,nbp,nbp,nbp,nbp,cWW,nbp,nbp
 11,IL_1I6U_002,1I6U,0.1337,0,Major groove minor groove platform; mini C-loop,C,16S RRNA FRAGMENT,A,24,U,25,A,26,C,27,*,G,12,U,13,cWW,cSH,nbp,nbp,nbp,cWW,nbp,nbp
-13,IL_4WF9_126,4WF9,0.2524,0,Major groove minor groove platform; mini C-loop,Y,5S rRNA,G,49,A,50,A,51,G,52,*,C,28,C,29,cWW,nbp,nbp,nbp,cWS,cWW,nbp,nbp
-18,IL_4WF9_072,4WF9,0.3786,0,Major groove minor groove platform; mini C-loop,X,LSU rRNA,G,1873,A,1874,A,1875,G,1876,*,C,1920,C,1921,cWW,nbp,nbp,nbp,nbp,cWW,nbp,nbp
+13,IL_4WF9_126,4WF9,0.2524,0,Major groove minor groove platform; mini C-loop,Y,5S rRNA,G,49,A,50,A,51,G,52,*,C,28,C,29,cWW,nbp,nbp,nbp,INCOMPATIBLE,cWW,nbp,nbp
+18,IL_4WF9_072,4WF9,0.3786,0,Major groove minor groove platform; mini C-loop,X,LSU rRNA,G,1873,A,1874,A,1875,G,1876,*,C,1920,C,1921,cWW,INCOMPATIBLE,nbp,nbp,INCOMPATIBLE,cWW,nbp,nbp

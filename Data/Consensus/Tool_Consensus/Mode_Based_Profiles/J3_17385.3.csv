@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,break.1,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,1-12,3-4,5-10,6-9,6-11,7-8,9-11
+4,J3_4LFB_015,4LFB,0.0877,1,A,SSU rRNA,C,586,G,587,G,588,*,C,651,U,652,G,654,A,655,*,U,751,G,752,A,753,C,754,G,755,cWW 0.83,cWW 1.00,tWH 1.00,tHS 0.83,cWW 0.83,cWW 1.00,nbp 0.83
+6,J3_1KUQ_002,1KUQ,0.108,1,B,16S RIBOSOMAL RNA FRAGMENT,C,4,G,5,G,6,*,C,15,U,16,G,18,A,19,*,U,50,G,51,A,52,C,53,G,54,cWW 1.00,cWW 0.83,tWH 0.83,tHS 0.67,cWW 0.83,cWW 1.00,nbp 0.50
+7,J3_1G1X_005,1G1X,0.1433,1,D+E,16S RIBOSOMAL RNA,C,586,G,587,G,588,*,C,651,U,652,G,654,A,655,*,U,751,G,752,A,753,C,754,G,755,cWW 0.83,cWW 0.83,tWH 1.00,tHS 0.83,cWW 0.83,cWW 1.00,nbp 0.67

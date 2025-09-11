@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,break,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,Unnamed: 33,13,1-13,2-11,8-12,9-10
+1,IL_5CNR_004,5CNR,0.1458,0,Reverse kink-turn related,A+B,RNA (16-mer) + RNA (11-mer),C,5,U,6,A,7,C,8,C,9,C,10,A,11,C,12,C,13,*,G,38,A,39,G,40,G,41,cWW 1.00,tWH 1.00,cWW 0.83,cWW 1.00
+2,IL_4PHY_005,4PHY,0.0,0,Reverse kink-turn related,A+B,RNA (26-MER) + RNA (20-mer),C,5,U,6,C,7,C,8,C,9,C,10,A,11,C,12,C,13,*,G,38,A,39,G,40,G,41,cWW 1.00,tWH 0.83,cWW 0.83,cWW 1.00
+3,IL_4P97_005,4P97,0.6224,0,Reverse kink-turn related,A+B,RNA (16-mer) + RNA (11-mer),C,5,U,6,A,7,C,8,C,9,C,10,A,11,C,12,C,13,*,G,38,A,39,G,40,G,41,cWW 0.83,tWH 0.83,cWW 0.83,cWW 1.00

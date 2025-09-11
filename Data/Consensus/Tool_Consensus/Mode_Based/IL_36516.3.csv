@@ -4,4 +4,4 @@
 4,IL_7EL1_001,7EL1,0.0,0,,B,RNA (73-MER),A,42,A,43,U,44,C,45,U,46,*,A,29,C,30,U,31,cWW,cWW,INCOMPATIBLE,nbp,cWW,cWW,nbp,nbp,nbp,nbp
 5,IL_7ENI_001,7ENI,0.1029,0,,B,sgRNA (74-MER),A,42,A,43,U,44,C,45,U,46,*,A,29,C,30,U,31,cWW,nbp,INCOMPATIBLE,nbp,nbp,cWW,nbp,nbp,nbp,nbp
 6,IL_6DME_002,6DME,0.3615,0,8-nt loop receptor,A,ppGpp Riboswitch,G,15,G,16,A,17,U,18,C,19,*,G,37,A,38,C,39,cWW,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp
-7,IL_6CK5_002,6CK5,0.4077,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,42,A,43,C,44,cWW,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp
+7,IL_6CK5_002,6CK5,0.4077,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,42,A,43,C,44,cWW,cWW,nbp,INCOMPATIBLE,nbp,cWW,nbp,nbp,nbp,nbp
