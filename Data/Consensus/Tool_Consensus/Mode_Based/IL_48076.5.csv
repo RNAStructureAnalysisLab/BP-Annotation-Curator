@@ -22,5 +22,5 @@
 35,IL_3OXE_003,3OXE,0.2045,0,Major groove platform,A,domain II of glycine riboswitch,C,68,U,69,C,70,*,G,35,G,36,cWW,cSH,nbp,cWW,nbp
 36,IL_3NKB_002,3NKB,0.1395,0,Major groove platform,B,The hepatitis delta virus ribozyme,G,55,U,56,A,57,*,U,47,C,48,cWW,cSH,nbp,cWW,nbp
 37,IL_8TSV_001,8TSV,0.1313,0,Major groove platform,A+B,Zika virus stem-loop A (SLA) top stem,U,6,G,7,C,8,*,G,19,A,20,cWW,cSH,nbp,cWW,nbp
-38,IL_4LFB_024,4LFB,0.2031,0,Major groove platform,A,SSU rRNA,G,594,G,595,C,596,*,G,644,C,645,cWW,nbp,nbp,cWW,nbp
+38,IL_4LFB_024,4LFB,0.2031,0,Major groove platform,A,SSU rRNA,G,594,G,595,C,596,*,G,644,C,645,cWW,cSH,nbp,cWW,nbp
 42,IL_4WF9_026,4WF9,0.3379,0,Major groove platform,X,LSU rRNA,G,783,A,784,C,785,*,G,802,C,803,cWW,cSH,nbp,cWW,nbp

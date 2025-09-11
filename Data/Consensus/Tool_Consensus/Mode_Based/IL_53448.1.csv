@@ -9,4 +9,4 @@
 8,IL_5BTM_002,5BTM,0.0654,1,Receptor of 11-nt loop-receptor motif,A,RNA (55-mer),C,19,U,20,A,21,A,22,G,23,*,U,34,A,35,G,37,cWW,tWH,cSH,cWW
 9,IL_6DVK_001,6DVK,0.0984,1,Receptor of 11-nt loop-receptor motif,H,RNA (95-MER),C,85,U,86,A,87,A,88,G,89,*,U,6,A,7,G,9,cWW,tWH,cSH,cWW
 10,IL_2R8S_007,2R8S,0.085,1,Receptor of 11-nt loop-receptor motif,R,P4-P6 RNA RIBOZYME DOMAIN,C,223,U,224,A,225,A,226,G,227,*,U,247,A,248,G,250,cWW,tWH,cSH,cWW
-11,IL_1NBS_008,1NBS,0.1802,1,Receptor of 11-nt loop-receptor motif,B,RNase P class B,C,146,U,147,A,148,C,149,G,150,*,U,159,A,160,G,162,cWW,tWH,nbp,cWW
+11,IL_1NBS_008,1NBS,0.1802,1,Receptor of 11-nt loop-receptor motif,B,RNase P class B,C,146,U,147,A,148,C,149,G,150,*,U,159,A,160,G,162,cWW,tWH,cSH,cWW

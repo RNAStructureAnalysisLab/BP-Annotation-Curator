@@ -35,8 +35,8 @@
 54,IL_7L0Z_001,7L0Z,0.1559,0,Isolated non-canonical cWW pair,G,RNA (69-MER),G,10,U,11,G,12,*,C,58,U,59,C,60,cWW,cWW,cWW
 56,IL_2O3V_004,2O3V,0.139,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cWW,cWW
 57,IL_3TD0_001,3TD0,0.1428,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,42,U,43,C,44,*,G,5,U,6,C,7,cWW,cWW,cWW
-58,IL_4ZC7_001,4ZC7,0.1874,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,42,U,43,C,44,*,G,5,U,6,C,7,cWW,nbp,cWW
-61,IL_6SX2_001,6SX2,0.1965,0,Isolated non-canonical cWW pair,D+C,RNA (19-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,cWW,nbp,cWW
+58,IL_4ZC7_001,4ZC7,0.1874,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,42,U,43,C,44,*,G,5,U,6,C,7,cWW,cWW,cWW
+61,IL_6SX2_001,6SX2,0.1965,0,Isolated non-canonical cWW pair,D+C,RNA (19-mer),U,9,U,10,A,11,*,U,9,U,10,A,11,cWW,cWW,cWW
 62,IL_2O3X_004,2O3X,0.1959,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cWW,cWW
 67,IL_1ZX7_006,1ZX7,0.1655,0,Isolated non-canonical cWW pair,E+F,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW,cWW,cWW
 69,IL_1L9A_009,1L9A,0.271,0,Isolated non-canonical cWW pair,B,signal recognition particle RNA S domain,A,228,U,229,C,230,*,G,120,U,121,U,122,cWW,cWW,cWW

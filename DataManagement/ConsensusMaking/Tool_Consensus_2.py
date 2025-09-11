@@ -66,11 +66,11 @@ class Tool_Consensus_2:
     
     @staticmethod
     def _get_mode(cell, table_name, rc_dictionary, column_name, pdb):
-        items = [x for x in cell.split(",")]
-        if not items:
+        competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")]
+        if not competing_contact_types:
             return None
 
-        counts = Counter(items)
+        counts = Counter(competing_contact_types)
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
@@ -86,14 +86,14 @@ class Tool_Consensus_2:
         
     @staticmethod
     def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb):
-        mode = None
-        max_count = 0
         for combine_contact_types in [False, True]:
+            mode = None
+            max_count = 0
             for checking_consensus_count in [True, False]:
                 for contact_type in top_contact_types:
                     if contact_type == 'INCOMPATIBLE' or contact_type == 'REJECT':
                         continue
-                    rc = Tool_Consensus_2._get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type)
+                    rc, edge_based = Tool_Consensus_2._get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type)
                     counts = re.match(r"r(\d+)c(\d+)", rc)
                     if checking_consensus_count:
                         consensus_count = int(counts.group(2))
@@ -114,26 +114,57 @@ class Tool_Consensus_2:
                 if mode == None:
                     max_count = 0
                 else:
-                    if checking_consensus_count:
-                        case = "motif-wide consensus count"
+                    if checking_consensus_count and not edge_based:
+                        case = "contact type motif-wide consensus count"
+                    elif checking_consensus_count and edge_based:
+                        case = "edge-based motif-wide consensus count"
+                    elif not edge_based:
+                        case = "contact type report count"
                     else:
-                        case = "report count"
+                        case = "edge-based report count"
                     Tool_Consensus_2.tie_instances.append({
                         'cluster': table_name, 'PDB': pdb, 'column': column_name, 
-                        'tied_contact_types': top_contact_types, 'resolved_with': case
+                        'tied_contact_types': top_contact_types, 'consensus': mode,
+                        'resolved_with': case
                     })
                     return mode
 
         print("WARNING: unresolved tie")
+        print(f"{table_name} {column_name} {pdb} {top_contact_types}")
         
         return None
     
     @staticmethod
     def _get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type):
-        if not combine_contact_types or contact_type == 'nbp':
-            return rc_dictionary[table_name][column_name][contact_type]
+        if not combine_contact_types or 'nbp' in contact_type:
+            return (rc_dictionary[table_name][column_name][contact_type], False)
         else:
+            first_edge = contact_type[1]
+            second_edge = contact_type[2]
+            geometry = contact_type[0]
+            counts_by_first_edge = [0,0] # initialized to r0c0
+            counts_by_second_edge = [0,0] # initialized to r0c0
             for contact_type_key in rc_dictionary[table_name][column_name].keys():
-                counts_by_first_edge = (0,0)
-                counts_by_second_edge = (0,0)
-                if r""
+                first_edge_match = re.match(fr"{geometry}{first_edge}.", contact_type_key)
+                second_edge_match = re.match(fr"{geometry}.{second_edge}", contact_type_key)
+                if first_edge_match is not None:
+                    first_counts = re.match(r"r(\d+)c(\d+)", rc_dictionary[table_name][column_name][first_edge_match.group()])
+                    counts_by_first_edge[0] += int(first_counts.group(1))
+                    counts_by_first_edge[1] += int(first_counts.group(2))
+                if second_edge_match is not None:
+                    second_counts = re.match(r"r(\d+)c(\d+)", rc_dictionary[table_name][column_name][second_edge_match.group()])
+                    counts_by_second_edge[0] += int(second_counts.group(1))
+                    counts_by_second_edge[1] += int(second_counts.group(2))
+            # For now only return the one with the highest consensus count, but using the second one later could help resolve ties
+            if counts_by_first_edge[1] > counts_by_second_edge[1]: # TODO could be a slight bias towards second edge since it happens when equal or greater than
+                return (f"r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}", True)
+            return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
+        
+    @staticmethod
+    def _standardize(contact_type):
+        if contact_type.startswith('nc') or contact_type.startswith('nt'):
+            return contact_type[1] + contact_type[2:].upper()
+        elif contact_type.startswith('c') or contact_type.startswith('t'):
+            return contact_type[0] + contact_type[1:].upper()
+        else:
+            return contact_type

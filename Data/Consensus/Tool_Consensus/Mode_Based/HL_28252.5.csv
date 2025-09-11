@@ -87,7 +87,7 @@
 125,HL_1WZ2_008,1WZ2,0.1503,0,T-loop with 2 stacked bulged bases,D,tRNA,G,965,U,966,U,967,C,968,G,969,A,970,A,971,U,972,C,973,cWW,tWH,nbp
 126,HL_3AMU_003,3AMU,0.1721,0,T-loop with 2 stacked bulged bases,B,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,A,59,U,60,C,61,cWW,tWH,nbp
 127,HL_3AKZ_012,3AKZ,0.1859,0,T-loop with 2 stacked bulged bases,E,tRNAGln,G,53,U,54,U,55,C,56,G,57,A,58,G,59,U,60,C,61,cWW,tWH,nbp
-128,HL_8SP9_004,8SP9,0.1812,0,T-loop with 2 stacked bulged bases,C,"tRNA scaffold,CVB3 Cloverleaf RNA",G,130,U,131,U,132,C,133,A,134,A,135,G,136,U,137,C,138,cWW,nbp,nbp
+128,HL_8SP9_004,8SP9,0.1812,0,T-loop with 2 stacked bulged bases,C,"tRNA scaffold,CVB3 Cloverleaf RNA",G,130,U,131,U,132,C,133,A,134,A,135,G,136,U,137,C,138,cWW,tWH,nbp
 131,HL_3OVB_001,3OVB,0.1957,0,T-loop with 2 stacked bulged bases,C,RNA (35-MER),G,12,U,13,U,14,C,15,A,16,A,17,G,18,U,19,C,20,cWW,tWH,nbp
 132,HL_8K1E_002,8K1E,0.2166,0,T-loop with 2 stacked bulged bases,A,RNA (58-MER),G,39,U,40,U,41,C,42,G,43,A,44,G,45,U,46,C,47,cWW,tWH,nbp
 134,HL_1J2B_002,1J2B,0.2768,0,T-loop with 2 stacked bulged bases,C,tRNA(Val),G,954,U,955,U,956,C,957,A,958,A,959,G,960,U,961,C,962,cWW,tWH,nbp

@@ -1,7 +1,7 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,2-3,2-4
 1,HL_3IGI_009,3IGI,0.604,1,Other HL,A,Group IIC intron,C,368,G,369,A,371,C,372,G,373,cWW,nbp,tSW
-3,HL_6OL3_001,6OL3,0.586,2,Other HL,C,VA RNA,G,64,A,66,C,68,C,69,C,70,cWW,nbp,nbp
-4,HL_8VMB_001,8VMB,0.1362,2,Fab BL3-6 binding hairpin with tSW,R,RNA (83-MER),G,18,A,20,C,22,A,23,C,24,cWW,nbp,nbp
+3,HL_6OL3_001,6OL3,0.586,2,Other HL,C,VA RNA,G,64,A,66,C,68,C,69,C,70,cWW,tSW,nbp
+4,HL_8VMB_001,8VMB,0.1362,2,Fab BL3-6 binding hairpin with tSW,R,RNA (83-MER),G,18,A,20,C,22,A,23,C,24,cWW,nbp,tSW
 5,HL_8T29_001,8T29,0.129,2,Fab BL3-6 binding hairpin with tSW,R,RNA (90-MER),G,35,A,37,C,39,A,40,C,41,cWW,nbp,tSW
 6,HL_8DP3_001,8DP3,0.1171,2,Fab BL3-6 binding hairpin with tSW,R,RNA (90-MER),G,20,A,22,C,24,A,25,C,26,cWW,nbp,tSW
 7,HL_8VMA_003,8VMA,0.1616,2,Fab BL3-6 binding hairpin with tSW,C,RNA (88-MER),G,60,A,62,C,64,A,65,C,66,cWW,nbp,tSW

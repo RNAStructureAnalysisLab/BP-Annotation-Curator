@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,2-6
-1,HL_2DU3_001,2DU3,0.6584,4,D,tRNA,A,912,G,913,A,914,G,915,G,916,U,921,U,922,cWW,nbp
+1,HL_2DU3_001,2DU3,0.6584,4,D,tRNA,A,912,G,913,A,914,G,915,G,916,U,921,U,922,cWW,tSH
 2,HL_1U0B_001,1U0B,0.0,4,A,tRNA,A,12,A,13,A,14,G,15,C,16,A,22,U,23,cWW,tSH
 3,HL_1B23_001,1B23,0.1937,4,R,tRNA,A,12,A,13,A,14,G,15,C,16,A,22,U,23,cWW,tSH
