@@ -20,6 +20,7 @@ class Tool_Consensus_2:
     )
     
     tie_instances = []
+    unresolved_tie_instances = []
     
     # PUBLIC METHODS ----------------------------------------------------------
     
@@ -41,6 +42,10 @@ class Tool_Consensus_2:
         df = pd.DataFrame(Tool_Consensus_2.tie_instances)
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'tie_instances.csv'
+        ), index=False)
+        df = pd.DataFrame(Tool_Consensus_2.unresolved_tie_instances)
+        df.to_csv(os.path.join(
+            Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances.csv'
         ), index=False)
     
     # PRIVATE METHODS ---------------------------------------------------------
@@ -70,7 +75,7 @@ class Tool_Consensus_2:
         if not competing_contact_types:
             return None
         if 'REJECT' in competing_contact_types: # TODO why are there still rows with REJECT?
-            print("why is this here")
+            #print("why is this here")
             return 'INCOMPATIBLE'
 
         counts = Counter(competing_contact_types)
@@ -131,18 +136,23 @@ class Tool_Consensus_2:
                         'resolved_with': case, 'rows_in_cluster': rows_in_df
                     })
                     return mode
-
-        #print("WARNING: unresolved tie")
-        #print(f"{table_name} {column_name} {pdb} {top_contact_types} {rows_in_df}")
+                
+        Tool_Consensus_2.unresolved_tie_instances.append({
+            'cluster': table_name, 'PDB': pdb, 'column': column_name,
+            'tied_contact_types': top_contact_types, 'consensus': mode,
+            'rows_in_cluster': rows_in_df
+        })
         
-        return None
+        return "unresolved tie"
     
     @staticmethod
     def _get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type):
-        if not combine_contact_types or 'nbp' in contact_type:
-            #if combine_contact_types:#TODO remove
-                #input(f"{contact_type}\n{rc_dictionary[table_name][column_name][contact_type]}")
+        if not combine_contact_types and 'nbp' not in contact_type:
             return (rc_dictionary[table_name][column_name][contact_type], False)
+        if not combine_contact_types and 'nbp' in contact_type:
+            return (Tool_Consensus_2._get_most_frequent_nbp_subtype(rc_dictionary, table_name, column_name), False)
+        if 'nbp' in contact_type:
+            return (Tool_Consensus_2._get_most_frequent_nbp_subtype(rc_dictionary, table_name, column_name), True)
         else:
             first_edge = contact_type[1]
             second_edge = contact_type[2]
@@ -162,9 +172,7 @@ class Tool_Consensus_2:
                     counts_by_second_edge[1] += int(second_counts.group(2))
             # For now only return the one with the highest consensus count, but using the second one later could help resolve ties
             if counts_by_first_edge[1] > counts_by_second_edge[1]: # TODO could be a slight bias towards second edge since it happens when equal or greater than
-                #input(f"{contact_type}\nedge-by-edge r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}")    
                 return (f"r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}", True)
-            #input(f"{contact_type}\nedge-by-edge r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}")
             return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
         
     @staticmethod
@@ -175,3 +183,17 @@ class Tool_Consensus_2:
             return contact_type[0] + contact_type[1:].upper()
         else:
             return contact_type
+        
+    @staticmethod
+    def _get_most_frequent_nbp_subtype(rc_dictionary, table_name, column_name):
+        max_report_count = 0
+        max_motif_wide_consensus_count = 0
+        for contact_type_key, rc_counts in rc_dictionary[table_name][column_name].items():
+            if '!' not in contact_type_key: #disregard non nbp subtypes
+                continue
+            rc_counts = re.match(r"r(\d+)c(\d+)", rc_counts)
+            if int(rc_counts.group(1)) > max_report_count:
+                max_report_count = int(rc_counts.group(1))
+            if int(rc_counts.group(2)) > max_motif_wide_consensus_count:
+                max_motif_wide_consensus_count = int(rc_counts.group(2))
+        return f"r{max_report_count}c{max_motif_wide_consensus_count}"

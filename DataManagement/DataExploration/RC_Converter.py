@@ -5,6 +5,9 @@ import pandas as pd
 # class converts the contact types found in a residue pair column into its
 # absolute RC notation and stores as a json file for fast lookup
 
+# NOTE: the nbp subtypes have overlap. IE: a single nbp might be counted as both
+# !cWW and !tSH.
+
 class RC_Converter:
     # directory configuration
     extended_tables_directory = os.path.join(
@@ -45,7 +48,9 @@ class RC_Converter:
             for contact_type in [
                 'cWW', 'cWH', 'cWS', 'cSW', 'cSH', 'cSS', 'cHW', 'cHH', 'cHS',
                 'tWW', 'tWH', 'tWS', 'tSW', 'tSH', 'tSS', 'tHW', 'tHH', 'tHS',
-                'nbp', 'REJECT', 'INCOMPATIBLE'
+                '!cWW', '!cWH', '!cWS', '!cSW', '!cSH', '!cSS', '!cHW', '!cHH', '!cHS',
+                '!tWW', '!tWH', '!tWS', '!tSW', '!tSH', '!tSS', '!tHW', '!tHH', '!tHS',
+                'INCOMPATIBLE'
             ]:
                 absolute_rc_notation = f"r{rc.get(contact_type, 0)}c{cc.get(contact_type, 0)}"
                 
@@ -58,18 +63,20 @@ class RC_Converter:
         
     @staticmethod
     def _standardize(column_data: pd.Series) -> pd.Series:
-        def transform_segment(segment: str) -> str:
-            if segment.startswith("nc"):
-                return "c" + segment[2:].upper()
-            elif segment.startswith("c"):
-                return "c" + segment[1:].upper()
-            elif segment.startswith("nt"):
-                return "t" + segment[2:].upper()
-            elif segment.startswith("t"):
-                return "t" + segment[1:].upper()
-            return segment
+        def transform_contact_type(contact_type: str) -> str:
+            if contact_type.startswith('nc') or contact_type.startswith('nt'):
+                return contact_type[1] + contact_type[2:].upper()
+            elif contact_type.startswith('c') or contact_type.startswith('t'):
+                return contact_type[0] + contact_type[1:].upper()
+            else:
+                return contact_type
     
-        return column_data.apply(lambda lst: [transform_segment(s) for s in lst])
+        def transform_row(lst: list) -> str | list:
+            if any("REJECT" in c for c in lst):
+                return "INCOMPATIBLE"
+            return [transform_contact_type(c) for c in lst]
+    
+        return column_data.apply(transform_row)
     
     @staticmethod
     def _get_counts(column_data: pd.Series):
@@ -79,22 +86,46 @@ class RC_Converter:
             if not lst:  # skip empty lists
                 continue
     
-            # --- Raw frequency count ---
+            # Count frequencies inside the current list
+            nbp_local_count = 0
+            contact_type_local_counts = {}
             for elem in lst:
-                rf[elem] = rf.get(elem, 0) + 1
+                if elem == 'nbp':
+                    nbp_local_count += 1
+                else:
+                    contact_type_local_counts[elem] = contact_type_local_counts.get(elem, 0) + 1
+                    
+            # --- Raw frequency count ---
+            nbp_subtypes = []
+            for contact_type, local_count in contact_type_local_counts.items():
+                rf[contact_type] = rf.get(contact_type, 0) + local_count
+                if nbp_local_count > 0:
+                    nbp_subtype = f"!{contact_type}"
+                    rf[nbp_subtype] = rf.get(nbp_subtype, 0) + nbp_local_count
+                    nbp_subtypes.append(nbp_subtype)
+            # For rows with only nbp, add all subtypes since denying all
+            if len(nbp_subtypes) == 0 and nbp_local_count > 0:
+                for subtype in ['!cWW', '!cWH', '!cWS', '!cSW', '!cSH', '!cSS', '!cHW', '!cHH', '!cHS',
+                                '!tWW', '!tWH', '!tWS', '!tSW', '!tSH', '!tSS', '!tHW', '!tHH', '!tHS',]:
+                    nbp_subtypes.append(subtype)
+                    rf[subtype] = rf.get(subtype, 0) + nbp_local_count
     
             # --- Mode frequency count ---
-            # Count frequencies inside the current list
-            local_counts = {}
-            for elem in lst:
-                local_counts[elem] = local_counts.get(elem, 0) + 1
-    
             # Find mode(s) in this list
-            max_count = max(local_counts.values())
-            modes = [k for k, v in local_counts.items() if v == max_count]
+            modes = []
+            if len(contact_type_local_counts.values()) == 0:
+                max_count = 0
+            else:
+                max_count = max(contact_type_local_counts.values())
+            if nbp_local_count >= max_count:
+                max_count = nbp_local_count
+                modes = nbp_subtypes
+            for k, v in contact_type_local_counts.items():
+                if v == max_count:
+                    modes.append(k)
     
             # Increment cf for each mode
             for mode in modes:
                 cf[mode] = cf.get(mode, 0) + 1
     
-        return rf, cf
+        return rf, cf          
