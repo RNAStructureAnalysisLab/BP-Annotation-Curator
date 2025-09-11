@@ -35,7 +35,7 @@ class Tool_Consensus_2:
                 Tool_Consensus_2.extended_tables_directory, table_name    
             ))
             consensus_cluster_df = Tool_Consensus_2._get_consensus(
-                cluster_df, table_name, rc_dictionary
+                cluster_df, table_name, rc_dictionary, len(cluster_df)
             )
             Tool_Consensus_2._output_df(consensus_cluster_df, table_name)
         df = pd.DataFrame(Tool_Consensus_2.tie_instances)
@@ -50,14 +50,14 @@ class Tool_Consensus_2:
             return json.load(f)
     
     @staticmethod
-    def _get_consensus(cluster_df, table_name, rc_dictionary):
+    def _get_consensus(cluster_df, table_name, rc_dictionary, rows_in_df):
         consensus_df = cluster_df.copy()
         for column_name in cluster_df.columns[::-1]:
             if '-' not in column_name:
                 break
             consensus_df[column_name] = cluster_df.apply(
                 lambda row: Tool_Consensus_2._get_mode(
-                    row[column_name], table_name, rc_dictionary, column_name, row["PDB"]
+                    row[column_name], table_name, rc_dictionary, column_name, row["PDB"], rows_in_df
                 ),
                 axis=1
             )
@@ -65,7 +65,7 @@ class Tool_Consensus_2:
         return consensus_df
     
     @staticmethod
-    def _get_mode(cell, table_name, rc_dictionary, column_name, pdb):
+    def _get_mode(cell, table_name, rc_dictionary, column_name, pdb, rows_in_df):
         competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")]
         if not competing_contact_types:
             return None
@@ -74,7 +74,7 @@ class Tool_Consensus_2:
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
-            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb)
+            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df)
         
         return mode
     
@@ -85,7 +85,7 @@ class Tool_Consensus_2:
         )
         
     @staticmethod
-    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb):
+    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df):
         for combine_contact_types in [False, True]:
             mode = None
             max_count = 0
@@ -125,18 +125,20 @@ class Tool_Consensus_2:
                     Tool_Consensus_2.tie_instances.append({
                         'cluster': table_name, 'PDB': pdb, 'column': column_name, 
                         'tied_contact_types': top_contact_types, 'consensus': mode,
-                        'resolved_with': case
+                        'resolved_with': case, 'rows_in_cluster': rows_in_df
                     })
                     return mode
 
         print("WARNING: unresolved tie")
-        print(f"{table_name} {column_name} {pdb} {top_contact_types}")
+        print(f"{table_name} {column_name} {pdb} {top_contact_types} {rows_in_df}")
         
         return None
     
     @staticmethod
     def _get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type):
         if not combine_contact_types or 'nbp' in contact_type:
+            #if combine_contact_types:#TODO remove
+                #input(f"{contact_type}\n{rc_dictionary[table_name][column_name][contact_type]}")
             return (rc_dictionary[table_name][column_name][contact_type], False)
         else:
             first_edge = contact_type[1]
@@ -157,7 +159,9 @@ class Tool_Consensus_2:
                     counts_by_second_edge[1] += int(second_counts.group(2))
             # For now only return the one with the highest consensus count, but using the second one later could help resolve ties
             if counts_by_first_edge[1] > counts_by_second_edge[1]: # TODO could be a slight bias towards second edge since it happens when equal or greater than
+                #input(f"{contact_type}\nedge-by-edge r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}")    
                 return (f"r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}", True)
+            #input(f"{contact_type}\nedge-by-edge r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}")
             return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
         
     @staticmethod
