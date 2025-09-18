@@ -21,7 +21,7 @@ class RC_Converter:
     
     @staticmethod
     def run():
-        json_data = {}
+        json_data_with_all_tools, json_data_without_R3DMA, json_data_without_FR = {}, {}, {}
         for cluster_table_name in os.listdir(
             RC_Converter.extended_tables_directory
         ):
@@ -29,22 +29,35 @@ class RC_Converter:
                 RC_Converter.extended_tables_directory, cluster_table_name
             ))
             RC_Converter._parse_for_json(
-                cluster_table_name, cluster_df, json_data
+                cluster_table_name, cluster_df, json_data_with_all_tools, json_data_without_R3DMA, json_data_without_FR
             )
-        output_file = os.path.join(RC_Converter.output_directory, 'absolute_rc_notation.json')
-        with open(output_file, 'w') as f:
-            json.dump(json_data, f, indent=4)
+        with open(os.path.join(RC_Converter.output_directory, 'absolute_rc_notation.json'), 'w') as f:
+            json.dump(json_data_with_all_tools, f, indent=4)
+        with open(os.path.join(RC_Converter.output_directory, 'absolute_rc_notation_without_R3DMA.json'), 'w') as f:
+            json.dump(json_data_without_R3DMA, f, indent=4)
+        with open(os.path.join(RC_Converter.output_directory, 'absolute_rc_notation_without_FR.json'), 'w') as f:
+            json.dump(json_data_without_FR, f, indent=4)
     
     # PRIVATE METHODS ---------------------------------------------------------
     
     @staticmethod
-    def _parse_for_json(cluster_table_name, cluster_df, json_data):
+    def _parse_for_json(cluster_table_name, cluster_df, json_data_with_all_tools, json_data_without_R3DMA, json_data_without_FR):
         for residue_pair_column in cluster_df.columns[::-1]:
             if '-' not in residue_pair_column:
                 break
+            
             column_data = cluster_df[residue_pair_column].str.split(',')
+            column_data_without_R3DMA = column_data.str[1:]
+            column_data_without_FR = column_data.str[:2] + column_data.str[3:]
+            
             column_data = RC_Converter._standardize(column_data)
+            column_data_without_R3DMA = RC_Converter._standardize(column_data_without_R3DMA)
+            column_data_without_FR = RC_Converter._standardize(column_data_without_FR)
+            
             rc, cc = RC_Converter._get_counts(column_data)
+            rc_R3DMA, cc_R3DMA = RC_Converter._get_counts(column_data_without_R3DMA)
+            rc_FR, cc_FR = RC_Converter._get_counts(column_data_without_FR)
+            
             for contact_type in [
                 'cWW', 'cWH', 'cWS', 'cSW', 'cSH', 'cSS', 'cHW', 'cHH', 'cHS',
                 'tWW', 'tWH', 'tWS', 'tSW', 'tSH', 'tSS', 'tHW', 'tHH', 'tHS',
@@ -53,13 +66,26 @@ class RC_Converter:
                 'INCOMPATIBLE'
             ]:
                 absolute_rc_notation = f"r{rc.get(contact_type, 0)}c{cc.get(contact_type, 0)}"
+                absolute_rc_notation_R3DMA = f"r{rc_R3DMA.get(contact_type, 0)}c{cc_R3DMA.get(contact_type, 0)}"
+                absolute_rc_notation_FR = f"r{rc_FR.get(contact_type, 0)}c{cc_FR.get(contact_type, 0)}"
                 
-                if cluster_table_name not in json_data:
-                    json_data[cluster_table_name] = {}
-                if residue_pair_column not in json_data[cluster_table_name]:
-                    json_data[cluster_table_name][residue_pair_column] = {}
+                if cluster_table_name not in json_data_with_all_tools:
+                    json_data_with_all_tools[cluster_table_name] = {}
+                if residue_pair_column not in json_data_with_all_tools[cluster_table_name]:
+                    json_data_with_all_tools[cluster_table_name][residue_pair_column] = {}
+                json_data_with_all_tools[cluster_table_name][residue_pair_column][contact_type] = absolute_rc_notation
                 
-                json_data[cluster_table_name][residue_pair_column][contact_type] = absolute_rc_notation
+                if cluster_table_name not in json_data_without_R3DMA:
+                    json_data_without_R3DMA[cluster_table_name] = {}
+                if residue_pair_column not in json_data_without_R3DMA[cluster_table_name]:
+                    json_data_without_R3DMA[cluster_table_name][residue_pair_column] = {}
+                json_data_without_R3DMA[cluster_table_name][residue_pair_column][contact_type] = absolute_rc_notation_R3DMA
+                
+                if cluster_table_name not in json_data_without_FR:
+                    json_data_without_FR[cluster_table_name] = {}
+                if residue_pair_column not in json_data_without_FR[cluster_table_name]:
+                    json_data_without_FR[cluster_table_name][residue_pair_column] = {}
+                json_data_without_FR[cluster_table_name][residue_pair_column][contact_type] = absolute_rc_notation_FR
         
     @staticmethod
     def _standardize(column_data: pd.Series) -> pd.Series:

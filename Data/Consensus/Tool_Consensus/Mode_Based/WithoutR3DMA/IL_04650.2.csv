@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,break,Unnamed: 26,10,Unnamed: 28,11,1-2,1-11,9-10
+1,IL_7D81_001,7D81,0.1067,1,A,nadA RNA,A,7,A,8,C,9,A,10,C,12,C,13,C,14,C,15,G,16,*,C,43,U,44,cSH,cWW,cWW
+2,IL_7D7W_001,7D7W,0.0521,1,A,18GAAA (52-MER),A,7,A,8,C,9,A,10,C,12,C,13,C,14,C,15,G,16,*,C,45,U,46,cSH,cWW,cWW
+3,IL_6TFF_001,6TFF,0.0,1,A,nadA RNA,A,7,A,8,C,9,A,10,C,12,C,13,C,14,C,15,G,16,*,C,45,U,46,cSH,cWW,cWW
+4,IL_7D7V_001,7D7V,0.1061,1,A,nadA RNA,A,6,A,7,C,8,A,9,C,11,C,12,C,13,C,14,G,15,*,C,52,U,53,cSH,cWW,cWW

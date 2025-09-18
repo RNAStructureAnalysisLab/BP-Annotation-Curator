@@ -1,0 +1,13 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,1-9,2-8,3-7,4-5
+1,HL_8KEB_003,8KEB,0.2287,0,A,RNA (72-MER),A,47,C,48,C,49,A,50,C,51,A,52,A,53,A,54,U,55,cWW,nbp,INCOMPATIBLE,cSH
+2,HL_7KVT_002,7KVT,0.177,0,B,Squash RNA aptamer bound to DFHBI-1T with iridium (III) ions,G,55,C,56,C,57,U,58,U,59,A,60,A,61,A,62,C,63,cWW,nbp,INCOMPATIBLE,nbp
+3,HL_1Y27_003,1Y27,0.1063,0,X,Purine riboswitch,A,59,C,60,C,61,G,62,U,63,A,64,A,65,A,66,U,67,cWW,nbp,INCOMPATIBLE,cSH
+4,HL_4FEN_003,4FEN,0.0835,0,B,A24U/U25A/A46G mutant of the B. subtilis xpt-pbuX guanine riboswitch aptamer domain,A,59,C,60,C,61,G,62,U,63,A,64,A,65,A,66,U,67,cWW,nbp,INCOMPATIBLE,cSH
+5,HL_3LA5_003,3LA5,0.0807,0,A,Purine riboswitch,G,59,C,60,C,61,U,62,U,63,A,64,A,65,A,66,C,67,cWW,nbp,INCOMPATIBLE,nbp
+6,HL_5SWD_006,5SWD,0.0,0,B,Purine riboswitch,G,59,C,60,C,61,U,62,U,63,A,64,A,65,A,66,C,67,cWW,nbp,INCOMPATIBLE,cSH
+7,HL_4LX6_003,4LX6,0.0908,0,A,Purine riboswitch,G,59,C,60,C,61,U,62,U,63,A,64,A,65,A,66,C,67,cWW,nbp,cSW,nbp
+8,HL_1Y26_003,1Y26,0.1491,0,X,Purine riboswitch,G,59,C,60,C,61,U,62,U,63,A,64,A,65,A,66,C,67,cWW,nbp,INCOMPATIBLE,nbp
+9,HL_4XNR_003,4XNR,0.1351,0,X,Purine riboswitch,G,59,C,60,C,61,U,62,U,63,A,64,A,65,A,66,C,67,cWW,nbp,INCOMPATIBLE,nbp
+10,HL_3RKF_009,3RKF,0.2026,0,C,Guanine riboswitch,A,59,C,60,U,61,G,62,U,63,A,64,A,65,A,66,U,67,cWW,nbp,INCOMPATIBLE,cSH
+11,HL_5KPY_002,5KPY,0.1923,0,A,5-hydroxytryptophan RNA aptamer,A,59,C,60,C,61,G,62,U,63,A,64,A,65,A,66,U,67,cWW,nbp,INCOMPATIBLE,cSH
+12,HL_6MJ0_006,6MJ0,0.7356,0,B,tRNA-like 3' UTR element,U,12,C,13,U,14,U,15,U,16,A,17,A,18,A,19,A,20,cWW,cSW,cSH,nbp

@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,break,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,Unnamed: 34,14,Unnamed: 36,15,Unnamed: 38,16,Unnamed: 40,17,1-17,2-16,3-15,4-14,5-13,6-12,8-11,9-10,9-11
+1,IL_3BBM_002,3BBM,0.0519,3,B+C,Loop A and Loop B Ribozyme strand + Loop B S-turn strand,G,19,A,20,G,21,A,22,A,23,A,24,C,25,A,26,C,27,*,G,35,G,36,C,38,A,40,U,41,A,43,C,44,C,45,cWW,cWW,tSH,tHW,tHW,tWW,cWW,cWW,nbp
+2,IL_2P7E_001,2P7E,0.0,3,C+D,Ribozyme strand II + Ribozyme strand III,G,19,A,20,G,21,A,22,A,23,A,24,C,25,A,26,C,27,*,G,35,G,36,A,38,A,40,U,41,A,43,C,44,C,45,cWW,cWW,tSH,tHW,tHW,nbp,cWW,cWW,nbp
+3,IL_3GS5_002,3GS5,0.0639,3,C,RNA (36-MER),G,31,A,32,G,33,A,34,A,35,A,36,C,37,A,38,C,39,*,G,48,G,49,A,51,A,53,U,54,A,56,C,57,C,58,cWW,cWW,tSH,tHW,tHW,tWH,cWW,cWW,nbp
+4,IL_1M5K_003,1M5K,0.0991,3,B,RNA HAIRPIN RIBOZYME,G,19,A,20,G,21,A,22,A,23,A,24,C,25,A,26,C,27,*,G,54,G,55,A,57,A,59,U,60,A,62,C,63,C,64,cWW,cWW,tSH,tHW,tHW,INCOMPATIBLE,cWW,cWW,nbp

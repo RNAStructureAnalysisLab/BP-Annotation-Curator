@@ -1,0 +1,8 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,break,Unnamed: 22,8,Unnamed: 24,9,1-9,7-8
+1,IL_7JRT_004,7JRT,0.1492,0,A,RNA nano bracelet,G,91,A,92,A,93,C,94,U,95,A,96,C,97,*,G,117,C,118,cWW,cWW
+2,IL_7JRT_006,7JRT,0.1047,0,B,RNA nano bracelet,G,24,A,25,A,26,C,27,U,28,A,29,C,30,*,G,50,C,51,cWW,cWW
+3,IL_7JRT_002,7JRT,0.0,0,A,RNA nano bracelet,G,24,A,25,A,26,C,27,U,28,A,29,C,30,*,G,50,C,51,cWW,cWW
+4,IL_3P59_001,3P59,0.1221,0,A+B,RNA (15-mer) + RNA (10-mer),G,52,A,53,A,54,C,55,U,56,A,57,C,58,*,G,110,C,111,cWW,cWW
+5,IL_7JRT_008,7JRT,0.3686,0,B,RNA nano bracelet,G,91,A,92,A,93,C,94,U,95,A,96,C,97,*,G,117,C,118,cWW,cWW
+6,IL_2PN3_002,2PN3,0.6375,0,A+B,RNA (24-mer) + RNA (20-mer),G,52,A,53,A,54,C,55,U,56,A,57,C,58,*,G,110,C,111,cWW,cWW
+7,IL_6DVK_003,6DVK,0.9215,0,H,RNA (95-MER),G,28,A,29,A,30,C,31,U,32,A,33,C,34,*,G,61,C,62,cWW,cWW

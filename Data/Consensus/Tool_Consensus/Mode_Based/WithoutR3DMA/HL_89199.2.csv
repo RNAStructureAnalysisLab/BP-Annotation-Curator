@@ -1,0 +1,6 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5
+1,HL_5DH6_001,5DH6,0.0839,1,Mini UNCG,A,hammerhead ribozyme,C,16,G,18,A,19,U,20,G,21,cWW
+2,HL_2QUW_002,2QUW,0.0,1,Mini UNCG,B,"Hammerhead ribozyme, cleaved fragment",C,32,G,34,A,35,U,36,G,37,cWW
+3,HL_2QUS_002,2QUS,0.0719,1,Mini UNCG,A,Hammerhead ribozyme,C,32,G,34,A,35,U,36,G,37,cWW
+4,HL_2OEU_001,2OEU,0.1833,1,Mini UNCG,A,Hammerhead Ribozyme,C,15,G,17,A,18,U,19,G,20,cWW
+5,HL_8SYK_001,8SYK,0.5598,1,,A,RNA device 43 truncation mutant 3 (U100C),C,22,G,24,A,25,U,26,G,27,cWW

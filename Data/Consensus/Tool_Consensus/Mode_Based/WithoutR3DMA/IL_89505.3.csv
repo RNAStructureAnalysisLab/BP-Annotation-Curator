@@ -1,0 +1,70 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-3,1-5,3-4,1-4
+1,IL_7A0S_079,7A0S,1.381,0,Single bulged U,X,LSU rRNA,U,2197,U,2198,C,2199,*,G,2186,A,2187,nbp,cWW,cWW,nbp
+2,IL_1S03_001,1S03,1.1764,0,Single bulged U,A,47-MER,A,6,U,7,G,8,*,C,41,U,42,nbp,cWW,cWW,nbp
+3,IL_1S03_005,1S03,1.1859,0,Single bulged U,B,47-MER,A,6,U,7,G,8,*,C,41,U,42,nbp,cWW,cWW,nbp
+4,IL_4C7O_001,4C7O,0.8817,0,Single bulged U,E,SRP RNA,G,38,U,39,A,40,*,U,7,C,8,nbp,cWW,cWW,nbp
+5,IL_4KZD_001,4KZD,1.0116,0,Single bulged U,R,RNA (84-MER),C,74,U,75,G,76,*,C,10,G,11,nbp,cWW,cWW,nbp
+7,IL_1GID_012,1GID,0.9939,0,Single bulged U,B,P4-P6 RNA RIBOZYME DOMAIN,G,129,U,130,U,131,*,A,192,C,193,nbp,cWW,cWW,nbp
+8,IL_4WF9_088,4WF9,0.9054,0,Single bulged U,X,LSU rRNA,U,2428,U,2429,C,2430,*,G,2441,G,2442,nbp,cWW,cWW,nbp
+9,IL_3KTW_010,3KTW,0.8962,0,Single bulged U,C,SRP RNA,U,178,U,179,C,180,*,G,152,G,153,nbp,cWW,cWW,nbp
+13,IL_7KKV_001,7KKV,0.6612,0,Single bulged U,B,OLE* RNA,U,497,U,498,U,499,*,A,506,G,507,nbp,cWW,cWW,nbp
+14,IL_2R8S_004,2R8S,0.5939,0,Single bulged U,R,P4-P6 RNA RIBOZYME DOMAIN,G,129,U,130,U,131,*,A,192,C,193,nbp,cWW,cWW,nbp
+15,IL_4O26_001,4O26,0.5848,0,Single bulged U,E,Telomerase TR,G,181,U,182,C,183,*,G,193,C,194,nbp,cWW,cWW,nbp
+16,IL_2A64_003,2A64,0.5775,0,Single bulged U,A,ribonuclease P RNA,G,66,U,67,G,68,*,C,77,C,78,nbp,cWW,cWW,nbp
+17,IL_6JQ6_006,6JQ6,0.5746,0,Single bulged U,U,RNA (81-MER),A,38,U,39,C,40,*,G,55,U,56,nbp,cWW,cWW,nbp
+18,IL_6JQ5_003,6JQ5,0.5555,0,Single bulged U,A,RNA (82-MER),A,38,U,39,C,40,*,G,55,U,56,nbp,cWW,cWW,nbp
+19,IL_6JQ5_006,6JQ5,0.5631,0,Single bulged U,B,RNA (82-MER),A,38,U,39,C,40,*,G,55,U,56,nbp,cWW,cWW,nbp
+21,IL_3TZR_002,3TZR,0.5038,0,Single bulged U,B+A,RNA (16-mer),G,105,U,106,G,107,*,U,61,C,62,nbp,cWW,cWW,nbp
+27,IL_6MWN_006,6MWN,0.6714,0,Single bulged U,B,IRES,U,659,U,660,C,661,*,G,646,A,647,nbp,cWW,cWW,nbp
+28,IL_4WF9_030,4WF9,0.726,0,Single bulged U,X,LSU rRNA,A,969,U,970,U,971,*,A,897,U,898,nbp,cWW,cWW,nbp
+29,IL_2ZY6_002,2ZY6,0.8442,0,Single bulged U,A,phenylalanyl transfer RNA,G,10,U,11,G,12,*,C,24,C,25,nbp,cWW,cWW,nbp
+30,IL_8TQX_002,8TQX,0.7891,0,Single bulged U,A+D,Zika virus stem-loop A (SLA) bottom stem,G,14,U,15,A,16,*,U,4,C,5,nbp,cWW,cWW,nbp
+31,IL_2UWM_003,2UWM,0.8209,0,Single bulged U,D,RNA (23-mer),C,25,U,26,G,27,*,C,21,G,22,nbp,cWW,cWW,nbp
+33,IL_6M0X_002,6M0X,0.7559,0,Single bulged U,B,RNA (71-MER),A,59,U,60,G,61,*,C,55,U,56,nbp,cWW,cWW,nbp
+34,IL_6JDV_003,6JDV,0.8397,0,Single bulged U,B,sgRNA,G,95,U,96,G,97,*,C,81,C,82,nbp,cWW,cWW,nbp
+35,IL_6UFG_004,6UFG,0.5625,0,Single bulged U,A,RNA (166-MER),U,138,U,139,C,140,*,G,153,G,154,nbp,cWW,cWW,nbp
+36,IL_6UFH_004,6UFH,0.4692,0,Single bulged U,A,RNA (167-MER),U,139,U,140,C,141,*,G,154,G,155,nbp,cWW,cWW,nbp
+37,IL_2A64_002,2A64,0.3942,0,Single bulged U,A,ribonuclease P RNA,G,51,U,52,C,53,*,G,395,C,396,nbp,cWW,cWW,nbp
+38,IL_6LT7_001,6LT7,0.333,0,Single bulged U,C,50-mer RNA,G,46,U,47,U,48,*,A,41,C,42,nbp,cWW,cWW,nbp
+40,IL_8TQX_001,8TQX,0.484,0,Single bulged U,D+A,Zika virus stem-loop A (SLA) bottom stem,G,14,U,15,A,16,*,U,4,C,5,nbp,cWW,cWW,nbp
+44,IL_3WBM_001,3WBM,0.5151,0,Single bulged U,X+Y,RNA (25-MER),G,2,U,3,A,4,*,U,23,C,24,nbp,cWW,cWW,nbp
+45,IL_7KVT_002,7KVT,0.3635,0,Single bulged U,B,Squash RNA aptamer bound to DFHBI-1T with iridium (III) ions,G,50,U,51,A,52,*,U,66,C,67,nbp,cWW,cWW,nbp
+46,IL_3NDB_005,3NDB,0.558,0,Single bulged U,M,SRP RNA,C,139,U,140,C,141,*,G,237,G,238,nbp,cWW,cWW,nbp
+49,IL_8F5G_001,8F5G,0.4718,0,Single bulged U,D,RNA,A,5,U,6,C,7,*,G,21,U,22,nbp,cWW,cWW,nbp
+50,IL_4FRG_002,4FRG,0.5025,0,Single bulged U,B,cobalamin riboswitch aptamer domain,G,23,U,24,G,25,*,C,39,C,40,nbp,cWW,cWW,nbp
+54,IL_7A0S_075,7A0S,0.4039,0,Single bulged U,X,LSU rRNA,G,2050,U,2051,G,2052,*,C,2421,C,2422,nbp,cWW,cWW,nbp
+55,IL_4WF9_080,4WF9,0.4172,0,Single bulged U,X,LSU rRNA,G,2094,U,2095,G,2096,*,C,2469,C,2470,nbp,cWW,cWW,nbp
+59,IL_2PJP_001,2PJP,0.4747,0,Single bulged U,B,SECIS RNA,G,16,U,17,U,18,*,A,29,C,30,nbp,cWW,cWW,nbp
+60,IL_2OIU_003,2OIU,0.4506,0,Single bulged U,Q,L1 Ribozyme RNA Ligase,G,18,U,19,U,20,*,A,41,C,42,nbp,cWW,cWW,nbp
+63,IL_3D2V_001,3D2V,0.4008,0,Single bulged U,A,TPP riboswitch (THI element),G,73,U,74,G,75,*,C,5,C,6,nbp,cWW,cWW,nbp
+64,IL_4LFB_014,4LFB,0.3922,0,Single bulged U,A,SSU rRNA,U,367,U,368,C,369,*,G,392,A,393,nbp,cWW,cWW,nbp
+67,IL_7PMM_002,7PMM,0.6925,0,Single bulged U,D,RNA (45mer) containing HP92 of the 23S rRNA,A,15,U,16,A,17,*,U,31,U,32,nbp,cWW,cWW,nbp
+68,IL_7PMQ_002,7PMQ,0.545,0,Single bulged U,F,RNA (42-MER),A,24,U,25,A,26,*,U,40,U,41,nbp,cWW,cWW,nbp
+70,IL_4LFB_042,4LFB,0.5109,0,Single bulged U,A,SSU rRNA,G,1048,U,1049,G,1050,*,C,1208,C,1209,nbp,cWW,cWW,nbp
+74,IL_3MEI_001,3MEI,0.3871,0,Single bulged U,B+A,RNA (23-mer),C,15,U,16,G,17,*,C,7,G,8,nbp,cWW,cWW,nbp
+75,IL_7VTI_004,7VTI,0.3909,0,Single bulged U,B,crRNA,G,21,U,22,G,23,*,C,14,C,15,nbp,cWW,cWW,nbp
+78,IL_2PN3_003,2PN3,0.4951,0,Single bulged U,B+A,RNA (20-mer),G,105,U,106,G,107,*,U,61,C,62,nbp,cWW,cWW,nbp
+81,IL_4LFB_046,4LFB,0.4988,0,Single bulged U,A,SSU rRNA,C,1195,U,1196,G,1197,*,C,1060,G,1061,nbp,cWW,cWW,nbp
+88,IL_8VMA_002,8VMA,0.7185,0,Single bulged U,C,RNA (88-MER),G,40,U,41,G,42,*,C,36,C,37,nbp,cWW,cWW,nbp
+89,IL_8VMB_001,8VMB,0.5664,0,Single bulged U,R,RNA (83-MER),G,40,U,41,G,42,*,C,36,C,37,nbp,cWW,cWW,nbp
+90,IL_4WF9_038,4WF9,0.4744,0,Single bulged U,X,LSU rRNA,A,1055,U,1056,A,1057,*,U,1193,U,1194,nbp,cWW,cWW,nbp
+96,IL_7A0S_035,7A0S,0.6025,0,Single bulged U,X,LSU rRNA,A,1022,U,1023,G,1024,*,C,1160,U,1161,nbp,cWW,cWW,nbp
+97,IL_3SNP_004,3SNP,0.6199,0,Single bulged U,D,ferritin H IRE RNA,G,18,U,19,U,20,*,A,13,C,14,nbp,cWW,cWW,nbp
+98,IL_8KAL_003,8KAL,0.7233,0,Single bulged U,A,RNA (98-MER),G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+99,IL_8KAJ_003,8KAJ,0.7723,0,,I,RNA (65-MER),G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+100,IL_5VW1_002,5VW1,0.7506,0,Single bulged U,C,sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+101,IL_4ZT0_004,4ZT0,0.7292,0,Single bulged U,D,single-guide RNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+102,IL_7QR8_002,7QR8,0.7298,0,Single bulged U,A,PTPRC sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+103,IL_7Z4D_002,7Z4D,0.7293,0,Single bulged U,A,sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+104,IL_7QQP_002,7QQP,0.7283,0,Single bulged U,A,AAVS1 sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+105,IL_7ZO1_002,7ZO1,0.7464,0,Single bulged U,A,CD34 sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+106,IL_7QQX_002,7QQX,0.7309,0,Single bulged U,A,FANCF sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+107,IL_7QR0_002,7QR0,0.7352,0,Single bulged U,A,TRAC sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+108,IL_5B2T_002,5B2T,0.7338,0,Single bulged U,A,Guide RNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+109,IL_5FQ5_002,5FQ5,0.7275,0,Single bulged U,A,SGRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+110,IL_6K4Q_002,6K4Q,0.7509,0,,A,sgRNA,G,58,U,59,C,60,*,G,54,C,55,nbp,cWW,cWW,nbp
+111,IL_5F9R_003,5F9R,0.7944,0,Single bulged U,A,RNA (116-MER),G,76,U,77,C,78,*,G,72,C,73,nbp,cWW,cWW,nbp
+120,IL_1ET4_002,1ET4,1.0128,0,Major groove intercalation,A,"RNA APTAMER, 35-MER",G,226,U,227,G,228,*,C,218,C,219,nbp,cWW,cWW,nbp
+121,IL_5LYS_008,5LYS,1.2329,0,Single bulged U,B,7SK RNA,C,62,U,63,G,64,*,C,45,G,46,nbp,cWW,cWW,nbp
+122,IL_3MXH_003,3MXH,1.4576,0,Major groove intercalation,R,c-di-GMP riboswitch,C,52,U,53,C,54,*,G,86,G,87,nbp,cWW,cWW,nbp
+123,IL_3IWN_003,3IWN,1.4555,0,Major groove intercalation,A,C-di-GMP riboswitch,C,42,U,43,C,44,*,G,81,G,82,nbp,cWW,cWW,nbp

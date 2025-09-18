@@ -12,6 +12,12 @@ class Tool_Consensus_2:
     rc_json_path = os.path.join(
         'Data', 'ExplorationFindings', 'absolute_rc_notation.json'
     )
+    rc_R3DMA_json_path = os.path.join(
+        'Data', 'ExplorationFindings', 'absolute_rc_notation_without_R3DMA.json'
+    )
+    rc_FR_json_path = os.path.join(
+        'Data', 'ExplorationFindings', 'absolute_rc_notation_without_FR.json'
+    )
     consensus_directory = os.path.join(
         'Data', 'Consensus', 'Tool_Consensus'
     )
@@ -19,50 +25,88 @@ class Tool_Consensus_2:
         consensus_directory, 'Mode_Based'
     )
     
-    tie_instances = []
-    unresolved_tie_instances = []
-    
     # PUBLIC METHODS ----------------------------------------------------------
     
     @staticmethod
     def run():
+        tie_instances = []
+        unresolved_tie_instances = []
+        
+        tie_instances_without_R3DMA = []
+        unresolved_tie_instances_without_R3DMA = []
+        
+        tie_instances_without_FR = []
+        unresolved_tie_instances_without_FR = []
+        
         if os.path.exists(Tool_Consensus_2.mode_consensus_directory):
             shutil.rmtree(Tool_Consensus_2.mode_consensus_directory)
         os.makedirs(Tool_Consensus_2.mode_consensus_directory)
+        os.makedirs(os.path.join(Tool_Consensus_2.mode_consensus_directory, 'AllTools'))
+        os.makedirs(os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutR3DMA'))
+        os.makedirs(os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutFR'))
         
-        rc_dictionary = Tool_Consensus_2._load_rc_notation()
+        rc_dictionary = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_json_path)
+        rc_dictionary_R3DMA = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_R3DMA_json_path)
+        rc_dictionary_FR = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_FR_json_path)
+        
         for table_name in os.listdir(Tool_Consensus_2.extended_tables_directory):
             cluster_df = pd.read_csv(os.path.join(
                 Tool_Consensus_2.extended_tables_directory, table_name    
             ))
+            
             consensus_cluster_df = Tool_Consensus_2._get_consensus(
-                cluster_df, table_name, rc_dictionary, len(cluster_df)
+                cluster_df, table_name, rc_dictionary, len(cluster_df), tie_instances, unresolved_tie_instances
             )
-            Tool_Consensus_2._output_df(consensus_cluster_df, table_name)
-        df = pd.DataFrame(Tool_Consensus_2.tie_instances)
+            consensus_cluster_R3DMA_df = Tool_Consensus_2._get_consensus(
+                cluster_df, table_name, rc_dictionary_R3DMA, len(cluster_df), tie_instances_without_R3DMA, unresolved_tie_instances_without_R3DMA
+            )
+            consensus_cluster_FR_df = Tool_Consensus_2._get_consensus(
+                cluster_df, table_name, rc_dictionary_FR, len(cluster_df), tie_instances_without_FR, unresolved_tie_instances_without_FR
+            )
+            
+            Tool_Consensus_2._output_df(consensus_cluster_df, consensus_cluster_R3DMA_df, consensus_cluster_FR_df, table_name)
+        df = pd.DataFrame(tie_instances)
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'tie_instances.csv'
         ), index=False)
-        df = pd.DataFrame(Tool_Consensus_2.unresolved_tie_instances)
+        df = pd.DataFrame(unresolved_tie_instances)
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances.csv'
+        ), index=False)
+        
+        df = pd.DataFrame(tie_instances_without_R3DMA)
+        df.to_csv(os.path.join(
+            Tool_Consensus_2.consensus_directory, 'tie_instances_without_R3DMA.csv'
+        ), index=False)
+        df = pd.DataFrame(unresolved_tie_instances_without_R3DMA)
+        df.to_csv(os.path.join(
+            Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances_without_R3DMA.csv'
+        ), index=False)
+        
+        df = pd.DataFrame(tie_instances_without_FR)
+        df.to_csv(os.path.join(
+            Tool_Consensus_2.consensus_directory, 'tie_instances_without_FR.csv'
+        ), index=False)
+        df = pd.DataFrame(unresolved_tie_instances_without_FR)
+        df.to_csv(os.path.join(
+            Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances_without_FR.csv'
         ), index=False)
     
     # PRIVATE METHODS ---------------------------------------------------------
     @staticmethod
-    def _load_rc_notation():
-        with open(Tool_Consensus_2.rc_json_path, 'r') as f:
+    def _load_rc_notation(path):
+        with open(path, 'r') as f:
             return json.load(f)
     
     @staticmethod
-    def _get_consensus(cluster_df, table_name, rc_dictionary, rows_in_df):
+    def _get_consensus(cluster_df, table_name, rc_dictionary, rows_in_df, tie_instances, unresolved_tie_instances):
         consensus_df = cluster_df.copy()
         for column_name in cluster_df.columns[::-1]:
             if '-' not in column_name:
                 break
             consensus_df[column_name] = cluster_df.apply(
                 lambda row: Tool_Consensus_2._get_mode(
-                    row[column_name], table_name, rc_dictionary, column_name, row["PDB"], rows_in_df
+                    row[column_name], table_name, rc_dictionary, column_name, row["PDB"], rows_in_df, tie_instances, unresolved_tie_instances
                 ),
                 axis=1
             )
@@ -70,7 +114,7 @@ class Tool_Consensus_2:
         return consensus_df
     
     @staticmethod
-    def _get_mode(cell, table_name, rc_dictionary, column_name, pdb, rows_in_df):
+    def _get_mode(cell, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances):
         competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")]
         if not competing_contact_types:
             return None
@@ -82,18 +126,24 @@ class Tool_Consensus_2:
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
-            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df)
+            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances)
 
         return mode
     
     @staticmethod
-    def _output_df(consensus_cluster_df, table_name):
+    def _output_df(consensus_cluster_df, consensus_cluster_R3DMA_df, consensus_cluster_FR_df, table_name):
         consensus_cluster_df.to_csv(
-            os.path.join(Tool_Consensus_2.mode_consensus_directory, table_name), index=False
+            os.path.join(Tool_Consensus_2.mode_consensus_directory, 'AllTools', table_name), index=False
+        )
+        consensus_cluster_R3DMA_df.to_csv(
+            os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutR3DMA', table_name), index=False
+        )
+        consensus_cluster_FR_df.to_csv(
+            os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutFR', table_name), index=False
         )
         
     @staticmethod
-    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df):
+    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances):
         for combine_contact_types in [False, True]:
             mode = None
             max_count = 0
@@ -130,14 +180,30 @@ class Tool_Consensus_2:
                         case = "contact type report count"
                     else:
                         case = "edge-based report count"
-                    Tool_Consensus_2.tie_instances.append({
+                    tie_instances.append({
                         'cluster': table_name, 'PDB': pdb, 'column': column_name, 
                         'tied_contact_types': top_contact_types, 'consensus': mode,
                         'resolved_with': case, 'rows_in_cluster': rows_in_df
                     })
                     return mode
+             
+        # all cases failed, let's check whether the tie is only between nbp and something else
+        non_nbp_count = 0
+        non_nbp_contact_type = None
+        for tied_contact_type in top_contact_types:
+            if tied_contact_type != "nbp":
+                non_nbp_count += 1
+                non_nbp_contact_type = tied_contact_type
+        if non_nbp_count < 2:
+            tie_instances.append({
+                'cluster': table_name, 'PDB': pdb, 'column': column_name,
+                'tied_contact_types': top_contact_types, 'consensus': non_nbp_contact_type,
+                'resolved_with': "prioritized non-nbp", 'rows_in_cluster': rows_in_df
+            })
+            return non_nbp_contact_type
                 
-        Tool_Consensus_2.unresolved_tie_instances.append({
+                
+        unresolved_tie_instances.append({
             'cluster': table_name, 'PDB': pdb, 'column': column_name,
             'tied_contact_types': top_contact_types, 'consensus': mode,
             'rows_in_cluster': rows_in_df

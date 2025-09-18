@@ -1,0 +1,8 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,1-6,3-4
+1,HL_4RUM_001,4RUM,0.6395,1,A,NiCo riboswitch RNA,C,27,A,28,G,29,G,31,C,32,G,33,cWW,nbp
+3,HL_8UO6_006,8UO6,0.0,0,B,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,C,49,A,50,A,51,U,52,G,53,G,54,cWW,nbp
+4,HL_6U8D_001,6U8D,0.2853,0,A,JIIIabc RNA (68-MER),G,161,A,162,G,163,U,164,A,165,C,166,cWW,nbp
+5,HL_4XWF_001,4XWF,0.3376,0,A,ZMP/ZTP riboswitch,G,24,G,25,A,26,A,27,A,28,C,29,cWW,nbp
+6,HL_8UO6_002,8UO6,0.5197,0,A,HIV-1 Rev Response Element Stem-Loop II with tRNA scaffold,C,49,A,50,A,51,U,52,G,53,G,54,cWW,nbp
+7,HL_2QUS_003,2QUS,0.6545,0,A,Hammerhead ribozyme,C,42,G,43,U,44,G,45,A,46,G,47,cWW,nbp
+8,HL_2QUW_003,2QUW,0.6543,0,B,"Hammerhead ribozyme, cleaved fragment",C,42,G,43,U,44,G,45,A,46,G,47,cWW,nbp
