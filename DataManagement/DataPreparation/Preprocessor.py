@@ -108,6 +108,10 @@ class Preprocessor:
                     residue_pair, description
                 )
                 
+                #TODO Remove this, this is debugging
+                if is_clarna and 'nbp' in new_description:
+                    print(f"okay here you go: {new_description} {description}")
+                
                 # Add to rejected annotations
                 if new_description == 'REJECT':
                     if residue_pair in rejected_annotations:

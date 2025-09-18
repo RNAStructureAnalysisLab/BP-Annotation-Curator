@@ -22,6 +22,7 @@ from DataManagement.DataExploration.Catalogue import Catalogue
 from DataManagement.DataExploration.RC_Converter import RC_Converter
 from DataManagement.ConsensusMaking.Tool_Consensus_2 import Tool_Consensus_2
 from DataManagement.DataExploration.Rejected_Types_Finder import Rejected_Types_Finder
+from DataManagement.ResultsMaking.Tool_Benchmarker import Tool_Benchmarker
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -248,7 +249,9 @@ if 12 >= starting_step_number:
     RC_Converter.run()
     Tool_Consensus_2.run()
     Rejected_Types_Finder.run()
-    
+if 13 >= starting_step_number:
+    print('Beginning STEP 13:\n')
+    Tool_Benchmarker.run()
     
 # TODO: verify that pdb 8CRE is getting processed when we run the entire
 # project again from the beginning. Originally is a PDBx file.
