@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4
-3,IL_7LYF_002,7LYF,0.207,0,Isolated non-canonical cWW pair,A,tRNA,C,84,A,85,A,86,*,U,46,G,47,G,48,cWW,cWW,cWW
-8,IL_5UNE_001,5UNE,0.1912,0,Isolated non-canonical cWW contact,B+A,RNA (47-MER),U,39,G,40,G,41,*,U,7,G,8,A,9,cWW,cWW,cWW
-9,IL_5UNE_009,5UNE,0.2169,0,Isolated non-canonical cWW contact,A+B,RNA (47-MER),U,39,G,40,G,41,*,U,7,G,8,A,9,cWW,cWW,cWW
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,2-4,1-5,3-5,2-6
+3,IL_7LYF_002,7LYF,0.207,0,Isolated non-canonical cWW pair,A,tRNA,C,84,A,85,A,86,*,U,46,G,47,G,48,cWW,cWW,cWW,nbp,nbp,nbp,nbp
+8,IL_5UNE_001,5UNE,0.1912,0,Isolated non-canonical cWW contact,B+A,RNA (47-MER),U,39,G,40,G,41,*,U,7,G,8,A,9,cWW,cWW,cWW,nbp,nbp,nbp,nbp
+9,IL_5UNE_009,5UNE,0.2169,0,Isolated non-canonical cWW contact,A+B,RNA (47-MER),U,39,G,40,G,41,*,U,7,G,8,A,9,cWW,cWW,cWW,nbp,nbp,nbp,nbp

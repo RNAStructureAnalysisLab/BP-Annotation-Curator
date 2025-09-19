@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,1-6,4-5
-1,IL_3IGI_005,3IGI,0.0,1,Multiple bulged bases,A,Group IIC intron,U,234,U,235,A,237,U,238,*,G,128,G,129,cWW,cWW
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,1-6,4-5,1-5,4-6
+1,IL_3IGI_005,3IGI,0.0,1,Multiple bulged bases,A,Group IIC intron,U,234,U,235,A,237,U,238,*,G,128,G,129,cWW,cWW,nbp,nbp

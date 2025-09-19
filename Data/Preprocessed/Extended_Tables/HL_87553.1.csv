@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,2-6,3-5,3-6
-1,HL_2CSX_002,2CSX,0.9771,2,C,RNA (75-MER),U,31,C,32,U,33,C,34,A,35,A,38,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,cWW,nbp,cWW,nbp,cWH"
-6,HL_6CF2_001,6CF2,0.243,1,G,RNA (35-MER),A,13,C,14,U,15,C,17,G,18,G,19,U,20,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,cWW,cWW","nbp,nbp,nbp,nbp,nbp,tSH","nbp,nbp,nbp,nbp,nbp,nbp"
-7,HL_5H9F_001,5H9F,0.6155,1,L,crRNA (61-MER),G,50,C,51,G,52,C,54,A,55,G,56,C,57,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,cWW,nbp,cWW","nbp,cHW,nbp,REJECT,cHW,cHH","nbp,nbp,nbp,nbp,cHW,cHW"
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,2-6,3-5,3-6,5-6
+1,HL_2CSX_002,2CSX,0.9771,2,C,RNA (75-MER),U,31,C,32,U,33,C,34,A,35,A,38,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,cWW,nbp,cWW,nbp,cWH","nbp,nbp,nbp,nbp,nbp,nbp"
+6,HL_6CF2_001,6CF2,0.243,1,G,RNA (35-MER),A,13,C,14,U,15,C,17,G,18,G,19,U,20,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,cWW,cWW","nbp,nbp,nbp,nbp,nbp,tSH","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+7,HL_5H9F_001,5H9F,0.6155,1,L,crRNA (61-MER),G,50,C,51,G,52,C,54,A,55,G,56,C,57,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,cWW,nbp,cWW","nbp,cHW,nbp,REJECT,cHW,cHH","nbp,nbp,nbp,nbp,cHW,cHW","nbp,cHS,nbp,nbp,nbp,nbp"

@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,break,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,1-10,5-6,5-9,7-8
-1,IL_5ML7_008,5ML7,0.0,1,B,23S ribosomal RNA,C,2170,A,2171,C,2172,U,2173,A,2174,C,2175,C,2177,*,G,2202,A,2203,G,2204,"cWW,nbp,cWW,cWW,cWW,cWW","cSH,nbp,cSH,cSH,cSH,cSH","tWH,nbp,tWH,tWH,tWH,tWH","cWW,nbp,cWW,cWW,cWW,cWW"
+1,IL_5ML7_008,5ML7,0.0,1,B,23S ribosomal RNA,C,2170,A,2171,C,2172,U,2173,A,2174,C,2175,C,2177,*,G,2202,A,2203,G,2204,"cWW,cWW,cWW,cWW,cWW,cWW","cSH,nbp,cSH,cSH,cSH,cSH","tWH,tWH,tWH,tWH,tWH,tWH","cWW,cWW,cWW,cWW,cWW,cWW"

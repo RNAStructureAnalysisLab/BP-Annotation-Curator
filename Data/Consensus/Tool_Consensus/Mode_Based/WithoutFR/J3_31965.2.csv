@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,break,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,break.1,Unnamed: 31,12,Unnamed: 33,13,1-13,6-7,11-12
-1,J3_4WF9_016,4WF9,0.553,1,X,LSU rRNA,U,1381,C,1382,G,1383,G,1384,G,1385,C,1387,*,G,1418,A,1419,U,1420,A,1421,A,1422,*,U,1439,A,1440,cWW,cWW,cWW
-2,J3_7A0S_018,7A0S,0.5082,1,X,LSU rRNA,U,1357,C,1358,G,1359,G,1360,G,1361,C,1363,*,G,1394,A,1395,C,1396,A,1397,G,1398,*,C,1415,A,1416,cWW,cWW,cWW
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,break,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,break.1,Unnamed: 31,12,Unnamed: 33,13,1-13,6-7,11-12,2-3
+1,J3_4WF9_016,4WF9,0.553,1,X,LSU rRNA,U,1381,C,1382,G,1383,G,1384,G,1385,C,1387,*,G,1418,A,1419,U,1420,A,1421,A,1422,*,U,1439,A,1440,cWW,cWW,cWW,nbp
+2,J3_7A0S_018,7A0S,0.5082,1,X,LSU rRNA,U,1357,C,1358,G,1359,G,1360,G,1361,C,1363,*,G,1394,A,1395,C,1396,A,1397,G,1398,*,C,1415,A,1416,cWW,cWW,cWW,nbp

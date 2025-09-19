@@ -118,9 +118,11 @@ class Tool_Consensus_2:
         competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")]
         if not competing_contact_types:
             return None
+        '''
         if 'REJECT' in competing_contact_types: # TODO why are there still rows with REJECT?
             #print("why is this here")
             return 'INCOMPATIBLE'
+        '''
 
         counts = Counter(competing_contact_types)
         mode, max_frequency = counts.most_common(1)[0]

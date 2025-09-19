@@ -9,5 +9,5 @@
 11,HL_3F2X_004,3F2X,0.1694,2,T-loop with 2 bulged bases not stacked,X,FMN riboswitch,G,68,U,69,G,70,A,71,A,72,A,73,C,76,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"
 12,HL_3F2X_001,3F2X,0.1271,2,T-loop with 2 bulged bases not stacked,X,FMN riboswitch,G,17,U,18,G,19,A,20,A,21,A,22,C,25,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"
 13,HL_6DN2_001,6DN2,0.1329,2,T-loop with 2 bulged bases not stacked,X,RNA RIBOSWITCH,G,17,U,18,G,19,A,20,A,21,A,22,C,25,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"
-17,HL_3VJR_001,3VJR,0.3471,2,T-loop with 2 bulged bases not stacked,B,tRNA CCA-acceptor,G,13,U,14,U,15,C,16,G,17,A,18,C,21,"cWW,nbp,cWW,cWW,cWW,cWW","tWH,nbp,tWH,tWH,tWH,tWH"
-18,HL_5X2G_003,5X2G,0.6947,2,,B,sgRNA,G,73,U,74,U,75,C,77,A,78,A,79,C,81,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,nbp,tWH,tWH,tWH,tWH"
+17,HL_3VJR_001,3VJR,0.3471,2,T-loop with 2 bulged bases not stacked,B,tRNA CCA-acceptor,G,13,U,14,U,15,C,16,G,17,A,18,C,21,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"
+18,HL_5X2G_003,5X2G,0.6947,2,,B,sgRNA,G,73,U,74,U,75,C,77,A,78,A,79,C,81,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"

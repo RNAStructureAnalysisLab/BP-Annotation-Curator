@@ -108,10 +108,6 @@ class Preprocessor:
                     residue_pair, description
                 )
                 
-                #TODO Remove this, this is debugging
-                if is_clarna and 'nbp' in new_description:
-                    print(f"okay here you go: {new_description} {description}")
-                
                 # Add to rejected annotations
                 if new_description == 'REJECT':
                     if residue_pair in rejected_annotations:
@@ -126,12 +122,13 @@ class Preprocessor:
                 
                 # Add to accepted_annotations otherwise
                 elif is_clarna: # Adding procedure for ClaRNA
-                    if new_description == 'nbp' or new_description == 'REJECT':
-                        weighted_description = new_description
-                    else:
-                        weighted_description = f'{new_description} {weight}'
+                    #if new_description == 'nbp' or new_description == 'REJECT':
+                    #    weighted_description = new_description
+                    #else:
+                    #    weighted_description = f'{new_description} {weight}'
+                    weighted_description = f'{new_description} {weight}'
                     
-                    if new_residue_pair in accepted_annotations and new_description != 'nbp' and new_description != 'REJECT':
+                    if new_residue_pair in accepted_annotations and not new_description.startswith(('nbp', 'REJECT')):
                         cl_descriptions = list(
                             accepted_annotations[new_residue_pair]
                         )
@@ -140,11 +137,17 @@ class Preprocessor:
                         # Loop assumes there ar at most 2 elements where one is
                         # 'nbp'
                         for cl_description in cl_descriptions:
+                            '''
                             if cl_description != 'nbp' and cl_description != 'REJECT':
                                 stored_weight = cl_description.split(' ')[1]
                                 if float(weight) > float(stored_weight):
                                     accepted_annotations[new_residue_pair].remove(cl_description)
                                     accepted_annotations[new_residue_pair].add(weighted_description)
+                            '''
+                            stored_weight = cl_description.split(' ')[1]
+                            if float(weight) > float(stored_weight):
+                                accepted_annotations[new_residue_pair].remove(cl_description)
+                                accepted_annotations[new_residue_pair].add(weighted_description)
                     else:
                         accepted_annotations[new_residue_pair] = {
                             weighted_description

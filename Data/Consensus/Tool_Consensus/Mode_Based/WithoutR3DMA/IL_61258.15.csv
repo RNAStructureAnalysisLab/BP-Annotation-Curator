@@ -5,7 +5,7 @@
 9,IL_3SN2_001,3SN2,0.6479,0,Single bulged C,B,transferrin receptor iron regulatory element B RNA,U,7,C,8,G,9,*,C,24,A,25,cWW,cWW,nbp,nbp
 11,IL_7A0S_055,7A0S,0.5129,0,Single bulged C,X,LSU rRNA,G,1488,C,1489,U,1490,*,A,1534,C,1535,cWW,cWW,nbp,nbp
 12,IL_6CK5_003,6CK5,0.5289,0,Single bulged C,A,Guanidine-I riboswitch,U,39,C,40,G,41,*,C,21,A,22,cWW,cWW,nbp,nbp
-13,IL_3HHN_003,3HHN,0.3784,0,Single bulged C,E,"Class I ligase ribozyme, self-ligation product",G,46,C,47,U,48,*,A,112,C,113,cWW,cWW,nbp,INCOMPATIBLE
+13,IL_3HHN_003,3HHN,0.3784,0,Single bulged C,E,"Class I ligase ribozyme, self-ligation product",G,46,C,47,U,48,*,A,112,C,113,cWW,cWW,nbp,nbp
 14,IL_8F5G_002,8F5G,0.4334,0,Single bulged C,D,RNA,G,8,C,9,U,10,*,A,19,C,20,cWW,cWW,nbp,nbp
 15,IL_3IVK_001,3IVK,0.4647,0,Single bulged C,M,class I ligase product,G,46,C,47,U,48,*,A,112,C,113,cWW,cWW,nbp,nbp
 16,IL_9DE7_001,9DE7,0.4087,0,,A,RNA (58-MER),U,4,C,5,U,6,*,A,55,A,56,cWW,cWW,nbp,nbp

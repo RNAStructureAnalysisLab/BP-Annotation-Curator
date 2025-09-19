@@ -1,6 +1,6 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,break,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,1-12,2-10,2-11,3-10,4-9,5-8,6-7,3-9
-1,IL_8ZA4_001,8ZA4,0.4716,0,,A+B,RNA (15-mer) + RNA (16-mer),G,5,G,6,C,7,C,8,A,9,G,10,*,C,7,U,8,C,9,A,10,A,11,C,12,cWW,INCOMPATIBLE,tSH,tWW,tHS,cWW,cWW,nbp
-2,IL_3LQX_002,3LQX,0.1491,0,tSH-tHW-tHS-cWW,B,SRP RNA,U,146,C,147,A,148,G,149,G,150,U,151,*,A,160,A,161,G,162,C,163,A,164,G,165,cWW,INCOMPATIBLE,INCOMPATIBLE,tHW,INCOMPATIBLE,cWW,cWW,INCOMPATIBLE
-3,IL_1LNT_002,1LNT,0.0,0,tSH-tHW-tHS-cWW,A+B,RNA (12-mer),U,4,C,5,A,6,G,7,G,8,U,9,*,A,16,A,17,G,18,C,19,A,20,G,21,cWW,nbp,INCOMPATIBLE,tHW,INCOMPATIBLE,cWW,cWW,INCOMPATIBLE
-4,IL_1MFQ_007,1MFQ,0.1336,0,tSH-tHW-tHS-cWW,A,SRP RNA,C,190,C,191,A,192,G,193,G,194,U,195,*,G,204,A,205,G,206,C,207,A,208,G,209,cWW,tWH,tSH,tHW,INCOMPATIBLE,cWW,cWW,INCOMPATIBLE
-5,IL_6DVK_004,6DVK,0.2524,0,tSH-tHW-tHS-cWW,H,RNA (95-MER),C,52,U,53,A,54,C,55,C,56,C,57,*,G,38,A,39,A,40,C,41,A,42,G,43,cWW,nbp,tSH,tHW,nbp,nbp,cWW,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,break,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,1-12,2-10,2-11,3-10,4-9,5-8,6-7,1-11,2-9,2-12,3-9,3-11,4-8,4-10,5-7,5-9,6-8,1-10
+1,IL_8ZA4_001,8ZA4,0.4716,0,,A+B,RNA (15-mer) + RNA (16-mer),G,5,G,6,C,7,C,8,A,9,G,10,*,C,7,U,8,C,9,A,10,A,11,C,12,cWW,INCOMPATIBLE,tSH,tWW,tHS,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+2,IL_3LQX_002,3LQX,0.1491,0,tSH-tHW-tHS-cWW,B,SRP RNA,U,146,C,147,A,148,G,149,G,150,U,151,*,A,160,A,161,G,162,C,163,A,164,G,165,cWW,INCOMPATIBLE,tSH,tHW,tHS,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+3,IL_1LNT_002,1LNT,0.0,0,tSH-tHW-tHS-cWW,A+B,RNA (12-mer),U,4,C,5,A,6,G,7,G,8,U,9,*,A,16,A,17,G,18,C,19,A,20,G,21,cWW,tWH,tSH,tHW,tHS,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+4,IL_1MFQ_007,1MFQ,0.1336,0,tSH-tHW-tHS-cWW,A,SRP RNA,C,190,C,191,A,192,G,193,G,194,U,195,*,G,204,A,205,G,206,C,207,A,208,G,209,cWW,tWH,tSH,tHW,tHS,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+5,IL_6DVK_004,6DVK,0.2524,0,tSH-tHW-tHS-cWW,H,RNA (95-MER),C,52,U,53,A,54,C,55,C,56,C,57,*,G,38,A,39,A,40,C,41,A,42,G,43,cWW,nbp,tSH,tHW,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

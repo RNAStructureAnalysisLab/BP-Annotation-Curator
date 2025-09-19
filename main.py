@@ -23,6 +23,7 @@ from DataManagement.DataExploration.RC_Converter import RC_Converter
 from DataManagement.ConsensusMaking.Tool_Consensus_2 import Tool_Consensus_2
 from DataManagement.DataExploration.Rejected_Types_Finder import Rejected_Types_Finder
 from DataManagement.ResultsMaking.Tool_Benchmarker import Tool_Benchmarker
+from DataManagement.ResultsMaking.Agreement_Calculator_Cluster_Consensus import Agreement_Calculator_Cluster_Consensus
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -231,7 +232,7 @@ if 8 >= starting_step_number:
 
 if 9 >= starting_step_number:
     print('Beginning STEP 9:\n')
-    Tool_Consensus.run()
+    #Tool_Consensus.run()
     #Consensus_V1.run()
 
 # =============================================================================
@@ -252,6 +253,7 @@ if 12 >= starting_step_number:
 if 13 >= starting_step_number:
     print('Beginning STEP 13:\n')
     Tool_Benchmarker.run()
+    Agreement_Calculator_Cluster_Consensus.run()
     
 # TODO: verify that pdb 8CRE is getting processed when we run the entire
 # project again from the beginning. Originally is a PDBx file.

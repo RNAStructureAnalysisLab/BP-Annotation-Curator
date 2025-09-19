@@ -1,5 +1,5 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,4-5
-1,HL_6WZR_001,6WZR,0.0808,1,A,ZMP/ZTP riboswitch,G,28,A,29,A,30,U,31,A,33,A,34,C,35,"cWW,nbp,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
+1,HL_6WZR_001,6WZR,0.0808,1,A,ZMP/ZTP riboswitch,G,28,A,29,A,30,U,31,A,33,A,34,C,35,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
 2,HL_5BTP_003,5BTP,0.0,1,B,RNA (62-MER),G,28,A,29,A,30,U,31,A,33,A,34,C,35,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp"
 3,HL_8SYK_002,8SYK,0.3944,1,A,RNA device 43 truncation mutant 3 (U100C),C,32,C,33,A,34,A,35,U,37,A,38,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,tSW"
 4,HL_2OEU_002,2OEU,0.3997,1,A,Hammerhead Ribozyme,C,25,C,26,A,27,A,28,U,30,A,31,G,32,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,REJECT,nbp,nbp,nbp"

@@ -63,7 +63,8 @@ class RC_Converter:
                 'tWW', 'tWH', 'tWS', 'tSW', 'tSH', 'tSS', 'tHW', 'tHH', 'tHS',
                 '!cWW', '!cWH', '!cWS', '!cSW', '!cSH', '!cSS', '!cHW', '!cHH', '!cHS',
                 '!tWW', '!tWH', '!tWS', '!tSW', '!tSH', '!tSS', '!tHW', '!tHH', '!tHS',
-                'INCOMPATIBLE'
+                #'INCOMPATIBLE'
+                'REJECT'
             ]:
                 absolute_rc_notation = f"r{rc.get(contact_type, 0)}c{cc.get(contact_type, 0)}"
                 absolute_rc_notation_R3DMA = f"r{rc_R3DMA.get(contact_type, 0)}c{cc_R3DMA.get(contact_type, 0)}"
@@ -96,13 +97,13 @@ class RC_Converter:
                 return contact_type[0] + contact_type[1:].upper()
             else:
                 return contact_type
-    
         def transform_row(lst: list) -> str | list:
-            if any("REJECT" in c for c in lst):
-                return "INCOMPATIBLE"
+            #if any("REJECT" in c for c in lst):
+            #    return "INCOMPATIBLE"
             return [transform_contact_type(c) for c in lst]
     
         return column_data.apply(transform_row)
+        
     
     @staticmethod
     def _get_counts(column_data: pd.Series):

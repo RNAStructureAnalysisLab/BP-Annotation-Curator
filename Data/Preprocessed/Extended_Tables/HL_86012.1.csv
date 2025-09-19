@@ -1,3 +1,3 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,1-8,2-5
-1,HL_1ZL3_001,1ZL3,0.0,1,T-loop with unstacked turn,B,RNA (22-mer),G,408,U,409,C,411,G,412,A,413,U,414,C,415,C,416,"cWW,nbp,cWW,cWW,cWW,cWW","tWH,nbp,tWH,tWH,tWH,tWH"
+1,HL_1ZL3_001,1ZL3,0.0,1,T-loop with unstacked turn,B,RNA (22-mer),G,408,U,409,C,411,G,412,A,413,U,414,C,415,C,416,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"
 2,HL_1R3E_001,1R3E,0.2394,1,T-loop with unstacked turn,C,RNA (17-mer),G,408,U,409,C,411,G,412,A,413,U,414,C,415,C,416,"cWW,cWW,cWW,cWW,cWW,cWW","tWH,tWH,tWH,tWH,tWH,tWH"

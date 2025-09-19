@@ -1,9 +1,7 @@
 cluster,PDB,column,tied_contact_types,consensus,rows_in_cluster
-HL_45785.1.csv,8FZA,4-6,"['cSH', 'nbp', 'cWH']",,2
-HL_45785.1.csv,8FZA,4-6,"['cSH', 'nbp', 'cWH']",,2
-IL_22373.1.csv,5U3G,3-5,"['cSH', 'nbp', 'cWH']",,4
-IL_22373.1.csv,7MLW,3-5,"['cSH', 'nbp', 'cWH']",,4
+IL_04021.2.csv,7A0S,2-13,"['tSH', 'nbp', 'tWH']",,2
+IL_04021.2.csv,4WF9,2-13,"['tSH', 'nbp', 'tWH']",,2
 IL_91636.1.csv,3KTW,2-10,"['tSH', 'nbp', 'tWH']",,1
-J3_60223.1.csv,5KTJ,4-9,"['cSS', 'nbp', 'cWS']",,1
+IL_94351.1.csv,1OOA,2-10,"['tSH', 'nbp', 'tWH']",,1
 J4_16596.1.csv,4GXY,4-10,"['nbp', 'cSS', 'cWS']",,3
 J4_44058.1.csv,6VMY,3-9,"['nbp', 'cSS', 'cWS']",,1
