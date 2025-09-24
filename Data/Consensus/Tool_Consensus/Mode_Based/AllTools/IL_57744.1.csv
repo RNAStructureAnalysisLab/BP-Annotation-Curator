@@ -1,10 +1,10 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,1-5,2-3,3-5,2-4,2-6,1-4
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,2-6,4-5,2-3,1-2,1-5,5-6
 2,IL_1U6B_001,1U6B,0.3005,1,Isolated non-canonical cWW pair,B,197-MER,G,19,C,20,G,22,*,C,29,A,30,C,31,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 3,IL_2QEK_001,2QEK,0.3111,1,,A+B,HIV-1 subtype F DIS genomic RNA,G,7,A,8,G,10,*,C,15,A,16,C,17,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 4,IL_4RUM_001,4RUM,0.2979,1,Isolated non-canonical cWW pair,A,NiCo riboswitch RNA,G,13,A,14,C,16,*,G,88,A,89,C,90,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 7,IL_7A0S_038,7A0S,0.4249,1,Isolated non-canonical cWW pair,X,LSU rRNA,G,1042,A,1043,G,1045,*,C,1132,G,1133,C,1134,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 8,IL_4WF9_041,4WF9,0.4039,1,Isolated non-canonical cWW pair,X,LSU rRNA,G,1075,A,1076,G,1078,*,C,1165,G,1166,C,1167,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
-9,IL_4K31_002,4K31,0.3399,1,Isolated non-canonical cWW pair,C+B,RNA (23-mer),A,16,A,17,G,19,*,C,7,G,8,U,9,cWW,cWW,cWW,INCOMPATIBLE,nbp,nbp,nbp,nbp,nbp
+9,IL_4K31_002,4K31,0.3399,1,Isolated non-canonical cWW pair,C+B,RNA (23-mer),A,16,A,17,G,19,*,C,7,G,8,U,9,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 10,IL_4K31_003,4K31,0.3546,1,Isolated non-canonical cWW pair,B+C,RNA (23-mer),A,16,A,17,G,19,*,C,7,G,8,U,9,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 11,IL_6TFF_003,6TFF,0.337,1,,A,nadA RNA,C,34,A,35,C,37,*,G,23,G,24,G,25,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 12,IL_7D7W_003,7D7W,0.4482,1,,A,18GAAA (52-MER),C,34,A,35,C,37,*,G,23,G,24,G,25,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp

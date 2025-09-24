@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,break,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,break.1,Unnamed: 25,9,Unnamed: 27,10,1-10,4-5,8-9
-1,J3_1G1X_003,1G1X,0.0,1,I+J,16S RIBOSOMAL RNA,C,586,G,587,G,588,C,589,*,G,650,C,651,U,652,G,654,*,C,754,G,755,cWW,cWW,cWW
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,break,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,break.1,Unnamed: 25,9,Unnamed: 27,10,1-10,4-5,8-9,1-2,3-7
+1,J3_1G1X_003,1G1X,0.0,1,I+J,16S RIBOSOMAL RNA,C,586,G,587,G,588,C,589,*,G,650,C,651,U,652,G,654,*,C,754,G,755,cWW,cWW,cWW,nbp,nbp

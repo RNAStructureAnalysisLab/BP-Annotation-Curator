@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,1-10,3-5,2-10
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,1-10,1-2,3-5
 1,HL_3MXH_002,3MXH,0.3704,2,U1 small nuclear ribonucleoprotein A binding hairpin,R,c-di-GMP riboswitch,C,65,A,660,U,661,U,662,G,663,A,665,C,666,C,668,C,669,G,75,cWW,nbp,nbp
 2,HL_5DDO_002,5DDO,0.3308,2,U1 small nuclear ribonucleoprotein A binding hairpin,A,L-glutamine riboswitch (58-MER),C,34,A,35,U,36,U,37,G,38,A,40,C,41,C,43,C,44,G,45,cWW,nbp,nbp
 3,HL_3CUL_002,3CUL,0.2291,2,U1 small nuclear ribonucleoprotein A binding hairpin,C,RNA (92-MER),C,29,A,30,U,31,U,32,G,33,A,35,C,36,C,38,C,39,G,40,cWW,nbp,nbp

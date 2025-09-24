@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-3,1-5,3-4,4-5,1-4,2-5,3-5
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-3,1-5,3-4,1-4,4-5,3-5,2-3
 1,IL_7A0S_079,7A0S,1.381,0,Single bulged U,X,LSU rRNA,U,2197,U,2198,C,2199,*,G,2186,A,2187,nbp,cWW,cWW,nbp,nbp,nbp,nbp
 2,IL_1S03_001,1S03,1.1764,0,Single bulged U,A,47-MER,A,6,U,7,G,8,*,C,41,U,42,nbp,cWW,cWW,nbp,nbp,nbp,nbp
 3,IL_1S03_005,1S03,1.1859,0,Single bulged U,B,47-MER,A,6,U,7,G,8,*,C,41,U,42,nbp,cWW,cWW,nbp,nbp,nbp,nbp

@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-3,1-5,3-4,4-5,3-5,1-4,2-5
-1,IL_5Y58_001,5Y58,0.0,1,,X,TLC1,U,291,A,292,A,294,*,U,308,G,309,nbp,cWW,cWW,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-3,1-5,3-4,4-5,1-2,2-4,1-4
+1,IL_5Y58_001,5Y58,0.0,1,,X,TLC1,U,291,A,292,A,294,*,U,308,G,309,nbp,cWW,cWW,INCOMPATIBLE,nbp,nbp,nbp
 2,IL_1XJR_004,1XJR,0.634,1,180 degree turn,A,s2m RNA,G,28,A,29,C,31,*,G,19,C,20,cSS,cWW,cWW,cSS,nbp,nbp,nbp

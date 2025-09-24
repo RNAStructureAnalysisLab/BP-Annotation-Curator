@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,3-5,2-5,2-4,1-4
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,2-3,2-5,2-4,1-4
 1,IL_7A0S_024,7A0S,0.7006,0,,X,LSU rRNA,U,942,U,943,A,944,*,U,860,G,861,cWW,cWW,INCOMPATIBLE,nbp,nbp,nbp
 3,IL_6FZ0_001,6FZ0,0.3977,0,Single stack bend,A,SAM-V riboswitch,C,46,U,47,A,48,*,U,20,G,21,cWW,cWW,nbp,nbp,nbp,nbp
 4,IL_2QWY_008,2QWY,0.4088,0,Single stack bend,C,SAM-II riboswitch,C,43,U,44,A,45,*,U,21,G,22,cWW,cWW,nbp,nbp,nbp,nbp

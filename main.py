@@ -241,10 +241,10 @@ if 9 >= starting_step_number:
 
 if 10 >= starting_step_number:
     print('Beginning STEP 10:\n')
-    Agreement_Calculator.run()
+    #Agreement_Calculator.run()
 if 11 >= starting_step_number: # should be part of step 10, temporary
     print('Beginning STEP 11:\n')
-    Agreement_Analyzer.run()
+    #Agreement_Analyzer.run()
 if 12 >= starting_step_number:
     print('Beginning STEP 12:\n')
     RC_Converter.run()

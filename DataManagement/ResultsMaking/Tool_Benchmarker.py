@@ -28,7 +28,7 @@ class Tool_Benchmarker:
         benchmarked_rows = []
         index_to_tool = {0: "R3DMA", 1: "CL", 2: "FR", 3: "MC", 4: "RV", 5: "DSSR"}
         for path in Tool_Benchmarker.DATASET_PATHS:
-            benchmark_row = {'Dataset': os.path.basename(path), 'Total RP': 0, 'R3DMA': 0, 'CL': 0, 'FR': 0, 'MC': 0, 'RV': 0, 'DSSR': 0}
+            benchmark_row = {'Dataset': os.path.basename(path), 'Total BP': 0, 'R3DMA': 0, 'CL': 0, 'FR': 0, 'MC': 0, 'RV': 0, 'DSSR': 0}
             for table_name in os.listdir(path):
                 consensus_df = pd.read_csv(os.path.join(path, table_name))
                 cluster_df = pd.read_csv(os.path.join(Tool_Benchmarker.EXTENDED_TABLES_DIRECTORY, table_name)) # could optomize by caching this cluster rather than fetching it upon each loop iteration
@@ -51,7 +51,7 @@ class Tool_Benchmarker:
 # --- PRIVATE METHODS ---
 
     def _update_benchmark_row(cluster_entry, consensus_entry, benchmark_row, index_to_tool):
-        benchmark_row['Total RP'] += 1
+        benchmark_row['Total BP'] += 1
         cluster_entry = cluster_entry.split(',')
         for i in range(len(cluster_entry)):
             if cluster_entry[i] == consensus_entry:

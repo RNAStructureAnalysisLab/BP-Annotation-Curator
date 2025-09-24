@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,break,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,1-13,4-8,10-11
-1,IL_4FRG_001,4FRG,0.0,0,B,cobalamin riboswitch aptamer domain,A,6,A,7,A,8,A,9,G,10,C,11,A,12,U,13,A,14,G,15,*,C,76,C,77,U,78,cWW,nbp,cWW
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,break,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,1-13,4-8,10-11,10-12
+1,IL_4FRG_001,4FRG,0.0,0,B,cobalamin riboswitch aptamer domain,A,6,A,7,A,8,A,9,G,10,C,11,A,12,U,13,A,14,G,15,*,C,76,C,77,U,78,cWW,tWW,cWW,nbp

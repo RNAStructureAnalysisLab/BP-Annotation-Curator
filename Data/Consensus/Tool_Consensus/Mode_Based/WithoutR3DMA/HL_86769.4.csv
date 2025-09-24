@@ -1,6 +1,6 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,3-6,4-5
-1,HL_3AMU_002,3AMU,0.8138,4,B,tRNA,G,30,G,31,C,32,U,33,U,36,A,37,C,40,cWW,nbp,nbp
-2,HL_6MJ0_010,6MJ0,0.1604,1,B,tRNA-like 3' UTR element,A,89,G,90,G,91,G,92,U,93,A,95,U,96,cWW,INCOMPATIBLE,cSH
-3,HL_4P5J_004,4P5J,0.0,1,A,tRNA-like 3' UTR element,A,69,G,70,G,71,G,72,U,73,A,75,U,76,cWW,INCOMPATIBLE,cSH
-4,HL_1ET4_001,1ET4,0.2083,1,A,"RNA APTAMER, 35-MER",C,219,A,220,C,221,C,222,U,223,A,225,G,226,cWW,nbp,nbp
-5,HL_4WF9_001,4WF9,0.3429,1,X,LSU rRNA,G,67,A,68,C,69,G,70,A,71,A,73,U,74,cWW,nbp,cSH
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,1-7,3-6,4-5,1-2,4-6
+1,HL_3AMU_002,3AMU,0.8138,4,B,tRNA,G,30,G,31,C,32,U,33,U,36,A,37,C,40,cWW,nbp,nbp,nbp,nbp
+2,HL_6MJ0_010,6MJ0,0.1604,1,B,tRNA-like 3' UTR element,A,89,G,90,G,91,G,92,U,93,A,95,U,96,cWW,INCOMPATIBLE,cSH,nbp,nbp
+3,HL_4P5J_004,4P5J,0.0,1,A,tRNA-like 3' UTR element,A,69,G,70,G,71,G,72,U,73,A,75,U,76,cWW,INCOMPATIBLE,cSH,nbp,nbp
+4,HL_1ET4_001,1ET4,0.2083,1,A,"RNA APTAMER, 35-MER",C,219,A,220,C,221,C,222,U,223,A,225,G,226,cWW,nbp,nbp,nbp,nbp
+5,HL_4WF9_001,4WF9,0.3429,1,X,LSU rRNA,G,67,A,68,C,69,G,70,A,71,A,73,U,74,cWW,nbp,cSH,nbp,nbp

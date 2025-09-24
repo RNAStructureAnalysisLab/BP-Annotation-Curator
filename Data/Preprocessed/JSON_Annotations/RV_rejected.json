@@ -53,18 +53,7 @@
     "1MMS": {},
     "1MZP": {},
     "1N32": {},
-    "1N33": {
-        "A362G": {
-            "A365U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A365U": {
-            "A362G": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "1N33": {},
     "1N78": {},
     "1NBS": {},
     "1NTA": {},
@@ -81,48 +70,7 @@
     "1RPU": {},
     "1S03": {},
     "1SA9": {},
-    "1SAQ": {
-        "A102I": {
-            "B115C": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A107C": {
-            "B110I": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B110I": {
-            "A107C": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B115C": {
-            "A102I": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "C202I": {
-            "D215C": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "C207C": {
-            "D210I": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "D210I": {
-            "C207C": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "D215C": {
-            "C202I": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "1SAQ": {},
     "1SER": {},
     "1SI2": {},
     "1SI3": {},
@@ -138,18 +86,7 @@
     "1WZ2": {},
     "1X9K": {},
     "1XJR": {},
-    "1XNQ": {
-        "A362G": {
-            "A365U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A365U": {
-            "A362G": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "1XNQ": {},
     "1XOK": {},
     "1Y26": {},
     "1Y27": {},
@@ -262,18 +199,7 @@
     "3D0M": {},
     "3D0U": {},
     "3D2V": {},
-    "3DD2": {
-        "B6c": {
-            "B18A": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B18A": {
-            "B6c": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "3DD2": {},
     "3DH3": {},
     "3DIL": {},
     "3E5C": {},
@@ -373,50 +299,8 @@
     "4ERD": {},
     "4EYA": {},
     "4FEN": {},
-    "4FRG": {
-        "B10G": {
-            "B13U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B13U": {
-            "B10G": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "X10G": {
-            "X13U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "X13U": {
-            "X10G": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
-    "4FRN": {
-        "A10G": {
-            "A13U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A13U": {
-            "A10G": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B10G": {
-            "B13U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B13U": {
-            "B10G": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "4FRG": {},
+    "4FRN": {},
     "4GCW": {},
     "4GXY": {},
     "4ILL": {},
@@ -509,18 +393,7 @@
     "4V9K": {},
     "4V9Q": {},
     "4W90": {},
-    "4WF9": {
-        "X2229C": {
-            "X2231C": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "X2231C": {
-            "X2229C": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "4WF9": {},
     "4WFL": {},
     "4WJ4": {},
     "4WRT": {},
@@ -571,18 +444,7 @@
     "5DE8": {},
     "5DEA": {},
     "5DH6": {},
-    "5DO4": {
-        "A6c": {
-            "A18a": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A18a": {
-            "A6c": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "5DO4": {},
     "5DO5": {},
     "5E08": {},
     "5E6M": {},
@@ -608,18 +470,7 @@
     "5IB8": {},
     "5IBB": {},
     "5ID6": {},
-    "5J7L": {
-        "B362G": {
-            "B365U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B365U": {
-            "B362G": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "5J7L": {},
     "5J8B": {},
     "5JEA": {},
     "5K36": {},
@@ -644,28 +495,7 @@
     "5NDI": {},
     "5NFV": {},
     "5NS3": {},
-    "5NWQ": {
-        "A11U": {
-            "A39c": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A39c": {
-            "A11U": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B11U": {
-            "B39c": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B39c": {
-            "B11U": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "5NWQ": {},
     "5O6U": {},
     "5SWD": {},
     "5T16": {},
@@ -771,43 +601,11 @@
     "6Q8U": {},
     "6Q8V": {},
     "6QCW": {},
-    "6QIT": {
-        "A101u": {
-            "B3A": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "A102u": {
-            "B6A": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B3A": {
-            "A101u": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B6A": {
-            "A102u": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "6QIT": {},
     "6QN3": {},
     "6R47": {},
     "6RA4": {},
-    "6RTI": {
-        "X21u": {
-            "X23c": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "X23c": {
-            "X21u": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "6RTI": {},
     "6SVS": {},
     "6SX2": {},
     "6SY4": {},
@@ -946,26 +744,7 @@
     "8HNT": {},
     "8HZE": {},
     "8HZL": {},
-    "8I3Z": {
-        "B33G": {
-            "B101u": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B46C": {
-            "B101u": [
-                "UNK_SHORT_DESC"
-            ]
-        },
-        "B101u": {
-            "B33G": [
-                "UNK_SHORT_DESC"
-            ],
-            "B46C": [
-                "UNK_SHORT_DESC"
-            ]
-        }
-    },
+    "8I3Z": {},
     "8ID2": {},
     "8ITS": {},
     "8J72": {},

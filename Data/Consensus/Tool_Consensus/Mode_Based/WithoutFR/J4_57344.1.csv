@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,break.1,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,break.2,Unnamed: 28,10,Unnamed: 30,11,1-2,1-11,2-11,3-4,5-6,9-10
-1,J4_5UD5_001,5UD5,0.0,0,C,tRNA,C,7,U,9,G,10,*,C,24,G,25,*,C,45,A,46,G,47,C,49,*,G,65,G,66,nbp,cWW,tHS,cWW,cWW,cWW
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,break.1,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,break.2,Unnamed: 28,10,Unnamed: 30,11,1-2,1-11,2-11,3-4,5-6,9-10,1-9
+1,J4_5UD5_001,5UD5,0.0,0,C,tRNA,C,7,U,9,G,10,*,C,24,G,25,*,C,45,A,46,G,47,C,49,*,G,65,G,66,nbp,cWW,tHS,cWW,cWW,cWW,nbp

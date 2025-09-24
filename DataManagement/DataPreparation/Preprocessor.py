@@ -108,6 +108,65 @@ class Preprocessor:
                     residue_pair, description
                 )
                 
+                if new_residue_pair not in accepted_annotations.keys():
+                    accepted_annotations[new_residue_pair] = set()
+                if new_description == 'nbp':
+                    continue # create the key, if the set is empty by the end, then fill with "nbp"
+                if is_clarna:
+                    # we only add to the set if the weight is greater than or
+                    # equal to the weights of the descriptions already in the set
+                    # if grater, reset the set
+                    clarna_descriptions = list(accepted_annotations[new_residue_pair])
+                    if clarna_descriptions: # is not empty
+                        stored_weight = clarna_descriptions[0].split(' ')[1]
+                        if weight < stored_weight:
+                            continue
+                        if weight > stored_weight:
+                            accepted_annotations[new_residue_pair] = set()
+                    new_description = f"{new_description} {weight}"
+                        
+                accepted_annotations[new_residue_pair].add(new_description)
+        #fill empty sets in the dictionary to contain "nbp"
+        for key, description_set in accepted_annotations.items():
+            if not description_set: # is in fact empty
+                accepted_annotations[key].add("nbp")
+        return accepted_annotations, rejected_annotations
+
+    '''
+    # INPUT:s a string representing the name of a CSV annotation file
+    # OUTPUT: returns a dictionary representing the base pairing information in
+    # the CSV file. Each key is a residue pair tuple, and each value is a set 
+    # consisting of the possible base pairing interactions for a given pair.
+    # Uses _ensure_format to make the residue pairs be sorted such that the one
+    # with the smallest index is on the left, and such that 'description'
+    # is strictly base pairing interactions and not also other residue 
+    # interactions
+    @staticmethod
+    def _load_annotations(csv_file_name):
+        input_file_path = os.path.join(
+            Preprocessor.INPUT_DIRECTORY, csv_file_name
+        )
+        is_clarna = 'CL' in csv_file_name.split('_')[1]
+        is_dssr = 'DSSR' in csv_file_name.split('_')[1]
+        accepted_annotations = {}
+        rejected_annotations = {}
+        with open(input_file_path, 'r') as annotation_csv_file:
+            csv_reader = csv.reader(annotation_csv_file)
+            next(csv_reader) # skip the first row with only the labels
+            for csv_row in csv_reader:
+                if is_clarna:
+                    residue1, residue2, nucleotides, weight, description, _ = csv_row
+                elif is_dssr:
+                    residue1, residue2, nucleotides, description = csv_row
+                else:
+                    residue1, residue2, nucleotides, description, _ = csv_row
+                residue_pair = (
+                    f'{residue1}{nucleotides[0]}', f'{residue2}{nucleotides[1]}'
+                )
+                new_residue_pair, new_description = Preprocessor._ensure_format(
+                    residue_pair, description
+                )
+                
                 # Add to rejected annotations
                 if new_description == 'REJECT':
                     if residue_pair in rejected_annotations:
@@ -122,11 +181,11 @@ class Preprocessor:
                 
                 # Add to accepted_annotations otherwise
                 elif is_clarna: # Adding procedure for ClaRNA
-                    #if new_description == 'nbp' or new_description == 'REJECT':
-                    #    weighted_description = new_description
-                    #else:
-                    #    weighted_description = f'{new_description} {weight}'
-                    weighted_description = f'{new_description} {weight}'
+                    if new_description == 'nbp' or new_description == 'REJECT':
+                        weighted_description = new_description
+                    else:
+                        weighted_description = f'{new_description} {weight}'
+                    #weighted_description = f'{new_description} {weight}'
                     
                     if new_residue_pair in accepted_annotations and not new_description.startswith(('nbp', 'REJECT')):
                         cl_descriptions = list(
@@ -137,17 +196,18 @@ class Preprocessor:
                         # Loop assumes there ar at most 2 elements where one is
                         # 'nbp'
                         for cl_description in cl_descriptions:
-                            '''
+                            
                             if cl_description != 'nbp' and cl_description != 'REJECT':
                                 stored_weight = cl_description.split(' ')[1]
                                 if float(weight) > float(stored_weight):
                                     accepted_annotations[new_residue_pair].remove(cl_description)
                                     accepted_annotations[new_residue_pair].add(weighted_description)
-                            '''
-                            stored_weight = cl_description.split(' ')[1]
-                            if float(weight) > float(stored_weight):
-                                accepted_annotations[new_residue_pair].remove(cl_description)
-                                accepted_annotations[new_residue_pair].add(weighted_description)
+                            
+                            #stored_weight = cl_description.split(' ')[1]
+                            #if float(weight) > float(stored_weight):
+                            #    accepted_annotations[new_residue_pair].remove(cl_description)
+                            #    accepted_annotations[new_residue_pair].add(weighted_description)
+                            
                     else:
                         accepted_annotations[new_residue_pair] = {
                             weighted_description
@@ -163,6 +223,7 @@ class Preprocessor:
                         }   
            
         return accepted_annotations, rejected_annotations
+    '''
     
     @staticmethod
     def _export_json(output_file_name, annotations):

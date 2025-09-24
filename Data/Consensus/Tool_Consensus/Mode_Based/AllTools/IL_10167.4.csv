@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,4-5,2-4,1-5,3-5,2-6,1-4
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,1-6,2-5,3-4,4-5,2-6,3-5,2-3,2-4,5-6
 5,IL_4E5C_001,4E5C,0.1053,0,Isolated cWH basepair,B+A,RNA (19-mer),C,9,G,10,G,11,*,C,9,G,10,G,11,cWW,cHW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 6,IL_4KQ0_003,4KQ0,0.1144,0,Isolated cWH basepair,B+E,RNA (19-mer),C,9,G,10,G,11,*,C,9,G,10,G,11,cWW,cHW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
 8,IL_3SJ2_001,3SJ2,0.074,0,Isolated cWH basepair,A+B,RNA (19-mer) + RNA (17-mer),C,7,G,8,G,9,*,C,13,G,14,G,15,cWW,cHW,cWW,nbp,nbp,nbp,nbp,nbp,nbp

@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,break.1,Unnamed: 24,8,Unnamed: 26,9,Unnamed: 28,10,Unnamed: 30,11,Unnamed: 32,12,Unnamed: 34,13,1-13,3-4,5-10,6-9,7-8
-3,J3_7A0S_009,7A0S,0.1508,1,,X,LSU rRNA,U,2074,U,2075,G,2076,*,C,2179,U,2180,A,2182,C,2183,*,G,2202,G,2203,A,2204,C,2205,C,2206,G,2207,cWW,cWW,tWH,tHS,cWW
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,break.1,Unnamed: 24,8,Unnamed: 26,9,Unnamed: 28,10,Unnamed: 30,11,Unnamed: 32,12,Unnamed: 34,13,1-13,3-4,5-10,6-9,7-8,2-13,4-10,7-9,12-13
+3,J3_7A0S_009,7A0S,0.1508,1,,X,LSU rRNA,U,2074,U,2075,G,2076,*,C,2179,U,2180,A,2182,C,2183,*,G,2202,G,2203,A,2204,C,2205,C,2206,G,2207,cWW,cWW,tWH,tHS,cWW,nbp,nbp,nbp,nbp

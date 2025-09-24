@@ -66,15 +66,20 @@ class Agreement_Calculator_Cluster_Consensus:
                         continue
                     presence_list = (
                         Agreement_Calculator_Cluster_Consensus._tools_presence(
-                            row_label, column_name, expected_contact_type
+                            row_label, column_name, contact_type
                         )
+                    )
+                    expected_presence_list = (
+                        Agreement_Calculator_Cluster_Consensus._tools_presence(
+                            row_label, column_name, contact_type
+                        )    
                     )
                     
                     # Add to intersections
                     Agreement_Calculator_Cluster_Consensus.intersections.append({
                         'Cluster': cluster_name, 'PDB': pdb, 'Chain(s)': chains,
                         'Residue IDs': residue_ids, 'Nucleotides': nucleotides,
-                        'Expected Contact Type': expected_contact_type, 
+                        'Tool Consensus': contact_type, 
                         'Agree BP (CL)': presence_list[0][0],
                         'Agree BP (FR)': presence_list[1][0],
                         'Agree BP (MC)': presence_list[2][0],
@@ -91,13 +96,20 @@ class Agreement_Calculator_Cluster_Consensus:
                         'Matches Count': Agreement_Calculator_Cluster_Consensus._sum(
                             presence_list, 1
                         ),
-                        'Tool Consensus': contact_type,
                         'Cluster Mode': consensus,
                         'Cluster Mode Count': consensus_count_cluster,
                         'Cluster Mode Proportion': consensus_proportion,
                         'Cluster Mode Count in that BP': consensus_count_row,
                         'All Annotations': all_annotations,
-                        'Comments': None
+                        'Expected Contact Type': expected_contact_type,
+                        'Expected Matches (CL)': expected_presence_list[0][1],
+                        'Expected Matches (FR)': expected_presence_list[1][1],
+                        'Expected Matches (MC)': expected_presence_list[2][1],
+                        'Expected Matches (RV)': expected_presence_list[3][1],
+                        'Expected Matches (DSSR)': expected_presence_list[4][1],
+                        'Expected Matches Count': Agreement_Calculator_Cluster_Consensus._sum(
+                            presence_list, 1
+                        ),
                     })
                     
                 else:
@@ -122,7 +134,9 @@ class Agreement_Calculator_Cluster_Consensus:
             row_label, column_name
         ].split(' ')[0]
         if all_annotations == 'INCOMPATIBLE':
+            
             return (None, None, None, None,None)
+        all_annotations = all_annotations.split(',')[1:]
         contact_type = Agreement_Calculator_Cluster_Consensus._resolve_contact_type(
             all_annotations, consensus
         )
@@ -155,6 +169,7 @@ class Agreement_Calculator_Cluster_Consensus:
         ]
         nucleotides = (nucleotide1, nucleotide2)
         
+        all_annotations = ",".join(all_annotations)
         return (residue_ids, nucleotides, contact_type, all_annotations, expected_contact_type)
     
     @staticmethod
@@ -258,11 +273,8 @@ class Agreement_Calculator_Cluster_Consensus:
     
     @staticmethod
     def _resolve_contact_type(all_annotations, cluster_consensus):
-        all_annotations = all_annotations.split(',')[1:]
         Agreement_Calculator_Cluster_Consensus._ensure_lw(all_annotations)
         most_reported = Agreement_Calculator_Cluster_Consensus._most_reported_contact_types(all_annotations)
-        if 'REJECT' in most_reported:
-            most_reported.remove('REJECT')
         contact_type = Agreement_Calculator_Cluster_Consensus._tool_consensus(most_reported, cluster_consensus)
         if isinstance(contact_type, list):
             contact_type = contact_type[0]
@@ -280,7 +292,11 @@ class Agreement_Calculator_Cluster_Consensus:
     
     @staticmethod
     def _most_reported_contact_types(all_annotations):
-        counts = Counter(all_annotations)
+        filtered_annotations = []
+        for annotation in all_annotations:
+            if annotation != 'REJECT':
+                filtered_annotations.append(annotation)
+        counts = Counter(filtered_annotations)
         max_count = max(counts.values())
         return [item for item, count in counts.items() if count == max_count]
     

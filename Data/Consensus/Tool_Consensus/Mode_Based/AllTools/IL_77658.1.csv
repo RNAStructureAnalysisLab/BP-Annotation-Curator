@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-6,2-7,3-6,4-5,3-4,3-5,1-6,4-6,7-8,1-7,3-7,2-8,3-8
-2,IL_7LYF_001,7LYF,0.3132,1,Isolated cWH basepair with non-canonical cWW,A,tRNA,A,90,G,91,U,93,C,94,*,G,39,U,40,C,41,U,42,cWW,nbp,INCOMPATIBLE,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-6,2-7,3-6,4-5,4-6,1-7,2-8,3-4,6-7,3-5,2-3,7-8,3-7
+2,IL_7LYF_001,7LYF,0.3132,1,Isolated cWH basepair with non-canonical cWW,A,tRNA,A,90,G,91,U,93,C,94,*,G,39,U,40,C,41,U,42,cWW,nbp,cHW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 5,IL_402D_001,402D,0.3013,0,Tandem non-canonical cWW pairs,A+B,RNA (8-mer),C,103,C,104,A,105,G,106,*,C,111,C,112,A,113,G,114,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 11,IL_8UIW_002,8UIW,0.2213,0,,N,yjdF RNA (R. gauvreauii),G,112,U,113,C,114,G,115,*,C,100,U,101,U,102,C,103,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 12,IL_8HNT_001,8HNT,0.2426,0,Tandem non-canonical cWW pairs,B,sgRNA,C,32,U,33,C,34,C,35,*,G,54,U,55,U,56,G,57,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

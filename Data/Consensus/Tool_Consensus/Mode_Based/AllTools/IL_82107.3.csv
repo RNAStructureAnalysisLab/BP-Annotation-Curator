@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3,1-2,3-4,1-3,2-4
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3,3-4,1-3,2-4,1-2
 1,IL_5M0H_004,5M0H,0.3045,2,Multiple bulged bases,A,ASH1 E3 (42 nt-TL/TLR),A,35,C,36,*,G,8,U,11,cWW,cWW,nbp,nbp,nbp,nbp
 2,IL_4WF9_071,4WF9,0.2701,2,Major groove intercalation,X,LSU rRNA,U,1868,G,1869,*,U,1925,A,1928,cWW,cWW,nbp,nbp,nbp,nbp
 5,IL_5WLH_001,5WLH,0.1847,2,Multiple bulged bases,B,pre-crRNA,A,-23,G,-22,*,C,-7,U,-4,cWW,cWW,nbp,nbp,nbp,nbp
