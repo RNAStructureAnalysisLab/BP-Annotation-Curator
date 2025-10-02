@@ -1,9 +1,9 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,1-10,2-9,2-10,3-8,4-7,5-6,1-9,5-7,3-7,1-2,9-10
 6,IL_4WF9_024,4WF9,0.2268,0,Triple sheared,X,LSU rRNA,U,748,G,749,A,750,A,751,G,752,*,U,769,G,770,G,771,A,772,G,773,cWW,tSH,nbp,tHS,tHS,cWW,nbp,nbp,nbp,nbp,nbp
-10,IL_3IWN_002,3IWN,0.2426,0,Triple sheared,A,C-di-GMP riboswitch,C,12,A,13,A,14,A,15,C,16,*,G,31,G,32,A,33,C,34,G,35,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,INCOMPATIBLE,nbp,nbp
-11,IL_3MXH_002,3MXH,0.2716,0,Triple sheared,R,c-di-GMP riboswitch,C,22,A,23,A,24,A,25,C,26,*,G,41,G,42,A,43,C,44,G,45,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,INCOMPATIBLE,nbp,nbp
-12,IL_4YAZ_006,4YAZ,0.2604,0,Triple sheared,R,Cyclic di-GMP-I riboswitch,U,16,A,17,A,18,A,19,C,20,*,G,35,G,36,G,37,C,38,G,39,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,INCOMPATIBLE,nbp,nbp
-13,IL_3IGI_002,3IGI,0.3309,0,Triple sheared,A,Group IIC intron,C,70,U,71,A,72,A,73,C,74,*,G,113,G,114,A,115,C,116,G,117,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,INCOMPATIBLE,nbp,nbp
+10,IL_3IWN_002,3IWN,0.2426,0,Triple sheared,A,C-di-GMP riboswitch,C,12,A,13,A,14,A,15,C,16,*,G,31,G,32,A,33,C,34,G,35,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,,nbp,nbp
+11,IL_3MXH_002,3MXH,0.2716,0,Triple sheared,R,c-di-GMP riboswitch,C,22,A,23,A,24,A,25,C,26,*,G,41,G,42,A,43,C,44,G,45,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,,nbp,nbp
+12,IL_4YAZ_006,4YAZ,0.2604,0,Triple sheared,R,Cyclic di-GMP-I riboswitch,U,16,A,17,A,18,A,19,C,20,*,G,35,G,36,G,37,C,38,G,39,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,,nbp,nbp
+13,IL_3IGI_002,3IGI,0.3309,0,Triple sheared,A,Group IIC intron,C,70,U,71,A,72,A,73,C,74,*,G,113,G,114,A,115,C,116,G,117,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,,nbp,nbp
 16,IL_2A64_005,2A64,0.3263,0,Triple sheared,A,ribonuclease P RNA,C,284,G,285,A,286,A,287,G,288,*,C,297,G,298,G,299,A,300,G,301,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,nbp,nbp,nbp
 18,IL_2A64_006,2A64,0.2983,0,Triple sheared,A,ribonuclease P RNA,C,378,G,379,A,380,A,381,G,382,*,C,347,G,348,G,349,A,350,G,351,cWW,nbp,nbp,tHS,tHS,cWW,nbp,nbp,nbp,nbp,nbp
 19,IL_7A0S_070,7A0S,0.3926,0,Triple sheared,X,LSU rRNA,C,1865,G,1866,A,1867,A,1868,A,1869,*,U,1848,G,1849,G,1850,A,1851,G,1852,cWW,tSH,nbp,nbp,tHS,cWW,nbp,nbp,nbp,nbp,nbp

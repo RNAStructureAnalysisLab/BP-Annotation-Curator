@@ -71,7 +71,7 @@ class Agreement_Calculator_Cluster_Consensus:
                     )
                     expected_presence_list = (
                         Agreement_Calculator_Cluster_Consensus._tools_presence(
-                            row_label, column_name, contact_type
+                            row_label, column_name, expected_contact_type
                         )    
                     )
                     
@@ -108,7 +108,7 @@ class Agreement_Calculator_Cluster_Consensus:
                         'Expected Matches (RV)': expected_presence_list[3][1],
                         'Expected Matches (DSSR)': expected_presence_list[4][1],
                         'Expected Matches Count': Agreement_Calculator_Cluster_Consensus._sum(
-                            presence_list, 1
+                            expected_presence_list, 1
                         ),
                     })
                     

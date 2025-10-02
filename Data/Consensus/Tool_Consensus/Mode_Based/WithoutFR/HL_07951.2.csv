@@ -1,4 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,1-4,1-2
-1,HL_3WQY_001,3WQY,0.2542,5,,C,tRNA,C,1613,A,1614,G,1615,G,1622,cWW,nbp
-2,HL_1GAX_004,1GAX,0.0,5,tRNA D-loop,D,TRNA(VAL),C,913,A,914,G,915,G,921,cWW,nbp
-3,HL_4RDX_001,4RDX,0.5631,7,,C,tRNA,C,13,A,14,G,15,G,22,cWW,nbp

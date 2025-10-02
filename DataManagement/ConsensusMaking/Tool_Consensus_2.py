@@ -45,27 +45,29 @@ class Tool_Consensus_2:
         os.makedirs(os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutR3DMA'))
         os.makedirs(os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutFR'))
         
-        rc_dictionary = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_json_path)
+        #rc_dictionary = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_json_path)
         rc_dictionary_R3DMA = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_R3DMA_json_path)
-        rc_dictionary_FR = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_FR_json_path)
+        #rc_dictionary_FR = Tool_Consensus_2._load_rc_notation(Tool_Consensus_2.rc_FR_json_path)
         
         for table_name in os.listdir(Tool_Consensus_2.extended_tables_directory):
             cluster_df = pd.read_csv(os.path.join(
                 Tool_Consensus_2.extended_tables_directory, table_name    
             ))
             
-            consensus_cluster_df = Tool_Consensus_2._get_consensus(
-                cluster_df, table_name, rc_dictionary, len(cluster_df), tie_instances, unresolved_tie_instances
-            )
+            #consensus_cluster_df = Tool_Consensus_2._get_consensus(
+                #cluster_df, table_name, rc_dictionary, len(cluster_df), tie_instances, unresolved_tie_instances
+            #)
             consensus_cluster_R3DMA_df = Tool_Consensus_2._get_consensus(
                 cluster_df, table_name, rc_dictionary_R3DMA, len(cluster_df), tie_instances_without_R3DMA, unresolved_tie_instances_without_R3DMA
             )
-            consensus_cluster_FR_df = Tool_Consensus_2._get_consensus(
-                cluster_df, table_name, rc_dictionary_FR, len(cluster_df), tie_instances_without_FR, unresolved_tie_instances_without_FR
-            )
+            #consensus_cluster_FR_df = Tool_Consensus_2._get_consensus(
+                #cluster_df, table_name, rc_dictionary_FR, len(cluster_df), tie_instances_without_FR, unresolved_tie_instances_without_FR
+            #)
             
-            Tool_Consensus_2._output_df(consensus_cluster_df, consensus_cluster_R3DMA_df, consensus_cluster_FR_df, table_name)
+            #Tool_Consensus_2._output_df(consensus_cluster_df, consensus_cluster_R3DMA_df, consensus_cluster_FR_df, table_name)
+            Tool_Consensus_2._output_df(consensus_cluster_R3DMA_df, table_name)
         df = pd.DataFrame(tie_instances)
+        '''
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'tie_instances.csv'
         ), index=False)
@@ -73,6 +75,7 @@ class Tool_Consensus_2:
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances.csv'
         ), index=False)
+        '''
         
         df = pd.DataFrame(tie_instances_without_R3DMA)
         df.to_csv(os.path.join(
@@ -83,6 +86,7 @@ class Tool_Consensus_2:
             Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances_without_R3DMA.csv'
         ), index=False)
         
+        '''
         df = pd.DataFrame(tie_instances_without_FR)
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'tie_instances_without_FR.csv'
@@ -91,6 +95,7 @@ class Tool_Consensus_2:
         df.to_csv(os.path.join(
             Tool_Consensus_2.consensus_directory, 'unresolved_tie_instances_without_FR.csv'
         ), index=False)
+        '''
     
     # PRIVATE METHODS ---------------------------------------------------------
     @staticmethod
@@ -115,7 +120,7 @@ class Tool_Consensus_2:
     
     @staticmethod
     def _get_mode(cell, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances):
-        competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")]
+        competing_contact_types = [Tool_Consensus_2._standardize(contact_type) for contact_type in cell.split(",")][1:]
         if not competing_contact_types:
             return None
         '''
@@ -124,7 +129,7 @@ class Tool_Consensus_2:
             return 'INCOMPATIBLE'
         '''
 
-        counts = Counter(competing_contact_types)
+        counts = Counter(competing_contact_types) 
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
@@ -133,46 +138,51 @@ class Tool_Consensus_2:
         return mode
     
     @staticmethod
-    def _output_df(consensus_cluster_df, consensus_cluster_R3DMA_df, consensus_cluster_FR_df, table_name):
+    def _output_df(consensus_cluster_R3DMA_df, table_name):
+        '''
         consensus_cluster_df.to_csv(
             os.path.join(Tool_Consensus_2.mode_consensus_directory, 'AllTools', table_name), index=False
         )
+        '''
         consensus_cluster_R3DMA_df.to_csv(
             os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutR3DMA', table_name), index=False
         )
+        '''
         consensus_cluster_FR_df.to_csv(
             os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutFR', table_name), index=False
         )
+        '''
         
     @staticmethod
     def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances):
         for combine_contact_types in [False, True]:
             mode = None
-            max_count = 0
+            max_count = None
             for checking_consensus_count in [True, False]:
                 for contact_type in top_contact_types:
                     if 'INCOMPATIBLE' in contact_type or 'REJECT' in contact_type:
                         continue
                     rc, edge_based = Tool_Consensus_2._get_rc(combine_contact_types, rc_dictionary, table_name, column_name, contact_type)
                     counts = re.match(r"r(\d+)c(\d+)", rc)
+                        
                     if checking_consensus_count:
                         consensus_count = int(counts.group(2))
-                        if consensus_count == max_count:
-                            mode = None
-                            break
-                        if  consensus_count > max_count:
+                        if max_count is None or consensus_count > max_count:
                             max_count = consensus_count
                             mode = contact_type
-                    else: # comparing report counts instead
-                        report_count = int(counts.group(1))
-                        if report_count == max_count:
+                        elif consensus_count == max_count:
                             mode = None
                             break
-                        if report_count > max_count:
+                    else: # comparing report counts instead
+                        report_count = int(counts.group(1))
+                        if max_count is None or report_count > max_count:
                             max_count = report_count
                             mode = contact_type
+                        elif report_count == max_count:
+                            mode = None
+                            break
                 if mode == None:
-                    max_count = 0
+                    max_count = None
                 else:
                     if checking_consensus_count and not edge_based:
                         case = "contact type motif-wide consensus count"
@@ -241,7 +251,13 @@ class Tool_Consensus_2:
             # For now only return the one with the highest consensus count, but using the second one later could help resolve ties
             if counts_by_first_edge[1] > counts_by_second_edge[1]: # TODO could be a slight bias towards second edge since it happens when equal or greater than
                 return (f"r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}", True)
-            return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
+            elif counts_by_first_edge[1] < counts_by_second_edge[1]:
+                return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
+            if counts_by_first_edge[0] > counts_by_second_edge[0]:
+                return (f"r{counts_by_first_edge[0]}c{counts_by_first_edge[1]}", True)
+            elif counts_by_first_edge[0] < counts_by_second_edge[0]:
+                return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
+            return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True) # if equal
         
     @staticmethod
     def _standardize(contact_type):

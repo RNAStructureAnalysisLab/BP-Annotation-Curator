@@ -1,7 +1,7 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,1-6,2-4,2-5,2-6,1-2,3-4,1-5,5-6,4-5
-2,HL_7A0S_046,7A0S,0.5841,1,GNRA,X,LSU rRNA,C,1797,G,1798,A,1799,A,1800,A,1802,G,1803,cWW,INCOMPATIBLE,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-4,HL_4LFB_012,4LFB,0.4123,1,GNRA,A,SSU rRNA,C,458,G,459,A,460,G,462,A,463,G,474,cWW,INCOMPATIBLE,tSH,nbp,nbp,INCOMPATIBLE,nbp,nbp,nbp
-7,HL_5VSU_001,5VSU,0.5582,0,GNRA variation,I,U6 snRNA,U,70,G,71,C,72,A,73,U,74,A,75,cWW,INCOMPATIBLE,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+2,HL_7A0S_046,7A0S,0.5841,1,GNRA,X,LSU rRNA,C,1797,G,1798,A,1799,A,1800,A,1802,G,1803,cWW,,tSH,nbp,nbp,nbp,nbp,nbp,nbp
+4,HL_4LFB_012,4LFB,0.4123,1,GNRA,A,SSU rRNA,C,458,G,459,A,460,G,462,A,463,G,474,cWW,,tSH,nbp,nbp,,nbp,nbp,nbp
+7,HL_5VSU_001,5VSU,0.5582,0,GNRA variation,I,U6 snRNA,U,70,G,71,C,72,A,73,U,74,A,75,cWW,,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 9,HL_7Z4D_003,7Z4D,0.4659,0,GNRA,A,sgRNA,U,72,G,73,A,74,A,75,A,76,A,77,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 11,HL_8DP3_003,8DP3,0.4282,0,GNRA,R,RNA (90-MER),U,62,C,63,A,64,C,65,C,66,G,67,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 12,HL_6ASO_001,6ASO,0.3179,1,GNRA,I,U6 snRNA,U,70,G,71,C,72,U,74,A,75,A,76,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
@@ -14,10 +14,10 @@
 20,HL_4AL5_001,4AL5,0.2789,1,GNRA,B,RNA (20-mer),C,10,G,11,U,12,A,13,A,15,G,16,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 21,HL_2XLK_001,2XLK,0.2736,1,GNRA,C,RNA (16-mer),C,10,G,11,U,12,A,13,A,15,G,16,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 22,HL_7WKP_001,7WKP,0.321,1,GNRA,B,3' stem loop crRNA,C,10,G,11,C,12,A,13,A,15,G,16,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-27,HL_4WF9_021,4WF9,0.4753,1,GNRA,X,LSU rRNA,U,686,G,687,A,688,A,689,A,691,G,692,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
+27,HL_4WF9_021,4WF9,0.4753,1,GNRA,X,LSU rRNA,U,686,G,687,A,688,A,689,A,691,G,692,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 30,HL_1G1X_004,1G1X,0.3337,0,GNRA,I,16S RIBOSOMAL RNA,C,590,G,591,A,592,A,593,A,594,G,649,cWW,nbp,tWH,nbp,nbp,nbp,nbp,nbp,nbp
 31,HL_6LAX_002,6LAX,0.3068,0,GNRA,A,RNA (55-MER),U,42,G,43,A,44,A,45,A,46,A,47,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-34,HL_1U6B_004,1U6B,0.415,0,GNRA variation,B,197-MER,C,153,A,154,A,155,A,156,C,157,G,158,cWW,nbp,nbp,nbp,nbp,nbp,nbp,INCOMPATIBLE,nbp
+34,HL_1U6B_004,1U6B,0.415,0,GNRA variation,B,197-MER,C,153,A,154,A,155,A,156,C,157,G,158,cWW,nbp,nbp,nbp,nbp,nbp,nbp,,nbp
 35,HL_7U4A_001,7U4A,0.4653,0,GNRA variation,A,RNA (70-MER),C,13,G,14,A,15,A,16,A,17,G,18,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 37,HL_4QLM_001,4QLM,0.2926,0,GNRA,A,cyclic di-AMP riboswitch,C,54,G,55,A,56,A,57,A,58,G,59,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 38,HL_7A0S_005,7A0S,0.3026,0,GNRA,X,LSU rRNA,C,146,G,147,C,148,A,149,A,150,G,151,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
@@ -28,7 +28,7 @@
 44,HL_6UFH_005,6UFH,0.1611,0,GNRA,A,RNA (167-MER),C,145,G,146,A,147,A,148,A,149,G,150,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 45,HL_5FQ5_003,5FQ5,0.2318,0,GNRA,A,SGRNA,U,72,G,73,A,74,A,75,A,76,A,77,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 46,HL_7QR0_003,7QR0,0.204,0,GNRA,A,TRAC sgRNA,U,72,G,73,A,74,A,75,A,76,A,77,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-47,HL_5FQ5_001,5FQ5,0.1939,0,GNRA,A,SGRNA,A,32,G,33,A,34,A,35,A,36,U,37,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+47,HL_5FQ5_001,5FQ5,0.1939,0,GNRA,A,SGRNA,A,32,G,33,A,34,A,35,A,36,U,37,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 48,HL_4WF9_027,4WF9,0.2493,2,GNRA,X,LSU rRNA,U,999,G,1000,A,1001,A,1003,A,1004,G,1006,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 50,HL_7A0S_026,7A0S,0.1942,2,GNRA,X,LSU rRNA,A,966,G,967,C,968,A,970,A,971,U,973,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 51,HL_7KKV_003,7KKV,0.2549,1,GNRA,B,OLE* RNA,G,528,G,529,A,530,A,531,A,532,C,534,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
@@ -96,7 +96,7 @@
 131,HL_6DVK_001,6DVK,0.0896,0,GNRA,H,RNA (95-MER),G,45,G,46,A,47,A,48,A,49,C,50,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 132,HL_1GID_004,1GID,0.0996,0,GNRA,B,P4-P6 RNA RIBOZYME DOMAIN,G,149,G,150,A,151,A,152,A,153,C,154,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 133,HL_1G1X_001,1G1X,0.0729,0,GNRA,D,16S RIBOSOMAL RNA,C,590,G,591,A,592,A,593,A,594,G,649,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-136,HL_3PDR_001,3PDR,0.1351,0,GNRA,X,M-box riboswitch (ykoK leader),C,68,C,69,A,70,A,71,A,72,G,73,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
+136,HL_3PDR_001,3PDR,0.1351,0,GNRA,X,M-box riboswitch (ykoK leader),C,68,C,69,A,70,A,71,A,72,G,73,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 137,HL_1L9A_002,1L9A,0.1386,0,GNRA,B,signal recognition particle RNA S domain,G,197,G,198,A,199,A,200,A,201,C,202,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 141,HL_7R97_001,7R97,0.1426,0,GNRA,C,RNA (28-MER),C,11,G,12,C,13,A,14,A,15,G,16,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 142,HL_7A0S_063,7A0S,0.1362,0,GNRA,X,LSU rRNA,C,2637,G,2638,A,2639,G,2640,A,2641,G,2642,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
@@ -158,18 +158,18 @@
 224,HL_6UFH_002,6UFH,0.121,0,GNRA,A,RNA (167-MER),G,45,G,46,A,47,A,48,A,49,C,50,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 226,HL_5F9F_003,5F9F,0.1556,0,GNRA,F,RNA (24-mer),A,10,G,11,U,12,G,13,A,14,U,15,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 228,HL_6N2V_001,6N2V,0.1479,0,GNRA,A,X. oryzae Mn riboswitch optimized construct,G,24,G,25,A,26,A,27,A,28,C,29,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-229,HL_5B2T_001,5B2T,0.1284,0,GNRA,A,Guide RNA,A,32,G,33,A,34,A,35,A,36,U,37,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+229,HL_5B2T_001,5B2T,0.1284,0,GNRA,A,Guide RNA,A,32,G,33,A,34,A,35,A,36,U,37,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 232,HL_3SUX_002,3SUX,0.1506,0,GNRA,X,THF riboswitch,C,65,G,66,A,67,A,68,A,69,G,70,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 237,HL_7A0S_020,7A0S,0.2102,0,GNRA,X,LSU rRNA,C,640,G,641,A,642,A,643,A,644,G,645,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 238,HL_7A0S_057,7A0S,0.1844,0,GNRA,X,LSU rRNA,G,2353,G,2354,A,2355,A,2356,A,2357,C,2358,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-239,HL_4WF9_054,4WF9,0.2055,0,GNRA,X,LSU rRNA,C,2401,G,2402,A,2403,A,2404,A,2405,G,2406,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+239,HL_4WF9_054,4WF9,0.2055,0,GNRA,X,LSU rRNA,C,2401,G,2402,A,2403,A,2404,A,2405,G,2406,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 240,HL_1UN6_004,1UN6,0.1533,0,GNRA,F,5S RIBOSOMAL RNA,G,82,G,83,A,84,A,85,A,86,C,94,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-241,HL_4OQU_001,4OQU,0.1797,0,GNRA,A,SAM-I/IV riboswitch,G,13,G,14,A,15,G,16,A,17,C,18,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+241,HL_4OQU_001,4OQU,0.1797,0,GNRA,A,SAM-I/IV riboswitch,G,13,G,14,A,15,G,16,A,17,C,18,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 242,HL_6CB3_005,6CB3,0.1915,0,GNRA,B,RNA (99-MER),G,50,G,51,A,52,A,53,A,54,C,55,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 243,HL_6UFG_004,6UFG,0.1461,0,GNRA,A,RNA (166-MER),C,105,G,106,A,107,A,108,A,109,G,110,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 244,HL_6CU1_002,6CU1,0.202,0,GNRA,A,Y RNA-like,C,42,G,43,A,44,A,45,A,46,G,47,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 245,HL_8VU0_002,8VU0,0.1947,0,GNRA,C,tRNA,C,33,G,34,A,35,A,36,A,37,G,38,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-246,HL_4PQV_001,4PQV,0.2435,0,GNRA,A,Flavivirus 3' UTR stem loop IV,C,13,G,14,A,15,A,16,A,17,G,18,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+246,HL_4PQV_001,4PQV,0.2435,0,GNRA,A,Flavivirus 3' UTR stem loop IV,C,13,G,14,A,15,A,16,A,17,G,18,cWW,nbp,tWH,nbp,nbp,nbp,nbp,nbp,nbp
 247,HL_3E5C_002,3E5C,0.2004,0,GNRA,A,SMK box (SAM-III) Riboswitch,C,41,G,42,A,43,A,44,A,45,G,46,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 254,HL_5VW1_003,5VW1,0.2251,0,GNRA with GA tSW pair,C,sgRNA,U,72,G,73,A,74,A,75,A,76,A,77,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 255,HL_4ZT0_006,4ZT0,0.2381,0,GNRA with GA tSW pair,D,single-guide RNA,U,72,G,73,A,74,A,75,A,76,A,77,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
@@ -181,7 +181,7 @@
 261,HL_4LVW_002,4LVW,0.2619,0,GNRA,A,THF riboswitch,C,58,G,59,A,60,G,61,A,62,G,63,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 262,HL_7A0S_070,7A0S,0.2306,0,GNRA,Y,5S rRNA,C,88,G,89,C,90,A,91,G,92,G,93,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 264,HL_4WF9_065,4WF9,0.2689,0,GNRA,X,LSU rRNA,G,2876,G,2877,U,2878,G,2879,A,2880,C,2881,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-265,HL_7MRL_002,7MRL,0.227,0,GNRA,A,tRNA,G,34,G,35,A,36,A,37,A,38,C,39,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+265,HL_7MRL_002,7MRL,0.227,0,GNRA,A,tRNA,G,34,G,35,A,36,A,37,A,38,C,39,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 266,HL_6DME_001,6DME,0.206,0,GNRA,A,ppGpp Riboswitch,C,25,G,26,A,27,G,28,A,29,G,30,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 269,HL_4QK9_002,4QK9,0.2049,0,GNRA,A,C-di-AMP riboswitch,C,56,G,57,U,58,A,59,A,60,G,61,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 270,HL_6U8D_002,6U8D,0.1505,0,GNRA,A,JIIIabc RNA (68-MER),G,180,G,198,A,199,A,200,A,201,C,219,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
@@ -189,11 +189,11 @@
 272,HL_7MKY_002,7MKY,0.1667,0,GNRA,A,RNA (66-MER),G,40,G,41,A,42,A,43,A,44,C,45,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 273,HL_2OIU_003,2OIU,0.1853,0,GNRA,P,L1 Ribozyme RNA Ligase,C,59,G,60,A,61,A,62,A,63,G,64,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 274,HL_3NPQ_001,3NPQ,0.2357,0,GNRA,A,S-ADENOSYLHOMOCYSTEINE RIBOSWITCH,C,20,G,21,A,22,G,23,A,24,G,25,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-275,HL_4WF9_020,4WF9,0.2155,0,GNRA,X,LSU rRNA,C,674,G,675,A,676,A,677,A,678,G,679,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+275,HL_4WF9_020,4WF9,0.2155,0,GNRA,X,LSU rRNA,C,674,G,675,A,676,A,677,A,678,G,679,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 276,HL_1U9S_004,1U9S,0.1698,0,GNRA,A,RIBONUCLEASE P,G,204,G,205,C,206,A,207,A,208,C,209,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 278,HL_2NZ4_008,2NZ4,0.1988,0,,Q,GlmS ribozyme,G,108,G,109,U,110,G,111,A,112,C,113,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 279,HL_7A0S_068,7A0S,0.2066,0,GNRA,X,LSU rRNA,A,2831,G,2832,C,2833,A,2834,A,2835,U,2836,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-280,HL_4LFB_028,4LFB,0.2202,0,GNRA,A,SSU rRNA,G,1265,G,1266,C,1267,A,1268,A,1269,C,1270,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+280,HL_4LFB_028,4LFB,0.2202,0,GNRA,A,SSU rRNA,G,1265,G,1266,C,1267,A,1268,A,1269,C,1270,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 282,HL_4LFB_024,4LFB,0.2834,0,GNRA,A,SSU rRNA,C,1076,G,1077,U,1078,G,1079,A,1080,G,1081,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 286,HL_2Z75_004,2Z75,0.2682,0,GNRA,B,glmS ribozyme,G,113,G,114,C,115,G,116,A,117,C,118,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 287,HL_3IGI_003,3IGI,0.2434,0,GNRA,A,Group IIC intron,G,89,G,90,C,91,G,92,A,93,C,94,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
@@ -201,7 +201,7 @@
 293,HL_7KKV_001,7KKV,0.2577,0,GNRA,B,OLE* RNA,G,500,G,501,U,502,G,503,A,504,C,505,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 297,HL_4YAZ_003,4YAZ,0.2444,0,GNRA,R,Cyclic di-GMP-I riboswitch,C,25,G,26,C,27,G,28,A,29,G,30,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 298,HL_4WFL_003,4WFL,0.2196,0,GNRA,A,LSRP RNA,G,81,G,82,U,83,A,84,A,85,C,86,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
-302,HL_4WF9_015,4WF9,0.2139,0,GNRA,X,LSU rRNA,C,508,G,509,U,510,G,511,A,512,G,513,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+302,HL_4WF9_015,4WF9,0.2139,0,GNRA,X,LSU rRNA,C,508,G,509,U,510,G,511,A,512,G,513,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 306,HL_5U3G_002,5U3G,0.2139,0,GNRA,B,Guanidine-I riboswitch,C,47,G,48,A,49,A,50,A,51,G,52,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 307,HL_7A0S_062,7A0S,0.2443,0,GNRA,X,LSU rRNA,C,2573,G,2574,U,2575,G,2576,A,2577,G,2578,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp
 309,HL_4WF9_059,4WF9,0.2957,0,GNRA,X,LSU rRNA,C,2621,G,2622,U,2623,G,2624,A,2625,G,2626,cWW,nbp,tSH,nbp,nbp,nbp,nbp,nbp,nbp

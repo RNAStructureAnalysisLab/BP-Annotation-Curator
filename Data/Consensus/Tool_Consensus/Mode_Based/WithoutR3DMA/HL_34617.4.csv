@@ -1,6 +1,6 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,2-4,3-4,2-5,4-5,2-3
-1,HL_3V7E_002,3V7E,0.4215,1,UNCG variation,C,SAM-I riboswitch,C,65,U,66,C,68,G,69,G,70,cWW,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-3,HL_7MLW_002,7MLW,0.2719,1,UNCG,F,Guanidine-I riboswitch,G,80,U,81,C,83,G,84,C,85,cWW,INCOMPATIBLE,nbp,nbp,INCOMPATIBLE,nbp
+1,HL_3V7E_002,3V7E,0.4215,1,UNCG variation,C,SAM-I riboswitch,C,65,U,66,C,68,G,69,G,70,cWW,,,nbp,nbp,nbp
+3,HL_7MLW_002,7MLW,0.2719,1,UNCG,F,Guanidine-I riboswitch,G,80,U,81,C,83,G,84,C,85,cWW,,nbp,nbp,,nbp
 4,HL_6JQ6_004,6JQ6,0.2704,1,UNCG,U,RNA (81-MER),C,45,U,46,C,48,G,49,G,50,cWW,nbp,nbp,nbp,nbp,nbp
 5,HL_6CK5_001,6CK5,0.1729,1,UNCG,A,Guanidine-I riboswitch,A,27,U,28,U,30,G,31,U,32,cWW,tSW,nbp,nbp,nbp,nbp
 7,HL_1NBS_006,1NBS,0.2077,1,UNCG,B,RNase P class B,C,152,U,153,C,155,G,156,G,157,cWW,tSW,nbp,nbp,nbp,nbp

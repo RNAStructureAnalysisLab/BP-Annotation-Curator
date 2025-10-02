@@ -1,6 +1,6 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,1-5,2-4,2-5,3-4
-1,HL_4WF9_048,4WF9,0.7842,2,X,LSU rRNA,C,2236,U,2237,A,2239,C,2241,G,2242,cWW,INCOMPATIBLE,nbp,INCOMPATIBLE
-3,HL_9F37_001,9F37,0.0883,1,V,5' end of the vRNA promoter,U,3,A,4,G,5,A,7,A,8,cWW,INCOMPATIBLE,nbp,nbp
+1,HL_4WF9_048,4WF9,0.7842,2,X,LSU rRNA,C,2236,U,2237,A,2239,C,2241,G,2242,cWW,,nbp,
+3,HL_9F37_001,9F37,0.0883,1,V,5' end of the vRNA promoter,U,3,A,4,G,5,A,7,A,8,cWW,,nbp,nbp
 4,HL_7Z42_002,7Z42,0.0782,1,V,RNA (13-mer),U,3,A,4,G,5,A,7,A,8,cWW,cSW,nbp,nbp
 5,HL_5FMZ_001,5FMZ,0.0717,1,H,RNA (12-mer),U,3,A,4,G,5,A,7,A,8,cWW,cSW,nbp,nbp
 6,HL_6QCW_001,6QCW,0.0666,1,V,RNA (14-mer),U,3,A,4,G,5,A,7,A,8,cWW,cSW,nbp,nbp

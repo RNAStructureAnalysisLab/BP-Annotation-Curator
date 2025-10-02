@@ -10,5 +10,5 @@
 11,HL_1QF6_001,1QF6,0.0,5,tRNA D-loop,B,tRNA,C,13,A,14,G,15,A,21,G,22,cWW,cWS,nbp,nbp
 12,HL_7MRL_001,7MRL,0.1111,5,tRNA D-loop,A,tRNA,C,13,A,14,G,15,A,21,G,22,cWW,cWS,nbp,nbp
 13,HL_7LYF_001,7LYF,0.1964,5,tRNA D-loop,A,tRNA,C,13,A,14,G,15,A,21,G,22,cWW,cWS,nbp,nbp
-14,HL_8SP9_001,8SP9,0.2207,5,tRNA D-loop,C,"tRNA scaffold,CVB3 Cloverleaf RNA",C,13,A,14,G,15,A,21,G,22,cWW,cWS,nbp,nbp
+14,HL_8SP9_001,8SP9,0.2207,5,tRNA D-loop,C,"tRNA scaffold,CVB3 Cloverleaf RNA",C,13,A,14,G,15,A,21,G,22,cWW,nbp,nbp,nbp
 15,HL_1FIR_004,1FIR,0.23,5,tRNA D-loop,A,tRNA,C,13,A,14,G,15,A,21,G,22,cWW,cWS,nbp,nbp

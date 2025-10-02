@@ -1,4 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,2-4,2-5,4-5
-1,HL_6MJ0_007,6MJ0,0.7443,3,D-loop related,B,tRNA-like 3' UTR element,C,32,C,33,U,36,U,37,G,39,cWW,nbp,nbp,nbp
-3,HL_4WJ4_002,4WJ4,0.0,4,,B,tRNA,A,31,C,32,U,35,A,38,U,39,cWW,cWW,nbp,nbp
-4,HL_3KFU_005,3KFU,0.2747,4,,L,tRNA,G,31,C,32,U,35,A,38,C,39,cWW,cWW,nbp,nbp

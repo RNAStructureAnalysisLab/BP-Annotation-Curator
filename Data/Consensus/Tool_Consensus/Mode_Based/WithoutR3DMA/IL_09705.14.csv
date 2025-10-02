@@ -2,11 +2,11 @@
 4,IL_3DIL_002,3DIL,0.4666,0,Double sheared,A,RNA (174-MER),C,70,G,71,A,72,G,73,*,C,19,G,20,A,21,G,22,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 9,IL_4LFB_060,4LFB,0.1692,0,Double sheared,A,SSU rRNA,U,1481,G,1482,A,1483,C,1484,*,G,1416,G,1417,A,1418,G,1419,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 10,IL_4KZD_002,4KZD,0.2017,0,Double sheared,R,RNA (84-MER),U,71,A,72,A,73,C,74,*,G,11,A,12,A,13,A,14,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-11,IL_9BZC_001,9BZC,0.1772,0,Double sheared,A,RNA (87-MER),U,9,G,10,A,11,C,12,*,G,36,A,37,A,38,G,39,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,INCOMPATIBLE,nbp,nbp,nbp,nbp,nbp
+11,IL_9BZC_001,9BZC,0.1772,0,Double sheared,A,RNA (87-MER),U,9,G,10,A,11,C,12,*,G,36,A,37,A,38,G,39,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,,nbp,nbp,nbp,nbp,nbp
 12,IL_4XWF_001,4XWF,0.1502,0,Double sheared,A,ZMP/ZTP riboswitch,U,7,G,8,A,9,C,10,*,G,36,G,37,A,38,G,39,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 13,IL_5BTP_004,5BTP,0.1631,0,Double sheared,B,RNA (62-MER),U,12,G,13,A,14,C,15,*,G,41,A,42,A,43,G,44,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 14,IL_6WZR_001,6WZR,0.1707,0,Double sheared,A,ZMP/ZTP riboswitch,U,12,G,13,A,14,C,15,*,G,41,A,42,A,43,G,44,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-15,IL_5AOX_003,5AOX,0.1577,0,Double sheared,C,ALU JO CONSENSUS RNA,A,105,G,106,A,107,C,108,*,G,58,G,59,A,60,U,61,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,INCOMPATIBLE,nbp,nbp,nbp,nbp,nbp
+15,IL_5AOX_003,5AOX,0.1577,0,Double sheared,C,ALU JO CONSENSUS RNA,A,105,G,106,A,107,C,108,*,G,58,G,59,A,60,U,61,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,,nbp,nbp,nbp,nbp,nbp
 16,IL_3D0U_002,3D0U,0.1874,0,Double sheared,A,Lysine Riboswitch RNA,C,67,G,68,A,69,G,70,*,C,16,G,17,A,18,G,19,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 17,IL_1SA9_002,1SA9,0.181,0,Double sheared,D+C,RNA (8-mer),C,211,G,212,A,213,G,214,*,C,203,G,204,A,205,G,206,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 18,IL_1SAQ_005,1SAQ,0.1971,0,,C+D,RNA (8-mer),C,203,G,204,A,205,G,206,*,C,211,G,212,A,213,G,214,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
@@ -15,7 +15,7 @@
 25,IL_7A0S_081,7A0S,0.1471,0,Double sheared,X,LSU rRNA,C,2329,G,2330,A,2331,G,2332,*,C,2343,G,2344,A,2345,G,2346,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 27,IL_6YL5_010,6YL5,0.259,0,Double sheared,I,"Chains: A,B,C,D,E,F,G,H,I,J,K,L",C,12,A,13,A,14,C,15,*,G,24,G,25,C,26,G,27,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 28,IL_6YML_002,6YML,0.2646,0,Double sheared,A,"Chains: A,C",C,12,A,13,A,14,C,15,*,G,24,G,25,C,26,G,27,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-29,IL_8T29_001,8T29,0.284,0,Double sheared; A in syn,R,RNA (90-MER),G,80,A,81,A,82,G,83,*,C,8,G,9,A,10,C,11,cWW,nbp,tSH,tWS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,INCOMPATIBLE
+29,IL_8T29_001,8T29,0.284,0,Double sheared; A in syn,R,RNA (90-MER),G,80,A,81,A,82,G,83,*,C,8,G,9,A,10,C,11,cWW,nbp,tSH,tWS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,
 30,IL_4UYK_005,4UYK,0.2605,0,Double sheared,R,SRP RNA,C,121,C,122,A,123,C,124,*,G,77,G,78,C,79,G,80,cWW,nbp,cWW,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 31,IL_4ZNP_002,4ZNP,0.2358,0,Double sheared,A,pfI Riboswitch,G,9,G,10,A,11,C,12,*,G,37,G,38,A,39,C,40,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-34,IL_4LFB_067,4LFB,0.3546,0,Double sheared,A,SSU rRNA,C,1259,C,1260,A,1261,C,1262,*,G,1273,G,1274,A,1275,G,1276,cWW,cWW,tSH,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+34,IL_4LFB_067,4LFB,0.3546,0,Double sheared,A,SSU rRNA,C,1259,C,1260,A,1261,C,1262,*,G,1273,G,1274,A,1275,G,1276,cWW,cWW,nbp,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

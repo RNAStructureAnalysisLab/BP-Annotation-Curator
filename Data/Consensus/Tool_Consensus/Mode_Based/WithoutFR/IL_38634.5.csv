@@ -1,3 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,4-5,3-6
-1,IL_3D2V_003,3D2V,0.0,2,cWH basepair and non-canonical AC,A,TPP riboswitch (THI element),U,47,G,48,A,49,C,51,*,G,64,C,65,G,66,A,68,cWW,cWH,cWW,nbp
-2,IL_3K0J_003,3K0J,0.1501,2,cWH basepair and non-canonical AC,E,RNA (87-MER),U,59,G,60,A,61,C,63,*,G,76,C,77,G,78,A,80,cWW,cWH,cWW,nbp

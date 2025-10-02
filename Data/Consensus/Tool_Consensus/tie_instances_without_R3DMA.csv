@@ -1,342 +1,149 @@
 cluster,PDB,column,tied_contact_types,consensus,resolved_with,rows_in_cluster
-HL_01962.2.csv,4WF9,3-5,"['nbp', 'tHH']",tHH,contact type report count,1
-HL_04171.7.csv,4LX6,5-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
-HL_04171.7.csv,4XNR,5-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
-HL_04171.7.csv,1Y26,5-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
-HL_04171.7.csv,3IVN,5-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
-HL_04783.2.csv,3EPH,2-4,"['nbp', 'cWW']",nbp,contact type report count,6
-HL_05304.3.csv,7A0S,4-11,"['cWW', 'nbp']",nbp,contact type report count,2
-HL_06059.4.csv,6UFH,2-8,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,21
-HL_06059.4.csv,3WFS,2-8,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,21
-HL_06059.4.csv,3W3S,2-8,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,21
-HL_07480.1.csv,2DU3,2-6,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,3
-HL_10456.1.csv,3DIL,2-4,"['nbp', 'cSH']",cSH,contact type report count,2
-HL_15574.1.csv,6VMY,4-6,"['nbp', 'tSW', 'tSS']",nbp,contact type report count,2
-HL_18565.1.csv,2ZZN,3-5,"['cSH', 'cWH', 'nbp']",nbp,contact type report count,2
-HL_19210.3.csv,1MMS,2-9,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,3
-HL_20743.5.csv,3SKL,4-6,"['nbp', 'cSS']",cSS,contact type motif-wide consensus count,7
-HL_20743.5.csv,5KPY,4-6,"['cSS', 'nbp']",cSS,contact type motif-wide consensus count,7
-HL_20743.5.csv,6P2H,4-6,"['cSS', 'nbp']",cSS,contact type motif-wide consensus count,7
-HL_20811.3.csv,8SP9,2-4,"['cWS', 'nbp', 'tWS']",cWS,contact type motif-wide consensus count,13
-HL_27670.2.csv,7A0S,2-3,"['nbp', 'tWW', 'REJECT']",tWW,contact type report count,8
-HL_28252.5.csv,5E6M,2-6,"['nbp', 'tWW']",nbp,contact type report count,99
-HL_28252.5.csv,4QEI,2-6,"['nbp', 'tWW']",nbp,contact type report count,99
-HL_30068.2.csv,4WF9,2-5,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,5
-HL_31585.3.csv,1Y27,2-5,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,13
-HL_31585.3.csv,4LX6,2-5,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,13
-HL_35354.1.csv,6E8S,14-20,"['nbp', 'tWW']",tWW,contact type report count,1
-HL_35354.1.csv,6E8S,9-15,"['nbp', 'cWH']",cWH,contact type report count,1
-HL_35677.3.csv,7D8O,4-5,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,6
-HL_36335.1.csv,5WLH,4-6,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,2
-HL_36335.1.csv,5W1H,3-7,"['cSS', 'nbp']",nbp,contact type report count,2
-HL_36335.1.csv,5WLH,3-7,"['cSS', 'nbp']",nbp,contact type report count,2
+HL_04171.7.csv,3LA5,4-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
+HL_04171.7.csv,4XNR,4-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
+HL_04171.7.csv,1Y26,4-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
+HL_04171.7.csv,8KEB,4-7,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,9
+HL_04783.2.csv,4C9D,2-4,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,6
+HL_06059.4.csv,4YCO,3-6,"['nbp', 'tSH']",nbp,contact type motif-wide consensus count,21
+HL_06059.4.csv,6CAQ,3-6,"['tWH', 'nbp']",nbp,contact type motif-wide consensus count,21
+HL_06059.4.csv,4B3M,3-6,"['nbp', 'tSH']",nbp,contact type motif-wide consensus count,21
+HL_06059.4.csv,1N33,3-6,"['tWH', 'nbp']",nbp,contact type motif-wide consensus count,21
+HL_06059.4.csv,4R4V,3-6,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,21
+HL_06059.4.csv,3WFS,3-6,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,21
+HL_10540.1.csv,5JEA,1-7,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,2
+HL_18565.1.csv,2ZZN,3-5,"['cWH', 'nbp']",nbp,contact type motif-wide consensus count,2
+HL_19210.3.csv,5D8H,2-9,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,3
+HL_20743.5.csv,3SKI,4-6,"['cSS', 'cWS']",cSS,contact type motif-wide consensus count,7
+HL_20811.3.csv,8SP9,2-4,"['nbp', 'tWS']",nbp,contact type motif-wide consensus count,13
+HL_27670.2.csv,7A0S,2-3,"['tWW', 'REJECT']",tWW,contact type motif-wide consensus count,8
+HL_28252.5.csv,5B63,3-5,"['REJECT', 'nbp']",nbp,contact type motif-wide consensus count,99
+HL_36335.1.csv,5W1H,4-6,"['cSS', 'nbp']",nbp,contact type motif-wide consensus count,2
+HL_37824.6.csv,7A0S,2-5,"['tWH', 'tSH']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,5FQ5,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,8SYK,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,5F9R,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,6UFH,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,5B2T,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,7A0S,2-5,"['tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
 HL_37824.6.csv,4WF9,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,7A0S,2-5,"['nbp', 'tWH', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,3PDR,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,5F9F,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,7A0S,2-5,"['nbp', 'tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,4PQV,2-5,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,229
-HL_37824.6.csv,5VW1,2-5,"['tSS', 'nbp']",nbp,contact type report count,229
-HL_37824.6.csv,4LVW,2-5,"['nbp', 'tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,4WF9,2-5,"['nbp', 'tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,6U8D,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,3NPQ,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,4LFB,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,2Z75,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,7KKV,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,4WF9,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,6UFH,2-5,"['nbp', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,6SVS,2-5,"['nbp', 'tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
-HL_37824.6.csv,6JDV,2-5,"['nbp', 'tWH', 'tSH']",tSH,contact type motif-wide consensus count,229
-HL_38649.1.csv,7MLX,2-9,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,4
-HL_38808.1.csv,2DU3,2-3,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,4
-HL_50621.1.csv,2CZJ,1-3,"['cWW', 'nbp', 'cSW']",cWW,contact type report count,2
-HL_52953.2.csv,6U8D,3-4,"['cSS', 'nbp']",nbp,contact type report count,7
-HL_53504.3.csv,2A64,4-7,"['nbp', 'tHW']",nbp,contact type report count,2
-HL_55436.1.csv,6VMY,2-9,"['nbp', 'cWH', 'cWW']",cWW,contact type report count,4
-HL_57863.1.csv,5BJO,2-8,"['nbp', 'cWW']",cWW,contact type report count,1
-HL_66853.7.csv,7UZ0,4-5,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,11
-HL_67407.3.csv,5BTP,2-9,"['nbp', 'cHW']",nbp,contact type motif-wide consensus count,10
-HL_68572.1.csv,4GCW,4-6,"['cWS', 'nbp']",nbp,contact type report count,2
-HL_69139.1.csv,4WF9,3-9,"['nbp', 'cWW']",cWW,contact type report count,1
-HL_73266.8.csv,7KVT,4-5,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,12
-HL_73266.8.csv,3LA5,4-5,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,12
-HL_73266.8.csv,4LX6,4-5,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,12
-HL_73266.8.csv,4XNR,4-5,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,12
-HL_77436.4.csv,4JXZ,2-6,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,10
-HL_77436.4.csv,3IVK,2-6,"['tSH', 'nbp']",nbp,contact type report count,10
-HL_78197.1.csv,6UFG,2-7,"['tWW', 'nbp']",nbp,contact type report count,5
-HL_80709.2.csv,5KK5,4-5,"['cWS', 'nbp']",nbp,contact type report count,10
-HL_81545.2.csv,7A0S,2-6,"['nbp', 'tWW']",nbp,contact type report count,2
-HL_85434.1.csv,8VM9,3-8,"['nbp', 'cWW']",cWW,contact type report count,1
-HL_87553.1.csv,5H9F,3-6,"['nbp', 'cHW']",nbp,contact type motif-wide consensus count,3
-HL_87553.1.csv,5H9F,3-5,"['nbp', 'cHW']",nbp,contact type motif-wide consensus count,3
-HL_87553.1.csv,6CF2,2-6,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,3
-HL_87553.1.csv,5H9F,2-6,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,3
-HL_91641.1.csv,2QWY,5-11,"['nbp', 'cSW']",cSW,contact type report count,1
-HL_91939.2.csv,4WF9,2-10,"['tSH', 'nbp', 'tWH']",nbp,contact type motif-wide consensus count,2
-HL_97756.2.csv,5NS3,7-11,"['nbp', 'tSH']",tSH,contact type report count,3
-IL_01488.2.csv,6UFH,6-9,"['tHS', 'nbp']",tHS,contact type report count,6
-IL_01488.2.csv,4GXY,6-9,"['tHS', 'nbp']",tHS,contact type report count,6
-IL_01488.2.csv,4GXY,5-10,"['nbp', 'tHS', 'tHW']",tHS,contact type motif-wide consensus count,6
-IL_01488.2.csv,4WF9,5-10,"['tSS', 'nbp']",nbp,contact type report count,6
-IL_01488.2.csv,1T0K,2-11,"['tSS', 'nbp']",nbp,contact type motif-wide consensus count,6
-IL_01994.1.csv,5T83,4-7,"['tHS', 'nbp']",tHS,contact type motif-wide consensus count,3
-IL_01994.1.csv,6DLR,3-4,"['cSH', 'nbp']",nbp,contact type report count,3
-IL_02555.1.csv,4WF9,2-4,"['tSH', 'nbp']",nbp,contact type report count,4
-IL_02555.1.csv,8DP3,2-3,"['nbp', 'cWH']",nbp,contact type motif-wide consensus count,4
-IL_03109.2.csv,4LFB,2-6,"['tWH', 'nbp']",nbp,contact type report count,1
-IL_04021.2.csv,7A0S,5-10,"['tHS', 'nbp']",tHS,contact type report count,2
-IL_04332.3.csv,7A0S,4-13,"['tWS', 'nbp']",nbp,contact type report count,1
-IL_04332.3.csv,7A0S,3-9,"['nbp', 'cWW']",cWW,contact type report count,1
-IL_04346.10.csv,4WF9,6-11,"['nbp', 'tHH']",tHH,contact type report count,6
-IL_04346.10.csv,7A0S,4-12,"['nbp', 'tWH']",tWH,contact type report count,6
-IL_04346.10.csv,1JBR,2-14,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_05192.4.csv,7A0S,5-8,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,3
-IL_05192.4.csv,7A0S,3-4,"['cSH', 'nbp']",nbp,contact type report count,3
-IL_05192.4.csv,7A0S,2-9,"['nbp', 'cWW']",nbp,contact type report count,3
-IL_08069.1.csv,7DLZ,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,12
-IL_08069.1.csv,7A0S,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,12
-IL_09705.14.csv,4LFB,2-7,"['tSH', 'nbp', 'REJECT']",tSH,contact type motif-wide consensus count,20
-IL_10389.1.csv,8D29,4-7,"['cWW', 'nbp']",cWW,contact type report count,2
-IL_13404.2.csv,4WF9,3-5,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,6
-IL_14368.1.csv,5DCV,3-5,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,6
-IL_15052.4.csv,3IWN,3-6,"['cWS', 'nbp', 'cWW']",nbp,contact type report count,4
-IL_15052.4.csv,4LFB,3-6,"['cWS', 'nbp']",nbp,contact type report count,4
-IL_15107.1.csv,8D29,4-17,"['cWW', 'nbp']",nbp,contact type report count,1
-IL_15698.3.csv,3V7E,3-4,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,5
-IL_15698.3.csv,4AOB,2-6,"['tSH', 'nbp']",nbp,contact type report count,5
-IL_15698.3.csv,4OQU,2-6,"['tSH', 'nbp']",nbp,contact type report count,5
-IL_15698.3.csv,5FJC,2-6,"['tSH', 'nbp']",nbp,contact type report count,5
-IL_15698.3.csv,4KQY,2-6,"['tSH', 'nbp']",nbp,contact type report count,5
-IL_16458.4.csv,7A0S,2-12,"['nbp', 'cWW']",cWW,prioritized non-nbp,2
-IL_17948.2.csv,6ZDP,5-7,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,6
-IL_17948.2.csv,6ZDP,2-10,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,6
-IL_17948.2.csv,6ZDP,4-7,"['cWW', 'nbp']",nbp,contact type report count,6
-IL_17948.2.csv,7A0S,2-9,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_17973.1.csv,6UFG,13-14,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_18472.4.csv,7A0S,7-9,"['nbp', 'cSH']",cSH,contact type report count,1
-IL_19048.1.csv,4WF9,3-13,"['nbp', 'cWW']",cWW,contact type report count,1
-IL_19516.1.csv,8T29,2-3,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_22373.1.csv,6DLR,3-5,"['cSH', 'cWH']",cWH,contact type report count,4
-IL_22373.1.csv,5T83,3-4,"['cSH', 'nbp']",nbp,contact type report count,4
-IL_22373.1.csv,7MLW,3-4,"['cSH', 'nbp']",nbp,contact type report count,4
-IL_22373.1.csv,6DLR,3-4,"['cSH', 'nbp']",nbp,contact type report count,4
-IL_25186.4.csv,4WF9,4-7,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_26222.2.csv,4WF9,2-4,"['cSH', 'nbp']",nbp,contact type report count,2
-IL_26222.2.csv,7A0S,2-4,"['cSH', 'nbp']",nbp,contact type report count,2
-IL_28037.1.csv,4WF9,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,41
-IL_28037.1.csv,4KYY,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,41
-IL_28037.1.csv,4ZC7,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,41
-IL_28037.1.csv,6SX2,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,41
-IL_28564.1.csv,6DTD,2-6,"['nbp', 'cWW']",cWW,contact type report count,1
-IL_28564.1.csv,6DTD,1-3,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_29346.1.csv,3PDR,2-3,"['nbp', 'cSH']",nbp,contact type report count,2
-IL_30441.1.csv,8GXB,1-3,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_31084.1.csv,1L9A,5-11,"['nbp', 'cWH']",cWH,contact type report count,1
-IL_33623.1.csv,5T83,6-11,"['tHH', 'nbp']",nbp,contact type report count,1
-IL_33886.1.csv,1NTA,8-10,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_36516.3.csv,6CK5,4-7,"['tHS', 'nbp']",nbp,contact type report count,6
-IL_36516.3.csv,6M0X,3-5,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,6
-IL_36516.3.csv,6CK5,3-5,"['cSH', 'cWH']",cSH,contact type report count,6
-IL_36516.3.csv,6CK5,3-4,"['cSH', 'nbp']",nbp,contact type report count,6
-IL_37722.1.csv,4LFB,5-14,"['nbp', 'tSS']",tSS,contact type report count,1
-IL_38507.2.csv,7A0S,2-9,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,3
-IL_38507.2.csv,7A0S,1-9,"['nbp', 'cWW']",cWW,contact type report count,3
-IL_41203.3.csv,4WF9,5-6,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,3
-IL_42032.1.csv,4LFB,3-7,"['tWH', 'nbp']",nbp,contact type report count,1
-IL_43140.1.csv,7OAX,2-8,"['tHH', 'nbp']",nbp,contact type report count,1
-IL_43547.1.csv,6UFH,3-16,"['tHH', 'nbp']",tHH,contact type motif-wide consensus count,3
-IL_44465.1.csv,5UNE,2-5,"['nbp', 'cWW']",cWW,contact type report count,3
-IL_45896.1.csv,3IAB,4-6,"['nbp', 'cWH']",cWH,contact type report count,1
-IL_47108.1.csv,5Y7M,5-8,"['tHH', 'nbp']",nbp,contact type report count,1
-IL_48076.5.csv,1I6U,2-4,"['tSH', 'nbp']",nbp,contact type report count,25
-IL_48076.5.csv,1S03,2-4,"['tSH', 'nbp']",nbp,contact type report count,25
-IL_48076.5.csv,1S03,2-4,"['tSH', 'nbp']",nbp,contact type report count,25
-IL_48076.5.csv,1G1X,2-3,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,25
-IL_48076.5.csv,1G1X,2-3,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,25
+HL_37824.6.csv,4OQU,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,4ZT0,2-5,"['tSW', 'nbp']",nbp,contact type motif-wide consensus count,229
+HL_37824.6.csv,5DDO,2-5,"['tSW', 'nbp']",nbp,contact type motif-wide consensus count,229
+HL_37824.6.csv,4LVW,2-5,"['tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,4WF9,2-5,"['tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,7MRL,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,4WF9,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,4LFB,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,4WF9,2-5,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,6SVS,2-5,"['tSH', 'tWH']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,6JDV,2-5,"['tWH', 'tSH']",tSH,contact type motif-wide consensus count,229
+HL_37824.6.csv,1NBS,2-4,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,229
+HL_38649.1.csv,2A64,2-9,"['tSH', 'nbp']",tSH,edge-based report count,4
+HL_50621.1.csv,2CZJ,1-3,"['nbp', 'cSW']",nbp,contact type report count,2
+HL_53890.2.csv,7A0S,2-4,"['cSW', 'nbp', 'REJECT', 'tSW', 'tSH']",cSW,contact type motif-wide consensus count,8
+HL_55436.1.csv,6VMY,2-9,"['cWH', 'cWW']",cWW,contact type motif-wide consensus count,4
+HL_56131.2.csv,3WQY,1-3,"['cWH', 'nbp']",nbp,contact type motif-wide consensus count,6
+HL_57875.1.csv,3NDB,2-3,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,4
+HL_64690.6.csv,2DER,2-7,"['nbp', 'REJECT']",nbp,contact type motif-wide consensus count,3
+HL_66853.7.csv,4WJ4,4-5,"['cSW', 'nbp']",nbp,contact type motif-wide consensus count,11
+HL_67407.3.csv,9BZC,2-9,"['cHW', 'nbp']",nbp,contact type motif-wide consensus count,10
+HL_67407.3.csv,4ZNP,2-9,"['cHW', 'nbp']",nbp,contact type motif-wide consensus count,10
+HL_74055.2.csv,4WF9,2-12,"['cWW', 'nbp']",nbp,contact type report count,2
+HL_77082.1.csv,7PMQ,2-7,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,5
+HL_77436.4.csv,4WF9,3-6,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,10
+HL_77436.4.csv,4JXZ,3-5,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,10
+HL_77436.4.csv,3IVK,3-5,"['nbp', 'tSH']",nbp,contact type motif-wide consensus count,10
+HL_77436.4.csv,3K0J,2-6,"['tWH', 'nbp']",nbp,contact type motif-wide consensus count,10
+HL_78197.1.csv,6UFG,2-7,"['nbp', 'cWH']",nbp,contact type motif-wide consensus count,5
+HL_81538.2.csv,3HHN,2-7,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,8
+HL_87553.1.csv,2CSX,3-6,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,3
+HL_91939.2.csv,7A0S,2-10,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,2
+HL_91939.2.csv,4WF9,2-10,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,2
+HL_93135.1.csv,7A0S,5-7,"['nbp', 'cSH']",cSH,edge-based report count,1
+IL_01488.2.csv,4GXY,5-10,"['tHS', 'tHW']",tHS,contact type motif-wide consensus count,6
+IL_04021.2.csv,7A0S,2-13,"['nbp', 'tWH']",tWH,edge-based report count,2
+IL_04021.2.csv,4WF9,2-13,"['nbp', 'tWH']",tWH,edge-based report count,2
+IL_04346.10.csv,4WF9,5-6,"['cSW', 'nbp']",nbp,contact type report count,6
+IL_09705.14.csv,4LFB,2-7,"['nbp', 'REJECT']",nbp,contact type motif-wide consensus count,20
+IL_15052.4.csv,3IWN,3-6,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,4
+IL_21630.1.csv,8Z8U,6-8,"['cWH', 'nbp']",cWH,prioritized non-nbp,1
+IL_22373.1.csv,7MLW,2-4,"['nbp', 'cWH']",nbp,contact type motif-wide consensus count,4
+IL_24134.1.csv,2HW8,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,3
+IL_24499.1.csv,7ELQ,5-11,"['nbp', 'cWW']",cWW,edge-based report count,1
+IL_30730.1.csv,7WIE,1-3,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,2
+IL_38634.5.csv,3D2V,3-6,"['nbp', 'tWW']",nbp,contact type motif-wide consensus count,2
+IL_42218.2.csv,4WF9,6-8,"['nbp', 'tSW']",tSW,prioritized non-nbp,1
+IL_42997.2.csv,3NJ7,2-5,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,6
+IL_43547.1.csv,6UFG,2-17,"['tSH', 'nbp']",tSH,contact type report count,3
 IL_48076.5.csv,7A0S,2-3,"['cSH', 'nbp']",cSH,contact type motif-wide consensus count,25
-IL_48444.5.csv,1MFQ,3-6,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,3
-IL_49751.3.csv,8S95,4-7,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,13
-IL_49767.8.csv,7A0S,3-10,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,3
-IL_49767.8.csv,7A0S,2-10,"['nbp', 'cWW']",cWW,contact type report count,3
-IL_50694.6.csv,6N5P,2-4,"['nbp', 'cSH']",nbp,contact type motif-wide consensus count,16
+IL_49867.1.csv,1YLS,4-12,"['tSH', 'nbp']",tSH,edge-based report count,1
 IL_50694.6.csv,1G1X,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,16
-IL_50694.6.csv,1NTA,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,16
-IL_50694.6.csv,3DIL,2-4,"['nbp', 'cSH']",nbp,contact type motif-wide consensus count,16
-IL_50730.2.csv,2A64,3-8,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,8
-IL_51265.3.csv,3SIV,2-9,"['tSS', 'nbp']",nbp,contact type motif-wide consensus count,6
-IL_51387.2.csv,5D8H,2-6,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_51387.2.csv,7A0S,2-6,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_51387.2.csv,4WF9,2-6,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_51454.1.csv,4R4V,2-5,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,20
-IL_51454.1.csv,4LFB,2-5,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,20
-IL_51454.1.csv,5T83,2-5,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,20
-IL_51454.1.csv,7TZS,1-2,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,20
-IL_51454.1.csv,7A0S,1-2,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,20
-IL_51454.1.csv,6DLR,1-2,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,20
-IL_51479.1.csv,4EYA,3-6,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,9
-IL_55516.2.csv,6DME,3-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,3
-IL_56455.6.csv,1FEU,5-14,"['nbp', 'cWW']",nbp,contact type report count,4
-IL_56455.6.csv,1DFU,5-14,"['nbp', 'cWW', 'REJECT']",nbp,contact type report count,4
-IL_57744.1.csv,6WBR,2-5,"['nbp', 'cSW', 'cWW']",cWW,contact type report count,17
-IL_58112.2.csv,4PMI,2-6,"['tWW', 'nbp']",nbp,contact type report count,3
-IL_58960.1.csv,4FRN,4-8,"['nbp', 'tWW']",tWW,contact type report count,3
-IL_60797.1.csv,1M5K,9-11,"['cWW', 'nbp']",nbp,contact type report count,4
-IL_60797.1.csv,3BBM,6-12,"['nbp', 'tWW']",nbp,contact type motif-wide consensus count,4
-IL_63596.11.csv,7A0S,3-7,"['nbp', 'cWS']",nbp,contact type motif-wide consensus count,9
-IL_63596.11.csv,4MGN,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,9
-IL_63596.11.csv,4JRC,2-4,"['cSH', 'cWH', 'nbp']",nbp,contact type motif-wide consensus count,9
-IL_63596.11.csv,4WF9,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,9
-IL_63596.11.csv,7A0S,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,9
-IL_63596.11.csv,6XJQ,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,9
-IL_63596.11.csv,8HNT,1-3,"['cSH', 'nbp']",nbp,contact type report count,9
-IL_63596.11.csv,6XJQ,1-3,"['cSH', 'nbp']",nbp,contact type report count,9
-IL_64231.4.csv,8VMA,3-7,"['cWW', 'nbp']",nbp,contact type report count,6
-IL_64231.4.csv,3LOA,2-8,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,6
-IL_64858.3.csv,4TS2,10-15,"['cWW', 'nbp']",nbp,contact type report count,4
+IL_50694.6.csv,1KUQ,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,16
+IL_50715.3.csv,7A0S,9-12,"['tWH', 'nbp']",tWH,contact type motif-wide consensus count,2
+IL_50730.2.csv,3IWN,2-9,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,8
+IL_50730.2.csv,3IGI,2-9,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,8
+IL_51265.3.csv,4LCK,5-8,"['tHS', 'nbp']",tHS,contact type motif-wide consensus count,6
+IL_51265.3.csv,2OZB,2-9,"['tSS', 'nbp']",nbp,contact type motif-wide consensus count,6
+IL_56455.6.csv,364D,2-16,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,4
+IL_56455.6.csv,1DFU,5-14,"['cWW', 'REJECT']",cWW,contact type motif-wide consensus count,4
+IL_57188.5.csv,7A0S,4-9,"['tHW', 'nbp']",tHW,edge-based report count,2
+IL_57744.1.csv,6WBR,2-5,"['cSW', 'cWW']",cWW,contact type motif-wide consensus count,17
+IL_61286.1.csv,3IGI,3-12,"['tSH', 'nbp']",tSH,edge-based report count,1
+IL_63596.11.csv,4MGN,3-7,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,9
+IL_63596.11.csv,4JRC,2-4,"['cWH', 'nbp']",nbp,contact type motif-wide consensus count,9
+IL_63596.11.csv,5B2P,2-4,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,9
 IL_64858.3.csv,7L0Z,10-15,"['nbp', 'tWW']",nbp,contact type motif-wide consensus count,4
-IL_64858.3.csv,4TS2,3-8,"['tSW', 'nbp', 'tWW']",nbp,contact type report count,4
-IL_64858.3.csv,8K7W,3-8,"['tSW', 'nbp']",nbp,contact type report count,4
-IL_65851.3.csv,3KTW,5-10,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,2
-IL_66798.2.csv,4WF9,4-7,"['tHS', 'nbp']",tHS,contact type motif-wide consensus count,3
-IL_67767.3.csv,5DCV,3-8,"['tSH', 'nbp']",nbp,contact type report count,8
-IL_68140.3.csv,4LFB,2-4,"['cSH', 'nbp']",nbp,contact type report count,10
-IL_68140.3.csv,1I6U,2-4,"['cSH', 'nbp']",nbp,contact type report count,10
-IL_69440.3.csv,4WF9,3-4,"['nbp', 'cSW']",cSW,contact type report count,1
-IL_70670.1.csv,4LCK,6-7,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_70923.8.csv,3V7E,5-10,"['nbp', 'tHS']",tHS,contact type report count,21
-IL_70923.8.csv,4WF9,4-11,"['nbp', 'tSW']",nbp,contact type report count,21
-IL_70923.8.csv,7JRS,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,21
-IL_70923.8.csv,5FJ4,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,21
-IL_71294.3.csv,4N0T,5-8,"['nbp', 'cWW']",cWW,contact type report count,2
-IL_73700.1.csv,6N5P,9-11,"['nbp', 'cSH']",cSH,contact type report count,1
-IL_77658.1.csv,8UIW,3-6,"['nbp', 'cWW']",cWW,contact type report count,18
-IL_77827.1.csv,4WF9,19-21,"['cSW', 'nbp']",nbp,contact type report count,1
-IL_78472.1.csv,5UNE,2-12,"['nbp', 'cWW']",cWW,contact type report count,1
-IL_80823.1.csv,2OEU,4-7,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,4
-IL_80926.1.csv,1X9K,4-8,"['tHS', 'nbp']",tHS,contact type report count,2
-IL_82292.1.csv,3IGI,5-9,"['nbp', 'cWH']",nbp,contact type report count,3
-IL_82292.1.csv,3IGI,6-8,"['nbp', 'cWH']",nbp,contact type motif-wide consensus count,3
-IL_82292.1.csv,4EYA,6-7,"['cWS', 'cWW', 'nbp']",cWW,contact type report count,3
-IL_82292.1.csv,4EYA,5-8,"['cWW', 'nbp']",nbp,contact type report count,3
-IL_82426.6.csv,8K7W,3-8,"['tSW', 'nbp']",nbp,contact type report count,4
-IL_82426.6.csv,4TS2,3-8,"['tSW', 'nbp', 'tWW']",nbp,contact type report count,4
-IL_85222.1.csv,4LFB,2-10,"['nbp', 'cWW']",cWW,contact type report count,1
-IL_85222.1.csv,4LFB,6-9,"['cWW', 'nbp']",nbp,contact type report count,1
-IL_85222.1.csv,4LFB,3-9,"['cWW', 'nbp']",nbp,contact type report count,1
-IL_85222.1.csv,4LFB,3-5,"['cSH', 'nbp']",nbp,contact type report count,1
-IL_87284.1.csv,1KD5,5-8,"['tHS', 'nbp']",nbp,contact type report count,2
-IL_87907.1.csv,7KJT,2-6,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,97
-IL_87907.1.csv,3IVK,3-5,"['cWW', 'nbp']",nbp,contact type report count,97
-IL_87907.1.csv,4WF9,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4PDQ,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4ZC7,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,1ZZ5,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,7KJT,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,2ZKO,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,3GM7,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4E48,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,3GM7,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,3GM7,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,3SZX,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4E48,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4E48,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4E48,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,3SZX,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,1ZH5,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,7Y2P,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,7Y2P,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,3SZX,2-5,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,4J50,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,5UNE,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_87907.1.csv,5UNE,2-5,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,97
-IL_89021.2.csv,4WF9,3-9,"['nbp', 'cWW']",nbp,contact type report count,4
-IL_95583.1.csv,1U9S,2-5,"['tHS', 'nbp', 'cWS']",tHS,contact type report count,4
-IL_96303.1.csv,8I3Z,1-3,"['nbp', 'cSH']",nbp,contact type motif-wide consensus count,3
-IL_96332.5.csv,3NPQ,3-7,"['nbp', 'tSH']",nbp,contact type motif-wide consensus count,5
-IL_99358.1.csv,7KJT,3-6,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,7
-IL_99646.2.csv,4WF9,2-7,"['nbp', 'tWW']",tWW,contact type report count,3
-J3_01425.1.csv,3HJW,8-9,"['nbp', 'cSS']",cSS,contact type report count,1
-J3_07703.1.csv,4WF9,3-14,"['tSH', 'nbp']",tSH,contact type report count,2
-J3_08040.1.csv,7KVT,19-24,"['nbp', 'cSW']",cSW,contact type report count,1
-J3_08040.1.csv,7KVT,7-23,"['nbp', 'tWW']",tWW,contact type report count,1
-J3_08040.1.csv,7KVT,11-25,"['cWW', 'nbp']",nbp,contact type report count,1
-J3_13378.1.csv,7A0S,8-33,"['nbp', 'cWW']",cWW,contact type report count,1
-J3_13378.1.csv,7A0S,25-26,"['cWW', 'nbp']",nbp,contact type report count,1
-J3_13378.1.csv,7A0S,13-17,"['cWW', 'nbp']",nbp,contact type report count,1
-J3_13378.1.csv,7A0S,3-37,"['tSH', 'nbp']",nbp,contact type report count,1
-J3_13378.1.csv,7A0S,1-38,"['cWW', 'nbp']",nbp,contact type report count,1
-J3_17385.3.csv,1G1X,9-11,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,3
-J3_17791.1.csv,4LFB,13-17,"['tWH', 'nbp']",nbp,contact type report count,1
-J3_20574.1.csv,7A0S,1-12,"['tSS', 'nbp']",nbp,contact type report count,1
-J3_20992.1.csv,7A0S,10-16,"['nbp', 'tWW']",tWW,contact type report count,1
-J3_32601.5.csv,7A0S,4-12,"['cWH', 'nbp']",cWH,contact type report count,2
-J3_33327.1.csv,7KJT,5-14,"['nbp', 'tHW']",tHW,contact type report count,1
-J3_33327.1.csv,7KJT,3-24,"['cWW', 'nbp']",nbp,contact type report count,1
-J3_37047.5.csv,4LFB,3-8,"['tHH', 'nbp']",nbp,contact type report count,1
-J3_39320.1.csv,4WF9,13-17,"['nbp', 'tHW']",tHW,contact type report count,1
-J3_39320.1.csv,4WF9,12-19,"['nbp', 'tWW']",tWW,contact type report count,1
-J3_44163.1.csv,4LX6,8-11,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,9
-J3_44163.1.csv,1Y27,8-11,"['nbp', 'tWH']",nbp,contact type motif-wide consensus count,9
-J3_45099.1.csv,359D,14-17,"['nbp', 'cWW']",cWW,contact type report count,1
-J3_45941.1.csv,4O26,5-13,"['nbp', 'cWS']",cWS,contact type report count,1
-J3_45941.1.csv,4O26,2-4,"['cSH', 'nbp']",nbp,contact type report count,1
-J3_55773.1.csv,8UO6,4-7,"['nbp', 'cHW']",cHW,contact type report count,1
-J3_58090.1.csv,6LAX,6-10,"['nbp', 'tHW']",tHW,contact type report count,1
-J3_68164.1.csv,4WF9,4-9,"['tWW', 'nbp']",nbp,contact type report count,1
-J3_72575.1.csv,3NDB,1-8,"['tSW', 'nbp']",nbp,contact type report count,1
-J3_75076.1.csv,8T29,4-5,"['cSH', 'nbp']",nbp,contact type report count,1
-J3_80578.1.csv,4W90,2-9,"['tSW', 'nbp']",nbp,contact type report count,2
-J3_85054.3.csv,1G1X,3-6,"['nbp', 'cWW']",cWW,contact type report count,2
-J3_96372.2.csv,4YAZ,5-9,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,3
-J3_97971.2.csv,7A0S,10-13,"['tWS', 'nbp']",tWS,edge-based motif-wide consensus count,2
-J3_97971.2.csv,7A0S,9-10,"['cSH', 'nbp']",nbp,contact type report count,2
-J3_97971.2.csv,4WF9,9-10,"['cSH', 'nbp']",nbp,contact type report count,2
-J4_04930.6.csv,4WF9,3-6,"['nbp', 'tHW', 'tWW']",nbp,contact type report count,2
-J4_12209.1.csv,1U9S,25-26,"['cSH', 'nbp']",nbp,contact type report count,1
-J4_19572.1.csv,1U9S,28-30,"['cSH', 'nbp']",nbp,contact type report count,1
-J4_35578.2.csv,4LFB,1-2,"['nbp', 'cSH']",cSH,contact type report count,1
-J4_36296.2.csv,1B23,5-8,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,5
-J4_36296.2.csv,2CSX,3-8,"['cHS', 'nbp']",nbp,contact type report count,5
-J4_54165.1.csv,7A0S,7-9,"['cWW', 'nbp']",nbp,contact type report count,1
-J4_57344.1.csv,5UD5,2-11,"['tHS', 'nbp']",nbp,contact type report count,1
-J4_57344.1.csv,5UD5,1-2,"['cSH', 'nbp']",nbp,contact type report count,1
-J4_61477.5.csv,7A0S,4-7,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,2
-J4_61477.5.csv,4WF9,2-17,"['tSW', 'nbp']",tSW,contact type report count,2
-J4_64571.5.csv,7A0S,3-7,"['nbp', 'cSS']",nbp,contact type report count,2
-J4_69051.6.csv,4WF9,3-8,"['nbp', 'tWW']",tWW,contact type report count,2
-J4_70449.26.csv,8UO6,5-8,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,41
-J4_70449.26.csv,7E8O,5-8,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,41
-J4_70449.26.csv,2DER,5-8,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,41
-J4_70449.26.csv,5HR6,5-8,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,41
-J4_70449.26.csv,5HR7,5-8,"['nbp', 'cWW']",cWW,contact type motif-wide consensus count,41
-J4_70449.26.csv,5CCB,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,3FOZ,3-9,"['nbp', 'cHW']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,8SP9,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,6JXM,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,1J1U,3-9,"['nbp', 'cHW']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,5HR7,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,1N78,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
-J4_70449.26.csv,4RDX,3-9,"['cHS', 'cHW']",cHS,contact type motif-wide consensus count,41
-J4_70672.1.csv,6DN2,5-13,"['nbp', 'cSS']",cSS,contact type report count,2
-J4_72305.4.csv,4QEI,4-7,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,7
-J4_72305.4.csv,3AL0,3-7,"['cHS', 'nbp']",cHS,contact type motif-wide consensus count,7
-J4_75852.1.csv,6DME,8-15,"['nbp', 'cSS']",cSS,contact type report count,1
-J4_80682.1.csv,3ICQ,3-11,"['nbp', 'cHS']",nbp,contact type report count,2
-J4_97085.2.csv,8SYK,8-12,"['tHS', 'nbp', 'tHW']",tHS,edge-based report count,1
-J5_31814.5.csv,7A0S,10-13,"['tWS', 'nbp']",tWS,edge-based motif-wide consensus count,2
-J5_31814.5.csv,7A0S,9-10,"['cSH', 'nbp']",nbp,contact type report count,2
-J5_31814.5.csv,4WF9,9-10,"['cSH', 'nbp']",nbp,contact type report count,2
-J5_53867.1.csv,4WF9,10-11,"['cSH', 'nbp']",nbp,contact type report count,1
-J5_62523.6.csv,4WF9,1-4,"['nbp', 'tSW']",nbp,contact type report count,2
-J5_62523.6.csv,7A0S,5-23,"['cWS', 'nbp']",nbp,contact type report count,2
-J5_98690.1.csv,8UIW,8-23,"['nbp', 'tWW']",tWW,contact type report count,1
-J6_45299.4.csv,4WF9,15-26,"['nbp', 'cWH']",cWH,contact type report count,1
-J6_45299.4.csv,4WF9,9-33,"['nbp', 'tSW']",tSW,contact type report count,1
-J6_45299.4.csv,4WF9,21-24,"['tHS', 'nbp']",nbp,contact type report count,1
-J6_46180.1.csv,7A0S,14-15,"['nbp', 'cSH']",cSH,contact type report count,1
-J6_64525.1.csv,7A0S,20-27,"['nbp', 'tWW']",tWW,contact type report count,1
-J6_86565.1.csv,2A64,6-8,"['cSS', 'nbp']",nbp,contact type report count,1
-J6_93066.1.csv,4WF9,23-27,"['nbp', 'tHW']",tHW,contact type report count,1
-J6_93066.1.csv,4WF9,22-29,"['nbp', 'tWW']",tWW,contact type report count,1
+IL_64858.3.csv,4TS2,3-8,"['nbp', 'tWW']",nbp,contact type motif-wide consensus count,4
+IL_65851.3.csv,3NDB,5-10,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,2
+IL_65851.3.csv,3KTW,2-13,"['nbp', 'tWW']",tWW,prioritized non-nbp,2
+IL_66635.5.csv,5WT1,1-3,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,21
+IL_69229.2.csv,3Q3Z,2-11,"['tSS', 'nbp']",nbp,contact type motif-wide consensus count,10
+IL_70411.2.csv,4WF9,5-8,"['tHH', 'nbp']",tHH,contact type motif-wide consensus count,2
+IL_70923.8.csv,3V7E,5-9,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,21
+IL_70923.8.csv,4KQY,6-9,"['nbp', 'tWS']",nbp,contact type motif-wide consensus count,21
+IL_70923.8.csv,5Y7M,6-9,"['tHS', 'nbp']",tHS,contact type motif-wide consensus count,21
+IL_70923.8.csv,7JRR,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,21
+IL_70923.8.csv,7F8Z,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,21
+IL_70923.8.csv,5FJ0,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,21
+IL_70923.8.csv,3V7E,2-11,"['tSS', 'nbp']",tSS,contact type motif-wide consensus count,21
+IL_76308.6.csv,8ZA4,3-9,"['tHW', 'nbp']",nbp,contact type motif-wide consensus count,5
+IL_80823.1.csv,7D81,3-8,"['nbp', 'tWS']",nbp,contact type motif-wide consensus count,4
+IL_82292.1.csv,4EYA,6-7,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,3
+IL_82426.6.csv,4TS2,3-8,"['nbp', 'tWW']",nbp,contact type motif-wide consensus count,4
+IL_87284.1.csv,1KD4,2-11,"['tSH', 'nbp']",tSH,contact type motif-wide consensus count,2
+IL_94351.1.csv,1OOA,2-10,"['nbp', 'tWH']",tWH,edge-based report count,1
+IL_95583.1.csv,1U9S,2-5,"['nbp', 'cWS']",nbp,contact type motif-wide consensus count,4
+IL_96332.5.csv,4KZD,3-8,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,5
+IL_96332.5.csv,4TS2,3-8,"['cWW', 'nbp']",nbp,contact type motif-wide consensus count,5
+J3_00458.1.csv,7KVT,12-18,"['nbp', 'cWH']",cWH,prioritized non-nbp,1
+J3_01596.1.csv,3NKB,14-16,"['cWH', 'nbp']",cWH,edge-based report count,1
+J3_08040.1.csv,7KVT,13-27,"['nbp', 'cWH']",cWH,prioritized non-nbp,1
+J3_17385.3.csv,1KUQ,9-11,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,3
+J3_22198.1.csv,4RGE,9-11,"['cSH', 'nbp']",cSH,prioritized non-nbp,1
+J3_25217.1.csv,2RFK,5-8,"['nbp', 'cHW']",cHW,prioritized non-nbp,1
+J3_26675.1.csv,2A64,3-9,"['cWH', 'nbp']",cWH,edge-based report count,1
+J3_35667.2.csv,4WF9,6-10,"['nbp', 'cWW']",nbp,contact type motif-wide consensus count,2
+J3_39320.1.csv,4WF9,3-6,"['nbp', 'cWW']",cWW,prioritized non-nbp,1
+J3_47707.1.csv,4WF9,14-18,"['nbp', 'cWW']",cWW,edge-based report count,1
+J3_76475.1.csv,4LFB,11-14,"['tHS', 'nbp']",tHS,edge-based report count,1
+J3_82572.1.csv,4LFB,6-9,"['tHS', 'nbp']",tHS,edge-based report count,1
+J3_96372.2.csv,3IWN,2-16,"['tHS', 'nbp']",nbp,contact type report count,3
+J3_97971.2.csv,4WF9,10-13,"['tWS', 'tWW']",tWS,contact type report count,2
+J4_04930.6.csv,7A0S,2-8,"['tSH', 'nbp']",nbp,contact type motif-wide consensus count,2
+J4_04930.6.csv,4WF9,3-6,"['tHW', 'tWW']",tHW,contact type report count,2
+J4_22413.3.csv,5WT1,7-9,"['cSH', 'nbp']",nbp,contact type motif-wide consensus count,2
+J4_45801.6.csv,7A0S,12-18,"['tWW', 'nbp']",nbp,contact type motif-wide consensus count,2
+J4_45801.6.csv,4WF9,11-17,"['tWW', 'nbp']",tWW,contact type motif-wide consensus count,2
+J4_61477.5.csv,7A0S,13-16,"['nbp', 'tHW']",nbp,contact type motif-wide consensus count,2
+J4_61477.5.csv,4WF9,4-7,"['tHS', 'nbp']",nbp,contact type motif-wide consensus count,2
+J4_70449.26.csv,7LYF,5-8,"['cWW', 'nbp']",cWW,contact type motif-wide consensus count,41
+J4_70449.26.csv,8VU0,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
+J4_70449.26.csv,2FMT,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
+J4_70449.26.csv,5HR6,3-9,"['cHS', 'nbp']",nbp,contact type motif-wide consensus count,41
+J4_97085.2.csv,8SYK,8-12,"['nbp', 'tHW']",tHW,edge-based report count,1
+J5_15259.1.csv,7A0S,6-15,"['tWS', 'nbp']",tWS,edge-based report count,1
+J5_31814.5.csv,7A0S,23-29,"['tWW', 'nbp']",nbp,contact type motif-wide consensus count,2
+J5_31814.5.csv,4WF9,22-28,"['tWW', 'nbp']",tWW,contact type motif-wide consensus count,2
+J5_31814.5.csv,4WF9,10-13,"['tWS', 'tWW']",tWS,contact type report count,2
+J5_53867.1.csv,4WF9,25-31,"['tWW', 'nbp']",tWW,prioritized non-nbp,1
+J6_93066.1.csv,4WF9,13-16,"['nbp', 'cWW']",cWW,prioritized non-nbp,1

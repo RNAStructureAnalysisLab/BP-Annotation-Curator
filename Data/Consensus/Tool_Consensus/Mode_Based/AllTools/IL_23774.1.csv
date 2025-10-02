@@ -1,5 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,1-9,2-3,2-8,4-7,5-6,3-4,5-7,2-9,4-6
-1,IL_7A0S_096,7A0S,0.9137,1,,X,LSU rRNA,G,2698,G,2699,U,2700,A,2701,G,2702,*,U,2666,C,2667,C,2669,C,2670,cWW,nbp,nbp,tHS,cWW,nbp,nbp,nbp,nbp
-3,IL_4WF9_102,4WF9,0.8716,1,,X,LSU rRNA,G,2745,G,2746,U,2747,A,2748,G,2749,*,U,2714,G,2715,A,2717,C,2718,cWW,nbp,nbp,tHS,cWW,nbp,nbp,nbp,nbp
-8,IL_8XZL_001,8XZL,0.2745,0,,A,RNA (53-MER),U,6,G,7,U,8,A,9,C,10,*,G,45,G,46,A,47,G,48,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp
-11,IL_2R8S_006,2R8S,0.3247,1,UAA/GAN variation,R,P4-P6 RNA RIBOZYME DOMAIN,C,216,C,217,A,218,A,219,G,220,*,U,253,G,254,A,256,G,257,cWW,nbp,tSH,tHS,cWW,nbp,nbp,nbp,nbp

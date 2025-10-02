@@ -1,5 +1,5 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,1-3,3-5,1-4,4-5
-1,IL_7A0S_025,7A0S,1.3076,0,Single bulged C,X,LSU rRNA,G,938,C,939,G,940,*,C,863,C,864,cWW,cWW,INCOMPATIBLE,nbp,nbp,nbp
+1,IL_7A0S_025,7A0S,1.3076,0,Single bulged C,X,LSU rRNA,G,938,C,939,G,940,*,C,863,C,864,cWW,cWW,,nbp,nbp,nbp
 3,IL_7A0S_010,7A0S,0.773,0,Single bulged C,X,LSU rRNA,G,558,C,559,G,560,*,C,552,C,553,cWW,cWW,nbp,nbp,nbp,nbp
 8,IL_3SNP_003,3SNP,0.6255,0,Single bulged C,D,ferritin H IRE RNA,G,7,C,8,U,9,*,A,24,C,25,cWW,cWW,nbp,nbp,nbp,nbp
 9,IL_3SN2_001,3SN2,0.6479,0,Single bulged C,B,transferrin receptor iron regulatory element B RNA,U,7,C,8,G,9,*,C,24,A,25,cWW,cWW,nbp,nbp,nbp,nbp

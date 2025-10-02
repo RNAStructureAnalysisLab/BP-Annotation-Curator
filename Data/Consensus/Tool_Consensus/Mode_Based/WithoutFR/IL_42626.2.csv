@@ -1,7 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3,1-2,3-4
-1,IL_1KXK_003,1KXK,0.5288,2,Multiple bulged bases,A,ai5g group II Self-splicing intron,U,28,G,29,*,C,42,G,45,cWW,cWW,nbp,nbp
-2,IL_4WF9_103,4WF9,0.3762,2,Multiple bulged bases,X,LSU rRNA,U,2722,U,2723,*,A,2738,G,2741,cWW,cWW,nbp,nbp
-4,IL_3IGI_013,3IGI,0.2767,2,Multiple bulged bases,A,Group IIC intron,U,365,A,366,*,U,375,G,378,cWW,cWW,nbp,nbp
-6,IL_7A0S_097,7A0S,0.1707,3,Multiple bulged bases,X,LSU rRNA,C,2674,U,2675,*,A,2690,G,2694,cWW,cWW,nbp,nbp
-12,IL_7A0S_090,7A0S,0.3195,2,Multiple bulged bases,X,LSU rRNA,C,2491,G,2492,*,C,2550,G,2553,cWW,cWW,nbp,nbp
-13,IL_4WF9_096,4WF9,0.3866,2,,X,LSU rRNA,C,2539,A,2540,*,U,2598,G,2601,cWW,cWW,nbp,nbp

@@ -1,14 +1,14 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,2-6,3-5,3-6,2-9,4-5,1-6
-2,HL_4R4V_003,4R4V,0.5916,0,T-loop related,A,VS ribozyme RNA,G,689,U,690,U,691,G,692,A,693,C,694,U,695,A,696,C,697,cWW,nbp,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-3,HL_1P6V_004,1P6V,0.4991,0,T-loop with 2 bulged bases not stacked,B,45-MER,G,45,U,46,U,47,C,48,G,49,A,50,U,51,U,52,C,53,cWW,tWW,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-5,HL_2ZNI_003,2ZNI,0.3508,0,T-loop with 2 stacked bulged bases,C,bacterial tRNA,G,53,U,54,G,55,A,56,A,57,A,58,C,59,U,60,C,61,cWW,tWH,INCOMPATIBLE,nbp,nbp,nbp,nbp
-10,HL_7A0S_018,7A0S,0.3226,1,T-loop with 2 stacked bulged bases,X,LSU rRNA,U,575,A,576,U,577,U,578,G,579,A,580,A,581,G,582,A,584,cWW,nbp,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-12,HL_4WF9_018,4WF9,0.2978,1,T-loop with 2 stacked bulged bases,X,LSU rRNA,U,609,U,610,U,611,U,612,G,613,U,614,A,615,G,616,A,618,cWW,nbp,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-14,HL_5T5A_001,5T5A,0.2956,0,T-loop with 2 stacked bulged bases,A,DNA/RNA (71-MER),G,21,U,22,G,23,C,24,A,25,A,26,G,27,C,28,C,29,cWW,tWH,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-38,HL_5Y85_003,5Y85,0.2618,0,T-loop with 2 stacked bulged bases,D,DNA/RNA (50-MER),G,11,U,12,G,13,C,14,A,15,A,16,G,17,U,18,C,19,cWW,tWH,INCOMPATIBLE,INCOMPATIBLE,nbp,nbp,nbp
-39,HL_3ICQ_005,3ICQ,0.2229,0,T-loop with 2 stacked bulged bases,E,RNA (62-MER),G,53,U,54,U,55,C,56,G,57,A,58,U,59,C,60,C,61,cWW,tWH,nbp,INCOMPATIBLE,nbp,nbp,nbp
-40,HL_6UFG_008,6UFG,0.1847,0,T-loop with 2 stacked bulged bases,B,tRNA,G,54,U,55,U,56,C,57,A,58,A,59,G,60,U,61,C,62,cWW,tWH,nbp,INCOMPATIBLE,nbp,nbp,nbp
-42,HL_6UFH_008,6UFH,0.2486,0,T-loop with 2 stacked bulged bases (H),B,tRNA,G,54,U,55,U,56,C,57,A,58,A,59,G,60,U,61,C,62,cWW,tWH,nbp,INCOMPATIBLE,nbp,nbp,nbp
+2,HL_4R4V_003,4R4V,0.5916,0,T-loop related,A,VS ribozyme RNA,G,689,U,690,U,691,G,692,A,693,C,694,U,695,A,696,C,697,cWW,nbp,,,nbp,nbp,nbp
+3,HL_1P6V_004,1P6V,0.4991,0,T-loop with 2 bulged bases not stacked,B,45-MER,G,45,U,46,U,47,C,48,G,49,A,50,U,51,U,52,C,53,cWW,tWW,,,nbp,nbp,nbp
+5,HL_2ZNI_003,2ZNI,0.3508,0,T-loop with 2 stacked bulged bases,C,bacterial tRNA,G,53,U,54,G,55,A,56,A,57,A,58,C,59,U,60,C,61,cWW,tWH,,nbp,nbp,nbp,nbp
+10,HL_7A0S_018,7A0S,0.3226,1,T-loop with 2 stacked bulged bases,X,LSU rRNA,U,575,A,576,U,577,U,578,G,579,A,580,A,581,G,582,A,584,cWW,nbp,,,nbp,nbp,nbp
+12,HL_4WF9_018,4WF9,0.2978,1,T-loop with 2 stacked bulged bases,X,LSU rRNA,U,609,U,610,U,611,U,612,G,613,U,614,A,615,G,616,A,618,cWW,nbp,,,nbp,nbp,nbp
+14,HL_5T5A_001,5T5A,0.2956,0,T-loop with 2 stacked bulged bases,A,DNA/RNA (71-MER),G,21,U,22,G,23,C,24,A,25,A,26,G,27,C,28,C,29,cWW,tWH,,,nbp,nbp,nbp
+38,HL_5Y85_003,5Y85,0.2618,0,T-loop with 2 stacked bulged bases,D,DNA/RNA (50-MER),G,11,U,12,G,13,C,14,A,15,A,16,G,17,U,18,C,19,cWW,tWH,,,nbp,nbp,nbp
+39,HL_3ICQ_005,3ICQ,0.2229,0,T-loop with 2 stacked bulged bases,E,RNA (62-MER),G,53,U,54,U,55,C,56,G,57,A,58,U,59,C,60,C,61,cWW,tWH,nbp,,nbp,nbp,nbp
+40,HL_6UFG_008,6UFG,0.1847,0,T-loop with 2 stacked bulged bases,B,tRNA,G,54,U,55,U,56,C,57,A,58,A,59,G,60,U,61,C,62,cWW,tWH,nbp,,nbp,nbp,nbp
+42,HL_6UFH_008,6UFH,0.2486,0,T-loop with 2 stacked bulged bases (H),B,tRNA,G,54,U,55,U,56,C,57,A,58,A,59,G,60,U,61,C,62,cWW,tWH,nbp,,nbp,nbp,nbp
 43,HL_6JQ6_003,6JQ6,0.2018,0,T-loop with 2 stacked bulged bases,U,RNA (81-MER),G,6,U,7,G,8,A,9,G,10,A,11,A,12,U,13,C,14,cWW,tWH,nbp,nbp,nbp,nbp,nbp
 44,HL_6JQ5_001,6JQ5,0.2001,0,T-loop with 2 stacked bulged bases,A,RNA (82-MER),G,6,U,7,G,8,A,9,G,10,A,11,A,12,U,13,C,14,cWW,tWH,nbp,nbp,nbp,nbp,nbp
 45,HL_6JQ5_003,6JQ5,0.2026,0,T-loop with 2 stacked bulged bases,B,RNA (82-MER),G,6,U,7,G,8,A,9,G,10,A,11,A,12,U,13,C,14,cWW,tWH,nbp,nbp,nbp,nbp,nbp
@@ -23,8 +23,8 @@
 54,HL_2DER_006,2DER,0.1722,0,T-loop with 2 stacked bulged bases,D,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,A,59,U,60,C,61,cWW,tWH,nbp,nbp,nbp,nbp,nbp
 55,HL_3AM1_004,3AM1,0.2267,0,T-loop with 2 stacked bulged bases,B,ASL-truncated tRNA,G,59,U,60,U,61,C,62,G,63,A,64,U,65,U,66,C,67,cWW,tWH,nbp,nbp,nbp,nbp,nbp
 56,HL_8K2Z_003,8K2Z,0.2058,0,T-loop with 2 stacked bulged bases,A,RNA (57-MER),G,38,U,39,U,40,C,41,A,42,A,43,A,44,U,45,C,46,cWW,tWH,nbp,nbp,nbp,nbp,nbp
-57,HL_5E6M_003,5E6M,0.2213,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW,nbp,nbp,nbp,nbp,nbp,nbp
-58,HL_4QEI_003,4QEI,0.2494,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+57,HL_5E6M_003,5E6M,0.2213,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW,tWW,nbp,nbp,nbp,nbp,nbp
+58,HL_4QEI_003,4QEI,0.2494,0,T-loop with 2 stacked bulged bases,C,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW,tWW,nbp,nbp,nbp,nbp,nbp
 59,HL_3TUP_003,3TUP,0.2035,0,T-loop with 2 stacked bulged bases,T,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,U,60,C,61,cWW,tWH,nbp,nbp,nbp,nbp,nbp
 60,HL_1N78_003,1N78,0.1805,0,T-loop with 2 stacked bulged bases,C,tRNA(Glu),G,553,U,554,U,555,C,556,G,557,A,558,U,559,U,560,C,561,cWW,tWH,nbp,nbp,nbp,nbp,nbp
 61,HL_3EPH_003,3EPH,0.1971,0,T-loop with 2 stacked bulged bases,E,tRNA,G,53,U,54,U,55,C,56,G,57,A,58,U,59,C,60,C,61,cWW,tWH,nbp,nbp,nbp,nbp,nbp

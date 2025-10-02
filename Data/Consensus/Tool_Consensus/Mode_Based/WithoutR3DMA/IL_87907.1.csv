@@ -9,13 +9,13 @@
 17,IL_3RW6_004,3RW6,0.3025,0,Isolated non-canonical cWW pair,H,constitutive transport element(CTE)of Mason-Pfizer monkey virus RNA,C,33,U,34,G,35,*,C,24,C,25,G,26,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 19,IL_4LFB_063,4LFB,0.2878,0,Isolated non-canonical cWW pair,A,SSU rRNA,G,1464,C,1465,C,1466,*,G,1435,U,1436,C,1437,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 23,IL_7A0S_020,7A0S,0.2274,0,Isolated non-canonical cWW pair,X,LSU rRNA,G,767,U,768,C,769,*,G,754,C,755,C,756,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-28,IL_4WF9_020,4WF9,0.2129,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,851,U,852,G,853,*,C,717,C,718,G,719,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+28,IL_4WF9_020,4WF9,0.2129,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,851,U,852,G,853,*,C,717,C,718,G,719,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 29,IL_7A0S_014,7A0S,0.2107,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,819,U,820,A,821,*,U,685,C,686,G,687,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 34,IL_4WF9_083,4WF9,0.1922,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,2111,C,2112,U,2113,*,A,2260,A,2261,G,2262,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 40,IL_4PDQ_001,4PDQ,0.2794,0,Isolated non-canonical cWW pair,A+B,RNA (23-mer),G,5,U,6,C,7,*,G,42,U,43,C,44,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-41,IL_4ZC7_004,4ZC7,0.233,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-42,IL_1ZZ5_002,1ZZ5,0.2602,0,Isolated non-canonical cWW pair,A+B,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-45,IL_7KJT_001,7KJT,0.2758,0,Isolated non-canonical cWW pair,A,tRNA,G,2,C,3,C,4,*,G,69,C,70,C,71,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+41,IL_4ZC7_004,4ZC7,0.233,0,Isolated non-canonical cWW pair,B+A,RNA duplex,G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+42,IL_1ZZ5_002,1ZZ5,0.2602,0,Isolated non-canonical cWW pair,A+B,RNA (15-mer) + RNA (14-mer),G,10,U,11,C,12,*,G,24,U,25,C,26,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+45,IL_7KJT_001,7KJT,0.2758,0,Isolated non-canonical cWW pair,A,tRNA,G,2,C,3,C,4,*,G,69,C,70,C,71,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,cWW,nbp
 47,IL_7VYX_001,7VYX,0.256,0,Isolated non-canonical cWW pair,C,sgRNA,G,11,A,12,C,13,*,G,53,C,54,C,55,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 48,IL_4P3U_012,4P3U,0.2048,0,Isolated non-canonical cWW pair,D+C,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 52,IL_4PDQ_004,4PDQ,0.2019,0,Isolated non-canonical cWW pair,B+A,RNA (23-mer),G,28,U,29,C,30,*,G,19,U,20,C,21,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
@@ -48,10 +48,10 @@
 90,IL_5Y7M_007,5Y7M,0.1494,0,Isolated non-canonical cWW pair,D,RNA (52-MER),G,37,A,38,U,39,*,A,11,C,12,C,13,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 95,IL_4E48_006,4E48,0.1917,0,Isolated non-canonical cWW pair,A+B,RNA (20-mer),C,17,U,18,G,19,*,C,22,U,23,G,24,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 96,IL_4NGF_002,4NGF,0.1538,0,Isolated non-canonical cWW pair,H+G,RNA (17-mer),G,7,U,8,C,9,*,G,7,U,8,C,9,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-97,IL_3SZX_002,3SZX,0.146,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),C,10,U,11,G,12,*,C,10,U,11,G,12,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+97,IL_3SZX_002,3SZX,0.146,0,Isolated non-canonical cWW pair,A+B,RNA (19-mer),C,10,U,11,G,12,*,C,10,U,11,G,12,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 101,IL_4X4N_005,4X4N,0.1302,0,Isolated non-canonical cWW pair,D,G70A tRNA minihelix,G,28,A,29,U,30,*,G,2,C,3,C,4,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 102,IL_7ECO_006,7ECO,0.1774,0,Isolated non-canonical cWW pair,F+E,RNA (12-mer),G,3,U,4,C,5,*,G,8,U,9,C,10,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-103,IL_1ZH5_001,1ZH5,0.1749,0,Isolated non-canonical cWW pair,D+C,RNA (9-mer),C,3,U,4,G,5,*,C,3,U,4,G,5,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+103,IL_1ZH5_001,1ZH5,0.1749,0,Isolated non-canonical cWW pair,D+C,RNA (9-mer),C,3,U,4,G,5,*,C,3,U,4,G,5,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 104,IL_5AY2_001,5AY2,0.1874,0,Isolated non-canonical cWW pair,A+B,RNA (12-mer),A,3,C,4,U,5,*,A,8,C,9,U,10,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 105,IL_5AY2_003,5AY2,0.175,0,Isolated non-canonical cWW pair,B+A,RNA (12-mer),A,3,C,4,U,5,*,A,8,C,9,U,10,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 106,IL_7ECO_005,7ECO,0.1831,0,Isolated non-canonical cWW pair,E+F,RNA (12-mer),G,3,U,4,C,5,*,G,8,U,9,C,10,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
@@ -61,7 +61,7 @@
 116,IL_9D5J_002,9D5J,0.1834,0,Isolated non-canonical cWW pair,C+D,RNA Top Strand Containing 8-azanebularine (8AZ) + RNA Bottom Strand containing deoxyinosine complementary to a guanosine adjacent to the target site,G,14,A,15,G,16,*,C,17,C,18,C,19,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 117,IL_7KFN_001,7KFN,0.1782,0,Isolated non-canonical cWW pair,B+C,Gli1 8AZ 23mer RNA + Gli1 1W5 23mer RNA,G,14,A,15,G,16,*,C,8,C,9,C,10,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 118,IL_1Z7F_005,1Z7F,0.1577,0,Isolated non-canonical cWW pair,C+B,RNA (16-mer),A,26,A,27,U,28,*,A,5,C,6,U,7,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-120,IL_3SZX_003,3SZX,0.1359,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),C,7,U,8,G,9,*,C,13,U,14,G,15,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+120,IL_3SZX_003,3SZX,0.1359,0,Isolated non-canonical cWW pair,B+A,RNA (19-mer),C,7,U,8,G,9,*,C,13,U,14,G,15,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 122,IL_4WF9_042,4WF9,0.1602,0,Isolated non-canonical cWW pair,X,LSU rRNA,C,1160,A,1161,C,1162,*,G,1081,C,1082,G,1083,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 123,IL_4YHW_001,4YHW,0.1566,0,Isolated non-canonical cWW pair,E+C,U6 snRNA fragment,C,68,C,69,U,70,*,A,11,C,12,G,13,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 124,IL_4YHW_002,4YHW,0.1772,0,Isolated non-canonical cWW pair,D+F,U4 snRNA fragment + U6 snRNA fragment,A,11,C,12,G,13,*,C,68,C,69,U,70,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

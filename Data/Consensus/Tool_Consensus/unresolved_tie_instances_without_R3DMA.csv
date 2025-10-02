@@ -1,6 +1,12 @@
 cluster,PDB,column,tied_contact_types,consensus,rows_in_cluster
-IL_04021.2.csv,7A0S,2-13,"['tSH', 'nbp', 'tWH']",,2
-IL_04021.2.csv,4WF9,2-13,"['tSH', 'nbp', 'tWH']",,2
-IL_94351.1.csv,1OOA,2-10,"['tSH', 'nbp', 'tWH']",,1
-J4_16596.1.csv,4GXY,4-10,"['nbp', 'cSS', 'cWS']",,3
-J4_44058.1.csv,6VMY,3-9,"['nbp', 'cSS', 'cWS']",,1
+HL_15574.1.csv,6VMY,4-6,"['tSW', 'tSS']",,2
+HL_45785.1.csv,8FZA,7-8,"['tSW', 'tSH']",,2
+HL_78197.1.csv,6UFM,3-5,"['cSH', 'cWH']",,5
+IL_19048.1.csv,4WF9,9-11,"['cSH', 'cWH']",,1
+IL_76319.4.csv,4LFB,3-6,"['cWS', 'cWW']",,1
+IL_89021.2.csv,7A0S,2-9,"['tSH', 'tWH']",,4
+IL_89021.2.csv,4WF9,2-9,"['tSH', 'tWH']",,4
+IL_91636.1.csv,3KTW,2-10,"['tSH', 'tWH']",,1
+J4_16596.1.csv,4GXY,4-10,"['cSS', 'cWS']",,3
+J4_44058.1.csv,6VMY,3-9,"['cSS', 'cWS']",,1
+J5_53867.1.csv,4WF9,11-16,"['tWS', 'tWW']",,1

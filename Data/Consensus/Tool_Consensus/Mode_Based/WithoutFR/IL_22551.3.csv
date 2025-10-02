@@ -1,5 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,1-6,4-5,4-6
-1,IL_397D_001,397D,0.7424,1,Multiple bulged bases,A+B,RNA (15-mer) + RNA (12-mer),A,22,U,23,C,24,G,26,*,C,39,U,40,cWW,cWW,nbp
-5,IL_7A0S_071,7A0S,0.1537,0,Bulged stacked bases,X,LSU rRNA,G,1947,C,1948,A,1949,C,1950,*,G,1916,C,1917,cWW,cWW,nbp
-6,IL_4WF9_076,4WF9,0.1598,0,Bulged stacked bases,X,LSU rRNA,G,1991,C,1992,A,1993,C,1994,*,G,1960,C,1961,cWW,cWW,nbp
-10,IL_8D29_005,8D29,0.7987,1,,F,RNA (34-MER),C,21,C,22,C,23,U,25,*,A,10,G,11,cWW,cWW,nbp

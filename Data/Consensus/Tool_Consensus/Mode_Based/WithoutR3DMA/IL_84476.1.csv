@@ -1,5 +1,5 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,break,Unnamed: 13,3,Unnamed: 15,4,1-4,2-3,2-4,1-2,1-3
-1,IL_4ERD_001,4ERD,0.6075,2,,C+D,RNA (22-mer),C,120,C,123,*,G,146,G,147,cWW,cWW,nbp,INCOMPATIBLE,nbp
+1,IL_4ERD_001,4ERD,0.6075,2,,C+D,RNA (22-mer),C,120,C,123,*,G,146,G,147,cWW,cWW,nbp,,nbp
 2,IL_7EU9_001,7EU9,0.203,2,Multiple bulged bases,B,RNA (43-MER),C,11,C,12,*,G,16,G,19,cWW,cWW,nbp,nbp,nbp
 3,IL_7D3J_001,7D3J,0.1543,2,Multiple bulged bases,B,RNA (43-MER),C,11,C,12,*,G,16,G,19,cWW,cWW,nbp,nbp,nbp
 6,IL_8ZAU_001,8ZAU,0.1432,2,,A,RNA (69-MER),C,11,G,12,*,C,38,G,41,cWW,cWW,nbp,nbp,nbp

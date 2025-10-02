@@ -1,4 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-6,2-7,3-6,4-5,1-7,2-8,3-7
-1,IL_6CF2_001,6CF2,0.3044,1,Non canonical cWW and near pair,G,RNA (35-MER),G,5,G,6,A,7,C,8,*,G,27,A,28,A,30,C,31,cWW,nbp,cWW,INCOMPATIBLE,cWW,nbp,nbp,nbp
-2,IL_4PMI_008,4PMI,0.0,1,tWW and non-canonical cWW,A,Rev-Response-Element RNA,G,46,G,47,G,48,C,49,*,G,70,G,71,A,73,C,74,cWW,nbp,cWW,tWW,cWW,nbp,nbp,nbp
-4,IL_6MDZ_001,6MDZ,0.7552,2,,E+C,RNA (23-mer),U,9,U,10,C,12,C,13,*,G,9,A,10,A,12,A,13,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp

@@ -1,5 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-6,2-7,3-8,5-6,2-3,1-7,2-8,1-3,4-7,4-6,3-7
-1,IL_4GXY_009,4GXY,0.4399,0,Major groove minor groove platform with extra cWW,A,Adenosylcobalamin riboswitch,G,122,G,123,A,124,A,125,G,126,*,C,105,A,106,C,107,cWW,nbp,tSH,nbp,cWW,INCOMPATIBLE,nbp,nbp,nbp,nbp,nbp,nbp
-2,IL_4WF9_012,4WF9,0.0,0,Major groove minor groove platform with extra cWW,X,LSU rRNA,G,409,G,410,A,411,U,412,C,413,*,G,304,A,305,C,306,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-3,IL_2OEU_001,2OEU,0.4508,0,,B+A,RNA (20-mer),C,14,C,15,A,16,A,17,U,18,*,A,3,U,4,G,5,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-4,IL_7D81_002,7D81,0.7773,0,,A,nadA RNA,G,33,G,34,U,35,G,36,G,37,*,C,22,G,23,C,24,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp

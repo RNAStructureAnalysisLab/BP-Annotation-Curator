@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,1-10,2-9,2-10,3-8,4-7,5-6,2-3,5-7
 1,IL_4WF9_019,4WF9,0.166,0,AAA cross-strand stack,X,LSU rRNA,U,649,U,650,A,651,A,652,G,653,*,U,663,G,664,G,665,A,666,G,667,cWW,tWW,nbp,nbp,tHS,cWW,nbp,nbp
 2,IL_7A0S_013,7A0S,0.1355,0,AAA cross-strand stack,X,LSU rRNA,U,616,U,617,A,618,A,619,G,620,*,C,629,G,630,G,631,A,632,G,633,cWW,nbp,nbp,nbp,tHS,cWW,nbp,nbp
-6,IL_4WF9_074,4WF9,0.5381,0,Triple sheared,X,LSU rRNA,C,1909,G,1910,A,1911,A,1912,U,1913,*,A,1883,G,1884,G,1885,A,1886,G,1887,cWW,nbp,cSW,tHS,tHS,cWW,nbp,nbp
+6,IL_4WF9_074,4WF9,0.5381,0,Triple sheared,X,LSU rRNA,C,1909,G,1910,A,1911,A,1912,U,1913,*,A,1883,G,1884,G,1885,A,1886,G,1887,cWW,nbp,cSW,tHS,nbp,cWW,nbp,nbp
