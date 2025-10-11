@@ -1,0 +1,774 @@
+,Cluster,Tool,PDB,Chain(s),Residue IDs,Description,Complication
+0,HL_02817.1,DSSR,2OEU,A,"['28', '30']",nbp,"KeyError, couldn't find residue in json"
+1,HL_04171.7,FR,5SWD,B,"['33', '37']",nbp,"KeyError, couldn't find residue in json"
+2,HL_04171.7,FR,3LA5,A,"['33', '37']",cSS,
+3,HL_04171.7,FR,4LX6,A,"['33', '37']",cSS,
+4,HL_04171.7,FR,4XNR,X,"['33', '37']",cSS,
+5,HL_04171.7,FR,1Y26,X,"['33', '37']",cSS,
+6,HL_04171.7,FR,8KEB,A,"['21', '25']",cSS,
+7,HL_04171.7,FR,3IVN,A,"['24', '28']",cSS,
+8,HL_04171.7,FR,7KVT,B,"['26', '30']",nbp,"KeyError, couldn't find residue in json"
+9,HL_04259.2,FR,8KAL,A,"['33', '35']",nbp,
+10,HL_04259.2,FR,7A0S,X,"['2336', '2338']",nbp,
+11,HL_04259.2,FR,7QR8,A,"['73', '75']",nbp,
+12,HL_04259.2,FR,7QR8,A,"['72', '77']",nbp,"KeyError, couldn't find residue in json"
+13,HL_04783.2,FR,3OXE,A,"['50', '53']",tSH,
+14,HL_04783.2,FR,3OXE,A,"['50', '52']",nbp,"KeyError, couldn't find residue in json"
+15,HL_04783.2,FR,3EPH,E,"['32', '36']",nbp,"KeyError, couldn't find residue in json"
+16,HL_06059.4,FR,6UFG,B,"['34', '37']",nbp,
+17,HL_06059.4,FR,2AZX,D,"['533', '536']",nbp,
+18,HL_06059.4,FR,7QR3,C,"['21', '24']",nbp,
+19,HL_06059.4,FR,5T83,A,"['58', '61']",nbp,
+20,HL_06059.4,FR,1U0B,A,"['33', '36']",tSH,
+21,HL_06059.4,FR,4YCO,D,"['33', '36']",tSH,
+22,HL_06059.4,FR,7K98,C,"['34', '37']",tSH,
+23,HL_06059.4,RV,7K98,C,"['33', '39']",nbp,"KeyError, couldn't find residue in json"
+24,HL_06059.4,RV,3TUP,T,"['32', '38']",nbp,"KeyError, couldn't find residue in json"
+25,HL_06059.4,FR,6CAQ,W,"['33', '36']",nbp,
+26,HL_06059.4,FR,4B3M,Z,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+27,HL_06059.4,FR,4B3M,Z,"['33', '36']",tSH,
+28,HL_06059.4,FR,1N33,Y,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+29,HL_06059.4,FR,1N33,Y,"['33', '36']",nbp,
+30,HL_06059.4,FR,4R4V,A,"['628', '630']",nbp,"KeyError, couldn't find residue in json"
+31,HL_06059.4,FR,4R4V,A,"['628', '631']",nbp,
+32,HL_06059.4,FR,3WFS,A,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+33,HL_06059.4,FR,3WFS,A,"['33', '36']",nbp,
+34,HL_06059.4,FR,4MGN,B,"['32', '34']",nbp,
+35,HL_06059.4,FR,4P5J,A,"['27', '29']",nbp,
+36,HL_06059.4,RV,4P5J,A,"['26', '32']",nbp,"KeyError, couldn't find residue in json"
+37,HL_08510.1,FR,2QUW,B,"['21', '23']",nbp,"KeyError, couldn't find residue in json"
+38,HL_09452.1,FR,5X6B,P,"['13', '21']",nbp,"KeyError, couldn't find residue in json"
+39,HL_10456.1,FR,3D0U,A,"['40', '42']",nbp,"KeyError, couldn't find residue in json"
+40,HL_19210.3,FR,5D8H,A,"['1175', '1183']",nbp,"KeyError, couldn't find residue in json"
+41,HL_20743.5,FR,3SKL,B,"['41', '44']",nbp,"KeyError, couldn't find residue in json"
+42,HL_20751.2,DSSR,3DIL,A,"['43', '46']",nbp,"KeyError, couldn't find residue in json"
+43,HL_27670.2,FR,7A0S,X,"['339', '343']",nbp,"KeyError, couldn't find residue in json"
+44,HL_27670.2,RV,7A0S,X,"['339', '343']",tWW,
+45,HL_28252.5,FR,6UFG,B,"['56', '58']",nbp,"KeyError, couldn't find residue in json"
+46,HL_28252.5,FR,6UFH,B,"['56', '58']",nbp,"KeyError, couldn't find residue in json"
+47,HL_28252.5,FR,6JQ6,U,"['8', '10']",nbp,"KeyError, couldn't find residue in json"
+48,HL_28252.5,FR,6JQ5,A,"['8', '11']",nbp,
+49,HL_28252.5,FR,6JQ5,A,"['8', '10']",nbp,"KeyError, couldn't find residue in json"
+50,HL_28252.5,FR,6JQ5,B,"['8', '11']",nbp,
+51,HL_28252.5,FR,6JQ5,B,"['8', '10']",nbp,"KeyError, couldn't find residue in json"
+52,HL_28252.5,FR,3IGI,A,"['32', '35']",nbp,
+53,HL_28252.5,FR,3IGI,A,"['32', '34']",nbp,
+54,HL_28252.5,FR,5WWT,C,"['55', '58']",nbp,
+55,HL_28252.5,FR,5WWT,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+56,HL_28252.5,FR,4MGN,B,"['54', '57']",nbp,
+57,HL_28252.5,FR,4MGN,B,"['54', '56']",nbp,"KeyError, couldn't find residue in json"
+58,HL_28252.5,FR,3ADD,C,"['55', '58']",nbp,
+59,HL_28252.5,FR,3ADD,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+60,HL_28252.5,FR,3W3S,B,"['55', '58']",nbp,
+61,HL_28252.5,FR,3W3S,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+62,HL_28252.5,FR,2DU3,D,"['954', '957']",nbp,
+63,HL_28252.5,FR,2DU3,D,"['954', '956']",nbp,"KeyError, couldn't find residue in json"
+64,HL_28252.5,FR,4X4V,B,"['14', '17']",nbp,
+65,HL_28252.5,FR,4X4V,B,"['14', '16']",nbp,"KeyError, couldn't find residue in json"
+66,HL_28252.5,FR,3FOZ,D,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+67,HL_28252.5,FR,2DER,D,"['55', '58']",nbp,
+68,HL_28252.5,FR,3AM1,B,"['61', '64']",nbp,
+69,HL_28252.5,FR,3AM1,B,"['61', '63']",nbp,"KeyError, couldn't find residue in json"
+70,HL_28252.5,FR,8K2Z,A,"['40', '43']",nbp,
+71,HL_28252.5,FR,8K2Z,A,"['40', '42']",nbp,"KeyError, couldn't find residue in json"
+72,HL_28252.5,FR,5E6M,C,"['55', '58']",nbp,
+73,HL_28252.5,FR,5E6M,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+74,HL_28252.5,FR,4QEI,C,"['55', '58']",nbp,
+75,HL_28252.5,FR,4QEI,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+76,HL_28252.5,FR,3TUP,T,"['55', '58']",nbp,
+77,HL_28252.5,FR,1N78,C,"['555', '557']",nbp,"KeyError, couldn't find residue in json"
+78,HL_28252.5,FR,3EPH,E,"['55', '58']",nbp,
+79,HL_28252.5,FR,3EPH,E,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+80,HL_28252.5,FR,3WFS,A,"['55', '58']",nbp,
+81,HL_28252.5,FR,3WFS,A,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+82,HL_28252.5,FR,7UZ0,A,"['70', '73']",nbp,
+83,HL_28252.5,FR,1U0B,A,"['55', '58']",nbp,
+84,HL_28252.5,FR,1U0B,A,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+85,HL_28252.5,FR,4GCW,B,"['55', '58']",nbp,
+86,HL_28252.5,FR,4GCW,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+87,HL_28252.5,FR,6CU1,A,"['26', '29']",nbp,
+88,HL_28252.5,FR,6CU1,A,"['26', '28']",nbp,"KeyError, couldn't find residue in json"
+89,HL_28252.5,FR,7K98,C,"['56', '59']",nbp,
+90,HL_28252.5,FR,7K98,C,"['56', '58']",nbp,"KeyError, couldn't find residue in json"
+91,HL_28252.5,FR,7EQJ,B,"['55', '58']",nbp,
+92,HL_28252.5,FR,7EQJ,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+93,HL_28252.5,FR,1FFY,T,"['55', '58']",nbp,
+94,HL_28252.5,FR,1FFY,T,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+95,HL_28252.5,FR,1QU2,T,"['55', '58']",nbp,
+96,HL_28252.5,FR,1QU2,T,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+97,HL_28252.5,FR,6MJ0,B,"['68', '71']",nbp,
+98,HL_28252.5,FR,6MJ0,B,"['68', '70']",nbp,
+99,HL_28252.5,FR,8K0Y,A,"['39', '42']",nbp,
+100,HL_28252.5,FR,8K0Y,A,"['39', '41']",nbp,"KeyError, couldn't find residue in json"
+101,HL_28252.5,FR,5WT1,C,"['55', '58']",nbp,
+102,HL_28252.5,FR,5WT1,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+103,HL_28252.5,FR,4YCP,B,"['55', '58']",nbp,
+104,HL_28252.5,FR,4YCP,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+105,HL_28252.5,FR,4WJ4,B,"['55', '58']",nbp,
+106,HL_28252.5,FR,4WJ4,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+107,HL_28252.5,FR,3ZGZ,B,"['55', '58']",nbp,
+108,HL_28252.5,FR,3ZGZ,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+109,HL_28252.5,FR,4LCK,B,"['54', '57']",nbp,
+110,HL_28252.5,FR,4LCK,B,"['54', '56']",nbp,"KeyError, couldn't find residue in json"
+111,HL_28252.5,FR,3RG5,B,"['55', '58']",nbp,
+112,HL_28252.5,FR,3RG5,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+113,HL_28252.5,FR,6JXM,B,"['76', '79']",nbp,
+114,HL_28252.5,FR,6JXM,B,"['76', '78']",nbp,"KeyError, couldn't find residue in json"
+115,HL_28252.5,FR,7E8O,X,"['54', '57']",nbp,
+116,HL_28252.5,FR,7E8O,X,"['54', '56']",nbp,"KeyError, couldn't find residue in json"
+117,HL_28252.5,FR,2BTE,B,"['55', '58']",nbp,
+118,HL_28252.5,FR,2BTE,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+119,HL_28252.5,FR,5AH5,D,"['55', '58']",nbp,
+120,HL_28252.5,FR,5AH5,D,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+121,HL_28252.5,FR,7LYF,A,"['118', '121']",nbp,
+122,HL_28252.5,FR,7LYF,A,"['118', '120']",nbp,"KeyError, couldn't find residue in json"
+123,HL_28252.5,FR,8UO6,A,"['113', '116']",nbp,
+124,HL_28252.5,FR,8UO6,A,"['113', '115']",nbp,"KeyError, couldn't find residue in json"
+125,HL_28252.5,FR,8UO6,B,"['113', '116']",nbp,
+126,HL_28252.5,FR,8UO6,B,"['113', '115']",nbp,"KeyError, couldn't find residue in json"
+127,HL_28252.5,FR,2ZZN,D,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+128,HL_28252.5,FR,3WQY,C,"['1655', '1658']",nbp,
+129,HL_28252.5,FR,3WQY,C,"['1655', '1657']",nbp,"KeyError, couldn't find residue in json"
+130,HL_28252.5,FR,4RDX,C,"['55', '58']",nbp,
+131,HL_28252.5,FR,4RDX,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+132,HL_28252.5,FR,6UFM,A,"['56', '59']",nbp,
+133,HL_28252.5,FR,6UFM,A,"['56', '58']",nbp,"KeyError, couldn't find residue in json"
+134,HL_28252.5,FR,7KJT,A,"['55', '58']",nbp,
+135,HL_28252.5,FR,7KJT,A,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+136,HL_28252.5,FR,2ZUE,B,"['955', '958']",nbp,
+137,HL_28252.5,FR,2ZUE,B,"['955', '957']",nbp,"KeyError, couldn't find residue in json"
+138,HL_28252.5,FR,6UGG,B,"['55', '58']",nbp,
+139,HL_28252.5,FR,6UGG,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+140,HL_28252.5,FR,7MRL,A,"['58', '61']",nbp,
+141,HL_28252.5,FR,7MRL,A,"['58', '60']",nbp,"KeyError, couldn't find residue in json"
+142,HL_28252.5,FR,4YCO,D,"['55', '58']",nbp,
+143,HL_28252.5,FR,4YCO,D,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+144,HL_28252.5,FR,5AXM,P,"['55', '58']",nbp,
+145,HL_28252.5,FR,5AXM,P,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+146,HL_28252.5,FR,1J1U,B,"['556', '559']",nbp,
+147,HL_28252.5,FR,1J1U,B,"['556', '558']",nbp,"KeyError, couldn't find residue in json"
+148,HL_28252.5,FR,4JXZ,B,"['955', '958']",nbp,
+149,HL_28252.5,FR,4JXZ,B,"['955', '957']",nbp,"KeyError, couldn't find residue in json"
+150,HL_28252.5,FR,8VU0,C,"['55', '58']",nbp,
+151,HL_28252.5,FR,8VU0,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+152,HL_28252.5,FR,4YYE,C,"['55', '58']",nbp,
+153,HL_28252.5,FR,4YYE,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+154,HL_28252.5,FR,5HR7,D,"['54', '57']",nbp,
+155,HL_28252.5,FR,5HR7,D,"['54', '56']",nbp,"KeyError, couldn't find residue in json"
+156,HL_28252.5,FR,5HR6,C,"['54', '57']",nbp,
+157,HL_28252.5,FR,5HR6,C,"['54', '56']",nbp,"KeyError, couldn't find residue in json"
+158,HL_28252.5,FR,1QTQ,B,"['955', '958']",nbp,
+159,HL_28252.5,FR,1QTQ,B,"['955', '957']",nbp,"KeyError, couldn't find residue in json"
+160,HL_28252.5,FR,2ZZM,B,"['55', '58']",nbp,
+161,HL_28252.5,FR,2ZZM,B,"['55', '57']",nbp,
+162,HL_28252.5,FR,5X6B,P,"['54', '57']",nbp,
+163,HL_28252.5,FR,5X6B,P,"['54', '56']",nbp,"KeyError, couldn't find residue in json"
+164,HL_28252.5,FR,3AL0,E,"['55', '58']",nbp,
+165,HL_28252.5,FR,3AL0,E,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+166,HL_28252.5,FR,7YSE,E,"['55', '58']",nbp,
+167,HL_28252.5,FR,7YSE,E,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+168,HL_28252.5,FR,7UQ6,B,"['66', '69']",nbp,
+169,HL_28252.5,FR,7UQ6,B,"['66', '68']",nbp,"KeyError, couldn't find residue in json"
+170,HL_28252.5,FR,8V1H,A,"['40', '43']",nbp,
+171,HL_28252.5,FR,8V1H,A,"['40', '42']",nbp,"KeyError, couldn't find residue in json"
+172,HL_28252.5,FR,8S95,C,"['135', '138']",nbp,
+173,HL_28252.5,FR,8S95,C,"['135', '137']",nbp,"KeyError, couldn't find residue in json"
+174,HL_28252.5,FR,4P5J,A,"['48', '51']",nbp,
+175,HL_28252.5,FR,4P5J,A,"['48', '50']",nbp,
+176,HL_28252.5,FR,2AZX,D,"['555', '557']",nbp,"KeyError, couldn't find residue in json"
+177,HL_28252.5,DSSR,5B63,D,"['956', '958']",nbp,"KeyError, couldn't find residue in json"
+178,HL_28252.5,FR,5B63,D,"['956', '958']",REJECT,
+179,HL_28252.5,FR,2D6F,F,"['955', '957']",nbp,"KeyError, couldn't find residue in json"
+180,HL_28252.5,FR,5UD5,C,"['55', '58']",nbp,
+181,HL_28252.5,FR,5UD5,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+182,HL_28252.5,FR,2DRA,B,"['14', '17']",nbp,
+183,HL_28252.5,FR,2DRA,B,"['14', '16']",nbp,"KeyError, couldn't find residue in json"
+184,HL_28252.5,FR,8Z1P,B,"['55', '58']",nbp,
+185,HL_28252.5,FR,8Z1P,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+186,HL_28252.5,FR,8WND,T,"['55', '57']",nbp,
+187,HL_28252.5,FR,1WZ2,D,"['967', '970']",nbp,
+188,HL_28252.5,FR,1WZ2,D,"['967', '969']",nbp,"KeyError, couldn't find residue in json"
+189,HL_28252.5,FR,3AMU,B,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+190,HL_28252.5,FR,3AKZ,E,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+191,HL_28252.5,FR,8SP9,C,"['132', '135']",nbp,
+192,HL_28252.5,FR,8SP9,C,"['132', '134']",nbp,
+193,HL_28252.5,FR,3OVB,C,"['14', '17']",nbp,
+194,HL_28252.5,FR,3OVB,C,"['14', '16']",nbp,"KeyError, couldn't find residue in json"
+195,HL_28252.5,FR,8K1E,A,"['41', '44']",nbp,
+196,HL_28252.5,FR,8K1E,A,"['41', '43']",nbp,"KeyError, couldn't find residue in json"
+197,HL_28252.5,DSSR,1J2B,C,"['957', '958']",nbp,"KeyError, couldn't find residue in json"
+198,HL_28252.5,FR,1J2B,C,"['956', '959']",nbp,
+199,HL_28252.5,FR,1J2B,C,"['956', '958']",nbp,"KeyError, couldn't find residue in json"
+200,HL_28252.5,FR,1GAX,D,"['954', '956']",nbp,"KeyError, couldn't find residue in json"
+201,HL_28252.5,FR,2CSX,C,"['55', '58']",nbp,
+202,HL_28252.5,FR,2CSX,C,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+203,HL_28252.5,FR,4GXY,A,"['51', '53']",nbp,"KeyError, couldn't find residue in json"
+204,HL_28252.5,FR,4WF9,X,"['1320', '1323']",nbp,
+205,HL_28252.5,FR,4WF9,X,"['1320', '1322']",nbp,"KeyError, couldn't find residue in json"
+206,HL_28252.5,FR,7A0S,X,"['1296', '1298']",nbp,"KeyError, couldn't find residue in json"
+207,HL_28252.5,FR,8V1I,B,"['40', '43']",nbp,
+208,HL_28252.5,FR,8V1I,B,"['40', '42']",nbp,"KeyError, couldn't find residue in json"
+209,HL_28252.5,FR,6UGI,A,"['14', '17']",nbp,
+210,HL_28252.5,FR,6UGI,A,"['14', '16']",nbp,"KeyError, couldn't find residue in json"
+211,HL_30068.2,RV,4WF9,X,"['2579', '2583']",nbp,"KeyError, couldn't find residue in json"
+212,HL_31585.3,RV,3RKF,C,"['47', '51']",nbp,"KeyError, couldn't find residue in json"
+213,HL_31585.3,FR,4WF9,X,"['2557', '2562']",nbp,
+214,HL_33074.4,FR,3CUL,C,"['31', '33']",nbp,"KeyError, couldn't find residue in json"
+215,HL_34617.4,RV,1NBS,B,"['153', '156']",tSW,
+216,HL_34617.4,RV,1I6U,C,"['17', '20']",tSW,
+217,HL_34617.4,FR,7RGU,F,"['11', '14']",nbp,"KeyError, couldn't find residue in json"
+218,HL_34617.4,RV,4WF9,X,"['1736', '1739']",tSW,
+219,HL_34617.4,FR,7A0S,X,"['1709', '1712']",tSW,
+220,HL_34617.4,RV,7A0S,X,"['1709', '1712']",tSW,
+221,HL_34617.4,FR,6DLR,A,"['62', '65']",tSW,
+222,HL_34617.4,RV,3IGI,A,"['339', '342']",tSW,
+223,HL_34617.4,FR,8ID2,C,"['11', '14']",tSW,
+224,HL_34617.4,RV,8ID2,C,"['11', '14']",tSW,
+225,HL_34617.4,RV,4LFB,A,"['343', '346']",tSW,
+226,HL_34617.4,FR,1KUQ,B,"['9', '12']",tSW,
+227,HL_34617.4,FR,4LFB,A,"['1450', '1453']",tSW,
+228,HL_34617.4,RV,4LFB,A,"['1450', '1453']",tSW,
+229,HL_34617.4,RV,6QN3,A,"['10', '13']",tSW,
+230,HL_34617.4,RV,8F5G,D,"['13', '16']",tSW,
+231,HL_34617.4,RV,4PDB,I,"['18', '21']",tSW,
+232,HL_34617.4,RV,5D5L,A,"['61', '64']",tSW,
+233,HL_34617.4,RV,5Y85,D,"['29', '32']",tSW,
+234,HL_34617.4,RV,6QN3,B,"['10', '13']",tSW,
+235,HL_34617.4,RV,4PMI,A,"['54', '57']",tSW,
+236,HL_34617.4,RV,8K7W,A,"['21', '24']",tSW,
+237,HL_34617.4,RV,7OAX,A,"['22', '25']",tSW,
+238,HL_34617.4,RV,2HW8,B,"['16', '19']",tSW,
+239,HL_34617.4,FR,3U4M,B,"['2144', '2147']",nbp,"KeyError, couldn't find residue in json"
+240,HL_34617.4,FR,1YLS,B,"['221', '224']",tSW,
+241,HL_34617.4,FR,8T29,R,"['59', '62']",tSW,
+242,HL_34617.4,RV,8T29,R,"['59', '62']",tSW,
+243,HL_34617.4,FR,8SP9,C,"['91', '94']",nbp,
+244,HL_34617.4,FR,3DH3,F,"['2597', '2598']",nbp,"KeyError, couldn't find residue in json"
+245,HL_35677.3,FR,6YL5,I,"['16', '21']",nbp,"KeyError, couldn't find residue in json"
+246,HL_35677.3,FR,2XDB,G,"['5', '8']",nbp,
+247,HL_37824.6,FR,5VSU,I,"['70', '71']",nbp,
+248,HL_37824.6,FR,5VSU,I,"['71', '74']",nbp,"KeyError, couldn't find residue in json"
+249,HL_37824.6,FR,7Z4D,A,"['73', '76']",nbp,
+250,HL_37824.6,FR,1XJR,A,"['22', '24']",nbp,"KeyError, couldn't find residue in json"
+251,HL_37824.6,FR,6VMY,A,"['224', '226']",nbp,"KeyError, couldn't find residue in json"
+252,HL_37824.6,FR,5LM7,G,"['22', '24']",nbp,"KeyError, couldn't find residue in json"
+253,HL_37824.6,FR,3D0U,A,"['122', '124']",nbp,
+254,HL_37824.6,FR,4AL5,B,"['11', '13']",nbp,"KeyError, couldn't find residue in json"
+255,HL_37824.6,FR,2XLK,C,"['11', '13']",nbp,"KeyError, couldn't find residue in json"
+256,HL_37824.6,FR,7WKP,B,"['11', '13']",nbp,
+257,HL_37824.6,FR,4WF9,X,"['687', '689']",nbp,"KeyError, couldn't find residue in json"
+258,HL_37824.6,FR,1G1X,I,"['591', '594']",nbp,
+259,HL_37824.6,FR,1G1X,I,"['591', '593']",nbp,
+260,HL_37824.6,FR,6LAX,A,"['43', '45']",nbp,"KeyError, couldn't find residue in json"
+261,HL_37824.6,FR,1U6B,B,"['154', '156']",nbp,"KeyError, couldn't find residue in json"
+262,HL_37824.6,FR,7U4A,A,"['14', '17']",nbp,
+263,HL_37824.6,FR,7U4A,A,"['14', '16']",nbp,"KeyError, couldn't find residue in json"
+264,HL_37824.6,FR,4QLM,A,"['55', '57']",nbp,"KeyError, couldn't find residue in json"
+265,HL_37824.6,FR,7A0S,X,"['147', '149']",nbp,
+266,HL_37824.6,FR,1M5K,B,"['75', '77']",nbp,
+267,HL_37824.6,FR,7QQX,A,"['33', '36']",nbp,"KeyError, couldn't find residue in json"
+268,HL_37824.6,FR,7QQX,A,"['33', '35']",nbp,
+269,HL_37824.6,FR,4QK9,A,"['15', '17']",nbp,
+270,HL_37824.6,FR,5FQ5,A,"['73', '76']",tSH,
+271,HL_37824.6,FR,5FQ5,A,"['73', '75']",nbp,
+272,HL_37824.6,FR,7QR0,A,"['73', '75']",nbp,
+273,HL_37824.6,FR,5FQ5,A,"['33', '36']",nbp,"KeyError, couldn't find residue in json"
+274,HL_37824.6,FR,5FQ5,A,"['33', '35']",nbp,
+275,HL_37824.6,FR,4WF9,X,"['1000', '1003']",nbp,
+276,HL_37824.6,FR,7A0S,X,"['967', '970']",nbp,
+277,HL_37824.6,FR,4LFB,A,"['297', '299']",nbp,"KeyError, couldn't find residue in json"
+278,HL_37824.6,FR,6AZ4,A,"['21', '24']",tSH,
+279,HL_37824.6,FR,6AZ4,A,"['21', '23']",nbp,"KeyError, couldn't find residue in json"
+280,HL_37824.6,FR,6CB3,B,"['21', '23']",nbp,
+281,HL_37824.6,FR,4K50,B,"['588', '590']",nbp,
+282,HL_37824.6,FR,1KXK,A,"['34', '36']",nbp,"KeyError, couldn't find residue in json"
+283,HL_37824.6,FR,4K27,U,"['27', '29']",nbp,
+284,HL_37824.6,FR,5BTM,A,"['27', '29']",nbp,"KeyError, couldn't find residue in json"
+285,HL_37824.6,FR,6WPI,B,"['26', '28']",nbp,
+286,HL_37824.6,FR,4PCJ,A,"['17', '19']",nbp,
+287,HL_37824.6,FR,5M0H,A,"['22', '24']",nbp,"KeyError, couldn't find residue in json"
+288,HL_37824.6,FR,4FRG,B,"['47', '49']",nbp,
+289,HL_37824.6,FR,6JQ5,B,"['46', '48']",nbp,
+290,HL_37824.6,FR,4BW0,A,"['10', '12']",nbp,
+291,HL_37824.6,FR,7WIE,V,"['32', '34']",nbp,"KeyError, couldn't find residue in json"
+292,HL_37824.6,FR,4PLX,A,"['25', '27']",nbp,
+293,HL_37824.6,FR,2R8S,R,"['150', '152']",nbp,
+294,HL_37824.6,FR,5UZ6,A,"['16', '18']",nbp,
+295,HL_37824.6,FR,8HZE,B,"['20', '22']",nbp,
+296,HL_37824.6,FR,5VCI,A,"['17', '19']",nbp,"KeyError, couldn't find residue in json"
+297,HL_37824.6,FR,4JF2,A,"['9', '11']",nbp,"KeyError, couldn't find residue in json"
+298,HL_37824.6,FR,5D5L,A,"['9', '11']",nbp,"KeyError, couldn't find residue in json"
+299,HL_37824.6,FR,4LFB,A,"['1166', '1168']",nbp,
+300,HL_37824.6,FR,1KH6,A,"['29', '32']",tSH,
+301,HL_37824.6,FR,1KH6,A,"['29', '31']",nbp,"KeyError, couldn't find residue in json"
+302,HL_37824.6,FR,1U6B,B,"['24', '26']",nbp,
+303,HL_37824.6,FR,3CUL,C,"['8', '10']",nbp,"KeyError, couldn't find residue in json"
+304,HL_37824.6,FR,5XTM,D,"['25', '27']",nbp,
+305,HL_37824.6,FR,5XTM,B,"['25', '27']",nbp,"KeyError, couldn't find residue in json"
+306,HL_37824.6,FR,7UZ0,A,"['37', '39']",nbp,
+307,HL_37824.6,FR,5Y7M,D,"['25', '27']",nbp,
+308,HL_37824.6,FR,5DCV,D,"['27', '30']",tSH,
+309,HL_37824.6,FR,5DCV,D,"['27', '29']",nbp,"KeyError, couldn't find residue in json"
+310,HL_37824.6,FR,8SYK,A,"['80', '83']",tSH,
+311,HL_37824.6,FR,8SYK,A,"['80', '82']",nbp,
+312,HL_37824.6,FR,1NBS,B,"['205', '208']",tSH,
+313,HL_37824.6,FR,1NBS,B,"['205', '207']",nbp,
+314,HL_37824.6,FR,5DDO,A,"['12', '14']",nbp,"KeyError, couldn't find residue in json"
+315,HL_37824.6,FR,8Z8U,B,"['20', '22']",nbp,"KeyError, couldn't find residue in json"
+316,HL_37824.6,FR,3P22,A,"['18', '20']",nbp,
+317,HL_37824.6,FR,4WF9,X,"['534', '537']",tSH,
+318,HL_37824.6,FR,4WF9,X,"['534', '536']",nbp,
+319,HL_37824.6,FR,7A0S,X,"['499', '501']",nbp,"KeyError, couldn't find residue in json"
+320,HL_37824.6,FR,4W90,C,"['83', '85']",nbp,
+321,HL_37824.6,FR,5F9R,A,"['91', '94']",tSH,
+322,HL_37824.6,FR,5F9R,A,"['91', '93']",nbp,
+323,HL_37824.6,FR,7QQX,A,"['73', '75']",nbp,
+324,HL_37824.6,FR,3KTW,C,"['210', '212']",nbp,"KeyError, couldn't find residue in json"
+325,HL_37824.6,FR,4ZT0,D,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+326,HL_37824.6,FR,4LFB,A,"['863', '865']",nbp,
+327,HL_37824.6,FR,4Y1M,B,"['82', '84']",nbp,"KeyError, couldn't find residue in json"
+328,HL_37824.6,FR,1U9S,A,"['100', '103']",tSH,
+329,HL_37824.6,FR,1U9S,A,"['100', '102']",nbp,
+330,HL_37824.6,FR,3D0U,A,"['143', '145']",nbp,
+331,HL_37824.6,FR,8KAJ,I,"['73', '76']",nbp,"KeyError, couldn't find residue in json"
+332,HL_37824.6,FR,8KAJ,I,"['73', '75']",nbp,"KeyError, couldn't find residue in json"
+333,HL_37824.6,FR,5VW1,C,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+334,HL_37824.6,FR,2OIU,P,"['11', '13']",nbp,"KeyError, couldn't find residue in json"
+335,HL_37824.6,FR,4LCK,B,"['72', '75']",tSH,
+336,HL_37824.6,FR,4LCK,B,"['72', '74']",nbp,"KeyError, couldn't find residue in json"
+337,HL_37824.6,FR,4ENC,A,"['29', '31']",nbp,"KeyError, couldn't find residue in json"
+338,HL_37824.6,FR,7K16,P,"['14', '16']",nbp,
+339,HL_37824.6,FR,5FJC,A,"['74', '76']",nbp,
+340,HL_37824.6,FR,7OZQ,H,"['15', '17']",nbp,"KeyError, couldn't find residue in json"
+341,HL_37824.6,FR,7D7W,A,"['28', '30']",nbp,
+342,HL_37824.6,FR,5TPY,A,"['63', '65']",nbp,
+343,HL_37824.6,FR,3MXH,R,"['32', '34']",nbp,
+344,HL_37824.6,FR,4AOB,A,"['74', '76']",nbp,
+345,HL_37824.6,FR,3IGI,A,"['275', '277']",nbp,
+346,HL_37824.6,FR,6DVK,H,"['46', '48']",nbp,"KeyError, couldn't find residue in json"
+347,HL_37824.6,FR,1GID,B,"['150', '152']",nbp,
+348,HL_37824.6,FR,1G1X,D,"['591', '593']",nbp,
+349,HL_37824.6,FR,3PDR,X,"['69', '71']",nbp,
+350,HL_37824.6,FR,1L9A,B,"['198', '200']",nbp,"KeyError, couldn't find residue in json"
+351,HL_37824.6,FR,7R97,C,"['12', '14']",nbp,
+352,HL_37824.6,FR,7A0S,X,"['2638', '2640']",nbp,"KeyError, couldn't find residue in json"
+353,HL_37824.6,FR,6K4Q,A,"['73', '75']",nbp,
+354,HL_37824.6,FR,8ITS,A,"['16', '18']",nbp,
+355,HL_37824.6,FR,5B2P,B,"['36', '38']",nbp,"KeyError, couldn't find residue in json"
+356,HL_37824.6,FR,5X2G,B,"['33', '35']",nbp,
+357,HL_37824.6,FR,6TFF,A,"['28', '30']",nbp,
+358,HL_37824.6,FR,8ITS,A,"['32', '34']",nbp,
+359,HL_37824.6,FR,6N2V,A,"['57', '59']",nbp,"KeyError, couldn't find residue in json"
+360,HL_37824.6,FR,1RLG,D,"['10', '12']",nbp,"KeyError, couldn't find residue in json"
+361,HL_37824.6,FR,4Y1M,B,"['56', '58']",nbp,
+362,HL_37824.6,FR,3NDB,M,"['209', '211']",nbp,"KeyError, couldn't find residue in json"
+363,HL_37824.6,FR,3MOJ,A,"['2530', '2532']",nbp,"KeyError, couldn't find residue in json"
+364,HL_37824.6,FR,5B2T,A,"['73', '76']",tSH,
+365,HL_37824.6,FR,5B2T,A,"['73', '75']",nbp,"KeyError, couldn't find residue in json"
+366,HL_37824.6,FR,8Z8U,A,"['20', '22']",nbp,
+367,HL_37824.6,FR,8D28,B,"['14', '16']",nbp,
+368,HL_37824.6,FR,3RW6,H,"['28', '30']",nbp,
+369,HL_37824.6,FR,1MZP,B,"['26', '28']",nbp,
+370,HL_37824.6,FR,7ZO1,A,"['73', '75']",nbp,
+371,HL_37824.6,FR,4RUM,A,"['52', '54']",nbp,
+372,HL_37824.6,FR,4OQU,A,"['58', '61']",tSH,
+373,HL_37824.6,FR,4OQU,A,"['58', '60']",nbp,"KeyError, couldn't find residue in json"
+374,HL_37824.6,FR,5FJC,A,"['50', '52']",nbp,"KeyError, couldn't find residue in json"
+375,HL_37824.6,FR,8X5V,B,"['34', '36']",nbp,
+376,HL_37824.6,FR,5DDP,A,"['12', '14']",nbp,
+377,HL_37824.6,FR,1Q96,A,"['14', '16']",nbp,"KeyError, couldn't find residue in json"
+378,HL_37824.6,FR,7U4A,A,"['63', '65']",nbp,"KeyError, couldn't find residue in json"
+379,HL_37824.6,FR,4LFB,A,"['380', '382']",nbp,
+380,HL_37824.6,FR,4Y1M,B,"['25', '27']",nbp,"KeyError, couldn't find residue in json"
+381,HL_37824.6,FR,3AM1,B,"['46', '48']",nbp,"KeyError, couldn't find residue in json"
+382,HL_37824.6,FR,4R4V,A,"['736', '738']",nbp,
+383,HL_37824.6,FR,5TPY,A,"['14', '16']",nbp,
+384,HL_37824.6,FR,3NMU,E,"['19', '22']",tSH,
+385,HL_37824.6,FR,3NMU,E,"['19', '21']",nbp,
+386,HL_37824.6,FR,7UQ6,B,"['42', '45']",tSH,
+387,HL_37824.6,FR,7UQ6,B,"['42', '44']",nbp,
+388,HL_37824.6,FR,4WF9,X,"['2686', '2688']",nbp,"KeyError, couldn't find residue in json"
+389,HL_37824.6,FR,7QR0,A,"['33', '36']",nbp,
+390,HL_37824.6,FR,7QR0,A,"['33', '35']",nbp,
+391,HL_37824.6,FR,7QQP,A,"['33', '35']",nbp,
+392,HL_37824.6,FR,7ZO1,A,"['33', '35']",nbp,
+393,HL_37824.6,FR,4AOB,A,"['50', '52']",nbp,"KeyError, couldn't find residue in json"
+394,HL_37824.6,FR,3IWN,A,"['22', '25']",nbp,
+395,HL_37824.6,FR,3IWN,A,"['22', '24']",nbp,"KeyError, couldn't find residue in json"
+396,HL_37824.6,FR,1MFQ,A,"['198', '200']",nbp,"KeyError, couldn't find residue in json"
+397,HL_37824.6,FR,6JDV,B,"['88', '89']",nbp,
+398,HL_37824.6,FR,7ENI,B,"['35', '37']",nbp,
+399,HL_37824.6,FR,4LFB,A,"['159', '161']",nbp,
+400,HL_37824.6,FR,4LFB,A,"['898', '900']",nbp,
+401,HL_37824.6,FR,5M0J,E,"['13', '15']",nbp,"KeyError, couldn't find residue in json"
+402,HL_37824.6,FR,5M0J,F,"['13', '15']",nbp,"KeyError, couldn't find residue in json"
+403,HL_37824.6,FR,5M0I,E,"['13', '15']",nbp,
+404,HL_37824.6,FR,7ELQ,A,"['23', '25']",nbp,"KeyError, couldn't find residue in json"
+405,HL_37824.6,FR,6N2V,A,"['77', '79']",nbp,"KeyError, couldn't find residue in json"
+406,HL_37824.6,FR,5M0I,F,"['13', '15']",nbp,"KeyError, couldn't find residue in json"
+407,HL_37824.6,FR,3LQX,B,"['154', '156']",nbp,"KeyError, couldn't find residue in json"
+408,HL_37824.6,FR,6K4Q,A,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+409,HL_37824.6,FR,4NLF,A,"['2659', '2661']",nbp,
+410,HL_37824.6,FR,8HZL,B,"['50', '52']",nbp,
+411,HL_37824.6,FR,6UFH,A,"['46', '49']",nbp,
+412,HL_37824.6,FR,6UFH,A,"['46', '48']",nbp,
+413,HL_37824.6,FR,5F9F,F,"['11', '14']",nbp,
+414,HL_37824.6,FR,5F9F,F,"['11', '13']",nbp,"KeyError, couldn't find residue in json"
+415,HL_37824.6,FR,6N2V,A,"['25', '27']",nbp,"KeyError, couldn't find residue in json"
+416,HL_37824.6,FR,5B2T,A,"['33', '36']",nbp,
+417,HL_37824.6,FR,5B2T,A,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+418,HL_37824.6,FR,3SUX,X,"['66', '68']",nbp,
+419,HL_37824.6,FR,7A0S,X,"['641', '643']",nbp,
+420,HL_37824.6,FR,7A0S,X,"['2354', '2356']",nbp,"KeyError, couldn't find residue in json"
+421,HL_37824.6,FR,4WF9,X,"['2402', '2405']",nbp,
+422,HL_37824.6,FR,4WF9,X,"['2402', '2404']",nbp,"KeyError, couldn't find residue in json"
+423,HL_37824.6,FR,1UN6,F,"['83', '86']",nbp,
+424,HL_37824.6,FR,1UN6,F,"['83', '85']",nbp,"KeyError, couldn't find residue in json"
+425,HL_37824.6,FR,4OQU,A,"['14', '17']",nbp,
+426,HL_37824.6,FR,6CB3,B,"['51', '53']",nbp,
+427,HL_37824.6,FR,6UFG,A,"['106', '108']",nbp,"KeyError, couldn't find residue in json"
+428,HL_37824.6,FR,6CU1,A,"['43', '45']",nbp,
+429,HL_37824.6,FR,8VU0,C,"['34', '36']",nbp,
+430,HL_37824.6,FR,4PQV,A,"['14', '17']",nbp,
+431,HL_37824.6,FR,5VW1,C,"['73', '76']",nbp,"KeyError, couldn't find residue in json"
+432,HL_37824.6,FR,5VW1,C,"['73', '75']",nbp,
+433,HL_37824.6,FR,4ZT0,D,"['73', '76']",nbp,"KeyError, couldn't find residue in json"
+434,HL_37824.6,FR,4ZT0,D,"['73', '75']",nbp,
+435,HL_37824.6,FR,5DDO,B,"['12', '15']",nbp,"KeyError, couldn't find residue in json"
+436,HL_37824.6,FR,5DDO,B,"['12', '14']",nbp,"KeyError, couldn't find residue in json"
+437,HL_37824.6,FR,6MJ0,B,"['50', '53']",nbp,
+438,HL_37824.6,FR,6MJ0,B,"['50', '52']",nbp,
+439,HL_37824.6,FR,7JNH,B,"['44', '46']",nbp,
+440,HL_37824.6,FR,6CB3,B,"['77', '79']",nbp,
+441,HL_37824.6,FR,3NKB,B,"['50', '52']",nbp,
+442,HL_37824.6,FR,4LVW,A,"['59', '61']",nbp,
+443,HL_37824.6,FR,7MRL,A,"['35', '38']",nbp,
+444,HL_37824.6,FR,7MRL,A,"['35', '37']",nbp,"KeyError, couldn't find residue in json"
+445,HL_37824.6,FR,6DME,A,"['26', '28']",nbp,
+446,HL_37824.6,FR,6U8D,A,"['198', '201']",nbp,
+447,HL_37824.6,FR,6U8D,A,"['198', '200']",nbp,
+448,HL_37824.6,FR,6JQ5,A,"['46', '48']",nbp,
+449,HL_37824.6,FR,7MKY,A,"['41', '43']",nbp,
+450,HL_37824.6,FR,3NPQ,A,"['21', '24']",nbp,
+451,HL_37824.6,FR,3NPQ,A,"['21', '23']",nbp,
+452,HL_37824.6,FR,4WF9,X,"['675', '678']",nbp,
+453,HL_37824.6,FR,4WF9,X,"['675', '677']",nbp,"KeyError, couldn't find residue in json"
+454,HL_37824.6,FR,1U9S,A,"['205', '208']",tSH,
+455,HL_37824.6,FR,1U9S,A,"['205', '207']",nbp,
+456,HL_37824.6,FR,2NZ4,Q,"['109', '111']",nbp,
+457,HL_37824.6,FR,7A0S,X,"['2832', '2835']",nbp,
+458,HL_37824.6,FR,7A0S,X,"['2832', '2834']",nbp,"KeyError, couldn't find residue in json"
+459,HL_37824.6,FR,4LFB,A,"['1266', '1269']",nbp,
+460,HL_37824.6,FR,4LFB,A,"['1266', '1268']",nbp,"KeyError, couldn't find residue in json"
+461,HL_37824.6,FR,4LFB,A,"['1077', '1080']",nbp,"KeyError, couldn't find residue in json"
+462,HL_37824.6,FR,4LFB,A,"['1077', '1079']",nbp,
+463,HL_37824.6,FR,2Z75,B,"['114', '117']",nbp,
+464,HL_37824.6,FR,2Z75,B,"['114', '116']",nbp,
+465,HL_37824.6,FR,3IGI,A,"['90', '92']",nbp,
+466,HL_37824.6,FR,7A0S,X,"['474', '476']",nbp,"KeyError, couldn't find residue in json"
+467,HL_37824.6,FR,7KKV,B,"['501', '504']",nbp,
+468,HL_37824.6,FR,7KKV,B,"['501', '503']",nbp,"KeyError, couldn't find residue in json"
+469,HL_37824.6,FR,4YAZ,R,"['26', '28']",nbp,"KeyError, couldn't find residue in json"
+470,HL_37824.6,FR,4WFL,A,"['82', '84']",nbp,
+471,HL_37824.6,FR,4WF9,X,"['509', '512']",nbp,
+472,HL_37824.6,FR,4WF9,X,"['509', '511']",nbp,"KeyError, couldn't find residue in json"
+473,HL_37824.6,FR,5U3G,B,"['48', '50']",nbp,
+474,HL_37824.6,FR,7A0S,X,"['2574', '2576']",nbp,"KeyError, couldn't find residue in json"
+475,HL_37824.6,FR,4WF9,X,"['2622', '2625']",nbp,
+476,HL_37824.6,FR,4WF9,X,"['2622', '2624']",nbp,"KeyError, couldn't find residue in json"
+477,HL_37824.6,FR,6UFH,A,"['107', '110']",nbp,
+478,HL_37824.6,FR,6UFH,A,"['107', '109']",nbp,"KeyError, couldn't find residue in json"
+479,HL_37824.6,FR,6YMC,A,"['12', '14']",nbp,"KeyError, couldn't find residue in json"
+480,HL_37824.6,FR,1G1X,J,"['727', '729']",nbp,"KeyError, couldn't find residue in json"
+481,HL_37824.6,FR,1G1X,E,"['727', '729']",nbp,"KeyError, couldn't find residue in json"
+482,HL_37824.6,FR,6SVS,A,"['27', '29']",nbp,"KeyError, couldn't find residue in json"
+483,HL_37824.6,FR,4OQU,A,"['77', '79']",nbp,"KeyError, couldn't find residue in json"
+484,HL_37824.6,FR,6JDV,B,"['49', '51']",nbp,"KeyError, couldn't find residue in json"
+485,HL_37824.6,FR,4LFB,A,"['1013', '1016']",tSH,
+486,HL_37824.6,FR,4LFB,A,"['1013', '1015']",nbp,
+487,HL_37824.6,FR,4KQY,A,"['61', '64']",tSH,
+488,HL_37824.6,FR,4KQY,A,"['61', '63']",nbp,"KeyError, couldn't find residue in json"
+489,HL_37824.6,FR,7QR8,A,"['33', '35']",nbp,"KeyError, couldn't find residue in json"
+490,HL_37824.6,FR,7A0S,X,"['1236', '1239']",nbp,
+491,HL_37824.6,FR,7A0S,X,"['1236', '1238']",nbp,"KeyError, couldn't find residue in json"
+492,HL_37824.6,FR,4WF9,X,"['1261', '1264']",nbp,"KeyError, couldn't find residue in json"
+493,HL_37824.6,FR,3KTW,C,"['164', '167']",nbp,
+494,HL_37824.6,FR,3KTW,C,"['164', '166']",nbp,"KeyError, couldn't find residue in json"
+495,HL_37824.6,FR,1MFQ,A,"['147', '150']",nbp,
+496,HL_37824.6,FR,1JID,B,"['147', '150']",nbp,
+497,HL_37824.6,FR,1L9A,B,"['147', '150']",nbp,
+498,HL_37824.6,FR,4WF9,X,"['1401', '1403']",nbp,"KeyError, couldn't find residue in json"
+499,HL_37824.6,FR,7A0S,X,"['1377', '1379']",nbp,"KeyError, couldn't find residue in json"
+500,HL_37824.6,FR,1U9S,A,"['85', '87']",nbp,"KeyError, couldn't find residue in json"
+501,HL_38649.1,DSSR,4RMO,B,"['20', '21']",nbp,"KeyError, couldn't find residue in json"
+502,HL_38808.1,FR,6ZDP,B,"['1303', '1312']",nbp,"KeyError, couldn't find residue in json"
+503,HL_38901.2,DSSR,4KR9,X,"['22', '23']",nbp,"KeyError, couldn't find residue in json"
+504,HL_38901.2,FR,4KR9,X,"['22', '23']",REJECT,
+505,HL_41464.2,FR,6DB9,R,"['37', '44']",nbp,"KeyError, couldn't find residue in json"
+506,HL_49922.3,FR,5FMZ,H,"['4', '7']",cSW,
+507,HL_49922.3,FR,6QCW,V,"['4', '7']",cSW,
+508,HL_49922.3,FR,4WRT,V,"['4', '7']",cSW,
+509,HL_49922.3,FR,4WSB,V,"['4', '7']",nbp,"KeyError, couldn't find residue in json"
+510,HL_49922.3,FR,7EL1,B,"['60', '63']",cSW,
+511,HL_50418.1,DSSR,7A0S,X,"['90', '91']",nbp,"KeyError, couldn't find residue in json"
+512,HL_50418.1,FR,7A0S,X,"['90', '91']",REJECT,
+513,HL_53454.2,FR,7KGA,B,"['54', '62']",nbp,
+514,HL_53454.2,FR,7KGA,A,"['54', '62']",nbp,
+515,HL_53890.2,FR,7A0S,X,"['203', '205']",nbp,"KeyError, couldn't find residue in json"
+516,HL_57875.1,FR,3NDB,M,"['163', '166']",nbp,
+517,HL_60340.1,DSSR,4KR9,M,"['20', '21']",nbp,"KeyError, couldn't find residue in json"
+518,HL_60340.1,FR,4KR9,M,"['20', '21']",REJECT,
+519,HL_64690.6,FR,2DER,D,"['32', '38']",nbp,"KeyError, couldn't find residue in json"
+520,HL_64690.6,RV,2DER,D,"['32', '38']",nbp,"KeyError, couldn't find residue in json"
+521,HL_65794.5,DSSR,8K1E,A,"['25', '26']",nbp,"KeyError, couldn't find residue in json"
+522,HL_66853.7,FR,4WJ4,B,"['19', '20']",nbp,"KeyError, couldn't find residue in json"
+523,HL_66853.7,FR,8UO6,B,"['19', '20']",cSH,
+524,HL_67407.3,FR,4ZNP,A,"['59', '67']",nbp,"KeyError, couldn't find residue in json"
+525,HL_73266.8,FR,1Y26,X,"['61', '65']",cSW,
+526,HL_73266.8,FR,4XNR,X,"['61', '65']",cSW,
+527,HL_73266.8,FR,3RKF,C,"['61', '65']",nbp,"KeyError, couldn't find residue in json"
+528,HL_73266.8,FR,5KPY,A,"['61', '65']",cSW,
+529,HL_75293.4,RV,4LFB,A,"['690', '697']",tSH,
+530,HL_77082.1,FR,5UD5,C,"['33', '37']",nbp,"KeyError, couldn't find residue in json"
+531,HL_77436.4,FR,3IVK,M,"['94', '96']",tSH,
+532,HL_77436.4,FR,3IVK,M,"['93', '98']",nbp,"KeyError, couldn't find residue in json"
+533,HL_77436.4,FR,4LFB,A,"['1091', '1093']",nbp,"KeyError, couldn't find residue in json"
+534,HL_77436.4,FR,3R4F,A,"['26', '28']",nbp,"KeyError, couldn't find residue in json"
+535,HL_77436.4,FR,7TZS,X,"['68', '70']",nbp,"KeyError, couldn't find residue in json"
+536,HL_77436.4,FR,3K0J,E,"['68', '70']",nbp,"KeyError, couldn't find residue in json"
+537,HL_77436.4,FR,3K0J,E,"['67', '71']",nbp,"KeyError, couldn't find residue in json"
+538,HL_77436.4,FR,3D2V,A,"['56', '58']",nbp,"KeyError, couldn't find residue in json"
+539,HL_77436.4,FR,4WF9,X,"['656', '659']",nbp,"KeyError, couldn't find residue in json"
+540,HL_80709.2,DSSR,5XH7,B,"['8', '6']",nbp,"KeyError, couldn't find residue in json"
+541,HL_80709.2,FR,3HHN,E,"['41', '44']",nbp,
+542,HL_80709.2,FR,3IVK,M,"['41', '44']",nbp,
+543,HL_80709.2,FR,4ZNP,A,"['27', '29']",nbp,"KeyError, couldn't find residue in json"
+544,HL_80709.2,FR,9BUN,A,"['8', '10']",nbp,"KeyError, couldn't find residue in json"
+545,HL_80709.2,FR,7A0S,X,"['1744', '1747']",nbp,
+546,HL_80709.2,FR,7A0S,X,"['1744', '1746']",nbp,"KeyError, couldn't find residue in json"
+547,HL_80709.2,FR,4WF9,X,"['1780', '1783']",nbp,
+548,HL_80709.2,FR,7Z4D,A,"['33', '35']",nbp,
+549,HL_84299.3,FR,4LFB,A,"['261', '263']",nbp,"KeyError, couldn't find residue in json"
+550,HL_84299.3,FR,4LFB,A,"['261', '264']",nbp,
+551,HL_84299.3,FR,4LFB,A,"['260', '265']",nbp,"KeyError, couldn't find residue in json"
+552,HL_84299.3,FR,2BH2,D,"['1950', '1955']",nbp,
+553,HL_87553.1,FR,5H9F,L,"['52', '55']",nbp,"KeyError, couldn't find residue in json"
+554,HL_90620.1,FR,3IVN,A,"['50', '58']",nbp,"KeyError, couldn't find residue in json"
+555,IL_00225.12,MC,4WF9,X,"['2229', '2231']",nbp,"KeyError, couldn't find residue in json"
+556,IL_00225.12,FR,7D7V,A,"['44', '46']",nbp,
+557,IL_01488.2,FR,6UFM,B,"['8', '27']",tSS,
+558,IL_01488.2,RV,6UFM,B,"['8', '27']",tSS,
+559,IL_01488.2,RV,6UFM,B,"['9', '24']",tHS,
+560,IL_01488.2,FR,6UFM,B,"['4', '26']",tSS,
+561,IL_01488.2,DSSR,6UFG,A,"['8', '27']",tSS,
+562,IL_01488.2,FR,6UFG,A,"['8', '27']",REJECT,
+563,IL_01488.2,RV,6UFG,A,"['9', '24']",tHS,
+564,IL_01488.2,FR,6UFG,A,"['4', '26']",nbp,"KeyError, couldn't find residue in json"
+565,IL_01488.2,DSSR,4WF9,X,"['84', '85']",nbp,"KeyError, couldn't find residue in json"
+566,IL_04346.10,FR,4WF9,X,"['1304', '1305']",nbp,"KeyError, couldn't find residue in json"
+567,IL_04346.10,FR,7A0S,X,"['219', '231']",nbp,
+568,IL_04346.10,FR,4WF9,X,"['245', '257']",nbp,
+569,IL_04346.10,FR,4WF9,X,"['243', '260']",tSH,
+570,IL_04346.10,RV,4WF9,X,"['243', '260']",tSH,
+571,IL_04346.10,RV,4WF9,X,"['242', '261']",nbp,"KeyError, couldn't find residue in json"
+572,IL_09705.14,FR,4LFB,A,"['1260', '1275']",nbp,"KeyError, couldn't find residue in json"
+573,IL_09705.14,RV,4LFB,A,"['1260', '1275']",nbp,"KeyError, couldn't find residue in json"
+574,IL_15052.4,RV,3MXH,R,"['63', '77']",nbp,"KeyError, couldn't find residue in json"
+575,IL_15052.4,FR,4LFB,A,"['1128', '1130']",nbp,"KeyError, couldn't find residue in json"
+576,IL_17136.6,FR,4LFB,A,"['780', '801']",nbp,
+577,IL_17136.6,FR,4WF9,X,"['1395', '1410']",nbp,"KeyError, couldn't find residue in json"
+578,IL_17136.6,FR,7A0S,X,"['1371', '1385']",nbp,
+579,IL_17948.2,RV,6ZDP,B,"['1299', '1317']",cWW,
+580,IL_22373.1,RV,6DLR,A,"['18', '20']",nbp,"KeyError, couldn't find residue in json"
+581,IL_23774.1,RV,2R8S,R,"['217', '256']",tSH,
+582,IL_25186.4,RV,3BNN,C+D,"['7', '14']",nbp,"KeyError, couldn't find residue in json"
+583,IL_25186.4,FR,4WF9,X,"['1513', '1567']",nbp,"KeyError, couldn't find residue in json"
+584,IL_26222.2,RV,7A0S,X,"['878', '880']",nbp,"KeyError, couldn't find residue in json"
+585,IL_26728.2,FR,7EOM,A,"['42', '43']",cSH,
+586,IL_26728.2,FR,7EOG,A,"['42', '43']",cSH,
+587,IL_30730.1,FR,7WIE,V,"['21', '45']",nbp,"KeyError, couldn't find residue in json"
+588,IL_30730.1,FR,7WIE,V,"['17', '20']",nbp,"KeyError, couldn't find residue in json"
+589,IL_31462.4,FR,7KGA,B,"['39', '41']",nbp,"KeyError, couldn't find residue in json"
+590,IL_31531.3,DSSR,4ZC7,A+B,"['16', '31']",nbp,"KeyError, couldn't find residue in json"
+591,IL_36516.3,DSSR,7EL1,B,"['44', '45']",nbp,"KeyError, couldn't find residue in json"
+592,IL_36516.3,DSSR,7ENI,B,"['44', '45']",nbp,"KeyError, couldn't find residue in json"
+593,IL_36516.3,RV,6CK5,A,"['18', '20']",nbp,"KeyError, couldn't find residue in json"
+594,IL_38634.5,RV,3K0J,E,"['61', '77']",nbp,"KeyError, couldn't find residue in json"
+595,IL_38862.4,FR,2QWY,C,"['19', '47']",tHS,
+596,IL_42997.2,FR,3NJ7,C+D,"['7', '4']",nbp,"KeyError, couldn't find residue in json"
+597,IL_47346.2,FR,4WF9,X,"['1733', '1742']",tHH,
+598,IL_47346.2,FR,4WF9,X,"['1731', '1745']",tSH,
+599,IL_48076.5,FR,7A0S,X,"['2437', '2438']",nbp,"KeyError, couldn't find residue in json"
+600,IL_48076.5,FR,4LFB,A,"['595', '644']",nbp,"KeyError, couldn't find residue in json"
+601,IL_49751.3,DSSR,4WF9,X,"['1771', '1772']",nbp,"KeyError, couldn't find residue in json"
+602,IL_49751.3,DSSR,4WF9,X,"['1770', '1771']",nbp,"KeyError, couldn't find residue in json"
+603,IL_50694.6,FR,1G1X,J+I,"['752', '754']",nbp,"KeyError, couldn't find residue in json"
+604,IL_50694.6,FR,1KUQ,B,"['51', '53']",nbp,
+605,IL_50694.6,RV,4WF9,X,"['1711', '2020']",tSH,
+606,IL_50694.6,RV,7A0S,X,"['1684', '1976']",tSH,
+607,IL_50694.6,RV,4WF9,X,"['1348', '1647']",nbp,"KeyError, couldn't find residue in json"
+608,IL_50715.3,FR,7A0S,X,"['1145', '1148']",nbp,
+609,IL_50730.2,FR,3IWN,A,"['13', '34']",nbp,"KeyError, couldn't find residue in json"
+610,IL_50730.2,FR,3IGI,A,"['116', '117']",nbp,
+611,IL_50730.2,FR,3IGI,A,"['72', '115']",nbp,
+612,IL_50730.2,FR,2A64,A,"['300', '301']",nbp,
+613,IL_51265.3,DSSR,3SIU,F,"['49', '50']",nbp,"KeyError, couldn't find residue in json"
+614,IL_51265.3,FR,3SIU,F,"['34', '49']",nbp,
+615,IL_51265.3,DSSR,3SIV,C+F,"['49', '50']",nbp,"KeyError, couldn't find residue in json"
+616,IL_51265.3,FR,3SIV,C+F,"['34', '49']",tSS,
+617,IL_51265.3,FR,4LCK,F,"['11', '95']",tHS,
+618,IL_51265.3,FR,4LCK,F,"['7', '96']",tSS,
+619,IL_51265.3,FR,2OZB,C,"['29', '44']",tSS,
+620,IL_51265.3,FR,1E7K,C,"['29', '44']",nbp,"KeyError, couldn't find residue in json"
+621,IL_51454.1,FR,7A0S,X,"['447', '449']",nbp,
+622,IL_51454.1,FR,7A0S,X,"['447', '448']",cSH,
+623,IL_51454.1,FR,4WF9,X,"['958', '959']",cSH,
+624,IL_56455.6,DSSR,1DFU,M+N,"['101', '75']",REJECT,
+625,IL_56455.6,RV,1DFU,M+N,"['101', '75']",nbp,"KeyError, couldn't find residue in json"
+626,IL_56455.6,FR,1DFU,M+N,"['102', '74']",cWW,
+627,IL_56455.6,RV,1DFU,M+N,"['102', '74']",tWW,
+628,IL_56455.6,FR,1DFU,M+N,"['100', '76']",cWW,
+629,IL_57744.1,FR,6WBR,B,"['27', '28']",nbp,
+630,IL_60797.1,RV,1M5K,B,"['24', '57']",nbp,"KeyError, couldn't find residue in json"
+631,IL_61258.15,DSSR,3HHN,E,"['46', '112']",nbp,"KeyError, couldn't find residue in json"
+632,IL_64858.3,FR,7L0Z,G,"['47', '54']",nbp,"KeyError, couldn't find residue in json"
+633,IL_64858.3,FR,8K7W,A,"['36', '43']",nbp,"KeyError, couldn't find residue in json"
+634,IL_65851.3,RV,3NDB,M,"['204', '217']",nbp,"KeyError, couldn't find residue in json"
+635,IL_66635.5,FR,1XOK,A,"['865', '867']",nbp,
+636,IL_66635.5,FR,5WT1,C,"['44', '45']",nbp,
+637,IL_67767.3,FR,1GID,B,"['248', '250']",nbp,
+638,IL_67767.3,FR,1U6B,B,"['161', '163']",nbp,
+639,IL_67767.3,FR,5VCI,A+B,"['3', '5']",nbp,"KeyError, couldn't find residue in json"
+640,IL_67767.3,FR,4PCJ,A,"['26', '28']",nbp,
+641,IL_67767.3,FR,1U6B,B,"['81', '83']",nbp,
+642,IL_68140.3,RV,4WF9,X,"['1875', '1921']",nbp,"KeyError, couldn't find residue in json"
+643,IL_68140.3,FR,4WF9,X,"['1874', '1875']",nbp,"KeyError, couldn't find residue in json"
+644,IL_69229.2,FR,3PLA,G+H,"['9', '32']",nbp,"KeyError, couldn't find residue in json"
+645,IL_69229.2,FR,5GIP,G+H,"['9', '33']",nbp,"KeyError, couldn't find residue in json"
+646,IL_69229.2,FR,3Q3Z,V,"['17', '57']",tSS,
+647,IL_70923.8,FR,5Y7M,D,"['31', '32']",nbp,
+648,IL_70923.8,FR,5Y7M,D,"['18', '32']",tSS,
+649,IL_70923.8,DSSR,5FJ4,H,"['6', '7']",nbp,"KeyError, couldn't find residue in json"
+650,IL_70923.8,DSSR,7JRS,A,"['123', '124']",nbp,"KeyError, couldn't find residue in json"
+651,IL_70923.8,DSSR,7JRS,A,"['17', '124']",nbp,"KeyError, couldn't find residue in json"
+652,IL_70923.8,FR,7JRS,A,"['17', '124']",REJECT,
+653,IL_70923.8,FR,7JRS,A,"['13', '123']",tSS,
+654,IL_70923.8,RV,7JRS,A,"['13', '123']",tSS,
+655,IL_70923.8,FR,5G4T,A+B,"['8', '14']",nbp,
+656,IL_70923.8,DSSR,5G4T,A+B,"['16', '17']",nbp,"KeyError, couldn't find residue in json"
+657,IL_70923.8,DSSR,5G4T,A+B,"['8', '17']",nbp,"KeyError, couldn't find residue in json"
+658,IL_70923.8,FR,5G4T,A+B,"['8', '17']",REJECT,
+659,IL_70923.8,FR,5G4T,A+B,"['4', '16']",tSS,
+660,IL_70923.8,FR,7F8Z,I+J,"['8', '14']",nbp,
+661,IL_70923.8,FR,7F8Z,I+J,"['8', '17']",nbp,
+662,IL_70923.8,FR,7F8Z,I+J,"['4', '16']",tSS,
+663,IL_70923.8,FR,3U4M,B,"['2134', '2156']",nbp,
+664,IL_70923.8,FR,3U4M,B,"['2134', '2159']",nbp,
+665,IL_70923.8,FR,3U4M,B,"['2130', '2158']",nbp,"KeyError, couldn't find residue in json"
+666,IL_70923.8,FR,5FJ0,A+B,"['8', '14']",nbp,
+667,IL_70923.8,DSSR,5FJ0,A+B,"['16', '17']",nbp,"KeyError, couldn't find residue in json"
+668,IL_70923.8,DSSR,5FJ0,A+B,"['8', '17']",nbp,"KeyError, couldn't find residue in json"
+669,IL_70923.8,FR,5FJ0,A+B,"['8', '17']",REJECT,
+670,IL_70923.8,FR,5FJ0,A+B,"['4', '16']",tSS,
+671,IL_70923.8,FR,7EAG,C+D,"['8', '14']",nbp,
+672,IL_70923.8,DSSR,7EAG,C+D,"['16', '17']",nbp,"KeyError, couldn't find residue in json"
+673,IL_70923.8,DSSR,7EAG,C+D,"['8', '17']",nbp,"KeyError, couldn't find residue in json"
+674,IL_70923.8,FR,7EAG,C+D,"['8', '17']",REJECT,
+675,IL_70923.8,FR,7EAG,C+D,"['4', '16']",nbp,"KeyError, couldn't find residue in json"
+676,IL_70923.8,DSSR,7EAG,D+C,"['16', '17']",nbp,"KeyError, couldn't find residue in json"
+677,IL_70923.8,FR,7A0S,X,"['1226', '1248']",nbp,
+678,IL_70923.8,FR,7A0S,X,"['1226', '1251']",nbp,
+679,IL_70923.8,FR,7A0S,X,"['1222', '1250']",tSS,
+680,IL_70923.8,FR,4WF9,X,"['1251', '1273']",nbp,
+681,IL_70923.8,FR,4WF9,X,"['1251', '1276']",nbp,"KeyError, couldn't find residue in json"
+682,IL_70923.8,FR,4WF9,X,"['1247', '1275']",nbp,
+683,IL_76308.6,FR,3LQX,B,"['148', '162']",nbp,
+684,IL_76308.6,RV,3LQX,B,"['149', '162']",tHS,
+685,IL_76308.6,RV,3LQX,B,"['147', '164']",tSH,
+686,IL_76308.6,FR,1LNT,A+B,"['6', '18']",nbp,
+687,IL_76308.6,RV,1LNT,A+B,"['7', '18']",tHS,
+688,IL_76308.6,FR,1LNT,A+B,"['5', '20']",tSH,
+689,IL_76308.6,RV,1LNT,A+B,"['5', '20']",tSH,
+690,IL_76308.6,FR,1MFQ,A,"['192', '206']",nbp,
+691,IL_76308.6,RV,1MFQ,A,"['193', '206']",tHS,
+692,IL_77658.1,FR,205D,A+B,"['8', '18']",nbp,
+693,IL_77691.4,FR,4LFB,A,"['1433', '1467']",nbp,
+694,IL_80823.1,DSSR,7D81,A,"['34', '35']",nbp,"KeyError, couldn't find residue in json"
+695,IL_80823.1,FR,7D81,A,"['34', '35']",REJECT,
+696,IL_81516.2,FR,4WF9,X,"['545', '547']",nbp,"KeyError, couldn't find residue in json"
+697,IL_81522.2,DSSR,4M4O,B,"['30', '31']",nbp,"KeyError, couldn't find residue in json"
+698,IL_82292.1,FR,8SSW,C+D,"['13', '14']",nbp,"KeyError, couldn't find residue in json"
+699,IL_82426.6,FR,8K7W,A,"['36', '43']",nbp,"KeyError, couldn't find residue in json"
+700,IL_82426.6,FR,7L0Z,G,"['47', '54']",nbp,"KeyError, couldn't find residue in json"
+701,IL_84251.1,FR,7EDT,A+B,"['7', '18']",nbp,"KeyError, couldn't find residue in json"
+702,IL_85599.2,FR,4WF9,X,"['2264', '2266']",nbp,"KeyError, couldn't find residue in json"
+703,IL_87284.1,RV,1KD4,A+B,"['7', '4']",nbp,"KeyError, couldn't find residue in json"
+704,IL_87284.1,RV,1KD4,A+B,"['4', '7']",nbp,"KeyError, couldn't find residue in json"
+705,IL_90351.1,DSSR,2QEK,B+A,"['7', '8']",nbp,"KeyError, couldn't find residue in json"
+706,IL_90351.1,FR,2QEK,B+A,"['7', '8']",nbp,"KeyError, couldn't find residue in json"
+707,IL_96332.5,RV,4KZD,R,"['21', '64']",nbp,"KeyError, couldn't find residue in json"
+708,IL_96332.5,RV,4TS2,X+Y,"['24', '75']",nbp,"KeyError, couldn't find residue in json"
+709,IL_96332.5,RV,7L0Z,G,"['14', '56']",tWW,
+710,J3_17385.3,FR,1KUQ,B,"['15', '52']",nbp,
+711,J3_17385.3,FR,1KUQ,B,"['51', '53']",nbp,
+712,J3_17385.3,FR,1G1X,D+E,"['651', '753']",nbp,
+713,J3_30040.2,RV,7A0S,X,"['35', '461']",nbp,"KeyError, couldn't find residue in json"
+714,J3_30040.2,FR,7A0S,X,"['35', '462']",tSS,
+715,J3_32601.5,FR,7A0S,X,"['2542', '2545']",nbp,
+716,J3_32852.6,RV,4WF9,X,"['1338', '1684']",nbp,"KeyError, couldn't find residue in json"
+717,J3_34864.2,FR,7A0S,X,"['1441', '1587']",tHH,
+718,J3_35667.2,DSSR,4WF9,X,"['56', '70']",nbp,"KeyError, couldn't find residue in json"
+719,J3_44163.1,FR,4LX6,A,"['50', '75']",cWS,
+720,J3_44163.1,FR,4XNR,X,"['50', '75']",cWS,
+721,J3_44163.1,FR,3RKF,C,"['50', '75']",cWS,
+722,J3_44163.1,RV,3RKF,C,"['47', '51']",nbp,"KeyError, couldn't find residue in json"
+723,J3_64189.2,FR,4WF9,X,"['820', '839']",nbp,
+724,J3_70599.1,FR,6VMY,A,"['239', '242']",nbp,
+725,J3_70599.1,FR,6VMY,A,"['239', '241']",tSH,
+726,J3_85054.3,FR,1G1X,I+J,"['588', '651']",nbp,"KeyError, couldn't find residue in json"
+727,J3_85054.3,FR,1G1X,I+J,"['587', '754']",nbp,
+728,J3_92134.2,FR,7A0S,X,"['493', '517']",tHH,
+729,J3_96372.2,DSSR,3MXH,R,"['19', '47']",cWW,
+730,J3_96372.2,FR,3MXH,R,"['19', '92']",nbp,"KeyError, couldn't find residue in json"
+731,J3_96372.2,FR,3IWN,A,"['6', '88']",nbp,"KeyError, couldn't find residue in json"
+732,J3_96372.2,FR,3IWN,A,"['40', '84']",nbp,"KeyError, couldn't find residue in json"
+733,J3_97971.2,RV,4WF9,X,"['273', '299']",nbp,"KeyError, couldn't find residue in json"
+734,J4_07491.1,FR,3SKI,A,"['32', '53']",nbp,"KeyError, couldn't find residue in json"
+735,J4_45801.6,FR,4WF9,X,"['419', '469']",cSS,
+736,J4_45801.6,FR,4WF9,X,"['417', '448']",tHH,
+737,J4_61477.5,FR,4WF9,X,"['1800', '1818']",nbp,"KeyError, couldn't find residue in json"
+738,J4_61477.5,FR,4WF9,X,"['1856', '2003']",nbp,"KeyError, couldn't find residue in json"
+739,J4_61477.5,FR,4WF9,X,"['1802', '1816']",tHS,
+740,J4_69051.6,FR,7A0S,X,"['1325', '1352']",nbp,"KeyError, couldn't find residue in json"
+741,J4_70449.26,FR,3FOZ,D,"['26', '44']",nbp,"KeyError, couldn't find residue in json"
+742,J4_70449.26,RV,3FOZ,D,"['26', '44']",nbp,"KeyError, couldn't find residue in json"
+743,J4_70449.26,DSSR,7LYF,A,"['7', '128']",nbp,"KeyError, couldn't find residue in json"
+744,J4_70449.26,DSSR,7LYF,A,"['26', '107']",cWW,
+745,J4_70449.26,RV,7LYF,A,"['10', '108']",nbp,"KeyError, couldn't find residue in json"
+746,J4_70449.26,FR,1H4S,T,"['10', '45']",cHS,
+747,J4_70449.26,FR,6UFG,B,"['10', '46']",nbp,"KeyError, couldn't find residue in json"
+748,J4_70449.26,DSSR,8SP9,C,"['26', '121']",cWW,
+749,J4_70449.26,FR,8UO6,B,"['10', '103']",nbp,"KeyError, couldn't find residue in json"
+750,J4_70449.26,FR,8UO6,A,"['10', '103']",nbp,"KeyError, couldn't find residue in json"
+751,J4_70449.26,FR,7K98,C,"['10', '46']",nbp,"KeyError, couldn't find residue in json"
+752,J4_70449.26,FR,7YSE,E,"['10', '45']",nbp,"KeyError, couldn't find residue in json"
+753,J4_70449.26,FR,5AXM,P,"['10', '45']",nbp,"KeyError, couldn't find residue in json"
+754,J4_70449.26,FR,6UGG,B,"['9', '45']",nbp,"KeyError, couldn't find residue in json"
+755,J4_70449.26,FR,8VU0,C,"['10', '45']",nbp,"KeyError, couldn't find residue in json"
+756,J4_70449.26,FR,2FMT,D,"['10', '45']",nbp,"KeyError, couldn't find residue in json"
+757,J4_70449.26,FR,2DER,D,"['9', '45']",nbp,"KeyError, couldn't find residue in json"
+758,J4_70449.26,FR,5HR6,C,"['8', '45']",nbp,
+759,J4_70449.26,FR,5HR6,C,"['9', '45']",cHS,
+760,J4_70449.26,FR,5HR7,D,"['9', '45']",nbp,
+761,J4_71729.5,FR,4WF9,X,"['341', '383']",nbp,
+762,J5_31814.5,RV,4WF9,X,"['273', '299']",nbp,"KeyError, couldn't find residue in json"
+763,J5_31814.5,FR,4WF9,X,"['419', '469']",cSS,
+764,J5_31814.5,FR,4WF9,X,"['417', '448']",tHH,
+765,J5_39529.1,FR,7A0S,X,"['2060', '2413']",nbp,"KeyError, couldn't find residue in json"
+766,J5_62523.6,DSSR,4WF9,X,"['1718', '2016']",nbp,"KeyError, couldn't find residue in json"
+767,J5_62523.6,FR,4WF9,X,"['1722', '2017']",nbp,"KeyError, couldn't find residue in json"
+768,J5_74302.5,FR,4WF9,X,"['630', '855']",cWS,
+769,J5_74302.5,FR,4WF9,X,"['629', '1289']",nbp,
+770,J5_94937.1,FR,3D0U,A,"['8', '76']",nbp,
+771,J5_94937.1,RV,3D0U,A,"['138', '152']",tSH,
+772,J7_21233.5,FR,4WF9,X,"['1017', '1225']",nbp,
