@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,break,Unnamed: 28,11,Unnamed: 30,12,1-12,5-9,10-11,1-10
-1,IL_4MGN_002,4MGN,0.0,0,A,glyQS T box riboswitch,C,37,C,38,G,39,A,40,A,41,G,42,C,43,G,44,A,45,G,46,*,U,68,G,69,cWW,tWH,cWW,nbp
-2,IL_4JRC_004,4JRC,0.2573,0,B,Distal Stem I region of the glyQS T box leader RNA,C,37,C,38,G,39,A,40,A,41,G,42,C,43,G,44,A,45,G,46,*,U,68,G,69,cWW,tWH,cWW,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,break,Unnamed: 28,11,Unnamed: 30,12,1-12,5-9,10-11,6-9,6-8,1-10
+1,IL_4MGN_002,4MGN,0.0,0,A,glyQS T box riboswitch,C,37,C,38,G,39,A,40,A,41,G,42,C,43,G,44,A,45,G,46,*,U,68,G,69,cWW,tWH,cWW,nbp,nbp,nbp
+2,IL_4JRC_004,4JRC,0.2573,0,B,Distal Stem I region of the glyQS T box leader RNA,C,37,C,38,G,39,A,40,A,41,G,42,C,43,G,44,A,45,G,46,*,U,68,G,69,cWW,tWH,cWW,nbp,nbp,nbp

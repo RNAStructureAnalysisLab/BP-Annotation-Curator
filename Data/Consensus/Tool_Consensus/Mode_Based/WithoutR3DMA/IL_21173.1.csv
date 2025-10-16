@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,break,Unnamed: 26,10,Unnamed: 28,11,1-11,9-10,4-5,7-8,8-9
-1,IL_7UZ0_001,7UZ0,0.0,0,A,tRNA,G,43,U,44,G,45,G,46,A,47,A,48,C,49,C,50,C,51,*,G,33,C,34,cWW,cWW,nbp,nbp,nbp
-2,IL_7UQ6_001,7UQ6,0.5421,0,B,tRNA,G,30,U,31,G,32,G,33,A,34,A,35,C,36,C,37,C,38,*,G,49,C,50,cWW,cWW,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,break,Unnamed: 26,10,Unnamed: 28,11,1-11,9-10,4-5,10-11,7-8,8-9
+1,IL_7UZ0_001,7UZ0,0.0,0,A,tRNA,G,43,U,44,G,45,G,46,A,47,A,48,C,49,C,50,C,51,*,G,33,C,34,cWW,cWW,nbp,nbp,nbp,nbp
+2,IL_7UQ6_001,7UQ6,0.5421,0,B,tRNA,G,30,U,31,G,32,G,33,A,34,A,35,C,36,C,37,C,38,*,G,49,C,50,cWW,cWW,nbp,nbp,nbp,nbp

@@ -2,7 +2,7 @@
 3,IL_4LFB_029,4LFB,0.4295,1,Tandem non-canonical cWW pairs,A,SSU rRNA,G,662,A,663,G,664,G,666,*,U,740,G,741,G,742,U,743,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 4,IL_1G1X_003,1G1X,0.4471,1,Tandem non-canonical cWW pairs,D+E,16S RIBOSOMAL RNA,G,662,A,663,G,664,G,666,*,U,740,G,741,G,742,U,743,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 5,IL_1G1X_006,1G1X,0.4423,1,Tandem non-canonical cWW pairs,I+J,16S RIBOSOMAL RNA,G,662,A,663,G,664,G,666,*,U,740,G,741,G,742,U,743,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-7,IL_1GID_008,1GID,0.537,1,,B,P4-P6 RNA RIBOZYME DOMAIN,G,103,A,104,A,105,U,107,*,A,214,G,215,C,216,C,217,cWW,cWW,cWW,cWW,nbp,nbp,nbp,,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+7,IL_1GID_008,1GID,0.537,1,,B,P4-P6 RNA RIBOZYME DOMAIN,G,103,A,104,A,105,U,107,*,A,214,G,215,C,216,C,217,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 9,IL_6JDV_002,6JDV,0.3527,0,Tandem non-canonical cWW pairs,B,sgRNA,A,63,C,64,C,65,G,66,*,C,35,C,36,U,37,U,38,cWW,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 10,IL_1MFQ_004,1MFQ,0.3507,0,Tandem non-canonical cWW pairs,A,SRP RNA,G,156,A,157,C,158,C,159,*,G,138,A,139,C,140,C,141,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
 11,IL_1D4R_003,1D4R,0.3664,0,Tandem non-canonical cWW pairs,A+B,29-MER OF MODIFIED SRP RNA HELIX 6,G,22,A,23,C,24,C,25,*,G,4,A,5,C,6,C,7,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

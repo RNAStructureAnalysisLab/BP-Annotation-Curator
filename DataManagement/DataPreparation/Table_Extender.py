@@ -337,9 +337,11 @@ class Table_Extender:
             drop_column = True
             for i in range(len(motif_cluster)):
                 contact_type = motif_cluster.iloc[i, motif_cluster.columns.get_loc(column_name)]
+                '''
                 if 'REJECT' in contact_type:
                     motif_cluster.iloc[i, motif_cluster.columns.get_loc(column_name)] = 'INCOMPATIBLE'
                     contact_type = 'INCOMPATIBLE'
+                '''
 
                 if contact_type != 'nbp,nbp,nbp,nbp,nbp,nbp' and contact_type != 'INCOMPATIBLE':
                     drop_column = False

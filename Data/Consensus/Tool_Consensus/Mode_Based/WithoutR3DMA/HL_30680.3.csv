@@ -1,14 +1,14 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,1-7,5-6,3-4,4-5,1-6
-1,HL_5U30_002,5U30,0.4108,0,Pseudoknot geometry,B,sgRNA,U,43,U,44,U,45,C,46,C,47,A,48,G,49,cWW,nbp,nbp,nbp,nbp
-2,HL_6VMY_003,6VMY,0.2661,0,Pseudoknot geometry,A,Cobalamin riboswitch,G,268,U,269,C,270,C,271,C,272,G,273,C,274,cWW,nbp,nbp,nbp,nbp
-3,HL_4KQY_001,4KQY,0.2039,0,Pseudoknot geometry,A,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp
-4,HL_4AOB_001,4AOB,0.1322,0,Pseudoknot geometry,A,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp
-5,HL_5FJC_001,5FJC,0.0,0,Pseudoknot geometry,A,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp
-6,HL_6MWN_004,6MWN,0.1902,0,Pseudoknot geometry,B,IRES,G,650,C,651,U,652,G,653,G,654,A,655,C,656,cWW,nbp,nbp,nbp,nbp
-7,HL_3V7E_001,3V7E,0.2223,0,Pseudoknot geometry,C,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp
-8,HL_3IVK_004,3IVK,0.5279,1,Pseudoknot geometry,M,class I ligase product,G,75,G,77,G,78,C,79,A,80,G,81,C,82,cWW,nbp,nbp,nbp,nbp
-9,HL_3HHN_009,3HHN,0.5143,1,Pseudoknot geometry,E,"Class I ligase ribozyme, self-ligation product",G,75,G,77,G,78,C,79,A,80,G,81,C,82,cWW,nbp,nbp,nbp,nbp
-12,HL_4WF9_014,4WF9,0.5229,1,Pseudoknot geometry,X,LSU rRNA,G,456,A,458,C,459,C,460,A,461,U,462,C,463,cWW,nbp,nbp,nbp,nbp
-13,HL_7A0S_014,7A0S,0.6017,1,Pseudoknot geometry,X,LSU rRNA,G,423,A,425,C,426,C,427,A,428,C,429,C,430,cWW,nbp,nbp,nbp,nbp
-14,HL_1WZ2_006,1WZ2,0.7758,2,Pseudoknot geometry,D,tRNA,A,934,C,937,A,938,A,939,G,940,A,941,U,942,cWW,nbp,nbp,nbp,nbp
-15,HL_4OQU_002,4OQU,0.7542,2,Pseudoknot geometry,A,SAM-I/IV riboswitch,G,32,C,34,G,35,G,36,A,37,C,38,C,40,cWW,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,1-7,5-6,3-4,4-5,1-6,2-3
+1,HL_5U30_002,5U30,0.4108,0,Pseudoknot geometry,B,sgRNA,U,43,U,44,U,45,C,46,C,47,A,48,G,49,cWW,nbp,nbp,nbp,nbp,nbp
+2,HL_6VMY_003,6VMY,0.2661,0,Pseudoknot geometry,A,Cobalamin riboswitch,G,268,U,269,C,270,C,271,C,272,G,273,C,274,cWW,nbp,nbp,nbp,nbp,nbp
+3,HL_4KQY_001,4KQY,0.2039,0,Pseudoknot geometry,A,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp,nbp
+4,HL_4AOB_001,4AOB,0.1322,0,Pseudoknot geometry,A,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp,nbp
+5,HL_5FJC_001,5FJC,0.0,0,Pseudoknot geometry,A,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp,nbp
+6,HL_6MWN_004,6MWN,0.1902,0,Pseudoknot geometry,B,IRES,G,650,C,651,U,652,G,653,G,654,A,655,C,656,cWW,nbp,nbp,nbp,nbp,nbp
+7,HL_3V7E_001,3V7E,0.2223,0,Pseudoknot geometry,C,SAM-I riboswitch,G,23,A,24,C,25,U,26,G,27,G,28,C,29,cWW,nbp,nbp,nbp,nbp,nbp
+8,HL_3IVK_004,3IVK,0.5279,1,Pseudoknot geometry,M,class I ligase product,G,75,G,77,G,78,C,79,A,80,G,81,C,82,cWW,nbp,nbp,nbp,nbp,nbp
+9,HL_3HHN_009,3HHN,0.5143,1,Pseudoknot geometry,E,"Class I ligase ribozyme, self-ligation product",G,75,G,77,G,78,C,79,A,80,G,81,C,82,cWW,nbp,nbp,nbp,nbp,nbp
+12,HL_4WF9_014,4WF9,0.5229,1,Pseudoknot geometry,X,LSU rRNA,G,456,A,458,C,459,C,460,A,461,U,462,C,463,cWW,nbp,nbp,nbp,nbp,nbp
+13,HL_7A0S_014,7A0S,0.6017,1,Pseudoknot geometry,X,LSU rRNA,G,423,A,425,C,426,C,427,A,428,C,429,C,430,cWW,nbp,nbp,nbp,nbp,nbp
+14,HL_1WZ2_006,1WZ2,0.7758,2,Pseudoknot geometry,D,tRNA,A,934,C,937,A,938,A,939,G,940,A,941,U,942,cWW,nbp,nbp,nbp,nbp,nbp
+15,HL_4OQU_002,4OQU,0.7542,2,Pseudoknot geometry,A,SAM-I/IV riboswitch,G,32,C,34,G,35,G,36,A,37,C,38,C,40,cWW,nbp,nbp,nbp,nbp,nbp

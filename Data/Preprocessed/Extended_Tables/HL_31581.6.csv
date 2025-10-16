@@ -1,4 +1,4 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,Unnamed: 27,11,1-11,8-9,1-2,3-5
-1,HL_4PRF_002,4PRF,0.0739,1,B,Hepatitis Delta virus ribozyme,C,147,A,148,U,149,U,150,G,151,A,153,C,154,U,155,C,156,C,157,G,158,"cWW,cWW,cWW,cWW,cWW,cWW",INCOMPATIBLE,"nbp,cWH,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,cSW"
+1,HL_4PRF_002,4PRF,0.0739,1,B,Hepatitis Delta virus ribozyme,C,147,A,148,U,149,U,150,G,151,A,153,C,154,U,155,C,156,C,157,G,158,"cWW,cWW,cWW,cWW,cWW,cWW","cSH,cSH,cSH,REJECT,cSH,cSH","nbp,cWH,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,cSW"
 2,HL_4PR6_002,4PR6,0.0,1,B,HDV RIBOZYME SELF-CLEAVED,C,147,A,148,U,149,U,150,G,151,A,153,C,154,U,155,C,156,C,157,G,158,"cWW,cWW,cWW,cWW,cWW,cWW","cSH,cSH,cSH,nbp,cSH,cSH","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
 3,HL_6F4G_001,6F4G,0.7143,2,C,U2-SL4,U,8,A,9,U,10,U,11,G,12,A,14,G,15,U,16,C,18,C,19,G,20,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,cWH,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"

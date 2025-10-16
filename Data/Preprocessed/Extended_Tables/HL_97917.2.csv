@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,1-6,2-5,1-5
-1,HL_4PQV_003,4PQV,0.6411,1,A,Flavivirus 3' UTR stem loop IV,G,57,G,58,G,60,G,61,A,62,C,63,"cWW,cWW,cWW,cWW,cWW,cWW","tSH,tSH,tSH,tSH,tSH,tSH","nbp,nbp,nbp,nbp,nbp,nbp"
-2,HL_3OIN_001,3OIN,0.0,2,C,RNA (14-mer),C,4,U,5,A,8,A,9,C,10,G,11,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp,nbp"
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,1-6,2-5,2-4,1-5,2-3,3-5,4-5
+1,HL_4PQV_003,4PQV,0.6411,1,A,Flavivirus 3' UTR stem loop IV,G,57,G,58,G,60,G,61,A,62,C,63,"cWW,cWW,cWW,cWW,cWW,cWW","tSH,tSH,tSH,tSH,tSH,tSH","nbp,tSH,nbp,REJECT,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+2,HL_3OIN_001,3OIN,0.0,2,C,RNA (14-mer),C,4,U,5,A,8,A,9,C,10,G,11,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,tWH,nbp,nbp,nbp,nbp","nbp,nbp,nbp,REJECT,nbp,nbp","nbp,nbp,nbp,REJECT,nbp,nbp","nbp,nbp,REJECT,REJECT,nbp,nbp"

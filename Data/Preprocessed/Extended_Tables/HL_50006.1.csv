@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,1-4,1-2,3-4
-1,HL_4KJI_001,4KJI,0.5339,4,C,RsmZ-2,G,5,A,6,A,10,C,12,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
-2,HL_5HR6_002,5HR6,0.0762,5,C,tRNA,C,31,C,32,C,36,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
-3,HL_5HR7_005,5HR7,0.0,5,D,tRNA,C,31,C,32,C,36,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
-5,HL_7D81_001,7D81,0.4472,2,A,nadA RNA,C,26,G,27,A,30,G,31,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWH,nbp,nbp,nbp,nbp","nbp,cSS,nbp,nbp,nbp,nbp"
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,1-4,2-3,1-2,3-4
+1,HL_4KJI_001,4KJI,0.5339,4,C,RsmZ-2,G,5,A,6,A,10,C,12,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+2,HL_5HR6_002,5HR6,0.0762,5,C,tRNA,C,31,C,32,C,36,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","ntSW,tSW,tSW,REJECT,nbp,tWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+3,HL_5HR7_005,5HR7,0.0,5,D,tRNA,C,31,C,32,C,36,G,39,"cWW,cWW,cWW,cWW,cWW,cWW","ntSW,tSW,tSW,REJECT,nbp,tWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+5,HL_7D81_001,7D81,0.4472,2,A,nadA RNA,C,26,G,27,A,30,G,31,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,REJECT,nbp,nbp","nbp,cWH,nbp,nbp,nbp,nbp","nbp,cSS,nbp,nbp,nbp,nbp"

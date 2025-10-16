@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,Unnamed: 27,11,Unnamed: 29,12,Unnamed: 31,13,1-13,3-12,3-13,2-13,8-9
-1,HL_3Q3Z_001,3Q3Z,0.0,3,V,Cyclic di-GMP-II riboswitch,U,31,A,33,A,34,U,37,G,38,G,39,G,40,C,41,A,42,C,43,U,44,U,45,G,46,cWW,tHW,tWS,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,Unnamed: 27,11,Unnamed: 29,12,Unnamed: 31,13,1-13,3-12,3-13,2-12,2-13,4-6,8-9
+1,HL_3Q3Z_001,3Q3Z,0.0,3,V,Cyclic di-GMP-II riboswitch,U,31,A,33,A,34,U,37,G,38,G,39,G,40,C,41,A,42,C,43,U,44,U,45,G,46,cWW,tHW,tWS,nbp,nbp,nbp,nbp

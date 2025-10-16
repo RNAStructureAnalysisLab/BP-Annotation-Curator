@@ -5,6 +5,7 @@ import csv
 import os
 import shutil
 import re
+import pandas as pd
 
 # TODO rejecting residue pairs leads to innacuracies in other pipeline steps
 # since Table_Extender might treat these as 'nbp' which is 'Not a Base Pair'.
@@ -28,6 +29,7 @@ class Preprocessor:
     DESCRIPTIONS_TO_REJECT = {}
     
     json_cache = {} # key is the output file name, value is the dictionary
+    rejects_df = pd.DataFrame(columns=['Tool', 'PDB', 'Residue IDs', 'Original Description'])
     
     # ACTION: iterates through every PDB CSV file in INPUT_DIRECTORY, and
     # passes them on individually to the helper function, to_json, for conversion
@@ -52,6 +54,8 @@ class Preprocessor:
         # Save annoation as a JSON file in OUTPUT_DIRECTORY
         for output_file_name, annotation in Preprocessor.json_cache.items():
             Preprocessor._export_json(output_file_name, annotation)
+            
+        Preprocessor.rejects_df.to_csv(os.path.join('lazy_dir', 'preprocessor_rejects.csv'))
            
     # INPUT: the name of a CSV file representating a tool annotation
     # ACTION: Reformats the data found in the CSV file and stores it in a 
@@ -87,6 +91,8 @@ class Preprocessor:
         input_file_path = os.path.join(
             Preprocessor.INPUT_DIRECTORY, csv_file_name
         )
+        pdb, tool = csv_file_name.split('_')
+        tool = tool.split('.')[0]
         is_clarna = 'CL' in csv_file_name.split('_')[1]
         is_dssr = 'DSSR' in csv_file_name.split('_')[1]
         accepted_annotations = {}
@@ -126,6 +132,9 @@ class Preprocessor:
                     new_description = f"{new_description} {weight}"
                         
                 accepted_annotations[new_residue_pair].add(new_description)
+                if new_description == 'REJECT':
+                    new_row = {'Tool': tool, 'PDB': pdb, 'Residue IDs': residue_pair, 'Original Description': description}
+                    Preprocessor.rejects_df.loc[len(Preprocessor.rejects_df)] = new_row
         #fill empty sets in the dictionary to contain "nbp"
         for key, description_set in accepted_annotations.items():
             if not description_set: # is in fact empty
