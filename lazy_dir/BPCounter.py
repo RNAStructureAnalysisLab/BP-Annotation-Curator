@@ -22,16 +22,22 @@ class BPCounter:
     PREPROCESSED_DATA_DIRECTORY = os.path.join(
         '..', 'Data', 'Preprocessed', 'JSON_Annotations'
     )
+    EXTENDED_COUNTS_DATA = os.path.join(
+        '..', 'Data', 'Preprocessed', 'Extended_Tables'    
+    )
     
     all_annotations = {
-        'CL': set(), 'FR': set(), 'MC': set(), 'RV': set(), 'DSSR': set()
+        'CL': {}, 'FR': {}, 'MC': {}, 'RV': {}, 'DSSR': {}
     }
+    tools = {1: 'CL', 2: 'FR', 3: 'MC', 4: 'RV', 5: 'DSSR'}
     
     @staticmethod
     def run() -> None:
         BPCounter._initial_counts()
         BPCounter._reset_counts()
         BPCounter._preprocessor_counts()
+        BPCounter._reset_counts()
+        BPCounter._extended_counts()
         BPCounter._reset_counts()
     
     # =========================================================================
@@ -41,6 +47,7 @@ class BPCounter:
     @staticmethod
     def _initial_counts() -> None:
         for file in os.listdir(BPCounter.RAW_DATA_DIRECTORY):
+            pdb = file.split('_')[0]
             tool = file.split('_')[1].split('.')[0]
             if tool not in BPCounter.all_annotations.keys():
                 continue
@@ -61,7 +68,9 @@ class BPCounter:
                     )
                 except TypeError: # no chain in the residues probably
                     continue
-                BPCounter.all_annotations[tool].add(f'{residue1}{residue2}')
+                if pdb not in BPCounter.all_annotations[tool]:
+                    BPCounter.all_annotations[tool][pdb] = set()
+                BPCounter.all_annotations[tool][pdb].add(f'{residue1}{residue2}')
         
         BPCounter._print("Residue Pair Counts in Raw Data")
         
@@ -77,14 +86,41 @@ class BPCounter:
             with open(file_path, 'r') as json_file:
                 data = json.load(json_file)
                 for _, residue_pairs in data.items():
-                    BPCounter.all_annotations[tool] += len(residue_pairs.values())
+                    for second_residue in residue_pairs.values():
+                        BPCounter.all_annotations[tool] += len(second_residue)
         
         BPCounter._print("Residue Pair Counts in Preprocessed Data")
+        
+    @staticmethod
+    def _extended_counts() -> None:
+        for file in os.listdir(BPCounter.EXTENDED_COUNTS_DATA):
+            file_path = os.path.join(
+                BPCounter.EXTENDED_COUNTS_DATA, file
+            )
+            extended_table_df = pd.read_csv(file_path)
+            for column in extended_table_df.columns[::-1]:
+                if '-' not in column:
+                    break
+                extended_table_df[column].apply(
+                    lambda entry: BPCounter._count_extended_residues(entry)
+                )
+            
+        BPCounter._print("Residue Pair Counts in Extended Tables")
     
     ###########################################################################
     # Auxiliary functions below
     ###########################################################################
-                
+      
+    @staticmethod
+    def _count_extended_residues(entry):
+        entry = entry.split(',')
+        for i in range(len(entry)):
+            if i == 0: # skip R3DMA
+                continue
+            if entry[i] != 'REJECT':
+                tool = BPCounter.tools[i]
+                BPCounter.all_annotations[tool] += 1
+          
     @staticmethod
     def _sort_residues(residue1: str, residue2: str) -> None:
         try:
@@ -110,16 +146,35 @@ class BPCounter:
     #TODO verify the format because we have '1K' as an example of a chain
     @staticmethod
     def _chain_less_than(chain1: str, chain2: str) -> bool:
-        #######################################################################
-        # If chain was a single digit
-        if chain1[0].isdigit() and chain2[0].isdigit():
-            return int(chain1) < int(chain2)
-        elif chain1[0].isdigit():
-            return True
-        elif chain2[0].isdigit():
-            return False
+        c1_digit, c1_letter = BPCounter._parse_chain(chain1)
+        c2_digit, c2_letter = BPCounter._parse_chain(chain2)
         
-        #######################################################################
+        if c1_digit != '' and c2_digit != '':
+            if c1_digit == c2_digit:
+                if c1_letter != '' and c2_letter != '':
+                    return BPCounter._letter_comparison(c1_letter, c2_letter)
+                return c2_letter != ''
+            return int(c1_digit) < int(c2_digit)
+        if c1_digit != '':
+            return False
+        if c2_digit != '':
+            return True
+        return BPCounter._letter_comparison(c1_letter, c2_letter)
+    
+    @staticmethod
+    def _parse_chain(chain):
+        pattern = r'(\d*)([A-Za-z]*)'
+        matches = re.match(pattern, chain)
+        
+        if len(matches.groups()) == 2:
+            return (matches.group(1), matches.group(2))
+        if matches.group(1).isdigit():
+            return (matches.group(1), '')
+        
+        return ('', matches.group(1))
+    
+    @staticmethod
+    def _letter_comparison(chain1, chain2):
         # If chain was a series of letters
         i = 0
         while i < len(chain1) and i < len(chain2):
@@ -141,9 +196,10 @@ class BPCounter:
         total_residue_pairs = 0
         print('='*60 + '\n' + headline + '\n' + '.'*60)
         for tool, item in BPCounter.all_annotations.items():
-            if isinstance(item, set):
-                print(f'{tool}: {len(item)}')
-                total_residue_pairs += len(item)
+            if isinstance(item, dict):
+                count = sum(len(pdb_set) for pdb_set in item.values())
+                print(f'{tool}: {count}')
+                total_residue_pairs += count
             elif isinstance(item, int):
                 print(f'{tool} {item}')
                 total_residue_pairs += item
