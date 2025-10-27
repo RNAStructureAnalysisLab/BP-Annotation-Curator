@@ -22,13 +22,17 @@ class BPCounter:
     PREPROCESSED_DATA_DIRECTORY = os.path.join(
         '..', 'Data', 'Preprocessed', 'JSON_Annotations'
     )
-    EXTENDED_COUNTS_DATA = os.path.join(
+    EXTENDED_TABLE_DIRECTORY = os.path.join(
         '..', 'Data', 'Preprocessed', 'Extended_Tables'    
+    )
+    CONSENSUS_DIRECTORY = os.path.join(
+        '..', 'Data', 'Consensus', 'Tool_Consensus', 'Mode_Based', 'WithoutR3DMA'    
     )
     
     all_annotations = {
         'CL': {}, 'FR': {}, 'MC': {}, 'RV': {}, 'DSSR': {}
     }
+    consensus_count = 0
     tools = {1: 'CL', 2: 'FR', 3: 'MC', 4: 'RV', 5: 'DSSR'}
     
     @staticmethod
@@ -39,6 +43,7 @@ class BPCounter:
         BPCounter._reset_counts()
         BPCounter._extended_counts()
         BPCounter._reset_counts()
+        BPCounter._consensus_counts()
     
     # =========================================================================
     # Pipeline Methods Below
@@ -93,9 +98,9 @@ class BPCounter:
         
     @staticmethod
     def _extended_counts() -> None:
-        for file in os.listdir(BPCounter.EXTENDED_COUNTS_DATA):
+        for file in os.listdir(BPCounter.EXTENDED_TABLE_DIRECTORY):
             file_path = os.path.join(
-                BPCounter.EXTENDED_COUNTS_DATA, file
+                BPCounter.EXTENDED_TABLE_DIRECTORY, file
             )
             extended_table_df = pd.read_csv(file_path)
             for column in extended_table_df.columns[::-1]:
@@ -107,10 +112,29 @@ class BPCounter:
             
         BPCounter._print("Residue Pair Counts in Extended Tables")
     
+    @staticmethod
+    def _consensus_counts() -> None:
+        for file in os.listdir(BPCounter.CONSENSUS_DIRECTORY):
+            file_path = os.path.join(BPCounter.CONSENSUS_DIRECTORY, file)
+            consensus_table_df = pd.read_csv(file_path)
+            for column in consensus_table_df.columns[::-1]:
+                if '-' not in column:
+                    break
+                consensus_table_df[column].apply(
+                    lambda entry: BPCounter._count_consensus_residues(entry)    
+                )
+        
+        print('='*60 + '\nResidue Pair Counts in Consensus Tables\n' + '.'*60)
+        print(f'TOTAL: {BPCounter.consensus_count}')
+    
     ###########################################################################
     # Auxiliary functions below
     ###########################################################################
       
+    @staticmethod
+    def _count_consensus_residues(entry):
+        BPCounter.consensus_count += 1
+    
     @staticmethod
     def _count_extended_residues(entry):
         entry = entry.split(',')
