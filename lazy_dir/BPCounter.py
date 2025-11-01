@@ -28,12 +28,15 @@ class BPCounter:
     CONSENSUS_DIRECTORY = os.path.join(
         '..', 'Data', 'Consensus', 'Tool_Consensus', 'Mode_Based', 'WithoutR3DMA'    
     )
+    R3DMA_DIRECTORY = os.path.join(
+        '..', 'Data', 'Raw', 'R3DMA', 'cluster_tables_3.95'
+    )
     
     all_annotations = {
-        'CL': {}, 'FR': {}, 'MC': {}, 'RV': {}, 'DSSR': {}
+        'R3DMA': 0, 'CL': {}, 'FR': {}, 'MC': {}, 'RV': {}, 'DSSR': {}
     }
     consensus_count = 0
-    tools = {1: 'CL', 2: 'FR', 3: 'MC', 4: 'RV', 5: 'DSSR'}
+    tools = {0: 'R3DMA', 1: 'CL', 2: 'FR', 3: 'MC', 4: 'RV', 5: 'DSSR'}
     
     @staticmethod
     def run() -> None:
@@ -76,6 +79,15 @@ class BPCounter:
                 if pdb not in BPCounter.all_annotations[tool]:
                     BPCounter.all_annotations[tool][pdb] = set()
                 BPCounter.all_annotations[tool][pdb].add(f'{residue1}{residue2}')
+        
+        
+        #count R3DMA
+        for cluster_table in os.listdir(BPCounter.R3DMA_DIRECTORY):
+            df = pd.read_csv(os.path.join(BPCounter.R3DMA_DIRECTORY, cluster_table))
+            for column in df.columns[::-1]:
+                if '-' not in column:
+                    break
+                BPCounter.all_annotations['R3DMA'] += len(df[column])
         
         BPCounter._print("Residue Pair Counts in Raw Data")
         
@@ -139,8 +151,8 @@ class BPCounter:
     def _count_extended_residues(entry):
         entry = entry.split(',')
         for i in range(len(entry)):
-            if i == 0: # skip R3DMA
-                continue
+           # if i == 0: # skip R3DMA
+                #continue
             if entry[i] != 'REJECT':
                 tool = BPCounter.tools[i]
                 BPCounter.all_annotations[tool] += 1
