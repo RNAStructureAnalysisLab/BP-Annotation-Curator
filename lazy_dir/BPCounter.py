@@ -80,7 +80,6 @@ class BPCounter:
                     BPCounter.all_annotations[tool][pdb] = set()
                 BPCounter.all_annotations[tool][pdb].add(f'{residue1}{residue2}')
         
-        
         #count R3DMA
         for cluster_table in os.listdir(BPCounter.R3DMA_DIRECTORY):
             df = pd.read_csv(os.path.join(BPCounter.R3DMA_DIRECTORY, cluster_table))
