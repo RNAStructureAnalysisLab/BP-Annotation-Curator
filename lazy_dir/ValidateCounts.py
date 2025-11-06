@@ -26,6 +26,7 @@ class ValidateCount:
     
     @staticmethod
     def run():
+        
         residue_counts = ValidateCount._configure_counts()
         ValidateCount._raw(residue_counts)
         ValidateCount._r3dma(residue_counts)
@@ -257,10 +258,13 @@ class ValidateCount:
         first_res_sequence = re.match(pattern, str(first_res_id))
         second_res_sequence = re.match(pattern, str(second_res_id))
         
-        if '+' in chain:
-            first_chain, second_chain = chain.split('+')
+        chain = chain.split('+')
+        if len(chain) == 2:
+            first_chain, second_chain = chain
+        elif len(chain):
+            first_chain, second_chain = (chain[0], chain[0])
         else:
-            first_chain, second_chain = (chain, chain)
+            return # TODO is it oaky to not count entries where there are more than 2 chains?
             
             
         formatted_pair = f'{pdb_id}_{first_chain}{first_res_sequence.group(1)}_{second_chain}{second_res_sequence.group(1)}'
@@ -272,6 +276,31 @@ class ValidateCount:
         for i in range(len(contact_types)):
             if contact_types[i] != 'REJECT':
                 bp_counts[tool[i]] += 1
+                
+    @staticmethod 
+    def _count_consensus_bp(bp_counts, contact_type, first_res_id, second_res_id, chain, pdb_id, i_code_residues) -> int:
+        pattern = r'(\d*)' # try not to grab i_code ar anything else by accident
+        first_res_sequence = re.match(pattern, str(first_res_id))
+        second_res_sequence = re.match(pattern, str(second_res_id))
+        
+        chain = chain.split('+')
+        if len(chain) == 2:
+            first_chain, second_chain = chain
+        elif len(chain):
+            first_chain, second_chain = (chain[0], chain[0])
+        else:
+            return bp_counts # TODO is it oaky to not count entries where there are more than 2 chains?
+            
+            
+        formatted_pair = f'{pdb_id}_{first_chain}{first_res_sequence.group(1)}_{second_chain}{second_res_sequence.group(1)}'
+        reversed_formatted_pair = f'{pdb_id}_{second_chain}{second_res_sequence.group(1)}_{first_chain}{first_res_sequence.group(1)}'
+
+        if formatted_pair in i_code_residues or reversed_formatted_pair in i_code_residues:
+            return bp_counts
+        
+        if contact_type != 'REJECT':
+            return bp_counts + 1
+        return bp_counts
                 
      
     @staticmethod
@@ -291,15 +320,26 @@ class ValidateCount:
             first_res, second_res = column.split('-')
             for contact_types, first_res_id, second_res_id, chain, pdb_id in zip(df[column], df[first_res], df[second_res], df['Chain(s)'], df['PDB']):
                 ValidateCount._count_bp(bp_counts, contact_types, first_res_id, second_res_id, chain, pdb_id, i_code_residues)
+                
+    @staticmethod
+    def _get_bp_counts_consensus_table(df: pd.DataFrame, bp_counts: int, i_code_residues: set[str]) -> int:
+        for column in df.columns[::-1]:
+            if '-' not in column:
+                break
+            first_res, second_res = column.split('-')
+            for contact_type, first_res_id, second_res_id, chain, pdb_id in zip(df[column], df[first_res], df[second_res], df['Chain(s)'], df['PDB']):
+                bp_counts = ValidateCount._count_consensus_bp(bp_counts, contact_type, first_res_id, second_res_id, chain, pdb_id, i_code_residues)
+        return bp_counts
         
     @staticmethod
     def _consensus_table(i_code_residues: set[str]) -> None:
-        bp_counts = {'CL': 0, 'FR': 0, 'MC': 0, 'RV': 0, 'DSSR': 0, 'R3DMA': 0}
+        bp_counts = 0
         for consensus_table in os.listdir(ValidateCount.CONSENSUS_DIRECTORY):
             df = pd.read_csv(os.path.join(ValidateCount.CONSENSUS_DIRECTORY, consensus_table))
-            ValidateCount._get_bp_counts_talbe(df, bp_counts, i_code_residues)
+            bp_counts = ValidateCount._get_bp_counts_consensus_table(df, bp_counts, i_code_residues)
         
-        ValidateCount._print_bp_counts(bp_counts, 'CONSENSUS TABLES')
+        print(f'{'='*5} CONSENSUS TABLES {'='*5}')
+        print(f'TOTAL: {bp_counts}')
     
     @staticmethod
     def _print_bp_counts(bp_counts: dict[int], step: str) -> None:

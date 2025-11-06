@@ -53,6 +53,7 @@ class Table_Extender:
             Table_Extender._fill_table(motif_cluster)
             Table_Extender._export(motif_cluster, file_name)
             
+        
     # INPUT: A pandas dataframe representing motif cluster table
     # ACTION: Modify dataframe in-place by removing rows where
     # PDBs that weren't used, where the residue_id contains '|', where the
