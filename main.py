@@ -206,7 +206,7 @@ if 6 >= starting_step_number:
 if 7 >= starting_step_number:
     print('Beginning STEP 7:\n')
     Preprocessor.convert_all()
-    
+sys.exit() #TODO Remove
 # =============================================================================
 
 

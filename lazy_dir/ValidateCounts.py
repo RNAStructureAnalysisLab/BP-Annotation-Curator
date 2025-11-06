@@ -10,10 +10,37 @@ class ValidateCount:
     PREPROCESSED_DATA_DIRECTORY = os.path.join(
         '..', 'Data', 'Preprocessed', 'JSON_Annotations'
     )
+    R3DMA_DIRECTORY = os.path.join(
+        '..', 'Data', 'Raw', 'R3DMA', 'cluster_tables_3.95'
+    )
+    EXTENDED_TABLE_DIRECTORY = os.path.join(
+        '..', 'Data', 'Preprocessed', 'Extended_Tables'    
+    )
+    CONSENSUS_DIRECTORY = os.path.join(
+        '..', 'Data', 'Consensus', 'Tool_Consensus', 'Mode_Based', 'WithoutR3DMA'    
+    )
+    I_CODE_RESIDUES_PATH = os.path.join(
+        '..', 'DataManagement', 'DataPreparation', 'residue_ids.txt'
+    )
     OUTPUT_DIRECTORY = '.'
     
     @staticmethod
     def run():
+        residue_counts = ValidateCount._configure_counts()
+        ValidateCount._raw(residue_counts)
+        ValidateCount._r3dma(residue_counts)
+        ValidateCount._print(residue_counts, "RAW BP COUNTS")
+        
+        residue_counts = ValidateCount._configure_counts()
+        ValidateCount._preprocessed(residue_counts)
+        ValidateCount._print(residue_counts, "PREPROCESSED BP COUNTS")
+        
+        i_code_residues = ValidateCount._load_i_code_residues()
+        ValidateCount._extended_tables(i_code_residues)
+        ValidateCount._consensus_table(i_code_residues)
+        
+        
+        '''
         raw_unique_residues = {
             'CL': set(), 'FR': set(), 'MC': set(), 'RV': set(), 'DSSR': set()
         }
@@ -32,6 +59,7 @@ class ValidateCount:
         ValidateCount._get_differences(only_in_raw, only_in_preprocessed, raw_unique_residues, preprocessed_unique_residues)
         ValidateCount._analyze(only_in_raw, only_in_preprocessed, raw_unique_residues, preprocessed_unique_residues)
         ValidateCount._write_differences(only_in_raw, only_in_preprocessed)
+        '''
         
     @staticmethod
     def _raw(raw_unique_residues):
@@ -186,6 +214,112 @@ class ValidateCount:
             with open(path, 'w', encoding='utf-8') as f:
                 for item in only_pre_sorted:
                     f.write(item + '\n')
+     
+    ###########################################################################
+    # VERSION 2 FUNCTIONS BELOW
+    ###########################################################################               
+     
+    @staticmethod
+    def _configure_counts() -> dict[set[str]]:
+        return {
+            'CL': set(), 'FR': set(), 'MC': set(), 'RV': set(), 'DSSR': set(), 'R3DMA': 0
+        }
+    
+    @staticmethod
+    def _print(residue_counts: dict[set[str]], step: str) -> None:
+        count_sum = 0
+        print(f'{'='*5} {step} {'='*5}')
+        for tool, item in residue_counts.items():
+            if isinstance(item, int):
+                print(f'{tool}: {item}')
+                count_sum += item
+            else:
+                print(f'{tool}: {len(item)}')
+                count_sum += len(item)
+            
+        print(f'TOTAL: {count_sum}\n\n\n')
+        
+    @staticmethod
+    def _r3dma(residue_counts: dict[set[str]]) -> None:
+        for cluster_table in os.listdir(ValidateCount.R3DMA_DIRECTORY):
+            df = pd.read_csv(os.path.join(
+                ValidateCount.R3DMA_DIRECTORY, cluster_table
+            ))
+            for column in df.columns[::-1]:
+                if '-' not in column:
+                    break
+                residue_counts['R3DMA'] += len(df[column])
+     
+    @staticmethod 
+    def _count_bp(bp_counts, contact_types, first_res_id, second_res_id, chain, pdb_id, i_code_residues):
+        tool = {0: 'R3DMA', 1: 'CL', 2: 'FR', 3: 'MC', 4: 'RV', 5: 'DSSR'}
+        pattern = r'(\d*)' # try not to grab i_code ar anything else by accident
+        first_res_sequence = re.match(pattern, str(first_res_id))
+        second_res_sequence = re.match(pattern, str(second_res_id))
+        
+        if '+' in chain:
+            first_chain, second_chain = chain.split('+')
+        else:
+            first_chain, second_chain = (chain, chain)
+            
+            
+        formatted_pair = f'{pdb_id}_{first_chain}{first_res_sequence.group(1)}_{second_chain}{second_res_sequence.group(1)}'
 
+        if formatted_pair in i_code_residues:
+            return
+
+        contact_types = contact_types.split(',')
+        for i in range(len(contact_types)):
+            if contact_types[i] != 'REJECT':
+                bp_counts[tool[i]] += 1
+                
+     
+    @staticmethod
+    def _extended_tables(i_code_residues: set[str]) -> None:
+        bp_counts = {'CL': 0, 'FR': 0, 'MC': 0, 'RV': 0, 'DSSR': 0, 'R3DMA': 0}
+        for extended_table in os.listdir(ValidateCount.EXTENDED_TABLE_DIRECTORY):
+            df = pd.read_csv(os.path.join(ValidateCount.EXTENDED_TABLE_DIRECTORY, extended_table))
+            ValidateCount._get_bp_counts_table(df, bp_counts, i_code_residues)
+
+        ValidateCount._print_bp_counts(bp_counts, 'EXTENDED TABLES')
+        
+    @staticmethod
+    def _get_bp_counts_table(df: pd.DataFrame, bp_counts: dict[int], i_code_residues: set[str]) -> None:
+        for column in df.columns[::-1]:
+            if '-' not in column:
+                break
+            first_res, second_res = column.split('-')
+            for contact_types, first_res_id, second_res_id, chain, pdb_id in zip(df[column], df[first_res], df[second_res], df['Chain(s)'], df['PDB']):
+                ValidateCount._count_bp(bp_counts, contact_types, first_res_id, second_res_id, chain, pdb_id, i_code_residues)
+        
+    @staticmethod
+    def _consensus_table(i_code_residues: set[str]) -> None:
+        bp_counts = {'CL': 0, 'FR': 0, 'MC': 0, 'RV': 0, 'DSSR': 0, 'R3DMA': 0}
+        for consensus_table in os.listdir(ValidateCount.CONSENSUS_DIRECTORY):
+            df = pd.read_csv(os.path.join(ValidateCount.CONSENSUS_DIRECTORY, consensus_table))
+            ValidateCount._get_bp_counts_talbe(df, bp_counts, i_code_residues)
+        
+        ValidateCount._print_bp_counts(bp_counts, 'CONSENSUS TABLES')
+    
+    @staticmethod
+    def _print_bp_counts(bp_counts: dict[int], step: str) -> None:
+        count_sum = 0
+        print(f'{'='*5} {step} {'='*5}')
+        for tool, count in bp_counts.items():
+            count_sum += count
+            print(f'{tool}: {count}')
+            
+        print(f'TOTAL: {count_sum}\n\n\n')
+        
+    @staticmethod
+    def _load_i_code_residues() -> set[str]:
+        i_code_residues = set()
+        with open(ValidateCount.I_CODE_RESIDUES_PATH, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    i_code_residues.add(line)
+        
+        return i_code_residues
     
 ValidateCount.run()
