@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,1-7,3-6,4-5,2-7,3-4
-1,IL_6MWN_004,6MWN,0.0,3,Kink-turn related,B,IRES,U,604,U,605,U,606,G,607,*,C,670,U,671,G,675,"cWW,cWW,cWW,cWW,cWW,cWW","cWw,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWW,nbp,nbp,nbp,nbp","nbp,cWH,nbp,nbp,nbp,nbp"
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,1-7,3-6,4-5
+1,IL_6MWN_004,6MWN,0.0,3,Kink-turn related,B,IRES,U,604,U,605,U,606,G,607,*,C,670,U,671,G,675,"cWW,cWW,cWW,cWW,cWW,cWW","cWw,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"

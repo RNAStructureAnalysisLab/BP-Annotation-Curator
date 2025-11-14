@@ -1,11 +1,11 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,1-7,4-5,1-6,5-6,4-6
-1,IL_1ZX7_005,1ZX7,0.5094,0,Decoding loop related,E+F,RNA (15-mer) + RNA (14-mer),G,7,A,8,A,9,G,10,*,C,26,A,27,C,28,cWW,cWW,nbp,nbp,nbp
-3,IL_1ZZ5_001,1ZZ5,0.2739,0,Decoding loop related,A+B,RNA (15-mer) + RNA (14-mer),G,7,A,8,A,9,G,10,*,C,26,A,27,C,28,cWW,cWW,nbp,nbp,nbp
-4,IL_3C3Z_003,3C3Z,0.3622,0,Decoding loop related,B+A,HIV-1 subtype F genomic RNA,G,7,A,8,A,9,G,10,*,C,15,A,16,C,17,cWW,cWW,nbp,nbp,nbp
-5,IL_4PDQ_002,4PDQ,0.3274,0,,B+A,RNA (23-mer),G,39,A,40,A,41,G,42,*,C,7,A,8,C,9,cWW,cWW,nbp,nbp,nbp
-7,IL_2ET8_002,2ET8,0.0,0,Decoding loop related,B+A,RNA (22-mer),G,38,A,39,A,40,G,41,*,C,6,A,7,C,8,cWW,cWW,nbp,nbp,nbp
-8,IL_2O3X_002,2O3X,0.104,0,Decoding loop related,B+A,RNA (23-mer),G,39,A,40,A,41,G,42,*,C,7,A,8,C,9,cWW,cWW,nbp,nbp,nbp
-9,IL_4ZC7_003,4ZC7,0.1845,0,Decoding loop related,A+B,RNA duplex,A,16,A,17,A,18,G,19,*,C,30,G,31,U,32,cWW,cWW,nbp,nbp,nbp
-10,IL_7A0S_100,7A0S,0.4657,0,Decoding loop related,X,LSU rRNA,G,2846,G,2847,A,2848,C,2849,*,G,2818,G,2819,C,2820,cWW,cWW,nbp,nbp,nbp
-11,IL_4WF9_107,4WF9,0.5721,0,,X,LSU rRNA,U,2891,G,2892,A,2893,C,2894,*,G,2863,A,2864,G,2865,cWW,cWW,nbp,nbp,nbp
-13,IL_3NDB_006,3NDB,0.6625,0,,M,SRP RNA,U,175,A,176,A,177,C,178,*,G,152,A,153,G,154,cWW,cWW,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,1-7,4-5,1-6
+1,IL_1ZX7_005,1ZX7,0.5094,0,Decoding loop related,E+F,RNA (15-mer) + RNA (14-mer),G,7,A,8,A,9,G,10,*,C,26,A,27,C,28,cWW,cWW,nbp
+3,IL_1ZZ5_001,1ZZ5,0.2739,0,Decoding loop related,A+B,RNA (15-mer) + RNA (14-mer),G,7,A,8,A,9,G,10,*,C,26,A,27,C,28,cWW,cWW,nbp
+4,IL_3C3Z_003,3C3Z,0.3622,0,Decoding loop related,B+A,HIV-1 subtype F genomic RNA,G,7,A,8,A,9,G,10,*,C,15,A,16,C,17,cWW,cWW,nbp
+5,IL_4PDQ_002,4PDQ,0.3274,0,,B+A,RNA (23-mer),G,39,A,40,A,41,G,42,*,C,7,A,8,C,9,cWW,cWW,nbp
+7,IL_2ET8_002,2ET8,0.0,0,Decoding loop related,B+A,RNA (22-mer),G,38,A,39,A,40,G,41,*,C,6,A,7,C,8,cWW,cWW,nbp
+8,IL_2O3X_002,2O3X,0.104,0,Decoding loop related,B+A,RNA (23-mer),G,39,A,40,A,41,G,42,*,C,7,A,8,C,9,cWW,cWW,nbp
+9,IL_4ZC7_003,4ZC7,0.1845,0,Decoding loop related,A+B,RNA duplex,A,16,A,17,A,18,G,19,*,C,30,G,31,U,32,cWW,cWW,nbp
+10,IL_7A0S_100,7A0S,0.4657,0,Decoding loop related,X,LSU rRNA,G,2846,G,2847,A,2848,C,2849,*,G,2818,G,2819,C,2820,cWW,cWW,nbp
+11,IL_4WF9_107,4WF9,0.5721,0,,X,LSU rRNA,U,2891,G,2892,A,2893,C,2894,*,G,2863,A,2864,G,2865,cWW,cWW,nbp
+13,IL_3NDB_006,3NDB,0.6625,0,,M,SRP RNA,U,175,A,176,A,177,C,178,*,G,152,A,153,G,154,cWW,cWW,nbp

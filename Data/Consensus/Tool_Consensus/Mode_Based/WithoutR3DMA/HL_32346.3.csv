@@ -1,6 +1,6 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,1-3,1-2,2-3
-2,HL_5CCB_002,5CCB,0.1692,2,N,tRNA,U,33,U,35,A,37,cWW,nbp,nbp
-3,HL_6M0X_002,6M0X,0.1119,1,B,RNA (71-MER),U,56,C,58,A,59,cWW,nbp,nbp
-4,HL_6U8D_003,6U8D,0.0,1,A,JIIIabc RNA (68-MER),C,232,U,234,G,235,cWW,nbp,nbp
-5,HL_2UWM_002,2UWM,0.1076,1,D,RNA (23-mer),G,22,U,24,C,25,cWW,nbp,nbp
-7,HL_8VM9_005,8VM9,0.293,2,R,RNA (85-MER),C,34,U,36,G,38,cWW,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,1-3
+2,HL_5CCB_002,5CCB,0.1692,2,N,tRNA,U,33,U,35,A,37,cWW
+3,HL_6M0X_002,6M0X,0.1119,1,B,RNA (71-MER),U,56,C,58,A,59,cWW
+4,HL_6U8D_003,6U8D,0.0,1,A,JIIIabc RNA (68-MER),C,232,U,234,G,235,cWW
+5,HL_2UWM_002,2UWM,0.1076,1,D,RNA (23-mer),G,22,U,24,C,25,cWW
+7,HL_8VM9_005,8VM9,0.293,2,R,RNA (85-MER),C,34,U,36,G,38,cWW

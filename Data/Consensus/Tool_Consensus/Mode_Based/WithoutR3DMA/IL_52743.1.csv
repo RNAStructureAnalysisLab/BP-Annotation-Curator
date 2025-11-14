@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,break,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,1-4,1-10,5-10,6-8,6-9,7-8,1-5,3-4,6-7,5-9
-1,IL_5NWQ_002,5NWQ,0.0,0,A,Guanidine-III riboswitch,G,29,A,30,C,31,A,32,A,33,G,34,A,35,*,U,18,A,19,C,20,tSW,cWW,nbp,nbp,cSW,cWW,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,break,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,1-4,1-10,5-10,6-8,6-9,7-8
+1,IL_5NWQ_002,5NWQ,0.0,0,A,Guanidine-III riboswitch,G,29,A,30,C,31,A,32,A,33,G,34,A,35,*,U,18,A,19,C,20,tSW,cWW,nbp,nbp,cSW,cWW

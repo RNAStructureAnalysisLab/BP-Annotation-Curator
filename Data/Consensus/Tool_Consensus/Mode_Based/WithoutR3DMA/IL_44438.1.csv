@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,break,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,1-12,6-7,1-2
-1,IL_8F4O_007,8F4O,0.0,0,B,TPP riboswitch (THI element),U,59,G,60,A,61,U,62,C,63,U,64,*,A,75,G,76,C,77,G,78,U,79,A,80,cWW,cWW,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,break,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,Unnamed: 30,12,1-12,6-7
+1,IL_8F4O_007,8F4O,0.0,0,B,TPP riboswitch (THI element),U,59,G,60,A,61,U,62,C,63,U,64,*,A,75,G,76,C,77,G,78,U,79,A,80,cWW,cWW

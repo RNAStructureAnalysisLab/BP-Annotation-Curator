@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,1-9,3-7,4-6,2-3,7-8
-2,HL_9BUN_003,9BUN,0.0,3,A,RNA (48-MER),G,26,C,27,A,28,A,29,G,30,A,34,A,35,C,36,C,37,cWW,cSS,cSS,nbp,nbp
-3,HL_8JY0_003,8JY0,0.2633,3,B,RhoBAST,G,42,C,43,A,44,A,45,G,46,A,50,A,51,C,52,C,53,cWW,cSS,cSS,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,1-9,3-7,4-6,7-8
+2,HL_9BUN_003,9BUN,0.0,3,A,RNA (48-MER),G,26,C,27,A,28,A,29,G,30,A,34,A,35,C,36,C,37,cWW,cSS,cSS,nbp
+3,HL_8JY0_003,8JY0,0.2633,3,B,RhoBAST,G,42,C,43,A,44,A,45,G,46,A,50,A,51,C,52,C,53,cWW,cSS,cSS,nbp

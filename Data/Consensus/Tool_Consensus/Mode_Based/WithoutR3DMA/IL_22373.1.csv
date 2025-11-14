@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-4,3-5,4-7,5-6,2-4,5-7,2-8
-1,IL_5T83_002,5T83,0.1022,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,39,U,40,C,41,cWW,nbp,nbp,nbp,nbp,cWW,nbp,nbp,nbp
-2,IL_5U3G_002,5U3G,0.0,0,8-nt loop receptor,B,Guanidine-I riboswitch,G,10,G,11,U,12,U,13,C,14,*,G,27,U,28,C,29,cWW,cWW,nbp,cWH,cWW,cWW,nbp,nbp,nbp
-3,IL_7MLW_003,7MLW,0.1213,0,,F,Guanidine-I riboswitch,G,11,G,12,U,13,U,14,C,15,*,G,48,U,49,C,50,cWW,cWW,nbp,cWH,nbp,cWW,nbp,nbp,nbp
-4,IL_6DLR_002,6DLR,0.1234,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,42,U,43,C,44,cWW,nbp,nbp,cWH,cWW,cWW,cWH,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-4,3-5,4-7,5-6,2-4
+1,IL_5T83_002,5T83,0.1022,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,39,U,40,C,41,cWW,nbp,nbp,nbp,nbp,cWW,nbp
+2,IL_5U3G_002,5U3G,0.0,0,8-nt loop receptor,B,Guanidine-I riboswitch,G,10,G,11,U,12,U,13,C,14,*,G,27,U,28,C,29,cWW,cWW,nbp,nbp,cWW,cWW,nbp
+3,IL_7MLW_003,7MLW,0.1213,0,,F,Guanidine-I riboswitch,G,11,G,12,U,13,U,14,C,15,*,G,48,U,49,C,50,cWW,nbp,nbp,nbp,nbp,cWW,nbp
+4,IL_6DLR_002,6DLR,0.1234,0,8-nt loop receptor,A,Guanidine-I riboswitch,G,16,G,17,U,18,U,19,C,20,*,G,42,U,43,C,44,cWW,nbp,nbp,cWH,nbp,cWW,cWH

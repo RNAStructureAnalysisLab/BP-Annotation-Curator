@@ -1,3 +1,3 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,1-4,2-3,1-3
-1,HL_8HNT_002,8HNT,0.0,2,,B,sgRNA,U,103,G,104,A,107,G,108,cWW,nbp,nbp
-2,HL_6DLR_001,6DLR,0.6372,2,UNCG variation,A,Guanidine-I riboswitch,C,27,U,28,G,31,G,32,cWW,tSW,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,1-4,2-3
+1,HL_8HNT_002,8HNT,0.0,2,,B,sgRNA,U,103,G,104,A,107,G,108,cWW,nbp
+2,HL_6DLR_001,6DLR,0.6372,2,UNCG variation,A,Guanidine-I riboswitch,C,27,U,28,G,31,G,32,cWW,tSW

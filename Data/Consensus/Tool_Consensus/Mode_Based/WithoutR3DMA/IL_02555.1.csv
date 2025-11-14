@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,2-3,2-4,3-4,2-5,1-2,4-5
-5,IL_4WF9_097,4WF9,0.0871,1,Major groove platform with intercalation,X,LSU rRNA,C,2567,A,2568,G,2570,*,U,2549,G,2550,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-7,IL_7A0S_091,7A0S,0.1106,1,Major groove platform with intercalation,X,LSU rRNA,C,2519,A,2520,G,2522,*,U,2501,G,2502,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-8,IL_4KQY_004,4KQY,0.3823,1,Minor groove platform,A,SAM-I riboswitch,C,73,A,74,G,76,*,C,49,G,50,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-9,IL_8DP3_001,8DP3,0.5843,1,Major groove platform,R,RNA (90-MER),C,48,U,49,G,51,*,C,78,G,79,cWW,cWH,nbp,cWW,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,2-3,2-4,3-4
+5,IL_4WF9_097,4WF9,0.0871,1,Major groove platform with intercalation,X,LSU rRNA,C,2567,A,2568,G,2570,*,U,2549,G,2550,cWW,nbp,nbp,cWW
+7,IL_7A0S_091,7A0S,0.1106,1,Major groove platform with intercalation,X,LSU rRNA,C,2519,A,2520,G,2522,*,U,2501,G,2502,cWW,nbp,nbp,cWW
+8,IL_4KQY_004,4KQY,0.3823,1,Minor groove platform,A,SAM-I riboswitch,C,73,A,74,G,76,*,C,49,G,50,cWW,nbp,nbp,cWW
+9,IL_8DP3_001,8DP3,0.5843,1,Major groove platform,R,RNA (90-MER),C,48,U,49,G,51,*,C,78,G,79,cWW,cWH,nbp,cWW

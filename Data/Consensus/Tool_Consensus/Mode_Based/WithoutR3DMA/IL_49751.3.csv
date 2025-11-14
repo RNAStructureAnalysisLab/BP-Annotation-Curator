@@ -1,14 +1,14 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,1-10,2-8,2-9,3-7,3-8,3-9,4-6,4-7,5-6,5-7,4-8,1-9,2-10,3-4,7-8,8-9,4-5,9-10,2-3
-3,IL_4LFB_065,4LFB,0.6138,0,Triple non-canonical cWW pairs,A,SSU rRNA,G,713,G,714,A,715,A,716,C,717,*,G,673,G,674,A,675,A,676,U,677,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-4,IL_8D29_010,8D29,0.5443,0,Partly complementary,C,RNA (34-MER),G,4,A,5,U,6,A,7,C,8,*,G,27,C,28,A,29,G,30,C,31,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-5,IL_8SP9_002,8SP9,0.1708,0,Triple non-canonical cWW pairs,C,"tRNA scaffold,CVB3 Cloverleaf RNA",C,99,U,100,U,101,U,102,G,103,*,C,82,U,83,C,84,U,85,G,86,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-6,IL_8DP3_002,8DP3,0.1459,0,Triple non-canonical cWW pairs,R,RNA (90-MER),C,54,U,55,C,56,U,57,G,58,*,C,71,U,72,U,73,U,74,G,75,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-7,IL_8VM9_004,8VM9,0.1289,0,Triple non-canonical cWW pairs,R,RNA (85-MER),C,68,U,69,U,70,U,71,G,72,*,C,48,U,49,C,50,U,51,G,52,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-8,IL_8VM8_003,8VM8,0.1428,0,Triple non-canonical cWW pairs,R,RNA (93-MER),C,54,U,55,C,56,U,57,G,58,*,C,74,U,75,U,76,U,77,G,78,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-9,IL_8VMA_004,8VMA,0.0,0,Triple non-canonical cWW pairs,C,RNA (88-MER),C,51,U,52,C,53,C,54,U,55,*,A,71,C,72,U,73,U,74,G,75,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-10,IL_8VMB_003,8VMB,0.1248,0,Triple non-canonical cWW pairs,R,RNA (83-MER),C,51,U,52,C,53,C,54,U,55,*,A,68,C,69,U,70,U,71,G,72,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-11,IL_5BTM_001,5BTM,0.2043,0,Triple non-canonical cWW pairs,A,RNA (55-mer),U,10,U,11,C,12,U,13,A,14,*,U,42,U,43,C,44,U,45,A,46,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-12,IL_8S95_002,8S95,0.1866,0,Triple non-canonical cWW pairs,C,"Lysine tRNA scaffold,Poliovirus cloverleaf RNA",C,101,C,102,U,103,U,104,G,105,*,C,84,U,85,C,86,C,87,G,88,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-13,IL_7VYX_008,7VYX,0.3583,0,Partly complementary,C,sgRNA,G,51,U,52,G,53,C,54,C,55,*,G,11,A,12,C,13,U,14,U,15,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-15,IL_7VYX_004,7VYX,0.48,0,Partly complementary,C,sgRNA,U,37,U,38,A,39,U,40,C,41,*,G,21,G,22,A,23,U,24,G,25,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-17,IL_4WF9_123,4WF9,0.7168,0,Partly complementary,X,LSU rRNA,C,1768,C,1769,C,1770,A,1771,G,1772,*,U,1757,A,1758,G,1759,G,1760,G,1761,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,1-10,2-8,2-9,3-7,3-8,3-9,4-6,4-7,5-6,2-10,3-4,4-5
+3,IL_4LFB_065,4LFB,0.6138,0,Triple non-canonical cWW pairs,A,SSU rRNA,G,713,G,714,A,715,A,716,C,717,*,G,673,G,674,A,675,A,676,U,677,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+4,IL_8D29_010,8D29,0.5443,0,Partly complementary,C,RNA (34-MER),G,4,A,5,U,6,A,7,C,8,*,G,27,C,28,A,29,G,30,C,31,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+5,IL_8SP9_002,8SP9,0.1708,0,Triple non-canonical cWW pairs,C,"tRNA scaffold,CVB3 Cloverleaf RNA",C,99,U,100,U,101,U,102,G,103,*,C,82,U,83,C,84,U,85,G,86,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+6,IL_8DP3_002,8DP3,0.1459,0,Triple non-canonical cWW pairs,R,RNA (90-MER),C,54,U,55,C,56,U,57,G,58,*,C,71,U,72,U,73,U,74,G,75,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+7,IL_8VM9_004,8VM9,0.1289,0,Triple non-canonical cWW pairs,R,RNA (85-MER),C,68,U,69,U,70,U,71,G,72,*,C,48,U,49,C,50,U,51,G,52,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+8,IL_8VM8_003,8VM8,0.1428,0,Triple non-canonical cWW pairs,R,RNA (93-MER),C,54,U,55,C,56,U,57,G,58,*,C,74,U,75,U,76,U,77,G,78,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+9,IL_8VMA_004,8VMA,0.0,0,Triple non-canonical cWW pairs,C,RNA (88-MER),C,51,U,52,C,53,C,54,U,55,*,A,71,C,72,U,73,U,74,G,75,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+10,IL_8VMB_003,8VMB,0.1248,0,Triple non-canonical cWW pairs,R,RNA (83-MER),C,51,U,52,C,53,C,54,U,55,*,A,68,C,69,U,70,U,71,G,72,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+11,IL_5BTM_001,5BTM,0.2043,0,Triple non-canonical cWW pairs,A,RNA (55-mer),U,10,U,11,C,12,U,13,A,14,*,U,42,U,43,C,44,U,45,A,46,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+12,IL_8S95_002,8S95,0.1866,0,Triple non-canonical cWW pairs,C,"Lysine tRNA scaffold,Poliovirus cloverleaf RNA",C,101,C,102,U,103,U,104,G,105,*,C,84,U,85,C,86,C,87,G,88,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp
+13,IL_7VYX_008,7VYX,0.3583,0,Partly complementary,C,sgRNA,G,51,U,52,G,53,C,54,C,55,*,G,11,A,12,C,13,U,14,U,15,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp
+15,IL_7VYX_004,7VYX,0.48,0,Partly complementary,C,sgRNA,U,37,U,38,A,39,U,40,C,41,*,G,21,G,22,A,23,U,24,G,25,cWW,nbp,cWW,nbp,cWW,nbp,nbp,cWW,cWW,nbp,nbp,nbp
+17,IL_4WF9_123,4WF9,0.7168,0,Partly complementary,X,LSU rRNA,C,1768,C,1769,C,1770,A,1771,G,1772,*,U,1757,A,1758,G,1759,G,1760,G,1761,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,cWW,nbp,nbp,nbp

@@ -224,7 +224,6 @@ if 8 >= starting_step_number:
 
 
 
-
     
 # =============================================================================
 # STEP 9: Create tool consensus tables for each motif cluster from STEP 8

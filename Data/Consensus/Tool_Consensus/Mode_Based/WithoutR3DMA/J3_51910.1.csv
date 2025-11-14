@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,break.1,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,1-12,2-11,3-4,4-10,5-6,1-11,2-3,3-11,4-11
-1,J3_4R4V_002,4R4V,0.0,1,A,VS ribozyme RNA,G,655,A,656,C,658,*,G,716,G,717,*,C,758,A,759,C,760,A,761,A,762,G,763,C,764,cWW,cWW,cWW,tSW,cWW,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,break,Unnamed: 14,4,Unnamed: 16,5,break.1,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,Unnamed: 29,11,Unnamed: 31,12,1-12,2-11,3-4,4-10,5-6,2-3
+1,J3_4R4V_002,4R4V,0.0,1,A,VS ribozyme RNA,G,655,A,656,C,658,*,G,716,G,717,*,C,758,A,759,C,760,A,761,A,762,G,763,C,764,cWW,cWW,cWW,tSW,cWW,nbp
