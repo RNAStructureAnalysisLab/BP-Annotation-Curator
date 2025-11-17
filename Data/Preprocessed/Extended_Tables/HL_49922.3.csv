@@ -1,5 +1,5 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,1-5,2-4,2-5,3-4
-1,HL_4WF9_048,4WF9,0.7842,2,X,LSU rRNA,C,2236,U,2237,A,2239,C,2241,G,2242,"ncWW,cWW,cWW,cWW,cWW,cWW","nbp,tHH,nbp,nbp,nbp,REJECT","nbp,tWW,nbp,nbp,nbp,tWW","nbp,nbp,REJECT,cHH,nbp,cHH"
+1,HL_4WF9_048,4WF9,0.7842,2,X,LSU rRNA,C,2236,U,2237,A,2239,C,2241,G,2242,"ncWW,cWW,cWW,cWW,cWW,cWW","nbp,tHH,nbp,nbp,nbp,cW.","nbp,tWW,nbp,nbp,nbp,tWW","nbp,nbp,REJECT,cHH,nbp,cHH"
 3,HL_9F37_001,9F37,0.0883,1,V,5' end of the vRNA promoter,U,3,A,4,G,5,A,7,A,8,"cWW,cWW,cWW,cWW,cWW,cWW","ncSW,cSW,cSW,REJECT,cSW,cSW","nbp,cSW,nbp,nbp,nbp,nbp","nbp,cSH,nbp,nbp,nbp,nbp"
 4,HL_7Z42_002,7Z42,0.0782,1,V,RNA (13-mer),U,3,A,4,G,5,A,7,A,8,"cWW,cWW,cWW,cWW,cWW,cWW","cSW,cSW,cSW,cSW,cSW,cSW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,cSH,nbp,nbp,nbp,nbp"
 5,HL_5FMZ_001,5FMZ,0.0717,1,H,RNA (12-mer),U,3,A,4,G,5,A,7,A,8,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cSW,cSW,REJECT,cSW,cSW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,cSH,nbp,nbp,nbp,nbp"

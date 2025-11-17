@@ -1,6 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,break,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,Unnamed: 27,10,1-10,2-9,3-8,6-7,2-10,3-9,4-6,7-8,1-2,3-7,7-3
-3,IL_8K7W_001,8K7W,0.0938,1,,A,RNA (49-MER),G,3,A,4,C,5,G,6,G,7,C,9,*,G,44,G,45,G,46,C,47,cWW,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-4,IL_4KZD_004,4KZD,0.2071,1,Tandem non-canonical cWW pairs,R,RNA (84-MER),G,19,A,20,A,21,G,22,G,23,C,25,*,G,63,A,64,G,65,C,66,cWW,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-5,IL_4TS2_005,4TS2,0.1724,1,Tandem non-canonical cWW pairs,X+Y,"Spinach aptamer RNA, bimolecular construct",G,22,A,23,A,24,G,25,G,26,C,28,*,G,74,A,75,G,76,C,77,cWW,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-6,IL_7L0Z_002,7L0Z,0.2209,1,,G,RNA (69-MER),G,12,A,13,G,14,G,15,G,16,C,18,*,G,55,G,56,G,57,C,58,cWW,cWW,tWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
-7,IL_3NPQ_006,3NPQ,0.8771,0,,A,S-ADENOSYLHOMOCYSTEINE RIBOSWITCH,C,26,C,27,C,28,A,29,G,30,G,31,*,C,16,A,17,A,18,G,19,cWW,cWW,tSH,cWW,nbp,nbp,nbp,nbp,nbp,tSH,nbp
