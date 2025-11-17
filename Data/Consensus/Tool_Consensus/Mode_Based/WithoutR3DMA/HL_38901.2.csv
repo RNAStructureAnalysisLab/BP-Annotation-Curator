@@ -1,4 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,3-4,2-5,2-4,2-3
-1,HL_5F9R_004,5F9R,0.3894,0,D-loop related,A,RNA (116-MER),G,105,A,106,G,107,U,108,C,109,cWW,cSH,nbp,nbp,nbp
-4,HL_3AM1_001,3AM1,0.0,1,tRNA D-loop,B,ASL-truncated tRNA,U,18,U,19,G,21,U,22,A,23,cWW,cSH,nbp,nbp,nbp
-7,HL_4KR9_004,4KR9,0.9092,1,,X,RNA (39-MER),G,19,G,20,A,22,A,23,C,24,cWW,nbp,nbp,nbp,nbp

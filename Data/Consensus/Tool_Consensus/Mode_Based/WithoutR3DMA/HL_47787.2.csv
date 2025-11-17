@@ -1,6 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,1-6,2-5,5-6,3-5,1-2,3-6
-1,HL_7A0S_019,7A0S,0.9188,0,X,LSU rRNA,U,622,G,623,A,624,A,625,A,626,A,627,cWW,nbp,nbp,nbp,nbp,nbp
-2,HL_6AAY_001,6AAY,0.7832,2,B,RNA (52-MER),C,37,A,38,U,39,U,40,U,41,G,44,cWW,nbp,nbp,nbp,nbp,nbp
-5,HL_1MJI_002,1MJI,0.099,1,D,5S rRNA fragment,C,38,A,39,U,40,C,42,C,43,G,44,cWW,nbp,nbp,nbp,nbp,nbp
-9,HL_4WF9_066,4WF9,0.2316,1,Y,5S rRNA,C,36,A,37,U,38,C,40,C,41,G,42,cWW,nbp,nbp,nbp,nbp,nbp
-10,HL_7A0S_069,7A0S,0.3624,1,Y,5S rRNA,C,40,A,41,U,42,C,44,C,45,G,46,cWW,nbp,nbp,nbp,nbp,nbp

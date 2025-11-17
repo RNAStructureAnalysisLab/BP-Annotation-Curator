@@ -59,10 +59,10 @@ class RC_Converter:
             rc_FR, cc_FR = RC_Converter._get_counts(column_data_without_FR)
             
             for contact_type in [
-                'cWW', 'cWH', 'cWS', 'cSW', 'cSH', 'cSS', 'cHW', 'cHH', 'cHS',
-                'tWW', 'tWH', 'tWS', 'tSW', 'tSH', 'tSS', 'tHW', 'tHH', 'tHS',
-                '!cWW', '!cWH', '!cWS', '!cSW', '!cSH', '!cSS', '!cHW', '!cHH', '!cHS',
-                '!tWW', '!tWH', '!tWS', '!tSW', '!tSH', '!tSS', '!tHW', '!tHH', '!tHS',
+                '!cW.', '!cS.', '!cH.', '!tW.', '!tS.', '!tH.',
+                '!c.W', '!c.S', '!c.H', '!t.W', '!t.S', '!t.H',
+                'cW.', 'cS.', 'cH.', 'tW.', 'tS.', 'tH.',
+                'c.W', 'c.S', 'c.H', 't.W', 't.S', 't.H',
                 #'INCOMPATIBLE'
                 'REJECT'
             ]:
@@ -119,8 +119,12 @@ class RC_Converter:
             for elem in lst:
                 if elem == 'nbp':
                     nbp_local_count += 1
-                else:
+                if elem == "REJECT":
                     contact_type_local_counts[elem] = contact_type_local_counts.get(elem, 0) + 1
+                else:
+                    first, second = RC_Converter._extract_edge(elem) # IE: turns cWW to cW. and c.W
+                    contact_type_local_counts[first] = contact_type_local_counts.get(first, 0) + 1
+                    contact_type_local_counts[second] = contact_type_local_counts.get(second, 0) + 1
                     
             # --- Raw frequency count ---
             nbp_subtypes = []
@@ -132,8 +136,8 @@ class RC_Converter:
                     nbp_subtypes.append(nbp_subtype)
             # For rows with only nbp, add all subtypes since denying all
             if len(nbp_subtypes) == 0 and nbp_local_count > 0:
-                for subtype in ['!cWW', '!cWH', '!cWS', '!cSW', '!cSH', '!cSS', '!cHW', '!cHH', '!cHS',
-                                '!tWW', '!tWH', '!tWS', '!tSW', '!tSH', '!tSS', '!tHW', '!tHH', '!tHS',]:
+                for subtype in ['!cW.', '!cS.', '!cH.', '!tW.', '!tS.', '!tH.',
+                                '!c.W', '!c.S', '!c.H', '!t.W', '!t.S', '!t.H']:
                     nbp_subtypes.append(subtype)
                     rf[subtype] = rf.get(subtype, 0) + nbp_local_count
     
@@ -155,4 +159,8 @@ class RC_Converter:
             for mode in modes:
                 cf[mode] = cf.get(mode, 0) + 1
     
-        return rf, cf          
+        return rf, cf   
+
+    @staticmethod
+    def _extract_edge(elem: str) -> (str, str):
+        return (elem[0] + elem[1] + '.', elem[0] + '.' + elem[2])

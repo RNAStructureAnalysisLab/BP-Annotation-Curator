@@ -1,6 +1,0 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,1-7,2-6,3-4,4-5,2-4,2-7,4-6,6-7,3-5
-1,IL_3V7E_003,3V7E,0.1191,0,Major groove platform with extra pair,C,SAM-I riboswitch,C,44,A,45,A,46,C,47,*,G,88,U,89,G,90,cWW,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp
-2,IL_4AOB_003,4AOB,0.1007,0,Major groove platform with extra pair,A,SAM-I riboswitch,C,44,A,45,A,46,C,47,*,G,56,U,57,G,58,cWW,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp
-3,IL_4OQU_001,4OQU,0.0666,0,Major groove platform with extra pair,A,SAM-I/IV riboswitch,C,24,A,25,A,26,C,27,*,G,46,U,47,G,48,cWW,nbp,cSH,cWW,nbp,nbp,nbp,nbp,nbp
-4,IL_5FJC_003,5FJC,0.0,0,Major groove platform with extra pair,A,SAM-I riboswitch,C,44,A,45,A,46,C,47,*,G,56,U,57,G,58,cWW,nbp,cSH,cWW,nbp,nbp,nbp,nbp,nbp
-5,IL_4KQY_003,4KQY,0.1754,0,Major groove platform with extra pair,A,SAM-I riboswitch,C,45,A,46,A,47,C,48,*,G,77,U,78,G,79,cWW,nbp,cSH,cWW,nbp,nbp,nbp,nbp,nbp
