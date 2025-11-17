@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,1-8,2-7,1-2
-7,HL_7A0S_067,7A0S,0.147,1,X,LSU rRNA,G,2794,A,2796,G,2797,A,2798,C,2799,C,2800,A,2801,C,2802,cWW,cSW,nbp
-8,HL_4WF9_064,4WF9,0.1893,1,X,LSU rRNA,A,2839,A,2841,G,2842,A,2843,U,2844,G,2845,A,2846,U,2847,cWW,cSW,nbp
-9,HL_2DER_005,2DER,0.4066,1,D,tRNA,C,31,C,32,U,33,U,35,C,36,A,37,C,38,G,39,cWW,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,1-8,2-7,6-7,1-2
+7,HL_7A0S_067,7A0S,0.147,1,X,LSU rRNA,G,2794,A,2796,G,2797,A,2798,C,2799,C,2800,A,2801,C,2802,cWW,cSW,nbp,nbp
+8,HL_4WF9_064,4WF9,0.1893,1,X,LSU rRNA,A,2839,A,2841,G,2842,A,2843,U,2844,G,2845,A,2846,U,2847,cWW,cSW,nbp,nbp
+9,HL_2DER_005,2DER,0.4066,1,D,tRNA,C,31,C,32,U,33,U,35,C,36,A,37,C,38,G,39,cWW,nbp,nbp,nbp

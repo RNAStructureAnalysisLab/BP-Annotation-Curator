@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4
-3,IL_6XJQ_007,6XJQ,0.3782,1,,A,Self-alkylating ribozyme (58-MER),C,23,U,25,G,26,*,C,35,G,36,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,1-4,4-5
+3,IL_6XJQ_007,6XJQ,0.3782,1,,A,Self-alkylating ribozyme (58-MER),C,23,U,25,G,26,*,C,35,G,36,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,tWH,nbp,nbp,nbp,nbp","nbp,cWH,nbp,nbp,nbp,nbp"

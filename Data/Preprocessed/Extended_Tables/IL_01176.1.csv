@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,break,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,Unnamed: 28,11,1-11,3-10,4-9,6-7
-1,IL_6FZ0_002,6FZ0,0.0,0,A,SAM-V riboswitch,C,24,G,25,C,26,C,27,U,28,U,29,*,A,39,A,40,A,41,A,42,G,43,"cWW,cWW,cWW,cWW,cWW,cWW","ncsS,nbp,cSS,nbp,nbp,nbp","ncSs,nbp,cSS,REJECT,nbp,cSS","cWW,cWW,cWW,cWW,cWW,cWW"
+1,IL_6FZ0_002,6FZ0,0.0,0,A,SAM-V riboswitch,C,24,G,25,C,26,C,27,U,28,U,29,*,A,39,A,40,A,41,A,42,G,43,"cWW,cWW,cWW,cWW,cWW,cWW","ncsS,nbp,cSS,nbp,nbp,nbp","ncSs,cSS,cSS,REJECT,nbp,cSS","cWW,cWW,cWW,cWW,cWW,cWW"

@@ -1,17 +1,17 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,1-6,2-4,2-5,4-5,4-6,3-4,3-5
-1,IL_4QLM_004,4QLM,0.191,0,Major groove platform; stack outside cWW,A,cyclic di-AMP riboswitch,C,91,G,92,U,93,C,94,*,G,39,G,40,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-2,IL_4QK9_003,4QK9,0.2247,0,Major groove platform; stack outside cWW,A,C-di-AMP riboswitch,C,93,G,94,U,95,C,96,*,G,43,G,44,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-3,IL_4W90_004,4W90,0.1957,0,Major groove platform; stack outside cWW,C,cyclic di-AMP riboswitch,C,96,G,97,U,98,C,99,*,G,58,G,59,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-4,IL_6N5P_003,6N5P,0.1575,0,Major groove platform; stack outside cWW,A,cyclic di-AMP riboswitch,C,94,G,95,A,96,C,97,*,G,44,G,45,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-7,IL_1G1X_004,1G1X,0.1478,0,Major groove platform; stack outside cWW,J+I,16S RIBOSOMAL RNA,U,751,G,752,A,753,C,754,*,G,654,A,655,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-8,IL_1KUQ_001,1KUQ,0.1286,0,Major groove platform; stack outside cWW,B,16S RIBOSOMAL RNA FRAGMENT,U,50,G,51,A,52,C,53,*,G,18,A,19,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-10,IL_4LFB_027,4LFB,0.0,0,Major groove platform; stack outside cWW,A,SSU rRNA,U,751,G,752,A,753,C,754,*,G,654,A,655,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-11,IL_1G1X_001,1G1X,0.1032,0,Major groove platform; stack outside cWW,E+D,16S RIBOSOMAL RNA,U,751,G,752,A,753,C,754,*,G,654,A,655,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-14,IL_4WF9_064,4WF9,0.2054,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1710,G,1711,A,1712,A,1713,*,U,2020,C,2021,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-18,IL_7A0S_061,7A0S,0.2265,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1683,G,1684,A,1685,A,1686,*,U,1976,C,1977,cWW,nbp,tSH,cWW,nbp,nbp,nbp
-20,IL_4WF9_049,4WF9,0.2278,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1347,U,1348,U,1349,U,1350,*,A,1647,C,1648,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-24,IL_7A0S_046,7A0S,0.2812,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1323,G,1324,U,1325,U,1326,*,A,1619,C,1620,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-25,IL_7A0S_023,7A0S,0.3945,0,Major groove platform; stack outside cWW,X,LSU rRNA,U,857,G,858,U,859,U,860,*,A,944,G,945,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-26,IL_1NTA_003,1NTA,0.3856,0,Major groove platform; stack outside cWW,A+B,RNA (22-mer) + RNA (18-mer),C,15,U,16,U,17,C,18,*,G,110,G,111,cWW,nbp,nbp,cWW,nbp,nbp,nbp
-27,IL_3DIL_004,3DIL,0.5154,0,Major groove platform; stack outside cWW,A,RNA (174-MER),C,38,A,39,U,40,C,41,*,G,54,G,55,cWW,cSH,nbp,cWW,nbp,nbp,nbp
-28,IL_3D0U_004,3D0U,0.461,0,Major groove platform; stack outside cWW,A,Lysine Riboswitch RNA,C,35,A,36,U,37,C,38,*,G,51,G,52,cWW,cSH,nbp,cWW,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,1-6,2-3,2-4,2-5,4-5,2-6,4-6,1-4,1-5,3-4,3-5
+1,IL_4QLM_004,4QLM,0.191,0,Major groove platform; stack outside cWW,A,cyclic di-AMP riboswitch,C,91,G,92,U,93,C,94,*,G,39,G,40,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+2,IL_4QK9_003,4QK9,0.2247,0,Major groove platform; stack outside cWW,A,C-di-AMP riboswitch,C,93,G,94,U,95,C,96,*,G,43,G,44,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+3,IL_4W90_004,4W90,0.1957,0,Major groove platform; stack outside cWW,C,cyclic di-AMP riboswitch,C,96,G,97,U,98,C,99,*,G,58,G,59,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+4,IL_6N5P_003,6N5P,0.1575,0,Major groove platform; stack outside cWW,A,cyclic di-AMP riboswitch,C,94,G,95,A,96,C,97,*,G,44,G,45,cWW,nbp,cSH,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+7,IL_1G1X_004,1G1X,0.1478,0,Major groove platform; stack outside cWW,J+I,16S RIBOSOMAL RNA,U,751,G,752,A,753,C,754,*,G,654,A,655,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+8,IL_1KUQ_001,1KUQ,0.1286,0,Major groove platform; stack outside cWW,B,16S RIBOSOMAL RNA FRAGMENT,U,50,G,51,A,52,C,53,*,G,18,A,19,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+10,IL_4LFB_027,4LFB,0.0,0,Major groove platform; stack outside cWW,A,SSU rRNA,U,751,G,752,A,753,C,754,*,G,654,A,655,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+11,IL_1G1X_001,1G1X,0.1032,0,Major groove platform; stack outside cWW,E+D,16S RIBOSOMAL RNA,U,751,G,752,A,753,C,754,*,G,654,A,655,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+14,IL_4WF9_064,4WF9,0.2054,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1710,G,1711,A,1712,A,1713,*,U,2020,C,2021,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+18,IL_7A0S_061,7A0S,0.2265,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1683,G,1684,A,1685,A,1686,*,U,1976,C,1977,cWW,nbp,nbp,tSH,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+20,IL_4WF9_049,4WF9,0.2278,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1347,U,1348,U,1349,U,1350,*,A,1647,C,1648,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+24,IL_7A0S_046,7A0S,0.2812,0,Major groove platform; stack outside cWW,X,LSU rRNA,G,1323,G,1324,U,1325,U,1326,*,A,1619,C,1620,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+25,IL_7A0S_023,7A0S,0.3945,0,Major groove platform; stack outside cWW,X,LSU rRNA,U,857,G,858,U,859,U,860,*,A,944,G,945,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+26,IL_1NTA_003,1NTA,0.3856,0,Major groove platform; stack outside cWW,A+B,RNA (22-mer) + RNA (18-mer),C,15,U,16,U,17,C,18,*,G,110,G,111,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+27,IL_3DIL_004,3DIL,0.5154,0,Major groove platform; stack outside cWW,A,RNA (174-MER),C,38,A,39,U,40,C,41,*,G,54,G,55,cWW,nbp,cSH,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+28,IL_3D0U_004,3D0U,0.461,0,Major groove platform; stack outside cWW,A,Lysine Riboswitch RNA,C,35,A,36,U,37,C,38,*,G,51,G,52,cWW,nbp,cSH,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp

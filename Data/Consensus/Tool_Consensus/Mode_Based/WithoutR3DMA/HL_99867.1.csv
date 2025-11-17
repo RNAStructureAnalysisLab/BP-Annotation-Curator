@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-9,1-9,3-5,3-6,2-3,1-2
-1,HL_3B31_001,3B31,0.5444,0,A,RNA (29-MER),A,6184,U,6185,U,6186,A,6187,G,6188,G,6189,U,6190,A,6191,G,6192,U,6193,cWW,nbp,nbp,nbp,nbp,nbp,nbp
-3,HL_3PDR_003,3PDR,0.4708,0,X,M-box riboswitch (ykoK leader),G,127,A,128,U,129,G,130,C,131,U,132,U,133,G,134,U,135,C,136,cWW,nbp,nbp,nbp,nbp,nbp,nbp
-4,HL_387D_001,387D,0.0,0,A,RNA Pseudoknot,G,4,A,5,A,6,G,7,U,8,G,9,C,10,A,11,A,12,C,13,cWW,tWW,nbp,nbp,nbp,nbp,nbp
-5,HL_6XKO_003,6XKO,0.5501,0,A,PreQ1-III riboswitch,G,63,C,64,U,65,G,66,G,67,C,68,G,69,G,70,U,71,C,72,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,1-10,2-9,1-9,3-5,3-6,7-8,2-3,6-7,5-6,1-2,9-10
+1,HL_3B31_001,3B31,0.5444,0,A,RNA (29-MER),A,6184,U,6185,U,6186,A,6187,G,6188,G,6189,U,6190,A,6191,G,6192,U,6193,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+3,HL_3PDR_003,3PDR,0.4708,0,X,M-box riboswitch (ykoK leader),G,127,A,128,U,129,G,130,C,131,U,132,U,133,G,134,U,135,C,136,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+4,HL_387D_001,387D,0.0,0,A,RNA Pseudoknot,G,4,A,5,A,6,G,7,U,8,G,9,C,10,A,11,A,12,C,13,cWW,tWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+5,HL_6XKO_003,6XKO,0.5501,0,A,PreQ1-III riboswitch,G,63,C,64,U,65,G,66,G,67,C,68,G,69,G,70,U,71,C,72,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

@@ -1,4 +1,4 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,break,Unnamed: 24,9,Unnamed: 26,10,1-10,8-9
-1,IL_4P97_001,4P97,0.7801,0,A+B,RNA (16-mer) + RNA (11-mer),C,5,U,6,A,7,C,8,C,9,C,10,A,11,C,12,*,G,40,G,41,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
-2,IL_4PHY_001,4PHY,0.0,0,A+B,RNA (26-MER) + RNA (20-mer),C,5,U,6,C,7,C,8,C,9,C,10,A,11,C,12,*,G,40,G,41,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
-3,IL_5CNR_001,5CNR,0.1764,0,A+B,RNA (16-mer) + RNA (11-mer),C,5,U,6,A,7,C,8,C,9,C,10,A,11,C,12,*,G,40,G,41,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,break,Unnamed: 24,9,Unnamed: 26,10,1-10,8-9,2-3,6-7
+1,IL_4P97_001,4P97,0.7801,0,A+B,RNA (16-mer) + RNA (11-mer),C,5,U,6,A,7,C,8,C,9,C,10,A,11,C,12,*,G,40,G,41,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,cWH,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+2,IL_4PHY_001,4PHY,0.0,0,A+B,RNA (26-MER) + RNA (20-mer),C,5,U,6,C,7,C,8,C,9,C,10,A,11,C,12,*,G,40,G,41,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,cSH,nbp,nbp,nbp,nbp","nbp,cWH,nbp,nbp,nbp,nbp"
+3,IL_5CNR_001,5CNR,0.1764,0,A+B,RNA (16-mer) + RNA (11-mer),C,5,U,6,A,7,C,8,C,9,C,10,A,11,C,12,*,G,40,G,41,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"

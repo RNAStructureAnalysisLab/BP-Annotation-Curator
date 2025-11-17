@@ -1,5 +1,5 @@
-#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,break,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,Unnamed: 34,14,Unnamed: 36,15,Unnamed: 38,16,1-6,1-16,2-7,2-15,3-13,8-13,9-12,10-11,13-14,4-7,4-8
-1,IL_8HZE_002,8HZE,0.089,2,B,RNA (36-MER),G,5,A,6,U,8,G,9,A,11,A,12,A,13,C,14,A,15,U,16,*,A,27,G,28,A,29,C,30,A,31,C,32,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp
-2,IL_8HZL_006,8HZL,0.0796,2,B,RNA (84-MER),G,35,A,36,U,38,G,39,A,41,A,42,A,43,C,44,A,45,U,46,*,A,57,G,58,A,59,C,60,A,61,C,62,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp
-3,IL_8HZL_004,8HZL,0.0,2,B,RNA (84-MER),G,5,A,6,U,8,G,9,A,11,A,12,A,13,C,14,A,15,G,16,*,C,75,G,76,A,77,C,78,A,79,C,80,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp
-4,IL_8HZL_005,8HZL,0.0924,2,B,RNA (84-MER),G,20,A,21,U,23,G,24,A,26,A,27,A,28,C,29,A,30,G,31,*,C,66,G,67,A,68,C,69,A,70,C,71,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,Unnamed: 17,6,Unnamed: 19,7,Unnamed: 21,8,Unnamed: 23,9,Unnamed: 25,10,break,Unnamed: 28,11,Unnamed: 30,12,Unnamed: 32,13,Unnamed: 34,14,Unnamed: 36,15,Unnamed: 38,16,1-6,1-16,2-7,2-15,3-13,8-13,9-12,10-11,13-14,1-7,1-15,4-7,4-8,7-15,7-16,13-15,2-13
+1,IL_8HZE_002,8HZE,0.089,2,B,RNA (36-MER),G,5,A,6,U,8,G,9,A,11,A,12,A,13,C,14,A,15,U,16,*,A,27,G,28,A,29,C,30,A,31,C,32,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+2,IL_8HZL_006,8HZL,0.0796,2,B,RNA (84-MER),G,35,A,36,U,38,G,39,A,41,A,42,A,43,C,44,A,45,U,46,*,A,57,G,58,A,59,C,60,A,61,C,62,tSW,cWW,tHW,tWW,tWH,cWW,tHS,cWW,cSH,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+3,IL_8HZL_004,8HZL,0.0,2,B,RNA (84-MER),G,5,A,6,U,8,G,9,A,11,A,12,A,13,C,14,A,15,G,16,*,C,75,G,76,A,77,C,78,A,79,C,80,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+4,IL_8HZL_005,8HZL,0.0924,2,B,RNA (84-MER),G,20,A,21,U,23,G,24,A,26,A,27,A,28,C,29,A,30,G,31,*,C,66,G,67,A,68,C,69,A,70,C,71,tSW,cWW,tHW,tWW,tWH,nbp,tHS,cWW,cSH,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

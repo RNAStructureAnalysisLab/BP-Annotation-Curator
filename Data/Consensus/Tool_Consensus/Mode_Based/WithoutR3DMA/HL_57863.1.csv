@@ -1,2 +1,2 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,3-6,4-7,2-4,2-8
-2,HL_5BJO_002,5BJO,0.6474,0,G-quadruplex fragment,E,RNA (36-MER),G,20,A,21,G,22,G,23,A,24,G,25,G,26,U,27,C,28,cWW,cWH,cWH,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,1-9,3-6,4-7,2-8,2-9,2-4,4-6,4-8
+2,HL_5BJO_002,5BJO,0.6474,0,G-quadruplex fragment,E,RNA (36-MER),G,20,A,21,G,22,G,23,A,24,G,25,G,26,U,27,C,28,cWW,cWH,cWH,cWW,nbp,nbp,nbp,nbp

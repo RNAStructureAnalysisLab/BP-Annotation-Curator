@@ -1,28 +1,28 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,2-3,1-3,3-5,1-2
-1,IL_5DE8_001,5DE8,1.5093,0,Single bulged G,A,sc1,C,5,G,6,G,7,*,C,30,G,31,cWW,cWW,nbp,nbp,nbp,nbp
-2,IL_5DEA_002,5DEA,1.4933,0,Single bulged G,C,sc1,C,5,G,6,G,7,*,C,30,G,31,cWW,cWW,nbp,nbp,nbp,nbp
-5,IL_1U9S_006,1U9S,1.3206,0,Major groove intercalation,A,RIBONUCLEASE P,U,158,G,159,C,160,*,G,140,G,141,cWW,cWW,nbp,nbp,nbp,nbp
-6,IL_7A0S_099,7A0S,1.392,0,Major groove intercalation,X,LSU rRNA,U,2853,G,2854,C,2855,*,G,2813,G,2814,cWW,cWW,nbp,nbp,nbp,nbp
-7,IL_6JQ5_001,6JQ5,1.4989,0,Stack outside cWW,A,RNA (82-MER),U,62,G,63,C,64,*,G,31,G,32,cWW,cWW,nbp,nbp,nbp,nbp
-9,IL_3DIL_005,3DIL,1.1281,0,Single bulged G,A,RNA (174-MER),U,109,G,110,C,111,*,G,84,G,85,cWW,cWW,nbp,nbp,nbp,nbp
-10,IL_3D0U_005,3D0U,1.158,0,Single bulged G,A,Lysine Riboswitch RNA,U,106,G,107,G,108,*,C,81,G,82,cWW,cWW,nbp,nbp,nbp,nbp
-15,IL_4LFB_016,4LFB,0.5577,0,Single bulged G,A,SSU rRNA,U,387,G,388,A,389,*,U,375,G,376,cWW,cWW,nbp,nbp,nbp,nbp
-18,IL_8VFS_001,8VFS,0.5258,0,Single bulged G,A+B,RNA (27-MER),U,5,G,6,C,7,*,G,22,G,23,cWW,cWW,nbp,nbp,nbp,nbp
-19,IL_3IGI_004,3IGI,0.4643,0,Single bulged G,A,Group IIC intron,U,82,G,83,U,84,*,A,99,A,100,cWW,cWW,nbp,nbp,nbp,nbp
-25,IL_4LFB_036,4LFB,0.4009,0,Single bulged G,A,SSU rRNA,G,925,G,926,G,927,*,U,1390,U,1391,cWW,cWW,nbp,nbp,nbp,nbp
-26,IL_4WF9_125,4WF9,0.2628,0,Single bulged G,X,LSU rRNA,C,2229,G,2230,C,2231,*,G,2247,G,2248,cWW,nbp,nbp,nbp,nbp,nbp
-27,IL_7D7W_002,7D7W,0.1016,0,Single bulged G,A,18GAAA (52-MER),C,37,G,38,C,39,*,G,22,G,23,cWW,cWW,nbp,nbp,nbp,nbp
-28,IL_6TFF_002,6TFF,0.0,0,Single bulged G,A,nadA RNA,C,37,G,38,A,39,*,U,22,G,23,cWW,cWW,nbp,nbp,nbp,nbp
-29,IL_7D7V_002,7D7V,0.1922,0,Single bulged G,A,nadA RNA,U,44,G,45,A,46,*,U,21,G,22,cWW,cWW,nbp,nbp,nbp,nbp
-32,IL_8TSV_002,8TSV,0.3893,0,Single bulged G,C+D,Zika virus stem-loop A (SLA) top stem,U,6,G,7,C,8,*,G,19,A,20,cWW,cWW,nbp,nbp,nbp,nbp
-33,IL_3NDB_004,3NDB,0.3652,0,Single bulged G,M,SRP RNA,C,239,G,240,C,241,*,G,137,G,138,cWW,cWW,nbp,nbp,nbp,nbp
-35,IL_8ZA0_002,8ZA0,0.4255,0,,D+C,RNA (15-mer),C,5,G,6,C,7,*,G,10,G,11,cWW,cWW,nbp,nbp,nbp,nbp
-36,IL_8TSV_003,8TSV,0.6605,0,Single bulged G,B+A,Zika virus stem-loop A (SLA) top stem,U,6,G,7,C,8,*,G,19,A,20,cWW,cWW,nbp,nbp,nbp,nbp
-39,IL_7A0S_017,7A0S,0.5808,0,Single bulged G,X,LSU rRNA,G,741,G,742,A,743,*,U,715,U,716,cWW,cWW,nbp,nbp,nbp,nbp
-43,IL_4WF9_023,4WF9,0.5493,0,Single bulged G,X,LSU rRNA,G,773,G,774,A,775,*,U,747,U,748,cWW,cWW,nbp,nbp,nbp,nbp
-44,IL_4LVW_002,4LVW,0.6215,0,Single bulged G,A,THF riboswitch,G,67,G,68,U,69,*,G,17,C,18,cWW,cWW,nbp,nbp,nbp,nbp
-45,IL_3SUX_001,3SUX,0.6597,0,Single bulged G,X,THF riboswitch,G,76,G,77,U,78,*,G,20,C,21,cWW,cWW,nbp,nbp,nbp,nbp
-46,IL_5U30_002,5U30,0.9606,0,Single bulged G,B,sgRNA,A,7,G,8,G,9,*,C,3,U,4,cWW,cWW,nbp,nbp,nbp,nbp
-48,IL_4LFB_001,4LFB,0.8869,0,Single bulged G,A,SSU rRNA,U,30,G,31,A,32,*,U,552,A,553,cWW,cWW,nbp,nbp,nbp,nbp
-50,IL_8I3Z_004,8I3Z,0.8792,0,Single bulged G,A+B,RNA (24-mer) + RNA (31-MER),C,10,G,11,U,12,*,A,53,G,54,cWW,cWW,nbp,nbp,nbp,nbp
-51,IL_4C7O_004,4C7O,0.6152,0,Single bulged G,E,SRP RNA,U,27,G,28,U,29,*,A,15,A,16,cWW,cWW,nbp,nbp,nbp,nbp
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4,1-3,2-3,2-4,4-5,3-5,1-2
+1,IL_5DE8_001,5DE8,1.5093,0,Single bulged G,A,sc1,C,5,G,6,G,7,*,C,30,G,31,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+2,IL_5DEA_002,5DEA,1.4933,0,Single bulged G,C,sc1,C,5,G,6,G,7,*,C,30,G,31,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+5,IL_1U9S_006,1U9S,1.3206,0,Major groove intercalation,A,RIBONUCLEASE P,U,158,G,159,C,160,*,G,140,G,141,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+6,IL_7A0S_099,7A0S,1.392,0,Major groove intercalation,X,LSU rRNA,U,2853,G,2854,C,2855,*,G,2813,G,2814,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+7,IL_6JQ5_001,6JQ5,1.4989,0,Stack outside cWW,A,RNA (82-MER),U,62,G,63,C,64,*,G,31,G,32,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+9,IL_3DIL_005,3DIL,1.1281,0,Single bulged G,A,RNA (174-MER),U,109,G,110,C,111,*,G,84,G,85,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+10,IL_3D0U_005,3D0U,1.158,0,Single bulged G,A,Lysine Riboswitch RNA,U,106,G,107,G,108,*,C,81,G,82,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+15,IL_4LFB_016,4LFB,0.5577,0,Single bulged G,A,SSU rRNA,U,387,G,388,A,389,*,U,375,G,376,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+18,IL_8VFS_001,8VFS,0.5258,0,Single bulged G,A+B,RNA (27-MER),U,5,G,6,C,7,*,G,22,G,23,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+19,IL_3IGI_004,3IGI,0.4643,0,Single bulged G,A,Group IIC intron,U,82,G,83,U,84,*,A,99,A,100,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+25,IL_4LFB_036,4LFB,0.4009,0,Single bulged G,A,SSU rRNA,G,925,G,926,G,927,*,U,1390,U,1391,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+26,IL_4WF9_125,4WF9,0.2628,0,Single bulged G,X,LSU rRNA,C,2229,G,2230,C,2231,*,G,2247,G,2248,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+27,IL_7D7W_002,7D7W,0.1016,0,Single bulged G,A,18GAAA (52-MER),C,37,G,38,C,39,*,G,22,G,23,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+28,IL_6TFF_002,6TFF,0.0,0,Single bulged G,A,nadA RNA,C,37,G,38,A,39,*,U,22,G,23,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+29,IL_7D7V_002,7D7V,0.1922,0,Single bulged G,A,nadA RNA,U,44,G,45,A,46,*,U,21,G,22,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+32,IL_8TSV_002,8TSV,0.3893,0,Single bulged G,C+D,Zika virus stem-loop A (SLA) top stem,U,6,G,7,C,8,*,G,19,A,20,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+33,IL_3NDB_004,3NDB,0.3652,0,Single bulged G,M,SRP RNA,C,239,G,240,C,241,*,G,137,G,138,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+35,IL_8ZA0_002,8ZA0,0.4255,0,,D+C,RNA (15-mer),C,5,G,6,C,7,*,G,10,G,11,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+36,IL_8TSV_003,8TSV,0.6605,0,Single bulged G,B+A,Zika virus stem-loop A (SLA) top stem,U,6,G,7,C,8,*,G,19,A,20,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+39,IL_7A0S_017,7A0S,0.5808,0,Single bulged G,X,LSU rRNA,G,741,G,742,A,743,*,U,715,U,716,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+43,IL_4WF9_023,4WF9,0.5493,0,Single bulged G,X,LSU rRNA,G,773,G,774,A,775,*,U,747,U,748,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+44,IL_4LVW_002,4LVW,0.6215,0,Single bulged G,A,THF riboswitch,G,67,G,68,U,69,*,G,17,C,18,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+45,IL_3SUX_001,3SUX,0.6597,0,Single bulged G,X,THF riboswitch,G,76,G,77,U,78,*,G,20,C,21,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+46,IL_5U30_002,5U30,0.9606,0,Single bulged G,B,sgRNA,A,7,G,8,G,9,*,C,3,U,4,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+48,IL_4LFB_001,4LFB,0.8869,0,Single bulged G,A,SSU rRNA,U,30,G,31,A,32,*,U,552,A,553,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+50,IL_8I3Z_004,8I3Z,0.8792,0,Single bulged G,A+B,RNA (24-mer) + RNA (31-MER),C,10,G,11,U,12,*,A,53,G,54,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp
+51,IL_4C7O_004,4C7O,0.6152,0,Single bulged G,E,SRP RNA,U,27,G,28,U,29,*,A,15,A,16,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp

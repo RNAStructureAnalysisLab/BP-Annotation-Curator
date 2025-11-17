@@ -1,7 +1,7 @@
-#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,2-3,2-4
-2,HL_4C9D_002,4C9D,0.7815,0,,D,R3 REPEAT RNA CLEAVAGE PRODUCT,C,21,G,22,U,23,A,24,G,25,"ncWW,nbp,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,tSH,tSH,nbp,nbp,cSH"
-3,HL_1OOA_001,1OOA,0.66,1,,C,RNA aptamer,U,13,G,14,U,15,A,17,G,18,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","ntSH,tSH,nbp,tSH,tSH,tSH"
-4,HL_3IGI_004,3IGI,0.2892,2,,A,Group IIC intron,G,135,G,136,C,139,A,140,C,141,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","ntSH,tSH,tSH,tSH,tSH,tSH"
-6,HL_3OXE_002,3OXE,0.1453,1,GNRA related,A,domain II of glycine riboswitch,G,49,G,50,A,52,A,53,C,54,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,REJECT,nbp,nbp","ntSH,tSH,tSH,REJECT,nbp,tSH"
-8,HL_3FOZ_005,3FOZ,0.4631,4,,D,tRNA(Phe),A,31,U,32,A,36,A,38,U,39,"cWW,cWW,cWW,cWW,cWW,cWW","ntsS,nbp,tSS,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
-9,HL_3EPH_002,3EPH,0.5004,4,,E,tRNA,A,31,U,32,A,36,A,38,U,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,REJECT,nbp,nbp","nbp,nbp,nbp,cWW,nbp,cWW"
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,1-5,2-3,2-4,1-4,2-5,3-4
+2,HL_4C9D_002,4C9D,0.7815,0,,D,R3 REPEAT RNA CLEAVAGE PRODUCT,C,21,G,22,U,23,A,24,G,25,"ncWW,cWW,cWW,cWW,cWW,cWW","nbp,cSH,nbp,nbp,nbp,nbp","nbp,tSH,tSH,nbp,nbp,cSH","nbp,cWW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+3,HL_1OOA_001,1OOA,0.66,1,,C,RNA aptamer,U,13,G,14,U,15,A,17,G,18,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,cSH,nbp,nbp,nbp,nbp","ntSH,tSH,nbp,tSH,tSH,tSH","nbp,cWW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+4,HL_3IGI_004,3IGI,0.2892,2,,A,Group IIC intron,G,135,G,136,C,139,A,140,C,141,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,nbp,nbp,nbp","ntSH,tSH,tSH,tSH,tSH,tSH","nbp,cWW,nbp,nbp,nbp,nbp","nbp,cSW,nbp,nbp,nbp,nbp","nbp,cWH,nbp,nbp,nbp,nbp"
+6,HL_3OXE_002,3OXE,0.1453,1,GNRA related,A,domain II of glycine riboswitch,G,49,G,50,A,52,A,53,C,54,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,nbp,nbp,REJECT,nbp,nbp","ntSH,tSH,tSH,REJECT,nbp,tSH","nbp,tWH,nbp,nbp,nbp,nbp","nbp,cSW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+8,HL_3FOZ_005,3FOZ,0.4631,4,,D,tRNA(Phe),A,31,U,32,A,36,A,38,U,39,"cWW,cWW,cWW,cWW,cWW,cWW","ntsS,tWW,tSS,nbp,nbp,nbp","nbp,cWW,nbp,nbp,nbp,nbp","nbp,cWW,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
+9,HL_3EPH_002,3EPH,0.5004,4,,E,tRNA,A,31,U,32,A,36,A,38,U,39,"cWW,cWW,cWW,cWW,cWW,cWW","nbp,tWW,nbp,REJECT,nbp,nbp","nbp,cWW,nbp,cWW,nbp,cWW","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp","nbp,nbp,nbp,nbp,nbp,nbp"
