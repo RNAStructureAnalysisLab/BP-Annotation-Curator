@@ -133,7 +133,7 @@ class Tool_Consensus_2:
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
         if len(top_contact_types) > 1:
-            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances)
+            mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances, competing_contact_types)
 
         return mode
     
@@ -152,7 +152,73 @@ class Tool_Consensus_2:
             os.path.join(Tool_Consensus_2.mode_consensus_directory, 'WithoutFR', table_name), index=False
         )
         '''
+     
+    @staticmethod 
+    def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances, competing_types):
+        mode = None
+        max_count = None
+        for checking_consensus_count in [True, False]:
+            for contact_type in top_contact_types:
+                if 'INCOMPATIBLE' in contact_type or 'REJECT' in contact_type:
+                    continue
+                rc_raw = Tool_Consensus_2._get_rc(rc_dictionary, table_name, column_name, contact_type, competing_types)
+                rc_counts = re.match(r"r(\d+)c(\d+)", rc_raw)
+                
+                if checking_consensus_count:
+                    consensus_count = int(rc_counts.group(2))
+                    if max_count is None or consensus_count > max_count:
+                        max_count = consensus_count
+                        mode = contact_type
+                    elif consensus_count == max_count:
+                        mode = None
+                        max_count = None
+                        break
+                else: # checking report count
+                    report_count = int(rc_counts.group(1))
+                    if max_count is None or report_count > max_count:
+                        max_count = report_count
+                        mode = contact_type
+                    elif report_count == max_count:
+                        mode = None
+                        break
+                
+            if mode is not None:
+                if checking_consensus_count:
+                    case = "consensus count"
+                else:
+                    case = "report count"
+                tie_instances.append({
+                    'cluster': table_name, 'PDB': pdb, 'column': column_name, 
+                    'tied_contact_types': top_contact_types, 'consensus': mode,
+                    'resolved_with': case, 'rows_in_cluster': rows_in_df
+                })
+                return mode
+            
+        # all cases failed, let's check whether the tie is only between nbp and something else
+        non_nbp_count = 0
+        non_nbp_contact_type = None
+        for tied_contact_type in top_contact_types:
+            if tied_contact_type != "nbp":
+                non_nbp_count += 1
+                non_nbp_contact_type = tied_contact_type
+        if non_nbp_count < 2:
+            tie_instances.append({
+                'cluster': table_name, 'PDB': pdb, 'column': column_name,
+                'tied_contact_types': top_contact_types, 'consensus': non_nbp_contact_type,
+                'resolved_with': "prioritized non-nbp", 'rows_in_cluster': rows_in_df
+            })
+            return non_nbp_contact_type
+                
+                
+        unresolved_tie_instances.append({
+            'cluster': table_name, 'PDB': pdb, 'column': column_name,
+            'tied_contact_types': top_contact_types, 'consensus': mode,
+            'rows_in_cluster': rows_in_df
+        })
         
+        return "unresolved tie"
+     
+    '''
     @staticmethod
     def _resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances):
         for combine_contact_types in [False, True]:
@@ -259,6 +325,24 @@ class Tool_Consensus_2:
                 return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True)
             return (f"r{counts_by_second_edge[0]}c{counts_by_second_edge[1]}", True) # if equal
         
+    '''
+    
+    @staticmethod
+    def _get_rc(rc_dictionary, table_name, column_name, contact_type, competing_types):
+        if "nbp" not in contact_type:
+            if '.' not in contact_type:
+                first = contact_type[0] + contact_type[1] + '.'
+                second = contact_type[0] + '.' + contact_type[2]
+                first_rc = rc_dictionary[table_name][column_name][first]
+                second_rc = rc_dictionary[table_name][column_name][second]
+                first = re.match(r'r(\d+)c(\d+)', first_rc)
+                second = re.match(r'r(\d+)c(\d+)', second_rc)
+                return f'r{int(first.group(1)) + int(second.group(1))}c{int(first.group(2)) + int(second.group(2))}'
+            else:
+                return rc_dictionary[table_name][column_name][contact_type]
+        if "nbp" in contact_type:
+            return Tool_Consensus_2._get_most_frequent_nbp_subtype(rc_dictionary, table_name, column_name, competing_types)
+        
     @staticmethod
     def _standardize(contact_type):
         if contact_type.startswith('nc') or contact_type.startswith('nt'):
@@ -268,6 +352,35 @@ class Tool_Consensus_2:
         else:
             return contact_type
         
+    @staticmethod
+    def _get_most_frequent_nbp_subtype(rc_dictionary, table_name, column_name, competing_types):
+        # Note we already know there is an nbp in here
+        max_rc = (0, 0)
+        for contact_type in competing_types:
+            if contact_type == "nbp" or contact_type == "REJECT":
+                continue
+            
+            if '.' not in contact_type:
+                first = '!' + contact_type[0] + contact_type[1] + '.'
+                second = '!' + contact_type[0] + '.' + contact_type[2]
+                raw_rc_first = rc_dictionary[table_name][column_name][first]
+                raw_rc_second = rc_dictionary[table_name][column_name][second]
+                first = re.match(r'r(\d+)c(\d+)', raw_rc_first)
+                second = re.match(r'r(\d+)c(\d+)', raw_rc_second)
+                nbp_rc = (int(first.group(1)) + int(second.group(1)), int(first.group(2)) + int(second.group(2)))
+            else:
+                contact_type = '!' + contact_type
+                raw_rc = rc_dictionary[table_name][column_name][contact_type]
+                count = re.match(r'r(\d+)c(\d+)', raw_rc)
+                nbp_rc = (int(count.group(1)), int(count.group(2)))
+                
+            if nbp_rc[1] > max_rc[1] or (nbp_rc[1] == max_rc[1] and nbp_rc[0] > max_rc[0]):
+                max_rc = tuple(nbp_rc)
+                
+        return f"r{max_rc[0]}c{max_rc[1]}"
+            
+       
+    '''
     @staticmethod
     def _get_most_frequent_nbp_subtype(rc_dictionary, table_name, column_name):
         max_report_count = 0
@@ -281,3 +394,4 @@ class Tool_Consensus_2:
             if int(rc_counts.group(2)) > max_motif_wide_consensus_count:
                 max_motif_wide_consensus_count = int(rc_counts.group(2))
         return f"r{max_report_count}c{max_motif_wide_consensus_count}"
+    '''

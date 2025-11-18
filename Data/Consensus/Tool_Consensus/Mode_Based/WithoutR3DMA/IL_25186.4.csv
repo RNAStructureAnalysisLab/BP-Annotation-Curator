@@ -1,0 +1,7 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,break,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,Unnamed: 24,9,Unnamed: 26,10,1-10,3-8,4-7,4-8,5-6,1-2,1-9,5-7,2-3,2-9,2-8,6-7
+1,IL_7Q80_004,7Q80,0.2012,1,E+F,RNA 2 + RNA 3,G,14,A,15,C,16,C,17,C,18,*,G,30,A,31,C,32,A,33,C,35,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+2,IL_8ZAU_002,8ZAU,0.1808,1,A,RNA (69-MER),G,12,A,13,C,14,C,15,C,16,*,G,33,A,34,C,35,A,36,C,38,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+3,IL_7Q80_002,7Q80,0.0,1,B+C,RNA 2 + RNA 3,G,14,A,15,C,16,C,17,C,18,*,G,30,A,31,C,32,A,33,C,35,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+4,IL_3BNN_007,3BNN,0.1768,1,D+C,A site of human ribosome,C,5,A,6,C,7,C,8,C,9,*,G,12,A,13,C,14,A,15,G,17,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+5,IL_3BNN_006,3BNN,0.1805,1,C+D,A site of human ribosome,C,5,A,6,C,7,C,8,C,9,*,G,12,A,13,C,14,A,15,G,17,cWW,nbp,cWW,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+6,IL_4WF9_116,4WF9,0.3714,1,X,LSU rRNA,C,1511,U,1512,A,1513,A,1514,G,1515,*,U,1565,G,1566,A,1567,U,1568,G,1570,cWW,nbp,cWW,cWS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp

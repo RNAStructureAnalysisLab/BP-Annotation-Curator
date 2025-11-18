@@ -7,8 +7,10 @@ IL_76319.4.csv,4LFB,3-6,"['cWS', 'cWW']",,1
 IL_84409.1.csv,1NBS,1-19,"['tWW', 'tSS', 'REJECT', 'nbp', 'tSW']",,1
 IL_89021.2.csv,7A0S,2-9,"['tSH', 'tWH']",,4
 IL_89021.2.csv,4WF9,2-9,"['tSH', 'tWH']",,4
+IL_89099.1.csv,1D4R,2-11,"['cWW', 'nbp', 'REJECT', 'tWW', 't.W']",,1
 IL_91636.1.csv,3KTW,2-10,"['tSH', 'tWH']",,1
-J3_53439.1.csv,3SUX,4-11,"['cWW', 'nbp', 'REJECT', 'tWW', 'tHW']",,2
+J3_98484.1.csv,4R4V,3-14,"['cWW', 'nbp', 'REJECT', 'cSW', 'c.W']",,1
+J4_04930.6.csv,4WF9,3-6,"['tHW', 'tWW']",,2
 J4_44058.1.csv,6VMY,3-9,"['cSS', 'cWS']",,1
 J4_63076.1.csv,3HHN,4-7,"['tWW', 'tSS', 'REJECT', 'nbp', 'tWS']",,2
 J4_63076.1.csv,3IVK,4-7,"['tWW', 'tSS', 'REJECT', 'tWS', 'nbp']",,2

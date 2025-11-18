@@ -1,0 +1,8 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,1-9,2-8,3-7,4-7,5-6,1-2,4-6,7-2,6-7,7-8,7-3,2-9,8-2
+1,IL_3FTM_002,3FTM,0.2684,0,UAA/GAN variation,D+C,RNA (12-mer),C,-1,G,1,G,2,A,3,A,4,*,U,46,G,47,A,48,G,49,cWW,tSH,tHS,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+2,IL_3FS0_001,3FS0,0.2099,0,UAA/GAN related,B+A,RNA (11-mer),C,-1,G,1,G,2,A,3,A,4,*,U,46,G,47,A,48,G,49,cWW,tSH,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+4,IL_4WF9_075,4WF9,0.247,0,UAA/GAN,X,LSU rRNA,C,1901,G,1902,A,1903,A,1904,G,1905,*,U,1891,U,1892,A,1893,G,1894,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+6,IL_4LFB_062,4LFB,0.0,0,UAA/GAN variation,A,SSU rRNA,C,1431,G,1432,A,1433,A,1434,G,1435,*,C,1466,G,1467,A,1468,G,1469,cWW,tSH,nbp,tHS,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+7,IL_2R8S_002,2R8S,0.1984,0,UAA/GAN variation,R,P4-P6 RNA RIBOZYME DOMAIN,G,112,A,113,A,114,A,115,G,116,*,U,205,A,206,A,207,C,208,cWW,tSH,tHS,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+8,IL_1GID_010,1GID,0.1947,0,,B,P4-P6 RNA RIBOZYME DOMAIN,G,112,A,113,A,114,A,115,G,116,*,U,205,A,206,A,207,C,208,cWW,tSH,tHS,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+9,IL_3IGI_009,3IGI,0.316,0,UAA/GAN related,A,Group IIC intron,C,190,A,191,A,192,A,193,G,194,*,U,172,G,173,A,174,G,175,cWW,tSH,tHS,nbp,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

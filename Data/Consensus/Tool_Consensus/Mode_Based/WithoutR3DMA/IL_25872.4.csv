@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-7,3-6,4-5,1-2,3-5,2-8,3-7,3-4,6-7,4-6
+1,IL_6DTD_001,6DTD,0.3878,0,Tandem non-canonical cWW pairs,C,RNA (37-MER),A,31,A,32,A,33,C,34,*,G,5,C,6,A,7,U,8,cWW,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+3,IL_1CSL_001,1CSL,0.0,1,,A+B,RNA (13-mer) + RNA (15-mer),G,46,G,47,G,48,C,49,*,G,70,G,71,A,73,C,74,cWW,cWW,cWH,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+4,IL_1DUQ_001,1DUQ,0.0578,1,,A+B,THE REV BINDING ELEMENT,G,104,G,105,G,106,C,107,*,G,123,G,124,A,126,C,127,cWW,cWW,cWH,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+5,IL_7WIE_001,7WIE,0.2401,0,,V,RNA (50-MER),G,49,A,50,G,51,A,52,*,U,10,G,11,G,12,U,13,cWW,cWW,cWH,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp

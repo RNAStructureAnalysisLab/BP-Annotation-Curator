@@ -1,0 +1,4 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,break,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,Unnamed: 25,9,1-9,2-8,3-7,4-7,5-6,2-3,8-2,8-1,2-9,5-7
+1,IL_7A0S_051,7A0S,0.4951,1,UAA/GAN variation,X,LSU rRNA,C,1593,U,1594,A,1595,A,1596,A,1597,*,U,1431,G,1432,A,1433,G,1435,cWW,nbp,nbp,nbp,cWW,nbp,nbp,nbp,cWW,nbp
+8,IL_4WF9_036,4WF9,0.056,1,UAA/GAN,X,LSU rRNA,C,1042,U,1043,A,1044,A,1045,G,1046,*,C,1197,G,1198,A,1199,G,1201,cWW,tWH,nbp,tHS,cWW,nbp,nbp,nbp,nbp,nbp
+10,IL_7A0S_033,7A0S,0.0817,1,UAA/GAN,X,LSU rRNA,C,1009,U,1010,A,1011,A,1012,G,1013,*,C,1164,G,1165,A,1166,G,1168,cWW,tWH,nbp,tHS,cWW,nbp,nbp,nbp,nbp,nbp

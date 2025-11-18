@@ -1,0 +1,5 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,Unnamed: 16,5,Unnamed: 18,6,1-6,2-5,3-5
+1,HL_5WWT_001,5WWT,0.4967,3,tRNA D-loop,C,tRNA,C,13,A,14,G,15,G,16,A,21,G,22,cWW,nbp,nbp
+2,HL_3EPH_001,3EPH,0.2186,3,tRNA D-loop,E,tRNA,C,13,A,14,G,15,U,16,A,21,G,22,cWW,cWS,nbp
+3,HL_3TUP_001,3TUP,0.0,4,tRNA D-loop,T,tRNA,C,13,A,14,G,15,U,16,A,21,G,22,cWW,cWS,nbp
+4,HL_3FOZ_004,3FOZ,0.1305,4,tRNA D-loop,D,tRNA(Phe),C,13,A,14,G,15,U,16,A,21,G,22,cWW,cWS,nbp
