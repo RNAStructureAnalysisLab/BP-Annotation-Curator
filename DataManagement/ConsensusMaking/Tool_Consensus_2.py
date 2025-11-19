@@ -132,6 +132,7 @@ class Tool_Consensus_2:
         counts = Counter(competing_contact_types) 
         mode, max_frequency = counts.most_common(1)[0]
         top_contact_types = [contact_type for contact_type, frequency in counts.items() if frequency == max_frequency]
+        
         if len(top_contact_types) > 1:
             mode = Tool_Consensus_2._resolve_tie(top_contact_types, table_name, rc_dictionary, column_name, pdb, rows_in_df, tie_instances, unresolved_tie_instances)
 

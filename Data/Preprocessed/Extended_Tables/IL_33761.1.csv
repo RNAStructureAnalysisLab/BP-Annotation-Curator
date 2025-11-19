@@ -1,2 +1,2 @@
 #S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,break,Unnamed: 15,4,Unnamed: 17,5,1-5,3-4
-3,IL_4LFB_007,4LFB,0.0,1,Multiple bulged bases,A,SSU rRNA,U,129,A,130,C,131,*,G,231,G,232,"cWW,cWW,cWW,cWW,cWW,cWW","cWW,cWW,cWW,cWW,cWW,cWW"
+3,IL_4LFB_007,4LFB,0.0,1,Multiple bulged bases,A,SSU rRNA,U,129,A,130,C,131,*,G,231,G,232,"cWW,nbp,nbp,nbp,nbp,nbp","cWW,cWW,cWW,cWW,cWW,cWW"

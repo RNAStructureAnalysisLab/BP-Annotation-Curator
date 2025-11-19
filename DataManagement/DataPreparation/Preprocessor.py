@@ -211,17 +211,22 @@ class Preprocessor:
                 Preprocessor.RENAMING_CONVENTION[f'n{c[0]}{e[0]}{e[1].lower()}'] = lw_style
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}{e[0]}{e[1].lower()}a'] = lw_style
                 Preprocessor.RENAMING_CONVENTION[f'n{c[0]}{e[0]}{e[1].lower()}a'] = lw_style
-                
+                '''
                 # unknown edge mappings
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}-.'] = f'{c[0]}{e[0]}.'
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}{replace(e[0])}+.'] = f'{c[0]}{e[0]}.'
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}.-{replace(e[0])}'] = f'{c[0]}.{e[0]}'
                 Preprocessor.RENAMING_CONVENTION[f'{c[0]}.+{replace(e[0])}'] = f'{c[0]}.{e[0]}'
+                '''
         
         # Create a set of notations that should be made blank
         Preprocessor.DESCRIPTIONS_TO_REJECT = {
             'UNK_SHORT_DESC', 
-            'cBW', 'tBW', 'ncBW', 'ntBW', 'cWB', 'tWB', 'ncWB', 'ntWB'
+            'cBW', 'tBW', 'ncBW', 'ntBW', 'cWB', 'tWB', 'ncWB', 'ntWB',
+            'tW+.',
+            't.-M', 'cW-.', 'c.-M', 't.-W', 'cW+.', 
+            't.+W', 'tW-.', 'tm+.', 'c.+M', 't.-m', 'tm-.', 
+            't.+m', 'tM-.', 'cM+.', 't.+M', 'c.+W'
         }
         '''
         'tW+.',

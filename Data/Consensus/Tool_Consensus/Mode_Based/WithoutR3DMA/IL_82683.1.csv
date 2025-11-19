@@ -1,0 +1,15 @@
+#S,Loop id,PDB,Disc,#Non-core,Chain(s),Standardized name,Unnamed: 7,1,Unnamed: 9,2,Unnamed: 11,3,Unnamed: 13,4,Unnamed: 15,5,break,Unnamed: 18,6,Unnamed: 20,7,Unnamed: 22,8,1-8,5-6,8-1,5-7,1-2
+1,IL_8KAL_008,8KAL,0.1525,2,A,RNA (98-MER),C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+2,IL_8KAJ_002,8KAJ,0.129,2,I+A,RNA (65-MER),C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+3,IL_6K4Q_001,6K4Q,0.0872,2,A,sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+4,IL_5VW1_001,5VW1,0.0827,2,C,sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+5,IL_7Z4D_001,7Z4D,0.0933,2,A,sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+6,IL_7ZO1_001,7ZO1,0.0462,2,A,CD34 sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+7,IL_7QQP_001,7QQP,0.0435,2,A,AAVS1 sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+8,IL_7QQX_001,7QQX,0.0,2,A,FANCF sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+9,IL_7QR0_001,7QR0,0.0355,2,A,TRAC sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+10,IL_5FQ5_001,5FQ5,0.0403,2,A,SGRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+11,IL_5B2T_001,5B2T,0.041,2,A,Guide RNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+12,IL_7QR8_001,7QR8,0.0485,2,A,PTPRC sgRNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+13,IL_4ZT0_003,4ZT0,0.1126,2,D,single-guide RNA,C,40,A,41,A,42,G,43,U,45,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp
+14,IL_5F9R_001,5F9R,0.1207,2,A,RNA (116-MER),C,58,A,59,A,60,G,61,U,63,*,A,26,G,27,G,29,cWW,cWW,nbp,nbp,nbp

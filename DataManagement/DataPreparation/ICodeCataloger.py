@@ -8,13 +8,13 @@ from Bio.PDB import PDBParser, Model
 
 class ICodeCataloger:
     PDB_DIRECTORY = os.path.join(
-        '..', '..', 'Data', 'Raw', 'RCSB', 'PDB_Files'
+        'Data', 'Raw', 'RCSB', 'PDB_Files'
     )
     JSON_DIRECTORY = os.path.join(
-        '..', '..', 'Data', 'Preprocessed', 'JSON_Annotations'
+        'Data', 'Preprocessed', 'JSON_Annotations'
     )
     RESIDUE_IDS_TXT = os.path.join(
-        '.', 'residue_ids.txt'
+        'Data', 'Preprocessed', 'residue_ids.txt'
     )
     
     @staticmethod
@@ -105,4 +105,3 @@ class ICodeCataloger:
             for residue_id in sorted(residue_ids):
                 f.write(f'{residue_id}\n')
             
-ICodeCataloger.run()

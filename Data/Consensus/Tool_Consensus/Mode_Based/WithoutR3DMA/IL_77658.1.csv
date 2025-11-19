@@ -1,0 +1,19 @@
+#S,Loop id,PDB,Disc,#Non-core,Annotation,Chain(s),Standardized name,Unnamed: 8,1,Unnamed: 10,2,Unnamed: 12,3,Unnamed: 14,4,break,Unnamed: 17,5,Unnamed: 19,6,Unnamed: 21,7,Unnamed: 23,8,1-8,2-6,2-7,3-6,4-5,4-6,1-7,7-2,2-8,3-4,6-7,3-5,2-3,7-8,3-7
+2,IL_7LYF_001,7LYF,0.3132,1,Isolated cWH basepair with non-canonical cWW,A,tRNA,A,90,G,91,U,93,C,94,*,G,39,U,40,C,41,U,42,cWW,nbp,cHW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+5,IL_402D_001,402D,0.3013,0,Tandem non-canonical cWW pairs,A+B,RNA (8-mer),C,103,C,104,A,105,G,106,*,C,111,C,112,A,113,G,114,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+11,IL_8UIW_002,8UIW,0.2213,0,,N,yjdF RNA (R. gauvreauii),G,112,U,113,C,114,G,115,*,C,100,U,101,U,102,C,103,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+12,IL_8HNT_001,8HNT,0.2426,0,Tandem non-canonical cWW pairs,B,sgRNA,C,32,U,33,C,34,C,35,*,G,54,U,55,U,56,G,57,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+13,IL_6JDV_001,6JDV,0.2221,0,Tandem non-canonical cWW pairs,B,sgRNA,C,32,U,33,C,34,C,35,*,G,66,U,67,U,68,G,69,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+14,IL_4UYK_003,4UYK,0.1412,0,Tandem non-canonical cWW pairs,R,SRP RNA,G,81,U,82,U,83,C,84,*,G,117,U,118,U,119,C,120,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+15,IL_280D_001,280D,0.1722,0,Tandem non-canonical cWW pairs,B+A,RNA (12-mer),C,17,U,18,U,19,G,20,*,C,5,U,6,U,7,G,8,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+19,IL_6MWN_005,6MWN,0.1345,0,Tandem non-canonical cWW pairs,B,IRES,A,643,U,644,U,645,G,646,*,C,661,U,662,U,663,U,664,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+20,IL_3R2D_002,3R2D,0.1301,0,Tandem non-canonical cWW pairs,S+R,RNA (12-mer),C,6,U,7,U,8,G,9,*,C,6,U,7,U,8,G,9,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+21,IL_8ID2_001,8ID2,0.0,0,Tandem non-canonical cWW pairs,C,RNA (24-mer),A,5,C,6,U,7,G,8,*,C,17,U,18,U,19,U,20,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+23,IL_4EYA_003,4EYA,0.2055,0,Tandem non-canonical cWW pairs,f+e,RNA (12-mer),C,6,U,7,U,8,G,9,*,C,6,U,7,U,8,G,9,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+24,IL_205D_001,205D,0.2708,0,Tandem non-canonical cWW pairs,A+B,RNA (12-mer),U,5,U,6,U,7,G,8,*,U,17,U,18,U,19,G,20,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+25,IL_7A0S_040,7A0S,0.2063,0,Tandem non-canonical cWW pairs,X,LSU rRNA,A,1175,U,1176,U,1177,C,1178,*,G,1196,U,1197,C,1198,U,1199,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+26,IL_3TZR_003,3TZR,0.2215,0,Tandem non-canonical cWW pairs,A+B,RNA (20-mer) + RNA (16-mer),C,62,U,63,U,64,C,65,*,G,102,U,103,C,104,G,105,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+27,IL_2PN3_004,2PN3,0.2375,0,Tandem non-canonical cWW pairs,A+B,RNA (24-mer) + RNA (20-mer),C,62,U,63,U,64,C,65,*,G,102,U,103,C,104,G,105,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+32,IL_4K27_003,4K27,0.3739,0,Tandem non-canonical cWW pairs,U,Myotonic Dystrophy Type 2 RNA,C,41,C,42,U,43,G,44,*,C,12,C,13,U,14,G,15,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+33,IL_4K27_002,4K27,0.4056,0,Tandem non-canonical cWW pairs,U,Myotonic Dystrophy Type 2 RNA,C,45,C,46,U,47,G,48,*,C,8,C,9,U,10,G,11,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp
+34,IL_8X5V_001,8X5V,0.2957,0,Tandem non-canonical cWW pairs,B,RNA (110-mer),U,28,U,29,C,30,C,31,*,G,40,U,41,U,42,G,43,cWW,nbp,cWW,cWW,cWW,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp,nbp

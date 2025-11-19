@@ -14,6 +14,7 @@ from DataManagement.AnnotationLoading.Annotation_Downloader import Annotation_Do
 from DataManagement.DataPreparation.Chain_Restorer import Chain_Restorer
 from DataManagement.DataExploration.Explorer import Explorer
 from DataManagement.DataPreparation.Preprocessor import Preprocessor
+from DataManagement.DataPreparation.ICodeCataloger import ICodeCataloger
 from DataManagement.DataPreparation.Table_Extender import Table_Extender
 from DataManagement.ConsensusMaking.Tool_Consensus import Tool_Consensus
 from DataManagement.ResultsMaking.Agreement_Calculator import Agreement_Calculator
@@ -206,6 +207,7 @@ if 6 >= starting_step_number:
 if 7 >= starting_step_number:
     print('Beginning STEP 7:\n')
     Preprocessor.convert_all()
+    ICodeCataloger.run()
 
 # =============================================================================
 
