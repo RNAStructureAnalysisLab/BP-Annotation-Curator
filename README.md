@@ -26,3 +26,4 @@ NOTE: If the pipeline was interrupted, run main.py again and enter an integer re
 ### **Developer Notes**
 - Pipeline needs to be adjusted to allow working with versions of R3DMA that aren't 3.95 (introduce a config.txt file).
 - Pipeline needs to be streamlined such that the user no longer needs to be conscious of which pipeline step is being executed.
+- Code should be refactored for maintainability.
