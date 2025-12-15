@@ -5,4 +5,4 @@ To use, merely run main.py and a prompt will appear in the console. If running f
 
 Running the entire pipeline is expected to take more than one day. This is primarily due to Step 4 and Step 5. Step 4 is dependent on the ClaRNA web service which can take more than a day annotating the PDB files. Step 5 requires receiving annotations from DSSR.
 
-NOTE: Step 5, the DSSR annotations, must be done manually. It is not integrated within the pipeline. Thus if DSSR annotations are desired, cancel the script once Step 5 starts, add the DSSR annotations in the \Data\Raw\AnnotationTools\DSSR_Annotations directory. Then run main.py again, but start at Step 5 instead of Step 1.
+NOTE: Step 5, the DSSR annotations, must be done manually. It is not integrated within the pipeline. Thus if DSSR annotations are desired, cancel the script once Step 5 starts, add the DSSR annotations in the \Data\Raw\AnnotationTools\DSSR_Annotations directory. Then run main.py again, but start at Step 6 instead of Step 1.
