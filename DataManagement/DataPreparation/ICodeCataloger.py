@@ -1,6 +1,3 @@
-#IMPORTANT
-# run step 7. Then run this. Then run the rest of the steps. Then run ValidateCount
-
 import os
 import re
 import json

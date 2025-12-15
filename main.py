@@ -25,6 +25,9 @@ from DataManagement.ConsensusMaking.Tool_Consensus_2 import Tool_Consensus_2
 from DataManagement.DataExploration.Rejected_Types_Finder import Rejected_Types_Finder
 from DataManagement.ResultsMaking.Tool_Benchmarker import Tool_Benchmarker
 from DataManagement.ResultsMaking.Agreement_Calculator_Cluster_Consensus import Agreement_Calculator_Cluster_Consensus
+from DataManagement.ResultsMaking.CTCounter import CTCounter
+from DataManagement.ResultsMaking.ConfusionMatrixMetrics import ConfusionMatrixMetrics
+from DataManagement.ResultsMaking.TableMaker import TableMaker
 
 # =============================================================================
 # Prompts user  for which step of the pipeline to begin at
@@ -255,22 +258,23 @@ if 13 >= starting_step_number:
     print('Beginning STEP 13:\n')
     Tool_Benchmarker.run()
     Agreement_Calculator_Cluster_Consensus.run()
+    CTCounter.run()
+    ConfusionMatrixMetrics.run()
+    TableMaker.run()
     
 # TODO: verify that pdb 8CRE is getting processed when we run the entire
 # project again from the beginning. Originally is a PDBx file.
 # For some reson it didn't end up in my list of files to convert to PDB and as
-# such am missing a DSSR file for it. Some others missing too. Could be a 
-# problem with one of the files, or a mistake when I was manually trying to 
-# insert things (Same for 5J7L)
+# such am missing a DSSR file for it. Some others missing too. (Same for 5J7L)
 # NOTE: 4L47 and 4V9F are good ones to verify step 5
-# TODO: 1F7U  and 2NZ4 dssr are strange. For example it reports the nucleoside 
+# TODO: 1F7U  and 2NZ4 dssr are strange. For example it reports the nucleotide 
 # pseudouridine (P). P is not featured in the other annotations. a residue that
 # is P seems to be completely omitted. Does R3DMA also omit these from the cluster
 # or does it represent P as a 'U' since they are similar? If it represents it
 # as a U, then this would explain the occurrence of "nbp" being reported for 
-# certain residues, where it was a modified nucleoside
+# certain residues, where it was a modified nucleotide
 
 #TODO: IL_85033 has some unusual contact types reported from R3DMA
 # NOTE: HL_28252.5 from version 3.95 is a good example of a cluster with
-# nonstandard nucleosides
+# nonstandard nucleotides
     
