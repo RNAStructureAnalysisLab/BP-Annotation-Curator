@@ -23,7 +23,14 @@ ANNOTATED_DATA_LOADING_DIR = os.path.join(RAW_DATA_LOADING_DIR, "annotated_data_
 #==============================================================================
 # Paths for data (IE: PDBs, CSVs, etc)
 #==============================================================================
+DATA_DIR = os.path.join(PROJECT_ROOT_DIR, "data")
+RAW_DIR = os.path.join(DATA_DIR, "raw")
+R3DMA_DIR = os.path.join(RAW_DIR, "r3dma")
+CLUSTERS_DIR = os.path.join(R3DMA_DIR, "clusters")
+USED_PDB_IDS_TXT = os.path.join(R3DMA_DIR, "used_pdb_ids.txt")
+RCSB_DIR = os.path.join(RAW_DIR, "rcsb")
 
 #==============================================================================
 # Paths for external data (IE: website links)
 #==============================================================================
+R3DMA_HOMEPAGE_URL = "https://rna.bgsu/rna3dhub/motifs"
