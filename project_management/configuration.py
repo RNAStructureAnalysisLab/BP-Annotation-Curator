@@ -29,6 +29,9 @@ R3DMA_DIR = os.path.join(RAW_DIR, "r3dma")
 CLUSTERS_DIR = os.path.join(R3DMA_DIR, "clusters")
 USED_PDB_IDS_TXT = os.path.join(R3DMA_DIR, "used_pdb_ids.txt")
 RCSB_DIR = os.path.join(RAW_DIR, "rcsb")
+PDB_DIR = os.path.join(RCSB_DIR, "pdb")
+PDBX_DIR = os.path.join(RCSB_DIR, "pdbx")
+CONVERTED_PDBX_DIR = os.path.join(RCSB_DIR, "converted_pdbx")
 
 #==============================================================================
 # Paths for external data (IE: website links)
