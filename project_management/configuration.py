@@ -1,39 +1,49 @@
 import os
 
-PROJECT_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-#==============================================================================
-# Paths for project_management (IE: python scripts)
-#==============================================================================
-PROJECT_MANAGEMENT_DIR = os.path.join(PROJECT_ROOT_DIR, "project_management")
-CONFIGURATION_PY = os.path.join(PROJECT_MANAGEMENT_DIR, "configuration.py")
-
-#==============================================================================
-# Paths for state (IE: json)
-#==============================================================================
-STATE_DIR = os.path.join(PROJECT_ROOT_DIR, "state")
-
-#==============================================================================
-# Paths for data_management (IE: python scripts)
-#==============================================================================
-DATA_MANAGEMENT_DIR = os.path.join(PROJECT_ROOT_DIR, "data_management")
-RAW_DATA_LOADING_DIR = os.path.join(DATA_MANAGEMENT_DIR, "raw_data_loading")
-ANNOTATED_DATA_LOADING_DIR = os.path.join(RAW_DATA_LOADING_DIR, "annotated_data_loading")
-
-#==============================================================================
-# Paths for data (IE: PDBs, CSVs, etc)
-#==============================================================================
-DATA_DIR = os.path.join(PROJECT_ROOT_DIR, "data")
-RAW_DIR = os.path.join(DATA_DIR, "raw")
-R3DMA_DIR = os.path.join(RAW_DIR, "r3dma")
-CLUSTERS_DIR = os.path.join(R3DMA_DIR, "clusters")
-USED_PDB_IDS_TXT = os.path.join(R3DMA_DIR, "used_pdb_ids.txt")
-RCSB_DIR = os.path.join(RAW_DIR, "rcsb")
-PDB_DIR = os.path.join(RCSB_DIR, "pdb")
-PDBX_DIR = os.path.join(RCSB_DIR, "pdbx")
-CONVERTED_PDBX_DIR = os.path.join(RCSB_DIR, "converted_pdbx")
-
-#==============================================================================
-# Paths for external data (IE: website links)
-#==============================================================================
-R3DMA_HOMEPAGE_URL = "https://rna.bgsu/rna3dhub/motifs"
+class Configuration():
+    def __init__(self, version: str):
+        project_root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.version = version
+        
+        #======================================================================
+        # Paths for state (manifests)
+        #======================================================================
+        state_dir = os.path.join(project_root_dir, "state", version)
+        self.cluster_downloader_json = os.path.join(state_dir, "cluster_downloader.json")
+        self.pdb_downloader_json = os.path.join(state_dir, "pdb_downloader.json")
+        
+        #======================================================================
+        # Paths for data
+        #======================================================================
+        data_dir = os.path.join(project_root_dir, "data")
+        raw_dir = os.path.join(data_dir, "raw")
+        
+        # R3DMA data (version-dependent)
+        r3dma_dir = os.path.join(raw_dir, "r3dma", version)
+        self.clusters_dir = os.path.join(r3dma_dir, "clusters")
+        self.used_pdb_ids_txt = os.path.join(r3dma_dir, "used_pdb_ids.txt")
+        
+        # RCSB data (version-dependent)
+        rcsb_dir = os.path.join(raw_dir, "rcsb", version)
+        self.pdb_dir = os.path.join(rcsb_dir, "pdb")
+        self.pdbx_dir = os.path.join(rcsb_dir, "pdbx")
+        self.converted_pdbx_dir = os.path.join(rcsb_dir, "converted_pdbx")
+        
+        #======================================================================
+        # Paths to external data
+        #======================================================================
+        self.r3dma_homepage_url = "https://rna.bgsu.edu/rna3dhub/motifs"
+        
+        #======================================================================
+        # Paths for usage by manifests
+        #======================================================================
+        self.paths = {
+            "clusters": self.clusters_dir,
+            "used_pdb_ids.txt": self.used_pdb_ids_txt,
+            "pdb": self.pdb_dir,
+            "pdbx": self.pdbx_dir,
+            "converted_pdbx": self.converted_pdbx_dir
+        }
+    
+    def get(self, filename: str) -> str:
+        return self.paths.get(filename)

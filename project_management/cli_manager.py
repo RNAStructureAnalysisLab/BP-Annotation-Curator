@@ -7,7 +7,7 @@ PURPOSE: Parse command line arguments for the pipeline
 USE: CLIManager.run() returns parsed arguments
 '''
 class CLIManager:
-    DEFAULT_VERSION = "3.95"
+    DEFAULT_R3DMA_VERSION = "3.95"
     
     @staticmethod
     def run(args: list[str]=None) -> argparse.Namespace:
@@ -28,8 +28,8 @@ class CLIManager:
             epilog=
                 '''
                 Examples:
-                    python main.py                          Run pipeline (default using version 3.95)
-                    python main.py -v 3.95                  Run pipeline for version 3.95
+                    python main.py                  Run pipeline (default using version 3.95)
+                    python main.py -v 3.95          Run pipeline for version 3.95
                     python main.py --fresh          Start fresh, ignore existing data
                     python main.py --dry-run        Show what would run without executing
                 '''
@@ -39,7 +39,7 @@ class CLIManager:
             "-v", "--version",
             type=str,
             default="3.95",
-            help=f"Data version to download/process (default: {CLIManager.DEFAULT_VERSION})"
+            help=f"Data version to download/process (default: {CLIManager.DEFAULT_R3DMA_VERSION})"
         )
         
         parser.add_argument(
