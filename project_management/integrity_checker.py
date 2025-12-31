@@ -13,7 +13,7 @@ class IntegrityChecker:
     FILE_HASHES_CACHE = {} # key is file name, value is its sha256 hash
     
     '''
-    
+    USE: For the pipeline step's repair() method
     '''
     @staticmethod
     def get_corrupted_files(manifest_data: Optional[dict], config: Configuration) -> set[str]:
@@ -21,6 +21,22 @@ class IntegrityChecker:
             return set()
         
         return IntegrityChecker._compare_hashes(manifest_data, config)
+    
+    '''
+    PURPOSE: Removes any files in the directory that were not produced by that
+        pipeline step (IE: anything in the directory, but not in the manifest)
+    USE: Called after the pipeline step's run() method, once for each step
+    '''
+    @staticmethod
+    def clean(manifest_data: Optional[dict], config: Configuration) -> None:
+        for directory_name, directory_filenames in manifest_data.items():
+            directory_path = config.get(directory_name)
+            filenames = set(os.listdir(directory_path))
+            
+            for filename in filenames:
+                if filename not in directory_filenames:
+                    filepath = os.path.join(directory_path, filename)
+                    os.remove(filepath)
     
     #==========================================================================
     # PRIVATE METHODS
