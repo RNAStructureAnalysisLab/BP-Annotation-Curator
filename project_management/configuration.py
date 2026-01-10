@@ -33,17 +33,3 @@ class Configuration():
         # Paths to external data
         #======================================================================
         self.r3dma_homepage_url = "https://rna.bgsu.edu/rna3dhub/motifs"
-        
-        #======================================================================
-        # Paths for usage by manifests
-        #======================================================================
-        self.paths = {
-            "clusters": self.clusters_dir,
-            "used_pdb_ids.txt": self.used_pdb_ids_txt,
-            "pdb": self.pdb_dir,
-            "pdbx": self.pdbx_dir,
-            "converted_pdbx": self.converted_pdbx_dir
-        }
-    
-    def get(self, filename: str) -> str:
-        return self.paths.get(filename)

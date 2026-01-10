@@ -43,6 +43,13 @@ class CLIManager:
         )
         
         parser.add_argument(
+            "--clean",
+            action="store_true",
+            default=False,
+            help="Removes stale data or files not produced by the pipeline as each step runs."
+        )
+        
+        parser.add_argument(
             "--fresh",
             action="store_true",
             default=False,
