@@ -33,3 +33,10 @@ class Configuration():
         # Paths to external data
         #======================================================================
         self.r3dma_homepage_url = "https://rna.bgsu.edu/rna3dhub/motifs"
+        
+        #======================================================================
+        # Variables for cluster_downloader.py (step 1)
+        #======================================================================
+        self.crawl_delay_1 = 10
+        self.max_attempts_1 = 3
+        self.failed_links_1 = set()
